@@ -132,28 +132,28 @@ body::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px;
+    padding: 12px 20px;
     background: var(--card-bg);
     backdrop-filter: blur(16px);
     border: 1px solid var(--border-color);
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .brand {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 }
 
 .logo-icon {
-    font-size: 36px;
+    font-size: 24px;
     animation: float 4s ease-in-out infinite;
 }
 
 .brand-text h1 {
     font-family: 'Outfit', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: -0.5px;
     background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #60a5fa 100%);
@@ -162,15 +162,15 @@ body::before {
 }
 
 .tagline {
-    font-size: 13px;
+    font-size: 11.5px;
     color: var(--text-secondary);
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 .header-controls {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
 }
 
 .status-badge {
@@ -212,19 +212,19 @@ body::before {
 /* Metrics Cards Panel */
 .metrics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
 }
 
 .metric-card {
     display: flex;
     align-items: center;
-    gap: 16px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px 14px;
     background: var(--card-bg);
     backdrop-filter: blur(16px);
     border: 1px solid var(--border-color);
-    border-radius: 14px;
+    border-radius: 10px;
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
@@ -234,10 +234,10 @@ body::before {
 }
 
 .metric-icon {
-    font-size: 24px;
-    width: 48px;
-    height: 48px;
-    border-radius: 10px;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,15 +245,15 @@ body::before {
 
 .metric-info h3 {
     font-family: 'Outfit', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--text-primary);
 }
 
 .metric-info p {
-    font-size: 12px;
+    font-size: 11px;
     color: var(--text-secondary);
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 /* Toolbar & Filter Styles */
