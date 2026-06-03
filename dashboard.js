@@ -923,25 +923,24 @@ function initControls() {
         });
     }
 
-    // Settings panel toggling and key storage management
+    // Settings modal toggling and key storage management
     const chatSettingsBtn = document.getElementById('chat-settings-btn');
-    const chatSettingsPanel = document.getElementById('chat-settings-panel');
+    const settingsModal = document.getElementById('settings-modal');
+    const closeSettingsBtn = document.getElementById('close-settings-btn');
     const clientApiKeyInput = document.getElementById('client-api-key-input');
     const saveKeyBtn = document.getElementById('save-key-btn');
     const clearKeyBtn = document.getElementById('clear-key-btn');
 
-    const githubRepoInput = document.getElementById('github-repo-input');
     const githubPatInput = document.getElementById('github-pat-input');
     const saveGithubBtn = document.getElementById('save-github-btn');
     const clearGithubBtn = document.getElementById('clear-github-btn');
 
-    if (chatSettingsBtn && chatSettingsPanel && clientApiKeyInput) {
+    if (chatSettingsBtn && settingsModal && clientApiKeyInput) {
         // Load saved key on boot safely
         const savedKey = safeStorage.getItem('gemini_api_key') || '';
         clientApiKeyInput.value = savedKey;
 
-        if (githubRepoInput && githubPatInput) {
-            githubRepoInput.value = safeStorage.getItem('github_repo') || 'khajuriaanuj-ak/daily-updater';
+        if (githubPatInput) {
             githubPatInput.value = safeStorage.getItem('github_pat') || '';
         }
 
@@ -949,28 +948,40 @@ function initControls() {
         if (!safeStorage.isAvailable) {
             const warningEl = document.createElement('div');
             warningEl.style.color = '#f87171';
-            warningEl.style.fontSize = '10px';
-            warningEl.style.marginTop = '8px';
+            warningEl.style.fontSize = '11px';
+            warningEl.style.marginTop = '12px';
             warningEl.style.lineHeight = '1.3';
             warningEl.innerHTML = '⚠️ <strong>Browser Security Block:</strong> Browsers restrict saving keys under the <code>file://</code> protocol. Please start your local server by running <code>python serve.py</code> and use <code>http://localhost:8000</code>.';
-            chatSettingsPanel.appendChild(warningEl);
+            const modalContent = settingsModal.querySelector('.modal-content');
+            if (modalContent) modalContent.appendChild(warningEl);
             clientApiKeyInput.disabled = true;
             if (saveKeyBtn) saveKeyBtn.disabled = true;
             if (clearKeyBtn) clearKeyBtn.disabled = true;
-            if (githubRepoInput) githubRepoInput.disabled = true;
             if (githubPatInput) githubPatInput.disabled = true;
             if (saveGithubBtn) saveGithubBtn.disabled = true;
             if (clearGithubBtn) clearGithubBtn.disabled = true;
         }
 
-        chatSettingsBtn.addEventListener('click', () => {
-            if (chatSettingsPanel.style.display === 'none' || !chatSettingsPanel.style.display) {
-                chatSettingsPanel.style.display = 'block';
-                if (safeStorage.isAvailable) {
-                    clientApiKeyInput.focus();
-                }
-            } else {
-                chatSettingsPanel.style.display = 'none';
+        const openModal = () => {
+            settingsModal.classList.add('active');
+            if (safeStorage.isAvailable) {
+                clientApiKeyInput.focus();
+            }
+        };
+
+        const closeModal = () => {
+            settingsModal.classList.remove('active');
+        };
+
+        chatSettingsBtn.addEventListener('click', openModal);
+        if (closeSettingsBtn) {
+            closeSettingsBtn.addEventListener('click', closeModal);
+        }
+
+        // Close modal when clicking outside modal-content
+        settingsModal.addEventListener('click', (e) => {
+            if (e.target === settingsModal) {
+                closeModal();
             }
         });
 
@@ -979,7 +990,7 @@ function initControls() {
                 const key = clientApiKeyInput.value.trim();
                 if (key) {
                     safeStorage.setItem('gemini_api_key', key);
-                    chatSettingsPanel.style.display = 'none';
+                    closeModal();
                     alert('Gemini API Key saved securely to your browser storage!');
                 } else {
                     alert('Please enter a valid key first.');
@@ -991,22 +1002,22 @@ function initControls() {
             clearKeyBtn.addEventListener('click', () => {
                 safeStorage.removeItem('gemini_api_key');
                 clientApiKeyInput.value = '';
-                chatSettingsPanel.style.display = 'none';
+                closeModal();
                 alert('Gemini API Key removed from browser storage.');
             });
         }
 
         if (saveGithubBtn && safeStorage.isAvailable) {
             saveGithubBtn.addEventListener('click', () => {
-                const repo = githubRepoInput.value.trim();
                 const pat = githubPatInput.value.trim();
-                if (repo && pat) {
-                    safeStorage.setItem('github_repo', repo);
+                if (pat) {
+                    // Save hardcoded repository path silently in the background
+                    safeStorage.setItem('github_repo', 'khajuriaanuj-ak/daily-updater');
                     safeStorage.setItem('github_pat', pat);
-                    chatSettingsPanel.style.display = 'none';
+                    closeModal();
                     alert('GitHub credentials saved securely to your browser storage!');
                 } else {
-                    alert('Please enter both Repository Path and PAT Token.');
+                    alert('Please enter a valid GitHub PAT Token.');
                 }
             });
         }
@@ -1015,9 +1026,8 @@ function initControls() {
             clearGithubBtn.addEventListener('click', () => {
                 safeStorage.removeItem('github_repo');
                 safeStorage.removeItem('github_pat');
-                if (githubRepoInput) githubRepoInput.value = 'khajuriaanuj-ak/daily-updater';
                 if (githubPatInput) githubPatInput.value = '';
-                chatSettingsPanel.style.display = 'none';
+                closeModal();
                 alert('GitHub credentials cleared from browser storage.');
             });
         }
