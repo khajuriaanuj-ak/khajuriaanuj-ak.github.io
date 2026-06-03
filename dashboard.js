@@ -1333,15 +1333,15 @@ function renderStockRecommendations() {
         if (stock.name === "NVIDIA" || stock.name === "Google Cloud" || stock.name === "Microsoft (Azure)" || stock.name === "Databricks") {
             if (count > 0) {
                 signal = "STRONG BUY";
-                signalColor = "#10b981"; // Green
+                signalColor = "#10b981"; // Emerald
             } else {
                 signal = "BUY";
-                signalColor = "#22c55e"; // Greenish
+                signalColor = "#3b82f6"; // Blue
             }
         } else {
             if (count > 0) {
                 signal = "BUY";
-                signalColor = "#22c55e";
+                signalColor = "#3b82f6"; // Blue
             } else {
                 signal = "HOLD";
                 signalColor = "#eab308";
@@ -1356,32 +1356,68 @@ function renderStockRecommendations() {
         return;
     }
 
-    container.innerHTML = curatedStocks.map(stock => {
-        const trackerLabel = stock.count > 0 ? `${stock.count} launches` : "Stable momentum";
-        const badgeBg = stock.signalColor === "#eab308" ? "rgba(234, 179, 8, 0.1)" : "rgba(16, 185, 129, 0.1)";
-        const borderStyle = stock.signalColor === "#eab308" ? "rgba(234, 179, 8, 0.2)" : "rgba(16, 185, 129, 0.2)";
+    const strongBuyStocks = curatedStocks.filter(s => s.signal === "STRONG BUY");
+    const buyStocks = curatedStocks.filter(s => s.signal === "BUY");
 
-        return `
-            <div style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.04); border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; gap: 3px; transition: transform 0.2s ease;">
-                <div style="display: flex; align-items: center; justify-content: space-between;">
-                    <div>
-                        <span style="font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 700; color: var(--text-primary);">${escapeHtml(stock.name)}</span>
-                        <span style="font-size: 8px; color: var(--text-muted); font-family: monospace; margin-left: 2px;">${escapeHtml(stock.ticker)}</span>
+    let html = '';
+
+    // Strong Buy Bucket
+    if (strongBuyStocks.length > 0) {
+        html += `
+            <div style="background: rgba(16, 185, 129, 0.02); border: 1px solid rgba(16, 185, 129, 0.12); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(16, 185, 129, 0.15); padding-bottom: 6px; margin-bottom: 2px;">
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span style="font-size: 13px;">🔥</span>
+                        <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: #10b981; text-transform: uppercase; letter-spacing: 0.05em;">Strong Buy Curation</span>
                     </div>
-                    <span style="font-size: 8px; font-family: 'Outfit', sans-serif; font-weight: 800; color: ${stock.signalColor}; background: ${badgeBg}; border: 1px solid ${borderStyle}; padding: 1px 4px; border-radius: 3px; letter-spacing: 0.02em;">
-                        ${stock.signal}
-                    </span>
+                    <span style="font-family: monospace; font-size: 8px; color: #10b981; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.2); padding: 1px 5px; border-radius: 4px; font-weight: bold;">${strongBuyStocks.length} Targets</span>
                 </div>
-                <p style="margin: 0; font-size: 9.5px; color: var(--text-secondary); line-height: 1.3;">
-                    ${escapeHtml(stock.baseReason)}
-                </p>
-                <div style="font-size: 8px; opacity: 0.5; font-family: monospace; display: flex; justify-content: space-between; margin-top: 2px;">
-                    <span>Velocity: ${trackerLabel}</span>
-                    <span>Class: AI_LEADER</span>
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    ${strongBuyStocks.map(stock => renderMiniStockCard(stock, "#10b981")).join('')}
                 </div>
             </div>
         `;
-    }).join('');
+    }
+
+    // Buy Bucket
+    if (buyStocks.length > 0) {
+        html += `
+            <div style="background: rgba(59, 130, 246, 0.02); border: 1px solid rgba(59, 130, 246, 0.12); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(59, 130, 246, 0.15); padding-bottom: 6px; margin-bottom: 2px;">
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <span style="font-size: 13px;">🟢</span>
+                        <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: #3b82f6; text-transform: uppercase; letter-spacing: 0.05em;">Buy Curation</span>
+                    </div>
+                    <span style="font-family: monospace; font-size: 8px; color: #3b82f6; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); padding: 1px 5px; border-radius: 4px; font-weight: bold;">${buyStocks.length} Targets</span>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    ${buyStocks.map(stock => renderMiniStockCard(stock, "#3b82f6")).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    container.innerHTML = html;
+}
+
+function renderMiniStockCard(stock, accentColor) {
+    const trackerLabel = stock.count > 0 ? `${stock.count} launches` : "Stable momentum";
+    return `
+        <div class="stock-mini-card" style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.04); border-radius: 6px; padding: 6px 8px; display: flex; flex-direction: column; gap: 2px; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);" onmouseover="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='${accentColor}55'; this.style.transform='translateY(-1px)';" onmouseout="this.style.background='rgba(255,255,255,0.015)'; this.style.borderColor='rgba(255,255,255,0.04)'; this.style.transform='translateY(0)';">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div>
+                    <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 700; color: var(--text-primary);">${escapeHtml(stock.name)}</span>
+                    <span style="font-size: 8px; color: var(--text-muted); font-family: monospace; margin-left: 2px;">${escapeHtml(stock.ticker)}</span>
+                </div>
+                <span style="font-size: 8px; font-family: monospace; color: ${accentColor}; background: rgba(255, 255, 255, 0.03); padding: 1px 4px; border-radius: 3px;">
+                    ${trackerLabel}
+                </span>
+            </div>
+            <p style="margin: 0; font-size: 9px; color: var(--text-secondary); line-height: 1.25;">
+                ${escapeHtml(stock.baseReason)}
+            </p>
+        </div>
+    `;
 }
 
 // Bootstrapping
