@@ -86,21 +86,7 @@
             </div>
         </section>
 
-        <!-- AI Stock Recommendations Radar Panel -->
-        <section class="investment-radar" style="margin-bottom: 20px;">
-            <div class="investment-card" style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(16, 185, 129, 0.08)); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px; padding: 12px 18px; backdrop-filter: blur(16px); box-shadow: 0 4px 25px rgba(0,0,0,0.15);">
-                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.05);">
-                    <div style="display: flex; align-items: center; gap: 6px;">
-                        <span style="font-size: 16px;">📈</span>
-                        <h2 style="font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 700; color: #10b981; text-transform: uppercase; letter-spacing: 0.05em; margin: 0;">Release Radar AI Stock Curation Signal</h2>
-                    </div>
-                    <span style="font-size: 9px; opacity: 0.5; font-family: monospace;">ALGORITHM: RELEASE_VELOCITY_INDEX</span>
-                </div>
-                <div id="stock-signals-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
-                    <!-- Dynamic Stock Cards Injected Here -->
-                </div>
-            </div>
-        </section>
+
 
         <!-- Filters & Search Toolbar -->
         <section class="toolbar" style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 12px; background: rgba(18, 25, 41, 0.4); border-radius: 12px; border: 1px solid var(--border-color); margin-bottom: 20px;">
@@ -177,6 +163,22 @@
                         </div>
                         <div id="platform-bars-container" style="display: flex; flex-direction: column; gap: 10px;">
                             <!-- Dynamic Neon Progress Bars Injected Here -->
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- AI Stock Recommendations Radar Panel -->
+                <section class="investment-radar" style="margin-bottom: 8px;">
+                    <div class="investment-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 14px; backdrop-filter: blur(16px); box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <div style="display: flex; align-items: center; gap: 6px;">
+                                <span style="font-size: 13px;">📈</span>
+                                <h2 style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 700; color: #10b981; text-transform: uppercase; letter-spacing: 0.05em; margin: 0;">AI Stock Curation Radar</h2>
+                            </div>
+                            <span style="font-size: 8px; opacity: 0.5; font-family: monospace;">RELEASE_SCORE_V2</span>
+                        </div>
+                        <div id="stock-signals-container" style="display: flex; flex-direction: column; gap: 10px;">
+                            <!-- Dynamic Stock Cards Injected Here -->
                         </div>
                     </div>
                 </section>
