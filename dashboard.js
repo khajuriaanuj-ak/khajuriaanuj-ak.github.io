@@ -77,6 +77,7 @@ const MOCK_FALLBACK_DATA = {
 let appData = MOCK_FALLBACK_DATA;
 let activeProviderFilter = 'all';
 let activeDateFilter = 'all';
+let activeNatureFilter = 'all';
 let searchQuery = '';
 let customStartDate = '';
 let customEndDate = '';
@@ -254,7 +255,15 @@ function renderReleases() {
             }
         }
         
-        // 3. Filter by search query
+        // 3. Filter by release nature type
+        if (activeNatureFilter !== 'all') {
+            const nature = getReleaseNature(item.title, item.description);
+            if (nature.class !== `nature-${activeNatureFilter}`) {
+                return false;
+            }
+        }
+        
+        // 4. Filter by search query
         if (searchQuery.trim()) {
             const query = searchQuery.toLowerCase();
             const titleMatch = (item.title || "").toLowerCase().includes(query);
@@ -292,10 +301,7 @@ function renderReleases() {
         return `
             <div class="release-card ${provClass}-border">
                 <div class="card-header">
-                    <div style="display: flex; gap: 6px; align-items: center;">
-                        <span class="provider-tag ${provClass}">${escapeHtml(item.provider)}</span>
-                        <span class="nature-tag ${nature.class}">${nature.icon} ${nature.type}</span>
-                    </div>
+                    <span class="provider-tag ${provClass}">${escapeHtml(item.provider)}</span>
                     <span class="card-date">${formatDate(item.timestamp)}</span>
                 </div>
                 <h3><a href="${item.link}" target="_blank">${escapeHtml(item.title)}</a></h3>
@@ -842,6 +848,18 @@ function initControls() {
             e.target.classList.add('active');
             const category = e.target.getAttribute('data-tool-category');
             renderProductivityTools(category);
+        });
+    });
+
+    // Nature type filter buttons click handler
+    const natureFilterButtons = document.querySelectorAll('#nature-presets-container .filter-btn');
+    natureFilterButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            natureFilterButtons.forEach(btn => btn.classList.remove('active'));
+            e.currentTarget.classList.add('active');
+            activeNatureFilter = e.currentTarget.getAttribute('data-nature');
+            releasesLimit = 50;
+            renderReleases();
         });
     });
 
