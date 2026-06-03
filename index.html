@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud & AI Release Intelligence Dashboard</title>
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        document.write('<link rel="stylesheet" href="dashboard.css?t=' + Date.now() + '">');
+    </script>
+    <script>
+    window.onerror = function(message, source, lineno, colno, error) {
+        var errorMsg = encodeURIComponent(message + ' at ' + (source || 'unknown') + ':' + lineno + ':' + colno);
+        fetch('/log-error?msg=' + errorMsg);
+    };
+    </script>
+</head>
+<body>
+    <!-- Background glowing orbs -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <div class="app-container">
+        <!-- Navigation Header -->
+        <header class="app-header">
+            <div class="brand">
+                <div class="logo-icon">🚀</div>
+                <div class="brand-text">
+                    <h1>Cloud & AI Release Intelligence</h1>
+                    <p class="tagline">Real-time daily tracker across global AI & Cloud providers</p>
+                </div>
+            </div>
+            <div class="header-controls">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span>
+                    <span class="status-text">Active Daily Feed</span>
+                </div>
+                <div class="refresh-indicator">
+                    <span>Last Synced:</span>
+                    <strong id="last-updated-time">Loading...</strong>
+                </div>
+            </div>
+        </header>
+
+        <!-- Metrics Dashboard Panel -->
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-icon" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6;">📊</div>
+                <div class="metric-info">
+                    <h3 id="stat-total-releases">0</h3>
+                    <p>Total Releases Tracked</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">⚡</div>
+                <div class="metric-info">
+                    <h3 id="stat-recent-releases">0</h3>
+                    <p>Recent Updates (7 Days)</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">🔥</div>
+                <div class="metric-info">
+                    <h3 id="stat-active-provider">N/A</h3>
+                    <p>Most Active Platform</p>
+                </div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-icon" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">📰</div>
+                <div class="metric-info">
+                    <h3 id="stat-total-news">0</h3>
+                    <p>Global AI Trends Tracked</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filters & Search Toolbar -->
+        <section class="toolbar">
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search releases by keyword, technology, model or detail...">
+                <button id="search-clear-btn" class="clear-btn">&times;</button>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label">Filter by Platform:</span>
+                <div class="provider-filters" id="provider-filters-container">
+                    <button class="filter-btn active" data-provider="all">All Platforms</button>
+                    <button class="filter-btn" data-provider="AWS">AWS</button>
+                    <button class="filter-btn" data-provider="Google Cloud">Google Cloud</button>
+                    <button class="filter-btn" data-provider="Azure">Azure</button>
+                    <button class="filter-btn" data-provider="Databricks">Databricks</button>
+                    <button class="filter-btn" data-provider="Snowflake">Snowflake</button>
+                    <button class="filter-btn" data-provider="OpenAI">OpenAI</button>
+                    <button class="filter-btn" data-provider="Anthropic">Anthropic</button>
+                </div>
+            </div>
+            
+            <div class="filter-group date-filters-group" style="margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 12px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; width: 100%;">
+                <span class="filter-label">Filter by Date:</span>
+                <div class="provider-filters" id="date-presets-container">
+                    <button class="filter-btn active" data-date-range="all">All Time</button>
+                    <button class="filter-btn" data-date-range="today">Today</button>
+                    <button class="filter-btn" data-date-range="yesterday">Yesterday</button>
+                    <button class="filter-btn" data-date-range="7days">Last 7 Days</button>
+                    <button class="filter-btn" data-date-range="30days">Last 30 Days</button>
+                    <button class="filter-btn" data-date-range="custom">Custom Range</button>
+                </div>
+                
+                <div class="custom-date-picker" id="custom-date-picker-container" style="display: none; align-items: center; gap: 8px; margin-left: auto;">
+                    <label for="start-date" style="font-size: 11px; color: var(--text-secondary); font-weight: 500;">From:</label>
+                    <input type="date" id="start-date" class="date-input">
+                    <label for="end-date" style="font-size: 11px; color: var(--text-secondary); font-weight: 500;">To:</label>
+                    <input type="date" id="end-date" class="date-input">
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Left Column: Releases (65%) -->
+            <section class="content-section releases-section">
+
+                <div class="section-header">
+                    <h2>📦 Release Intelligence Stream</h2>
+                    <span class="count-badge" id="releases-count">0 releases</span>
+                </div>
+                
+                <div class="releases-feed" id="releases-feed-container">
+                    <!-- Dynamic Releases Cards Injected Here -->
+                    <div class="loading-state">Loading product updates...</div>
+                </div>
+            </section>
+
+            <!-- Right Column: Sentiment & News (35%) -->
+            <aside class="content-section-sidebar">
+                <!-- Platform Activity Density Widget -->
+                <section class="content-section visualizer-section">
+                    <div class="visualizer-card" style="background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid var(--border-color); border-radius: 12px; padding: 18px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); margin-bottom: 8px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+                            <span style="font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 700; color: #60a5fa; letter-spacing: 0.05em; text-transform: uppercase;">📊 Platform Release Density Metric</span>
+                            <span style="font-size: 9px; opacity: 0.6; padding: 2px 6px; background: rgba(255,255,255,0.05); border-radius: 4px; font-family: monospace;">TELEMETRY_UNIT: VOL_MAP</span>
+                        </div>
+                        <div id="platform-bars-container" style="display: flex; flex-direction: column; gap: 10px;">
+                            <!-- Dynamic Neon Progress Bars Injected Here -->
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- AI Assistant Chat Widget -->
+                <section class="content-section chat-section">
+                    <div class="section-header" style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                        <h2 style="display: flex; align-items: center; gap: 8px; margin: 0;">💬 Antigravity AI Release Assistant</h2>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span class="count-badge" style="background: rgba(16, 185, 129, 0.12); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.25);">Online</span>
+                            <button id="chat-settings-btn" title="AI Assistant Settings" style="background: none; border: none; color: var(--text-secondary); cursor: pointer; font-size: 14px; padding: 2px; line-height: 1; transition: color 0.3s; outline: none;">⚙️</button>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-card" style="background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid var(--border-color); border-radius: 12px; padding: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); display: flex; flex-direction: column; gap: 12px;">
+                        <!-- Inline Settings Panel for client-side API Key -->
+                        <div id="chat-settings-panel" style="display: none; background: rgba(10, 15, 26, 0.95); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px; font-size: 11px; margin-bottom: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease;">
+                            <label style="display: block; font-weight: 600; color: #60a5fa; margin-bottom: 6px;">Client-Side Gemini API Key (Stored in Browser)</label>
+                            <div style="display: flex; gap: 6px;">
+                                <input type="password" id="client-api-key-input" placeholder="AIzaSy..." style="flex-grow: 1; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 4px; color: var(--text-primary); padding: 5px 8px; font-size: 11px; outline: none;">
+                                <button id="save-key-btn" style="background: #2563eb; color: white; border: none; border-radius: 4px; padding: 0 10px; cursor: pointer; font-weight: 600;">Save</button>
+                                <button id="clear-key-btn" style="background: rgba(220,38,38,0.2); color: #f87171; border: 1px solid rgba(220,38,38,0.4); border-radius: 4px; padding: 0 10px; cursor: pointer;">Clear</button>
+                            </div>
+                            <p style="margin: 6px 0 0 0; color: var(--text-muted); font-size: 9px; line-height: 1.3;">
+                                Required only for static cloud hosting. Kept safe in your browser's local storage and used to fetch responses directly from Gemini.
+                            </p>
+                        </div>
+                        <div class="chat-messages" id="chat-messages-container">
+                            <div class="chat-message assistant">
+                                <div class="message-bubble">
+                                    Hello! I am your <strong>Antigravity AI Release Assistant</strong>. Ask me anything about the <strong>1,285</strong> tracked cloud & AI releases, platform activity, or trending news!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-input-wrapper" style="display: flex; gap: 8px; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 10px;">
+                            <input type="text" id="chat-input" placeholder="Ask about Databricks, AWS, security, Opus 4.8..." style="flex-grow: 1; background: rgba(10, 15, 26, 0.7); border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-primary); padding: 8px 12px; font-size: 12px; outline: none; transition: border-color 0.3s ease;">
+                            <button id="chat-send-btn" style="background: linear-gradient(135deg, #2563eb, #8b5cf6); border: none; border-radius: 6px; color: white; padding: 0 14px; cursor: pointer; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(37,99,235,0.25);">➔</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Top Tools & Productivity Hub Widget -->
+                <section class="content-section tools-section">
+                    <div class="section-header">
+                        <h2>🛠️ Internet Productivity Hub</h2>
+                        <span class="count-badge" style="background: linear-gradient(135deg, #6366f1, #a855f7); color: #fff;">Featured Hub</span>
+                    </div>
+                    
+                    <!-- Tool of the Day Box -->
+                    <div id="tool-of-the-day-container" style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15)); border: 1px solid rgba(168, 85, 247, 0.25); border-radius: 12px; padding: 14px; margin-bottom: 12px; position: relative; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+                        <!-- Dynamic Tool of the Day Injected Here -->
+                    </div>
+
+                    <!-- Category Filters -->
+                    <div class="tools-filters" id="tools-filters-container" style="display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap;">
+                        <button class="filter-btn active tool-filter-btn" data-tool-category="all" style="padding: 4px 8px; font-size: 10px;">All Tools</button>
+                        <button class="filter-btn tool-filter-btn" data-tool-category="Research" style="padding: 4px 8px; font-size: 10px;">Research</button>
+                        <button class="filter-btn tool-filter-btn" data-tool-category="Coding" style="padding: 4px 8px; font-size: 10px;">Coding</button>
+                        <button class="filter-btn tool-filter-btn" data-tool-category="Writing" style="padding: 4px 8px; font-size: 10px;">Writing/Design</button>
+                        <button class="filter-btn tool-filter-btn" data-tool-category="AI" style="padding: 4px 8px; font-size: 10px;">Advanced AI</button>
+                        <button class="filter-btn tool-filter-btn" data-tool-category="Multimedia" style="padding: 4px 8px; font-size: 10px;">Video & Audio</button>
+                    </div>
+
+                    <div class="tools-feed" id="tools-feed-container" style="background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid var(--border-color); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 10px; max-height: 250px; overflow-y: auto;">
+                        <!-- Dynamic Tools List Injected Here -->
+                    </div>
+                </section>
+
+                <!-- Trends & News Widget -->
+                <section class="content-section trends-section">
+                    <div class="section-header">
+                        <h2>🔥 AI News & Global Trends</h2>
+                        <span class="count-badge" id="trends-count">0 items</span>
+                    </div>
+                    
+                    <div class="trends-feed" id="trends-feed-container">
+                        <!-- Dynamic Trends Cards Injected Here -->
+                        <div class="loading-state">Loading AI global news...</div>
+                    </div>
+                </section>
+
+                <!-- Sentiment Tracker Widget -->
+                <section class="content-section sentiment-section">
+                    <div class="section-header">
+                        <h2>📈 Daily AI Sentiment Index</h2>
+                        <span class="count-badge" id="sentiment-count">Top 10 Firms</span>
+                    </div>
+                    
+                    <div class="sentiment-feed" id="sentiment-feed-container" style="background: var(--card-bg); backdrop-filter: blur(16px); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+                        <!-- Dynamic Sentiment Bars Injected Here -->
+                        <div class="loading-state">Analyzing social sentiment...</div>
+                    </div>
+                </section>
+            </aside>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Cloud & AI Release Intelligence • Automated daily refresh active</p>
+            <p class="credit">Powered by Antigravity Agentic Systems</p>
+        </footer>
+    </div>
+
+    <!-- Inject historical JSON variables statically first with cache busting -->
+    <script>
+        document.write('<script src="dashboard_data.js?t=' + Date.now() + '"><\/script>');
+        document.write('<script src="dashboard.js?t=' + Date.now() + '"><\/script>');
+    </script>
+</body>
+</html>
