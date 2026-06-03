@@ -1892,4 +1892,49 @@ window.addEventListener('DOMContentLoaded', () => {
     renderProductivityTools('all');
     renderStockRecommendations();
     initControls();
+    handleVisitorPersonalization();
 });
+
+// Personalize based on URL query parameters (e.g. ?visitor=JD or ?name=John+Doe)
+function handleVisitorPersonalization() {
+    try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const visitor = urlParams.get('visitor') || urlParams.get('name') || urlParams.get('u');
+        if (visitor) {
+            let initials = visitor.trim();
+            if (initials.includes(' ')) {
+                const parts = initials.split(/\s+/);
+                initials = (parts[0][0] + (parts[parts.length - 1][0] || '')).toUpperCase();
+            } else {
+                initials = initials.substring(0, 2).toUpperCase();
+            }
+            
+            const headerControls = document.querySelector('.header-controls');
+            if (headerControls) {
+                const welcomeEl = document.createElement('div');
+                welcomeEl.style.background = 'rgba(16, 185, 129, 0.12)';
+                welcomeEl.style.color = '#a7f3d0';
+                welcomeEl.style.border = '1px solid rgba(16, 185, 129, 0.25)';
+                welcomeEl.style.borderRadius = '8px';
+                welcomeEl.style.padding = '6px 12px';
+                welcomeEl.style.fontSize = '11px';
+                welcomeEl.style.fontFamily = "'Outfit', sans-serif";
+                welcomeEl.style.display = 'flex';
+                welcomeEl.style.alignItems = 'center';
+                welcomeEl.style.gap = '6px';
+                welcomeEl.style.fontWeight = '600';
+                welcomeEl.style.boxShadow = '0 2px 10px rgba(16,185,129,0.05)';
+                welcomeEl.innerHTML = `<span>👋</span><span>Welcome, ${escapeHtml(initials)}</span>`;
+                
+                const firstBadge = headerControls.firstElementChild;
+                if (firstBadge) {
+                    headerControls.insertBefore(welcomeEl, firstBadge);
+                } else {
+                    headerControls.appendChild(welcomeEl);
+                }
+            }
+        }
+    } catch (e) {
+        console.warn('Personalization failed:', e);
+    }
+}
