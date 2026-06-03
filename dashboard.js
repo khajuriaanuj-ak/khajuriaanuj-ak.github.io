@@ -1314,60 +1314,70 @@ function renderStockRecommendations() {
     });
 
     const stocks = [
-        { name: "NVIDIA", ticker: "NVDA", exchange: "NASDAQ", baseReason: "Market leader in AI compute hardware. Shipment of Blackwell B200 superchips is driving massive infrastructure demands." },
-        { name: "Google Cloud", ticker: "GOOGL", exchange: "NASDAQ", baseReason: "Strong developer velocity. Rapid rollouts of Gemini 2.5 Flash and AlloyDB remote database connections." },
-        { name: "Microsoft (Azure)", ticker: "MSFT", exchange: "NASDAQ", baseReason: "Dominant enterprise AI integrations via Azure Copilot and exclusive OpenAI reasoning model access." },
-        { name: "Amazon (AWS)", ticker: "AMZN", exchange: "NASDAQ", baseReason: "Massive scale migrations. Expanded Bedrock model imports (Llama-3 checkpoints) are saving clients inference costs." },
-        { name: "Databricks", ticker: "IPO Target", exchange: "Private", baseReason: "High momentum private AI database firm. Unified catalog updates and native Mosaic AI support make it a top pre-IPO target." },
-        { name: "Snowflake", ticker: "SNOW", exchange: "NYSE", baseReason: "Solid enterprise footprint. Launch of Cortex AI Guardrails GA is stabilizing database security confidence." }
+        { name: "NVIDIA", ticker: "NVDA", exchange: "NASDAQ", baseReason: "Dominating AI chip deliveries (Blackwell B200) with sustained high demand." },
+        { name: "Google Cloud", ticker: "GOOGL", exchange: "NASDAQ", baseReason: "Accelerating developer speed via Vertex AI & AlloyDB remote MCP tools." },
+        { name: "Microsoft (Azure)", ticker: "MSFT", exchange: "NASDAQ", baseReason: "Strong enterprise AI adoption via Azure Copilot and strategic OpenAI backing." },
+        { name: "Amazon (AWS)", ticker: "AMZN", exchange: "NASDAQ", baseReason: "Enterprise scale. Expanded Bedrock model imports are saving clients inference costs." },
+        { name: "Databricks", ticker: "IPO Target", exchange: "Private", baseReason: "High-velocity private data intelligence provider with strong Mosaic AI gains." },
+        { name: "Snowflake", ticker: "SNOW", exchange: "NYSE", baseReason: "Cortex AI Guardrails GA is stabilizing enterprise security confidence." }
     ];
 
-    container.innerHTML = stocks.map(stock => {
+    // Compute signals and filter out 'HOLD' targets to keep only 'BUY' or 'STRONG BUY'
+    const curatedStocks = stocks.map(stock => {
         const provName = stock.name === "Microsoft (Azure)" ? "Azure" : (stock.name === "Amazon (AWS)" ? "AWS" : stock.name);
         const count = releaseCounts30d[provName] || 0;
         
-        let signal = "🟡 HOLD";
+        let signal = "HOLD";
         let signalColor = "#eab308"; // Amber
         
         if (stock.name === "NVIDIA" || stock.name === "Google Cloud" || stock.name === "Microsoft (Azure)" || stock.name === "Databricks") {
             if (count > 0) {
-                signal = "🟢 STRONG BUY";
+                signal = "STRONG BUY";
                 signalColor = "#10b981"; // Green
             } else {
-                signal = "🟢 BUY";
+                signal = "BUY";
                 signalColor = "#22c55e"; // Greenish
             }
         } else {
             if (count > 0) {
-                signal = "🟢 BUY";
+                signal = "BUY";
                 signalColor = "#22c55e";
             } else {
-                signal = "🟡 HOLD";
+                signal = "HOLD";
                 signalColor = "#eab308";
             }
         }
+        
+        return { ...stock, signal, signalColor, count };
+    }).filter(s => s.signal !== "HOLD"); // Only show Buy or Strong Buy targets!
 
-        const trackerLabel = count > 0 ? `${count} launches in 30d` : "Stable momentum";
-        const badgeBg = signalColor === "#eab308" ? "rgba(234, 179, 8, 0.12)" : "rgba(16, 185, 129, 0.12)";
-        const borderStyle = signalColor === "#eab308" ? "rgba(234, 179, 8, 0.25)" : "rgba(16, 185, 129, 0.25)";
+    if (curatedStocks.length === 0) {
+        container.innerHTML = `<div style="grid-column: 1/-1; text-align: center; font-size: 11px; opacity: 0.6; padding: 10px;">Market signals stable. No active buy alerts triggered.</div>`;
+        return;
+    }
+
+    container.innerHTML = curatedStocks.map(stock => {
+        const trackerLabel = stock.count > 0 ? `${stock.count} launches` : "Stable momentum";
+        const badgeBg = stock.signalColor === "#eab308" ? "rgba(234, 179, 8, 0.1)" : "rgba(16, 185, 129, 0.1)";
+        const borderStyle = stock.signalColor === "#eab308" ? "rgba(234, 179, 8, 0.2)" : "rgba(16, 185, 129, 0.2)";
 
         return `
-            <div style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.04); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; transition: transform 0.2s ease;">
+            <div style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.04); border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; gap: 3px; transition: transform 0.2s ease;">
                 <div style="display: flex; align-items: center; justify-content: space-between;">
                     <div>
-                        <span style="font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 700; color: var(--text-primary);">${escapeHtml(stock.name)}</span>
-                        <span style="font-size: 9px; color: var(--text-muted); font-family: monospace; margin-left: 4px;">${escapeHtml(stock.ticker)} (${escapeHtml(stock.exchange)})</span>
+                        <span style="font-family: 'Outfit', sans-serif; font-size: 12px; font-weight: 700; color: var(--text-primary);">${escapeHtml(stock.name)}</span>
+                        <span style="font-size: 8px; color: var(--text-muted); font-family: monospace; margin-left: 2px;">${escapeHtml(stock.ticker)}</span>
                     </div>
-                    <span style="font-size: 9px; font-family: 'Outfit', sans-serif; font-weight: 700; color: ${signalColor}; background: ${badgeBg}; border: 1px solid ${borderStyle}; padding: 2px 6px; border-radius: 4px;">
-                        ${signal}
+                    <span style="font-size: 8px; font-family: 'Outfit', sans-serif; font-weight: 800; color: ${stock.signalColor}; background: ${badgeBg}; border: 1px solid ${borderStyle}; padding: 1px 4px; border-radius: 3px; letter-spacing: 0.02em;">
+                        ${stock.signal}
                     </span>
                 </div>
-                <p style="margin: 0; font-size: 10px; color: var(--text-secondary); line-height: 1.35; flex-grow: 1;">
+                <p style="margin: 0; font-size: 9.5px; color: var(--text-secondary); line-height: 1.3;">
                     ${escapeHtml(stock.baseReason)}
                 </p>
-                <div style="display: flex; justify-content: space-between; align-items: center; font-size: 8.5px; opacity: 0.6; margin-top: 4px; padding-top: 4px; border-top: 1px dashed rgba(255,255,255,0.03);">
-                    <span>Metric: ${trackerLabel}</span>
-                    <span>Confidence: High</span>
+                <div style="font-size: 8px; opacity: 0.5; font-family: monospace; display: flex; justify-content: space-between; margin-top: 2px;">
+                    <span>Velocity: ${trackerLabel}</span>
+                    <span>Class: AI_LEADER</span>
                 </div>
             </div>
         `;
