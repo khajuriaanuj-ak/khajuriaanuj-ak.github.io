@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-03 09:43 AM",
+  "last_updated": "2026-06-03 10:20 AM",
   "updates": [
     {
       "title": "Scaling Enterprise Conversational Intelligence: Cross-industry Technology and Functional Solutions Powered by Databricks Genie",
@@ -10401,6 +10401,314 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    }
+  ],
+  "valuations": {
+    "NVDA": {
+      "name": "NVIDIA Corporation",
+      "price": 215.91,
+      "forwardPE": 17.09,
+      "trailingPE": 33.06,
+      "marketCap": 5229556269056,
+      "psRatio": null,
+      "dayChange": -3.1,
+      "rangePosition": 0.789,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "GOOGL": {
+      "name": "Alphabet Inc.",
+      "price": 361.59,
+      "forwardPE": 24.95,
+      "trailingPE": 27.6,
+      "marketCap": 4380823126016,
+      "psRatio": null,
+      "dayChange": -0.07,
+      "rangePosition": 0.809,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "MSFT": {
+      "name": "Microsoft Corporation",
+      "price": 432.82,
+      "forwardPE": 22.38,
+      "trailingPE": 25.81,
+      "marketCap": 3215175974912,
+      "psRatio": null,
+      "dayChange": -1.92,
+      "rangePosition": 0.384,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "AMZN": {
+      "name": "Amazon.com, Inc.",
+      "price": 253.35,
+      "forwardPE": 25.68,
+      "trailingPE": 31.24,
+      "marketCap": 2725313773568,
+      "psRatio": null,
+      "dayChange": -1.24,
+      "rangePosition": 0.695,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "SNOW": {
+      "name": "Snowflake Inc.",
+      "price": 246.72,
+      "forwardPE": 94.46,
+      "trailingPE": null,
+      "marketCap": 85512732672,
+      "psRatio": null,
+      "dayChange": -5.52,
+      "rangePosition": 0.77,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "TSM": {
+      "name": "Taiwan Semiconductor Manufactur",
+      "price": 439.9,
+      "forwardPE": 22.54,
+      "trailingPE": 37.6,
+      "marketCap": 2281529933824,
+      "psRatio": null,
+      "dayChange": -1.52,
+      "rangePosition": 0.959,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "AVGO": {
+      "name": "Broadcom Inc.",
+      "price": 483.0,
+      "forwardPE": 26.11,
+      "trailingPE": 93.79,
+      "marketCap": 2286844903424,
+      "psRatio": null,
+      "dayChange": 0.3,
+      "rangePosition": 0.953,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "ASML": {
+      "name": "ASML Holding N.V. - New York Re",
+      "price": 1715.0,
+      "forwardPE": 35.63,
+      "trailingPE": 56.81,
+      "marketCap": 660991311872,
+      "psRatio": null,
+      "dayChange": 0.56,
+      "rangePosition": 0.986,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "VRT": {
+      "name": "Vertiv Holdings, LLC",
+      "price": 335.47,
+      "forwardPE": 37.96,
+      "trailingPE": 84.29,
+      "marketCap": 128856981504,
+      "psRatio": null,
+      "dayChange": 0.29,
+      "rangePosition": 0.837,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "ANET": {
+      "name": "Arista Networks, Inc.",
+      "price": 171.22,
+      "forwardPE": 38.48,
+      "trailingPE": 58.84,
+      "marketCap": 215594991616,
+      "psRatio": null,
+      "dayChange": -2.34,
+      "rangePosition": 0.909,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "INTC": {
+      "name": "Intel Corporation",
+      "price": 113.68,
+      "forwardPE": 73.57,
+      "trailingPE": null,
+      "marketCap": 571355693056,
+      "psRatio": null,
+      "dayChange": 5.33,
+      "rangePosition": 0.832,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "DELL": {
+      "name": "Dell Technologies Inc.",
+      "price": 414.49,
+      "forwardPE": 19.43,
+      "trailingPE": 47.86,
+      "marketCap": 269239533568,
+      "psRatio": null,
+      "dayChange": -4.78,
+      "rangePosition": 0.847,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "HPE": {
+      "name": "Hewlett Packard Enterprise Comp",
+      "price": 53.88,
+      "forwardPE": 13.32,
+      "trailingPE": 50.36,
+      "marketCap": 71354703872,
+      "psRatio": null,
+      "dayChange": -4.03,
+      "rangePosition": 0.778,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    },
+    "META": {
+      "name": "Meta Platforms, Inc.",
+      "price": 616.48,
+      "forwardPE": 17.05,
+      "trailingPE": 22.43,
+      "marketCap": 1564887089152,
+      "psRatio": null,
+      "dayChange": 3.15,
+      "rangePosition": 0.349,
+      "fetchedAt": "2026-06-03 10:20 AM"
+    }
+  },
+  "stocks_universe": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "category": "direct",
+      "subCategory": "AI Compute Systems",
+      "moatScore": 10.0,
+      "tailwindScore": 10.0,
+      "baseReason": "Dominating AI hardware standard (Blackwell B200) with CUDA lock-in.",
+      "expertStrategy": "NVIDIA remains the ultimate compute layer. Leverage CUDA software developer ecosystem."
+    },
+    {
+      "name": "Google Cloud",
+      "ticker": "GOOGL",
+      "category": "direct",
+      "subCategory": "Enterprise AI Platforms",
+      "moatScore": 9.0,
+      "tailwindScore": 8.5,
+      "baseReason": "Accelerating developer speed via Vertex AI & Google-managed MCP tooling.",
+      "expertStrategy": "Vertical integration play: custom TPUs, Android distribution channels, and Gemini API scaling."
+    },
+    {
+      "name": "Microsoft (Azure)",
+      "ticker": "MSFT",
+      "category": "direct",
+      "subCategory": "Enterprise AI SaaS",
+      "moatScore": 9.0,
+      "tailwindScore": 9.0,
+      "baseReason": "Strong enterprise model monetization via Copilot and strategic OpenAI backing.",
+      "expertStrategy": "Capturing enterprise budgets through Office 365 Copilot upgrades and Azure cloud infra scale."
+    },
+    {
+      "name": "Amazon (AWS)",
+      "ticker": "AMZN",
+      "category": "direct",
+      "subCategory": "Cloud Scale & Models",
+      "moatScore": 8.5,
+      "tailwindScore": 8.0,
+      "baseReason": "Massive scale. Bedrock custom imports are expanding enterprise data workloads.",
+      "expertStrategy": "Positioned well as a neutral aggregator of open-source models; high margin data storage play."
+    },
+    {
+      "name": "Databricks",
+      "ticker": "IPO Target",
+      "category": "direct",
+      "subCategory": "Enterprise Data Fabric",
+      "moatScore": 8.5,
+      "tailwindScore": 8.5,
+      "baseReason": "High-velocity data intelligence provider leading Mosaic AI custom training.",
+      "expertStrategy": "Essential data prep layer. Direct beneficiary of custom fine-tuning and RAG architectures."
+    },
+    {
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "category": "direct",
+      "subCategory": "Enterprise Data Cloud",
+      "moatScore": 8.5,
+      "tailwindScore": 8.5,
+      "baseReason": "Cortex AI platform integrating enterprise SQL datasets with LLM inference.",
+      "expertStrategy": "High gross margins. Strong lock-in of structured enterprise data, though faces fierce Databricks competition."
+    },
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "category": "infra",
+      "subCategory": "Advanced Fabrication",
+      "moatScore": 10.0,
+      "tailwindScore": 10.0,
+      "baseReason": "Exclusive foundry fabricating leading Blackwell GPUs and custom TPUs.",
+      "expertStrategy": "The ultimate bottleneck of AI hardware. Enjoys absolute pricing power at sub-3nm nodes."
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "category": "infra",
+      "subCategory": "AI Custom ASICs & Net",
+      "moatScore": 9.5,
+      "tailwindScore": 9.5,
+      "baseReason": "Dominating custom ASIC design for TPUs and PCIe/Ethernet switching silicon.",
+      "expertStrategy": "Leading the non-GPU custom chip wave. Custom TPUs (Google/Meta) and switches yield high margins."
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML",
+      "category": "infra",
+      "subCategory": "Lithography Monopoly",
+      "moatScore": 10.0,
+      "tailwindScore": 9.0,
+      "baseReason": "Monopolist of Extreme Ultraviolet lithography, bottleneck for sub-3nm nodes.",
+      "expertStrategy": "No advanced chips can be manufactured without ASML's EUV systems. High entry barriers protect moat."
+    },
+    {
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "category": "infra",
+      "subCategory": "Data Center Liquid Cool",
+      "moatScore": 9.0,
+      "tailwindScore": 10.0,
+      "baseReason": "Critical liquid cooling loops and power distribution units for AI power density.",
+      "expertStrategy": "High-density GPU clusters run too hot for air. Vertiv's liquid-to-air technologies are in high demand."
+    },
+    {
+      "name": "Arista Networks",
+      "ticker": "ANET",
+      "category": "infra",
+      "subCategory": "Data Center Net Fabrics",
+      "moatScore": 8.5,
+      "tailwindScore": 9.5,
+      "baseReason": "Deploying high-speed ethernet backbones required to scale massive GPU clusters.",
+      "expertStrategy": "AI cluster backplane scaling requires ethernet switching. Arista is taking legacy market share."
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC",
+      "category": "infra",
+      "subCategory": "AI Fab Competition",
+      "moatScore": 7.0,
+      "tailwindScore": 8.0,
+      "baseReason": "Expanding US-based foundry services to compete with TSMC for custom AI accelerators.",
+      "expertStrategy": "High-risk turnaround play. If the 18A node succeeds, Intel could capture substantial US sovereign foundry budgets."
+    },
+    {
+      "name": "Dell Technologies Inc.",
+      "ticker": "DELL",
+      "category": "infra",
+      "subCategory": "AI Server Infrastructure",
+      "moatScore": 7.5,
+      "tailwindScore": 9.0,
+      "baseReason": "Global leader in providing high-performance, liquid-cooled AI server infrastructure, integrating cutting-edge accelerators like Nvidia Blackwell for large-scale enterprise deployments.",
+      "expertStrategy": "Dell is a critical enabler of the enterprise AI transformation, serving as a primary provider of the physical compute backbone. Their vast enterprise client base and ability to deliver integrated, high-density AI solutions position them to capture significant revenue from the escalating demand for on-premise and private AI infrastructure."
+    },
+    {
+      "name": "Hewlett Packard Enterprise Comp",
+      "ticker": "HPE",
+      "category": "infra",
+      "subCategory": "Enterprise AI Private Clouds",
+      "moatScore": 7.0,
+      "tailwindScore": 8.5,
+      "baseReason": "Leading provider of turnkey private cloud systems and sovereign AI solutions, leveraging deep enterprise customer relationships and a comprehensive service model.",
+      "expertStrategy": "HPE is well-positioned to benefit from enterprises and governments requiring secure, controlled, and localized AI infrastructure. Their integrated private cloud offerings and strategic focus on sovereign AI address critical market needs, enabling them to capture substantial value from organizations prioritizing data privacy and custom AI environments."
+    },
+    {
+      "name": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "category": "direct",
+      "subCategory": "AI Platforms & Agents",
+      "moatScore": 8.5,
+      "tailwindScore": 9.0,
+      "baseReason": "Leveraging an unparalleled global user base (billions across WhatsApp, Facebook, Instagram) to deploy and monetize AI agents, backed by substantial investments in proprietary AI models and infrastructure, establishing a dominant position in the consumer and SMB AI agent market.",
+      "expertStrategy": "Invest in Meta Platforms for its strategic pivot to monetize AI directly through its ubiquitous communication channels like WhatsApp Business. The company's unique advantage lies in its massive user graph and data, allowing it to develop highly personalized and effective AI agents. The token-based charging model provides a clear revenue stream from AI usage, positioning META as a key beneficiary of the enterprise and consumer adoption of AI agents for engagement and automation."
     }
   ]
 };

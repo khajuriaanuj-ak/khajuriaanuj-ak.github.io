@@ -22,7 +22,6 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         if self.path == '/api/sync':
             try:
                 import subprocess
-                import sys
                 import json
                 import re
                 
@@ -50,6 +49,36 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                     self.send_response(500)
                     
                 self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps(response_body).encode('utf-8'))
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"success": False, "error": str(e)}).encode('utf-8'))
+        elif self.path == '/api/valuations':
+            try:
+                import json
+                # Import valuation fetcher from main.py
+                sys.path.insert(0, DIRECTORY)
+                from main import fetch_valuations
+                
+                # Load tickers dynamically from stocks_universe.json
+                universe_path = os.path.join(DIRECTORY, "stocks_universe.json")
+                tickers = None
+                if os.path.exists(universe_path):
+                    try:
+                        with open(universe_path, 'r', encoding='utf-8') as f:
+                            universe = json.load(f)
+                            tickers = [s["ticker"] for s in universe if s.get("ticker") and "IPO" not in s["ticker"].upper()]
+                    except Exception as ue:
+                        print(f"Warning: serve.py could not load stocks universe: {ue}")
+                
+                valuations = fetch_valuations(tickers=tickers)
+                response_body = {"success": True, "valuations": valuations}
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
                 self.wfile.write(json.dumps(response_body).encode('utf-8'))
             except Exception as e:

@@ -1361,121 +1361,149 @@ function renderStockRecommendations() {
         } catch (e) {}
     });
 
-    const stocks = [
-        // Direct AI / Hardware & Compute Moat
-        { 
-            name: "NVIDIA", 
-            ticker: "NVDA", 
-            category: "direct", 
-            subCategory: "AI Compute Systems",
-            moatScore: 10.0,
-            tailwindScore: 10.0,
-            baseReason: "Dominating AI hardware standard (Blackwell B200) with CUDA lock-in.",
-            expertStrategy: "NVIDIA remains the ultimate compute layer. Leverage CUDA software developer ecosystem."
-        },
-        { 
-            name: "Google Cloud", 
-            ticker: "GOOGL", 
-            category: "direct", 
-            subCategory: "Enterprise AI Platforms",
-            moatScore: 9.0,
-            tailwindScore: 8.5,
-            baseReason: "Accelerating developer speed via Vertex AI & Google-managed MCP tooling.",
-            expertStrategy: "Vertical integration play: custom TPUs, Android distribution channels, and Gemini API scaling."
-        },
-        { 
-            name: "Microsoft (Azure)", 
-            ticker: "MSFT", 
-            category: "direct", 
-            subCategory: "Enterprise AI SaaS",
-            moatScore: 9.0,
-            tailwindScore: 9.0,
-            baseReason: "Strong enterprise model monetization via Copilot and strategic OpenAI backing.",
-            expertStrategy: "Capturing enterprise budgets through Office 365 Copilot upgrades and Azure cloud infra scale."
-        },
-        { 
-            name: "Amazon (AWS)", 
-            ticker: "AMZN", 
-            category: "direct", 
-            subCategory: "Cloud Scale & Models",
-            moatScore: 8.5,
-            tailwindScore: 8.0,
-            baseReason: "Massive scale. Bedrock custom imports are expanding enterprise data workloads.",
-            expertStrategy: "Positioned well as a neutral aggregator of open-source models; high margin data storage play."
-        },
-        { 
-            name: "Databricks", 
-            ticker: "IPO Target", 
-            category: "direct", 
-            subCategory: "Enterprise Data Fabric",
-            moatScore: 8.5,
-            tailwindScore: 8.5,
-            baseReason: "High-velocity data intelligence provider leading Mosaic AI custom training.",
-            expertStrategy: "Essential data prep layer. Direct beneficiary of custom fine-tuning and RAG architectures."
-        },
-        { 
-            name: "Snowflake", 
-            ticker: "SNOW", 
-            category: "direct", 
-            subCategory: "Enterprise Data Cloud",
-            moatScore: 8.0,
-            tailwindScore: 7.5,
-            baseReason: "Cortex AI Guardrails and search engines stabilizing enterprise data governance.",
-            expertStrategy: "Core data lake position is highly sticky, but faces pressure from open table formats."
-        },
+    let stocks = appData.stocks_universe;
+    if (!stocks || !Array.isArray(stocks) || stocks.length === 0) {
+        stocks = [
+            // Direct AI / Hardware & Compute Moat
+            { 
+                name: "NVIDIA", 
+                ticker: "NVDA", 
+                category: "direct", 
+                subCategory: "AI Compute Systems",
+                moatScore: 10.0,
+                tailwindScore: 10.0,
+                baseReason: "Dominating AI hardware standard (Blackwell B200) with CUDA lock-in.",
+                expertStrategy: "NVIDIA remains the ultimate compute layer. Leverage CUDA software developer ecosystem."
+            },
+            { 
+                name: "Google Cloud", 
+                ticker: "GOOGL", 
+                category: "direct", 
+                subCategory: "Enterprise AI Platforms",
+                moatScore: 9.0,
+                tailwindScore: 8.5,
+                baseReason: "Accelerating developer speed via Vertex AI & Google-managed MCP tooling.",
+                expertStrategy: "Vertical integration play: custom TPUs, Android distribution channels, and Gemini API scaling."
+            },
+            { 
+                name: "Microsoft (Azure)", 
+                ticker: "MSFT", 
+                category: "direct", 
+                subCategory: "Enterprise AI SaaS",
+                moatScore: 9.0,
+                tailwindScore: 9.0,
+                baseReason: "Strong enterprise model monetization via Copilot and strategic OpenAI backing.",
+                expertStrategy: "Capturing enterprise budgets through Office 365 Copilot upgrades and Azure cloud infra scale."
+            },
+            { 
+                name: "Amazon (AWS)", 
+                ticker: "AMZN", 
+                category: "direct", 
+                subCategory: "Cloud Scale & Models",
+                moatScore: 8.5,
+                tailwindScore: 8.0,
+                baseReason: "Massive scale. Bedrock custom imports are expanding enterprise data workloads.",
+                expertStrategy: "Positioned well as a neutral aggregator of open-source models; high margin data storage play."
+            },
+            { 
+                name: "Databricks", 
+                ticker: "IPO Target", 
+                category: "direct", 
+                subCategory: "Enterprise Data Fabric",
+                moatScore: 8.5,
+                tailwindScore: 8.5,
+                baseReason: "High-velocity data intelligence provider leading Mosaic AI custom training.",
+                expertStrategy: "Essential data prep layer. Direct beneficiary of custom fine-tuning and RAG architectures."
+            },
+            { 
+                name: "Snowflake", 
+                ticker: "SNOW", 
+                category: "direct", 
+                subCategory: "Enterprise Data Cloud",
+                moatScore: 8.0,
+                tailwindScore: 7.5,
+                baseReason: "Cortex AI Guardrails and search engines stabilizing enterprise data governance.",
+                expertStrategy: "Core data lake position is highly sticky, but faces pressure from open table formats."
+            },
+            // Indirect / Infrastructure Plays
+            { 
+                name: "TSMC", 
+                ticker: "TSM", 
+                category: "infra", 
+                subCategory: "Advanced Fabrication",
+                moatScore: 10.0,
+                tailwindScore: 10.0,
+                baseReason: "Exclusive foundry fabricating leading Blackwell GPUs and custom TPUs.",
+                expertStrategy: "The ultimate bottleneck of AI hardware. Enjoys absolute pricing power at sub-3nm nodes."
+            },
+            { 
+                name: "Broadcom", 
+                ticker: "AVGO", 
+                category: "infra", 
+                subCategory: "AI Custom ASICs & Net",
+                moatScore: 9.5,
+                tailwindScore: 9.5,
+                baseReason: "Dominating custom ASIC design for TPUs and PCIe/Ethernet switching silicon.",
+                expertStrategy: "Leading the non-GPU custom chip wave. Custom TPUs (Google/Meta) and switches yield high margins."
+            },
+            { 
+                name: "ASML", 
+                ticker: "ASML", 
+                category: "infra", 
+                subCategory: "Lithography Monopoly",
+                moatScore: 10.0,
+                tailwindScore: 9.0,
+                baseReason: "Monopolist of Extreme Ultraviolet lithography, bottleneck for sub-3nm nodes.",
+                expertStrategy: "No advanced chips can be manufactured without ASML's EUV systems. High entry barriers protect moat."
+            },
+            { 
+                name: "Vertiv", 
+                ticker: "VRT", 
+                category: "infra", 
+                subCategory: "Data Center Liquid Cool",
+                moatScore: 9.0,
+                tailwindScore: 10.0,
+                baseReason: "Critical liquid cooling loops and power distribution units for AI power density.",
+                expertStrategy: "High-density GPU clusters run too hot for air. Vertiv's liquid-to-air technologies are in high demand."
+            },
+            { 
+                name: "Arista Networks", 
+                ticker: "ANET", 
+                category: "infra", 
+                subCategory: "Data Center Net Fabrics",
+                moatScore: 8.5,
+                tailwindScore: 9.5,
+                baseReason: "Deploying high-speed ethernet backbones required to scale massive GPU clusters.",
+                expertStrategy: "AI cluster backplane scaling requires ethernet switching. Arista is taking legacy market share."
+            }
+        ];
+    }
 
-        // Indirect / Infrastructure Plays
-        { 
-            name: "TSMC", 
-            ticker: "TSM", 
-            category: "infra", 
-            subCategory: "Advanced Fabrication",
-            moatScore: 10.0,
-            tailwindScore: 10.0,
-            baseReason: "Exclusive foundry fabricating leading Blackwell GPUs and custom TPUs.",
-            expertStrategy: "The ultimate bottleneck of AI hardware. Enjoys absolute pricing power at sub-3nm nodes."
-        },
-        { 
-            name: "Broadcom", 
-            ticker: "AVGO", 
-            category: "infra", 
-            subCategory: "AI Custom ASICs & Net",
-            moatScore: 9.5,
-            tailwindScore: 9.5,
-            baseReason: "Dominating custom ASIC design for TPUs and PCIe/Ethernet switching silicon.",
-            expertStrategy: "Leading the non-GPU custom chip wave. Custom TPUs (Google/Meta) and switches yield high margins."
-        },
-        { 
-            name: "ASML", 
-            ticker: "ASML", 
-            category: "infra", 
-            subCategory: "Lithography Monopoly",
-            moatScore: 10.0,
-            tailwindScore: 9.0,
-            baseReason: "Monopolist of Extreme Ultraviolet lithography, bottleneck for sub-3nm nodes.",
-            expertStrategy: "No advanced chips can be manufactured without ASML's EUV systems. High entry barriers protect moat."
-        },
-        { 
-            name: "Vertiv", 
-            ticker: "VRT", 
-            category: "infra", 
-            subCategory: "Data Center Liquid Cool",
-            moatScore: 9.0,
-            tailwindScore: 10.0,
-            baseReason: "Critical liquid cooling loops and power distribution units for AI power density.",
-            expertStrategy: "High-density GPU clusters run too hot for air. Vertiv's liquid-to-air technologies are in high demand."
-        },
-        { 
-            name: "Arista Networks", 
-            ticker: "ANET", 
-            category: "infra", 
-            subCategory: "Data Center Net Fabrics",
-            moatScore: 8.5,
-            tailwindScore: 9.5,
-            baseReason: "Deploying high-speed ethernet backbones required to scale massive GPU clusters.",
-            expertStrategy: "AI cluster backplane scaling requires ethernet switching. Arista is taking legacy market share."
-        }
-    ];
+    // ── Valuation scoring function ──
+    function computeValuationScore(ticker) {
+        const v = (appData.valuations || {})[ticker];
+        if (!v || !v.forwardPE) return { score: 7.0, label: "N/A" }; // Neutral if no data
+
+        const fpe = v.forwardPE;
+        let score;
+        let label;
+
+        // AI-sector-calibrated thresholds (growth stocks trade at premiums)
+        if (fpe < 15)       { score = 10.0; label = "Deep Value"; }
+        else if (fpe < 25)  { score = 9.0;  label = "Attractive"; }
+        else if (fpe < 35)  { score = 8.0;  label = "Fair Value"; }
+        else if (fpe < 50)  { score = 7.0;  label = "Growth Premium"; }
+        else if (fpe < 80)  { score = 5.5;  label = "Stretched"; }
+        else if (fpe < 120) { score = 4.0;  label = "Expensive"; }
+        else                { score = 2.5;  label = "Extreme"; }
+
+        // Bonus/penalty from 52-week range position
+        const rp = v.rangePosition ?? 0.5;
+        if (rp < 0.3) score = Math.min(10, score + 0.5);       // Near 52w low = discount
+        else if (rp > 0.9) score = Math.max(1, score - 0.5);   // Near 52w high = premium
+
+        return { score: Math.round(score * 10) / 10, label };
+    }
 
     // Compute signals based on strategic advisor scorecard
     const curatedStocks = stocks.map(stock => {
@@ -1504,9 +1532,16 @@ function renderStockRecommendations() {
                 velocityScore = 8.0;
             }
         }
+
+        // Valuation pillar from live Yahoo Finance data
+        const valuation = computeValuationScore(stock.ticker);
+        const valuationScore = valuation.score;
+        const valuationLabel = valuation.label;
+        const vData = (appData.valuations || {})[stock.ticker] || {};
         
-        // Advisor weighted scorecard: Moat (40%), Industry Tailwind (30%), Product Velocity (30%)
-        const score = (stock.moatScore * 0.4) + (stock.tailwindScore * 0.3) + (velocityScore * 0.3);
+        // Rebalanced Advisor Scorecard:
+        // Moat (30%) + Tailwind (25%) + Velocity (25%) + Valuation (20%)
+        const score = (stock.moatScore * 0.30) + (stock.tailwindScore * 0.25) + (velocityScore * 0.25) + (valuationScore * 0.20);
         
         let signal = "HOLD";
         let signalColor = "#eab308"; // Amber
@@ -1514,67 +1549,76 @@ function renderStockRecommendations() {
         if (score >= 9.0) {
             signal = "STRONG BUY";
             signalColor = "#10b981"; // Emerald
-        } else if (score >= 8.0) {
+        } else if (score >= 7.5) {
             signal = "BUY";
             signalColor = "#3b82f6"; // Blue
-        } else {
+        } else if (score >= 6.0) {
             signal = "HOLD";
             signalColor = "#eab308";
+        } else {
+            signal = "CAUTION";
+            signalColor = "#ef4444"; // Red
         }
         
-        return { ...stock, signal, signalColor, count, score };
-    }).filter(s => s.signal !== "HOLD"); // Filter out HOLDs to keep ONLY Strong Buy and Buy
+        return { ...stock, signal, signalColor, count, score, valuationScore, valuationLabel, vData };
+    }).filter(s => s.signal !== "HOLD" && s.signal !== "CAUTION"); // Filter to actionable signals
 
     if (curatedStocks.length === 0) {
         container.innerHTML = `<div style="grid-column: 1/-1; text-align: center; font-size: 11px; opacity: 0.6; padding: 10px;">Market signals stable. No active buy alerts triggered.</div>`;
         return;
     }
 
-    const strongBuyStocks = curatedStocks.filter(s => s.signal === "STRONG BUY");
-    const buyStocks = curatedStocks.filter(s => s.signal === "BUY");
+    // Sort by score descending and take the top 15 curations
+    const topStocks = curatedStocks
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 15);
 
     let html = '';
 
-    // Strong Buy Bucket
-    if (strongBuyStocks.length > 0) {
-        html += `
-            <div style="background: rgba(16, 185, 129, 0.02); border: 1px solid rgba(16, 185, 129, 0.12); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px;">
-                <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(16, 185, 129, 0.15); padding-bottom: 6px; margin-bottom: 2px;">
-                    <div style="display: flex; align-items: center; gap: 6px;">
-                        <span style="font-size: 13px;">🔥</span>
-                        <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: #10b981; text-transform: uppercase; letter-spacing: 0.05em;">Strong Buy Curation</span>
-                    </div>
-                    <span style="font-family: monospace; font-size: 8px; color: #10b981; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.2); padding: 1px 5px; border-radius: 4px; font-weight: bold;">${strongBuyStocks.length} Targets</span>
-                </div>
-                <div style="display: flex; flex-direction: column; gap: 6px;">
-                    ${strongBuyStocks.map(stock => renderMiniStockCard(stock, "#10b981")).join('')}
-                </div>
+    // Valuation data freshness indicator
+    const hasValuations = Object.keys(appData.valuations || {}).length > 0;
+    const firstTicker = Object.values(appData.valuations || {})[0];
+    const fetchedAt = firstTicker?.fetchedAt || 'N/A';
+    html += `
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 4px 6px; margin-bottom: 6px; background: rgba(255,255,255,0.02); border-radius: 6px; border: 1px solid rgba(255,255,255,0.04);">
+            <div style="display: flex; align-items: center; gap: 4px;">
+                <span style="width: 5px; height: 5px; border-radius: 50%; background: ${hasValuations ? '#10b981' : '#ef4444'}; display: inline-block;"></span>
+                <span style="font-size: 8px; color: var(--text-muted); font-family: monospace;">Valuations: ${hasValuations ? fetchedAt : 'Unavailable'}</span>
             </div>
-        `;
-    }
+            <button id="refresh-valuations-btn" onclick="refreshValuations()" style="font-size: 8px; color: #60a5fa; background: none; border: 1px solid rgba(96,165,250,0.2); padding: 1px 6px; border-radius: 4px; cursor: pointer; font-family: monospace;" onmouseover="this.style.background='rgba(96,165,250,0.1)'" onmouseout="this.style.background='none'">
+                ⟳ Refresh
+            </button>
+        </div>
+    `;
+    
+    // Scoring methodology tag
+    html += `
+        <div style="font-size: 7.5px; color: var(--text-muted); font-family: monospace; text-align: center; padding: 2px 4px; margin-bottom: 6px; opacity: 0.7;">
+            Moat 30% · Tailwind 25% · Velocity 25% · <span style="color: #f59e0b; font-weight: 700;">Valuation 20%</span>
+        </div>
+    `;
 
-    // Buy Bucket
-    if (buyStocks.length > 0) {
-        html += `
-            <div style="background: rgba(59, 130, 246, 0.02); border: 1px solid rgba(59, 130, 246, 0.12); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px;">
-                <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(59, 130, 246, 0.15); padding-bottom: 6px; margin-bottom: 2px;">
-                    <div style="display: flex; align-items: center; gap: 6px;">
-                        <span style="font-size: 13px;">🟢</span>
-                        <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: #3b82f6; text-transform: uppercase; letter-spacing: 0.05em;">Buy Curation</span>
-                    </div>
-                    <span style="font-family: monospace; font-size: 8px; color: #3b82f6; background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); padding: 1px 5px; border-radius: 4px; font-weight: bold;">${buyStocks.length} Targets</span>
+    // Single ranked leaderboard container
+    html += `
+        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-bottom: 6px; margin-bottom: 2px;">
+                <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="font-size: 13px;">🏆</span>
+                    <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: var(--text-primary); text-transform: uppercase; letter-spacing: 0.05em;">Top 15 AI Stock Curation</span>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 6px;">
-                    ${buyStocks.map(stock => renderMiniStockCard(stock, "#3b82f6")).join('')}
-                </div>
+                <span style="font-family: monospace; font-size: 8px; color: var(--text-muted); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); padding: 1px 5px; border-radius: 4px; font-weight: bold;">Ranked Curation</span>
             </div>
-        `;
-    }
+            <div style="display: flex; flex-direction: column; gap: 6px;">
+                ${topStocks.map((stock, index) => renderMiniStockCard(stock, index + 1)).join('')}
+            </div>
+        </div>
+    `;
 
     container.innerHTML = html;
 }
 
-function renderMiniStockCard(stock, accentColor) {
+function renderMiniStockCard(stock, rank) {
+    const accentColor = stock.signalColor;
     let trackerLabel = '';
     if (stock.category === 'direct') {
         trackerLabel = stock.count > 0 ? `${stock.count} launches` : "Stable momentum";
@@ -1582,16 +1626,48 @@ function renderMiniStockCard(stock, accentColor) {
         trackerLabel = `Eco-Velocity: ${stock.count} runs`;
     }
 
+    // Live valuation data
+    const v = stock.vData || {};
+    const price = v.price ? `$${v.price.toLocaleString()}` : '—';
+    const fwdPE = v.forwardPE ? `${v.forwardPE}x` : 'N/A';
+    const dayChg = v.dayChange || 0;
+    const dayChgColor = dayChg >= 0 ? '#10b981' : '#ef4444';
+    const dayChgStr = dayChg >= 0 ? `+${dayChg.toFixed(2)}%` : `${dayChg.toFixed(2)}%`;
+    const valLabel = stock.valuationLabel || 'N/A';
+    const valScore = stock.valuationScore || 0;
+    const valColor = valScore >= 8 ? '#10b981' : (valScore >= 6 ? '#eab308' : '#ef4444');
+
+    // Market cap formatting
+    let mcapStr = '—';
+    if (v.marketCap) {
+        if (v.marketCap >= 1e12) mcapStr = `$${(v.marketCap / 1e12).toFixed(1)}T`;
+        else if (v.marketCap >= 1e9) mcapStr = `$${(v.marketCap / 1e9).toFixed(0)}B`;
+        else mcapStr = `$${(v.marketCap / 1e6).toFixed(0)}M`;
+    }
+
     return `
-        <div class="stock-mini-card" style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.04); border-radius: 6px; padding: 6px 8px; display: flex; flex-direction: column; gap: 2px; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);" onmouseover="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='${accentColor}55'; this.style.transform='translateY(-1px)';" onmouseout="this.style.background='rgba(255,255,255,0.015)'; this.style.borderColor='rgba(255,255,255,0.04)'; this.style.transform='translateY(0)';">
+        <div class="stock-mini-card" style="background: rgba(255,255,255,0.015); border: 1px solid rgba(255,255,255,0.04); border-radius: 6px; padding: 6px 8px; display: flex; flex-direction: column; gap: 3px; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);" onmouseover="this.style.background='rgba(255,255,255,0.03)'; this.style.borderColor='${accentColor}55'; this.style.transform='translateY(-1px)';" onmouseout="this.style.background='rgba(255,255,255,0.015)'; this.style.borderColor='rgba(255,255,255,0.04)'; this.style.transform='translateY(0)';">
             <div style="display: flex; align-items: center; justify-content: space-between;">
                 <div>
+                    <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 800; color: ${accentColor}; margin-right: 4px;">#${rank}</span>
                     <span style="font-family: 'Outfit', sans-serif; font-size: 11px; font-weight: 700; color: var(--text-primary);">${escapeHtml(stock.name)}</span>
-                    <span style="font-size: 8px; color: var(--text-muted); font-family: monospace; margin-left: 2px;">${escapeHtml(stock.ticker)} • ${escapeHtml(stock.subCategory)}</span>
+                    <span style="font-size: 8px; color: var(--text-muted); font-family: monospace; margin-left: 2px;">${escapeHtml(stock.ticker)} · ${escapeHtml(stock.subCategory)}</span>
                 </div>
-                <span style="font-size: 8px; font-family: monospace; color: ${accentColor}; background: rgba(255, 255, 255, 0.03); padding: 1px 4px; border-radius: 3px; font-weight: 700;">
-                    Score: ${stock.score.toFixed(1)}/10
-                </span>
+                <div style="display: flex; align-items: center; gap: 4px;">
+                    <span style="font-size: 7px; font-family: monospace; color: ${accentColor}; background: ${accentColor}12; border: 1px solid ${accentColor}33; padding: 1px 3.5px; border-radius: 3px; font-weight: 800; letter-spacing: 0.02em;">
+                        ${stock.signal}
+                    </span>
+                    <span style="font-size: 8px; font-family: monospace; color: var(--text-primary); background: rgba(255, 255, 255, 0.03); padding: 1.5px 4px; border-radius: 3px; font-weight: 700;">
+                        Score: ${stock.score.toFixed(1)}/10
+                    </span>
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 6px; padding: 2px 0; border-top: 1px solid rgba(255,255,255,0.03); border-bottom: 1px solid rgba(255,255,255,0.03);">
+                <span style="font-family: monospace; font-size: 10px; font-weight: 700; color: var(--text-primary);">${price}</span>
+                <span style="font-size: 8px; font-weight: 700; color: ${dayChgColor}; font-family: monospace;">${dayChgStr}</span>
+                <span style="font-size: 7.5px; color: var(--text-muted); font-family: monospace;">Fwd P/E: <b style="color: ${valColor}">${fwdPE}</b></span>
+                <span style="font-size: 7px; color: ${valColor}; background: rgba(255,255,255,0.03); padding: 0 3px; border-radius: 2px; font-family: monospace; font-weight: 600;">${valLabel}</span>
+                <span style="font-size: 7px; color: var(--text-muted); font-family: monospace; margin-left: auto;">${mcapStr}</span>
             </div>
             <p style="margin: 0; font-size: 9px; color: var(--text-secondary); line-height: 1.25;">
                 <strong>Strategic Moat:</strong> ${escapeHtml(stock.baseReason)}
@@ -1601,6 +1677,34 @@ function renderMiniStockCard(stock, accentColor) {
             </p>
         </div>
     `;
+}
+
+// Live valuation refresh handler
+async function refreshValuations() {
+    const btn = document.getElementById('refresh-valuations-btn');
+    if (!btn) return;
+    const origText = btn.textContent;
+    btn.textContent = '⟳ Loading...';
+    btn.disabled = true;
+
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    if (isLocal) {
+        try {
+            const resp = await fetch('/api/valuations', { method: 'POST' });
+            const data = await resp.json();
+            if (data.success && data.valuations) {
+                appData.valuations = data.valuations;
+                renderStockRecommendations();
+                btn.textContent = '✓ Updated';
+                setTimeout(() => { btn.textContent = origText; btn.disabled = false; }, 2000);
+                return;
+            }
+        } catch (e) {
+            console.warn('Valuation refresh failed:', e);
+        }
+    }
+    btn.textContent = '✗ Unavailable';
+    setTimeout(() => { btn.textContent = origText; btn.disabled = false; }, 2000);
 }
 
 async function triggerSync() {

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "NVIDIA",
+    "ticker": "NVDA",
+    "category": "direct",
+    "subCategory": "AI Compute Systems",
+    "moatScore": 10.0,
+    "tailwindScore": 10.0,
+    "baseReason": "Dominating AI hardware standard (Blackwell B200) with CUDA lock-in.",
+    "expertStrategy": "NVIDIA remains the ultimate compute layer. Leverage CUDA software developer ecosystem."
+  },
+  {
+    "name": "Google Cloud",
+    "ticker": "GOOGL",
+    "category": "direct",
+    "subCategory": "Enterprise AI Platforms",
+    "moatScore": 9.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Accelerating developer speed via Vertex AI & Google-managed MCP tooling.",
+    "expertStrategy": "Vertical integration play: custom TPUs, Android distribution channels, and Gemini API scaling."
+  },
+  {
+    "name": "Microsoft (Azure)",
+    "ticker": "MSFT",
+    "category": "direct",
+    "subCategory": "Enterprise AI SaaS",
+    "moatScore": 9.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Strong enterprise model monetization via Copilot and strategic OpenAI backing.",
+    "expertStrategy": "Capturing enterprise budgets through Office 365 Copilot upgrades and Azure cloud infra scale."
+  },
+  {
+    "name": "Amazon (AWS)",
+    "ticker": "AMZN",
+    "category": "direct",
+    "subCategory": "Cloud Scale & Models",
+    "moatScore": 8.5,
+    "tailwindScore": 8.0,
+    "baseReason": "Massive scale. Bedrock custom imports are expanding enterprise data workloads.",
+    "expertStrategy": "Positioned well as a neutral aggregator of open-source models; high margin data storage play."
+  },
+  {
+    "name": "Databricks",
+    "ticker": "IPO Target",
+    "category": "direct",
+    "subCategory": "Enterprise Data Fabric",
+    "moatScore": 8.5,
+    "tailwindScore": 8.5,
+    "baseReason": "High-velocity data intelligence provider leading Mosaic AI custom training.",
+    "expertStrategy": "Essential data prep layer. Direct beneficiary of custom fine-tuning and RAG architectures."
+  },
+  {
+    "name": "Snowflake",
+    "ticker": "SNOW",
+    "category": "direct",
+    "subCategory": "Enterprise Data Cloud",
+    "moatScore": 8.5,
+    "tailwindScore": 8.5,
+    "baseReason": "Cortex AI platform integrating enterprise SQL datasets with LLM inference.",
+    "expertStrategy": "High gross margins. Strong lock-in of structured enterprise data, though faces fierce Databricks competition."
+  },
+  {
+    "name": "TSMC",
+    "ticker": "TSM",
+    "category": "infra",
+    "subCategory": "Advanced Fabrication",
+    "moatScore": 10.0,
+    "tailwindScore": 10.0,
+    "baseReason": "Exclusive foundry fabricating leading Blackwell GPUs and custom TPUs.",
+    "expertStrategy": "The ultimate bottleneck of AI hardware. Enjoys absolute pricing power at sub-3nm nodes."
+  },
+  {
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "category": "infra",
+    "subCategory": "AI Custom ASICs & Net",
+    "moatScore": 9.5,
+    "tailwindScore": 9.5,
+    "baseReason": "Dominating custom ASIC design for TPUs and PCIe/Ethernet switching silicon.",
+    "expertStrategy": "Leading the non-GPU custom chip wave. Custom TPUs (Google/Meta) and switches yield high margins."
+  },
+  {
+    "name": "ASML",
+    "ticker": "ASML",
+    "category": "infra",
+    "subCategory": "Lithography Monopoly",
+    "moatScore": 10.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Monopolist of Extreme Ultraviolet lithography, bottleneck for sub-3nm nodes.",
+    "expertStrategy": "No advanced chips can be manufactured without ASML's EUV systems. High entry barriers protect moat."
+  },
+  {
+    "name": "Vertiv",
+    "ticker": "VRT",
+    "category": "infra",
+    "subCategory": "Data Center Liquid Cool",
+    "moatScore": 9.0,
+    "tailwindScore": 10.0,
+    "baseReason": "Critical liquid cooling loops and power distribution units for AI power density.",
+    "expertStrategy": "High-density GPU clusters run too hot for air. Vertiv's liquid-to-air technologies are in high demand."
+  },
+  {
+    "name": "Arista Networks",
+    "ticker": "ANET",
+    "category": "infra",
+    "subCategory": "Data Center Net Fabrics",
+    "moatScore": 8.5,
+    "tailwindScore": 9.5,
+    "baseReason": "Deploying high-speed ethernet backbones required to scale massive GPU clusters.",
+    "expertStrategy": "AI cluster backplane scaling requires ethernet switching. Arista is taking legacy market share."
+  },
+  {
+    "name": "Intel",
+    "ticker": "INTC",
+    "category": "infra",
+    "subCategory": "AI Fab Competition",
+    "moatScore": 7.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Expanding US-based foundry services to compete with TSMC for custom AI accelerators.",
+    "expertStrategy": "High-risk turnaround play. If the 18A node succeeds, Intel could capture substantial US sovereign foundry budgets."
+  },
+  {
+    "name": "Dell Technologies Inc.",
+    "ticker": "DELL",
+    "category": "infra",
+    "subCategory": "AI Server Infrastructure",
+    "moatScore": 7.5,
+    "tailwindScore": 9.0,
+    "baseReason": "Global leader in providing high-performance, liquid-cooled AI server infrastructure, integrating cutting-edge accelerators like Nvidia Blackwell for large-scale enterprise deployments.",
+    "expertStrategy": "Dell is a critical enabler of the enterprise AI transformation, serving as a primary provider of the physical compute backbone. Their vast enterprise client base and ability to deliver integrated, high-density AI solutions position them to capture significant revenue from the escalating demand for on-premise and private AI infrastructure."
+  },
+  {
+    "name": "Hewlett Packard Enterprise Comp",
+    "ticker": "HPE",
+    "category": "infra",
+    "subCategory": "Enterprise AI Private Clouds",
+    "moatScore": 7.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Leading provider of turnkey private cloud systems and sovereign AI solutions, leveraging deep enterprise customer relationships and a comprehensive service model.",
+    "expertStrategy": "HPE is well-positioned to benefit from enterprises and governments requiring secure, controlled, and localized AI infrastructure. Their integrated private cloud offerings and strategic focus on sovereign AI address critical market needs, enabling them to capture substantial value from organizations prioritizing data privacy and custom AI environments."
+  },
+  {
+    "name": "Meta Platforms, Inc.",
+    "ticker": "META",
+    "category": "direct",
+    "subCategory": "AI Platforms & Agents",
+    "moatScore": 8.5,
+    "tailwindScore": 9.0,
+    "baseReason": "Leveraging an unparalleled global user base (billions across WhatsApp, Facebook, Instagram) to deploy and monetize AI agents, backed by substantial investments in proprietary AI models and infrastructure, establishing a dominant position in the consumer and SMB AI agent market.",
+    "expertStrategy": "Invest in Meta Platforms for its strategic pivot to monetize AI directly through its ubiquitous communication channels like WhatsApp Business. The company's unique advantage lies in its massive user graph and data, allowing it to develop highly personalized and effective AI agents. The token-based charging model provides a clear revenue stream from AI usage, positioning META as a key beneficiary of the enterprise and consumer adoption of AI agents for engagement and automation."
+  }
+]
