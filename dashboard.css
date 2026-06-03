@@ -996,3 +996,67 @@ body::before {
         transform: scale(1) translateY(0);
     }
 }
+
+/* Mobile Responsive Styling */
+@media (max-width: 768px) {
+    .app-header {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 16px;
+        gap: 14px;
+        text-align: center;
+    }
+    
+    .brand {
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .brand-text h1 {
+        font-size: 18px;
+    }
+
+    .tagline {
+        font-size: 10px;
+    }
+
+    .header-controls {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    /* Hide redundant curator and status badges on mobile to prevent layout clutter */
+    .app-header .curator-badge:not(#welcome-visitor-badge) {
+        display: none !important;
+    }
+    
+    .status-badge {
+        display: none !important;
+    }
+
+    .refresh-indicator {
+        font-size: 10px;
+        align-items: center;
+        width: 100%;
+        margin-top: 4px;
+        border-top: 1px solid rgba(255,255,255,0.05);
+        padding-top: 8px;
+    }
+    
+    .refresh-indicator strong {
+        font-size: 11px;
+    }
+
+    #sync-now-btn, #chat-settings-btn {
+        padding: 8px 14px;
+        font-size: 11px;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
