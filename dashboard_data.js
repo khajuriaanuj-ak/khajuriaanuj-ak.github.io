@@ -1,6 +1,34 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-05T14:01:43.921602+00:00",
+  "last_updated": "2026-06-05T19:23:09.858998+00:00",
   "updates": [
+    {
+      "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
+      "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+      "description": "You can use the new console experience to browse and compare the latest AI models on Amazon Bedrock side by side, organize work into projects with streamlined evaluation workflows, and access project-aware documentation with auto-prefilled code snipp...",
+      "provider": "AWS",
+      "timestamp": "2026-06-05T19:15:11+00:00"
+    },
+    {
+      "title": "Enabling Evolutionary Database Development: database branching with Lakebase, continued",
+      "link": "https://www.databricks.com/blog/enabling-evolutionary-database-development-database-branching-lakebase-part-2",
+      "description": "This series revisits the methodolgy of Evolutionary Database Design, twenty years...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-05T13:35:15+00:00"
+    },
+    {
+      "title": "Data + AI Summit 2026: Insider’s Guide for Financial Services Leaders",
+      "link": "https://www.databricks.com/blog/data-ai-summit-2026-insiders-guide-financial-services-leaders",
+      "description": "Let's be honest: most industry conferences are a lot of badge-scanning and rubber...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-05T13:00:00+00:00"
+    },
+    {
+      "title": "The AWS MCP Server now supports cross-account and cross-role access",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+      "description": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS. This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multipl...",
+      "provider": "AWS",
+      "timestamp": "2026-06-05T07:00:00+00:00"
+    },
     {
       "title": "June 05, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_05_2026",
@@ -126,6 +154,13 @@ const DASHBOARD_DATA = {
       "description": "Azure Monitor now includes Service Level Indicators (SLIs) and Service Level Objectives (SLOs), giving teams a clearer way to measure how customers actually experience their applications. Instead of relying only on infrastructure signals like CPU or ...",
       "provider": "Azure",
       "timestamp": "2026-06-04T16:30:52+00:00"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+      "description": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, anim...",
+      "provider": "AWS",
+      "timestamp": "2026-06-04T16:13:00+00:00"
     },
     {
       "title": "3x Faster Search: Parallel Test-Time Scaling with Instructed-Retriever-1",
@@ -1297,11 +1332,25 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-06-02T19:00:47+00:00"
     },
     {
+      "title": "Agentic BI: A Practical Guide for BI Teams and Business Users",
+      "link": "https://www.databricks.com/blog/what-is-agentic-bi",
+      "description": "Agentic BI is reshaping how organizations move from raw data to business decisions...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-02T17:07:16+00:00"
+    },
+    {
       "title": "AWS Deadline Cloud now supports persistent storage for Service Managed Fleets",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/persistent-storage",
       "description": "AWS Deadline Cloud now supports persistent storage for Service-Managed Fleets (SMF), allowing you to maintain data across worker lifecycle events.&nbsp;AWS Deadline Cloud is a fully managed service that makes it easy for teams to run compute-intensiv...",
       "provider": "AWS",
       "timestamp": "2026-06-02T17:00:00+00:00"
+    },
+    {
+      "title": "Data Science vs Data Analytics: Compare Careers, Skills, and Degrees",
+      "link": "https://www.databricks.com/blog/data-science-vs-data-analytics",
+      "description": "Data science vs data analytics is one of the most frequently considered questions among working professionals...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-02T16:49:30+00:00"
     },
     {
       "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
@@ -10770,6 +10819,38 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Google will pay SpaceX $920M per month for compute",
+      "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "description": "The companies announced the deal on Friday, just one week ahead of SpaceX's historic IPO.",
+      "date": "Jun 05, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "The most interesting startups right now want to get you off your phone",
+      "link": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+      "description": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experience...",
+      "date": "Jun 05, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
+      "link": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+      "description": "\"The whole conversation shifted from tokenmaxxing and 'go fast' to 'we need guardrails, how do we control this?'\"",
+      "date": "Jun 05, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "The ‘together tech’ wave might be the most intriguing startup bet of 2026",
+      "link": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
+      "description": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experience...",
+      "date": "Jun 05, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
       "title": "AirTrunk commits $30B to build 5GW of AI data centers in India",
       "link": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
       "description": "The Australian data center operator plans to set up 5GW of capacity in India.",
@@ -10784,38 +10865,6 @@ const DASHBOARD_DATA = {
       "date": "Jun 05, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
-    },
-    {
-      "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
-      "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "description": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
-      "date": "Jun 04, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
-    },
-    {
-      "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
-      "link": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-      "description": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
-      "date": "Jun 04, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-      "link": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
-      "description": "On Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanc...",
-      "date": "Jun 04, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Meta steals a tactic from Tesla and builds data centers in tents",
-      "link": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
-      "description": "Meta may have found one way to slash its massive data center bill: tents.",
-      "date": "Jun 04, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
     }
   ],
   "sentiments": [
@@ -10824,7 +10873,7 @@ const DASHBOARD_DATA = {
       "score": 91,
       "status": "Bullish",
       "change": "▼ -2",
-      "reason": "Amazon Bedrock launches a redesigned console optimized for O...",
+      "reason": "Try the new console experience in Amazon Bedrock, optimized ...",
       "mentions": 2
     },
     {
@@ -10840,7 +10889,7 @@ const DASHBOARD_DATA = {
       "score": 90,
       "status": "Bullish",
       "change": "▼ -2",
-      "reason": "AI in Defense: How Artificial Intelligence Is Reshaping Nati...",
+      "reason": "Enabling Evolutionary Database Development: database branchi...",
       "mentions": 4
     },
     {
@@ -10848,7 +10897,7 @@ const DASHBOARD_DATA = {
       "score": 85,
       "status": "Bullish",
       "change": "▼ -1",
-      "reason": "Amazon Bedrock launches a redesigned console optimized for O...",
+      "reason": "Try the new console experience in Amazon Bedrock, optimized ...",
       "mentions": 2
     },
     {
@@ -10858,22 +10907,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Apple",
-      "score": 82,
-      "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "AI in Defense: How Artificial Intelligence Is Reshaping Nati...",
-      "mentions": 3
-    },
-    {
-      "company": "Microsoft",
-      "score": 81,
-      "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "[In preview] Public Preview: Voice sync for avatar support i...",
-      "mentions": 2
     },
     {
       "company": "Snowflake",
@@ -10888,194 +10921,210 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "June 05, 2026",
-      "mentions": 2
+      "reason": "Google will pay SpaceX $920M per month for compute",
+      "mentions": 1
     },
     {
       "company": "Meta",
       "score": 79,
       "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "Amazon SageMaker Data Agent integrates business context into...",
-      "mentions": 2
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Microsoft",
+      "score": 78,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Apple",
+      "score": 76,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 211.97,
-      "forwardPE": 16.71,
-      "trailingPE": 32.41,
-      "marketCap": 5134246477824,
+      "price": 205.04,
+      "forwardPE": 16.17,
+      "trailingPE": 31.35,
+      "marketCap": 4966273515520,
       "psRatio": null,
-      "dayChange": -3.06,
-      "rangePosition": 0.749,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -6.23,
+      "rangePosition": 0.678,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 368.5,
-      "forwardPE": 25.48,
-      "trailingPE": 28.13,
-      "marketCap": 4483304652800,
+      "price": 364.55,
+      "forwardPE": 25.21,
+      "trailingPE": 27.83,
+      "marketCap": 4435247366144,
       "psRatio": null,
-      "dayChange": -0.99,
-      "rangePosition": 0.837,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -2.05,
+      "rangePosition": 0.821,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 423.94,
-      "forwardPE": 21.91,
-      "trailingPE": 25.26,
-      "marketCap": 3149173620736,
+      "price": 415.16,
+      "forwardPE": 21.46,
+      "trailingPE": 24.74,
+      "marketCap": 3083989155840,
       "psRatio": null,
-      "dayChange": -0.96,
-      "rangePosition": 0.34,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -3.01,
+      "rangePosition": 0.296,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 252.2,
-      "forwardPE": 25.57,
-      "trailingPE": 31.45,
-      "marketCap": 2712942936064,
+      "price": 246.85,
+      "forwardPE": 25.03,
+      "trailingPE": 30.78,
+      "marketCap": 2655392628736,
       "psRatio": null,
-      "dayChange": -0.63,
-      "rangePosition": 0.681,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -2.73,
+      "rangePosition": 0.616,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 238.63,
-      "forwardPE": 89.61,
+      "price": 236.18,
+      "forwardPE": 88.69,
       "trailingPE": null,
-      "marketCap": 82709159936,
+      "marketCap": 81859985408,
       "psRatio": null,
-      "dayChange": -2.27,
-      "rangePosition": 0.722,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -3.28,
+      "rangePosition": 0.707,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 426.86,
-      "forwardPE": 21.86,
-      "trailingPE": 36.48,
-      "marketCap": 2213898092544,
+      "price": 413.88,
+      "forwardPE": 21.19,
+      "trailingPE": 35.37,
+      "marketCap": 2146577940480,
       "psRatio": null,
-      "dayChange": -4.06,
-      "rangePosition": 0.906,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -6.98,
+      "rangePosition": 0.854,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 403.14,
-      "forwardPE": 21.06,
-      "trailingPE": 67.3,
-      "marketCap": 1908734296064,
+      "price": 386.8,
+      "forwardPE": 20.14,
+      "trailingPE": 64.57,
+      "marketCap": 1831369572352,
       "psRatio": null,
-      "dayChange": -3.76,
-      "rangePosition": 0.638,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -7.67,
+      "rangePosition": 0.574,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1690.43,
-      "forwardPE": 35.09,
-      "trailingPE": 56.25,
-      "marketCap": 651521622016,
+      "price": 1646.32,
+      "forwardPE": 34.17,
+      "trailingPE": 54.79,
+      "marketCap": 634518831104,
       "psRatio": null,
-      "dayChange": -3.81,
-      "rangePosition": 0.95,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -6.32,
+      "rangePosition": 0.909,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 304.7,
-      "forwardPE": 34.48,
-      "trailingPE": 76.56,
-      "marketCap": 117039865856,
+      "price": 297.09,
+      "forwardPE": 33.62,
+      "trailingPE": 74.65,
+      "marketCap": 114114879488,
       "psRatio": null,
-      "dayChange": -5.93,
-      "rangePosition": 0.724,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -8.28,
+      "rangePosition": 0.696,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 156.22,
-      "forwardPE": 35.11,
-      "trailingPE": 53.68,
-      "marketCap": 196701143040,
+      "price": 152.96,
+      "forwardPE": 34.38,
+      "trailingPE": 52.56,
+      "marketCap": 192602554368,
       "psRatio": null,
-      "dayChange": -5.9,
-      "rangePosition": 0.75,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -7.86,
+      "rangePosition": 0.715,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 104.16,
-      "forwardPE": 67.41,
+      "price": 99.68,
+      "forwardPE": 64.51,
       "trailingPE": null,
-      "marketCap": 523483021312,
+      "marketCap": 500991655936,
       "psRatio": null,
-      "dayChange": -6.82,
-      "rangePosition": 0.749,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -10.83,
+      "rangePosition": 0.709,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 398.42,
-      "forwardPE": 18.68,
-      "trailingPE": 31.8,
-      "marketCap": 258798370816,
+      "price": 391.69,
+      "forwardPE": 18.36,
+      "trailingPE": 31.26,
+      "marketCap": 254432641024,
       "psRatio": null,
-      "dayChange": -5.6,
-      "rangePosition": 0.803,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -7.19,
+      "rangePosition": 0.784,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 50.28,
-      "forwardPE": 12.52,
-      "trailingPE": 46.99,
-      "marketCap": 66580951040,
+      "price": 49.0,
+      "forwardPE": 12.2,
+      "trailingPE": 45.79,
+      "marketCap": 64885043200,
       "psRatio": null,
-      "dayChange": -6.35,
-      "rangePosition": 0.701,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -8.74,
+      "rangePosition": 0.674,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 618.35,
-      "forwardPE": 17.1,
-      "trailingPE": 22.49,
-      "marketCap": 1569621278720,
+      "price": 589.44,
+      "forwardPE": 16.3,
+      "trailingPE": 21.44,
+      "marketCap": 1496248483840,
       "psRatio": null,
-      "dayChange": -1.47,
-      "rangePosition": 0.355,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -6.08,
+      "rangePosition": 0.251,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 289.14,
-      "forwardPE": 21.54,
-      "trailingPE": 25.61,
-      "marketCap": 271763128320,
+      "price": 282.47,
+      "forwardPE": 21.04,
+      "trailingPE": 25.02,
+      "marketCap": 265490350080,
       "psRatio": null,
-      "dayChange": -4.18,
-      "rangePosition": 0.639,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -6.4,
+      "rangePosition": 0.584,
+      "fetchedAt": "2026-06-05 07:23 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 2.86,
-      "forwardPE": 3.32,
+      "price": 2.79,
+      "forwardPE": 3.24,
       "trailingPE": null,
-      "marketCap": 151066752,
+      "marketCap": 147695392,
       "psRatio": null,
-      "dayChange": -0.74,
-      "rangePosition": 0.001,
-      "fetchedAt": "2026-06-05 02:01 PM"
+      "dayChange": -2.95,
+      "rangePosition": 0.004,
+      "fetchedAt": "2026-06-05 07:23 PM"
     }
   },
   "stocks_universe": [

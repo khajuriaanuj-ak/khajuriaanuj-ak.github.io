@@ -10764,5 +10764,54 @@
     "description": "Release v0.1.2",
     "provider": "Google Antigravity",
     "timestamp": "2026-06-04T21:31:55+00:00"
+  },
+  {
+    "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
+    "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+    "description": "You can use the new console experience to browse and compare the latest AI models on Amazon Bedrock side by side, organize work into projects with streamlined evaluation workflows, and access project-aware documentation with auto-prefilled code snipp...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T19:15:11+00:00"
+  },
+  {
+    "title": "The AWS MCP Server now supports cross-account and cross-role access",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+    "description": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS. This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multipl...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+    "description": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, anim...",
+    "provider": "AWS",
+    "timestamp": "2026-06-04T16:13:00+00:00"
+  },
+  {
+    "title": "Enabling Evolutionary Database Development: database branching with Lakebase, continued",
+    "link": "https://www.databricks.com/blog/enabling-evolutionary-database-development-database-branching-lakebase-part-2",
+    "description": "This series revisits the methodolgy of Evolutionary Database Design, twenty years...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-05T13:35:15+00:00"
+  },
+  {
+    "title": "Data + AI Summit 2026: Insider’s Guide for Financial Services Leaders",
+    "link": "https://www.databricks.com/blog/data-ai-summit-2026-insiders-guide-financial-services-leaders",
+    "description": "Let's be honest: most industry conferences are a lot of badge-scanning and rubber...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-05T13:00:00+00:00"
+  },
+  {
+    "title": "Agentic BI: A Practical Guide for BI Teams and Business Users",
+    "link": "https://www.databricks.com/blog/what-is-agentic-bi",
+    "description": "Agentic BI is reshaping how organizations move from raw data to business decisions...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-02T17:07:16+00:00"
+  },
+  {
+    "title": "Data Science vs Data Analytics: Compare Careers, Skills, and Degrees",
+    "link": "https://www.databricks.com/blog/data-science-vs-data-analytics",
+    "description": "Data science vs data analytics is one of the most frequently considered questions among working professionals...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-02T16:49:30+00:00"
   }
 ]
