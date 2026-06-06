@@ -10813,5 +10813,47 @@
     "description": "Data science vs data analytics is one of the most frequently considered questions among working professionals...",
     "provider": "Databricks",
     "timestamp": "2026-06-02T16:49:30+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+    "description": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over WebSocket. This complements the existing InvokeAge...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T22:25:00+00:00"
+  },
+  {
+    "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+    "description": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions across storage, catalog, and query engines in a single I...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T21:11:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+    "description": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights across data spanning managed domains and serverless co...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T20:40:00+00:00"
+  },
+  {
+    "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+    "description": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offers 32vCPU tasks with the follow...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T15:00:00+00:00"
+  },
+  {
+    "title": "June 06, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_06_2026",
+    "description": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-06T00:00:00-07:00"
+  },
+  {
+    "title": "Bring Databricks into Kiro IDE with the AI Dev Kit Power",
+    "link": "https://www.databricks.com/blog/bring-databricks-kiro-ide-ai-dev-kit-power",
+    "description": "Why this mattersAI-assisted development falls apart the moment the assistant has to guess at column names, table layouts...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-03T17:43:20+00:00"
   }
 ]

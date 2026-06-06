@@ -1,12 +1,47 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-05T19:23:09.858998+00:00",
+  "last_updated": "2026-06-06T16:47:16.868649+00:00",
   "updates": [
+    {
+      "title": "June 06, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_06_2026",
+      "description": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-06T00:00:00-07:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+      "description": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over WebSocket. This complements the existing InvokeAge...",
+      "provider": "AWS",
+      "timestamp": "2026-06-05T22:25:00+00:00"
+    },
+    {
+      "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+      "description": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions across storage, catalog, and query engines in a single I...",
+      "provider": "AWS",
+      "timestamp": "2026-06-05T21:11:00+00:00"
+    },
+    {
+      "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+      "description": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights across data spanning managed domains and serverless co...",
+      "provider": "AWS",
+      "timestamp": "2026-06-05T20:40:00+00:00"
+    },
     {
       "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
       "link": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
       "description": "You can use the new console experience to browse and compare the latest AI models on Amazon Bedrock side by side, organize work into projects with streamlined evaluation workflows, and access project-aware documentation with auto-prefilled code snipp...",
       "provider": "AWS",
       "timestamp": "2026-06-05T19:15:11+00:00"
+    },
+    {
+      "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+      "description": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offers 32vCPU tasks with the follow...",
+      "provider": "AWS",
+      "timestamp": "2026-06-05T15:00:00+00:00"
     },
     {
       "title": "Enabling Evolutionary Database Development: database branching with Lakebase, continued",
@@ -364,6 +399,13 @@ const DASHBOARD_DATA = {
       "description": "Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing three new execut...",
       "provider": "AWS",
       "timestamp": "2026-06-03T17:44:00+00:00"
+    },
+    {
+      "title": "Bring Databricks into Kiro IDE with the AI Dev Kit Power",
+      "link": "https://www.databricks.com/blog/bring-databricks-kiro-ide-ai-dev-kit-power",
+      "description": "Why this mattersAI-assisted development falls apart the moment the assistant has to guess at column names, table layouts...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-03T17:43:20+00:00"
     },
     {
       "title": "[In preview] Public Preview: Azure Infrastructure Resiliency Manager",
@@ -10819,12 +10861,28 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "Google will pay SpaceX $920M per month for compute",
-      "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
-      "description": "The companies announced the deal on Friday, just one week ahead of SpaceX's historic IPO.",
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "description": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "date": "Jun 06, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Startup Battlefield 200 applications officially close in 3 days",
+      "link": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "description": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
       "date": "Jun 05, 2026",
       "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
+      "trend": "General AI"
+    },
+    {
+      "title": "Google will pay SpaceX $920M per month for compute",
+      "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "description": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
+      "date": "Jun 05, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
     },
     {
       "title": "The most interesting startups right now want to get you off your phone",
@@ -10849,33 +10907,9 @@ const DASHBOARD_DATA = {
       "date": "Jun 05, 2026",
       "source": "TechCrunch AI",
       "trend": "Investment & Startup"
-    },
-    {
-      "title": "AirTrunk commits $30B to build 5GW of AI data centers in India",
-      "link": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
-      "description": "The Australian data center operator plans to set up 5GW of capacity in India.",
-      "date": "Jun 05, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Agents"
-    },
-    {
-      "title": "Mira Murati steps back into the spotlight, carefully",
-      "link": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
-      "description": "In the current environment, remaining heads down has diminishing returns; at some point, you have to make some noise just to remind the market you exist.",
-      "date": "Jun 05, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
     }
   ],
   "sentiments": [
-    {
-      "company": "Anthropic",
-      "score": 91,
-      "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Try the new console experience in Amazon Bedrock, optimized ...",
-      "mentions": 2
-    },
     {
       "company": "NVIDIA",
       "score": 91,
@@ -10885,20 +10919,28 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Databricks",
-      "score": 90,
+      "company": "Anthropic",
+      "score": 88,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Enabling Evolutionary Database Development: database branchi...",
-      "mentions": 4
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Google Cloud",
+      "score": 86,
+      "status": "Bullish",
+      "change": "▲ +1",
+      "reason": "June 06, 2026",
+      "mentions": 2
     },
     {
       "company": "OpenAI",
       "score": 85,
       "status": "Bullish",
       "change": "▼ -1",
-      "reason": "Try the new console experience in Amazon Bedrock, optimized ...",
-      "mentions": 2
+      "reason": "The Trump administration might take an equity stake in OpenA...",
+      "mentions": 1
     },
     {
       "company": "Groq",
@@ -10909,20 +10951,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
+      "company": "Databricks",
+      "score": 84,
+      "status": "Mixed",
+      "change": "▲ +2",
+      "reason": "Bring Databricks into Kiro IDE with the AI Dev Kit Power",
+      "mentions": 1
+    },
+    {
       "company": "Snowflake",
       "score": 81,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Google Cloud",
-      "score": 80,
-      "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Google will pay SpaceX $920M per month for compute",
-      "mentions": 1
     },
     {
       "company": "Meta",
@@ -10952,179 +10994,179 @@ const DASHBOARD_DATA = {
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 205.04,
+      "price": 205.1,
       "forwardPE": 16.17,
-      "trailingPE": 31.35,
-      "marketCap": 4966273515520,
+      "trailingPE": 31.46,
+      "marketCap": 4967727366144,
       "psRatio": null,
-      "dayChange": -6.23,
+      "dayChange": -6.2,
       "rangePosition": 0.678,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 364.55,
-      "forwardPE": 25.21,
-      "trailingPE": 27.83,
-      "marketCap": 4435247366144,
+      "price": 368.53,
+      "forwardPE": 25.48,
+      "trailingPE": 28.09,
+      "marketCap": 4494199357440,
       "psRatio": null,
-      "dayChange": -2.05,
-      "rangePosition": 0.821,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -0.98,
+      "rangePosition": 0.837,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 415.16,
-      "forwardPE": 21.46,
-      "trailingPE": 24.74,
-      "marketCap": 3083989155840,
+      "price": 416.67,
+      "forwardPE": 21.53,
+      "trailingPE": 24.82,
+      "marketCap": 3095206035456,
       "psRatio": null,
-      "dayChange": -3.01,
-      "rangePosition": 0.296,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -2.66,
+      "rangePosition": 0.303,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 246.85,
-      "forwardPE": 25.03,
-      "trailingPE": 30.78,
-      "marketCap": 2655392628736,
+      "price": 246.03,
+      "forwardPE": 24.94,
+      "trailingPE": 31.66,
+      "marketCap": 2646571745280,
       "psRatio": null,
-      "dayChange": -2.73,
-      "rangePosition": 0.616,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -3.06,
+      "rangePosition": 0.606,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 236.18,
-      "forwardPE": 88.69,
+      "price": 238.26,
+      "forwardPE": 89.15,
       "trailingPE": null,
-      "marketCap": 81859985408,
+      "marketCap": 82580914176,
       "psRatio": null,
-      "dayChange": -3.28,
-      "rangePosition": 0.707,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -2.42,
+      "rangePosition": 0.72,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 413.88,
-      "forwardPE": 21.19,
-      "trailingPE": 35.37,
-      "marketCap": 2146577940480,
+      "price": 415.17,
+      "forwardPE": 21.26,
+      "trailingPE": 35.58,
+      "marketCap": 2153268510720,
       "psRatio": null,
-      "dayChange": -6.98,
-      "rangePosition": 0.854,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -6.69,
+      "rangePosition": 0.859,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 386.8,
-      "forwardPE": 20.14,
-      "trailingPE": 64.57,
-      "marketCap": 1831369572352,
+      "price": 385.73,
+      "forwardPE": 19.96,
+      "trailingPE": 64.07,
+      "marketCap": 1826303639552,
       "psRatio": null,
-      "dayChange": -7.67,
-      "rangePosition": 0.574,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -7.92,
+      "rangePosition": 0.57,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1646.32,
-      "forwardPE": 34.17,
-      "trailingPE": 54.79,
-      "marketCap": 634518831104,
+      "price": 1641.74,
+      "forwardPE": 34.1,
+      "trailingPE": 54.65,
+      "marketCap": 632755585024,
       "psRatio": null,
-      "dayChange": -6.32,
-      "rangePosition": 0.909,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -6.59,
+      "rangePosition": 0.904,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 297.09,
-      "forwardPE": 33.62,
-      "trailingPE": 74.65,
-      "marketCap": 114114879488,
+      "price": 300.51,
+      "forwardPE": 34.01,
+      "trailingPE": 75.7,
+      "marketCap": 115428540416,
       "psRatio": null,
-      "dayChange": -8.28,
-      "rangePosition": 0.696,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -7.23,
+      "rangePosition": 0.709,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 152.96,
-      "forwardPE": 34.38,
-      "trailingPE": 52.56,
-      "marketCap": 192602554368,
+      "price": 154.27,
+      "forwardPE": 34.67,
+      "trailingPE": 52.83,
+      "marketCap": 194252062720,
       "psRatio": null,
-      "dayChange": -7.86,
-      "rangePosition": 0.715,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -7.07,
+      "rangePosition": 0.729,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 99.68,
-      "forwardPE": 64.51,
+      "price": 99.17,
+      "forwardPE": 64.18,
       "trailingPE": null,
-      "marketCap": 500991655936,
+      "marketCap": 498428411904,
       "psRatio": null,
-      "dayChange": -10.83,
-      "rangePosition": 0.709,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -11.28,
+      "rangePosition": 0.705,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 391.69,
-      "forwardPE": 18.36,
-      "trailingPE": 31.26,
-      "marketCap": 254432641024,
+      "price": 394.39,
+      "forwardPE": 18.65,
+      "trailingPE": 31.45,
+      "marketCap": 256183238656,
       "psRatio": null,
-      "dayChange": -7.19,
-      "rangePosition": 0.784,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -6.55,
+      "rangePosition": 0.792,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 49.0,
-      "forwardPE": 12.2,
-      "trailingPE": 45.79,
-      "marketCap": 64885043200,
+      "price": 49.2,
+      "forwardPE": 12.25,
+      "trailingPE": 45.98,
+      "marketCap": 65150812160,
       "psRatio": null,
-      "dayChange": -8.74,
-      "rangePosition": 0.674,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -8.36,
+      "rangePosition": 0.678,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 589.44,
-      "forwardPE": 16.3,
-      "trailingPE": 21.44,
-      "marketCap": 1496248483840,
+      "price": 593.0,
+      "forwardPE": 16.4,
+      "trailingPE": 21.55,
+      "marketCap": 1505284980736,
       "psRatio": null,
-      "dayChange": -6.08,
-      "rangePosition": 0.251,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -5.51,
+      "rangePosition": 0.264,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 282.47,
-      "forwardPE": 21.04,
-      "trailingPE": 25.02,
-      "marketCap": 265490350080,
+      "price": 284.84,
+      "forwardPE": 21.22,
+      "trailingPE": 25.18,
+      "marketCap": 267716935680,
       "psRatio": null,
-      "dayChange": -6.4,
-      "rangePosition": 0.584,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -5.61,
+      "rangePosition": 0.604,
+      "fetchedAt": "2026-06-06 04:47 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 2.79,
       "forwardPE": 3.24,
       "trailingPE": null,
-      "marketCap": 147695392,
+      "marketCap": 147431168,
       "psRatio": null,
-      "dayChange": -2.95,
-      "rangePosition": 0.004,
-      "fetchedAt": "2026-06-05 07:23 PM"
+      "dayChange": -3.13,
+      "rangePosition": 0.003,
+      "fetchedAt": "2026-06-06 04:47 PM"
     }
   },
   "stocks_universe": [
