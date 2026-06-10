@@ -11107,5 +11107,138 @@
     "description": "Today we’re launching Claude Fable 5: a Mythos-class1 model that we’ve made safe for general use.Fable 5’s capabilities exceed those of any model we’ve ever made generally available. It is state-of-the-art on nearly all tested benchmarks of AI capabi...",
     "provider": "Anthropic",
     "timestamp": "2026-06-08T16:00:00+00:00"
+  },
+  {
+    "title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
+    "link": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+    "description": "AWS launches Amazon EC2 M9g and M9gd instances, powered by AWS Graviton5 processors. AWS Graviton5 is most powerful, and most energy eﬃcient processor AWS has ever built, and oﬀers up to 25% better compute performance compared to Graviton4-based inst...",
+    "provider": "AWS",
+    "timestamp": "2026-06-10T15:04:30+00:00"
+  },
+  {
+    "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed AWS processors, delivering the best p...",
+    "provider": "AWS",
+    "timestamp": "2026-06-10T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x performance compared to P5en instances for AI training and...",
+    "provider": "AWS",
+    "timestamp": "2026-06-10T14:32:00+00:00"
+  },
+  {
+    "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+    "description": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. \nFSx Intelligent-Tiering is built for general-purpose file workloads...",
+    "provider": "AWS",
+    "timestamp": "2026-06-09T20:52:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
+    "description": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for interactive analytics and data engineering workloads. In ad...",
+    "provider": "AWS",
+    "timestamp": "2026-06-09T18:46:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
+    "description": "You can now create Amazon S3 Access Grants in the AWS European Sovereign Cloud (Germany) Region. \nAmazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in...",
+    "provider": "AWS",
+    "timestamp": "2026-06-09T17:14:00+00:00"
+  },
+  {
+    "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
+    "description": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth generation Intel...",
+    "provider": "AWS",
+    "timestamp": "2026-06-09T15:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
+    "description": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection and recovery to your Amazon EKS clusters in this n...",
+    "provider": "AWS",
+    "timestamp": "2026-06-09T10:00:00+00:00"
+  },
+  {
+    "title": "The AWS Command Line Interface (CLI) now supports the Agent Toolkit for AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cli-agent-toolkit/",
+    "description": "Today, AWS announced that the AWS Command Line Interface (CLI) allows users to install the Agent Toolkit for AWS&nbsp;across multiple coding agents with a simple interactive wizard. The Agent Toolkit for AWS gives coding agents the tools, guidance, a...",
+    "provider": "AWS",
+    "timestamp": "2026-06-05T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer launches real-time dashboard alerts from conversational analytics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer/",
+    "description": "Amazon Connect Customer now enables contact center supervisors to receive real-time alerts directly on the dashboard when specific keywords, phrases, or sentiment patterns are detected during live calls and chats, enabling faster intervention and imp...",
+    "provider": "AWS",
+    "timestamp": "2026-06-03T03:11:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Microsoft Entra server principals on Azure SQL Database",
+    "link": "https://azure.microsoft.com/updates?id=565154",
+    "description": "Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN ... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity with SQL logins for your Microsoft Entra identities....",
+    "provider": "Azure",
+    "timestamp": "2026-06-10T20:45:26+00:00"
+  },
+  {
+    "title": "Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL",
+    "link": "https://azure.microsoft.com/updates?id=558560",
+    "description": "As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will reach end of life.We encourage all customers to begin ...",
+    "provider": "Azure",
+    "timestamp": "2026-06-10T17:00:06+00:00"
+  },
+  {
+    "title": "Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026",
+    "link": "https://azure.microsoft.com/updates?id=565393",
+    "description": "The Azure VPN Client for Linux (Preview) has remained in public preview and does not have a path to general availability (GA). As part of our ongoing efforts to align Azure networking services with current security and reliability standards, this pre...",
+    "provider": "Azure",
+    "timestamp": "2026-06-10T16:15:16+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)",
+    "link": "https://azure.microsoft.com/updates?id=562637",
+    "description": "You can now use Agent mode for GitHub Copilot in SSMS to work with your database: investigating performance problems, tuning queries, reviewing maintenance and configuration, identifying security concerns, troubleshooting errors, and assisting with o...",
+    "provider": "Azure",
+    "timestamp": "2026-06-09T23:45:10+00:00"
+  },
+  {
+    "title": "AI Serving Platform That Adapts to Your Model",
+    "link": "https://www.databricks.com/blog/ai-serving-platform-adapts-your-model",
+    "description": "Challenges of Running Custom Model InferencesWhen you deploy a machine learning model to production...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-10T15:52:14+00:00"
+  },
+  {
+    "title": "Announcing the Databricks storage ecosystem: Governing the enterprise data estate, wherever it lives",
+    "link": "https://www.databricks.com/blog/announcing-databricks-storage-ecosystem-governing-enterprise-data-estate-wherever-it-lives",
+    "description": "The Data That Can't MoveFor years, the enterprise data strategy was simple: move...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-10T12:03:00+00:00"
+  },
+  {
+    "title": "Modern BSA/AML compliance on Databricks",
+    "link": "https://www.databricks.com/blog/modern-bsaaml-compliance-databricks",
+    "description": "The anti-money laundering (AML) function in financial services has historically been...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-10T00:45:01+00:00"
+  },
+  {
+    "title": "PRC-linked influence operations are targeting AI debates in the US",
+    "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+    "description": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-10T12:00:00+00:00"
+  },
+  {
+    "title": "From data to decisions: how LSEG is scaling trusted AI",
+    "link": "https://openai.com/index/lseg",
+    "description": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-10T00:00:00+00:00"
   }
 ]
