@@ -11604,5 +11604,19 @@
     "description": "Agentic AI has created demand for cross-source reasoning that didn't exist 12 months ago...",
     "provider": "Databricks",
     "timestamp": "2026-06-12T09:51:30+00:00"
+  },
+  {
+    "title": "June 13, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_13_2026",
+    "description": "Google SecOps\nFeature\nNon-prioritized IoC Matching rules Category\nGoogle SecOps has introduced a new detection category, Non-prioritized IoC Matching rules, as part of the Curated Detections feature. These rule sets integrate with Google's Indicators...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-13T00:00:00-07:00"
+  },
+  {
+    "title": "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents",
+    "link": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
+    "description": "At Databricks, we use and build agents extensively, from coding with them at scale...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-13T15:00:00+00:00"
   }
 ]

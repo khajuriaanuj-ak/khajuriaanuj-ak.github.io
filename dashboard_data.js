@@ -1,12 +1,26 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-13T04:41:42.714931+00:00",
+  "last_updated": "2026-06-13T17:54:15.582713+00:00",
   "updates": [
+    {
+      "title": "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents",
+      "link": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
+      "description": "At Databricks, we use and build agents extensively, from coding with them at scale...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-13T15:00:00+00:00"
+    },
     {
       "title": "From Wall Street to Data Platforms",
       "link": "https://www.databricks.com/blog/wall-street-data-platforms",
       "description": "Brickster Voices is a series that spotlights the people who make our work possible. Through personal career journeys...",
       "provider": "Databricks",
       "timestamp": "2026-06-13T00:30:00+00:00"
+    },
+    {
+      "title": "June 13, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_13_2026",
+      "description": "Google SecOps\nFeature\nNon-prioritized IoC Matching rules Category\nGoogle SecOps has introduced a new detection category, Non-prioritized IoC Matching rules, as part of the Curated Detections feature. These rule sets integrate with Google's Indicators...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-13T00:00:00-07:00"
     },
     {
       "title": "Amazon Lightsail is now available in three additional AWS Regions",
@@ -11610,6 +11624,14 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "OpenAI faces investigation from state attorneys general",
+      "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "description": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "date": "Jun 13, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
       "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
       "link": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
       "description": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
@@ -11648,14 +11670,6 @@ const DASHBOARD_DATA = {
       "date": "Jun 12, 2026",
       "source": "TechCrunch AI",
       "trend": "Enterprise Adoption"
-    },
-    {
-      "title": "Mistral is rumored to be raising €3B at €20B valuation",
-      "link": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-      "description": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
-      "date": "Jun 12, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
     }
   ],
   "sentiments": [
@@ -11666,6 +11680,14 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "OpenAI",
+      "score": 85,
+      "status": "Bullish",
+      "change": "▼ -1",
+      "reason": "OpenAI faces investigation from state attorneys general",
+      "mentions": 1
     },
     {
       "company": "Groq",
@@ -11680,16 +11702,8 @@ const DASHBOARD_DATA = {
       "score": 84,
       "status": "Mixed",
       "change": "▲ +2",
-      "reason": "Talk to all your data, wherever it lives",
+      "reason": "Introducing Omnigent: A Meta-Harness to Combine, Control and...",
       "mentions": 1
-    },
-    {
-      "company": "OpenAI",
-      "score": 82,
-      "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
     },
     {
       "company": "Snowflake",
@@ -11712,8 +11726,8 @@ const DASHBOARD_DATA = {
       "score": 79,
       "status": "Mixed",
       "change": "▲ +1",
-      "reason": "Meta’s months-old AI unit is a soul-crushing gulag, say the ...",
-      "mentions": 1
+      "reason": "Introducing Omnigent: A Meta-Harness to Combine, Control and...",
+      "mentions": 2
     },
     {
       "company": "Microsoft",
@@ -11736,8 +11750,8 @@ const DASHBOARD_DATA = {
       "score": 74,
       "status": "Mixed",
       "change": "▼ -1",
-      "reason": "Chinese cybercrime operation that used AI to scam ‘hundreds ...",
-      "mentions": 1
+      "reason": "June 13, 2026",
+      "mentions": 2
     }
   ],
   "valuations": {
@@ -11750,7 +11764,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.16,
       "rangePosition": 0.668,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -11761,18 +11775,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.53,
       "rangePosition": 0.802,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
       "price": 390.74,
       "forwardPE": 20.2,
-      "trailingPE": 23.29,
+      "trailingPE": 23.26,
       "marketCap": 2902586556416,
       "psRatio": null,
       "dayChange": 0.1,
       "rangePosition": 0.173,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -11783,7 +11797,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.23,
       "rangePosition": 0.515,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -11794,7 +11808,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.17,
       "rangePosition": 0.687,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -11805,7 +11819,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.68,
       "rangePosition": 0.892,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -11816,18 +11830,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.91,
       "rangePosition": 0.55,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1863.55,
-      "forwardPE": 38.94,
+      "forwardPE": 38.81,
       "trailingPE": 62.49,
       "marketCap": 718245134336,
       "psRatio": null,
       "dayChange": -1.89,
       "rangePosition": 0.967,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -11838,7 +11852,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.68,
       "rangePosition": 0.714,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -11849,7 +11863,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.37,
       "rangePosition": 0.824,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -11860,7 +11874,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.51,
       "rangePosition": 0.928,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -11871,7 +11885,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.05,
       "rangePosition": 0.794,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -11882,18 +11896,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.93,
       "rangePosition": 0.656,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
       "price": 566.98,
-      "forwardPE": 15.68,
+      "forwardPE": 15.64,
       "trailingPE": 20.62,
       "marketCap": 1439235178496,
       "psRatio": null,
       "dayChange": -0.26,
       "rangePosition": 0.169,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -11904,7 +11918,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.95,
       "rangePosition": 0.499,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -11915,7 +11929,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.32,
       "rangePosition": 0.017,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -11926,18 +11940,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.52,
       "rangePosition": 0.785,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
       "price": 127.99,
       "forwardPE": 61.7,
-      "trailingPE": 143.81,
+      "trailingPE": 142.21,
       "marketCap": 306831949824,
       "psRatio": null,
       "dayChange": -2.36,
       "rangePosition": 0.063,
-      "fetchedAt": "2026-06-13 04:41 AM"
+      "fetchedAt": "2026-06-13 05:54 PM"
     }
   },
   "stocks_universe": [
