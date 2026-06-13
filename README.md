@@ -28,6 +28,24 @@ If you want your dashboard to run daily cloud scraping runs to fetch new release
 
 ---
 
+## ⚙️ How the Settings & Secrets Flow Together
+
+The front-end dashboard includes an in-browser settings panel (accessible via the **Gear Icon ⚙️** in the chat header) that links everything together securely:
+
+### 🔑 Local Browser Settings (Stored in `localStorage`)
+These options are processed 100% in the visitor's local browser and are never uploaded, committed, or shared:
+- **Gemini API Key**: Used to chat directly with the AI assistant about any tech release. The browser sends HTTPS requests straight to Google's official Gemini endpoint.
+- **GitHub PAT (`actions:write` scope)**: Used by the **"Sync Now"** button to authenticate direct requests to the GitHub API and trigger a scraper run in the cloud.
+- **Recipient Email & Name**: Saved in browser local storage to personalize greetings and pre-configure the sync inputs.
+
+### 🔒 Repository Secrets (for Daily Cloud Scrapes)
+The daily background cron job runs on GitHub's secure runners and uses variables defined in your repository settings under **Actions Secrets**:
+- `GEMINI_API_KEY`: Used by the python aggregator running in the cloud to categorize and rank announcements.
+- `GOOGLE_SCRIPT_URL`: Used by the runner to dispatch daily summary emails securely via Google Web Apps.
+- `RECEIVER_EMAIL`: The target inbox address for daily summary emails.
+
+---
+
 ## 💻 Local Setup & Development
 
 If you'd like to run it on your local machine:
