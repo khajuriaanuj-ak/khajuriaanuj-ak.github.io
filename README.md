@@ -78,3 +78,32 @@ Configure your SMTP credentials in `config.json`:
    - A premium HTML email is dispatched to your inbox (via Apps Script or SMTP).
    - The agent prints a detailed notification.
 6. If no new updates are found, it exits silently without bothering you.
+
+## Self-Hosting & GitHub Pages
+
+You can easily host your own copy of this intelligence tracker on GitHub Pages by forking this repository.
+
+### 1. View-Only Dashboard (No Setup Required)
+If you just want to host and view the aggregated release histories statically:
+1. **Fork** this repository to your own GitHub account.
+2. Go to **Settings** > **Pages**.
+3. Under **Build and deployment**, set the **Source** to "Deploy from a branch", select `main` as the branch, `/ (root)` as the folder, and click **Save**.
+4. Your static dashboard will be live at:
+   `https://<your-github-username>.github.io/daily-updater/`
+   
+*No Personal Access Tokens or API keys are required to simply view the dashboard.*
+
+### 2. Enabling Automated Cloud Sync & Customizations
+If you want your fork to run the scraper automatically every day or allow manual syncs from the web UI:
+1. **Configure Repository Secrets**:
+   Go to your fork's **Settings** > **Secrets and variables** > **Actions** and create the following secrets:
+   - `GEMINI_API_KEY`: *(Required)* Your Google Gemini API Key (obtain a free key from [Google AI Studio](https://aistudio.google.com/)).
+   - `GOOGLE_SCRIPT_URL`: *(Optional)* Your deployed Google Apps Script Web App URL for routing summary emails.
+   - `RECEIVER_EMAIL`: *(Optional)* The email address where daily digests will be sent.
+2. **Web UI Manual Sync (Optional)**:
+   If you want to use the **"Sync Now"** button on your hosted GitHub Pages site to trigger a live run:
+   - Open your hosted dashboard and click the settings **Gear Icon (⚙️)** in the chat widget header.
+   - Under **GitHub Actions Sync Settings**, enter your repository path (`owner/repository`, e.g., `your-username/daily-updater`).
+   - Paste a **GitHub Personal Access Token (PAT)** with `actions:write` scope.
+   - *Security Note: Your PAT is stored securely in your browser's local storage (`localStorage`) and is only used to send direct, authenticated requests to GitHub's REST API. It is never transmitted to any third party.*
+

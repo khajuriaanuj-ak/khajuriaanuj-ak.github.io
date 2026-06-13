@@ -1976,6 +1976,7 @@ window.addEventListener('DOMContentLoaded', () => {
     renderStockRecommendations();
     initControls();
     handleVisitorPersonalization();
+    handleOnboarding();
 });
 
 // Personalize based on stored visitor_name, URL parameter, or HTTP Referrer (e.g. linkedin.com)
@@ -2088,5 +2089,77 @@ function handleVisitorPersonalization() {
         }
     } catch (e) {
         console.warn('Personalization failed:', e);
+    }
+}
+
+// Onboarding Overlay to ask for name and optional email on first load
+function handleOnboarding() {
+    try {
+        const onboardingModal = document.getElementById('onboarding-modal');
+        const onboardingNameInput = document.getElementById('onboarding-name-input');
+        const onboardingEmailInput = document.getElementById('onboarding-email-input');
+        const onboardingSubmitBtn = document.getElementById('onboarding-submit-btn');
+
+        if (!onboardingModal || !onboardingSubmitBtn) return;
+
+        // Determine if visitor_name is already present (or ?visitor parameter is set, which auto-sets visitor_name)
+        const storedName = safeStorage.getItem('visitor_name');
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlVisitor = urlParams.get('visitor') || urlParams.get('name') || urlParams.get('u');
+
+        if (storedName || urlVisitor) {
+            // Already onboarded or personalized via link
+            onboardingModal.classList.remove('active');
+            return;
+        }
+
+        // Show onboarding modal
+        onboardingModal.classList.add('active');
+
+        // Focus on name input
+        if (onboardingNameInput) {
+            setTimeout(() => onboardingNameInput.focus(), 300);
+        }
+
+        // Submit handler
+        onboardingSubmitBtn.addEventListener('click', () => {
+            const name = onboardingNameInput ? onboardingNameInput.value.trim() : '';
+            const email = onboardingEmailInput ? onboardingEmailInput.value.trim() : '';
+
+            if (!name) {
+                alert('Please enter your name or initials to personalize the dashboard!');
+                if (onboardingNameInput) onboardingNameInput.focus();
+                return;
+            }
+
+            if (safeStorage.isAvailable) {
+                safeStorage.setItem('visitor_name', name);
+                if (email) {
+                    safeStorage.setItem('receiver_email', email);
+                }
+            }
+
+            // Sync settings panel values with onboarding values
+            const visitorNameInput = document.getElementById('visitor-name-input');
+            const receiverEmailInput = document.getElementById('receiver-email-input');
+            if (visitorNameInput) visitorNameInput.value = name;
+            if (receiverEmailInput) receiverEmailInput.value = email;
+
+            // Hide modal and update greeting badge
+            onboardingModal.classList.remove('active');
+            handleVisitorPersonalization();
+        });
+
+        // Also allow submitting on Enter key inside inputs
+        const handleKeyPress = (e) => {
+            if (e.key === 'Enter') {
+                onboardingSubmitBtn.click();
+            }
+        };
+        if (onboardingNameInput) onboardingNameInput.addEventListener('keypress', handleKeyPress);
+        if (onboardingEmailInput) onboardingEmailInput.addEventListener('keypress', handleKeyPress);
+
+    } catch (e) {
+        console.warn('Onboarding check failed:', e);
     }
 }
