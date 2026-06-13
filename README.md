@@ -8,19 +8,23 @@ An elegant, automated daily intelligence system that tracks, aggregates, and rep
 
 You can launch your own self-hosted tracker in under a minute:
 
-### 1. View-Only Dashboard (No Config Required)
+### 1. Simple Interactive Tracker (Zero Complex Setup)
+If you only want to view the aggregated releases and interact with the AI assistant:
 1. **Fork** this repository.
 2. Go to **Settings** > **Pages** and set the deployment source to build from the `main` branch.
-3. Your live dashboard is now hosted at:
-   `https://<your-username>.github.io/daily-updater/`
+3. Open your live dashboard link: `https://<your-username>.github.io/daily-updater/`
+4. Enter your name and optional receiver email on the onboarding screen.
+5. **AI Assistant Chat**: Click the Settings **Gear Icon (⚙️)** in the chat widget header and paste a free **Gemini API Key** from [Google AI Studio](https://aistudio.google.com/). You can now chat with the AI assistant to summarize, explain, or answer questions about any release!
 
-### 2. Enable Daily Scraping & Email Summaries
-To automate daily runs or enable manual triggers from the website:
-1. **Create Secrets**: In your fork under **Settings** > **Secrets and variables** > **Actions**, add:
-   - `GEMINI_API_KEY`: *(Required)* Obtain a free API key from [Google AI Studio](https://aistudio.google.com/).
-   - `GOOGLE_SCRIPT_URL`: *(Optional)* Deployed Google Apps Script URL to receive email summaries.
+*No GitHub Personal Access Tokens or cloud workflow settings are required for this mode.*
+
+### 2. Live Cloud Scraper & Auto-Sync
+If you want your dashboard to run daily cloud scraping runs to fetch new releases:
+1. **Configure Repository Secrets**: In your fork under **Settings** > **Secrets and variables** > **Actions**, add:
+   - `GEMINI_API_KEY`: *(Required)* Your Google Gemini API Key.
+   - `GOOGLE_SCRIPT_URL`: *(Optional)* Your deployed Google Apps Script URL to receive daily email summaries.
    - `RECEIVER_EMAIL`: *(Optional)* Recipient email address.
-2. **Setup manual trigger (Optional)**: Click the **Gear icon (⚙️)** in the dashboard chat header to configure your repository name and a **GitHub Personal Access Token (PAT)** with `actions:write` scope. This allows you to trigger the scraper in the cloud with one click.
+2. **Setup "Sync Now" UI Button (Optional)**: Click the **Gear icon (⚙️)** in the dashboard chat header to configure your repository name (e.g. `your-username/daily-updater`) and a **GitHub Personal Access Token (PAT)** with `actions:write` scope. This lets you trigger scraping runs in the cloud directly from the hosted webpage.
 
 ---
 
