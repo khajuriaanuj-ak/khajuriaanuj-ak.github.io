@@ -1,6 +1,13 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-13T17:54:15.582713+00:00",
+  "last_updated": "2026-06-14T18:01:50.843545+00:00",
   "updates": [
+    {
+      "title": "June 14, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_14_2026",
+      "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is being rolled out to the first phase of regions as listed here.\nThis release contains internal and customer bug fixes.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-14T00:00:00-07:00"
+    },
     {
       "title": "Introducing Omnigent: A Meta-Harness to Combine, Control and Share Your Agents",
       "link": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
@@ -11624,52 +11631,52 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "As AI companies race to go public, who else is along for the ride?",
+      "link": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "description": "Startups are trying to \"ride that SpaceX IPO wave.\"",
+      "date": "Jun 14, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "description": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+      "date": "Jun 14, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "description": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "date": "Jun 14, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "link": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "description": "Once again, AI proves to be an unreliable source of information about AI.",
+      "date": "Jun 13, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "description": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "date": "Jun 13, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
       "title": "OpenAI faces investigation from state attorneys general",
       "link": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
       "description": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
       "date": "Jun 13, 2026",
       "source": "TechCrunch AI",
       "trend": "Investment & Startup"
-    },
-    {
-      "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
-      "link": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
-      "description": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
-      "date": "Jun 13, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
-      "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-      "description": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
-      "date": "Jun 13, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Security"
-    },
-    {
-      "title": "SpaceX IPO: Live updates on everything you need to know",
-      "link": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
-      "description": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration ...",
-      "date": "Jun 12, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
-    },
-    {
-      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
-      "link": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-      "description": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
-      "date": "Jun 12, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
-      "link": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
-      "description": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
-      "date": "Jun 12, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Enterprise Adoption"
     }
   ],
   "sentiments": [
@@ -11680,6 +11687,14 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "Anthropic",
+      "score": 85,
+      "status": "Bullish",
+      "change": "▲ +2",
+      "reason": "As Anthropic suspends access to new models, India debates it...",
+      "mentions": 2
     },
     {
       "company": "OpenAI",
@@ -11701,9 +11716,9 @@ const DASHBOARD_DATA = {
       "company": "Databricks",
       "score": 84,
       "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "Introducing Omnigent: A Meta-Harness to Combine, Control and...",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Snowflake",
@@ -11714,11 +11729,11 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Anthropic",
-      "score": 79,
+      "company": "Google Cloud",
+      "score": 80,
       "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "Anthropic’s safety warnings may have just backfired — the go...",
+      "change": "▬ Stable",
+      "reason": "June 14, 2026",
       "mentions": 1
     },
     {
@@ -11726,8 +11741,8 @@ const DASHBOARD_DATA = {
       "score": 79,
       "status": "Mixed",
       "change": "▲ +1",
-      "reason": "Introducing Omnigent: A Meta-Harness to Combine, Control and...",
-      "mentions": 2
+      "reason": "Meta reportedly moves to unwind $2B Manus deal after Beijing...",
+      "mentions": 1
     },
     {
       "company": "Microsoft",
@@ -11744,14 +11759,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Google Cloud",
-      "score": 74,
-      "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "June 13, 2026",
-      "mentions": 2
     }
   ],
   "valuations": {
@@ -11764,7 +11771,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.16,
       "rangePosition": 0.668,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -11775,7 +11782,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.53,
       "rangePosition": 0.802,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -11786,7 +11793,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.1,
       "rangePosition": 0.173,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -11797,7 +11804,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.23,
       "rangePosition": 0.515,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -11808,7 +11815,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.17,
       "rangePosition": 0.687,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -11819,7 +11826,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.68,
       "rangePosition": 0.892,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -11830,18 +11837,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.91,
       "rangePosition": 0.55,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1863.55,
-      "forwardPE": 38.81,
+      "forwardPE": 38.82,
       "trailingPE": 62.49,
       "marketCap": 718245134336,
       "psRatio": null,
       "dayChange": -1.89,
       "rangePosition": 0.967,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -11852,7 +11859,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.68,
       "rangePosition": 0.714,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -11863,7 +11870,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.37,
       "rangePosition": 0.824,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -11874,7 +11881,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.51,
       "rangePosition": 0.928,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -11885,7 +11892,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.05,
       "rangePosition": 0.794,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -11896,7 +11903,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.93,
       "rangePosition": 0.656,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -11907,7 +11914,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.26,
       "rangePosition": 0.169,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -11918,7 +11925,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.95,
       "rangePosition": 0.499,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -11929,7 +11936,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.32,
       "rangePosition": 0.017,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -11940,7 +11947,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.52,
       "rangePosition": 0.785,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -11951,7 +11958,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.36,
       "rangePosition": 0.063,
-      "fetchedAt": "2026-06-13 05:54 PM"
+      "fetchedAt": "2026-06-14 06:01 PM"
     }
   },
   "stocks_universe": [
