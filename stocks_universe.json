@@ -188,5 +188,25 @@
     "tailwindScore": 8.5,
     "baseReason": "Palantir provides proprietary software platforms specializing in integrating vast, disparate, and often sensitive datasets from various sources, enabling sophisticated analytics and AI-driven decision-making, which is crucial for cross-source reasoning for agentic AI.",
     "expertStrategy": "Palantir is exceptionally positioned to capitalize on the demand for operationalizing agentic AI within large enterprises and governments. Its Foundry and Gotham platforms provide the unique capability to unify and reason over complex, multi-source data landscapes, empowering AI agents with comprehensive intelligence for critical decision-making, thereby enabling large-scale, secure AI adoption."
+  },
+  {
+    "name": "Palo Alto Networks, Inc.",
+    "ticker": "PANW",
+    "category": "infra",
+    "subCategory": "Cybersecurity for AI Infrastructure",
+    "moatScore": 7.5,
+    "tailwindScore": 8.0,
+    "baseReason": "Provides critical cybersecurity solutions, including advanced DNS security and AI-enhanced threat detection, essential for securing cloud-based AI workloads, data, and applications.",
+    "expertStrategy": "Palo Alto Networks is uniquely positioned to capitalize on the increasing cybersecurity demands driven by widespread AI adoption, offering essential protection for enterprise AI deployments and cloud services, thereby safeguarding the entire AI value chain."
+  },
+  {
+    "name": "Salesforce, Inc.",
+    "ticker": "CRM",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software & Agent Platforms",
+    "moatScore": 8.5,
+    "tailwindScore": 9.0,
+    "baseReason": "As the leading enterprise CRM platform, Salesforce is strategically embedding generative AI and AI agents into its core products and enabling businesses to build, deploy, and manage custom AI solutions directly within their operational workflows.",
+    "expertStrategy": "Salesforce is leveraging its vast enterprise footprint and customer relationships to become a pivotal enabler of AI transformation, integrating advanced AI agents and automation directly into critical business operations, representing a high-growth and strategically indispensable play in enterprise AI software."
   }
 ]
