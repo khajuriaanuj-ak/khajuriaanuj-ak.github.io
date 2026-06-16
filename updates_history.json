@@ -11765,5 +11765,187 @@
     "description": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
     "provider": "OpenAI",
     "timestamp": "2026-06-14T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform for mainframe now delivers a traceable reimagine workflow",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mainframe-traceable-reimagine-workflow/",
+    "description": "AWS Transform for mainframe now delivers a connected, traceable reimagine experience from assessment through code generation. Previously, modernizing mainframe applications required months of analysis across multiple tools for discovery, reverse engi...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T18:29:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/",
+    "description": "Amazon Redshift is expanding the general availability of RG instances — powered by AWS Graviton processors — to three additional AWS Regions: Africa (Cape Town), Asia Pacific (Bangkok), and Mexico (Central). Amazon Redshift's new Graviton-based RG in...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T16:10:00+00:00"
+  },
+  {
+    "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview",
+    "description": "Today, AWS announces the public preview of AWS Blocks, an open-source TypeScript framework for application developers who want backend capabilities on AWS removing the need to learn infrastructure tools. AWS Blocks runs a fully functional local envir...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T15:49:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central agents now accelerate co-selling on every deal",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/accelerate-co-selling-with-agents/",
+    "description": "Starting today, AWS Partner Central agents qualify every co-sell opportunity in real time and make recommendations that drive AWS engagement and accelerate deal progression. Building on the AWS Partner Central agents released on March 16, 2026, the a...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T13:00:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace announces AI-assisted product listing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ai-assisted-product-listing/",
+    "description": "Today, AWS Marketplace announces AI-assisted product listing in Partner Assistant chat, helping Independent Software Vendors (ISVs) and Consulting Partners create high-quality product listings on AWS Marketplace using their existing digital assets. T...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T12:30:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central now validates Foundational Technical Review in minutes",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central-foundational-technical-review/",
+    "description": "AWS Partner Central now accepts SOC 2 Type II audit reports or AWS Well-Architected Framework Reviews (WAFR) reports to complete Foundational Technical Review (FTR) in minutes. This streamlined process with AI-powered validation provides AWS partners...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace Storefront is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
+    "description": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T04:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+    "description": "Today, AWS announced the public preview of a new storage migration capability for AWS Transform that enables customers to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), in addition...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T04:00:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central/",
+    "description": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step required to be ready to sell with AWS, from profile set...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T04:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 P6-B200 instances are now available in the Asia Pacific (Mumbai) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-mumbai/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in Asia Pacific (Mumbai) Region. These instances offer up to 2x performance compared to P5en instances for AI training and ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-16T03:08:00+00:00"
+  },
+  {
+    "title": "AWS Management Console Private Access now works without internet connectivity",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+    "description": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security contr...",
+    "provider": "AWS",
+    "timestamp": "2026-06-15T23:00:00+00:00"
+  },
+  {
+    "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+    "description": "Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI applications across reasoning, agentic, and enterp...",
+    "provider": "AWS",
+    "timestamp": "2026-06-15T20:04:00+00:00"
+  },
+  {
+    "title": "June 16, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_16_2026",
+    "description": "Cloud SDK\nBreaking\n573.0.0 (2026-06-16)\nBreaking Changes\n\n(Anthos Multi-Cloud) Deprecated gcloud container attached clusters get-credentials.\nUse gcloud container fleet memberships get-credentials to get credentials\nfor a running Attached cluster.\n\nG...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-16T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: New project templates and template gallery for Azure Functions in VS Code",
+    "link": "https://azure.microsoft.com/updates?id=562497",
+    "description": "The Azure Functions extension for VS Code now provides a redesigned Create New Project experience in public preview, featuring a rich, visual template gallery that replaces the multi-step Quick Pick wizard with a searchable, filterable view of projec...",
+    "provider": "Azure",
+    "timestamp": "2026-06-16T19:00:15+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Log Analytics Summary Rules experience",
+    "link": "https://azure.microsoft.com/updates?id=562027",
+    "description": "A new Azure portal experience for Summary Rules in Log Analytics is now available. Summary Rules enable aggregation of high-volume log data at a defined cadence and store it in summarized tables for improved query performance, reporting, or enhanced ...",
+    "provider": "Azure",
+    "timestamp": "2026-06-16T17:15:28+00:00"
+  },
+  {
+    "title": "What is data pipeline architecture?",
+    "link": "https://www.databricks.com/blog/what-is-data-pipeline-architecture",
+    "description": "Data pipeline architecture is the end-to-end design of how data is collected, processed,...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T21:23:03+00:00"
+  },
+  {
+    "title": "Enabling Governed Vibe Coding for Enterprise Apps on Databricks",
+    "link": "https://www.databricks.com/blog/enabling-governed-vibe-coding-enterprise-apps-databricks",
+    "description": "Vibe coding needs context and control to work in the enterpriseThe rise of coding agents has been hard to miss...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T18:00:00+00:00"
+  },
+  {
+    "title": "Introducing OpenSharing: the Next Evolution of Delta Sharing for the Agentic Era",
+    "link": "https://www.databricks.com/blog/introducing-opensharing-next-evolution-delta-sharing-agentic-era",
+    "description": "When Databricks pioneered Delta Sharing in 2021, we set out to solve a problem that...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T17:40:35+00:00"
+  },
+  {
+    "title": "Announcing Apps on Databricks Marketplace",
+    "link": "https://www.databricks.com/blog/announcing-apps-databricks-marketplace",
+    "description": "Data intelligence is reshaping how organizations turn data into outcomes. Teams no...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T17:30:24+00:00"
+  },
+  {
+    "title": "Introducing OpenSharing SecureConnect",
+    "link": "https://www.databricks.com/blog/introducing-opensharing-secureconnect",
+    "description": "OpenSharing makes it simple to share live data across organizations — but when provider...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T17:18:56+00:00"
+  },
+  {
+    "title": "Sciene AI Companion: building an autonomous Customer Success platform on Databricks",
+    "link": "https://www.databricks.com/blog/sciene-ai-companion-building-autonomous-customer-success-platform-databricks",
+    "description": "Sciene develops AI products that standardize and scale high-volume, relationship-centered...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T14:29:06+00:00"
+  },
+  {
+    "title": "What’s new with Unity Catalog at Data + AI Summit 2026",
+    "link": "https://www.databricks.com/blog/whats-new-unity-catalog-data-ai-summit-2026",
+    "description": "The agentic era is here. Hundreds of thousands of agents are now acting on enterprise...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T13:25:00+00:00"
+  },
+  {
+    "title": "AI governance at Data + AI Summit 2026: What’s new with Unity AI Gateway",
+    "link": "https://www.databricks.com/blog/ai-governance-data-ai-summit-2026-whats-new-unity-ai-gateway",
+    "description": "AI is becoming increasingly multi-model, multi-agent, and multi-vendor. Developers...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T13:25:00+00:00"
+  },
+  {
+    "title": "Agent Bricks: Data + AI Summit 2026",
+    "link": "https://www.databricks.com/blog/agent-bricks-dais-2026",
+    "description": "Last year at the Data + AI Summit, we launched Agent Bricks, ushering in a new way...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T13:25:00+00:00"
+  },
+  {
+    "title": "Announcing Lakebase Search: agent-native retrieval built into Lakebase Postgres",
+    "link": "https://www.databricks.com/blog/announcing-lakebase-search-agent-native-retrieval-built-lakebase-postgres",
+    "description": "Today, we're introducing Lakebase Search: hybrid vector and full-text retrieval built...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-16T12:45:00+00:00"
+  },
+  {
+    "title": "Predicting model behavior before release by simulating deployment",
+    "link": "https://openai.com/index/deployment-simulation",
+    "description": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-16T00:00:00+00:00"
   }
 ]
