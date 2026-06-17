@@ -1,12 +1,264 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-16T22:01:54.101289+00:00",
+  "last_updated": "2026-06-17T20:36:39.958853+00:00",
   "updates": [
+    {
+      "title": "Databricks and NVIDIA: Building for the Agentic Era",
+      "link": "https://www.databricks.com/blog/databricks-and-nvidia-building-agentic-era",
+      "description": "The Full Stack of AI, AcceleratedNVIDIA accelerated computing powers some of the...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T19:50:00+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
+      "link": "https://azure.microsoft.com/updates?id=566145",
+      "description": "Azure Migrate now integrates with GitHub Copilot\nModernization (public preview) to deliver at scale code insights. This capability brings\ntogether Azure Migrate’s portfolio-level discovery and assessment with GitHub\nCopilot’s context-aware code analy...",
+      "provider": "Azure",
+      "timestamp": "2026-06-17T18:00:18+00:00"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Databricks native read access to Microsoft OneLake",
+      "link": "https://azure.microsoft.com/updates?id=565733",
+      "description": "Azure Databricks now supports native read access to data stored in Microsoft OneLake through Unity Catalog. This capability is generally available. Customers can query and analyze data directly in OneLake without moving or copying data, enabling fast...",
+      "provider": "Azure",
+      "timestamp": "2026-06-17T18:00:18+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Databricks natively storing data in Microsoft OneLake",
+      "link": "https://azure.microsoft.com/updates?id=565706",
+      "description": "Azure Databricks can now natively write managed Delta tables to Microsoft OneLake. This capability enables customers to use OneLake as a unified storage layer for Azure Databricks workloads without managing separate storage accounts. By storing data ...",
+      "provider": "Azure",
+      "timestamp": "2026-06-17T18:00:18+00:00"
+    },
+    {
+      "title": "[Launched] Generally Available: ICMP Support for Azure Standard V2 NAT Gateway",
+      "link": "https://azure.microsoft.com/updates?id=565487",
+      "description": "Azure\nStandardV2 NAT Gateway now supports outbound ICMP Echo Request and Echo Reply\ntraffic, enabling customers to use tools such as ping to quickly validate\noutbound connectivity and troubleshoot network issues from workloads behind\nStandardV2 NAT G...",
+      "provider": "Azure",
+      "timestamp": "2026-06-17T16:30:04+00:00"
+    },
+    {
+      "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
+      "description": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for complex multi-step queries—all...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T15:09:20+00:00"
+    },
+    {
+      "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+      "description": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can focus on building agents instea...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T15:00:11+00:00"
+    },
+    {
+      "title": "AWS DevOps Agent adds release management capability (preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
+      "description": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence. With this addition, AWS DevOps...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T15:00:00+00:00"
+    },
+    {
+      "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
+      "description": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of February 28, 2027. This applies to Aurora MySQL ver...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T15:00:00+00:00"
+    },
+    {
+      "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+      "link": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+      "description": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale.",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T14:58:00+00:00"
+    },
+    {
+      "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+      "description": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence.",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T14:57:34+00:00"
+    },
+    {
+      "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
+      "link": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
+      "description": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP — letting developers run security reviews and fix i...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T14:54:55+00:00"
+    },
+    {
+      "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
+      "description": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA ConnectX-7 (CX7) network interface cards, delivering u...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T14:30:00+00:00"
+    },
+    {
+      "title": "The Partner Well-Architected Framework: What's New and What's Next",
+      "link": "https://www.databricks.com/blog/partner-well-architected-framework-whats-new-and-whats-next",
+      "description": "In February, we launched the Partner Well-Architected Framework (PWAF), moving our...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T12:59:26+00:00"
+    },
+    {
+      "title": "What’s coming next to Free Edition",
+      "link": "https://www.databricks.com/blog/whats-coming-next-free-edition",
+      "description": "Today, more people than ever want to learn data and AI so we're expanding what they...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T12:45:16+00:00"
+    },
+    {
+      "title": "Becoming the most comprehensive data & AI ecosystem on earth",
+      "link": "https://www.databricks.com/blog/becoming-most-comprehensive-data-ai-ecosystem-earth",
+      "description": "All in all, we’re just another brick in the wallAs I complete my first year at Databricks,...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T12:45:00+00:00"
+    },
+    {
+      "title": "Design Beautiful Dashboards in AI/BI",
+      "link": "https://www.databricks.com/blog/design-beautiful-dashboards-aibi",
+      "description": "IntroductionEvery company has a brand identity that reflects what it stands for,...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T12:40:41+00:00"
+    },
+    {
+      "title": "What’s new in Genie Code at Data + AI Summit 2026",
+      "link": "https://www.databricks.com/blog/whats-new-genie-code-data-ai-summit-2026",
+      "description": "Genie Code helps data and ML teams build and improve systems faster on Databricks. Over the past year...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T12:40:08+00:00"
+    },
+    {
+      "title": "What’s new in Databricks Platform security and compliance at Data + AI Summit 2026",
+      "link": "https://www.databricks.com/blog/whats-new-databricks-platform-security-and-compliance-data-ai-summit-2026",
+      "description": "As organizations scale data and AI, security and compliance teams face the challenge...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T12:40:00+00:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
+      "description": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon ...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T12:00:00+00:00"
+    },
+    {
+      "title": "AgentCore harness in now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+      "description": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T12:00:00+00:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
+      "description": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashb...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T12:00:00+00:00"
+    },
+    {
+      "title": "Building an open ecosystem for AI governance with Unity AI Gateway",
+      "link": "https://www.databricks.com/blog/building-open-ecosystem-ai-governance-unity-ai-gateway",
+      "description": "As organizations move AI from experimentation to production, governance requirements...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T10:00:00+00:00"
+    },
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "description": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-17T10:00:00+00:00"
+    },
+    {
+      "title": "What’s New in the AI Platform: Agents for ML Engineering, Our Deep Learning Platform, and New Capabilities for Real-Time ML",
+      "link": "https://www.databricks.com/blog/whats-new-ai-platform-agents-ml-engineering-our-deep-learning-platform-and-new-capabilities",
+      "description": "There’s never been a more dynamic, exciting time to be building your own AI models...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T08:44:14+00:00"
+    },
+    {
+      "title": "Introducing AWS Continuum for security at machine speed",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/",
+      "description": "Today, AWS announces AWS Continuum, which&nbsp;discovers, prioritizes, validates, and remediates security risks at machine speed within guardrails you define. Frontier models have made finding software vulnerabilities faster and cheaper, but the hard...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T07:00:00+00:00"
+    },
+    {
+      "title": "Amazon Bedrock Managed Knowledge Base is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/",
+      "description": "Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service, is now generally available. With Managed Knowledge Base, developers can build production-ready AI agents grounded in enterprise data without managing...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T05:00:00+00:00"
+    },
+    {
+      "title": "AWS Security Agent announces support for Threat Modeling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-agent-threat-modeling/",
+      "description": "AWS Security Agent (now part of AWS Continuum) now includes threat modeling, an AI-powered agentic capability that automatically generates threat models for your applications. Available today in public preview, AWS Security Agent analyzes your design...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T04:00:00+00:00"
+    },
+    {
+      "title": "AWS Security Agent adds Kiro Power, Claude Code, simulated validations and new integrations support",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-kiro-power-claude-code/",
+      "description": "AWS Security Agent (now part of AWS Continuum) adds support for Kiro and Claude Code, enabling developers to trigger security scans directly from their development environment. AWS Security Agent now also validates code scanner findings by simulating...",
+      "provider": "AWS",
+      "timestamp": "2026-06-17T04:00:00+00:00"
+    },
+    {
+      "title": "Introducing the Agentic CDP: A New Species of CDP for a New Era of Agents",
+      "link": "https://www.databricks.com/blog/what-is-an-agentic-cdp",
+      "description": "Marketing technology has seen plenty of change over the past few decades. But what...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-17T01:14:58+00:00"
+    },
+    {
+      "title": "June 17, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_17_2026",
+      "description": "Google Cloud Contact Center as a Service\nFixed\nThis release addresses the following issues:\n\nFixed a Kustomer issue where Agent Assist transcripts were\ndelivered to the CRM as file attachments instead of timeline notes.\nFixed an issue where the In Pr...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-17T00:00:00-07:00"
+    },
+    {
+      "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+      "description": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover, understand, and act on data at scale without main...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T23:13:10+00:00"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/",
+      "description": "Amazon Bedrock Guardrails now offers the InvokeGuardrailChecks API, a new resourceless API that lets you apply individual safeguards at any point in your agentic AI applications without creating guardrail resources. The API provides granular, per-req...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T22:53:00+00:00"
+    },
+    {
+      "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments",
+      "description": "AWS Transform now offers a model-to-model migration custom transformation that assesses your generative AI workloads and produces a comprehensive migration plan for moving from third-party providers to Amazon Bedrock. The AI-powered agent scans your ...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T21:55:00+00:00"
+    },
     {
       "title": "What is data pipeline architecture?",
       "link": "https://www.databricks.com/blog/what-is-data-pipeline-architecture",
       "description": "Data pipeline architecture is the end-to-end design of how data is collected, processed,...",
       "provider": "Databricks",
       "timestamp": "2026-06-16T21:23:03+00:00"
+    },
+    {
+      "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query",
+      "description": "Amazon S3 Vectors can now return up to 10,000 similarity search results per query, a 100x increase from the previous limit.&nbsp;The higher result limit helps you retrieve a larger, more comprehensive set of candidates during similarity queries. This...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T21:22:00+00:00"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails adds automated reasoning checks in Sydney",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-sydney/",
+      "description": "Automated Reasoning checks in Amazon Bedrock Guardrails use formal verification techniques to validate AI model outputs with mathematical rigor, providing a fundamentally different approach from traditional sampling-based testing methods. This capabi...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T20:07:00+00:00"
     },
     {
       "title": "[In preview] Public Preview: New project templates and template gallery for Azure Functions in VS Code",
@@ -27,6 +279,13 @@ const DASHBOARD_DATA = {
       "link": "https://www.databricks.com/blog/enabling-governed-vibe-coding-enterprise-apps-databricks",
       "description": "Vibe coding needs context and control to work in the enterpriseThe rise of coding agents has been hard to miss...",
       "provider": "Databricks",
+      "timestamp": "2026-06-16T18:00:00+00:00"
+    },
+    {
+      "title": "Announcing Web Search on Amazon Bedrock AgentCore for Agentic Web Retrieval",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-web-search/",
+      "description": "As AI agents become more capable, they need access to information beyond a model's training data - to answer questions, retrieve latest facts, and take action grounded in current developments. Today, we're making that easy with the general availabili...",
+      "provider": "AWS",
       "timestamp": "2026-06-16T18:00:00+00:00"
     },
     {
@@ -65,11 +324,25 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-06-16T16:10:00+00:00"
     },
     {
+      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "link": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "description": "Our Seoul office is now open. Alongside it, we are announcing new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.“What I see in Korea are teams who u...",
+      "provider": "Anthropic",
+      "timestamp": "2026-06-16T16:00:00+00:00"
+    },
+    {
       "title": "AWS announces AWS Blocks, an open-source framework for composing application backends on AWS (Preview)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview",
       "description": "Today, AWS announces the public preview of AWS Blocks, an open-source TypeScript framework for application developers who want backend capabilities on AWS removing the need to learn infrastructure tools. AWS Blocks runs a fully functional local envir...",
       "provider": "AWS",
       "timestamp": "2026-06-16T15:49:00+00:00"
+    },
+    {
+      "title": "Amazon Quick expands integrations with new connectors for Adobe, Figma, WhatsApp, and more",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-adobe-figma-whatsapp/",
+      "description": "Amazon Quick now connects to 16 additional tools, allowing teams to act on insights from their data, analytics, design, and communication apps without switching context. New connectors include Adobe, Cisco Video Messaging, Cisco Webex Meetings, Dun &...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T15:20:00+00:00"
     },
     {
       "title": "Sciene AI Companion: building an autonomous Customer Success platform on Databricks",
@@ -128,6 +401,20 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-06-16T07:00:00+00:00"
     },
     {
+      "title": "Amazon RDS for SQL Server now supports X2m instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-x2m/",
+      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server launches memory-optimized X2m database instances. Based on the Amazon EC2 X2iedn instance, X2m database instances provide the Amazon RDS Optimize CPU feature, which allows customers to re...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T07:00:00+00:00"
+    },
+    {
+      "title": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/",
+      "description": "Amazon S3 Vectors has reduced data processed charges for queries on vector indexes with over 10 million vectors by up to 80%. This reduction lowers costs for customers running similarity search across large-scale AI, RAG, and semantic search workload...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T07:00:00+00:00"
+    },
+    {
       "title": "AWS Marketplace Storefront is now generally available",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-marketplace-storefront/",
       "description": "AWS Marketplace Storefront is now generally available, enabling AWS Partners to create and deploy their own branded catalog of solutions and services on their website or application in hours. Channel Partners and Independent Software Vendors can now ...",
@@ -145,6 +432,13 @@ const DASHBOARD_DATA = {
       "title": "AWS Partner Central agents now guide new partners from registration to ready-to-sell",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-partner-central/",
       "description": "Today, AWS announces the general availability of onboarding capabilities for AWS Partner Central agents. The agent acts as an always-available advisor that guides new partners through every step required to be ready to sell with AWS, from profile set...",
+      "provider": "AWS",
+      "timestamp": "2026-06-16T04:00:00+00:00"
+    },
+    {
+      "title": "Amazon S3 adds annotations to provide AI agents and analytics tools with context for data discovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context",
+      "description": "Amazon S3 adds annotations, so you can attach custom metadata to your S3 objects at massive scale, giving AI agents and analytics tools the context they need to find and use the right data. Annotations are a new metadata capability purpose-built for ...",
       "provider": "AWS",
       "timestamp": "2026-06-16T04:00:00+00:00"
     },
@@ -175,6 +469,13 @@ const DASHBOARD_DATA = {
       "description": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security contr...",
       "provider": "AWS",
       "timestamp": "2026-06-15T23:00:00+00:00"
+    },
+    {
+      "title": "AWS launches a new continuous modernization capability in AWS Transform that provides autonomous tech debt analysis and remediation at scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-continuous-modernization/",
+      "description": "Today, AWS Transform announces a new continuous modernization capability (Preview) that autonomously detects, prioritizes, and remediates tech debt across enterprise software portfolios.&nbsp;&nbsp;AWS Transform already helps enterprises migrate out ...",
+      "provider": "AWS",
+      "timestamp": "2026-06-15T21:33:00+00:00"
     },
     {
       "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
@@ -217,6 +518,13 @@ const DASHBOARD_DATA = {
       "description": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch containerized applications, including web application...",
       "provider": "AWS",
       "timestamp": "2026-06-15T17:00:00+00:00"
+    },
+    {
+      "title": "Amazon FSx for Lustre Intelligent-Tiering storage class is now available in 13 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-lustre-aws-regions/",
+      "description": "You can now create Amazon FSx for Lustre file systems with the Intelligent-Tiering storage class in 13 additional AWS Regions across Africa, Europe, Asia Pacific, and South America. \nThe FSx for Lustre Intelligent-Tiering storage class delivers the l...",
+      "provider": "AWS",
+      "timestamp": "2026-06-15T16:36:00+00:00"
     },
     {
       "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
@@ -11953,52 +12261,52 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
-      "link": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
-      "description": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
-      "date": "Jun 16, 2026",
+      "title": "Roelof Botha joins SpaceX’s board of directors",
+      "link": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
+      "description": "The former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever.",
+      "date": "Jun 17, 2026",
       "source": "TechCrunch AI",
       "trend": "Investment & Startup"
     },
     {
-      "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
-      "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
-      "description": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
-      "date": "Jun 16, 2026",
+      "title": "NEA’s Tiffany Luck says enterprises are still figuring out their AI ROI",
+      "link": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+      "description": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go.&#160;Then the bill came due. Uber&#160;reportedly blew&#160;through its annual AI budget in a few months, some companies ...",
+      "date": "Jun 17, 2026",
       "source": "TechCrunch AI",
-      "trend": "AI Security"
+      "trend": "Hardware & Chips"
     },
     {
-      "title": "Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds",
-      "link": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
-      "description": "WordPress VIP’s latest survey suggests consumers are wary of AI-generated answers even as companies increasingly view AI search as an important referral channel.",
-      "date": "Jun 16, 2026",
+      "title": "World leaders want American AI. They just don’t want America to be able to turn it off.",
+      "link": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "description": "French President Macron and Indian PM Modi raised alarms at the G7 summit that the U.S. could cut off access to American AI overnight  — a fear the Anthropic blackout just made real.",
+      "date": "Jun 17, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
+      "link": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "description": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
+      "date": "Jun 17, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "SpaceX is public: Everything you need to know post-IPO",
-      "link": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
-      "description": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration ...",
-      "date": "Jun 16, 2026",
+      "title": "Social media’s next evolution: user-controlled algorithms",
+      "link": "https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/",
+      "description": "Social media feeds are becoming more customizable as platforms like Threads, Instagram, and TikTok introduce tools that let users directly influence the algorithms powering their recommendations.",
+      "date": "Jun 17, 2026",
       "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
+      "trend": "General AI"
     },
     {
-      "title": "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’",
-      "link": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
-      "description": "The Justice department says the Pentagon needs xAI to keep using its unpermitted gas turbines.",
-      "date": "Jun 16, 2026",
+      "title": "NEA’s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
+      "link": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
+      "description": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go.&#160;Then the bill came due. Uber&#160;reportedly blew&#160;through its annual AI budget in a few months, some companies ...",
+      "date": "Jun 17, 2026",
       "source": "TechCrunch AI",
-      "trend": "AI Security"
-    },
-    {
-      "title": "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
-      "link": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
-      "description": "Plaud is trying to make a mark in a crowded market full of AI-powered meeting notetakers.",
-      "date": "Jun 16, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Enterprise Adoption"
+      "trend": "AI Agents"
     }
   ],
   "sentiments": [
@@ -12007,23 +12315,15 @@ const DASHBOARD_DATA = {
       "score": 98,
       "status": "Bullish",
       "change": "▲ +1",
-      "reason": "What is data pipeline architecture?",
-      "mentions": 10
+      "reason": "[Launched] Generally Available: Azure Databricks native read...",
+      "mentions": 12
     },
     {
       "company": "NVIDIA",
-      "score": 94,
+      "score": 97,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Amazon EC2 P6-B200 instances are now available in the Asia P...",
-      "mentions": 1
-    },
-    {
-      "company": "Microsoft",
-      "score": 90,
-      "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "[In preview] Public Preview: New project templates and templ...",
+      "change": "▲ +1",
+      "reason": "AWS Outposts racks now support bmn-cx3a instances, the first...",
       "mentions": 2
     },
     {
@@ -12031,16 +12331,24 @@ const DASHBOARD_DATA = {
       "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "reason": "AWS Security Agent adds threat modeling, Kiro power and Clau...",
+      "mentions": 5
     },
     {
-      "company": "Google Cloud",
-      "score": 86,
+      "company": "Microsoft",
+      "score": 87,
       "status": "Bullish",
-      "change": "▲ +1",
-      "reason": "June 16, 2026",
-      "mentions": 2
+      "change": "▼ -1",
+      "reason": "[In preview] Public Preview: Azure Migrate – GitHub Copilot ...",
+      "mentions": 4
+    },
+    {
+      "company": "OpenAI",
+      "score": 85,
+      "status": "Bullish",
+      "change": "▼ -1",
+      "reason": "A near-autonomous AI chemist improves a challenging reaction...",
+      "mentions": 1
     },
     {
       "company": "Groq",
@@ -12059,250 +12367,250 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "OpenAI",
-      "score": 79,
+      "company": "Google Cloud",
+      "score": 80,
       "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "Predicting model behavior before release by simulating deplo...",
+      "change": "▬ Stable",
+      "reason": "June 17, 2026",
       "mentions": 1
     },
     {
       "company": "Meta",
       "score": 79,
       "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "change": "▲ +1",
+      "reason": "Amazon S3 adds annotations to provide AI agents and analytic...",
+      "mentions": 1
     },
     {
       "company": "Apple",
-      "score": 79,
+      "score": 76,
       "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "Announcing Apps on Databricks Marketplace",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 207.41,
-      "forwardPE": 16.3,
-      "trailingPE": 31.81,
-      "marketCap": 5023677808640,
+      "price": 204.65,
+      "forwardPE": 16.08,
+      "trailingPE": 31.34,
+      "marketCap": 4956827418624,
       "psRatio": null,
-      "dayChange": -2.37,
-      "rangePosition": 0.692,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -1.33,
+      "rangePosition": 0.663,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 373.25,
-      "forwardPE": 25.78,
-      "trailingPE": 28.47,
-      "marketCap": 4554610442240,
+      "price": 363.79,
+      "forwardPE": 25.12,
+      "trailingPE": 27.77,
+      "marketCap": 4439174283264,
       "psRatio": null,
-      "dayChange": 1.06,
-      "rangePosition": 0.857,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -2.53,
+      "rangePosition": 0.818,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 393.83,
-      "forwardPE": 20.36,
-      "trailingPE": 23.46,
-      "marketCap": 2925540409344,
+      "price": 378.91,
+      "forwardPE": 19.59,
+      "trailingPE": 22.58,
+      "marketCap": 2814708285440,
       "psRatio": null,
-      "dayChange": -1.48,
-      "rangePosition": 0.189,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -3.79,
+      "rangePosition": 0.114,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 246.0,
-      "forwardPE": 24.95,
-      "trailingPE": 31.66,
-      "marketCap": 2646249046016,
+      "price": 237.5,
+      "forwardPE": 24.09,
+      "trailingPE": 30.57,
+      "marketCap": 2554813480960,
       "psRatio": null,
-      "dayChange": -0.04,
-      "rangePosition": 0.606,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -3.46,
+      "rangePosition": 0.503,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 238.32,
-      "forwardPE": 88.79,
+      "price": 234.52,
+      "forwardPE": 87.38,
       "trailingPE": null,
-      "marketCap": 82601713664,
+      "marketCap": 81284636672,
       "psRatio": null,
-      "dayChange": -1.02,
-      "rangePosition": 0.72,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -1.59,
+      "rangePosition": 0.697,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 425.83,
-      "forwardPE": 21.66,
-      "trailingPE": 36.55,
-      "marketCap": 2208556122112,
+      "price": 432.15,
+      "forwardPE": 21.99,
+      "trailingPE": 37.16,
+      "marketCap": 2241334607872,
       "psRatio": null,
-      "dayChange": -3.53,
-      "rangePosition": 0.9,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 1.48,
+      "rangePosition": 0.926,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 376.71,
-      "forwardPE": 19.47,
-      "trailingPE": 62.47,
-      "marketCap": 1792228065280,
+      "price": 392.9,
+      "forwardPE": 20.3,
+      "trailingPE": 65.16,
+      "marketCap": 1869253312512,
       "psRatio": null,
-      "dayChange": -4.37,
-      "rangePosition": 0.528,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 4.3,
+      "rangePosition": 0.593,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1803.89,
-      "forwardPE": 37.48,
-      "trailingPE": 60.33,
-      "marketCap": 695251107840,
+      "price": 1867.83,
+      "forwardPE": 38.85,
+      "trailingPE": 62.39,
+      "marketCap": 719894675456,
       "psRatio": null,
-      "dayChange": -4.69,
-      "rangePosition": 0.911,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 3.54,
+      "rangePosition": 0.944,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 299.6,
-      "forwardPE": 33.85,
-      "trailingPE": 75.09,
-      "marketCap": 115078995968,
+      "price": 317.58,
+      "forwardPE": 35.88,
+      "trailingPE": 79.79,
+      "marketCap": 121985269760,
       "psRatio": null,
-      "dayChange": -3.95,
-      "rangePosition": 0.702,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 6.0,
+      "rangePosition": 0.769,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 168.01,
-      "forwardPE": 37.76,
-      "trailingPE": 57.74,
-      "marketCap": 211553042432,
+      "price": 164.93,
+      "forwardPE": 37.07,
+      "trailingPE": 56.68,
+      "marketCap": 207674802176,
       "psRatio": null,
-      "dayChange": -0.64,
-      "rangePosition": 0.875,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -1.83,
+      "rangePosition": 0.842,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 117.05,
-      "forwardPE": 75.93,
+      "price": 121.1,
+      "forwardPE": 78.36,
       "trailingPE": null,
-      "marketCap": 588293275648,
+      "marketCap": 608648560640,
       "psRatio": null,
-      "dayChange": -8.45,
-      "rangePosition": 0.862,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 3.46,
+      "rangePosition": 0.898,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 404.08,
-      "forwardPE": 19.11,
-      "trailingPE": 32.17,
-      "marketCap": 261887459328,
+      "price": 419.32,
+      "forwardPE": 19.83,
+      "trailingPE": 33.36,
+      "marketCap": 271764635648,
       "psRatio": null,
-      "dayChange": -1.22,
-      "rangePosition": 0.818,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 3.77,
+      "rangePosition": 0.86,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 48.38,
-      "forwardPE": 12.1,
-      "trailingPE": 45.21,
-      "marketCap": 64064966656,
+      "price": 48.2,
+      "forwardPE": 12.06,
+      "trailingPE": 45.05,
+      "marketCap": 63826612224,
       "psRatio": null,
-      "dayChange": -1.02,
-      "rangePosition": 0.661,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -0.37,
+      "rangePosition": 0.657,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 600.21,
-      "forwardPE": 16.56,
-      "trailingPE": 21.84,
-      "marketCap": 1523587088384,
+      "price": 567.58,
+      "forwardPE": 15.66,
+      "trailingPE": 20.65,
+      "marketCap": 1440758366208,
       "psRatio": null,
-      "dayChange": 1.13,
-      "rangePosition": 0.29,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -5.44,
+      "rangePosition": 0.171,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 270.81,
-      "forwardPE": 20.13,
-      "trailingPE": 23.94,
-      "marketCap": 254530338816,
+      "price": 262.35,
+      "forwardPE": 19.5,
+      "trailingPE": 23.24,
+      "marketCap": 246578921472,
       "psRatio": null,
-      "dayChange": 0.78,
-      "rangePosition": 0.487,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -3.12,
+      "rangePosition": 0.416,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 2.9,
-      "forwardPE": 3.36,
+      "price": 2.77,
+      "forwardPE": 3.22,
       "trailingPE": null,
-      "marketCap": 153243888,
+      "marketCap": 146374320,
       "psRatio": null,
-      "dayChange": 3.57,
-      "rangePosition": 0.017,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -4.48,
+      "rangePosition": 0.007,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 299.24,
-      "forwardPE": 31.19,
-      "trailingPE": 36.18,
-      "marketCap": 4395044175872,
+      "price": 295.95,
+      "forwardPE": 30.84,
+      "trailingPE": 35.83,
+      "marketCap": 4346723172352,
       "psRatio": null,
-      "dayChange": 0.95,
-      "rangePosition": 0.852,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -1.1,
+      "rangePosition": 0.825,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 133.25,
-      "forwardPE": 64.05,
-      "trailingPE": 149.72,
-      "marketCap": 319441829888,
+      "price": 130.63,
+      "forwardPE": 62.79,
+      "trailingPE": 146.78,
+      "marketCap": 313160892416,
       "psRatio": null,
-      "dayChange": -1.08,
-      "rangePosition": 0.125,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -1.97,
+      "rangePosition": 0.094,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 279.9,
-      "forwardPE": 67.99,
-      "trailingPE": 245.53,
-      "marketCap": 228118495232,
+      "price": 282.13,
+      "forwardPE": 68.54,
+      "trailingPE": 245.33,
+      "marketCap": 229935955968,
       "psRatio": null,
-      "dayChange": -1.63,
-      "rangePosition": 0.859,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": 0.8,
+      "rangePosition": 0.873,
+      "fetchedAt": "2026-06-17 08:36 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 161.71,
-      "forwardPE": 10.41,
-      "trailingPE": 18.76,
-      "marketCap": 132440498176,
+      "price": 155.02,
+      "forwardPE": 9.98,
+      "trailingPE": 17.94,
+      "marketCap": 126961385472,
       "psRatio": null,
-      "dayChange": -1.73,
-      "rangePosition": 0.01,
-      "fetchedAt": "2026-06-16 10:01 PM"
+      "dayChange": -4.14,
+      "rangePosition": 0.006,
+      "fetchedAt": "2026-06-17 08:36 PM"
     }
   },
   "stocks_universe": [
