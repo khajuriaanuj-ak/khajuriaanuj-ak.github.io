@@ -12255,5 +12255,166 @@
     "description": "Our Seoul office is now open. Alongside it, we are announcing new partnerships across the Korean AI ecosystem—with the enterprises, startups, and researchers behind some of the most ambitious deployments of Claude.“What I see in Korea are teams who u...",
     "provider": "Anthropic",
     "timestamp": "2026-06-16T16:00:00+00:00"
+  },
+  {
+    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+    "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+    "description": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads.",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T21:22:10+00:00"
+  },
+  {
+    "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for plann...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T21:06:38+00:00"
+  },
+  {
+    "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-mq-private-network-connectivity/",
+    "description": "Amazon MQ for RabbitMQ now supports private networking, enabling your brokers to connect to private resources in your VPC without exposing those resources publicly.. This helps you meet your security and compliance requirements when your brokers need...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T20:20:00+00:00"
+  },
+  {
+    "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
+    "description": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T18:47:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer launches the ability to interrupt an agent with an urgent contact",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-interrupt-agent-with-urgent-contact/",
+    "description": "Amazon Connect Customer now supports the ability to interrupt an agent with a contact, overriding their usual routing configuration in case of urgent or time-sensitive work. For example, an agent may be waiting for a time-sensitive callback on their ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T18:35:00+00:00"
+  },
+  {
+    "title": "all-MiniLM-L12-v2 for semantic search and sentence similarity is now available in Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/all-minilm-l12-v2-on-sagemaker-jumpstart/",
+    "description": "Today, AWS announced the availability of all-MiniLM-L12-v2 in Amazon SageMaker JumpStart, expanding the portfolio of models available to AWS customers. This model from Sentence Transformers maps sentences and paragraphs to a 384-dimensional dense vec...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T18:30:00+00:00"
+  },
+  {
+    "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
+    "description": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T18:30:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI Announces New observability capability For Inference Endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-inference/",
+    "description": "Amazon SageMaker AI's new observability capability allows customers to operate production generative AI inference workloads with confidence by providing comprehensive visibility into token performance, GPU health, inference component placement, and a...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T15:13:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
+    "description": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 30% performance improvement and up to a 23% price/p...",
+    "provider": "AWS",
+    "timestamp": "2026-06-17T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
+    "description": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that connects to popular business applications and learns...",
+    "provider": "AWS",
+    "timestamp": "2026-06-17T13:40:00+00:00"
+  },
+  {
+    "title": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-data-catalog/",
+    "description": "Today, AWS announces the preview of business context and semantic search for AWS Glue Data Catalog, helping you discover and understand data by semantic meaning. You can now enrich your Glue Data Catalog tables, including those backed by S3 Tables, w...",
+    "provider": "AWS",
+    "timestamp": "2026-06-17T12:00:00+00:00"
+  },
+  {
+    "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/",
+    "description": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless (ADB-S), a fully managed Oracle database service on Exadata infrastructure that automatically handles patching, tuning, and scaling. ADB-S is available through both public and ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-17T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/",
+    "description": "AWS Secrets Manager now offers a secret safety skill as part of the aws-core plugin in the Agent Toolkit for AWS, an open-source repository that equips AI coding agents with tools, knowledge, and guardrails for building on AWS. The skill lets develop...",
+    "provider": "AWS",
+    "timestamp": "2026-06-17T07:00:00+00:00"
+  },
+  {
+    "title": "June 18, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_18_2026",
+    "description": "Apigee X\nAnnouncement\nOn June 18th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-17-0-apigee-9, your i...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-18T00:00:00-07:00"
+  },
+  {
+    "title": "How Stagwell built privacy-safe ID matching on Databricks",
+    "link": "https://www.databricks.com/blog/how-stagwell-built-privacy-safe-id-matching-databricks",
+    "description": "The identity matching problem brands face todayBrands invest heavily in building first-party data assets...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T15:00:00+00:00"
+  },
+  {
+    "title": "What is artificial intelligence (AI)?",
+    "link": "https://www.databricks.com/blog/what-is-artificial-intelligence",
+    "description": "Artificial intelligence (AI) is a branch of computer science that lets machines perform...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T08:51:03+00:00"
+  },
+  {
+    "title": "What is row-level security?",
+    "link": "https://www.databricks.com/blog/row-level-security",
+    "description": "Row-level security (RLS) is a database access control that limits which rows of a...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T07:27:06+00:00"
+  },
+  {
+    "title": "What is an AI agent harness?",
+    "link": "https://www.databricks.com/blog/ai-harness",
+    "description": "An AI agent harness is the software infrastructure that wraps around a large language...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-17T21:45:04+00:00"
+  },
+  {
+    "title": "New usage analytics and updated spend controls for enterprises",
+    "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "description": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-18T17:00:00+00:00"
+  },
+  {
+    "title": "Improving health intelligence in ChatGPT",
+    "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "description": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-18T11:00:00+00:00"
+  },
+  {
+    "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+    "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "description": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-18T08:00:00+00:00"
+  },
+  {
+    "title": "Introducing LifeSciBench",
+    "link": "https://openai.com/index/introducing-life-sci-bench",
+    "description": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-17T00:00:00+00:00"
+  },
+  {
+    "title": "v0.1.4",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.4",
+    "description": "Release v0.1.4",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-06-18T18:12:57+00:00"
   }
 ]

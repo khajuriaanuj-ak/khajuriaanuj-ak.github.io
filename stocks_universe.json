@@ -208,5 +208,15 @@
     "tailwindScore": 9.0,
     "baseReason": "As the leading enterprise CRM platform, Salesforce is strategically embedding generative AI and AI agents into its core products and enabling businesses to build, deploy, and manage custom AI solutions directly within their operational workflows.",
     "expertStrategy": "Salesforce is leveraging its vast enterprise footprint and customer relationships to become a pivotal enabler of AI transformation, integrating advanced AI agents and automation directly into critical business operations, representing a high-growth and strategically indispensable play in enterprise AI software."
+  },
+  {
+    "name": "Oracle Corporation",
+    "ticker": "ORCL",
+    "category": "direct",
+    "subCategory": "Enterprise AI Database Platform",
+    "moatScore": 8.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Oracle's proprietary Exadata infrastructure, combined with its market-leading enterprise database software and new autonomous AI capabilities (like Autonomous AI Database Serverless), provides a highly optimized and scalable platform for mission-critical AI workloads, securing data foundation for large enterprises.",
+    "expertStrategy": "Oracle is strategically positioned as enterprises increasingly demand robust, self-managing, and performant data infrastructure for their AI initiatives. Its deep integration with major cloud providers like AWS for its Autonomous Database solutions ensures continued relevance and expands its reach into hybrid and multi-cloud AI deployments, driving recurring revenue growth."
   }
 ]
