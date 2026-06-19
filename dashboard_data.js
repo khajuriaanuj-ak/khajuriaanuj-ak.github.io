@@ -1,6 +1,27 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-18T21:30:00.467603+00:00",
+  "last_updated": "2026-06-19T19:16:02.225380+00:00",
   "updates": [
+    {
+      "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
+      "description": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage S...",
+      "provider": "AWS",
+      "timestamp": "2026-06-19T01:00:00+00:00"
+    },
+    {
+      "title": "June 19, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_19_2026",
+      "description": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and column families. For more information, see\nManage your data using Bigtable Studio.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-19T00:00:00-07:00"
+    },
+    {
+      "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
+      "description": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intelligent Rebalancing is now available on all MSK Provisi...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T22:36:00+00:00"
+    },
     {
       "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
       "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
@@ -14,6 +35,20 @@ const DASHBOARD_DATA = {
       "description": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for plann...",
       "provider": "AWS",
       "timestamp": "2026-06-18T21:06:38+00:00"
+    },
+    {
+      "title": "Amazon ECS announces faster service auto scaling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+      "description": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, time to trigger scale-out improved from 363 seconds t...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T21:00:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 G7 instances are now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
+      "description": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphic...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T20:59:00+00:00"
     },
     {
       "title": "Amazon MQ for RabbitMQ now supports private networking connectivity",
@@ -47,6 +82,13 @@ const DASHBOARD_DATA = {
       "title": "Ministral-3-14B-Instruct for multimodal reasoning and agentic AI is now available in Amazon SageMaker JumpStart",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ministral-3-14b-on-sagemaker-jumpstart/",
       "description": "Today, AWS announced the availability of Ministral-3-14B-Instruct-2512 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI delivers frontier-class multimodal capabilities ...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T18:30:00+00:00"
+    },
+    {
+      "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
+      "description": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and Vo...",
       "provider": "AWS",
       "timestamp": "2026-06-18T18:30:00+00:00"
     },
@@ -100,11 +142,32 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-06-18T08:00:00+00:00"
     },
     {
+      "title": "Amazon GameLift Servers adds new container fleet improvements",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-container-fleet-improvements",
+      "description": "Amazon GameLift Servers now supports two significant container fleet improvements that enhance flexibility and inter-container communication for game server deployments. These new capabilities address common challenges faced by game developers using ...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T08:00:00+00:00"
+    },
+    {
       "title": "What is row-level security?",
       "link": "https://www.databricks.com/blog/row-level-security",
       "description": "Row-level security (RLS) is a database access control that limits which rows of a...",
       "provider": "Databricks",
       "timestamp": "2026-06-18T07:27:06+00:00"
+    },
+    {
+      "title": "Amazon WorkSpaces Personal Supports Ubuntu 24.04",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ubuntu-china-zhy/",
+      "description": "AWS announces availability of Ubuntu 24.04 LTS bundles for Amazon WorkSpaces Personal in the AWS China (Ningxia) Region, operated by NWCD. With this bundle, customers in China can launch Ubuntu WorkSpaces and take advantage of updated Linux packages,...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T07:00:00+00:00"
+    },
+    {
+      "title": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/",
+      "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports higher volume-level limits for General Purpose (gp3) storage. With this update, each gp3 volume can scale up to 64 TiB in size (4X the previous 16 TiB limit), up to 80,000 IO...",
+      "provider": "AWS",
+      "timestamp": "2026-06-18T07:00:00+00:00"
     },
     {
       "title": "June 18, 2026",
@@ -12422,52 +12485,52 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega round",
-      "link": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
-      "description": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush\" marches on.",
-      "date": "Jun 18, 2026",
+      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+      "link": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+      "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity research...",
+      "date": "Jun 19, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Research Breakthrough"
+    },
+    {
+      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+      "link": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+      "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity research...",
+      "date": "Jun 19, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Research Breakthrough"
+    },
+    {
+      "title": "Billionaire Ambani wants AI in every call, app, and home",
+      "link": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "description": "Reliance is weaving AI into telecom services used by more than 500 million people.",
+      "date": "Jun 19, 2026",
       "source": "TechCrunch AI",
       "trend": "Investment & Startup"
     },
     {
-      "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
-      "link": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
-      "description": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be comprised of current Snap staff who are leaving the social media company to focus on AI video development.",
-      "date": "Jun 18, 2026",
+      "title": "The CEO of Allbirds’ new AI biz has a plan, but no employees",
+      "link": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
+      "description": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
+      "date": "Jun 19, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
-      "link": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
-      "description": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
-      "date": "Jun 18, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Regulatory"
-    },
-    {
-      "title": "Almost half of U.S. singles feel negatively about AI in dating, Match says",
-      "link": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
-      "description": "About 47% of singles look negatively at the use of AI in dating -- but, many dating app users are open to AI helping with profile punch-ups and conversation starters.",
-      "date": "Jun 18, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
-      "link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
-      "description": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
-      "date": "Jun 18, 2026",
+      "title": "The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
+      "link": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "description": "There's a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.",
+      "date": "Jun 19, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
     },
     {
-      "title": "AI data centers just got a government-mandated fast lane to the grid",
-      "link": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
-      "description": "FERC told grid operators to give data centers a fast lane for interconnections, but it failed to address electricity supply shortages.",
-      "date": "Jun 18, 2026",
+      "title": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
+      "link": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "description": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.",
+      "date": "Jun 19, 2026",
       "source": "TechCrunch AI",
-      "trend": "AI Agents"
+      "trend": "General AI"
     }
   ],
   "sentiments": [
@@ -12476,24 +12539,16 @@ const DASHBOARD_DATA = {
       "score": 94,
       "status": "Bullish",
       "change": "▼ -2",
-      "reason": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX...",
-      "mentions": 3
+      "reason": "Amazon EC2 G7 instances are now generally available",
+      "mentions": 1
     },
     {
       "company": "Anthropic",
       "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
-    },
-    {
-      "company": "OpenAI",
-      "score": 88,
-      "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "New usage analytics and updated spend controls for enterpris...",
-      "mentions": 5
+      "reason": "Is the US government’s Anthropic ban accidentally helping th...",
+      "mentions": 2
     },
     {
       "company": "Groq",
@@ -12504,12 +12559,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Google Cloud",
-      "score": 83,
+      "company": "Databricks",
+      "score": 84,
       "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "June 18, 2026",
-      "mentions": 2
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "OpenAI",
+      "score": 82,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Snowflake",
@@ -12520,20 +12583,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
+      "company": "Google Cloud",
+      "score": 80,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "June 19, 2026",
+      "mentions": 1
+    },
+    {
       "company": "Meta",
       "score": 79,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Apple",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "What is artificial intelligence (AI)?",
-      "mentions": 2
     },
     {
       "company": "Microsoft",
@@ -12544,12 +12607,12 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Databricks",
-      "score": 78,
+      "company": "Apple",
+      "score": 76,
       "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "How Stagwell built privacy-safe ID matching on Databricks",
-      "mentions": 4
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
@@ -12562,7 +12625,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.95,
       "rangePosition": 0.726,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -12573,7 +12636,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.17,
       "rangePosition": 0.835,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -12584,7 +12647,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.13,
       "rangePosition": 0.116,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -12595,7 +12658,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.9,
       "rangePosition": 0.586,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -12606,7 +12669,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.95,
       "rangePosition": 0.684,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -12617,7 +12680,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.94,
       "rangePosition": 0.988,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -12628,7 +12691,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.7,
       "rangePosition": 0.667,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
@@ -12639,7 +12702,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.31,
       "rangePosition": 0.99,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -12650,7 +12713,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.87,
       "rangePosition": 0.826,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -12661,7 +12724,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.87,
       "rangePosition": 0.892,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -12672,7 +12735,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 10.64,
       "rangePosition": 0.987,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -12683,7 +12746,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.34,
       "rangePosition": 0.833,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -12694,7 +12757,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.64,
       "rangePosition": 0.64,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -12705,7 +12768,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.7,
       "rangePosition": 0.206,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -12716,7 +12779,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.05,
       "rangePosition": 0.306,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -12727,7 +12790,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.33,
       "rangePosition": 0.001,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -12738,7 +12801,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.7,
       "rangePosition": 0.839,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -12749,7 +12812,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.65,
       "rangePosition": 0.068,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -12760,7 +12823,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.0,
       "rangePosition": 0.907,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -12771,7 +12834,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.09,
       "rangePosition": 0.016,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -12782,7 +12845,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.41,
       "rangePosition": 0.235,
-      "fetchedAt": "2026-06-18 09:30 PM"
+      "fetchedAt": "2026-06-19 07:16 PM"
     }
   },
   "stocks_universe": [

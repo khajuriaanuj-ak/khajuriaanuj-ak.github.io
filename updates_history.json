@@ -12416,5 +12416,68 @@
     "description": "Release v0.1.4",
     "provider": "Google Antigravity",
     "timestamp": "2026-06-18T18:12:57+00:00"
+  },
+  {
+    "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
+    "description": "Today, AWS announces the general availability of a new Local Zone in Hanoi, Vietnam, bringing AWS infrastructure closer to end users. This new Local Zone is one of the first AWS Local Zones in the Asia Pacific with support for Amazon Simple Storage S...",
+    "provider": "AWS",
+    "timestamp": "2026-06-19T01:00:00+00:00"
+  },
+  {
+    "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/",
+    "description": "Amazon MSK Provisioned clusters with Express brokers now support Intelligent Rebalancing on all existing clusters, at no additional cost. Previously available only on newly created clusters, Intelligent Rebalancing is now available on all MSK Provisi...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T22:36:00+00:00"
+  },
+  {
+    "title": "Amazon ECS announces faster service auto scaling",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/",
+    "description": "Amazon ECS service auto scaling now detects and responds to load changes faster with support for high resolution (20-second) metrics and metric publishing optimizations. In AWS benchmarking tests, time to trigger scale-out improved from 363 seconds t...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 G7 instances are now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-g7-generally-available",
+    "description": "Today, AWS announces the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. G7 instances deliver up to 4.6x AI inference performance and up to 2.1x graphic...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T20:59:00+00:00"
+  },
+  {
+    "title": "AWS Compute Optimizer enhances EBS volume recommendations with additional performance metrics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-enhances-ebs-recommendations/",
+    "description": "AWS Compute Optimizer now includes improved visibility into IOPS and throughput spikes when deliverings Amazon EBS volume rightsizing recommendations. Compute Optimizer analyzes two additional Amazon CloudWatch metrics, VolumeIOPSExceededCheck and Vo...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T18:30:00+00:00"
+  },
+  {
+    "title": "Amazon GameLift Servers adds new container fleet improvements",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-container-fleet-improvements",
+    "description": "Amazon GameLift Servers now supports two significant container fleet improvements that enhance flexibility and inter-container communication for game server deployments. These new capabilities address common challenges faced by game developers using ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces Personal Supports Ubuntu 24.04",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/ubuntu-china-zhy/",
+    "description": "AWS announces availability of Ubuntu 24.04 LTS bundles for Amazon WorkSpaces Personal in the AWS China (Ningxia) Region, operated by NWCD. With this bundle, customers in China can launch Ubuntu WorkSpaces and take advantage of updated Linux packages,...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports higher volume-level limits for General Purpose (gp3) storage. With this update, each gp3 volume can scale up to 64 TiB in size (4X the previous 16 TiB limit), up to 80,000 IO...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T07:00:00+00:00"
+  },
+  {
+    "title": "June 19, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_19_2026",
+    "description": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and column families. For more information, see\nManage your data using Bigtable Studio.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-19T00:00:00-07:00"
   }
 ]
