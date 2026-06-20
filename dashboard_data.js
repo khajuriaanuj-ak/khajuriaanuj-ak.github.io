@@ -1,6 +1,13 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-19T19:16:02.225380+00:00",
+  "last_updated": "2026-06-20T17:57:08.697707+00:00",
   "updates": [
+    {
+      "title": "June 20, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_20_2026",
+      "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is now available for all regions.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-20T00:00:00-07:00"
+    },
     {
       "title": "Announcing the general availability of a new AWS Local Zone in Hanoi, Vietnam",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-local-zones-hanoi-vietnam/",
@@ -12485,6 +12492,22 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "description": "Jumper isn't the only big name leaving Google DeepMind.",
+      "date": "Jun 20, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "description": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+      "date": "Jun 19, 2026",
+      "source": "TechCrunch AI",
+      "trend": "AI Security"
+    },
+    {
       "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
       "link": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
       "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity research...",
@@ -12509,25 +12532,9 @@ const DASHBOARD_DATA = {
       "trend": "Investment & Startup"
     },
     {
-      "title": "The CEO of Allbirds’ new AI biz has a plan, but no employees",
+      "title": "The CEO of Allbirds’ new AI biz has a plan, but no team",
       "link": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
       "description": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
-      "date": "Jun 19, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "The US says ASML’s top chip tool may be in China. ASML says it isn’t.",
-      "link": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
-      "description": "There's a commercial logic that cuts against the idea that ASML would risk its export license to arm a Chinese customer.",
-      "date": "Jun 19, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
-      "link": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-      "description": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.",
       "date": "Jun 19, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
@@ -12536,19 +12543,19 @@ const DASHBOARD_DATA = {
   "sentiments": [
     {
       "company": "NVIDIA",
-      "score": 94,
+      "score": 91,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Amazon EC2 G7 instances are now generally available",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Anthropic",
       "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Is the US government’s Anthropic ban accidentally helping th...",
-      "mentions": 2
+      "reason": "Nobel laureate John Jumper is leaving DeepMind for rival Ant...",
+      "mentions": 4
     },
     {
       "company": "Groq",
@@ -12587,8 +12594,8 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "June 19, 2026",
-      "mentions": 1
+      "reason": "June 20, 2026",
+      "mentions": 2
     },
     {
       "company": "Meta",
@@ -12625,7 +12632,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.95,
       "rangePosition": 0.726,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -12636,29 +12643,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.17,
       "rangePosition": 0.835,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
       "price": 379.4,
       "forwardPE": 19.61,
-      "trailingPE": 22.61,
+      "trailingPE": 22.57,
       "marketCap": 2818348154880,
       "psRatio": null,
       "dayChange": 0.13,
       "rangePosition": 0.116,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
       "price": 244.39,
       "forwardPE": 24.79,
-      "trailingPE": 31.45,
+      "trailingPE": 31.66,
       "marketCap": 2628929978368,
       "psRatio": null,
       "dayChange": 2.9,
       "rangePosition": 0.586,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -12669,62 +12676,62 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.95,
       "rangePosition": 0.684,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
       "price": 462.12,
       "forwardPE": 23.51,
-      "trailingPE": 39.74,
+      "trailingPE": 39.67,
       "marketCap": 2396773416960,
       "psRatio": null,
       "dayChange": 6.94,
       "rangePosition": 0.988,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
       "price": 411.35,
-      "forwardPE": 21.26,
-      "trailingPE": 68.22,
+      "forwardPE": 21.22,
+      "trailingPE": 68.44,
       "marketCap": 1957030658048,
       "psRatio": null,
       "dayChange": 4.7,
-      "rangePosition": 0.667,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "rangePosition": 0.663,
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1929.68,
-      "forwardPE": 40.13,
-      "trailingPE": 64.45,
+      "forwardPE": 40.27,
+      "trailingPE": 64.11,
       "marketCap": 743732805632,
       "psRatio": null,
       "dayChange": 3.31,
       "rangePosition": 0.99,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
       "price": 333.05,
       "forwardPE": 37.63,
-      "trailingPE": 83.68,
+      "trailingPE": 83.26,
       "marketCap": 127927427072,
       "psRatio": null,
       "dayChange": 4.87,
       "rangePosition": 0.826,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
       "price": 169.67,
-      "forwardPE": 38.13,
-      "trailingPE": 58.31,
+      "forwardPE": 38.09,
+      "trailingPE": 58.11,
       "marketCap": 213643264000,
       "psRatio": null,
       "dayChange": 2.87,
       "rangePosition": 0.892,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -12735,18 +12742,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 10.64,
       "rangePosition": 0.987,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
       "price": 409.5,
       "forwardPE": 19.36,
-      "trailingPE": 32.58,
-      "marketCap": 265400205312,
+      "trailingPE": 32.68,
+      "marketCap": 264595308544,
       "psRatio": null,
       "dayChange": -2.34,
       "rangePosition": 0.833,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -12757,29 +12764,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.64,
       "rangePosition": 0.64,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
       "price": 577.22,
       "forwardPE": 15.93,
-      "trailingPE": 21.0,
+      "trailingPE": 21.01,
       "marketCap": 1465228591104,
       "psRatio": null,
       "dayChange": 1.7,
       "rangePosition": 0.206,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "IBM": {
       "name": "International Business Machines",
       "price": 249.1,
       "forwardPE": 18.51,
-      "trailingPE": 22.06,
+      "trailingPE": 22.02,
       "marketCap": 234125443072,
       "psRatio": null,
       "dayChange": -5.05,
       "rangePosition": 0.306,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -12790,18 +12797,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.33,
       "rangePosition": 0.001,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
       "price": 298.01,
-      "forwardPE": 31.06,
-      "trailingPE": 36.08,
+      "forwardPE": 31.04,
+      "trailingPE": 36.12,
       "marketCap": 4376979046400,
       "psRatio": null,
       "dayChange": 0.7,
-      "rangePosition": 0.839,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "rangePosition": 0.836,
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -12812,7 +12819,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.65,
       "rangePosition": 0.068,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -12823,29 +12830,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.0,
       "rangePosition": 0.907,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
       "price": 151.78,
-      "forwardPE": 9.77,
+      "forwardPE": 9.8,
       "trailingPE": 17.57,
       "marketCap": 124307816448,
       "psRatio": null,
       "dayChange": -2.09,
       "rangePosition": 0.016,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
       "price": 184.29,
       "forwardPE": 16.89,
-      "trailingPE": 31.56,
+      "trailingPE": 31.66,
       "marketCap": 530026528768,
       "psRatio": null,
       "dayChange": 0.41,
       "rangePosition": 0.235,
-      "fetchedAt": "2026-06-19 07:16 PM"
+      "fetchedAt": "2026-06-20 05:57 PM"
     }
   },
   "stocks_universe": [

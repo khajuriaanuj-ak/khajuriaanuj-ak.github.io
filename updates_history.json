@@ -12479,5 +12479,12 @@
     "description": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and column families. For more information, see\nManage your data using Bigtable Studio.",
     "provider": "Google Cloud",
     "timestamp": "2026-06-19T00:00:00-07:00"
+  },
+  {
+    "title": "June 20, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_20_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is now available for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-20T00:00:00-07:00"
   }
 ]
