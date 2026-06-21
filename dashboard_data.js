@@ -1,6 +1,13 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-20T17:57:08.697707+00:00",
+  "last_updated": "2026-06-21T18:10:30.540547+00:00",
   "updates": [
+    {
+      "title": "June 21, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_21_2026",
+      "description": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, 2026.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.90 is being rolled out to the first phase of regions as listed here.\nThis releas...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-21T00:00:00-07:00"
+    },
     {
       "title": "June 20, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_20_2026",
@@ -12492,6 +12499,38 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "link": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "description": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+      "date": "Jun 21, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "link": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "description": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+      "date": "Jun 21, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+      "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "description": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
+      "date": "Jun 20, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "In the Weights is your new AI-centric vanity search",
+      "link": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "description": "So ... what's your In the Weights score?",
+      "date": "Jun 20, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
       "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
       "description": "Jumper isn't the only big name leaving Google DeepMind.",
@@ -12506,41 +12545,17 @@ const DASHBOARD_DATA = {
       "date": "Jun 19, 2026",
       "source": "TechCrunch AI",
       "trend": "AI Security"
-    },
-    {
-      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
-      "link": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
-      "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity research...",
-      "date": "Jun 19, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
-      "link": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-      "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity research...",
-      "date": "Jun 19, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "Billionaire Ambani wants AI in every call, app, and home",
-      "link": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
-      "description": "Reliance is weaving AI into telecom services used by more than 500 million people.",
-      "date": "Jun 19, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
-    },
-    {
-      "title": "The CEO of Allbirds’ new AI biz has a plan, but no team",
-      "link": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees/",
-      "description": "Call it a startup with a sole founder and a very large seed round, but what's next is less clear.",
-      "date": "Jun 19, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
     }
   ],
   "sentiments": [
+    {
+      "company": "Anthropic",
+      "score": 91,
+      "status": "Bullish",
+      "change": "▼ -2",
+      "reason": "When the Trump administration cracks down on Anthropic, who ...",
+      "mentions": 3
+    },
     {
       "company": "NVIDIA",
       "score": 91,
@@ -12548,14 +12563,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Anthropic",
-      "score": 88,
-      "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Nobel laureate John Jumper is leaving DeepMind for rival Ant...",
-      "mentions": 4
     },
     {
       "company": "Groq",
@@ -12574,6 +12581,14 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
+      "company": "Google Cloud",
+      "score": 83,
+      "status": "Mixed",
+      "change": "▼ -2",
+      "reason": "June 21, 2026",
+      "mentions": 2
+    },
+    {
       "company": "OpenAI",
       "score": 82,
       "status": "Mixed",
@@ -12588,14 +12603,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Google Cloud",
-      "score": 80,
-      "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "June 20, 2026",
-      "mentions": 2
     },
     {
       "company": "Meta",
@@ -12617,9 +12624,9 @@ const DASHBOARD_DATA = {
       "company": "Apple",
       "score": 76,
       "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "change": "▼ -1",
+      "reason": "Beyond Siri: Here are the practical AI features coming to yo...",
+      "mentions": 1
     }
   ],
   "valuations": {
@@ -12632,18 +12639,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.95,
       "rangePosition": 0.726,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
       "price": 368.03,
-      "forwardPE": 25.42,
+      "forwardPE": 25.39,
       "trailingPE": 28.09,
       "marketCap": 4490912595968,
       "psRatio": null,
       "dayChange": 1.17,
       "rangePosition": 0.835,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -12654,18 +12661,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.13,
       "rangePosition": 0.116,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
       "price": 244.39,
-      "forwardPE": 24.79,
+      "forwardPE": 24.73,
       "trailingPE": 31.66,
       "marketCap": 2628929978368,
       "psRatio": null,
       "dayChange": 2.9,
       "rangePosition": 0.586,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -12676,7 +12683,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.95,
       "rangePosition": 0.684,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -12687,7 +12694,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.94,
       "rangePosition": 0.988,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -12698,18 +12705,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.7,
       "rangePosition": 0.663,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1929.68,
-      "forwardPE": 40.27,
+      "forwardPE": 40.2,
       "trailingPE": 64.11,
       "marketCap": 743732805632,
       "psRatio": null,
       "dayChange": 3.31,
       "rangePosition": 0.99,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -12720,7 +12727,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.87,
       "rangePosition": 0.826,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -12731,29 +12738,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.87,
       "rangePosition": 0.892,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
       "price": 133.99,
-      "forwardPE": 86.7,
+      "forwardPE": 86.64,
       "trailingPE": null,
       "marketCap": 673433780224,
       "psRatio": null,
       "dayChange": 10.64,
       "rangePosition": 0.987,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
       "price": 409.5,
-      "forwardPE": 19.36,
+      "forwardPE": 19.18,
       "trailingPE": 32.68,
       "marketCap": 264595308544,
       "psRatio": null,
       "dayChange": -2.34,
       "rangePosition": 0.833,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -12764,7 +12771,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.64,
       "rangePosition": 0.64,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -12775,7 +12782,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.7,
       "rangePosition": 0.206,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -12786,18 +12793,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.05,
       "rangePosition": 0.306,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 2.65,
-      "forwardPE": 3.08,
+      "forwardPE": 3.12,
       "trailingPE": null,
       "marketCap": 140033200,
       "psRatio": null,
       "dayChange": -4.33,
       "rangePosition": 0.001,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -12808,18 +12815,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.7,
       "rangePosition": 0.836,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
       "price": 128.47,
-      "forwardPE": 61.75,
+      "forwardPE": 61.7,
       "trailingPE": 144.35,
       "marketCap": 307982663680,
       "psRatio": null,
       "dayChange": -1.65,
       "rangePosition": 0.068,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -12830,7 +12837,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.0,
       "rangePosition": 0.907,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -12841,7 +12848,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.09,
       "rangePosition": 0.016,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -12852,7 +12859,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.41,
       "rangePosition": 0.235,
-      "fetchedAt": "2026-06-20 05:57 PM"
+      "fetchedAt": "2026-06-21 06:10 PM"
     }
   },
   "stocks_universe": [

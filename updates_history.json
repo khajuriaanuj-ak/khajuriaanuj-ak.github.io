@@ -12486,5 +12486,12 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is now available for all regions.",
     "provider": "Google Cloud",
     "timestamp": "2026-06-20T00:00:00-07:00"
+  },
+  {
+    "title": "June 21, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_21_2026",
+    "description": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, 2026.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.90 is being rolled out to the first phase of regions as listed here.\nThis releas...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-21T00:00:00-07:00"
   }
 ]
