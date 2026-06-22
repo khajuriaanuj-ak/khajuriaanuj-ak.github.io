@@ -12493,5 +12493,110 @@
     "description": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, 2026.\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.90 is being rolled out to the first phase of regions as listed here.\nThis releas...",
     "provider": "Google Cloud",
     "timestamp": "2026-06-21T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+    "description": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI l...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T14:46:17+00:00"
+  },
+  {
+    "title": "AWS Batch now supports customer-ordered instance allocation strategies",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
+    "description": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your compute environments. BFPO and SCOP enable you to man...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T16:30:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+    "description": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,000 AWS accounts and up to 7,000 applications indepe...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T16:07:00+00:00"
+  },
+  {
+    "title": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB300 UltraServers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
+    "description": "AWS Parallel Computing Service (PCS) now supports Amazon EC2 P6e-GB200 and P6e-GB300 UltraServer instances, enabling customers to run large-scale GPU workloads using the NVIDIA Blackwell architecture within Slurm-managed clusters. You can reserve Ult...",
+    "provider": "AWS",
+    "timestamp": "2026-06-18T19:00:00+00:00"
+  },
+  {
+    "title": "June 22, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_22_2026",
+    "description": "Compute Engine\nFeature\nGenerally available: You can create instances all at once in a regional\nmanaged instance group (MIG) by using resize requests. For more information, see\nAbout resize requests in a MIG.\nGoogle Cloud Contact Center as a Service\nF...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-22T00:00:00-07:00"
+  },
+  {
+    "title": "Data scientists: Powering the future of AI and analytics",
+    "link": "https://www.databricks.com/blog/data-scientists",
+    "description": "Data scientists sit at the intersection of analytics, machine learning (ML) and AI,...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T19:46:16+00:00"
+  },
+  {
+    "title": "Data Pipeline Best Practices: Architecture, Modern Pipelines, and Deployment",
+    "link": "https://www.databricks.com/blog/data-pipeline-best-practices",
+    "description": "Purpose and Core ComponentsA data pipeline is the automated system that moves raw data from source systems...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T16:14:42+00:00"
+  },
+  {
+    "title": "Building a SQL ETL Pipeline: The Complete Guide for Data Engineers",
+    "link": "https://www.databricks.com/blog/sql-etl-pipeline",
+    "description": "An SQL ETL pipeline is one of the most foundational components in any modern analytics stack...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T09:48:20+00:00"
+  },
+  {
+    "title": "Data Engineering for AI: A Practical Guide for Data Professionals",
+    "link": "https://www.databricks.com/blog/data-engineering-for-ai",
+    "description": "Data engineering is the foundational backbone of artificial intelligence systems....",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T08:03:49+00:00"
+  },
+  {
+    "title": "Data Warehouse Types: A Complete Guide to Architectures and Use Cases",
+    "link": "https://www.databricks.com/blog/data-warehouse-types",
+    "description": "A data warehouse is a centralized repository that collects, organizes, and stores...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-18T07:43:27+00:00"
+  },
+  {
+    "title": "Payment Fraud Detection: How Banks and Businesses Stop Fraudulent Transactions",
+    "link": "https://www.databricks.com/blog/payment-fraud-detection",
+    "description": "Payment fraud detection has become one of the most data-intensive challenges in financial services...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-17T21:45:24+00:00"
+  },
+  {
+    "title": "Daybreak: Tools for securing every organization in the world",
+    "link": "https://openai.com/index/daybreak-securing-the-world",
+    "description": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-22T10:00:00+00:00"
+  },
+  {
+    "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+    "link": "https://openai.com/index/patch-the-planet",
+    "description": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-22T10:00:00+00:00"
+  },
+  {
+    "title": "Codex-maxxing for long-running work",
+    "link": "https://openai.com/index/codex-maxxing-long-running-work",
+    "description": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-22T00:00:00+00:00"
+  },
+  {
+    "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+    "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+    "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-21T23:00:00+00:00"
   }
 ]
