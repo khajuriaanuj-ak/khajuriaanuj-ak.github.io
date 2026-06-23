@@ -12598,5 +12598,89 @@
     "description": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
     "provider": "OpenAI",
     "timestamp": "2026-06-21T23:00:00+00:00"
+  },
+  {
+    "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+    "link": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+    "description": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructu...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T22:40:07+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
+    "description": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can grant principals in one account permission to call mem...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T17:20:00+00:00"
+  },
+  {
+    "title": "AWS HealthOmics now supports ephemeral storage for private workflows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
+    "description": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task now receives a dedicated local volume mounted at /...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T17:15:00+00:00"
+  },
+  {
+    "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
+    "description": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the accuracy of generative AI responses against a policy you d...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T16:20:00+00:00"
+  },
+  {
+    "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+    "description": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own co...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T20:37:00+00:00"
+  },
+  {
+    "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+    "description": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, network infrastructure, and server rehosting. Custo...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T17:30:40+00:00"
+  },
+  {
+    "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+    "description": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as troubleshooting, sizing, configuring, monitoring, and m...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T15:00:00+00:00"
+  },
+  {
+    "title": "June 23, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_23_2026",
+    "description": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate hardware options, estimate deployment costs,\nand view recommended configurations for your clusters. Prompting\nGemini helps you rea...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-23T00:00:00-07:00"
+  },
+  {
+    "title": "Genesis Workbench: A blueprint for industry AI in life sciences, powered by Databricks and NVIDIA",
+    "link": "https://www.databricks.com/blog/genesis-workbench-blueprint-industry-ai-life-sciences-powered-databricks-and-nvidia",
+    "description": "Bringing GPU-accelerated drug discovery to your dataLife sciences leaders need&nbsp;domain-specific,...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-23T18:45:12+00:00"
+  },
+  {
+    "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+    "link": "https://openai.com/index/gpt-5-immunology-mystery",
+    "description": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-23T17:00:00+00:00"
+  },
+  {
+    "title": "How Omio is building the future of conversational travel",
+    "link": "https://openai.com/index/omio",
+    "description": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-23T00:00:00+00:00"
+  },
+  {
+    "title": "Introducing Claude Tag",
+    "link": "https://www.anthropic.com/news/introducing-claude-tag",
+    "description": "Claude Tag is a new way for teams to work with Claude.We’re starting on Slack, which Claude can join as a team member. Grant Claude access to selected channels, and connect it to whichever tools, data—and even codebases—you choose. Then, anyone in th...",
+    "provider": "Anthropic",
+    "timestamp": "2026-06-22T16:00:00+00:00"
   }
 ]

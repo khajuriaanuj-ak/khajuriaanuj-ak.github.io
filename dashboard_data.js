@@ -1,6 +1,76 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-22T21:36:34.506935+00:00",
+  "last_updated": "2026-06-23T19:31:53.782534+00:00",
   "updates": [
+    {
+      "title": "Genesis Workbench: A blueprint for industry AI in life sciences, powered by Databricks and NVIDIA",
+      "link": "https://www.databricks.com/blog/genesis-workbench-blueprint-industry-ai-life-sciences-powered-databricks-and-nvidia",
+      "description": "Bringing GPU-accelerated drug discovery to your dataLife sciences leaders need&nbsp;domain-specific,...",
+      "provider": "Databricks",
+      "timestamp": "2026-06-23T18:45:12+00:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access",
+      "description": "Amazon Bedrock AgentCore Memory now enables cross-account access, allowing you to build multi-account architectures where memory resources and consuming agents span multiple AWS accounts. You can grant principals in one account permission to call mem...",
+      "provider": "AWS",
+      "timestamp": "2026-06-23T17:20:00+00:00"
+    },
+    {
+      "title": "AWS HealthOmics now supports ephemeral storage for private workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/healthomics-scratch-storage/",
+      "description": "AWS HealthOmics adds ephemeral storage for private workflows, giving bioinformatics workloads dedicated scratch space that delivers more consistent run performance and lower costs. Each workflow task now receives a dedicated local volume mounted at /...",
+      "provider": "AWS",
+      "timestamp": "2026-06-23T17:15:00+00:00"
+    },
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "description": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-23T17:00:00+00:00"
+    },
+    {
+      "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
+      "description": "Today, AWS announces new automated refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails. Automated Reasoning checks use formal logic to mathematically validate the accuracy of generative AI responses against a policy you d...",
+      "provider": "AWS",
+      "timestamp": "2026-06-23T16:20:00+00:00"
+    },
+    {
+      "title": "June 23, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_23_2026",
+      "description": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate hardware options, estimate deployment costs,\nand view recommended configurations for your clusters. Prompting\nGemini helps you rea...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-23T00:00:00-07:00"
+    },
+    {
+      "title": "How Omio is building the future of conversational travel",
+      "link": "https://openai.com/index/omio",
+      "description": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+      "link": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "description": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructu...",
+      "provider": "AWS",
+      "timestamp": "2026-06-22T22:40:07+00:00"
+    },
+    {
+      "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+      "description": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own co...",
+      "provider": "AWS",
+      "timestamp": "2026-06-22T20:37:00+00:00"
+    },
+    {
+      "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+      "description": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, network infrastructure, and server rehosting. Custo...",
+      "provider": "AWS",
+      "timestamp": "2026-06-22T17:30:40+00:00"
+    },
     {
       "title": "AWS Batch now supports customer-ordered instance allocation strategies",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
@@ -14,6 +84,20 @@ const DASHBOARD_DATA = {
       "description": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,000 AWS accounts and up to 7,000 applications indepe...",
       "provider": "AWS",
       "timestamp": "2026-06-22T16:07:00+00:00"
+    },
+    {
+      "title": "Introducing Claude Tag",
+      "link": "https://www.anthropic.com/news/introducing-claude-tag",
+      "description": "Claude Tag is a new way for teams to work with Claude.We’re starting on Slack, which Claude can join as a team member. Grant Claude access to selected channels, and connect it to whichever tools, data—and even codebases—you choose. Then, anyone in th...",
+      "provider": "Anthropic",
+      "timestamp": "2026-06-22T16:00:00+00:00"
+    },
+    {
+      "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+      "description": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as troubleshooting, sizing, configuring, monitoring, and m...",
+      "provider": "AWS",
+      "timestamp": "2026-06-22T15:00:00+00:00"
     },
     {
       "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
@@ -12604,94 +12688,94 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "The AI world is getting ‘loopy’",
-      "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
-      "description": "The loop takes agentic AI a step further, by authorizing a swarm of agents to work continuously in the background, endlessly.",
-      "date": "Jun 22, 2026",
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "link": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "description": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+      "date": "Jun 23, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Enterprise Adoption"
+    },
+    {
+      "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
+      "description": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
+      "date": "Jun 23, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+      "link": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "description": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
+      "date": "Jun 23, 2026",
       "source": "TechCrunch AI",
       "trend": "AI Agents"
     },
     {
-      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
-      "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
-      "description": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
-      "date": "Jun 22, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
-      "link": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
-      "description": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
-      "date": "Jun 22, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-      "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-      "description": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
-      "date": "Jun 22, 2026",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+      "link": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "description": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "date": "Jun 23, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "Amazon is testing Alexa+ in India with Hindi support",
-      "link": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-      "description": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
-      "date": "Jun 22, 2026",
+      "title": "OpenAI launches new initiative to help find and patch open source bugs",
+      "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "description": "OpenAI is using AI to help the open source community better protect itself.",
+      "date": "Jun 23, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
-      "link": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
-      "description": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+      "title": "The AI world is getting ‘loopy’",
+      "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "description": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
       "date": "Jun 22, 2026",
       "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
+      "trend": "AI Agents"
     }
   ],
   "sentiments": [
     {
-      "company": "Anthropic",
-      "score": 88,
+      "company": "NVIDIA",
+      "score": 97,
       "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "change": "▲ +1",
+      "reason": "Genesis Workbench: A blueprint for industry AI in life scien...",
+      "mentions": 1
     },
     {
-      "company": "Databricks",
-      "score": 87,
+      "company": "Anthropic",
+      "score": 91,
       "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Data scientists: Powering the future of AI and analytics",
-      "mentions": 6
+      "change": "▼ -2",
+      "reason": "Introducing Claude Tag",
+      "mentions": 2
     },
     {
       "company": "OpenAI",
-      "score": 85,
+      "score": 91,
       "status": "Bullish",
-      "change": "▼ -1",
-      "reason": "Daybreak: Tools for securing every organization in the world",
-      "mentions": 4
+      "change": "▬ Stable",
+      "reason": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-o...",
+      "mentions": 3
     },
     {
-      "company": "NVIDIA",
-      "score": 85,
+      "company": "Databricks",
+      "score": 90,
       "status": "Bullish",
-      "change": "▼ -1",
-      "reason": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB...",
-      "mentions": 4
+      "change": "▼ -2",
+      "reason": "Genesis Workbench: A blueprint for industry AI in life scien...",
+      "mentions": 1
     },
     {
       "company": "Groq",
       "score": 85,
       "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvid...",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Snowflake",
@@ -12706,8 +12790,8 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "June 22, 2026",
-      "mentions": 2
+      "reason": "June 23, 2026",
+      "mentions": 1
     },
     {
       "company": "Meta",
@@ -12729,242 +12813,242 @@ const DASHBOARD_DATA = {
       "company": "Apple",
       "score": 76,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "Data Engineering for AI: A Practical Guide for Data Professi...",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 208.65,
-      "forwardPE": 16.39,
-      "trailingPE": 31.95,
-      "marketCap": 5053711646720,
+      "price": 201.18,
+      "forwardPE": 15.8,
+      "trailingPE": 30.81,
+      "marketCap": 4872659795968,
       "psRatio": null,
-      "dayChange": -0.97,
-      "rangePosition": 0.705,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -3.58,
+      "rangePosition": 0.612,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 349.68,
-      "forwardPE": 24.12,
-      "trailingPE": 26.69,
-      "marketCap": 4266995482624,
+      "price": 346.75,
+      "forwardPE": 23.83,
+      "trailingPE": 26.45,
+      "marketCap": 4231242186752,
       "psRatio": null,
-      "dayChange": -4.99,
-      "rangePosition": 0.761,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -0.8,
+      "rangePosition": 0.745,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 367.34,
-      "forwardPE": 18.99,
-      "trailingPE": 21.85,
-      "marketCap": 2728761229312,
+      "price": 373.69,
+      "forwardPE": 19.32,
+      "trailingPE": 22.26,
+      "marketCap": 2775969169408,
       "psRatio": null,
-      "dayChange": -3.18,
-      "rangePosition": 0.056,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 1.73,
+      "rangePosition": 0.087,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 232.79,
-      "forwardPE": 23.56,
-      "trailingPE": 30.15,
-      "marketCap": 2504147599360,
+      "price": 234.61,
+      "forwardPE": 23.74,
+      "trailingPE": 31.88,
+      "marketCap": 2523725561856,
       "psRatio": null,
-      "dayChange": -4.75,
-      "rangePosition": 0.446,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 0.78,
+      "rangePosition": 0.468,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 226.59,
-      "forwardPE": 84.42,
+      "price": 231.0,
+      "forwardPE": 85.98,
       "trailingPE": null,
-      "marketCap": 78536089600,
+      "marketCap": 80062865408,
       "psRatio": null,
-      "dayChange": -2.45,
-      "rangePosition": 0.65,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 1.94,
+      "rangePosition": 0.676,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 467.67,
-      "forwardPE": 23.79,
-      "trailingPE": 40.14,
-      "marketCap": 2425558401024,
+      "price": 439.31,
+      "forwardPE": 22.35,
+      "trailingPE": 37.87,
+      "marketCap": 2278469926912,
       "psRatio": null,
-      "dayChange": 1.2,
-      "rangePosition": 0.968,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -6.06,
+      "rangePosition": 0.857,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 392.13,
-      "forwardPE": 20.23,
-      "trailingPE": 65.25,
-      "marketCap": 1865589981184,
+      "price": 381.79,
+      "forwardPE": 19.69,
+      "trailingPE": 63.63,
+      "marketCap": 1816372838400,
       "psRatio": null,
-      "dayChange": -4.67,
-      "rangePosition": 0.586,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -2.64,
+      "rangePosition": 0.521,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1929.25,
-      "forwardPE": 40.14,
-      "trailingPE": 64.09,
-      "marketCap": 743566999552,
+      "price": 1774.86,
+      "forwardPE": 36.95,
+      "trailingPE": 59.74,
+      "marketCap": 684062408704,
       "psRatio": null,
-      "dayChange": -0.02,
-      "rangePosition": 0.977,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -8.0,
+      "rangePosition": 0.856,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 357.96,
-      "forwardPE": 40.44,
-      "trailingPE": 89.49,
-      "marketCap": 137495576576,
+      "price": 319.81,
+      "forwardPE": 36.13,
+      "trailingPE": 80.56,
+      "marketCap": 122841833472,
       "psRatio": null,
-      "dayChange": 7.48,
-      "rangePosition": 0.919,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -10.66,
+      "rangePosition": 0.777,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 174.56,
-      "forwardPE": 39.19,
-      "trailingPE": 59.78,
-      "marketCap": 219800616960,
+      "price": 162.69,
+      "forwardPE": 36.52,
+      "trailingPE": 55.72,
+      "marketCap": 204854280192,
       "psRatio": null,
-      "dayChange": 2.88,
-      "rangePosition": 0.944,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -6.8,
+      "rangePosition": 0.804,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 140.94,
-      "forwardPE": 91.14,
+      "price": 133.55,
+      "forwardPE": 86.36,
       "trailingPE": null,
-      "marketCap": 708364402688,
+      "marketCap": 671222267904,
       "psRatio": null,
-      "dayChange": 5.19,
-      "rangePosition": 0.996,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -5.24,
+      "rangePosition": 0.935,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 418.71,
-      "forwardPE": 19.61,
-      "trailingPE": 33.42,
-      "marketCap": 270546272256,
+      "price": 430.82,
+      "forwardPE": 20.13,
+      "trailingPE": 34.3,
+      "marketCap": 278374318080,
       "psRatio": null,
-      "dayChange": 2.25,
-      "rangePosition": 0.859,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 2.89,
+      "rangePosition": 0.892,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 48.4,
-      "forwardPE": 12.11,
-      "trailingPE": 45.23,
-      "marketCap": 64091451392,
+      "price": 49.3,
+      "forwardPE": 12.33,
+      "trailingPE": 46.07,
+      "marketCap": 65283231744,
       "psRatio": null,
-      "dayChange": 2.09,
-      "rangePosition": 0.661,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 1.86,
+      "rangePosition": 0.677,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 563.85,
-      "forwardPE": 15.56,
-      "trailingPE": 20.52,
-      "marketCap": 1431289856000,
+      "price": 562.27,
+      "forwardPE": 15.51,
+      "trailingPE": 20.43,
+      "marketCap": 1427279314944,
       "psRatio": null,
-      "dayChange": -2.32,
-      "rangePosition": 0.158,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -0.28,
+      "rangePosition": 0.152,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 252.22,
-      "forwardPE": 18.75,
-      "trailingPE": 22.3,
-      "marketCap": 237057867776,
+      "price": 263.36,
+      "forwardPE": 19.57,
+      "trailingPE": 23.31,
+      "marketCap": 247523508224,
       "psRatio": null,
-      "dayChange": 1.25,
-      "rangePosition": 0.332,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 4.41,
+      "rangePosition": 0.425,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 2.69,
-      "forwardPE": 3.17,
+      "price": 2.66,
+      "forwardPE": 3.14,
       "trailingPE": null,
-      "marketCap": 142146912,
+      "marketCap": 140561632,
       "psRatio": null,
-      "dayChange": 1.51,
-      "rangePosition": 0.01,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -1.12,
+      "rangePosition": 0.007,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 297.01,
-      "forwardPE": 30.94,
-      "trailingPE": 36.0,
-      "marketCap": 4362291642368,
+      "price": 295.81,
+      "forwardPE": 30.81,
+      "trailingPE": 35.81,
+      "marketCap": 4344666652672,
       "psRatio": null,
-      "dayChange": -0.34,
-      "rangePosition": 0.828,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -0.4,
+      "rangePosition": 0.817,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 119.5,
-      "forwardPE": 57.39,
-      "trailingPE": 134.27,
-      "marketCap": 286478794752,
+      "price": 116.3,
+      "forwardPE": 55.86,
+      "trailingPE": 132.16,
+      "marketCap": 278807379968,
       "psRatio": null,
-      "dayChange": -6.98,
-      "rangePosition": 0.003,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -2.68,
+      "rangePosition": 0.001,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 286.4,
-      "forwardPE": 69.57,
-      "trailingPE": 249.04,
-      "marketCap": 233415999488,
+      "price": 288.73,
+      "forwardPE": 70.14,
+      "trailingPE": 251.07,
+      "marketCap": 235314954240,
       "psRatio": null,
-      "dayChange": -0.48,
-      "rangePosition": 0.899,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 0.81,
+      "rangePosition": 0.913,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 150.12,
-      "forwardPE": 9.69,
-      "trailingPE": 17.37,
-      "marketCap": 122948272128,
+      "price": 153.01,
+      "forwardPE": 9.87,
+      "trailingPE": 17.73,
+      "marketCap": 125319282688,
       "psRatio": null,
-      "dayChange": -1.09,
-      "rangePosition": 0.02,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": 1.93,
+      "rangePosition": 0.051,
+      "fetchedAt": "2026-06-23 07:31 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 175.07,
-      "forwardPE": 16.04,
-      "trailingPE": 30.08,
-      "marketCap": 503509417984,
+      "price": 165.56,
+      "forwardPE": 15.17,
+      "trailingPE": 28.4,
+      "marketCap": 476172582912,
       "psRatio": null,
-      "dayChange": -5.0,
-      "rangePosition": 0.192,
-      "fetchedAt": "2026-06-22 09:36 PM"
+      "dayChange": -5.43,
+      "rangePosition": 0.147,
+      "fetchedAt": "2026-06-23 07:31 PM"
     }
   },
   "stocks_universe": [
