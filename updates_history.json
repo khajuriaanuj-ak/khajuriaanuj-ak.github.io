@@ -12682,5 +12682,166 @@
     "description": "Claude Tag is a new way for teams to work with Claude.We’re starting on Slack, which Claude can join as a team member. Grant Claude access to selected channels, and connect it to whichever tools, data—and even codebases—you choose. Then, anyone in th...",
     "provider": "Anthropic",
     "timestamp": "2026-06-22T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/",
+    "description": "Amazon Neptune&nbsp;now supports AWS CloudFormation for provisioning and managing Neptune global databases. Using the new AWS::Neptune::GlobalCluster resource type, you can define your multi-region graph database topology as code — automating deploym...",
+    "provider": "AWS",
+    "timestamp": "2026-06-24T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch now supports tags on dashboards",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-tags-on-dashboards",
+    "description": "Amazon CloudWatch now supports tagging for CloudWatch dashboards, enabling you to organize, categorize, and control access to your dashboards using tags. Tags are key-value pairs that help you identify and manage AWS resources across your environment...",
+    "provider": "AWS",
+    "timestamp": "2026-06-24T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Asia Pacific (Seoul) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7in-24tb-aws-seoul/",
+    "description": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Asia Pacific (Seoul) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphi...",
+    "provider": "AWS",
+    "timestamp": "2026-06-24T01:00:00+00:00"
+  },
+  {
+    "title": "Amazon GuardDuty AI-powered investigations accelerate threat response (Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-guardduty/",
+    "description": "AWS announces the preview of AI-powered investigations in Amazon GuardDuty, a new capability that automatically analyzes GuardDuty findings and accounts to help you quickly distinguish true threats from benign findings. This feature addresses the tim...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T19:49:00+00:00"
+  },
+  {
+    "title": "SageMaker Notebook Instances now support G6e instance types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g6e-new-launch-sagemaker-notebook-instances/",
+    "description": "We are pleased to announce general availability of Amazon EC2 G6e instances on SageMaker notebook instances. \nAmazon EC2 G6e instances are powered by up to 8 NVIDIA L40s Tensor Core GPUs with 48 GB of memory per GPU and third generation AMD EPYC proc...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T18:14:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/",
+    "description": "CloudWatch OTel Container Insights for Amazon EKS collects infrastructure metrics at 30-second granularity using open-source receivers including cAdvisor, Kube State Metrics, and NVIDIA DCGM. Each metric carries OpenTelemetry semantic conventions and...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T15:12:00+00:00"
+  },
+  {
+    "title": "Claude Tag is now available in beta via Claude Enterprise in AWS Marketplace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-tag-aws-marketplace/",
+    "description": "Anthropic is launching Claude Tag — bringing Claude directly into the channels where your team already works, starting with Slack. Claude Tag is available today in beta to AWS customers who access Claude Enterprise through AWS Marketplace. \nClaude Ta...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T05:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service now offers AI-assisted migrations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-opensearch-service-ai-migrations",
+    "description": "Migration Assistant for&nbsp;Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving your self-managed Apache Solr, Elasticsearch, or OpenSearch deployments to OpenSearch Serverless or Managed Clusters. With the new as...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T03:30:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Studio notebooks now support G7e instance types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/g7e-new-launch-sagemaker-studio-notebooks/",
+    "description": "Amazon G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCPUs) and up to 1600 Gbps of Elastic Fabric Adapter ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-23T01:02:00+00:00"
+  },
+  {
+    "title": "MSK Replicator now supports mutual TLS (mTLS) authentication for replication from external Apache Kafka clusters to MSK Express brokers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-replicator-mtls-support",
+    "description": "Amazon MSK Replicator now supports mutual TLS (mTLS) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers - to Amazon MSK Express brokers. With this capability,...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T15:00:00+00:00"
+  },
+  {
+    "title": "June 24, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_24_2026",
+    "description": "Gemini Enterprise Agent Platform\nFeature\nAI security findings in Agent Platform\nViewing AI security findings and posture management summaries in Gemini\nEnterprise Agent Platform is generally\navailable.\nWith this release, the Security dashboard introd...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-24T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Generally Available: Azure NetApp Files migration assistant",
+    "link": "https://azure.microsoft.com/updates?id=565480",
+    "description": "Azure NetApp Files migration assistant (with SnapMirror) provides efficient and cost-effective data migration leveraging ONTAP's built-in replication engine for seamless transition from on-premises or CVO/other cloud providers to Azure NetApp Files (...",
+    "provider": "Azure",
+    "timestamp": "2026-06-23T20:15:55+00:00"
+  },
+  {
+    "title": "The Rise of Sports Intelligence: How the Lakehouse Turns Tracking Data into Competitive Advantage",
+    "link": "https://www.databricks.com/blog/rise-sports-intelligence-how-lakehouse-turns-tracking-data-competitive-advantage",
+    "description": "Every second of a professional basketball game now generates more than 20,000 data...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-24T18:30:00+00:00"
+  },
+  {
+    "title": "How Daikin Applied Americas builds consistent data pipelines at scale with Genie Code",
+    "link": "https://www.databricks.com/blog/how-daikin-applied-americas-builds-consistent-data-pipelines-scale-genie-code",
+    "description": "Agentic data engineering is changing how pipelines are builtDaikin Applied Americas...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-24T18:00:00+00:00"
+  },
+  {
+    "title": "What if the answer was already in your data?",
+    "link": "https://www.databricks.com/blog/what-if-answer-was-already-your-data",
+    "description": "What If the Answer Was Already in Your Data?Kythera Labs is building an AI-native...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-24T16:45:36+00:00"
+  },
+  {
+    "title": "Databricks positioned highest in execution and furthest in vision for the second consecutive year in Gartner Magic Quadrant",
+    "link": "https://www.databricks.com/blog/databricks-positioned-highest-execution-and-furthest-vision-second-consecutive-year-gartner",
+    "description": "Enterprises are rapidly deploying agentic applications at scale, from back-office...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-24T15:00:00+00:00"
+  },
+  {
+    "title": "Guide to Agentic Systems and AI Agents",
+    "link": "https://www.databricks.com/blog/agentic-systems-guide",
+    "description": "Agentic AI is a class of artificial intelligence in which software systems autonomously plan, execute...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-23T09:53:35+00:00"
+  },
+  {
+    "title": "Top 10 AI Business Solutions Driving Company Growth",
+    "link": "https://www.databricks.com/blog/ai-business-solutions",
+    "description": "The question most business leaders are asking today isn't whether to adopt AI. It's...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-23T09:21:26+00:00"
+  },
+  {
+    "title": "End-to-End RAG Workflow: How Retrieval Augmented Generation Works",
+    "link": "https://www.databricks.com/blog/rag-workflow",
+    "description": "Retrieval Augmented Generation (RAG) is an AI architecture pattern that connects...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-23T09:05:56+00:00"
+  },
+  {
+    "title": "What is Vector Search?",
+    "link": "https://www.databricks.com/blog/vector-search",
+    "description": "Vector search is a search technique that finds results based on meaning, not just...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-23T08:51:49+00:00"
+  },
+  {
+    "title": "DataOps Strategy for Modern Data Engineering",
+    "link": "https://www.databricks.com/blog/what-is-dataops",
+    "description": "What Is DataOps and Why It Matters for Data TeamsDataOps is a collaborative data...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-22T19:38:25+00:00"
+  },
+  {
+    "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "description": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-24T06:00:00+00:00"
+  },
+  {
+    "title": "Helping build shared standards for advanced AI",
+    "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+    "description": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-23T13:00:00+00:00"
   }
 ]

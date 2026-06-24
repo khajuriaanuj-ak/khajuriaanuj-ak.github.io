@@ -218,5 +218,35 @@
     "tailwindScore": 8.5,
     "baseReason": "Oracle's proprietary Exadata infrastructure, combined with its market-leading enterprise database software and new autonomous AI capabilities (like Autonomous AI Database Serverless), provides a highly optimized and scalable platform for mission-critical AI workloads, securing data foundation for large enterprises.",
     "expertStrategy": "Oracle is strategically positioned as enterprises increasingly demand robust, self-managing, and performant data infrastructure for their AI initiatives. Its deep integration with major cloud providers like AWS for its Autonomous Database solutions ensures continued relevance and expands its reach into hybrid and multi-cloud AI deployments, driving recurring revenue growth."
+  },
+  {
+    "name": "Advanced Micro Devices, Inc.",
+    "ticker": "AMD",
+    "category": "direct",
+    "subCategory": "AI Accelerators & CPUs",
+    "moatScore": 8.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Manufactures high-performance CPUs (EPYC) and GPUs (Instinct, L40s) that are foundational for AI training and inference, actively competing and gaining traction against market leaders in cloud and enterprise AI deployments.",
+    "expertStrategy": "AMD is strategically positioned to capture significant market share in the rapidly expanding AI accelerator landscape. Its robust portfolio of CPUs and GPUs, combined with a growing software ecosystem (ROCm), makes it a critical partner for hyperscalers and enterprises seeking diversified and high-performance AI compute solutions."
+  },
+  {
+    "name": "NetApp, Inc.",
+    "ticker": "NTAP",
+    "category": "infra",
+    "subCategory": "AI Data Storage & Management",
+    "moatScore": 7.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Provides mission-critical high-performance and scalable data storage and management solutions, including hybrid cloud offerings like Azure NetApp Files, essential for handling the immense data volumes required by AI models and analytics platforms.",
+    "expertStrategy": "NetApp stands to benefit significantly from the data explosion fueled by AI. Its enterprise-grade storage, data management capabilities, and strong integration with hyperscalers ensure it remains a vital component of the underlying infrastructure necessary for developing, training, and deploying AI solutions."
+  },
+  {
+    "name": "Adobe Inc.",
+    "ticker": "ADBE",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software & Creative AI Tools",
+    "moatScore": 8.5,
+    "tailwindScore": 8.5,
+    "baseReason": "Integrates AI deeply into its industry-leading creative and digital experience software (e.g., Adobe Sensei, Figma), enhancing productivity, enabling new creative possibilities, and empowering enterprises with AI-driven marketing, content generation, and design solutions.",
+    "expertStrategy": "Adobe is strategically leveraging its ubiquitous software platforms to become a central player in the AI ecosystem, transforming creative workflows and enterprise digital experiences. Its continuous innovation in AI-powered features, strong subscription model, and strategic acquisitions position it for sustained growth as businesses increasingly adopt AI for content and customer engagement."
   }
 ]
