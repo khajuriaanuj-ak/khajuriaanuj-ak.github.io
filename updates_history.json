@@ -12906,5 +12906,96 @@
     "description": "Release v0.1.5",
     "provider": "Google Antigravity",
     "timestamp": "2026-06-25T14:49:40+00:00"
+  },
+  {
+    "title": "Amazon EC2 C7a instances are now available in the Asia Pacific (Singapore) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7a-instances-asia-pacific-singapore-region/",
+    "description": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS Asia Pacific (Singapore) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% h...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T22:24:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Mumbai) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8a-instances-asia-pacific-mumbai-region/",
+    "description": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Mumbai) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T22:15:00+00:00"
+  },
+  {
+    "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud",
+    "description": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models are now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 approved within Amazon Bedrock in the AWS GovCloud (US) Regions. ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T21:00:00+00:00"
+  },
+  {
+    "title": "AWS Network Firewall now supports managed threat intelligence rules from VisionHeight",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/network-firewall-visionheight-managed-rules",
+    "description": "AWS Network Firewall now supports two new managed rule groups from VisionHeight, available through AWS Marketplace: Zero-Day Threat Protection, and Noisy Scanners and Tor Protection. These rule groups expand the managed rules offerings for AWS Networ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T20:18:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8in instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-ireland-ohio/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS US East (Ohio) and Europe (Ireland) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors, available only on AW...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T17:00:00+00:00"
+  },
+  {
+    "title": "Kiro achieves FedRAMP High and DoD IL-4/5 authorization in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-fedramp-high-dod-il-4-5-govcloud-us/",
+    "description": "Kiro is now FedRAMP High and Department of Defense Cloud Computing Security Requirements Guide (DoD CC SRG) Impact Level (IL) 4 and 5 authorized in the AWS GovCloud (US) Regions.  Federal agencies, public sector organizations, and other enterprises w...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-custom-supports-latest-cu-gdr-updates-microsoft-sql-server",
+    "description": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T07:44:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports the latest GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-supports-latest-gdr-updates-microsoft-sql-server",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GDR KB5084821 (RDS version 13....",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T07:03:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Ingestion now available in AWS Europe (Paris) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ingestion-europe-paris-region-availability",
+    "description": "Starting today, customers can use Amazon OpenSearch Ingestion in the Europe (Paris) Region (eu-west-3) for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections.  Amazon OpenSearch Ingestion is a fully managed...",
+    "provider": "AWS",
+    "timestamp": "2026-06-25T01:32:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer launches Agentic CX designer (NLX) in preview",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-agentic-cx-preview/",
+    "description": "Amazon Connect Customer now offers Agentic CX designer (NLX) in preview, a no-code canvas for designing and deploying AI-powered self-service experiences. You can build and launch voice and digital experiences that bring agentic and deterministic AI ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-22T16:56:00+00:00"
+  },
+  {
+    "title": "June 26, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_26_2026",
+    "description": "Compute Engine\nFeature\nGenerally available: You can cancel a future reservation request in calendar\nmode to prevent Compute Engine from provisioning your requested resources and\nincurring unnecessary charges. For more information, see\nDelete a future...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-26T00:00:00-07:00"
+  },
+  {
+    "title": "From test bench to lakehouse: how AVL modernizes measurement data analytics with Impulse",
+    "link": "https://www.databricks.com/blog/test-bench-lakehouse-how-avl-modernizes-measurement-data-analytics-impulse",
+    "description": "1. Introduction - Impulse: time-series analytics for measurement dataA single automotive...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-25T19:30:00+00:00"
+  },
+  {
+    "title": "Previewing GPT-5.6 Sol: a next-generation model",
+    "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-26T10:00:00+00:00"
   }
 ]
