@@ -12997,5 +12997,54 @@
     "description": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
     "provider": "OpenAI",
     "timestamp": "2026-06-26T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 R8g instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-r8g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances are available in AWS Asia Pacific (Thailand, New Zealand), AWS Africa (Cape Town), AWS Europe (Milan), and AWS Canada West (Calgary) regions. These instances are powered by AWS G...",
+    "provider": "AWS",
+    "timestamp": "2026-06-26T15:00:00+00:00"
+  },
+  {
+    "title": "June 27, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_27_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-27T00:00:00-07:00"
+  },
+  {
+    "title": "How Databricks is turning video into searchable, actionable intelligence",
+    "link": "https://www.databricks.com/blog/how-databricks-turning-video-searchable-actionable-intelligence",
+    "description": "A utility company deploys drones to inspect hundreds of miles of power lines. A police...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-26T20:30:00+00:00"
+  },
+  {
+    "title": "A Decision Framework for ETL Migration to Databricks",
+    "link": "https://www.databricks.com/blog/decision-framework-etl-migration-databricks",
+    "description": "Your team has hundreds of stored procedures, a couple of schedulers, permissions...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-26T20:20:00+00:00"
+  },
+  {
+    "title": "How the English Office for Students leverages Databricks to enhance higher education standards and drive better student outcomes",
+    "link": "https://www.databricks.com/blog/how-english-office-students-leverages-databricks-enhance-higher-education-standards-and-drive",
+    "description": "8 hours → minutes | Processing time for a 300-million-record data job after moving...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-26T20:15:00+00:00"
+  },
+  {
+    "title": "What To Look For in a Serverless Database for AI Applications",
+    "link": "https://www.databricks.com/blog/serverless-database",
+    "description": "For teams building AI applications today, serverless databases are the new baseline....",
+    "provider": "Databricks",
+    "timestamp": "2026-06-25T11:07:15+00:00"
+  },
+  {
+    "title": "What Is Serverless PostgreSQL?",
+    "link": "https://www.databricks.com/blog/what-is-serverless-postgres",
+    "description": "Serverless PostgreSQL (Postgres) is a fully managed cloud database model that decouples compute and storage...",
+    "provider": "Databricks",
+    "timestamp": "2026-06-25T08:37:07+00:00"
   }
 ]
