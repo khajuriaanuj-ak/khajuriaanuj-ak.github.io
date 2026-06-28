@@ -1,6 +1,13 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-27T16:47:34.624261+00:00",
+  "last_updated": "2026-06-28T16:48:21.464419+00:00",
   "updates": [
+    {
+      "title": "June 28, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_28_2026",
+      "description": "Google SecOps SOAR\nAnnouncement\nRemote Agents Version 2.6.7\nRemote Agents Version 2.6.7 is now available. This release contains minor bug\nfixes.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-28T00:00:00-07:00"
+    },
     {
       "title": "June 27, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_27_2026",
@@ -13052,6 +13059,22 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "description": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "date": "Jun 28, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Hardware & Chips"
+    },
+    {
+      "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "link": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "description": "Not everyone is buying Elon Musk’s vision for orbital data centers.",
+      "date": "Jun 27, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
       "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
       "description": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
@@ -13076,26 +13099,10 @@ const DASHBOARD_DATA = {
       "trend": "General AI"
     },
     {
-      "title": "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
+      "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
       "link": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
       "description": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
       "date": "Jun 27, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-      "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-      "description": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
-      "date": "Jun 26, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Enterprise Adoption"
-    },
-    {
-      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
-      "link": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
-      "description": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
-      "date": "Jun 26, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     }
@@ -13114,8 +13121,8 @@ const DASHBOARD_DATA = {
       "score": 91,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "reason": "Why Wall Street thinks US memory maker Micron is the next Nv...",
+      "mentions": 1
     },
     {
       "company": "Groq",
@@ -13129,9 +13136,17 @@ const DASHBOARD_DATA = {
       "company": "Databricks",
       "score": 84,
       "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "How Databricks is turning video into searchable, actionable ...",
-      "mentions": 5
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "OpenAI",
+      "score": 82,
+      "status": "Mixed",
+      "change": "▲ +1",
+      "reason": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "mentions": 1
     },
     {
       "company": "Snowflake",
@@ -13146,16 +13161,8 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "June 27, 2026",
+      "reason": "June 28, 2026",
       "mentions": 1
-    },
-    {
-      "company": "OpenAI",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "mentions": 3
     },
     {
       "company": "Meta",
@@ -13178,8 +13185,8 @@ const DASHBOARD_DATA = {
       "score": 76,
       "status": "Mixed",
       "change": "▼ -1",
-      "reason": "How Databricks is turning video into searchable, actionable ...",
-      "mentions": 2
+      "reason": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "mentions": 1
     }
   ],
   "valuations": {
@@ -13192,7 +13199,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.64,
       "rangePosition": 0.483,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -13203,7 +13210,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.84,
       "rangePosition": 0.698,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -13214,7 +13221,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.71,
       "rangePosition": 0.115,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -13225,7 +13232,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.5,
       "rangePosition": 0.444,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -13236,7 +13243,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 9.65,
       "rangePosition": 0.784,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -13247,7 +13254,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.61,
       "rangePosition": 0.826,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -13258,18 +13265,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.67,
       "rangePosition": 0.441,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1794.62,
-      "forwardPE": 37.54,
+      "forwardPE": 37.44,
       "trailingPE": 60.98,
       "marketCap": 691678216192,
       "psRatio": null,
       "dayChange": -2.53,
       "rangePosition": 0.871,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -13280,7 +13287,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.64,
       "rangePosition": 0.718,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -13291,7 +13298,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.74,
       "rangePosition": 0.731,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -13302,7 +13309,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.42,
       "rangePosition": 0.893,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -13313,7 +13320,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.43,
       "rangePosition": 0.805,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -13324,7 +13331,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.44,
       "rangePosition": 0.54,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -13335,7 +13342,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.36,
       "rangePosition": 0.109,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -13346,18 +13353,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.17,
       "rangePosition": 0.494,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 2.84,
-      "forwardPE": 3.36,
+      "forwardPE": 3.35,
       "trailingPE": null,
       "marketCap": 150073312,
       "psRatio": null,
       "dayChange": 8.81,
       "rangePosition": 0.021,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -13368,7 +13375,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.14,
       "rangePosition": 0.715,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -13379,7 +13386,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.28,
       "rangePosition": 0.065,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -13390,7 +13397,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.79,
       "rangePosition": 0.988,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -13401,7 +13408,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.45,
       "rangePosition": 0.092,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -13412,7 +13419,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.58,
       "rangePosition": 0.066,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -13423,7 +13430,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.06,
       "rangePosition": 0.904,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -13434,7 +13441,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.38,
       "rangePosition": 0.593,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -13445,7 +13452,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.82,
       "rangePosition": 0.062,
-      "fetchedAt": "2026-06-27 04:47 PM"
+      "fetchedAt": "2026-06-28 04:48 PM"
+    },
+    "MU": {
+      "name": "Micron Technology, Inc.",
+      "price": 1132.33,
+      "forwardPE": 7.61,
+      "trailingPE": 25.58,
+      "marketCap": 1278845648896,
+      "psRatio": null,
+      "dayChange": -6.69,
+      "rangePosition": 0.893,
+      "fetchedAt": "2026-06-28 04:48 PM"
     }
   },
   "stocks_universe": [
@@ -13698,6 +13716,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 8.5,
       "baseReason": "Integrates AI deeply into its industry-leading creative and digital experience software (e.g., Adobe Sensei, Figma), enhancing productivity, enabling new creative possibilities, and empowering enterprises with AI-driven marketing, content generation, and design solutions.",
       "expertStrategy": "Adobe is strategically leveraging its ubiquitous software platforms to become a central player in the AI ecosystem, transforming creative workflows and enterprise digital experiences. Its continuous innovation in AI-powered features, strong subscription model, and strategic acquisitions position it for sustained growth as businesses increasingly adopt AI for content and customer engagement."
+    },
+    {
+      "name": "Micron Technology, Inc.",
+      "ticker": "MU",
+      "category": "infra",
+      "subCategory": "High-Bandwidth Memory (HBM)",
+      "moatScore": 8.0,
+      "tailwindScore": 9.0,
+      "baseReason": "Leading global producer of High-Bandwidth Memory (HBM) and DRAM, essential components for powering AI accelerators and data centers. Its technology is critical for the performance and efficiency of modern AI systems.",
+      "expertStrategy": "Micron is positioned as a foundational supplier in the AI revolution, with surging demand for its HBM products driven by the proliferation of AI accelerators. Its robust R&D and manufacturing scale in advanced memory solutions make it a compelling investment for exposure to the underlying infrastructure supporting AI growth."
     }
   ]
 };

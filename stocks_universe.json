@@ -248,5 +248,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Integrates AI deeply into its industry-leading creative and digital experience software (e.g., Adobe Sensei, Figma), enhancing productivity, enabling new creative possibilities, and empowering enterprises with AI-driven marketing, content generation, and design solutions.",
     "expertStrategy": "Adobe is strategically leveraging its ubiquitous software platforms to become a central player in the AI ecosystem, transforming creative workflows and enterprise digital experiences. Its continuous innovation in AI-powered features, strong subscription model, and strategic acquisitions position it for sustained growth as businesses increasingly adopt AI for content and customer engagement."
+  },
+  {
+    "name": "Micron Technology, Inc.",
+    "ticker": "MU",
+    "category": "infra",
+    "subCategory": "High-Bandwidth Memory (HBM)",
+    "moatScore": 8.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Leading global producer of High-Bandwidth Memory (HBM) and DRAM, essential components for powering AI accelerators and data centers. Its technology is critical for the performance and efficiency of modern AI systems.",
+    "expertStrategy": "Micron is positioned as a foundational supplier in the AI revolution, with surging demand for its HBM products driven by the proliferation of AI accelerators. Its robust R&D and manufacturing scale in advanced memory solutions make it a compelling investment for exposure to the underlying infrastructure supporting AI growth."
   }
 ]

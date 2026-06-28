@@ -13046,5 +13046,12 @@
     "description": "Serverless PostgreSQL (Postgres) is a fully managed cloud database model that decouples compute and storage...",
     "provider": "Databricks",
     "timestamp": "2026-06-25T08:37:07+00:00"
+  },
+  {
+    "title": "June 28, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_28_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRemote Agents Version 2.6.7\nRemote Agents Version 2.6.7 is now available. This release contains minor bug\nfixes.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-28T00:00:00-07:00"
   }
 ]
