@@ -1,6 +1,34 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-06-28T16:48:21.464419+00:00",
+  "last_updated": "2026-06-29T19:24:44.948478+00:00",
   "updates": [
+    {
+      "title": "AWS Weekly Roundup, Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
+      "description": "It has been a busy stretch on the AWS Summit circuit. At the New York City Summit, I delivered a workshop called Building AI architectures with AWS Serverless, and it was a lot of fun watching builders wire up agents and serverless services to solve ...",
+      "provider": "AWS",
+      "timestamp": "2026-06-29T16:30:30+00:00"
+    },
+    {
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-29T07:00:00+00:00"
+    },
+    {
+      "title": "June 29, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_29_2026",
+      "description": "BigQuery\nFeature\nYou can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant data preparations access to Google Drive,\nand grant pipelines a...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-06-29T00:00:00-07:00"
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-28T17:00:00+00:00"
+    },
     {
       "title": "June 28, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_28_2026",
@@ -13059,70 +13087,78 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-      "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
-      "description": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
-      "date": "Jun 28, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
-      "link": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
-      "description": "Not everyone is buying Elon Musk’s vision for orbital data centers.",
-      "date": "Jun 27, 2026",
+      "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+      "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "description": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival.",
+      "date": "Jun 29, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-      "description": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
-      "date": "Jun 27, 2026",
+      "title": "South Korean tech giants commit over $550B to ease ‘RAMageddon’",
+      "link": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "description": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country.",
+      "date": "Jun 29, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
     },
     {
-      "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
-      "link": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-      "description": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
-      "date": "Jun 27, 2026",
+      "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+      "link": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "description": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
+      "date": "Jun 29, 2026",
       "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
+      "trend": "Enterprise Adoption"
     },
     {
-      "title": "Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
-      "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "description": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
-      "date": "Jun 27, 2026",
+      "title": "Cursor now has a mobile app for guiding your coding agent on the go",
+      "link": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "description": "Cursor has launched a new mobile app for remote oversight over coding agents.",
+      "date": "Jun 29, 2026",
+      "source": "TechCrunch AI",
+      "trend": "AI Agents"
+    },
+    {
+      "title": "TIDAL cracks down on AI music by cutting off monetization",
+      "link": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "description": "In addition, TIDAL will use automated tools to remove AI-generated music that attempts to impersonate an artist or a group, the company said.",
+      "date": "Jun 29, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
-      "link": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
-      "description": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
-      "date": "Jun 27, 2026",
+      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+      "link": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "description": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+      "date": "Jun 29, 2026",
       "source": "TechCrunch AI",
-      "trend": "General AI"
+      "trend": "Investment & Startup"
     }
   ],
   "sentiments": [
-    {
-      "company": "Anthropic",
-      "score": 91,
-      "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "The fittest founder in the room got cancer. Here’s how he us...",
-      "mentions": 3
-    },
     {
       "company": "NVIDIA",
       "score": 91,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Why Wall Street thinks US memory maker Micron is the next Nv...",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Anthropic",
+      "score": 88,
+      "status": "Bullish",
+      "change": "▬ Stable",
+      "reason": "Anthropic and Gov. Newsom forge deal allowing California gov...",
       "mentions": 1
+    },
+    {
+      "company": "OpenAI",
+      "score": 88,
+      "status": "Bullish",
+      "change": "▲ +2",
+      "reason": "Mapping Europe’s AI Workforce Opportunity",
+      "mentions": 3
     },
     {
       "company": "Groq",
@@ -13141,14 +13177,6 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "OpenAI",
-      "score": 82,
-      "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "mentions": 1
-    },
-    {
       "company": "Snowflake",
       "score": 81,
       "status": "Mixed",
@@ -13161,7 +13189,7 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "June 28, 2026",
+      "reason": "June 29, 2026",
       "mentions": 1
     },
     {
@@ -13184,286 +13212,297 @@ const DASHBOARD_DATA = {
       "company": "Apple",
       "score": 76,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 192.53,
-      "forwardPE": 15.13,
-      "trailingPE": 29.48,
-      "marketCap": 4663269130240,
+      "price": 194.74,
+      "forwardPE": 15.26,
+      "trailingPE": 29.82,
+      "marketCap": 4716797362176,
       "psRatio": null,
-      "dayChange": -1.64,
-      "rangePosition": 0.483,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 1.15,
+      "rangePosition": 0.509,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 337.39,
-      "forwardPE": 23.18,
-      "trailingPE": 25.72,
-      "marketCap": 4117026308096,
+      "price": 352.4,
+      "forwardPE": 24.21,
+      "trailingPE": 26.86,
+      "marketCap": 4300186583040,
       "psRatio": null,
-      "dayChange": -1.84,
-      "rangePosition": 0.698,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 4.45,
+      "rangePosition": 0.762,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 372.97,
-      "forwardPE": 19.26,
-      "trailingPE": 22.23,
-      "marketCap": 2770583420928,
+      "price": 367.83,
+      "forwardPE": 18.99,
+      "trailingPE": 21.92,
+      "marketCap": 2732401098752,
       "psRatio": null,
-      "dayChange": 5.71,
-      "rangePosition": 0.115,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": -1.38,
+      "rangePosition": 0.09,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 232.69,
-      "forwardPE": 23.55,
-      "trailingPE": 31.66,
-      "marketCap": 2503072022528,
+      "price": 240.49,
+      "forwardPE": 24.34,
+      "trailingPE": 32.72,
+      "marketCap": 2586977501184,
       "psRatio": null,
-      "dayChange": 2.5,
-      "rangePosition": 0.444,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 3.35,
+      "rangePosition": 0.539,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 248.96,
-      "forwardPE": 92.67,
+      "price": 253.3,
+      "forwardPE": 94.28,
       "trailingPE": null,
-      "marketCap": 86289539072,
+      "marketCap": 87793778688,
       "psRatio": null,
-      "dayChange": 9.65,
-      "rangePosition": 0.784,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 1.74,
+      "rangePosition": 0.81,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 432.35,
-      "forwardPE": 21.66,
-      "trailingPE": 37.47,
-      "marketCap": 2242372173824,
+      "price": 453.95,
+      "forwardPE": 22.55,
+      "trailingPE": 39.34,
+      "marketCap": 2354389975040,
       "psRatio": null,
-      "dayChange": -0.61,
-      "rangePosition": 0.826,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 5.0,
+      "rangePosition": 0.911,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 365.02,
-      "forwardPE": 18.82,
-      "trailingPE": 60.63,
-      "marketCap": 1736611856384,
+      "price": 373.84,
+      "forwardPE": 19.27,
+      "trailingPE": 62.1,
+      "marketCap": 1778573770752,
       "psRatio": null,
-      "dayChange": -3.67,
-      "rangePosition": 0.441,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 2.42,
+      "rangePosition": 0.479,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1794.62,
-      "forwardPE": 37.44,
-      "trailingPE": 60.98,
-      "marketCap": 691678216192,
+      "price": 1879.82,
+      "forwardPE": 38.91,
+      "trailingPE": 63.87,
+      "marketCap": 724513914880,
       "psRatio": null,
-      "dayChange": -2.53,
-      "rangePosition": 0.871,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 4.75,
+      "rangePosition": 0.938,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 303.95,
-      "forwardPE": 34.35,
-      "trailingPE": 76.37,
-      "marketCap": 116749877248,
+      "price": 305.67,
+      "forwardPE": 34.54,
+      "trailingPE": 76.8,
+      "marketCap": 117408620544,
       "psRatio": null,
-      "dayChange": -6.64,
-      "rangePosition": 0.718,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 0.56,
+      "rangePosition": 0.725,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 157.6,
-      "forwardPE": 35.38,
-      "trailingPE": 53.97,
-      "marketCap": 198445105152,
+      "price": 164.96,
+      "forwardPE": 37.03,
+      "trailingPE": 56.49,
+      "marketCap": 207712600064,
       "psRatio": null,
-      "dayChange": -4.74,
-      "rangePosition": 0.731,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 4.67,
+      "rangePosition": 0.82,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 128.32,
-      "forwardPE": 82.97,
+      "price": 131.4,
+      "forwardPE": 84.97,
       "trailingPE": null,
-      "marketCap": 644936368128,
+      "marketCap": 660416364544,
       "psRatio": null,
-      "dayChange": -3.42,
-      "rangePosition": 0.893,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 2.4,
+      "rangePosition": 0.918,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 399.49,
-      "forwardPE": 18.67,
-      "trailingPE": 31.86,
-      "marketCap": 258127413248,
+      "price": 416.19,
+      "forwardPE": 19.45,
+      "trailingPE": 33.19,
+      "marketCap": 268914769920,
       "psRatio": null,
-      "dayChange": -2.43,
-      "rangePosition": 0.805,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 4.18,
+      "rangePosition": 0.852,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 43.71,
-      "forwardPE": 10.93,
-      "trailingPE": 40.85,
-      "marketCap": 57880936448,
+      "price": 44.53,
+      "forwardPE": 11.14,
+      "trailingPE": 41.62,
+      "marketCap": 58966781952,
       "psRatio": null,
-      "dayChange": -6.44,
-      "rangePosition": 0.54,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 1.88,
+      "rangePosition": 0.558,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 550.25,
-      "forwardPE": 15.18,
-      "trailingPE": 20.0,
-      "marketCap": 1396767457280,
+      "price": 565.25,
+      "forwardPE": 15.59,
+      "trailingPE": 20.55,
+      "marketCap": 1434843742208,
       "psRatio": null,
-      "dayChange": 1.36,
-      "rangePosition": 0.109,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 2.73,
+      "rangePosition": 0.163,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 271.63,
-      "forwardPE": 20.18,
-      "trailingPE": 24.04,
-      "marketCap": 255301058560,
+      "price": 277.89,
+      "forwardPE": 20.65,
+      "trailingPE": 24.59,
+      "marketCap": 261184634880,
       "psRatio": null,
-      "dayChange": 5.17,
-      "rangePosition": 0.494,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 2.3,
+      "rangePosition": 0.546,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 2.84,
-      "forwardPE": 3.35,
+      "price": 2.87,
+      "forwardPE": 3.38,
       "trailingPE": null,
-      "marketCap": 150073312,
+      "marketCap": 151394384,
       "psRatio": null,
-      "dayChange": 8.81,
-      "rangePosition": 0.021,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 0.88,
+      "rangePosition": 0.023,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 283.78,
-      "forwardPE": 29.53,
-      "trailingPE": 34.36,
-      "marketCap": 4167977926656,
+      "price": 282.6,
+      "forwardPE": 29.41,
+      "trailingPE": 34.21,
+      "marketCap": 4150646800384,
       "psRatio": null,
-      "dayChange": 3.14,
-      "rangePosition": 0.715,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": -0.42,
+      "rangePosition": 0.705,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 112.93,
-      "forwardPE": 54.24,
-      "trailingPE": 126.89,
-      "marketCap": 270728445952,
+      "price": 116.12,
+      "forwardPE": 55.77,
+      "trailingPE": 130.47,
+      "marketCap": 278375890944,
       "psRatio": null,
-      "dayChange": 5.28,
-      "rangePosition": 0.065,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 2.82,
+      "rangePosition": 0.096,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 304.2,
-      "forwardPE": 73.89,
-      "trailingPE": 262.24,
-      "marketCap": 247923015680,
+      "price": 331.87,
+      "forwardPE": 80.56,
+      "trailingPE": 286.09,
+      "marketCap": 270474051584,
       "psRatio": null,
-      "dayChange": 3.79,
-      "rangePosition": 0.988,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 9.1,
+      "rangePosition": 0.996,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 158.37,
+      "price": 158.62,
       "forwardPE": 10.22,
-      "trailingPE": 18.35,
-      "marketCap": 129705025536,
+      "trailingPE": 18.38,
+      "marketCap": 129913872384,
       "psRatio": null,
-      "dayChange": 5.45,
-      "rangePosition": 0.092,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 0.16,
+      "rangePosition": 0.094,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 148.53,
-      "forwardPE": 13.6,
-      "trailingPE": 25.43,
-      "marketCap": 427836375040,
+      "price": 147.98,
+      "forwardPE": 13.55,
+      "trailingPE": 25.34,
+      "marketCap": 426252107776,
       "psRatio": null,
-      "dayChange": -2.58,
-      "rangePosition": 0.066,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": -0.37,
+      "rangePosition": 0.064,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 521.58,
-      "forwardPE": 39.61,
-      "trailingPE": 172.14,
-      "marketCap": 850488655872,
+      "price": 537.38,
+      "forwardPE": 40.81,
+      "trailingPE": 177.35,
+      "marketCap": 876260294656,
       "psRatio": null,
-      "dayChange": -2.06,
-      "rangePosition": 0.904,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 3.03,
+      "rangePosition": 0.94,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
-      "price": 152.45,
-      "forwardPE": 15.46,
-      "trailingPE": 23.97,
-      "marketCap": 29867991040,
+      "price": 155.47,
+      "forwardPE": 15.77,
+      "trailingPE": 24.44,
+      "marketCap": 30458689536,
       "psRatio": null,
-      "dayChange": -1.38,
-      "rangePosition": 0.593,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 1.98,
+      "rangePosition": 0.623,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
-      "price": 202.73,
-      "forwardPE": 7.36,
-      "trailingPE": 11.6,
-      "marketCap": 80585170944,
+      "price": 206.41,
+      "forwardPE": 7.5,
+      "trailingPE": 11.81,
+      "marketCap": 82047975424,
       "psRatio": null,
-      "dayChange": 4.82,
-      "rangePosition": 0.062,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 1.82,
+      "rangePosition": 0.08,
+      "fetchedAt": "2026-06-29 07:24 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
-      "price": 1132.33,
-      "forwardPE": 7.61,
-      "trailingPE": 25.58,
-      "marketCap": 1278845648896,
+      "price": 1141.69,
+      "forwardPE": 7.64,
+      "trailingPE": 25.79,
+      "marketCap": 1289416736768,
       "psRatio": null,
-      "dayChange": -6.69,
-      "rangePosition": 0.893,
-      "fetchedAt": "2026-06-28 04:48 PM"
+      "dayChange": 0.83,
+      "rangePosition": 0.902,
+      "fetchedAt": "2026-06-29 07:24 PM"
+    },
+    "HPQ": {
+      "name": "HP Inc.",
+      "price": 22.78,
+      "forwardPE": 7.57,
+      "trailingPE": 8.44,
+      "marketCap": 20832827392,
+      "psRatio": null,
+      "dayChange": -0.44,
+      "rangePosition": 0.432,
+      "fetchedAt": "2026-06-29 07:24 PM"
     }
   },
   "stocks_universe": [
@@ -13726,6 +13765,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 9.0,
       "baseReason": "Leading global producer of High-Bandwidth Memory (HBM) and DRAM, essential components for powering AI accelerators and data centers. Its technology is critical for the performance and efficiency of modern AI systems.",
       "expertStrategy": "Micron is positioned as a foundational supplier in the AI revolution, with surging demand for its HBM products driven by the proliferation of AI accelerators. Its robust R&D and manufacturing scale in advanced memory solutions make it a compelling investment for exposure to the underlying infrastructure supporting AI growth."
+    },
+    {
+      "name": "HP Inc.",
+      "ticker": "HPQ",
+      "category": "direct",
+      "subCategory": "Enterprise AI Solutions Integration",
+      "moatScore": 6.0,
+      "tailwindScore": 8.0,
+      "baseReason": "Leveraging its extensive enterprise customer base, global distribution, and hardware platforms to integrate and deploy OpenAI's advanced AI capabilities across its product portfolio and customer solutions, positioning it as a key enabler for enterprise AI adoption.",
+      "expertStrategy": "HP Inc. is strategically transforming its traditional hardware and services business by embedding frontier AI from OpenAI into its customer experiences, software development, and enterprise operations. This partnership enables HP to offer differentiated, AI-enhanced products and services, potentially driving new revenue streams and increasing customer value in the rapidly expanding enterprise AI market. Investors should monitor the tangible impact on HP's recurring revenue and service attach rates as AI integration progresses."
     }
   ]
 };

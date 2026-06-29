@@ -13053,5 +13053,33 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRemote Agents Version 2.6.7\nRemote Agents Version 2.6.7 is now available. This release contains minor bug\nfixes.",
     "provider": "Google Cloud",
     "timestamp": "2026-06-28T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup, Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
+    "description": "It has been a busy stretch on the AWS Summit circuit. At the New York City Summit, I delivered a workshop called Building AI architectures with AWS Serverless, and it was a lot of fun watching builders wire up agents and serverless services to solve ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-29T16:30:30+00:00"
+  },
+  {
+    "title": "June 29, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#June_29_2026",
+    "description": "BigQuery\nFeature\nYou can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant data preparations access to Google Drive,\nand grant pipelines a...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-06-29T00:00:00-07:00"
+  },
+  {
+    "title": "Mapping Europe’s AI Workforce Opportunity",
+    "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+    "description": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-29T07:00:00+00:00"
+  },
+  {
+    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+    "link": "https://openai.com/index/hp-frontier-partnership",
+    "description": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-28T17:00:00+00:00"
   }
 ]

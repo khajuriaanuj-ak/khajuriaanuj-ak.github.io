@@ -258,5 +258,15 @@
     "tailwindScore": 9.0,
     "baseReason": "Leading global producer of High-Bandwidth Memory (HBM) and DRAM, essential components for powering AI accelerators and data centers. Its technology is critical for the performance and efficiency of modern AI systems.",
     "expertStrategy": "Micron is positioned as a foundational supplier in the AI revolution, with surging demand for its HBM products driven by the proliferation of AI accelerators. Its robust R&D and manufacturing scale in advanced memory solutions make it a compelling investment for exposure to the underlying infrastructure supporting AI growth."
+  },
+  {
+    "name": "HP Inc.",
+    "ticker": "HPQ",
+    "category": "direct",
+    "subCategory": "Enterprise AI Solutions Integration",
+    "moatScore": 6.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Leveraging its extensive enterprise customer base, global distribution, and hardware platforms to integrate and deploy OpenAI's advanced AI capabilities across its product portfolio and customer solutions, positioning it as a key enabler for enterprise AI adoption.",
+    "expertStrategy": "HP Inc. is strategically transforming its traditional hardware and services business by embedding frontier AI from OpenAI into its customer experiences, software development, and enterprise operations. This partnership enables HP to offer differentiated, AI-enhanced products and services, potentially driving new revenue streams and increasing customer value in the rapidly expanding enterprise AI market. Investors should monitor the tangible impact on HP's recurring revenue and service attach rates as AI integration progresses."
   }
 ]
