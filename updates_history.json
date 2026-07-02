@@ -13452,5 +13452,145 @@
     "description": "On Friday, June 12, the US government applied export controls to our newest models, Claude Fable 5 and Claude Mythos 5. This required us to restrict access to foreign nationals, whether inside or outside the United States. Because the order took effe...",
     "provider": "Anthropic",
     "timestamp": "2026-06-29T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts",
+    "description": "Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use.  Customers ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-02T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Config now supports 8 new resource types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types",
+    "description": "AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover...",
+    "provider": "AWS",
+    "timestamp": "2026-07-02T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/",
+    "description": "Amazon Bedrock AgentCore has increased the default runtime quota limits, giving customers greater capacity to scale their agent-based workloads. AgentCore is the platform for developers to build, connect, and optimize AI agents. \nThe new default limi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T22:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/",
+    "description": "Amazon Elastic Container Service&nbsp;(Amazon ECS) now provides real-time deployment observability in the Amazon ECS Console. With this launch, customers can track deployment progress, monitor deployment health, and diagnose failures directly from th...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T20:48:00+00:00"
+  },
+  {
+    "title": "AWS Artifact now includes Assurance Assistant for compliance inquiries",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-artifact-assurance-assistant/",
+    "description": "AWS Artifact now includes Assurance Assistant, an AI-powered capability that generates citation-backed responses to security and compliance questions about AWS services. AWS Artifact is the service through which AWS provides compliance reports, certi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T20:01:00+00:00"
+  },
+  {
+    "title": "Amazon ECS now supports configurable deployment circuit breaker settings",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now gives you more control over when a service deployment is considered failed and automatically rolled back. You can now customize deployment circuit breaker settings to match your application's startup ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon GuardDuty adds sensitive file modification threat detections",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-sfm/",
+    "description": "Amazon GuardDuty Runtime Monitoring now includes three new threat detections that alert security teams when sensitive files are modified on Amazon EC2 instances and container workloads running on Amazon EKS or Amazon ECS. These findings help identify...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T16:58:00+00:00"
+  },
+  {
+    "title": "AWS AppConfig launches managed experimentation tools for A/B testing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/6/aws-appconfig-experimentation/",
+    "description": "Today, AWS announces the general availability of experimentation tools in AWS AppConfig, a new capability that enables you to run A/B tests and feature experiments without building or managing separate experimentation infrastructure. Built on 25+ yea...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T16:30:00+00:00"
+  },
+  {
+    "title": "Amazon ECS Express Mode now supports custom task definitions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/",
+    "description": "Amazon Elastic Container Service&nbsp;(Amazon ECS) Express Mode now supports custom task definitions, giving you the flexibility to use existing ECS application configurations and advanced task-level customizations with Express Mode’s simplified depl...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T16:05:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Db2 now supports self-managed Active Directory",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-db2-supports-self-managed-active-directory",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Db2 now allows customers to directly join their RDS for Db2 DB instances to the domains of self-managed Microsoft Active Directory (AD). Self-managed AD can be on-premises, on AWS, or in another clo...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T07:28:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service optimized for log analytics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service-optimized-log-analytics",
+    "description": "Today, Amazon OpenSearch Service introduces a new engine purpose-built for log analytics workloads, delivering up to 4x better price-performance on internal benchmarks. It combines this efficiency with the full-text search capabilities that OpenSearc...",
+    "provider": "AWS",
+    "timestamp": "2026-07-01T02:30:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports rule based redaction for agent screen recording",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/screen-recording-rule-based/",
+    "description": "Amazon Connect Customer now lets you protect sensitive information in agent screen recordings by defining rules to redact specific applications or URLs. Agent screen recording helps supervisors identify coaching opportunities, such as non-compliance ...",
+    "provider": "AWS",
+    "timestamp": "2026-06-30T22:53:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports assigning up to 7 security profiles with granular access controls per user",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/connect-7-security-profiles-user/",
+    "description": "Amazon Connect Customer now supports assigning up to 7 security profiles with granular access controls per user, increased from the previous limit of 2. This means an agent who serves multiple lines of business can now have a distinct, scoped permiss...",
+    "provider": "AWS",
+    "timestamp": "2026-06-30T18:44:00+00:00"
+  },
+  {
+    "title": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing",
+    "description": "Today, AWS announces container attribute-based rules for AWS Network Firewall, a capability that simplifies how you secure containerized workloads, including generative AI applications, running on Amazon Elastic Kubernetes Service (Amazon EKS) and Am...",
+    "provider": "AWS",
+    "timestamp": "2026-06-30T17:00:00+00:00"
+  },
+  {
+    "title": "July 01, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_01_2026",
+    "description": "BigQuery\nFeature\nYou can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\nConnected Sheets.\nThese models let you create\nforecasts and detect anomalies in your data by using the\nAI.FORECAST\nand\nAI.DETECT_ANOMALIES\nfunctions. This featur...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-01T00:00:00-07:00"
+  },
+  {
+    "title": "The 3 questions to answer to take AI from experimentation to impact",
+    "link": "https://www.databricks.com/blog/3-questions-answer-take-ai-experimentation-impact",
+    "description": "Companies are starting to see the potential of AI in their businesses.&nbsp;Today, 60%...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-02T17:04:19+00:00"
+  },
+  {
+    "title": "Inside the infrastructure strategies propelling AI leaders",
+    "link": "https://www.databricks.com/blog/inside-infrastructure-strategies-propelling-ai-leaders",
+    "description": "AI adoption is starting to translate into real-world returns. But as efforts accelerate,...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-02T16:47:56+00:00"
+  },
+  {
+    "title": "How we keep GPUs reliable across Databricks AI",
+    "link": "https://www.databricks.com/blog/how-we-keep-gpus-reliable-across-databricks-ai",
+    "description": "Distributed GPU training has become routine across the industry. Teams now train...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-01T23:00:00+00:00"
+  },
+  {
+    "title": "Celebrating the Winners of the 2026 Built-On Databricks Startup Challenge",
+    "link": "https://www.databricks.com/blog/celebrating-winners-2026-built-databricks-startup-challenge",
+    "description": "We are excited to announce the winners of the 2026 Built-On Databricks Startup Challenge...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-01T22:00:00+00:00"
+  },
+  {
+    "title": "Granular Usage Attribution for dbt Pipelines with Query Tags",
+    "link": "https://www.databricks.com/blog/granular-usage-attribution-dbt-pipelines-query-tags",
+    "description": "Your dbt project runs 80 models every night. The warehouse bill doubled last quarter....",
+    "provider": "Databricks",
+    "timestamp": "2026-07-01T19:23:01+00:00"
   }
 ]
