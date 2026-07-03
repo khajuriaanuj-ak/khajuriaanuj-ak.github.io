@@ -13592,5 +13592,47 @@
     "description": "Your dbt project runs 80 models every night. The warehouse bill doubled last quarter....",
     "provider": "Databricks",
     "timestamp": "2026-07-01T19:23:01+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports Terraform for provisioning",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-terraform/",
+    "description": "Amazon SageMaker Unified Studio now supports Terraform for provisioning. Customers can use the open-source terraform-aws-sagemaker-unified-studio module to deploy a SageMaker Unified Studio domain through version-controlled templates. With this launc...",
+    "provider": "AWS",
+    "timestamp": "2026-07-02T21:49:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 X8i instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ICN-KUL-NRT-region/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (Seoul), Asia Pacific (Malaysia) and Asia Pacific (Tokyo) regions. These instances are powered by custom Intel Xeon 6 processors available only ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-02T20:48:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports AMI versioning and auto-patching",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-hyperpod-ami-version-auto-patch",
+    "description": "Amazon SageMaker HyperPod now gives you visibility into the Amazon Machine Image (AMI) versions running across your clusters and automatically applies security patches without disrupting your workloads. SageMaker HyperPod is purpose-built infrastruct...",
+    "provider": "AWS",
+    "timestamp": "2026-07-02T16:00:00+00:00"
+  },
+  {
+    "title": "July 03, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
+    "description": "Cloud CDN\nFeature\nCloud CDN and external Application Load Balancers support self-service\nPrivate Bucket Access for Cloud Storage buckets. This feature allows you to\nsecurely serve content without making your storage buckets public. The access\non the ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-03T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally available: Anthropic Claude Sonnet 5 on Azure Databricks",
+    "link": "https://azure.microsoft.com/updates?id=567194",
+    "description": "Azure Databricks now supports Anthropic Claude Sonnet 5 through Azure Databricks AI Model Serving. Claude Sonnet 5 is Anthropic's most agentic Sonnet model to date, delivering near-Opus-level intelligence with Sonnet's cost efficiency and speed. Desi...",
+    "provider": "Azure",
+    "timestamp": "2026-07-02T22:21:51+00:00"
+  },
+  {
+    "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+    "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "description": "Claude Fable 5 has been re-deployed and is now available globally for all users. We’re taking this opportunity to share further information in two areas.First, we provide more information on the cybersecurity safeguards—specifically, the safety class...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-01T16:00:00+00:00"
   }
 ]
