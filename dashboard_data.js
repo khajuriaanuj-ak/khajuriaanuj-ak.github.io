@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-03T18:00:56.278018+00:00",
+  "last_updated": "2026-07-04T14:24:44.746679+00:00",
   "updates": [
     {
       "title": "July 03, 2026",
@@ -13640,6 +13640,22 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "The only AI glossary you’ll need this year",
+      "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "date": "Jul 03, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "link": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "description": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "date": "Jul 03, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
       "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
       "description": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
@@ -13670,32 +13686,16 @@ const DASHBOARD_DATA = {
       "date": "Jul 02, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
-    },
-    {
-      "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
-      "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-      "description": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
-      "date": "Jul 02, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-      "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-      "description": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
-      "date": "Jul 02, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
     }
   ],
   "sentiments": [
     {
-      "company": "OpenAI",
+      "company": "Anthropic",
       "score": 91,
       "status": "Bullish",
-      "change": "▬ Stable",
+      "change": "▼ -2",
       "reason": "Anthropic is discussing a new custom chip with Samsung",
-      "mentions": 3
+      "mentions": 1
     },
     {
       "company": "NVIDIA",
@@ -13706,20 +13706,12 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Databricks",
-      "score": 87,
-      "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "[Launched] Generally available: Anthropic Claude Sonnet 5 on...",
-      "mentions": 1
-    },
-    {
-      "company": "Anthropic",
+      "company": "OpenAI",
       "score": 85,
       "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "[Launched] Generally available: Anthropic Claude Sonnet 5 on...",
-      "mentions": 4
+      "change": "▼ -1",
+      "reason": "Anthropic is discussing a new custom chip with Samsung",
+      "mentions": 1
     },
     {
       "company": "Meta",
@@ -13738,12 +13730,12 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Microsoft",
+      "company": "Databricks",
       "score": 84,
       "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "[Launched] Generally available: Anthropic Claude Sonnet 5 on...",
-      "mentions": 2
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Snowflake",
@@ -13758,16 +13750,24 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "July 03, 2026",
-      "mentions": 1
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Microsoft",
+      "score": 78,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Apple",
-      "score": 79,
+      "score": 76,
       "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "[Launched] Generally available: Anthropic Claude Sonnet 5 on...",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
@@ -13780,7 +13780,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.39,
       "rangePosition": 0.473,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -13791,7 +13791,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.36,
       "rangePosition": 0.794,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -13802,7 +13802,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.62,
       "rangePosition": 0.2,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -13813,7 +13813,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.4,
       "rangePosition": 0.565,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -13824,7 +13824,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.4,
       "rangePosition": 0.851,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -13835,7 +13835,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.27,
       "rangePosition": 0.824,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -13846,18 +13846,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.41,
       "rangePosition": 0.403,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1769.32,
-      "forwardPE": 36.01,
+      "forwardPE": 35.87,
       "trailingPE": 60.24,
       "marketCap": 681927180288,
       "psRatio": null,
       "dayChange": -4.0,
       "rangePosition": 0.825,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -13868,7 +13868,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.5,
       "rangePosition": 0.706,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -13879,7 +13879,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.98,
       "rangePosition": 0.751,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -13890,7 +13890,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.25,
       "rangePosition": 0.822,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -13901,7 +13901,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -7.27,
       "rangePosition": 0.791,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -13912,7 +13912,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.19,
       "rangePosition": 0.484,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -13923,7 +13923,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.9,
       "rangePosition": 0.227,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -13934,18 +13934,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.14,
       "rangePosition": 0.643,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 3.01,
-      "forwardPE": 3.53,
+      "forwardPE": 3.52,
       "trailingPE": null,
       "marketCap": 159056576,
       "psRatio": null,
       "dayChange": -4.44,
       "rangePosition": 0.035,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -13956,7 +13956,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.84,
       "rangePosition": 0.924,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -13967,7 +13967,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.84,
       "rangePosition": 0.227,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -13978,7 +13978,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.13,
       "rangePosition": 0.954,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -13989,7 +13989,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.76,
       "rangePosition": 0.152,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -14000,7 +14000,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.56,
       "rangePosition": 0.027,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -14011,7 +14011,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.26,
       "rangePosition": 0.852,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -14022,7 +14022,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.41,
       "rangePosition": 0.61,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -14033,7 +14033,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.14,
       "rangePosition": 0.151,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
@@ -14044,7 +14044,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.49,
       "rangePosition": 0.757,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -14055,7 +14055,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.41,
       "rangePosition": 0.361,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -14066,7 +14066,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.58,
       "rangePosition": 0.708,
-      "fetchedAt": "2026-07-03 06:00 PM"
+      "fetchedAt": "2026-07-04 02:24 PM"
     }
   },
   "stocks_universe": [
