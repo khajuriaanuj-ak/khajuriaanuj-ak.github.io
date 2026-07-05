@@ -1,6 +1,20 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-04T14:24:44.746679+00:00",
+  "last_updated": "2026-07-05T14:27:21.974514+00:00",
   "updates": [
+    {
+      "title": "July 05, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
+      "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is being rolled out to the first phase of regions as listed here.\nThis release contains internal and customer bug fixes.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-07-05T00:00:00-07:00"
+    },
+    {
+      "title": "July 04, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#July_04_2026",
+      "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now available for all regions.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-07-04T00:00:00-07:00"
+    },
     {
       "title": "July 03, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
@@ -13640,6 +13654,38 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "description": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "date": "Jul 04, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "description": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "date": "Jul 04, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Regulatory"
+    },
+    {
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "description": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "date": "Jul 04, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "description": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "date": "Jul 04, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
       "title": "The only AI glossary you’ll need this year",
       "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
@@ -13654,49 +13700,9 @@ const DASHBOARD_DATA = {
       "date": "Jul 03, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
-    },
-    {
-      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
-      "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "description": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
-      "date": "Jul 02, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Agents"
-    },
-    {
-      "title": "Jersey Mike’s IPO illustrates how bad the AI hype has become",
-      "link": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-      "description": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
-      "date": "Jul 02, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
-    },
-    {
-      "title": "Meta quietly launches vibe-coded gaming app Pocket",
-      "link": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-      "description": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
-      "date": "Jul 02, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Anthropic is discussing a new custom chip with Samsung",
-      "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "description": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
-      "date": "Jul 02, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
     }
   ],
   "sentiments": [
-    {
-      "company": "Anthropic",
-      "score": 91,
-      "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Anthropic is discussing a new custom chip with Samsung",
-      "mentions": 1
-    },
     {
       "company": "NVIDIA",
       "score": 91,
@@ -13706,20 +13712,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
+      "company": "Anthropic",
+      "score": 88,
+      "status": "Bullish",
+      "change": "▬ Stable",
+      "reason": "Alibaba reportedly bans employees from using Claude Code",
+      "mentions": 1
+    },
+    {
       "company": "OpenAI",
       "score": 85,
       "status": "Bullish",
       "change": "▼ -1",
-      "reason": "Anthropic is discussing a new custom chip with Samsung",
+      "reason": "What is Mistral AI? Everything to know about the OpenAI comp...",
       "mentions": 1
-    },
-    {
-      "company": "Meta",
-      "score": 85,
-      "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "Mark Zuckerberg tells staff that AI agents haven’t progresse...",
-      "mentions": 2
     },
     {
       "company": "Groq",
@@ -13748,6 +13754,14 @@ const DASHBOARD_DATA = {
     {
       "company": "Google Cloud",
       "score": 80,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "July 05, 2026",
+      "mentions": 3
+    },
+    {
+      "company": "Meta",
+      "score": 79,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
@@ -13780,7 +13794,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.39,
       "rangePosition": 0.473,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -13791,7 +13805,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.36,
       "rangePosition": 0.794,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -13802,7 +13816,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.62,
       "rangePosition": 0.2,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -13813,7 +13827,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.4,
       "rangePosition": 0.565,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -13824,7 +13838,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.4,
       "rangePosition": 0.851,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -13835,7 +13849,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.27,
       "rangePosition": 0.824,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -13846,18 +13860,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.41,
       "rangePosition": 0.403,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1769.32,
-      "forwardPE": 35.87,
+      "forwardPE": 35.81,
       "trailingPE": 60.24,
       "marketCap": 681927180288,
       "psRatio": null,
       "dayChange": -4.0,
       "rangePosition": 0.825,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -13868,7 +13882,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.5,
       "rangePosition": 0.706,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -13879,7 +13893,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.98,
       "rangePosition": 0.751,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -13890,7 +13904,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.25,
       "rangePosition": 0.822,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -13901,7 +13915,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -7.27,
       "rangePosition": 0.791,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -13912,7 +13926,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.19,
       "rangePosition": 0.484,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -13923,7 +13937,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.9,
       "rangePosition": 0.227,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -13934,18 +13948,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.14,
       "rangePosition": 0.643,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 3.01,
-      "forwardPE": 3.52,
+      "forwardPE": 3.51,
       "trailingPE": null,
       "marketCap": 159056576,
       "psRatio": null,
       "dayChange": -4.44,
       "rangePosition": 0.035,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -13956,7 +13970,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.84,
       "rangePosition": 0.924,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -13967,7 +13981,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.84,
       "rangePosition": 0.227,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -13978,7 +13992,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.13,
       "rangePosition": 0.954,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -13989,7 +14003,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.76,
       "rangePosition": 0.152,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -14000,7 +14014,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.56,
       "rangePosition": 0.027,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -14011,7 +14025,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.26,
       "rangePosition": 0.852,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -14022,7 +14036,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.41,
       "rangePosition": 0.61,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -14033,7 +14047,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.14,
       "rangePosition": 0.151,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
@@ -14044,7 +14058,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.49,
       "rangePosition": 0.757,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -14055,7 +14069,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.41,
       "rangePosition": 0.361,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -14066,7 +14080,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.58,
       "rangePosition": 0.708,
-      "fetchedAt": "2026-07-04 02:24 PM"
+      "fetchedAt": "2026-07-05 02:27 PM"
+    },
+    "BABA": {
+      "name": "Alibaba Group Holding Limited",
+      "price": 96.14,
+      "forwardPE": 10.63,
+      "trailingPE": 14.86,
+      "marketCap": 230698188800,
+      "psRatio": null,
+      "dayChange": -1.89,
+      "rangePosition": 0.041,
+      "fetchedAt": "2026-07-05 02:27 PM"
     }
   },
   "stocks_universe": [
@@ -14349,6 +14374,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 8.5,
       "baseReason": "Cloudflare's ubiquitous global network positions it as a critical intermediary for AI companies to access and process web-scale data, and its Workers AI platform is emerging as a significant player in distributed AI inference at the network edge.",
       "expertStrategy": "Cloudflare is strategically leveraging its foundational internet infrastructure, including CDN and security services, to become an indispensable partner for AI development. Its new policy on AI crawlers demonstrates its ability to monetize AI data access, while Workers AI offers a low-latency, scalable platform for AI inference, capitalizing on the shift towards decentralized AI workloads."
+    },
+    {
+      "name": "Alibaba Group Holding Limited",
+      "ticker": "BABA",
+      "category": "direct",
+      "subCategory": "Cloud AI Platform & Enterprise AI Services",
+      "moatScore": 8.0,
+      "tailwindScore": 8.5,
+      "baseReason": "Operates Alibaba Cloud, a leading global cloud computing platform, which includes extensive AI infrastructure and offers a suite of proprietary AI models (e.g., Tongyi Qianwen) and enterprise AI services, deeply integrated across its vast ecosystem.",
+      "expertStrategy": "Alibaba is strategically positioned as a dominant cloud and AI provider in the rapidly expanding Asian markets. Its continuous investment in foundational AI research and development, coupled with its robust cloud infrastructure, enables it to capture significant enterprise AI demand, offering a unique geographical diversification for AI-focused portfolios."
     }
   ]
 };

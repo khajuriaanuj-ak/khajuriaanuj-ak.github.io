@@ -13634,5 +13634,19 @@
     "description": "Claude Fable 5 has been re-deployed and is now available globally for all users. We’re taking this opportunity to share further information in two areas.First, we provide more information on the cybersecurity safeguards—specifically, the safety class...",
     "provider": "Anthropic",
     "timestamp": "2026-07-01T16:00:00+00:00"
+  },
+  {
+    "title": "July 05, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is being rolled out to the first phase of regions as listed here.\nThis release contains internal and customer bug fixes.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-05T00:00:00-07:00"
+  },
+  {
+    "title": "July 04, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_04_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now available for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-04T00:00:00-07:00"
   }
 ]

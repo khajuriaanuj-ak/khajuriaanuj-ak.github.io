@@ -278,5 +278,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Cloudflare's ubiquitous global network positions it as a critical intermediary for AI companies to access and process web-scale data, and its Workers AI platform is emerging as a significant player in distributed AI inference at the network edge.",
     "expertStrategy": "Cloudflare is strategically leveraging its foundational internet infrastructure, including CDN and security services, to become an indispensable partner for AI development. Its new policy on AI crawlers demonstrates its ability to monetize AI data access, while Workers AI offers a low-latency, scalable platform for AI inference, capitalizing on the shift towards decentralized AI workloads."
+  },
+  {
+    "name": "Alibaba Group Holding Limited",
+    "ticker": "BABA",
+    "category": "direct",
+    "subCategory": "Cloud AI Platform & Enterprise AI Services",
+    "moatScore": 8.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Operates Alibaba Cloud, a leading global cloud computing platform, which includes extensive AI infrastructure and offers a suite of proprietary AI models (e.g., Tongyi Qianwen) and enterprise AI services, deeply integrated across its vast ecosystem.",
+    "expertStrategy": "Alibaba is strategically positioned as a dominant cloud and AI provider in the rapidly expanding Asian markets. Its continuous investment in foundational AI research and development, coupled with its robust cloud infrastructure, enables it to capture significant enterprise AI demand, offering a unique geographical diversification for AI-focused portfolios."
   }
 ]
