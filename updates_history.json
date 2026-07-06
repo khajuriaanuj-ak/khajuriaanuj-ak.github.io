@@ -13648,5 +13648,47 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now available for all regions.",
     "provider": "Google Cloud",
     "timestamp": "2026-07-04T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/",
+    "description": "A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actua...",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T15:46:43+00:00"
+  },
+  {
+    "title": "AWS Certificate Manager now supports the ACME protocol for public certificates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-certificate-manager-acme/",
+    "description": "AWS Certificate Manager (ACM) now allows you to provision a fully managed ACME server endpoint that issues public TLS certificates with a 45 day validity from Amazon Trust Services using any ACMEv2-compatible client, including Certbot, cert-manager f...",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T15:00:00+00:00"
+  },
+  {
+    "title": "AWS CodePipeline now available in Asia Pacific (New Zealand) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codepipeline-new-zealand/",
+    "description": "Starting today, AWS CodePipeline is now available in Asia Pacific (New Zealand) Region (ap-southeast-6). AWS CodePipeline is a continuous delivery service that enables you to model, visualize, and automate the steps required to release your software....",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T09:00:00+00:00"
+  },
+  {
+    "title": "July 02, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_02_2026",
+    "description": "Audit Manager\nFeature\nAudit Manager now supports built-in frameworks and custom\nframeworks that you define\nusing Compliance Manager or Assured Workloads frameworks (preview).\nCloud Database Migration Service\nChange\nMySQL version 9.7 support for MySQL...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-02T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Support 5x churn in Azure Site Recovery",
+    "link": "https://azure.microsoft.com/updates?id=566966",
+    "description": "Azure Site Recovery now supports up to 5x churn (500 MB/s per VM). This major enhancement empowers customers to confidently run high IOPS workloads with Azure Site Recovery, ensuring robust disaster recovery for even the most demanding applications l...",
+    "provider": "Azure",
+    "timestamp": "2026-07-06T15:00:33+00:00"
+  },
+  {
+    "title": "OpenAI and Databricks at DAIS 2026: Making enterprise AI real",
+    "link": "https://www.databricks.com/blog/openai-and-databricks-dais-2026-making-enterprise-ai-real",
+    "description": "Data + AI Summit 2026 brought together over 32k+ in-person attendees across hundreds of sessions, product announcements...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-06T15:04:20+00:00"
   }
 ]
