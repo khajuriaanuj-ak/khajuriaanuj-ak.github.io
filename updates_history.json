@@ -13690,5 +13690,68 @@
     "description": "Data + AI Summit 2026 brought together over 32k+ in-person attendees across hundreds of sessions, product announcements...",
     "provider": "Databricks",
     "timestamp": "2026-07-06T15:04:20+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports disaggregated prefill and decode",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-sagemaker-hyperpod-dpd/",
+    "description": "Amazon SageMaker HyperPod now supports Disaggregated Prefill and Decode (DPD), an inference optimization that separates the two phases of large language model (LLM) inference — prefill and decode — onto dedicated GPU pools and transfers the key-value...",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T21:29:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito now supports self-service provisioned API rate limits",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits",
+    "description": "Amazon Cognito now allows you to increase or decrease your provisioned API rate limits on demand. Cognito has default rate limits for the maximum number of operations per second that you can perform in your user pools in each AWS Region, and you can ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Studio now integrates with Hugging Face for one-click model deployment and customization",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/sagemaker-studio-hugging-face-integration/",
+    "description": "Amazon SageMaker Studio now supports direct integration from Hugging Face, letting you go from discovering a model to working with it inside a fully configured Studio environment in a single click. Select any supported model on Hugging Face and choos...",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T20:30:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Microsoft Entra ID-based access for Azure Blob Storage SFTP",
+    "link": "https://azure.microsoft.com/updates?id=567085",
+    "description": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now generally available in all regions. You can now use Entra ID identities including guest users via Entra External Identities to securely connect to Azure Blob Storage over SFTP, withou...",
+    "provider": "Azure",
+    "timestamp": "2026-07-06T15:54:08+00:00"
+  },
+  {
+    "title": "Automatic Upgrades: best practice features for your lakehouse tables",
+    "link": "https://www.databricks.com/blog/automatic-upgrades-best-practice-features-your-lakehouse-tables",
+    "description": "Your Unity Catalog (UC) managed tables now get better on their own. Automatic (Auto)...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-06T23:10:00+00:00"
+  },
+  {
+    "title": "Reimagining Data Modeling on the Lakehouse: Introducing Vibe Data Modeling",
+    "link": "https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling",
+    "description": "The challenges with Data ModelingIn every analytics stack, the Silver layer is where...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-06T20:40:00+00:00"
+  },
+  {
+    "title": "Scaling Security Alert Triage With Specialized Agents on Databricks",
+    "link": "https://www.databricks.com/blog/scaling-security-alert-triage-specialized-agents-databricks",
+    "description": "What if low severity didn't mean low priority?Databricks ingests petabytes of security...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-06T18:00:00+00:00"
+  },
+  {
+    "title": "Contextual Policies in Omnigent: Using session state to better govern AI agents",
+    "link": "https://www.databricks.com/blog/contextual-policies-omnigent-using-session-state-better-govern-ai-agents",
+    "description": "We recently launched&nbsp;Omnigent, an open source meta-harness for AI agents. It lets...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-06T17:42:58+00:00"
+  },
+  {
+    "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+    "link": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+    "description": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technology and Innovation scanned 466 million lines of co...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-05T16:00:00+00:00"
   }
 ]
