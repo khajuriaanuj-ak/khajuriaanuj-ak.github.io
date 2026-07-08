@@ -13753,5 +13753,166 @@
     "description": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them. A team inside Alberta’s Ministry of Technology and Innovation scanned 466 million lines of co...",
     "provider": "Anthropic",
     "timestamp": "2026-07-05T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-u7i-aws-europe-zurich/",
+    "description": "Amazon EC2 High Memory U7i instances with 12TB of memory (u7i-12tb.224xlarge) are now available in the AWS&nbsp;Europe (Zurich) region. U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Proce...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T23:30:00+00:00"
+  },
+  {
+    "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/",
+    "description": "Amazon GameLift Streams now supports Stream Session Admin Shell, a secure terminal connection to the live runtime environment of a stream session for real-time troubleshooting. You can inspect logs, query running processes, check GPU utilization, and...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T21:26:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/",
+    "description": "Amazon S3 Vectors is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). \nAmazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG), and semantic search at billion-vector scale. S...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T19:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub extends unified security management to Microsoft Azure",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-hub-supports-monitoring-microsoft-azure/",
+    "description": "Today, AWS announces that AWS Security Hub now monitors Microsoft Azure resources, extending risk analytics, cloud security posture management, vulnerability management, and security response management across both clouds. Many AWS customers running ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T18:21:00+00:00"
+  },
+  {
+    "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) Managed Instances now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series ECS management fees are reduced by 35%, and P-series and AWS Tra...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/",
+    "description": "Amazon EMR Serverless now offers larger worker configurations of 32 vCPUs with up to 244 GB of memory, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker configuration available on EMR Serverless was 16 vC...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T17:06:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8ine instances are now available in AWS Europe (Frankfurt) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8ine-aws-frankfurt/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8ine instances are available in the AWS Europe (Frankfurt) region. C8ine instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS. These instance...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker now supports data lineage in IAM-based domains",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-data-lineage-iam-domain",
+    "description": "Amazon SageMaker Unified Studio now supports OpenLineage compatible data lineage in IAM-based domains, capturing lineage events from Apache Spark jobs run on Amazon EMR, AWS Glue, SageMaker Visual ETL, and notebooks. This capability is already availa...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud",
+    "description": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x a...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle now supports Oracle Database 26ai",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-database-26ai/",
+    "description": "Amazon RDS for Oracle now supports Oracle Database 26ai, Oracle's latest Long Term Support Release, with Amazon Bedrock integration which provides access to foundation models such as Anthropic Claude, Amazon Nova, and Meta Llama. With Oracle Database...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/",
+    "description": "The Amazon S3 Express One Zone storage class is now available in the AWS Europe (Frankfurt) Region. \nAmazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price",
+    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode now offers significantly reduced management fees for GPU and accelerated instance types. Beginning July 1, 2026, G-series Auto Mode management fees are reduced by 35%, and P-series and AWS Trai...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T12:00:00+00:00"
+  },
+  {
+    "title": "AWS Systems Manager simplifies Azure VM management and hybrid node pricing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-systems-manager-multicloud-vm/",
+    "description": "You can now connect and manage Azure Virtual Machines in AWS Systems Manager without manual agent installation or per-instance tier fees. Create a Cloud Connector and automatically deploy the SSM Agent to your Azure VMs at scale. Once connected, Azur...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports importing existing MWAA environments",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio-import-existing-mwaa-environments/",
+    "description": "Amazon SageMaker Unified Studio now supports connecting existing Amazon Managed Workflows for Apache Airflow (MWAA) environments to projects. Data engineers and platform teams who already operate MWAA environments can now manage their Airflow workflo...",
+    "provider": "AWS",
+    "timestamp": "2026-07-07T02:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub adds impact analysis for exposure findings",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/impact-analysis-aws-security-hub/",
+    "description": "Today, AWS Security Hub adds impact analysis to exposure findings, helping security teams understand the full scope of what an attacker could reach if an exposure is exploited. Impact analysis extends exposure findings by mapping the downstream resou...",
+    "provider": "AWS",
+    "timestamp": "2026-07-06T21:45:00+00:00"
+  },
+  {
+    "title": "July 07, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_07_2026",
+    "description": "App Engine standard environment Java\nFeature\nTo modernize image processing, migrate from the App Engine Images service to\nCloud Run by\nrouting calls to a Cloud Run image transformation service while your app\ncontinues to run on App Engine (Preview).\n...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-07T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Export historical data from Log Analytics workspace with Export jobs",
+    "link": "https://azure.microsoft.com/updates?id=566591",
+    "description": "The Log Analytics Export job enables you to export historical data from a Log Analytics workspace to an Azure Storage account based on a specified query and time range. This allows you to extract only the data you need and move it to external systems...",
+    "provider": "Azure",
+    "timestamp": "2026-07-07T17:37:55+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Network Security Perimeter support for Azure Event Hubs",
+    "link": "https://azure.microsoft.com/updates?id=567203",
+    "description": "Azure Event Hubs now supports Network Security Perimeter (NSP), enabling organizations to define a logical network isolation boundary for PaaS resources and control public network access through perimeter-based access rules.With Network Security Peri...",
+    "provider": "Azure",
+    "timestamp": "2026-07-07T17:35:19+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Confidential Computing support for Azure Event Hubs Dedicated",
+    "link": "https://azure.microsoft.com/updates?id=567212",
+    "description": "Azure Event Hubs Dedicated now supports Confidential Computing, enabling organizations to protect streaming data while it is being processed in memory. By leveraging hardware-based trusted execution environments (TEEs), customers can help safeguard s...",
+    "provider": "Azure",
+    "timestamp": "2026-07-07T17:33:53+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Red Hat OpenShift in Chile Central",
+    "link": "https://azure.microsoft.com/updates?id=566732",
+    "description": "Azure Red Hat OpenShift (ARO) is now generally available in Azure\nChile Central, expanding regional availability for OpenShift deployments\nacross South America. With the launch of Microsoft’s first Azure region in\nChile, customers can now run fully m...",
+    "provider": "Azure",
+    "timestamp": "2026-07-07T17:31:55+00:00"
+  },
+  {
+    "title": "How Imperial College London is accelerating dementia research with a modern data platform",
+    "link": "https://www.databricks.com/blog/how-imperial-college-london-accelerating-dementia-research-modern-data-platform",
+    "description": "Imagine being unable to tell your doctor whether you're in pain or running a fever...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-07T19:20:00+00:00"
+  },
+  {
+    "title": "Barracuda makes security logs conversational with Genie",
+    "link": "https://www.databricks.com/blog/barracuda-makes-security-logs-conversational-genie",
+    "description": "When a security analyst is alerted to a suspicious login or an unusual firewall block...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-06T23:15:23+00:00"
+  },
+  {
+    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+    "link": "https://openai.com/index/australian-payments-plus",
+    "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-07T00:00:00+00:00"
   }
 ]
