@@ -13914,5 +13914,89 @@
     "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
     "provider": "OpenAI",
     "timestamp": "2026-07-07T00:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub now offers Network Scanning to identify publicly reachable resources",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-network-scanning/",
+    "description": "Today, AWS Security Hub introduces Network Scanning, a capability that identifies resources in your environment that are reachable from the public internet.&nbsp; Network Scanning probes your resources from the internet to detect actual reachability,...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift RG instances now available on the trailing track",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track",
+    "description": "Amazon Redshift now supports Graviton-based RG instances on the trailing track. Starting July 7, 2026, rg.4xlarge and rg.xlarge instance types are available for customers running workloads on the trailing track (P201). \nThe trailing track is designed...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T18:12:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/",
+    "description": "Amazon Aurora DSQL change data capture (CDC) is now generally available, enabling you to stream real-time database changes to Amazon Kinesis Data Streams for event-driven architectures and data integration workflows.  Aurora DSQL CDC automatically ca...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports forecasting, planning, and scheduling for Tasks and Emails",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-agent-scheduling-tasks/",
+    "description": "Amazon Connect Customer now supports forecasting, capacity planning, and scheduling for Tasks and Emails, enabling you to plan and optimize your workforce across all workloads (Voice, Chat, Tasks, Emails). Connect Customer accounts for the unique cha...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T17:00:00+00:00"
+  },
+  {
+    "title": "July 08, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_08_2026",
+    "description": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the external_search_fdw extension to connect to a Solr cluster and query its data directly from your database.\nApigee X\nSecurity\nAn Improper ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-08T00:00:00-07:00"
+  },
+  {
+    "title": "Navigating a Synapse Migration to Databricks",
+    "link": "https://www.databricks.com/blog/navigating-synapse-migration-databricks",
+    "description": "Azure Synapse has served as a reliable foundation for SQL analytics at scale, and...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-08T19:00:00+00:00"
+  },
+  {
+    "title": "Benchmarking Coding Agents on Databricks’ Multi-Million Line Codebase",
+    "link": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+    "description": "At Databricks, the way we build software is changing quickly as we aggressively adopt...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-08T16:30:51+00:00"
+  },
+  {
+    "title": "Our approach to government and national security partnerships",
+    "link": "https://openai.com/index/government-national-security-partnerships",
+    "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-08T13:30:00+00:00"
+  },
+  {
+    "title": "Separating signal from noise in coding evaluations",
+    "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-08T13:00:00+00:00"
+  },
+  {
+    "title": "Helping K–12 educators build practical AI skills",
+    "link": "https://openai.com/index/k-12-educators-practical-skills",
+    "description": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-08T10:00:00+00:00"
+  },
+  {
+    "title": "Introducing GPT-Live",
+    "link": "https://openai.com/index/introducing-gpt-live",
+    "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-08T00:00:00+00:00"
+  },
+  {
+    "title": "Introducing a way to reflect on how you use Claude",
+    "link": "https://www.anthropic.com/news/reflect-with-claude",
+    "description": "Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In our interviews with users, a common theme that’s emerged is a desire to better understand how, exactly, can AI be integrated into daily life. How often should...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-08T16:00:00+00:00"
   }
 ]
