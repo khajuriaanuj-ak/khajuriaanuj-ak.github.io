@@ -13998,5 +13998,194 @@
     "description": "Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In our interviews with users, a common theme that’s emerged is a desire to better understand how, exactly, can AI be integrated into daily life. How often should...",
     "provider": "Anthropic",
     "timestamp": "2026-07-08T16:00:00+00:00"
+  },
+  {
+    "title": "OAuth support for the AWS MCP Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/oauth-aws-mcp-server/",
+    "description": "You can now connect AI agents directly to the AWS MCP Server using AWS Sign-In. Agents connect using industry-standard OAuth without requiring additional authentication software. Existing AWS identities, sign-in methods, IAM permissions, and governan...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T23:03:00+00:00"
+  },
+  {
+    "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/",
+    "description": "Amazon Timestream for InfluxDB now publishes events to Amazon EventBridge when your database instances or clusters undergo state changes. Events are emitted for lifecycle operations including creation, deletion, compute and storage scaling, parameter...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T17:24:00+00:00"
+  },
+  {
+    "title": "AWS Client VPN extends availability to four additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-client-vpn-four-additional-regions/",
+    "description": "AWS Client VPN is now available in four new regions: Canada West (Calgary), Mexico (Central) and two in Asia Pacific - New Zealand and Taipei. This fully managed service enables customers to securely connect their remote workforce to resources in AWS...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T17:08:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio adds custom asset types to the catalog in IAM-based domains",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/smus-custom-asset-types-iam/",
+    "description": "Amazon SageMaker Unified Studio now supports custom asset types for IAM-based domains. With custom asset types, domain administrators can catalog any format of asset within the SageMaker Unified Studio, such as medical imaging files in Amazon S3, rev...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T16:04:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports deep health checks for Slurm clusters with continuous provisioning",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/deep-health-check-continuous-slurm/",
+    "description": "Amazon SageMaker HyperPod now supports deep health checks for Slurm-orchestrated clusters created with continuous provisioning, enabling you to proactively verify GPU accelerator health on running instances at any time. Continuous provisioning lets y...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Feature Store now supports batch feature writes and record listing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amzn-sgm-feature-store-batch-write-list/",
+    "description": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports new capabilities for high-throughput feature ingestion...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T15:35:00+00:00"
+  },
+  {
+    "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support",
+    "description": "Amazon MSK Replicator now supports data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers to Amazon MSK Standard brokers. This capability extends replication support to MSK Standard...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T15:00:00+00:00"
+  },
+  {
+    "title": "AWS Config now supports 191 additional managed rules",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-config-additional-managed-rules",
+    "description": "AWS Config now supports 191 additional managed rules across key services including Amazon Bedrock, Amazon SageMaker, Amazon ECS, Amazon EKS, Amazon RDS, Amazon Redshift, Amazon S3, and Amazon CloudTrail. This expansion increases built-in governance c...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T12:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/",
+    "description": "Amazon SageMaker Unified Studio Workflows now supports 19 new operators for Amazon Bedrock, Amazon S3 Tables, Amazon S3 Vectors, AWS Glue Data Catalog, and Amazon MWAA Serverless. With these operators, customers can add new tasks using the visual wor...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T22:00:00+00:00"
+  },
+  {
+    "title": "AWS Neuron 2.31.0 now available with NKI 0.5.0 and UltraServer Operator",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announce-neuron-2-31-0",
+    "description": "AWS Neuron 2.31.0 is now available, introducing NKI 0.5.0 with new MX FP8 scale dtype support, tensor indirection on compute operations for fewer instructions in indexed access patterns, and new NkiTensor view APIs for zero-cost tensor layout transfo...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T15:58:00+00:00"
+  },
+  {
+    "title": "July 09, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_09_2026",
+    "description": "BigQuery\nFeature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowledge Catalog:\n\nPostgreSQL\nMicrosoft SQL Server\n\nThis feature is in\nPreview.\nFeature\nThe Data Agent Kit extension is an exte...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-09T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
+    "link": "https://azure.microsoft.com/updates?id=567431",
+    "description": "Open AI GPT-5.6 is now available on Azure Databricks. You can use GPT 5.6 (purchased on Microsoft Foundry) via Model Serving Endpoint in Azure Databricks. Through integrations across Foundry and Azure Databricks, you can securely build, deploy, and m...",
+    "provider": "Azure",
+    "timestamp": "2026-07-09T20:21:12+00:00"
+  },
+  {
+    "title": "The Ambulatory Intelligence Gap",
+    "link": "https://www.databricks.com/blog/ambulatory-intelligence-gap",
+    "description": "Ambulatory care, the outpatient clinics and physician practices where most patients...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-10T09:00:00+00:00"
+  },
+  {
+    "title": "How to Evaluate an Enterprise Analytics Platform",
+    "link": "https://www.databricks.com/blog/enterprise-analytics-platform-evaluation",
+    "description": "Most enterprise analytics evaluations are really just dashboard comparisons. That's...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-08T08:41:35+00:00"
+  },
+  {
+    "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+    "link": "https://openai.com/index/deutsche-telekom",
+    "description": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-10T07:00:00+00:00"
+  },
+  {
+    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+    "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "description": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-09T13:00:00+00:00"
+  },
+  {
+    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+    "link": "https://openai.com/index/gpt-5-6",
+    "description": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-09T10:00:00+00:00"
+  },
+  {
+    "title": "ChatGPT is now a partner for your most ambitious work",
+    "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "description": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-09T10:00:00+00:00"
+  },
+  {
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "link": "https://openai.com/index/bio-bug-bounty",
+    "description": "Details about the OpenAI Bio Bounty program",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-09T10:00:00+00:00"
+  },
+  {
+    "title": "ChatGPT Sites",
+    "link": "https://openai.com/academy/chatgpt-sites",
+    "description": "Create that kind of lightweight website or app with Codex.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-02T10:00:00+00:00"
+  },
+  {
+    "title": "AI is becoming a first hire for small businesses",
+    "link": "https://openai.com/index/ai-first-hire-small-business",
+    "description": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
+    "provider": "OpenAI",
+    "timestamp": "2026-05-25T00:00:00+00:00"
+  },
+  {
+    "title": "Modeling an AI jobs transition",
+    "link": "https://openai.com/index/modeling-ai-jobs-transition",
+    "description": "A new framework analyzes 921 occupations and 148 million U.S. jobs to identify which roles face automation risk, reorganization, growth, or minimal AI disruption.",
+    "provider": "OpenAI",
+    "timestamp": "2026-04-25T00:00:00+00:00"
+  },
+  {
+    "title": "How to use ChatGPT Work for everyday tasks",
+    "link": "https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
+    "description": "Explore practical ChatGPT Work use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2026-04-23T10:00:00+00:00"
+  },
+  {
+    "title": "UST is bringing Claude to physical AI",
+    "link": "https://www.anthropic.com/news/ust-claude",
+    "description": "Before a factory commits to manufacturing millions of chips, engineers stress-test the design in the fab. Before a product ships, a fault on the assembly line has to be caught before it becomes a recall. When AI does this kind of work, it’s called ph...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-08T16:00:00+00:00"
+  },
+  {
+    "title": "Inviting hard questions",
+    "link": "https://www.anthropic.com/news/hard-questions",
+    "description": "Who decides the rules for AI?Can AI give my children a better future?Does AI make the world a more dangerous place?Can AI help scientists cure diseases?People have a lot of hard questions about AI. It’s our job to address them.Many people are positiv...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-08T16:00:00+00:00"
+  },
+  {
+    "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+    "link": "https://www.anthropic.com/news/ben-bernanke",
+    "description": "Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins an independent body that works to hold Anthropic to...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-08T16:00:00+00:00"
+  },
+  {
+    "title": "v0.1.6",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.6",
+    "description": "Release v0.1.6",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-07-09T19:28:23+00:00"
   }
 ]
