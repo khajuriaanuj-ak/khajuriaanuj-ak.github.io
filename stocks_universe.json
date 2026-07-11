@@ -288,5 +288,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Operates Alibaba Cloud, a leading global cloud computing platform, which includes extensive AI infrastructure and offers a suite of proprietary AI models (e.g., Tongyi Qianwen) and enterprise AI services, deeply integrated across its vast ecosystem.",
     "expertStrategy": "Alibaba is strategically positioned as a dominant cloud and AI provider in the rapidly expanding Asian markets. Its continuous investment in foundational AI research and development, coupled with its robust cloud infrastructure, enables it to capture significant enterprise AI demand, offering a unique geographical diversification for AI-focused portfolios."
+  },
+  {
+    "name": "SK Hynix Inc. American Depositary Shares",
+    "ticker": "SKHY",
+    "category": "infra",
+    "subCategory": "AI Memory (HBM) & Fab",
+    "moatScore": 8.5,
+    "tailwindScore": 9.0,
+    "baseReason": "SK Hynix holds a dominant market position in High Bandwidth Memory (HBM), a critical component for powering high-performance AI accelerators. Their extensive R&D and manufacturing scale provide a significant barrier to entry, ensuring indispensable supply for leading AI chip designers.",
+    "expertStrategy": "SK Hynix is a foundational investment in the burgeoning AI infrastructure market. Its recent landmark US IPO provides substantial capital for scaling its HBM production and potentially establishing new US fabs, directly addressing the explosive demand for AI compute. As HBM remains a bottleneck for next-gen AI GPUs, SK Hynix's strategic importance and pricing power are poised for continued growth."
   }
 ]
