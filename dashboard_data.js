@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-11T14:19:45.294918+00:00",
+  "last_updated": "2026-07-12T14:24:19.628578+00:00",
   "updates": [
     {
       "title": "July 11, 2026",
@@ -14312,6 +14312,14 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "description": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+      "date": "Jul 11, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "Meta removes controversial AI feature on Instagram after backlash",
       "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
       "description": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
@@ -14350,14 +14358,6 @@ const DASHBOARD_DATA = {
       "date": "Jul 10, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
-    },
-    {
-      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
-      "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "description": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
-      "date": "Jul 10, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
     }
   ],
   "sentiments": [
@@ -14366,29 +14366,37 @@ const DASHBOARD_DATA = {
       "score": 91,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Amazon EC2 G7 instances are now available in the AWS US East...",
-      "mentions": 1
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Anthropic",
       "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "AWS DMS Schema Conversion now supports AI agent automation",
-      "mentions": 1
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "OpenAI",
       "score": 85,
       "status": "Bullish",
       "change": "▼ -1",
-      "reason": "Apple sues OpenAI over alleged trade secret theft",
+      "reason": "OpenAI bets on families as ChatGPT goes deeper into househol...",
       "mentions": 2
     },
     {
       "company": "Groq",
       "score": 85,
       "status": "Bullish",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Databricks",
+      "score": 84,
+      "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
@@ -14406,16 +14414,16 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "July 11, 2026",
-      "mentions": 2
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Meta",
       "score": 79,
       "status": "Mixed",
       "change": "▲ +1",
-      "reason": "AWS DMS Schema Conversion now supports offline SQL Server co...",
-      "mentions": 2
+      "reason": "Meta removes controversial AI feature on Instagram after bac...",
+      "mentions": 1
     },
     {
       "company": "Apple",
@@ -14430,16 +14438,8 @@ const DASHBOARD_DATA = {
       "score": 78,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "AWS DMS Schema Conversion now supports offline SQL Server co...",
-      "mentions": 2
-    },
-    {
-      "company": "Databricks",
-      "score": 78,
-      "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "The agentic marketing stack starts with the data layer",
-      "mentions": 3
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
@@ -14452,7 +14452,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.03,
       "rangePosition": 0.657,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -14463,7 +14463,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.48,
       "rangePosition": 0.775,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -14474,18 +14474,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.19,
       "rangePosition": 0.174,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
       "price": 245.34,
-      "forwardPE": 24.8,
+      "forwardPE": 24.81,
       "trailingPE": 29.31,
       "marketCap": 2639149400064,
       "psRatio": null,
       "dayChange": -0.69,
       "rangePosition": 0.598,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -14496,7 +14496,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.26,
       "rangePosition": 0.859,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -14507,7 +14507,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.65,
       "rangePosition": 0.824,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -14518,18 +14518,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.28,
       "rangePosition": 0.578,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1797.32,
-      "forwardPE": 36.04,
-      "trailingPE": 61.34,
+      "forwardPE": 36.08,
+      "trailingPE": 60.97,
       "marketCap": 692718862336,
       "psRatio": null,
       "dayChange": -0.38,
       "rangePosition": 0.846,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -14540,7 +14540,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.56,
       "rangePosition": 0.766,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -14551,18 +14551,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.23,
       "rangePosition": 0.966,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
       "price": 109.84,
-      "forwardPE": 69.98,
+      "forwardPE": 69.75,
       "trailingPE": null,
       "marketCap": 552055799808,
       "psRatio": null,
       "dayChange": -2.4,
       "rangePosition": 0.737,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -14573,7 +14573,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.39,
       "rangePosition": 0.904,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -14584,7 +14584,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.16,
       "rangePosition": 0.648,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -14595,7 +14595,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.97,
       "rangePosition": 0.54,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -14606,7 +14606,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.62,
       "rangePosition": 0.626,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -14617,7 +14617,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.14,
       "rangePosition": 0.015,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -14628,7 +14628,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.28,
       "rangePosition": 0.982,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -14639,7 +14639,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.74,
       "rangePosition": 0.202,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -14650,7 +14650,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.67,
       "rangePosition": 0.815,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -14661,7 +14661,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.5,
       "rangePosition": 0.133,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -14672,7 +14672,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.14,
       "rangePosition": 0.029,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -14683,7 +14683,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.04,
       "rangePosition": 0.939,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -14694,7 +14694,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.67,
       "rangePosition": 0.758,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -14705,18 +14705,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.44,
       "rangePosition": 0.18,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
       "price": 979.3,
       "forwardPE": 6.54,
-      "trailingPE": 22.42,
+      "trailingPE": 22.13,
       "marketCap": 1106014765056,
       "psRatio": null,
       "dayChange": -1.24,
       "rangePosition": 0.761,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -14727,7 +14727,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.37,
       "rangePosition": 0.551,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -14738,18 +14738,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.68,
       "rangePosition": 0.903,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
       "price": 112.33,
-      "forwardPE": 12.42,
+      "forwardPE": 12.39,
       "trailingPE": 17.36,
       "marketCap": 269262307328,
       "psRatio": null,
       "dayChange": 1.07,
       "rangePosition": 0.202,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
     },
     "SKHY": {
       "name": "SK Hynix Inc. American Depositary Shares",
@@ -14760,7 +14760,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": -15.374,
-      "fetchedAt": "2026-07-11 02:19 PM"
+      "fetchedAt": "2026-07-12 02:24 PM"
+    },
+    "SSNLF": {
+      "name": "SAMSUNG ELECTRONICS CO",
+      "price": 65.21,
+      "forwardPE": 14.69,
+      "trailingPE": 19.52,
+      "marketCap": 428205604864,
+      "psRatio": null,
+      "dayChange": 0,
+      "rangePosition": 1.0,
+      "fetchedAt": "2026-07-12 02:24 PM"
     }
   },
   "stocks_universe": [
@@ -15063,6 +15074,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 9.0,
       "baseReason": "SK Hynix holds a dominant market position in High Bandwidth Memory (HBM), a critical component for powering high-performance AI accelerators. Their extensive R&D and manufacturing scale provide a significant barrier to entry, ensuring indispensable supply for leading AI chip designers.",
       "expertStrategy": "SK Hynix is a foundational investment in the burgeoning AI infrastructure market. Its recent landmark US IPO provides substantial capital for scaling its HBM production and potentially establishing new US fabs, directly addressing the explosive demand for AI compute. As HBM remains a bottleneck for next-gen AI GPUs, SK Hynix's strategic importance and pricing power are poised for continued growth."
+    },
+    {
+      "name": "SAMSUNG ELECTRONICS CO",
+      "ticker": "SSNLF",
+      "category": "infra",
+      "subCategory": "AI Memory & Foundry",
+      "moatScore": 8.5,
+      "tailwindScore": 9.0,
+      "baseReason": "Global leader in advanced memory (DRAM, NAND, high-bandwidth memory for AI), chip manufacturing (foundry services), and a crucial supplier in the AI hardware supply chain. Its position is strengthened by significant R&D investments and massive production scale.",
+      "expertStrategy": "Samsung Electronics is strategically positioned to capitalize on the insatiable demand for AI infrastructure, particularly through its dominance in HBM manufacturing for AI accelerators and its competitive advanced node foundry capabilities, offering a fundamental and diversified play on the growth of AI hardware."
     }
   ]
 };
