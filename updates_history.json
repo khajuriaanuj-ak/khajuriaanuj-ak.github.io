@@ -14306,5 +14306,12 @@
     "description": "How Databricks hackathons workWe run these hackathons for a simple reason: the fastest...",
     "provider": "Databricks",
     "timestamp": "2026-07-09T22:58:01+00:00"
+  },
+  {
+    "title": "July 12, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_12_2026",
+    "description": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis release includes the following updates for the remote agent:\n\nHigh Availability support: Adds applicative support for Publisher h...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-12T00:00:00-07:00"
   }
 ]
