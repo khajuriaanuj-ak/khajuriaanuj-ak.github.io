@@ -14313,5 +14313,117 @@
     "description": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis release includes the following updates for the remote agent:\n\nHigh Availability support: Adds applicative support for Publisher h...",
     "provider": "Google Cloud",
     "timestamp": "2026-07-12T00:00:00-07:00"
+  },
+  {
+    "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+    "description": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messag...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T18:13:57+00:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+    "description": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T16:18:20+00:00"
+  },
+  {
+    "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
+    "description": "GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance, security and reliability. GPT-5.6 sets a new ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T22:03:00+00:00"
+  },
+  {
+    "title": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-new-zealand/",
+    "description": "Amazon Managed Service for Prometheus is now available in Asia Pacific (New Zealand) Region. Amazon Managed Service for Prometheus is a fully managed, Prometheus-compatible monitoring service that makes it easy to monitor and alert on operational met...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T21:17:00+00:00"
+  },
+  {
+    "title": "Amazon DocumentDB (with MongoDB compatibility) now available as a skill in the Agent Toolkit for AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-documentdb-agent-skill",
+    "description": "Amazon DocumentDB (with MongoDB compatibility) is now available as a specialized database skill in the Agent Toolkit for AWS. With this skill, AI coding agents can set up, manage, migrate, optimize, and troubleshoot Amazon DocumentDB clusters using s...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T18:00:00+00:00"
+  },
+  {
+    "title": "Gemma-4-E2B-it for is now available in Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-e2b-on-sagemaker-jumpstart/",
+    "description": "Today, AWS announced the availability of gemma-4-E2B-it in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Google DeepMind is a multimodal, instruction-tuned model optimized for eff...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T15:30:00+00:00"
+  },
+  {
+    "title": "OpenAI privacy-filter for PII detection and masking is now available in Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/privacy-filter-on-sagemaker-jumpstart/",
+    "description": "Today, AWS announced the availability of privacy-filter in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from OpenAI is a bidirectional token-classification model for personally identi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T15:30:00+00:00"
+  },
+  {
+    "title": "Voxtral-Mini-4B-Realtime for real-time speech transcription is now available in Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/voxtral-mini-realtime-on-sagemaker-jumpstart/",
+    "description": "Today, AWS announced the availability of Voxtral-Mini-4B-Realtime-2602 in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This model from Mistral AI is a multilingual, real-time speech-transcriptio...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T15:30:00+00:00"
+  },
+  {
+    "title": "Qwen3 embedding and reranking models for retrieval are now available in Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/qwen3-search-retrieval-on-sagemaker-jumpstart/",
+    "description": "Today, AWS announced the availability of Qwen3-VL-Embedding-2B and Qwen3-Reranker-4B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Qwen are designed for information retrieval...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T15:30:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports custom AMIs (Amazon Machine Images) for Slurm clusters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-custom-ami-slurm/",
+    "description": "Amazon SageMaker HyperPod now supports custom AMIs for Slurm-orchestrated clusters, enabling customers to deploy clusters with pre-configured, security-hardened environments that meet their specific organizational requirements. Customers deploying AI...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T14:31:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Auto Mode now supports Application Recovery Controller zonal shift",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/eks-auto-mode-arc-zonal-shift",
+    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Amazon Application Recovery Controller (ARC) zonal shift and autoshift for clusters using EKS Auto Mode. ARC helps you manage and coordinate recovery across AWS Regions and Availability Zone...",
+    "provider": "AWS",
+    "timestamp": "2026-07-10T16:00:00+00:00"
+  },
+  {
+    "title": "July 13, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_13_2026",
+    "description": "BigQuery\nFeature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApache Iceberg managed tables.\nSecurity\nA Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dat...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-13T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Databricks SQL Serverless in UK West",
+    "link": "https://azure.microsoft.com/updates?id=567444",
+    "description": "Starting July 13th, 2026, customers can use Azure Databricks SQL Serverless in the UK West region to simplify analytics workloads while benefiting from instant compute, automated scaling, and reduced infrastructure management.  Eligible UK West works...",
+    "provider": "Azure",
+    "timestamp": "2026-07-13T17:04:04+00:00"
+  },
+  {
+    "title": "Foundational context: Cross-industry & function-specific accelerators for Lakebase",
+    "link": "https://www.databricks.com/blog/foundational-context-cross-industry-function-specific-accelerators-lakebase",
+    "description": "Databricks Lakebase is a fully managed, serverless Postgres database built for the...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-14T13:15:00+00:00"
+  },
+  {
+    "title": "How Unity Catalog managed tables bring interoperability, performance, and unified governance to the Lakehouse",
+    "link": "https://www.databricks.com/blog/how-unity-catalog-managed-tables-bring-interoperability-performance-and-unified-governance",
+    "description": "Unity Catalog was designed for interoperability at scale. Enterprises have the flexibility...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-13T22:30:00+00:00"
+  },
+  {
+    "title": "Anthropic commits $10 million to Canadian AI research",
+    "link": "https://www.anthropic.com/news/canadian-ai-research",
+    "description": "Le français suit.Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Université de Montréal were two of onl...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-13T16:00:00+00:00"
   }
 ]
