@@ -14425,5 +14425,159 @@
     "description": "Le français suit.Canadian institutions and researchers have played a critical role in the modern AI era. During a period of broad skepticism about research into neural networks, the University of Toronto and the Université de Montréal were two of onl...",
     "provider": "Anthropic",
     "timestamp": "2026-07-13T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda announces self-managed code storage",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/",
+    "description": "AWS Lambda now supports self-managed Amazon S3 buckets for code storage,&nbsp;enabling you to reference source code directly from your own S3 buckets without Lambda creating intermediate copies. This eliminates code storage limits and reduces functio...",
+    "provider": "AWS",
+    "timestamp": "2026-07-15T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/",
+    "description": "AWS Lambda console now provides a one-click setup prompt for coding agents that configures your agent with AWS Serverless skills and the Serverless Model Context Protocol (MCP) server, embedding serverless best practices from the start. This setup is...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T20:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center achieves FedRAMP Class C Certification",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-identity-center-fedramp/",
+    "description": "AWS IAM Identity Center is now in scope for FedRAMP Class C in the US East (Ohio), US East (N. Virginia), US West (N. California), and US West (Oregon) Regions. You can now use IAM Identity Center to enable workforce access to AWS accounts and applic...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T19:10:00+00:00"
+  },
+  {
+    "title": "Introducing Amazon GuardDuty AI Protection for AWS AI workloads",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-guardduty-ai-protection-aws/",
+    "description": "Amazon GuardDuty now offers AI Protection, expanding threat detection to AWS AI services including Amazon Bedrock and Amazon SageMaker. As organizations rapidly adopt AI, security teams may lack visibility into threats specifically targeting AI workl...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T19:00:00+00:00"
+  },
+  {
+    "title": "Amazon Managed Service for Apache Flink now offers AI Agent Skills to simplify building and operating Flink applications",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-flink-agent-skills/",
+    "description": "Amazon Managed Service for Apache Flink now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for building and operating Flink applications. The skills provide expert guidance for common tasks such as creating applicat...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T18:20:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub now provides AI inventory for organization-wide visibility of AI assets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-ai/",
+    "description": "Today, AWS announces that AWS Security Hub now provides an AI inventory, giving central security teams a continuously updated, organization-wide view of AI assets and their security posture. As organizations rapidly deploy AI agents, models, and pipe...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/",
+    "description": "Starting today, Amazon Aurora DSQL is available for single-Region clusters in the Europe (Spain) Region. Aurora DSQL is the fastest serverless, distributed SQL database, with active-active high availability and multi-Region strong consistency. It ena...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Storage Gateway adds console support for copying file shares across gateways",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-storage-gateway-console-copy-file-shares/",
+    "description": "AWS Storage Gateway now allows you to copy file shares across gateways directly from the Storage Gateway console. When you initiate a copy, the console reads the configuration of your source share and creates a new file share on the destination gatew...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/",
+    "description": "You can now write custom data directly into CloudFront access logs using a new helper method available from within CloudFront Functions. CloudFront Functions run lightweight JavaScript at the edge for tasks like URL rewrites, header manipulation, and...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/",
+    "description": "Amazon Redshift Serverless now automatically preserves zero-ETL and Amazon S3 event integrations when restoring a namespace from a snapshot or recovery point to the same serverless namespace. Previously, restoring a snapshot marked associated integra...",
+    "provider": "AWS",
+    "timestamp": "2026-07-13T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8id, M8id, and R8id instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c8id-m8id-r8id/",
+    "description": "Amazon EC2 C8id, M8id, and R8id instances are now available in additional regions. Amazon EC2 C8id instances are now available in Asia Pacific (Mumbai) and Europe (Stockholm), M8id instances are available in Europe (London, Stockholm), and R8id insta...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T19:33:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8gd and R8gd instances are now available in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8gd-r8gd-us-govcloud/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) M8gd and R8gd instances are available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. These instances feature up to 11.4 TB of local NVMe-based SSD block-level storage and are powered by AWS Gra...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T19:24:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central introduces Partner Lead Prospecting",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-partner-central-prospecting/",
+    "description": "AWS Partner Central now offers Partner Lead Prospecting, an AI-powered capability that helps APN Customer Engagements (ACE)-eligible AWS Partners act on and convert their leads faster. Building on the lead enrichment capabilities launched earlier thi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-09T16:30:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8gd and R8gd instances are now available in additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8gd-r8gd-aws-regions/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) M8gd and R8gd instances are available in additional AWS regions. EC2 M8gd and R8gd instances are available in Europe (Paris) and Asia Pacific (Mumbai). Additionally, EC2 R8gd instances are available in Europe...",
+    "provider": "AWS",
+    "timestamp": "2026-07-08T19:29:00+00:00"
+  },
+  {
+    "title": "July 14, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_14_2026",
+    "description": "BigQuery\nFeature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\nGemini in BigQuery,\nconversational analytics\nnow supports HIPAA\ncompliance.\nBigtable\nFeature\nAI agents can use the list_h...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-14T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Front Door edge actions",
+    "link": "https://azure.microsoft.com/updates?id=567402",
+    "description": "Announcing the public preview of Azure Front Door edge actions (serverless compute at the edge).With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door request processing to make real-time decisions closer to...",
+    "provider": "Azure",
+    "timestamp": "2026-07-14T20:03:32+00:00"
+  },
+  {
+    "title": "Take insights anywhere with Genie One on mobile",
+    "link": "https://www.databricks.com/blog/take-insights-anywhere-genie-one-mobile",
+    "description": "We recently announced Genie One, the data-smart AI coworker for business users. Today,...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-14T22:00:00+00:00"
+  },
+  {
+    "title": "How Retail Finance teams are using Agentic AI to protect omni-channel margins",
+    "link": "https://www.databricks.com/blog/how-retail-finance-teams-are-using-agentic-ai-protect-omni-channel-margins",
+    "description": "Ask a retail CFO where the quarter's margin is landing and you will always get a hard-won answer...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-14T15:00:00+00:00"
+  },
+  {
+    "title": "Blocking Slow-Burn Attacks: Contextual Policies in Omnigent",
+    "link": "https://www.databricks.com/blog/blocking-slow-burn-attacks-contextual-policies-omnigent",
+    "description": "Judging an agent one action at a time isn't enough. In this post, we show how a realistic...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-14T12:47:28+00:00"
+  },
+  {
+    "title": "Practical Guide To Python App Hosting",
+    "link": "https://www.databricks.com/blog/python-app-hosting",
+    "description": "Python has become the default language for data-intensive work, AI applications and...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-13T08:46:49+00:00"
+  },
+  {
+    "title": "How to manage AI investments in the agentic era",
+    "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+    "description": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-14T10:00:00+00:00"
+  },
+  {
+    "title": "Introducing Claude for Teachers",
+    "link": "https://www.anthropic.com/news/claude-for-teachers",
+    "description": "We're introducing Claude for Teachers, providing verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based curricula, mapped to academic standards in all 50 s...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-13T16:00:00+00:00"
   }
 ]
