@@ -308,5 +308,25 @@
     "tailwindScore": 9.0,
     "baseReason": "Global leader in advanced memory (DRAM, NAND, high-bandwidth memory for AI), chip manufacturing (foundry services), and a crucial supplier in the AI hardware supply chain. Its position is strengthened by significant R&D investments and massive production scale.",
     "expertStrategy": "Samsung Electronics is strategically positioned to capitalize on the insatiable demand for AI infrastructure, particularly through its dominance in HBM manufacturing for AI accelerators and its competitive advanced node foundry capabilities, offering a fundamental and diversified play on the growth of AI hardware."
+  },
+  {
+    "name": "SAP  SE",
+    "ticker": "SAP",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software, Enterprise Data Integration for AI",
+    "moatScore": 8.0,
+    "tailwindScore": 8.5,
+    "baseReason": "SAP's dominant position in enterprise resource planning (ERP) and business application software gives it unique access to vast amounts of critical enterprise data, making it a pivotal enabler for AI adoption within large organizations. Its focus on integrating AI directly into its platforms and facilitating zero-ETL data access for cloud AI services reinforces its strategic importance.",
+    "expertStrategy": "SAP is a foundational enterprise software giant undergoing a significant AI-driven transformation. Its initiatives to embed AI into its core applications (e.g., Joule) and enable seamless data integration with major cloud AI platforms position it as a key beneficiary of enterprise AI spending. Investors should consider SAP for its strong recurring revenue, high customer switching costs, and strategic leverage in helping global corporations operationalize AI using their existing, vast datasets. The partnership with AWS for OData connectors for regulated environments further expands its reach and stickiness."
+  },
+  {
+    "name": "Baidu, Inc.",
+    "ticker": "BIDU",
+    "category": "direct",
+    "subCategory": "Large Language Models (LLMs), AI Platform, AI Applications (China)",
+    "moatScore": 7.5,
+    "tailwindScore": 8.0,
+    "baseReason": "Baidu is a leading AI and internet technology company in China, with extensive R&D in large language models (LLMs) and a strong ecosystem of AI applications. Its position as a dominant search engine provider and its partnership with Apple for AI services in China underscore its critical role in the country's AI landscape.",
+    "expertStrategy": "Baidu represents a compelling investment opportunity in the rapidly expanding Chinese AI market. With its advanced LLM capabilities (Ernie Bot) and strategic partnerships, such as powering Apple Intelligence in China, Baidu is well-positioned to capitalize on domestic demand for AI-powered products and services. Its established presence and data advantage in the Chinese internet ecosystem provide a strong foundation for long-term growth as AI adoption accelerates across the region. Investors should consider Baidu as a prime proxy for AI growth in China."
   }
 ]
