@@ -14810,5 +14810,138 @@
     "description": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
     "provider": "OpenAI",
     "timestamp": "2026-07-15T10:00:00+00:00"
+  },
+  {
+    "title": "Track cost efficiency trends directly in Billing and Cost Management Dashboards with the new Cost Efficiency widget",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/monitor-cost-efficiency-using-dashboards",
+    "description": "Today, AWS Billing and Cost Management (BCM) announces support for Cost Efficiency widget in BCM Dashboards. You can now view cost efficiency trends alongside Cost Explorer, Budgets, and reports for Savings Plans and Reserved Instance coverage and ut...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T18:56:00+00:00"
+  },
+  {
+    "title": "PostgreSQL 19 Beta 2 is now available in Amazon RDS Database Preview Environment",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/postgresql-19-beta-2-amazon-rds-database-preview-environment/",
+    "description": "Amazon RDS for PostgreSQL 19 Beta 2 is now available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 2 in the Amazon RDS Databas...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T18:00:00+00:00"
+  },
+  {
+    "title": "AWS Sustainability service now includes water withdrawals data",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-sustainability-water-withdrawals/",
+    "description": "Customers can now view annual water withdrawals data associated with their AWS workloads in AWS Sustainability, alongside existing carbon emissions data. This enhancement helps organizations gain comprehensive visibility into their environmental impa...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T16:43:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7in-24TB instances now available in AWS Europe (Paris) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-europe/",
+    "description": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS&nbsp;Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphir...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes",
+    "description": "Amazon Redshift announces the general availability of two new RG instance sizes - rg.large and rg.12xlarge. These new sizes deliver the same Graviton-powered performance benefits as existing RG instances, including up to 2.4x faster query performance...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia",
+    "description": "You can now transition objects to S3 Standard-Infrequent Access (S3 Standard-IA) and S3 One Zone-Infrequent Access (S3 One Zone-IA) as soon as the day they are created, without the previous 30-day minimum retention in S3 Standard. These storage class...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T15:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup extends logically air-gapped vault support to six additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-logically-air-gapped-vault-regions/",
+    "description": "AWS Backup logically air-gapped vaults are now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). \nWith logically ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T10:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup extends restore testing support to six additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-backup-restore-testing-regions/",
+    "description": "AWS Backup restore testing is now available in six additional AWS Regions: Asia Pacific (Taipei), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Thailand), Mexico (Central), and Canada West (Calgary). \nRestore testing helps you au...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/",
+    "description": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate in the US East (Ohio), US East (N. Virginia), and US West (Oregon) Regions. You can now use Aurora DSQL to build applications and run workloads that are subject to FedRAMP Moderate compliance re...",
+    "provider": "AWS",
+    "timestamp": "2026-07-16T00:00:00+00:00"
+  },
+  {
+    "title": "Connect Customer Outbound Campaigns now in Cape Town Africa",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/connect-africa-cape-town/",
+    "description": "Connect Customer Outbound Campaigns digital channels (SMS, WhatsApp, and email) are now available in the Africa (Cape Town) Region. Businesses in the Region can now use Connect Customer's proactive outreach capabilities to create targeted, personaliz...",
+    "provider": "AWS",
+    "timestamp": "2026-07-14T19:00:00+00:00"
+  },
+  {
+    "title": "Your AI is ready. Your data foundation probably isn’t",
+    "link": "https://www.databricks.com/blog/your-ai-ready-your-data-foundation-probably-isnt",
+    "description": "For most large enterprises, AI transformation is a story of silos — business units...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-16T22:00:00+00:00"
+  },
+  {
+    "title": "From experiment to insight: how Dotmatics Luma and Databricks make AI-ready science a reality",
+    "link": "https://www.databricks.com/blog/experiment-insight-how-dotmatics-luma-and-databricks-make-ai-ready-science-reality",
+    "description": "The gap between scientific data and scientific insightModern scientific workflows...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-16T21:07:45+00:00"
+  },
+  {
+    "title": "What happens in the milliseconds after you tap pay",
+    "link": "https://www.databricks.com/blog/what-happens-milliseconds-after-you-tap-pay",
+    "description": "You're standing at the register. You tap your card. A tiny spinner appears for maybe...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-16T18:00:00+00:00"
+  },
+  {
+    "title": "Unified context: The missing layer for enterprise AI coworkers",
+    "link": "https://www.databricks.com/blog/unified-context-missing-layer-enterprise-ai-coworkers",
+    "description": "AI assistants are quickly spreading across the surface layer of work. They draft...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-16T18:00:00+00:00"
+  },
+  {
+    "title": "The skills gap behind agentic AI — and how Databricks is closing it with a new context engineer certification and agent trainings",
+    "link": "https://www.databricks.com/blog/skills-gap-behind-agentic-ai-and-how-databricks-closing-it-new-context-engineer-certification",
+    "description": "Engineering the Future: The Context Engineer CertificationAs organizations race to...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-16T18:00:00+00:00"
+  },
+  {
+    "title": "A scorecard for the AI age",
+    "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+    "description": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-17T10:00:00+00:00"
+  },
+  {
+    "title": "Why teens deserve access to safe AI",
+    "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+    "description": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-16T16:00:00+00:00"
+  },
+  {
+    "title": "How Cars24 scales conversations and builds faster with OpenAI",
+    "link": "https://openai.com/index/cars24",
+    "description": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-16T00:00:00+00:00"
+  },
+  {
+    "title": "v0.1.7",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.7",
+    "description": "Release v0.1.7",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-07-16T20:58:38+00:00"
   }
 ]

@@ -328,5 +328,25 @@
     "tailwindScore": 8.0,
     "baseReason": "Baidu is a leading AI and internet technology company in China, with extensive R&D in large language models (LLMs) and a strong ecosystem of AI applications. Its position as a dominant search engine provider and its partnership with Apple for AI services in China underscore its critical role in the country's AI landscape.",
     "expertStrategy": "Baidu represents a compelling investment opportunity in the rapidly expanding Chinese AI market. With its advanced LLM capabilities (Ernie Bot) and strategic partnerships, such as powering Apple Intelligence in China, Baidu is well-positioned to capitalize on domestic demand for AI-powered products and services. Its established presence and data advantage in the Chinese internet ecosystem provide a strong foundation for long-term growth as AI adoption accelerates across the region. Investors should consider Baidu as a prime proxy for AI growth in China."
+  },
+  {
+    "name": "Roblox Corporation",
+    "ticker": "RBLX",
+    "category": "direct",
+    "subCategory": "AI-Powered Content Creation Platform",
+    "moatScore": 7.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Leveraging AI for user-generated content creation and game development within its expansive metaverse platform, enhancing user engagement and content velocity and lowering creation barriers.",
+    "expertStrategy": "Roblox is strategically integrating AI directly into its platform, empowering users with AI-assisted game and content creation tools. This move is expected to accelerate content generation, foster creativity, and deepen user engagement, positioning RBLX as a leader in AI-driven interactive entertainment and virtual economy."
+  },
+  {
+    "name": "DoorDash, Inc.",
+    "ticker": "DASH",
+    "category": "direct",
+    "subCategory": "AI Agent API & Integration",
+    "moatScore": 6.5,
+    "tailwindScore": 8.5,
+    "baseReason": "Pioneering the development of command-line tools and APIs specifically designed for AI agents, establishing its platform as a critical interface for AI agents to perform real-world transactional tasks.",
+    "expertStrategy": "DoorDash is innovating by making its platform programmable and accessible to AI agents, moving beyond human-centric interactions. This forward-thinking approach could establish DASH as a foundational 'action layer' for the emerging agentic AI economy, creating a new, high-growth revenue stream and expanding its total addressable market significantly as AI agents become more prevalent."
   }
 ]
