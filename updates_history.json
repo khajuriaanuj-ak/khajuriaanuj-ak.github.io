@@ -14943,5 +14943,82 @@
     "description": "Release v0.1.7",
     "provider": "Google Antigravity",
     "timestamp": "2026-07-16T20:58:38+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch UI now supports one-click dashboard migration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-ui-one-click-dashboard-migration",
+    "description": "Amazon OpenSearch Service now supports one-click migration from legacy OpenSearch Dashboards to OpenSearch UI, for both OpenSearch domains and serverless collections. OpenSearch UI is the new, zero-downtime, serverless interface for search and unifie...",
+    "provider": "AWS",
+    "timestamp": "2026-07-17T17:23:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports partition-level topology for Slurm orchestrated clusters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/hyperpod-partition-topology-slurm/",
+    "description": "Amazon SageMaker HyperPod now supports network topology configuration at the partition level for Slurm orchestrated clusters. A single cluster can now run tree topology in one partition and block topology in another, with each partition using the top...",
+    "provider": "AWS",
+    "timestamp": "2026-07-17T15:16:00+00:00"
+  },
+  {
+    "title": "July 18, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_18_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-18T00:00:00-07:00"
+  },
+  {
+    "title": "July 17, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_17_2026",
+    "description": "Batch\nFeature\nInstance flexibility is available in\nPreview.\nInstance flexibility lets you allow a job to run on multiple machine types that\nyou specify and can optionally rank. Use instance flexibility to improve\nobtainability—the probability that re...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-17T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Functions support for Python 3.14",
+    "link": "https://azure.microsoft.com/updates?id=567646",
+    "description": "You can now develop functions using Python 3.14 locally and\ndeploy them to Azure Functions plans on Linux. Upgrade your apps to Python 3.14 to take advantage\nof enhanced security, a longer support window, and continued compatibility with\nthe Azure Fu...",
+    "provider": "Azure",
+    "timestamp": "2026-07-17T17:47:00+00:00"
+  },
+  {
+    "title": "[Launched] Public Preview: Azure Functions Support for PowerShell 7.6",
+    "link": "https://azure.microsoft.com/updates?id=567651",
+    "description": "Azure Functions support for PowerShell 7.6 is now available in preview. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more:  What's\nnew in PowerShell 7.6 Azure Functions PowerShell versions and ...",
+    "provider": "Azure",
+    "timestamp": "2026-07-17T17:44:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server",
+    "link": "https://azure.microsoft.com/updates?id=567527",
+    "description": "Microsoft Defender Cloud Security Posture Management (CSPM) assessments for Azure Database for PostgreSQL Flexible Server are now generally available. You can use assessments to continuously evaluate the security posture of your Azure PostgreSQL flex...",
+    "provider": "Azure",
+    "timestamp": "2026-07-17T14:55:28+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Encryption in Transit for Azure Files NFS Shares in Azure Kubernetes Service (AKS)",
+    "link": "https://azure.microsoft.com/updates?id=567787",
+    "description": "Azure Kubernetes Service (AKS) now generally supports Encryption in Transit (EiT) for Azure Files NFS v4.1 volumes through the Azure File CSI driver. With EiT enabled, data transferred between AKS workloads and Azure Files NFS shares is encrypted usi...",
+    "provider": "Azure",
+    "timestamp": "2026-07-17T14:54:09+00:00"
+  },
+  {
+    "title": "Tech builds on AI. Finance protects the margin.",
+    "link": "https://www.databricks.com/blog/tech-builds-ai-finance-protects-margin",
+    "description": "Ask a tech company CFO where the quarter's margin is landing, and you will get a...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-17T19:26:20+00:00"
+  },
+  {
+    "title": "Building a soccer coaching app on Databricks",
+    "link": "https://www.databricks.com/blog/building-soccer-coaching-app-databricks",
+    "description": "Tracking data is now the richest signal in sport, but the real gap is turning the...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-17T17:00:00+00:00"
+  },
+  {
+    "title": "Meta’s Spark Muse 1.1 is now available on Databricks, fully governed by Unity AI Gateway",
+    "link": "https://www.databricks.com/blog/metas-spark-muse-11-now-available-databricks-fully-governed-unity-ai-gateway",
+    "description": "Every new model release promises better reasoning, lower costs, or new capabilities,...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-17T13:08:01+00:00"
   }
 ]
