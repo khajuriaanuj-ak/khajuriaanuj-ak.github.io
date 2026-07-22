@@ -15174,5 +15174,166 @@
     "description": "Last spring, we announced Anthropic’s AI for Science program, an initiative designed to accelerate scientific research and discovery through access to our API. Since launching, we have supported researchers working on a variety of high-impact project...",
     "provider": "Anthropic",
     "timestamp": "2026-07-15T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Elastic Disaster Recovery is now available in six additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-drs-additional-regions/",
+    "description": "AWS Elastic Disaster Recovery (AWS DRS) is now available in six additional AWS Regions: Asia Pacific (Bangkok), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Canada West (Calgary), and Mexico (Central). Elastic Disaster ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T22:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 R6in and R6idn instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-r6in-r6idn/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R6in and R6idn instances are available in AWS Europe (Paris) and Canada (Central) regions. These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable pro...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C6in instances are now available in Asia Pacific (Taipei) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c6in/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C6in instances are available in AWS Asia Pacific (Taipei). These sixth-generation network optimized instances, powered by 3rd Generation Intel Xeon Scalable processors and built on the AWS Nit...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M6in and M6idn instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m6in-m6idn/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances are available in AWS Asia Pacific (Hyderabad) and South America (Sao Paulo) regions. These sixth-generation network optimized instances, powered by 3rd Generation Inte...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies in the AWS European Sovereign Cloud, making software updates for containerized applications safer and allowing you to release new...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SES introduces pricing plans",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/",
+    "description": "Today, Amazon Simple Email Service (SES) introduced pricing plans, making it easy to purchase and access SES capabilities without evaluating them individually. Amazon SES pricing plans include three hierarchical options: Essentials, Pro, and Enterpri...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T16:35:00+00:00"
+  },
+  {
+    "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/",
+    "description": "Today, Amazon Elastic Container Service (Amazon ECS) introduces Action Logs, a new observability feature that delivers detailed, timestamped records of the actions Amazon ECS performs on behalf of customers during service deployments and ECS Managed ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T15:30:00+00:00"
+  },
+  {
+    "title": "Amazon Managed Service for Prometheus supports 1.5B active metrics and 200K rules per workspace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-managed-service-prometheus-1500m-metrics-workspace/",
+    "description": "Amazon Managed Service for Prometheus now supports up to 1.5 billion active metric time series and up to 200,000 total recording and alerting rules per workspace. Customers can also create many workspaces per account, enabling the storage and analysi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GD...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T07:45:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server now supports Microsoft SQL Server 2025",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-supports-sqlserver-2025",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Microsoft SQL Server 2025 for Enterprise, Standard, and Developer editions.  SQL Server 2025 brings AI integration directly into the database engine, enabling customers to in...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central agents expand funding guidance to all programs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-partner-central/",
+    "description": "AWS Partner Central agents now support all AWS Partner funding programs. AWS Partners can get guidance on eligibility requirements, application processes, and program details for any funding program and receive documentation-backed answers in seconds...",
+    "provider": "AWS",
+    "timestamp": "2026-07-20T20:08:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer launches metrics for agent queues on analytics dashboards",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect/",
+    "description": "Amazon Connect Customer dashboards now display real-time and historical metrics for agent queues. Agent queues are used to directly route contacts to a specific agent. Now, supervisors can track how these agents perform in their own queues. For examp...",
+    "provider": "AWS",
+    "timestamp": "2026-07-20T15:28:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio adds custom visual transforms",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified-studio",
+    "description": "With Amazon SageMaker Unified Studio, you can now create, share, and reuse custom visual transforms in visual ETL flows. This capability enables data engineers to build reusable, business-specific transformation logic and make it available to their t...",
+    "provider": "AWS",
+    "timestamp": "2026-07-17T21:40:00+00:00"
+  },
+  {
+    "title": "The last mile: why great first-party data still doesn't make great marketing",
+    "link": "https://www.databricks.com/blog/last-mile-first-party-data-great-marketing",
+    "description": "Last month, a data team and a marketing team sat in the same room and talked past...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-21T22:19:28+00:00"
+  },
+  {
+    "title": "How Dow Built a Carbon Footprint Ledger on Databricks to Accelerate Sustainability at Scale",
+    "link": "https://www.databricks.com/blog/how-dow-built-carbon-footprint-ledger-databricks-accelerate-sustainability-scale",
+    "description": "Why we built the Carbon Footprint LedgerAt Dow, our ambition is to be the most innovative,...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-21T19:45:00+00:00"
+  },
+  {
+    "title": "Why R&D Data Belongs in the Lakehouse - and Why Agents Need It There",
+    "link": "https://www.databricks.com/blog/why-rd-data-belongs-lakehouse-and-why-agents-need-it-there",
+    "description": "The setupAt cellcentric, a joint venture of Daimler Truck and Volvo Group, we develop...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-21T19:45:00+00:00"
+  },
+  {
+    "title": "Announcing the Public Preview of Discover and Domains, powered by Unity Catalog",
+    "link": "https://www.databricks.com/blog/announcing-public-preview-discover-and-domains-powered-unity-catalog",
+    "description": "Today, we're announcing the Public Preview of Domains and the Discover page, powered...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-21T19:10:00+00:00"
+  },
+  {
+    "title": "Building AI infrastructure with the Effingham County community",
+    "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-22T13:00:00+00:00"
+  },
+  {
+    "title": "Introducing OpenAI Presence",
+    "link": "https://openai.com/index/introducing-openai-presence",
+    "description": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-22T05:30:00+00:00"
+  },
+  {
+    "title": "Introducing the ChatGPT for small business program",
+    "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "description": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-21T17:00:00+00:00"
+  },
+  {
+    "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+    "description": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-21T07:00:00+00:00"
+  },
+  {
+    "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+    "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+    "description": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-21T00:00:00+00:00"
+  },
+  {
+    "title": "Anthropic is donating another $20 million to Public First Action",
+    "link": "https://www.anthropic.com/news/donation-public-first-action",
+    "description": "We're contributing an additional $20 million to Public First Action, bringing our total support to $40 million. Public First Action is a non-partisan organization that educates the public about AI and works with Republicans, Democrats, and Independen...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-20T16:00:00+00:00"
   }
 ]
