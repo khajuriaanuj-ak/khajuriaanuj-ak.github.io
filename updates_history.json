@@ -15335,5 +15335,110 @@
     "description": "We're contributing an additional $20 million to Public First Action, bringing our total support to $40 million. Public First Action is a non-partisan organization that educates the public about AI and works with Republicans, Democrats, and Independen...",
     "provider": "Anthropic",
     "timestamp": "2026-07-20T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C7a instances are now available in the US West (N. California) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7a-instances-us-west-ncalifornia-region/",
+    "description": "Starting today, the compute optimized Amazon EC2 C7a instances are now available in AWS US West (N. California) Region. C7a instances, powered by 4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7 GHz, deliver up to 50% hi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T21:42:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8a instances now available in the Asia Pacific (Hyderabad) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8a-instances-asia-pacific-hyderabad-region/",
+    "description": "Starting today, the general-purpose Amazon EC2 M8a instances are available in AWS Asia Pacific (Hyderabad) region. M8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T20:55:00+00:00"
+  },
+  {
+    "title": "Amazon Corretto July 2026 Quarterly Updates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
+    "description": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 17.0.20, 11.0.32, and 8u502 are now available for d...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T18:00:00+00:00"
+  },
+  {
+    "title": "AWS Organizations increases RCP quota to 2,000 per organization",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000",
+    "description": "AWS Organizations now supports up to 2,000 resource control policies (RCPs) per organization, doubling the previous limit of 1,000. RCPs enable centralized management of the maximum permissions available to resources across member accounts in your or...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications",
+    "description": "AWS Secrets Manager now automatically publishes events to Amazon EventBridge whenever your secret values change, enabling you to build event-driven workflows that respond in real time to secret updates.  Until now, you had to rely on AWS CloudTrail e...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports Amazon OpenSearch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-unified/",
+    "description": "Amazon SageMaker Unified Studio now supports Amazon OpenSearch as a data source, enabling you to query and analyze your search and log analytics data directly alongside your other data assets. With this new connection, you can combine operational sea...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T17:36:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace now supports self-service seller signature management for India-based sellers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-marketplace-india/",
+    "description": "AWS Marketplace now enables India-based sellers to upload and manage their seller signatures directly through AWS Partner Central, eliminating the previous manual, email-based submission process. Sellers located in India are required to provide a val...",
+    "provider": "AWS",
+    "timestamp": "2026-07-21T07:18:00+00:00"
+  },
+  {
+    "title": "July 22, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
+    "description": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen setting up a Custom MCP Server data store, you can\nselect No authentication if your Model Context Protocol (MCP) server doesn't\nrequ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-22T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Standard service endpoint",
+    "link": "https://azure.microsoft.com/updates?id=561475",
+    "description": "Standard service endpoint is now available in public preview, introducing a scalable and secure way to connect IaaS workloads to Azure PaaS services under the Private Link family. This enhanced capability overcomes the scale and management limitation...",
+    "provider": "Azure",
+    "timestamp": "2026-07-22T16:57:10+00:00"
+  },
+  {
+    "title": "Simplify AI agent orchestration with Lakebase Postgres",
+    "link": "https://www.databricks.com/blog/simplify-ai-agent-orchestration-lakebase-postgres",
+    "description": "IntroductionTraditionally, auditing is a tedious process that often requires detailed...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-22T23:00:00+00:00"
+  },
+  {
+    "title": "How news organizations are using AI to advance their vital missions",
+    "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+    "description": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-22T13:00:00+00:00"
+  },
+  {
+    "title": "Advancing the next era of national science",
+    "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "description": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-22T12:00:00+00:00"
+  },
+  {
+    "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+    "link": "https://openai.com/index/ntt-data",
+    "description": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-22T00:00:00+00:00"
+  },
+  {
+    "title": "A research agenda for the Economic Futures Research Fund",
+    "link": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "description": "We’re sharing the research agenda for the Anthropic Economic Futures Research Fund. We’re committing $200 million to the fund to support ambitious external research on interventions to prepare society for the economic impacts of AI.With the research ...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-21T16:00:00+00:00"
+  },
+  {
+    "title": "Ask Claude about the Anthropic Economic Index",
+    "link": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+    "description": "People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The Anthropic Economic Index exists to help answer them with real data. Today we're launching the Anthropic ...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-21T16:00:00+00:00"
   }
 ]
