@@ -15440,5 +15440,173 @@
     "description": "People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The Anthropic Economic Index exists to help answer them with real data. Today we're launching the Anthropic ...",
     "provider": "Anthropic",
     "timestamp": "2026-07-21T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
+    "description": "Amazon Elastic Container Service (Amazon ECS)&nbsp;introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by automatically prioritizing service-to-service traff...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T23:46:00+00:00"
+  },
+  {
+    "title": "AWS now supports automatic credit memo application preferences",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+    "description": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from different application preferences directly on the Billing a...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T18:16:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
+    "description": "Amazon RDS for MySQL&nbsp;now supports version community MySQL 9.7 in the&nbsp;Amazon RDS Database Preview Environment, allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment provides a sandbox where you can tes...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T18:05:00+00:00"
+  },
+  {
+    "title": "AWS Lambda durable execution SDK for .NET is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+    "description": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applic...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
+    "description": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group. \nPreviously, AgentCore split agent telemetry across mul...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon EVS is now available in additional Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+    "description": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm)&nbsp;Regions. This expansion provides more options to leverage the scale and flexibility of ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T16:24:00+00:00"
+  },
+  {
+    "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
+    "description": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of capability, cost, and speed. For coding, it navigates lar...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T16:02:00+00:00"
+  },
+  {
+    "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
+    "description": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GP...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T15:04:00+00:00"
+  },
+  {
+    "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
+    "description": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs, each with 24 GB of memory, and third-generat...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T14:51:00+00:00"
+  },
+  {
+    "title": "AWS Wickr announces Data Retention Service feature",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
+    "description": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an enterprise-grade, secure collaboration product that prov...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T04:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
+    "description": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Ireland) region. U7i instances are part of the ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8id instances are now available in Europe (Ireland) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8id-europe-ireland/",
+    "description": "Amazon EC2 M8id instances are now available in (Ireland). These instances are powered by custom Intel Xeon 6 processors and deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation M6id instances.  M8id inst...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T19:55:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI inference now supports G7 instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-ai-g7/",
+    "description": "Amazon SageMaker AI inference now supports G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, enabling you to deploy machine learning models with up to 4.6x AI inference performance compared to previous-generation G6 instances...",
+    "provider": "AWS",
+    "timestamp": "2026-07-22T15:23:00+00:00"
+  },
+  {
+    "title": "AWS HealthOmics now available in two additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/healthomics-tokyo-ohio/",
+    "description": "AWS HealthOmics private workflows are now available in the&nbsp;Asia Pacific (Tokyo) and US East (Ohio) Regions, expanding access to fully-managed bioinformatics workflows&nbsp;for research, drug discovery, and agriculture science initiatives with re...",
+    "provider": "AWS",
+    "timestamp": "2026-07-20T18:54:00+00:00"
+  },
+  {
+    "title": "July 23, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
+    "description": "AlloyDB for PostgreSQL\nFeature\nTransparent query forwarding is now available in\nPreview for clusters compatible with PostgreSQL 17 and 18. With this\nfeature, the primary node in a cluster intercepts read-only queries and\nselectively forwards them to ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-23T00:00:00-07:00"
+  },
+  {
+    "title": "How the FDA Built an AI Platform That 85% of Its Staff Now Use Daily",
+    "link": "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily",
+    "description": "“We showed the value of having a foundational data platform, and that success story...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-23T19:00:00+00:00"
+  },
+  {
+    "title": "Permission isn't purpose: Intent-based authorization in Omnigent",
+    "link": "https://www.databricks.com/blog/permission-isnt-purpose-intent-based-authorization-omnigent",
+    "description": "In earlier posts, we introduced&nbsp;contextual policies in Omnigent and showed them blocking...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-23T18:05:06+00:00"
+  },
+  {
+    "title": "Provisioning for the Agentic Era: How Databricks Built a Self-Serve Infrastructure Vending Machine",
+    "link": "https://www.databricks.com/blog/provisioning-agentic-era-how-databricks-built-self-serve-infrastructure-vending-machine",
+    "description": "At Databricks, our field engineering organization exists to help customers succeed....",
+    "provider": "Databricks",
+    "timestamp": "2026-07-23T18:00:00+00:00"
+  },
+  {
+    "title": "Why A Frontier Data Agent Outperforms General Coding Agents in Quality and Cost",
+    "link": "https://www.databricks.com/blog/why-frontier-data-agent-outperforms-general-coding-agents-quality-and-cost",
+    "description": "Conventional wisdom in agentic AI says that better answers cost more tokens: let...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-23T15:33:58+00:00"
+  },
+  {
+    "title": "Connect Amazon S3 data to Databricks with Delegated IAM Permissions",
+    "link": "https://www.databricks.com/blog/connect-amazon-s3-data-databricks-delegated-iam-permissions",
+    "description": "Importance of Simpler S3 connectivityConnecting Amazon S3 is one of the most important...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-23T15:30:00+00:00"
+  },
+  {
+    "title": "Introducing AI spend controls with Unity AI Gateway",
+    "link": "https://www.databricks.com/blog/introducing-ai-spend-controls-unity-ai-gateway",
+    "description": "Today, we're announcing AI Spend Controls in Unity AI Gateway. This release extends...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-23T14:04:00+00:00"
+  },
+  {
+    "title": "Launching Health in ChatGPT",
+    "link": "https://openai.com/index/health-in-chatgpt",
+    "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-23T00:00:00+00:00"
+  },
+  {
+    "title": "How Codex became a collaborator for OpenAI’s creative team",
+    "link": "https://openai.com/index/codex-collaborator-creative-team",
+    "description": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-16T07:00:00+00:00"
+  },
+  {
+    "title": "v0.1.8",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.8",
+    "description": "Release v0.1.8",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-07-23T19:58:08+00:00"
   }
 ]

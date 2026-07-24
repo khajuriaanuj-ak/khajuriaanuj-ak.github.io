@@ -348,5 +348,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Pioneering the development of command-line tools and APIs specifically designed for AI agents, establishing its platform as a critical interface for AI agents to perform real-world transactional tasks.",
     "expertStrategy": "DoorDash is innovating by making its platform programmable and accessible to AI agents, moving beyond human-centric interactions. This forward-thinking approach could establish DASH as a foundational 'action layer' for the emerging agentic AI economy, creating a new, high-growth revenue stream and expanding its total addressable market significantly as AI agents become more prevalent."
+  },
+  {
+    "name": "Unity Software Inc.",
+    "ticker": "U",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software",
+    "moatScore": 7.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Unity's established real-time 3D development platform is strategically expanding into enterprise AI governance and optimization with its AI Gateway, addressing critical challenges in multi-model deployment and cost control for AI initiatives. This leverages its extensive developer ecosystem and broadens its reach into enterprise applications.",
+    "expertStrategy": "Unity's new AI Gateway positions the company to capture significant value in the rapidly growing enterprise AI software market by offering solutions for AI spend control and intelligent model routing. This diversification strategy expands its revenue opportunities beyond traditional gaming and simulation, providing a sticky, high-value solution for AI operationalization and management across industries. Investors should consider Unity for its strategic pivot into critical AI infrastructure software."
   }
 ]

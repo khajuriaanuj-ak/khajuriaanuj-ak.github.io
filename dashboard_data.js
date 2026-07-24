@@ -1,6 +1,146 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-23T15:04:00.179199+00:00",
+  "last_updated": "2026-07-24T14:49:31.173486+00:00",
   "updates": [
+    {
+      "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/",
+      "description": "Amazon Elastic Container Service (Amazon ECS)&nbsp;introduces zone-aware routing for ECS Service Connect, enabling customers to reduce cross Availability Zone (AZ) data transfer costs and latency by automatically prioritizing service-to-service traff...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T23:46:00+00:00"
+    },
+    {
+      "title": "v0.1.8",
+      "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.8",
+      "description": "Release v0.1.8",
+      "provider": "Google Antigravity",
+      "timestamp": "2026-07-23T19:58:08+00:00"
+    },
+    {
+      "title": "How the FDA Built an AI Platform That 85% of Its Staff Now Use Daily",
+      "link": "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily",
+      "description": "“We showed the value of having a foundational data platform, and that success story...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-23T19:00:00+00:00"
+    },
+    {
+      "title": "AWS now supports automatic credit memo application preferences",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/credit-memo-applications/",
+      "description": "AWS now enables customers who pay through electronic funds transfer to configure preferences for how credit memos are automatically applied to outstanding invoices. Customers can choose from different application preferences directly on the Billing a...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T18:16:00+00:00"
+    },
+    {
+      "title": "Permission isn't purpose: Intent-based authorization in Omnigent",
+      "link": "https://www.databricks.com/blog/permission-isnt-purpose-intent-based-authorization-omnigent",
+      "description": "In earlier posts, we introduced&nbsp;contextual policies in Omnigent and showed them blocking...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-23T18:05:06+00:00"
+    },
+    {
+      "title": "Amazon RDS for MySQL supports MySQL 9.7 in Amazon RDS Database Preview Environment",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-mysql-long-term-9-7-rds-database-preview/",
+      "description": "Amazon RDS for MySQL&nbsp;now supports version community MySQL 9.7 in the&nbsp;Amazon RDS Database Preview Environment, allowing you to evaluate the latest Release on Amazon RDS for MySQL. This preview environment provides a sandbox where you can tes...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T18:05:00+00:00"
+    },
+    {
+      "title": "AWS Lambda durable execution SDK for .NET is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/",
+      "description": "Today, AWS announces the general availability of the AWS Lambda Durable Execution SDK for .NET, empowering C# developers to build resilient, long-running workflows using Lambda durable functions. With this SDK, developers can create multi-step applic...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T18:00:00+00:00"
+    },
+    {
+      "title": "Provisioning for the Agentic Era: How Databricks Built a Self-Serve Infrastructure Vending Machine",
+      "link": "https://www.databricks.com/blog/provisioning-agentic-era-how-databricks-built-self-serve-infrastructure-vending-machine",
+      "description": "At Databricks, our field engineering organization exists to help customers succeed....",
+      "provider": "Databricks",
+      "timestamp": "2026-07-23T18:00:00+00:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/",
+      "description": "Amazon Bedrock AgentCore now delivers agent traces and prompts to the same log group as your agent's logs, giving you unified observability for AI agents in a single Amazon CloudWatch log group. \nPreviously, AgentCore split agent telemetry across mul...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T17:00:00+00:00"
+    },
+    {
+      "title": "Amazon EVS is now available in additional Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-evs-available-in-additional-regions/",
+      "description": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Seoul), Europe (Zurich), and Europe (Stockholm)&nbsp;Regions. This expansion provides more options to leverage the scale and flexibility of ...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T16:24:00+00:00"
+    },
+    {
+      "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/",
+      "description": "AWS GovCloud (US) now offers Claude Sonnet 5 on Amazon Bedrock. Claude Sonnet 5 delivers strong performance across coding, professional work, and agentic tasks while maintaining the balance of capability, cost, and speed. For coding, it navigates lar...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T16:02:00+00:00"
+    },
+    {
+      "title": "Why A Frontier Data Agent Outperforms General Coding Agents in Quality and Cost",
+      "link": "https://www.databricks.com/blog/why-frontier-data-agent-outperforms-general-coding-agents-quality-and-cost",
+      "description": "Conventional wisdom in agentic AI says that better answers cost more tokens: let...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-23T15:33:58+00:00"
+    },
+    {
+      "title": "Connect Amazon S3 data to Databricks with Delegated IAM Permissions",
+      "link": "https://www.databricks.com/blog/connect-amazon-s3-data-databricks-delegated-iam-permissions",
+      "description": "Importance of Simpler S3 connectivityConnecting Amazon S3 is one of the most important...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-23T15:30:00+00:00"
+    },
+    {
+      "title": "Announcing region expansion of G7e instances on SageMaker AI inference",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g7e-sagemaker-ai/",
+      "description": "We are pleased to announce the availability of Amazon EC2 G7e instances in Asia Pacific (Seoul), Europe (London), and Asia Pacific (Tokyo) on Amazon SageMaker AI inference. G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GP...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T15:04:00+00:00"
+    },
+    {
+      "title": "Announcing region expansion of G6 instances on SageMaker AI Inference",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/g6-sagemaker-ai-inference/",
+      "description": "We are pleased to announce the availability of Amazon EC2 G6 instances in the AWS GovCloud (US-East) region on Amazon SageMaker AI inference. G6 instances are powered by up to 8 NVIDIA L4 Tensor Core GPUs, each with 24 GB of memory, and third-generat...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T14:51:00+00:00"
+    },
+    {
+      "title": "Introducing AI spend controls with Unity AI Gateway",
+      "link": "https://www.databricks.com/blog/introducing-ai-spend-controls-unity-ai-gateway",
+      "description": "Today, we're announcing AI Spend Controls in Unity AI Gateway. This release extends...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-23T14:04:00+00:00"
+    },
+    {
+      "title": "AWS Wickr announces Data Retention Service feature",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-wickr-data/",
+      "description": "AWS Wickr now offers a managed Data Retention Service feature for Premium users, enabling organizations to retain conversations across their network for data archiving purposes. AWS Wickr is an enterprise-grade, secure collaboration product that prov...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T04:00:00+00:00"
+    },
+    {
+      "title": "July 23, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#July_23_2026",
+      "description": "AlloyDB for PostgreSQL\nFeature\nTransparent query forwarding is now available in\nPreview for clusters compatible with PostgreSQL 17 and 18. With this\nfeature, the primary node in a cluster intercepts read-only queries and\nselectively forwards them to ...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-07-23T00:00:00-07:00"
+    },
+    {
+      "title": "Amazon EC2 High Memory U7i instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-high-memory-u7i/",
+      "description": "Amazon EC2 High Memory U7in-16TB instances (u7in-16tb.224xlarge) are now available in AWS South America (São Paulo) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS Europe (Ireland) region. U7i instances are part of the ...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T00:00:00+00:00"
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "description": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "provider": "OpenAI",
+      "timestamp": "2026-07-23T00:00:00+00:00"
+    },
     {
       "title": "Simplify AI agent orchestration with Lakebase Postgres",
       "link": "https://www.databricks.com/blog/simplify-ai-agent-orchestration-lakebase-postgres",
@@ -23,6 +163,13 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-07-22T20:55:00+00:00"
     },
     {
+      "title": "Amazon EC2 M8id instances are now available in Europe (Ireland) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-m8id-europe-ireland/",
+      "description": "Amazon EC2 M8id instances are now available in (Ireland). These instances are powered by custom Intel Xeon 6 processors and deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation M6id instances.  M8id inst...",
+      "provider": "AWS",
+      "timestamp": "2026-07-22T19:55:00+00:00"
+    },
+    {
       "title": "Amazon Corretto July 2026 Quarterly Updates",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-corretto-july-2026-quarterly-updates",
       "description": "On July 22, 2026, Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 26.0.2, 25.0.4, 21.0.12, 17.0.20, 11.0.32, and 8u502 are now available for d...",
@@ -42,6 +189,13 @@ const DASHBOARD_DATA = {
       "description": "Standard service endpoint is now available in public preview, introducing a scalable and secure way to connect IaaS workloads to Azure PaaS services under the Private Link family. This enhanced capability overcomes the scale and management limitation...",
       "provider": "Azure",
       "timestamp": "2026-07-22T16:57:10+00:00"
+    },
+    {
+      "title": "Amazon SageMaker AI inference now supports G7 instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-sagemaker-ai-g7/",
+      "description": "Amazon SageMaker AI inference now supports G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, enabling you to deploy machine learning models with up to 4.6x AI inference performance compared to previous-generation G6 instances...",
+      "provider": "AWS",
+      "timestamp": "2026-07-22T15:23:00+00:00"
     },
     {
       "title": "Building AI infrastructure with the Effingham County community",
@@ -259,6 +413,13 @@ const DASHBOARD_DATA = {
       "description": "AWS Partner Central agents now support all AWS Partner funding programs. AWS Partners can get guidance on eligibility requirements, application processes, and program details for any funding program and receive documentation-backed answers in seconds...",
       "provider": "AWS",
       "timestamp": "2026-07-20T20:08:00+00:00"
+    },
+    {
+      "title": "AWS HealthOmics now available in two additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/healthomics-tokyo-ohio/",
+      "description": "AWS HealthOmics private workflows are now available in the&nbsp;Asia Pacific (Tokyo) and US East (Ohio) Regions, expanding access to fully-managed bioinformatics workflows&nbsp;for research, drug discovery, and agriculture science initiatives with re...",
+      "provider": "AWS",
+      "timestamp": "2026-07-20T18:54:00+00:00"
     },
     {
       "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
@@ -609,6 +770,13 @@ const DASHBOARD_DATA = {
       "description": "IntroductionApache Spark 4.2 moves more of the modern data and AI stack into the...",
       "provider": "Databricks",
       "timestamp": "2026-07-16T07:00:01+00:00"
+    },
+    {
+      "title": "How Codex became a collaborator for OpenAI’s creative team",
+      "link": "https://openai.com/index/codex-collaborator-creative-team",
+      "description": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+      "provider": "OpenAI",
+      "timestamp": "2026-07-16T07:00:00+00:00"
     },
     {
       "title": "July 16, 2026",
@@ -15446,78 +15614,86 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-      "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "description": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+      "link": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+      "description": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
+      "date": "Jul 24, 2026",
+      "source": "TechCrunch AI",
+      "trend": "AI Agents"
+    },
+    {
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "description": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "date": "Jul 24, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Research Breakthrough"
+    },
+    {
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "description": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
       "date": "Jul 23, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
     },
     {
-      "title": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-      "link": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/",
-      "description": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "description": "Claude's new voice model will let you reschedule your meeting or draft an email.",
       "date": "Jul 23, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-      "link": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
-      "description": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "description": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
       "date": "Jul 23, 2026",
       "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
+      "trend": "AI Agents"
     },
     {
-      "title": "After shocking quarter, IBM insists that AI isn’t killing the mainframe",
-      "link": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
-      "description": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
-      "date": "Jul 22, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Google justifies its massive AI spending with a booming cloud business",
-      "link": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
-      "description": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
-      "date": "Jul 22, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Enterprise Adoption"
-    },
-    {
-      "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
-      "link": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
-      "description": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models.",
-      "date": "Jul 22, 2026",
+      "title": "Runway launches AI model router as generative media gets crowded",
+      "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "description": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "date": "Jul 23, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     }
   ],
   "sentiments": [
     {
+      "company": "Databricks",
+      "score": 96,
+      "status": "Bullish",
+      "change": "▼ -1",
+      "reason": "How the FDA Built an AI Platform That 85% of Its Staff Now U...",
+      "mentions": 6
+    },
+    {
       "company": "Anthropic",
       "score": 91,
       "status": "Bullish",
       "change": "▼ -2",
-      "reason": "A research agenda for the Economic Futures Research Fund",
-      "mentions": 4
+      "reason": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS Go...",
+      "mentions": 3
     },
     {
       "company": "NVIDIA",
       "score": 91,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "AI chip startup Etched defies skeptics, hits $10.3B valuatio...",
-      "mentions": 1
+      "reason": "Announcing region expansion of G7e instances on SageMaker AI...",
+      "mentions": 4
     },
     {
       "company": "OpenAI",
-      "score": 85,
+      "score": 88,
       "status": "Bullish",
-      "change": "▼ -1",
-      "reason": "How news organizations are using AI to advance their vital m...",
-      "mentions": 3
+      "change": "▲ +2",
+      "reason": "Launching Health in ChatGPT",
+      "mentions": 4
     },
     {
       "company": "Groq",
@@ -15526,14 +15702,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Databricks",
-      "score": 84,
-      "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "Simplify AI agent orchestration with Lakebase Postgres",
-      "mentions": 1
     },
     {
       "company": "Snowflake",
@@ -15548,7 +15716,7 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "July 22, 2026",
+      "reason": "July 23, 2026",
       "mentions": 2
     },
     {
@@ -15561,340 +15729,340 @@ const DASHBOARD_DATA = {
     },
     {
       "company": "Apple",
-      "score": 76,
+      "score": 79,
+      "status": "Mixed",
+      "change": "▲ +2",
+      "reason": "Launching Health in ChatGPT",
+      "mentions": 1
+    },
+    {
+      "company": "Microsoft",
+      "score": 78,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Microsoft",
-      "score": 72,
-      "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "[In preview] Public Preview: Standard service endpoint",
-      "mentions": 1
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 206.99,
-      "forwardPE": 16.08,
-      "trailingPE": 31.7,
-      "marketCap": 5013505048576,
+      "price": 208.02,
+      "forwardPE": 16.16,
+      "trailingPE": 31.86,
+      "marketCap": 5038452244480,
       "psRatio": null,
-      "dayChange": -2.39,
-      "rangePosition": 0.592,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -0.35,
+      "rangePosition": 0.606,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 316.84,
-      "forwardPE": 21.53,
-      "trailingPE": 15.89,
-      "marketCap": 3866263027712,
+      "price": 319.06,
+      "forwardPE": 21.59,
+      "trailingPE": 16.02,
+      "marketCap": 3902083170304,
       "psRatio": null,
-      "dayChange": -7.38,
-      "rangePosition": 0.584,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.43,
+      "rangePosition": 0.594,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 378.38,
-      "forwardPE": 19.53,
-      "trailingPE": 22.55,
-      "marketCap": 2810771144704,
+      "price": 383.04,
+      "forwardPE": 19.77,
+      "trailingPE": 22.81,
+      "marketCap": 2845387784192,
       "psRatio": null,
-      "dayChange": -3.06,
-      "rangePosition": 0.141,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.38,
+      "rangePosition": 0.164,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 232.6,
-      "forwardPE": 23.46,
-      "trailingPE": 27.86,
-      "marketCap": 2502103924736,
+      "price": 232.03,
+      "forwardPE": 23.42,
+      "trailingPE": 27.72,
+      "marketCap": 2495952715776,
       "psRatio": null,
-      "dayChange": -5.0,
-      "rangePosition": 0.443,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -0.7,
+      "rangePosition": 0.436,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 263.49,
-      "forwardPE": 97.88,
+      "price": 264.31,
+      "forwardPE": 98.19,
       "trailingPE": null,
-      "marketCap": 91323899904,
+      "marketCap": 91609841664,
       "psRatio": null,
-      "dayChange": -1.61,
-      "rangePosition": 0.871,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -0.31,
+      "rangePosition": 0.876,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 415.42,
-      "forwardPE": 19.51,
-      "trailingPE": 36.54,
-      "marketCap": 2154565074944,
+      "price": 406.75,
+      "forwardPE": 19.1,
+      "trailingPE": 35.71,
+      "marketCap": 2109598334976,
       "psRatio": null,
-      "dayChange": -1.37,
-      "rangePosition": 0.751,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -2.12,
+      "rangePosition": 0.717,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 390.54,
-      "forwardPE": 20.07,
-      "trailingPE": 65.2,
-      "marketCap": 1858025422848,
+      "price": 383.57,
+      "forwardPE": 19.71,
+      "trailingPE": 63.93,
+      "marketCap": 1824865124352,
       "psRatio": null,
-      "dayChange": -1.58,
-      "rangePosition": 0.51,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -2.27,
+      "rangePosition": 0.478,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1804.91,
-      "forwardPE": 31.09,
-      "trailingPE": 62.22,
-      "marketCap": 693265956864,
+      "price": 1768.0,
+      "forwardPE": 30.43,
+      "trailingPE": 60.9,
+      "marketCap": 679088816128,
       "psRatio": null,
-      "dayChange": 0.17,
-      "rangePosition": 0.852,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -1.94,
+      "rangePosition": 0.824,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 303.9,
-      "forwardPE": 34.42,
-      "trailingPE": 76.36,
-      "marketCap": 116730658816,
+      "price": 293.99,
+      "forwardPE": 33.3,
+      "trailingPE": 73.87,
+      "marketCap": 112924139520,
       "psRatio": null,
-      "dayChange": 0.91,
-      "rangePosition": 0.709,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -3.31,
+      "rangePosition": 0.671,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 175.45,
-      "forwardPE": 39.27,
-      "trailingPE": 60.5,
-      "marketCap": 220921266176,
+      "price": 174.19,
+      "forwardPE": 38.99,
+      "trailingPE": 59.86,
+      "marketCap": 219334721536,
       "psRatio": null,
-      "dayChange": 0.33,
-      "rangePosition": 0.813,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -1.37,
+      "rangePosition": 0.795,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 101.81,
-      "forwardPE": 62.65,
+      "price": 96.45,
+      "forwardPE": 55.15,
       "trailingPE": null,
-      "marketCap": 511697027072,
+      "marketCap": 484757667840,
       "psRatio": null,
-      "dayChange": -0.79,
-      "rangePosition": 0.671,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -3.77,
+      "rangePosition": 0.628,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 443.94,
-      "forwardPE": 20.39,
-      "trailingPE": 35.37,
-      "marketCap": 286848450560,
+      "price": 443.13,
+      "forwardPE": 20.35,
+      "trailingPE": 35.25,
+      "marketCap": 286325080064,
       "psRatio": null,
-      "dayChange": 0.48,
-      "rangePosition": 0.929,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.86,
+      "rangePosition": 0.927,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 48.46,
-      "forwardPE": 12.12,
-      "trailingPE": 44.05,
-      "marketCap": 64170901504,
+      "price": 47.78,
+      "forwardPE": 11.95,
+      "trailingPE": 44.65,
+      "marketCap": 63270440960,
       "psRatio": null,
-      "dayChange": 0.69,
-      "rangePosition": 0.646,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.29,
+      "rangePosition": 0.631,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 601.49,
-      "forwardPE": 16.25,
-      "trailingPE": 21.9,
-      "marketCap": 1526823518208,
+      "price": 606.12,
+      "forwardPE": 16.38,
+      "trailingPE": 22.02,
+      "marketCap": 1538601779200,
       "psRatio": null,
-      "dayChange": -4.1,
-      "rangePosition": 0.294,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.0,
+      "rangePosition": 0.311,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 205.29,
-      "forwardPE": 15.72,
-      "trailingPE": 18.23,
-      "marketCap": 192949043200,
+      "price": 212.37,
+      "forwardPE": 16.27,
+      "trailingPE": 18.86,
+      "marketCap": 200076378112,
       "psRatio": null,
-      "dayChange": -0.23,
-      "rangePosition": 0.046,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 2.77,
+      "rangePosition": 0.099,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 2.73,
-      "forwardPE": 3.19,
+      "forwardPE": 3.18,
       "trailingPE": null,
-      "marketCap": 144524816,
+      "marketCap": 144260608,
       "psRatio": null,
-      "dayChange": -0.18,
-      "rangePosition": 0.015,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -1.09,
+      "rangePosition": 0.014,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 321.25,
-      "forwardPE": 33.33,
-      "trailingPE": 38.94,
-      "marketCap": 4718313078784,
+      "price": 328.88,
+      "forwardPE": 34.11,
+      "trailingPE": 39.77,
+      "marketCap": 4830377541632,
       "psRatio": null,
-      "dayChange": -1.42,
-      "rangePosition": 0.897,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 2.24,
+      "rangePosition": 0.954,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 121.25,
-      "forwardPE": 57.89,
-      "trailingPE": 137.78,
-      "marketCap": 290662088704,
+      "price": 123.12,
+      "forwardPE": 58.78,
+      "trailingPE": 138.33,
+      "marketCap": 295149600768,
       "psRatio": null,
-      "dayChange": -2.67,
-      "rangePosition": 0.147,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -0.21,
+      "rangePosition": 0.166,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 324.04,
-      "forwardPE": 78.56,
-      "trailingPE": 284.25,
-      "marketCap": 264092614656,
+      "price": 325.43,
+      "forwardPE": 78.89,
+      "trailingPE": 285.46,
+      "marketCap": 265225437184,
       "psRatio": null,
-      "dayChange": -3.35,
-      "rangePosition": 0.805,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -0.06,
+      "rangePosition": 0.811,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 155.56,
-      "forwardPE": 10.03,
-      "trailingPE": 18.05,
-      "marketCap": 127407734784,
+      "price": 161.02,
+      "forwardPE": 10.38,
+      "trailingPE": 18.66,
+      "marketCap": 131875381248,
       "psRatio": null,
-      "dayChange": -4.56,
-      "rangePosition": 0.072,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 2.61,
+      "rangePosition": 0.115,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 120.88,
-      "forwardPE": 11.1,
-      "trailingPE": 20.73,
-      "marketCap": 348191326208,
+      "price": 116.97,
+      "forwardPE": 10.74,
+      "trailingPE": 20.06,
+      "marketCap": 336928702464,
       "psRatio": null,
-      "dayChange": -3.94,
+      "dayChange": -2.56,
       "rangePosition": 0.004,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 544.83,
-      "forwardPE": 40.38,
-      "trailingPE": 182.83,
-      "marketCap": 888400117760,
+      "price": 526.38,
+      "forwardPE": 38.95,
+      "trailingPE": 174.3,
+      "marketCap": 858315554816,
       "psRatio": null,
-      "dayChange": -1.36,
-      "rangePosition": 0.908,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -2.47,
+      "rangePosition": 0.866,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
-      "price": 167.49,
-      "forwardPE": 17.02,
-      "trailingPE": 26.38,
-      "marketCap": 32814628864,
+      "price": 165.76,
+      "forwardPE": 16.85,
+      "trailingPE": 26.06,
+      "marketCap": 32476665856,
       "psRatio": null,
-      "dayChange": 0.57,
-      "rangePosition": 0.744,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.68,
+      "rangePosition": 0.727,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
-      "price": 214.05,
-      "forwardPE": 7.79,
-      "trailingPE": 12.24,
-      "marketCap": 85084872704,
+      "price": 220.22,
+      "forwardPE": 8.01,
+      "trailingPE": 12.6,
+      "marketCap": 87535460352,
       "psRatio": null,
-      "dayChange": -1.97,
-      "rangePosition": 0.129,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 3.79,
+      "rangePosition": 0.162,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
-      "price": 989.24,
-      "forwardPE": 6.43,
-      "trailingPE": 22.37,
-      "marketCap": 1117240819712,
+      "price": 923.86,
+      "forwardPE": 6.01,
+      "trailingPE": 20.87,
+      "marketCap": 1043401277440,
       "psRatio": null,
-      "dayChange": 3.1,
-      "rangePosition": 0.769,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -6.7,
+      "rangePosition": 0.712,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
-      "price": 24.84,
-      "forwardPE": 8.25,
-      "trailingPE": 9.2,
-      "marketCap": 22716743680,
+      "price": 25.45,
+      "forwardPE": 8.45,
+      "trailingPE": 9.64,
+      "marketCap": 23270029312,
       "psRatio": null,
-      "dayChange": -1.04,
-      "rangePosition": 0.602,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 3.81,
+      "rangePosition": 0.652,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
-      "price": 263.18,
-      "forwardPE": 166.36,
+      "price": 263.26,
+      "forwardPE": 166.41,
       "trailingPE": null,
-      "marketCap": 93412990976,
+      "marketCap": 93440032768,
       "psRatio": null,
-      "dayChange": -2.16,
+      "dayChange": 0.36,
       "rangePosition": 0.79,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
-      "price": 114.52,
-      "forwardPE": 12.57,
-      "trailingPE": 17.65,
-      "marketCap": 274499403776,
+      "price": 111.95,
+      "forwardPE": 12.3,
+      "trailingPE": 17.22,
+      "marketCap": 268329828352,
       "psRatio": null,
-      "dayChange": -1.75,
-      "rangePosition": 0.224,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -1.85,
+      "rangePosition": 0.198,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
-      "price": 172.18,
-      "forwardPE": 4.25,
-      "trailingPE": 24.05,
-      "marketCap": 1222228049920,
+      "price": 157.0,
+      "forwardPE": 3.88,
+      "trailingPE": 21.99,
+      "marketCap": 1114472185856,
       "psRatio": null,
-      "dayChange": 4.18,
-      "rangePosition": 0.541,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -7.37,
+      "rangePosition": 0.232,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -15905,51 +16073,62 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "SAP": {
       "name": "SAP  SE",
-      "price": 145.27,
-      "forwardPE": 14.73,
-      "trailingPE": 20.37,
-      "marketCap": 171263508480,
+      "price": 157.23,
+      "forwardPE": 15.94,
+      "trailingPE": 22.11,
+      "marketCap": 185363529728,
       "psRatio": null,
-      "dayChange": -2.34,
-      "rangePosition": 0.001,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 7.41,
+      "rangePosition": 0.079,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
-      "price": 106.31,
-      "forwardPE": 12.23,
+      "price": 105.69,
+      "forwardPE": 12.31,
       "trailingPE": null,
-      "marketCap": 36173963264,
+      "marketCap": 35963006976,
       "psRatio": null,
-      "dayChange": -1.12,
-      "rangePosition": 0.269,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -1.58,
+      "rangePosition": 0.261,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
-      "price": 47.48,
-      "forwardPE": -37.08,
+      "price": 47.27,
+      "forwardPE": -36.91,
       "trailingPE": null,
-      "marketCap": 33994670080,
+      "marketCap": 33840736256,
       "psRatio": null,
-      "dayChange": -4.35,
-      "rangePosition": 0.066,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": -0.6,
+      "rangePosition": 0.064,
+      "fetchedAt": "2026-07-24 02:49 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
-      "price": 167.78,
-      "forwardPE": 21.6,
-      "trailingPE": 79.51,
-      "marketCap": 73102704640,
+      "price": 171.1,
+      "forwardPE": 22.03,
+      "trailingPE": 81.09,
+      "marketCap": 74551476224,
       "psRatio": null,
-      "dayChange": -5.6,
-      "rangePosition": 0.172,
-      "fetchedAt": "2026-07-23 03:04 PM"
+      "dayChange": 0.78,
+      "rangePosition": 0.195,
+      "fetchedAt": "2026-07-24 02:49 PM"
+    },
+    "U": {
+      "name": "Unity Software Inc.",
+      "price": 28.26,
+      "forwardPE": 21.47,
+      "trailingPE": null,
+      "marketCap": 12336479232,
+      "psRatio": null,
+      "dayChange": -2.35,
+      "rangePosition": 0.325,
+      "fetchedAt": "2026-07-24 02:49 PM"
     }
   },
   "stocks_universe": [
@@ -16302,6 +16481,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 8.5,
       "baseReason": "Pioneering the development of command-line tools and APIs specifically designed for AI agents, establishing its platform as a critical interface for AI agents to perform real-world transactional tasks.",
       "expertStrategy": "DoorDash is innovating by making its platform programmable and accessible to AI agents, moving beyond human-centric interactions. This forward-thinking approach could establish DASH as a foundational 'action layer' for the emerging agentic AI economy, creating a new, high-growth revenue stream and expanding its total addressable market significantly as AI agents become more prevalent."
+    },
+    {
+      "name": "Unity Software Inc.",
+      "ticker": "U",
+      "category": "direct",
+      "subCategory": "Enterprise AI Software",
+      "moatScore": 7.0,
+      "tailwindScore": 8.0,
+      "baseReason": "Unity's established real-time 3D development platform is strategically expanding into enterprise AI governance and optimization with its AI Gateway, addressing critical challenges in multi-model deployment and cost control for AI initiatives. This leverages its extensive developer ecosystem and broadens its reach into enterprise applications.",
+      "expertStrategy": "Unity's new AI Gateway positions the company to capture significant value in the rapidly growing enterprise AI software market by offering solutions for AI spend control and intelligent model routing. This diversification strategy expands its revenue opportunities beyond traditional gaming and simulation, providing a sticky, high-value solution for AI operationalization and management across industries. Investors should consider Unity for its strategic pivot into critical AI infrastructure software."
     }
   ]
 };
