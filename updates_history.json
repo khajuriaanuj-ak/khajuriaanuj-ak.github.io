@@ -15608,5 +15608,89 @@
     "description": "Release v0.1.8",
     "provider": "Google Antigravity",
     "timestamp": "2026-07-23T19:58:08+00:00"
+  },
+  {
+    "title": "Amazon Connect now supports audio optimization for Azure Virtual Desktop and Windows 365 Cloud PC",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect/",
+    "description": "Agents using Microsoft Azure Virtual Desktop (AVD) or Windows 365 Cloud PC can now take calls directly from their virtual desktop session with audio optimization enabled. To get started, IT administrators need to complete a one-time setup for their v...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T23:11:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA now supports Apache Airflow version 2.11.2",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-mwaa-now-supports-apache-airflow-version-2-11-2",
+    "description": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 2.11.2. Amazon MWAA is a managed service that runs Apache Airflow at scale without the operational overhead of managing the underlying infrastructure. Apache Airfl...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T21:57:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/",
+    "description": "Starting today, customers can create Host Resource Groups (HRGs) for EC2 Dedicated Hosts without the previously required step of creating Self-Managed Licenses (SMLs) and associating AMIs through AWS License Manager. \nThis flexibility is particularly...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down",
+    "description": "Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale. On-demand streams automatically increase ingest capacity in response to rising data ingest usage. With On-...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T18:55:00+00:00"
+  },
+  {
+    "title": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager",
+    "description": "Amazon Simple Email Service (SES) now offers a simplified console experience for sending emails over SMTP using Mail Manager. Mail Manager is a capability within SES for managing email flow, but configuring its resources individually to set up SMTP s...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T15:03:00+00:00"
+  },
+  {
+    "title": "Claude Opus 5 is now available on AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws/",
+    "description": "AWS now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level.&nbsp; \nClaud...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T15:00:00+00:00"
+  },
+  {
+    "title": "Opus 4.8, Sonnet 5, and User Activity Monitoring now available on Kiro in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/kiro-opus-sonnet-monitoring-launch-aws-govcloud-us/",
+    "description": "Two new models are now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions.  Claude Opus 4.8 is the most intelligent Opus model, delivering stronger self-verification, more efficient tool calling, and better follow-through on long-hor...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T14:00:00+00:00"
+  },
+  {
+    "title": "AWS announces aws-bench, an open-source benchmark for AI agents on AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-bench/",
+    "description": "Today, AWS announces a research preview of aws-bench, an open-source benchmark that measures how accurately and efficiently AI agents complete real-world AWS tasks. Model providers and AI researchers building agents that operate on AWS infrastructure...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-i8ge-additional-regions/",
+    "description": "Amazon Web Services (AWS) announces the availability of Amazon EC2 I8ge instances in AWS Europe (London) and Canada (Central)&nbsp; regions. I8ge instances are powered by AWS Graviton4 processors and deliver up to 60% better compute performance compa...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T17:00:00+00:00"
+  },
+  {
+    "title": "July 25, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_25_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-25T00:00:00-07:00"
+  },
+  {
+    "title": "July 24, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
+    "description": "Apigee API hub\nFeature\nGeneral availability (GA) launch of Model Context Protocol (MCP) in API hub\nThe API hub MCP server is Generally Available (GA). This release enables seamless integration between your AI agents and API hub, allowing your applica...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-24T00:00:00-07:00"
+  },
+  {
+    "title": "Introducing Claude Opus 5",
+    "link": "https://www.anthropic.com/news/claude-opus-5",
+    "description": "Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price.On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA, Opus 5 is the new st...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-23T16:00:00+00:00"
   }
 ]
