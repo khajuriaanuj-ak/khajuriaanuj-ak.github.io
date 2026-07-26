@@ -358,5 +358,15 @@
     "tailwindScore": 8.0,
     "baseReason": "Unity's established real-time 3D development platform is strategically expanding into enterprise AI governance and optimization with its AI Gateway, addressing critical challenges in multi-model deployment and cost control for AI initiatives. This leverages its extensive developer ecosystem and broadens its reach into enterprise applications.",
     "expertStrategy": "Unity's new AI Gateway positions the company to capture significant value in the rapidly growing enterprise AI software market by offering solutions for AI spend control and intelligent model routing. This diversification strategy expands its revenue opportunities beyond traditional gaming and simulation, providing a sticky, high-value solution for AI operationalization and management across industries. Investors should consider Unity for its strategic pivot into critical AI infrastructure software."
+  },
+  {
+    "name": "Eaton Corporation, PLC",
+    "ticker": "ETN",
+    "category": "infra",
+    "subCategory": "High-Density Data Center Power Management",
+    "moatScore": 8.5,
+    "tailwindScore": 9.0,
+    "baseReason": "Leading provider of critical power infrastructure, intelligent power management systems, and grid integration technologies, essential for the reliable and efficient operation of high-density AI data centers facing unprecedented power demands and grid stability challenges.",
+    "expertStrategy": "Eaton is uniquely positioned to capitalize on the massive infrastructure build-out required for AI data centers. Its comprehensive portfolio, including UPS, PDUs, and advanced energy management software, directly addresses the growing need for robust power resilience and optimized energy efficiency, making it a critical enabler for the AI compute boom."
   }
 ]

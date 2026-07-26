@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-25T14:27:46.275107+00:00",
+  "last_updated": "2026-07-26T14:26:10.855842+00:00",
   "updates": [
     {
       "title": "July 25, 2026",
@@ -15698,6 +15698,22 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "description": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "date": "Jul 26, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "description": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+      "date": "Jul 25, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
       "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
       "description": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
@@ -15728,48 +15744,24 @@ const DASHBOARD_DATA = {
       "date": "Jul 24, 2026",
       "source": "TechCrunch AI",
       "trend": "AI Agents"
-    },
-    {
-      "title": "Anthropic launches Opus 5",
-      "link": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-      "description": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
-      "date": "Jul 24, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-      "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-      "description": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-      "date": "Jul 24, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Regulatory"
     }
   ],
   "sentiments": [
     {
       "company": "NVIDIA",
-      "score": 94,
+      "score": 91,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "As US weighs response to Chinese AI, industry urges against ...",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Anthropic",
-      "score": 91,
+      "score": 88,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Claude Opus 5 is now available on AWS",
-      "mentions": 4
-    },
-    {
-      "company": "Google Cloud",
-      "score": 86,
-      "status": "Bullish",
-      "change": "▲ +1",
-      "reason": "July 25, 2026",
-      "mentions": 2
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Groq",
@@ -15804,6 +15796,14 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
+      "company": "Google Cloud",
+      "score": 80,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
       "company": "Meta",
       "score": 79,
       "status": "Mixed",
@@ -15816,16 +15816,16 @@ const DASHBOARD_DATA = {
       "score": 78,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "Amazon Connect now supports audio optimization for Azure Vir...",
-      "mentions": 1
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Apple",
       "score": 76,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "Introducing Claude Opus 5",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
@@ -15838,7 +15838,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.92,
       "rangePosition": 0.59,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -15849,7 +15849,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.65,
       "rangePosition": 0.597,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -15860,18 +15860,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.03,
       "rangePosition": 0.158,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
       "price": 232.11,
-      "forwardPE": 23.43,
+      "forwardPE": 23.41,
       "trailingPE": 27.76,
       "marketCap": 2496832733184,
       "psRatio": null,
       "dayChange": -0.66,
       "rangePosition": 0.437,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -15882,7 +15882,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.11,
       "rangePosition": 0.898,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -15893,7 +15893,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.93,
       "rangePosition": 0.704,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -15904,7 +15904,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.69,
       "rangePosition": 0.47,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
@@ -15915,7 +15915,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.55,
       "rangePosition": 0.816,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -15926,7 +15926,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.5,
       "rangePosition": 0.657,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -15937,18 +15937,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.48,
       "rangePosition": 0.79,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
       "price": 92.32,
-      "forwardPE": 52.79,
+      "forwardPE": 46.49,
       "trailingPE": null,
       "marketCap": 465662050304,
       "psRatio": null,
       "dayChange": -7.89,
       "rangePosition": 0.595,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -15959,7 +15959,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.42,
       "rangePosition": 0.911,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -15970,7 +15970,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.1,
       "rangePosition": 0.629,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -15981,7 +15981,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.8,
       "rangePosition": 0.271,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -15992,7 +15992,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.65,
       "rangePosition": 0.113,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -16003,7 +16003,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.62,
       "rangePosition": 0.009,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -16014,7 +16014,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.53,
       "rangePosition": 0.985,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -16025,7 +16025,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.36,
       "rangePosition": 0.164,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -16036,7 +16036,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.57,
       "rangePosition": 0.804,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -16047,7 +16047,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.29,
       "rangePosition": 0.136,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -16058,18 +16058,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.21,
       "rangePosition": 0.001,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
       "price": 521.95,
-      "forwardPE": 38.62,
+      "forwardPE": 38.22,
       "trailingPE": 175.15,
       "marketCap": 851091980288,
       "psRatio": null,
       "dayChange": -3.29,
       "rangePosition": 0.856,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -16080,7 +16080,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.88,
       "rangePosition": 0.747,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -16091,7 +16091,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.1,
       "rangePosition": 0.188,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
@@ -16102,7 +16102,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.99,
       "rangePosition": 0.71,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -16113,7 +16113,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.06,
       "rangePosition": 0.677,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -16124,7 +16124,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.06,
       "rangePosition": 0.782,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
@@ -16135,7 +16135,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.68,
       "rangePosition": 0.2,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
@@ -16146,7 +16146,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -8.81,
       "rangePosition": 0.183,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -16157,18 +16157,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "SAP": {
       "name": "SAP  SE",
       "price": 160.0,
-      "forwardPE": 16.42,
+      "forwardPE": 16.47,
       "trailingPE": 22.47,
       "marketCap": 188629172224,
       "psRatio": null,
       "dayChange": 9.3,
       "rangePosition": 0.097,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
@@ -16179,18 +16179,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.91,
       "rangePosition": 0.257,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
       "price": 47.55,
-      "forwardPE": -37.13,
+      "forwardPE": -37.07,
       "trailingPE": null,
       "marketCap": 34044788736,
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.067,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
@@ -16201,7 +16201,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.85,
       "rangePosition": 0.208,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
@@ -16212,7 +16212,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.11,
       "rangePosition": 0.335,
-      "fetchedAt": "2026-07-25 02:27 PM"
+      "fetchedAt": "2026-07-26 02:26 PM"
+    },
+    "ETN": {
+      "name": "Eaton Corporation, PLC",
+      "price": 404.07,
+      "forwardPE": 25.61,
+      "trailingPE": 39.54,
+      "marketCap": 156900376576,
+      "psRatio": null,
+      "dayChange": -2.66,
+      "rangePosition": 0.738,
+      "fetchedAt": "2026-07-26 02:26 PM"
     }
   },
   "stocks_universe": [
@@ -16575,6 +16586,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 8.0,
       "baseReason": "Unity's established real-time 3D development platform is strategically expanding into enterprise AI governance and optimization with its AI Gateway, addressing critical challenges in multi-model deployment and cost control for AI initiatives. This leverages its extensive developer ecosystem and broadens its reach into enterprise applications.",
       "expertStrategy": "Unity's new AI Gateway positions the company to capture significant value in the rapidly growing enterprise AI software market by offering solutions for AI spend control and intelligent model routing. This diversification strategy expands its revenue opportunities beyond traditional gaming and simulation, providing a sticky, high-value solution for AI operationalization and management across industries. Investors should consider Unity for its strategic pivot into critical AI infrastructure software."
+    },
+    {
+      "name": "Eaton Corporation, PLC",
+      "ticker": "ETN",
+      "category": "infra",
+      "subCategory": "High-Density Data Center Power Management",
+      "moatScore": 8.5,
+      "tailwindScore": 9.0,
+      "baseReason": "Leading provider of critical power infrastructure, intelligent power management systems, and grid integration technologies, essential for the reliable and efficient operation of high-density AI data centers facing unprecedented power demands and grid stability challenges.",
+      "expertStrategy": "Eaton is uniquely positioned to capitalize on the massive infrastructure build-out required for AI data centers. Its comprehensive portfolio, including UPS, PDUs, and advanced energy management software, directly addresses the growing need for robust power resilience and optimized energy efficiency, making it a critical enabler for the AI compute boom."
     }
   ]
 };
