@@ -15692,5 +15692,33 @@
     "description": "Claude Opus 5 is available today. It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price.On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA, Opus 5 is the new st...",
     "provider": "Anthropic",
     "timestamp": "2026-07-23T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/",
+    "description": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partn...",
+    "provider": "AWS",
+    "timestamp": "2026-07-27T14:54:41+00:00"
+  },
+  {
+    "title": "July 27, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_27_2026",
+    "description": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports OpenSearch in Preview.\nYou can use the external_search_fdw extension to connect to an OpenSearch cluster and query its data directly from your database.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-27T00:00:00-07:00"
+  },
+  {
+    "title": "July 26, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_26_2026",
+    "description": "Google SecOps\nFeature\nCustomizable schedules for multi-event rules\nCustomizable schedules for multi-event rules are available in public preview. You can customize rule execution schedules on the Rule schedule tab to specify a first-run delay offset t...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-26T00:00:00-07:00"
+  },
+  {
+    "title": "How AI is expanding what people do at work",
+    "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-27T03:30:00+00:00"
   }
 ]
