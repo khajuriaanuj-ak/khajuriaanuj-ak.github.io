@@ -15720,5 +15720,103 @@
     "description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
     "provider": "OpenAI",
     "timestamp": "2026-07-27T03:30:00+00:00"
+  },
+  {
+    "title": "Amazon Neptune now supports tag-based access control for IAM",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/",
+    "description": "Amazon Neptune Database now supports tag-based access control (TBAC) for IAM, enabling customers to use AWS resource tags and IAM principal tags as conditions in IAM policies and Service Control Policies (SCPs) to control access to Neptune data-plane...",
+    "provider": "AWS",
+    "timestamp": "2026-07-27T22:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub MCP App brings exposure findings into your AI-assisted workflow (Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-security-hub-mcp-app/",
+    "description": "AWS announces the preview of the AWS Security Hub MCP App, a local Model Context Protocol (MCP) server that brings your Security Hub exposure findings directly into Claude Desktop.&nbsp;&nbsp;This capability can help accelerates your security investi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-27T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Elemental MediaTailor adds configurable ad timeout and concurrency controls for improved ad fill and faster startup",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/mediatail-configurable-ad-timeout-and-concurrency",
+    "description": "AWS Elemental MediaTailor now gives you direct control over ad decision server (ADS) timeout. Previously, changing these settings required contacting AWS Support. You can now configure individual HTTP ad request timeouts, total ad personalization tim...",
+    "provider": "AWS",
+    "timestamp": "2026-07-27T16:09:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports restoring Transparent Data Encryption (TDE)-enabled SQL Server databases on Multi-AZ instances and instances configured with a read replica in the same region, using native b...",
+    "provider": "AWS",
+    "timestamp": "2026-07-27T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Clean Rooms supports larger worker types up to 32 vCPUs for SQL",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-clean-rooms-32-vcpu-worker-types-sql",
+    "description": "AWS Clean Rooms now supports larger worker types of 32 vCPUs with 244 GB of memory for SQL analyses, allowing you to run more compute and memory-intensive workloads. Previously, the largest worker type available was 16 vCPUs with 120 GB of memory. La...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T12:00:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Claude Opus 5 on Azure Databricks",
+    "link": "https://azure.microsoft.com/updates?id=568316",
+    "description": "Azure Databricks now supports Anthropic Claude Opus 5 through AI Model Serving. Claude Opus 5 is Anthropic's latest model for advanced reasoning, coding, agentic workflows, and professional knowledge work. Claude Opus 5 is designed for complex tasks ...",
+    "provider": "Azure",
+    "timestamp": "2026-07-27T19:41:46+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: HTTP header insertion in Azure Firewall",
+    "link": "https://azure.microsoft.com/updates?id=568115",
+    "description": "Azure Firewall now supports HTTP header insertion, enabling\norganizations to add or overwrite HTTP/HTTPS request\nheaders directly from Azure Firewall application rules. This capability helps\ncustomers enforce security controls, support tenant restric...",
+    "provider": "Azure",
+    "timestamp": "2026-07-27T16:54:36+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: AI Gateway in Azure API Management",
+    "link": "https://azure.microsoft.com/updates?id=568184",
+    "description": "The AI Gateway tier for Azure API Management is now available in public preview. Building on the AI gateway capabilities already available across API Management tiers, the new AI Gateway tier provides a dedicated experience optimized for AI workloads...",
+    "provider": "Azure",
+    "timestamp": "2026-07-27T16:44:29+00:00"
+  },
+  {
+    "title": "Get Started with Genie One: Top AI Cowork Use Cases for Business Users",
+    "link": "https://www.databricks.com/blog/get-started-genie-one-top-ai-cowork-use-cases-business-users",
+    "description": "When most people think of AI helping their everyday work, a simple chatbot that answers...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-28T01:00:00+00:00"
+  },
+  {
+    "title": "The EU Digital Product Passport: a traceability deadline",
+    "link": "https://www.databricks.com/blog/eu-digital-product-passport-traceability-deadline",
+    "description": "Informational only, not legal advice. Confirm all regulatory details against the...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-27T23:00:00+00:00"
+  },
+  {
+    "title": "Building AI Literacy: Frameworks, Tools, and Practices",
+    "link": "https://www.databricks.com/blog/ai-literacy",
+    "description": "AI literacy is an individual's ability to comprehend and effectively utilize AI tools...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-27T08:05:38+00:00"
+  },
+  {
+    "title": "AI Applications in Finance: A Practical Use Case Guide",
+    "link": "https://www.databricks.com/blog/ai-applications-in-finance",
+    "description": "Artificial intelligence in finance refers to the use of machine learning, natural...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-24T18:24:38+00:00"
+  },
+  {
+    "title": "Our position on open-weights models",
+    "link": "https://www.anthropic.com/news/position-open-weights-models",
+    "description": "A post by Dario Amodei, Anthropic CEOOver the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are considering banning the use of Chinese open-weights mode...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-26T16:00:00+00:00"
+  },
+  {
+    "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+    "link": "https://www.anthropic.com/news/cognizant-anthropic",
+    "description": "We're expanding our partnership with Cognizant, one of the world's largest technology services companies.Cognizant uses Claude in the systems it builds and runs for clients across manufacturing, life sciences, insurance, and other industries. With th...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-26T16:00:00+00:00"
   }
 ]

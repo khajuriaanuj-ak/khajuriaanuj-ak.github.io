@@ -368,5 +368,15 @@
     "tailwindScore": 9.0,
     "baseReason": "Leading provider of critical power infrastructure, intelligent power management systems, and grid integration technologies, essential for the reliable and efficient operation of high-density AI data centers facing unprecedented power demands and grid stability challenges.",
     "expertStrategy": "Eaton is uniquely positioned to capitalize on the massive infrastructure build-out required for AI data centers. Its comprehensive portfolio, including UPS, PDUs, and advanced energy management software, directly addresses the growing need for robust power resilience and optimized energy efficiency, making it a critical enabler for the AI compute boom."
+  },
+  {
+    "name": "Cognizant Technology Solutions ",
+    "ticker": "CTSH",
+    "category": "direct",
+    "subCategory": "Enterprise AI Services & Integration",
+    "moatScore": 7.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Leading global technology services company providing critical enterprise AI integration and consulting, leveraging partnerships with top AI model providers to deliver customized solutions across diverse industries.",
+    "expertStrategy": "Cognizant is strategically positioned to capitalize on the accelerating enterprise adoption of AI. As a crucial bridge between advanced AI capabilities (such as Anthropic's Claude Opus 5) and complex business requirements, their deep industry expertise and established client relationships enable efficient scaling of AI implementations. This drives recurring revenue from large-scale transformation projects and ongoing managed AI services, making them a key enabler of AI's enterprise-wide rollout."
   }
 ]
