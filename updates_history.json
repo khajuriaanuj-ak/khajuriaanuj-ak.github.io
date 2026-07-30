@@ -15979,5 +15979,138 @@
     "description": "Release v0.1.9",
     "provider": "Google Antigravity",
     "timestamp": "2026-07-29T14:22:55+00:00"
+  },
+  {
+    "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+    "description": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to execute on separate transactions.  Long polling: L...",
+    "provider": "AWS",
+    "timestamp": "2026-07-29T20:45:00+00:00"
+  },
+  {
+    "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+    "description": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). \nCustomers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons inclu...",
+    "provider": "AWS",
+    "timestamp": "2026-07-29T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+    "description": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching f...",
+    "provider": "AWS",
+    "timestamp": "2026-07-29T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+    "description": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date replica of your file system in the AWS GovCloud (U...",
+    "provider": "AWS",
+    "timestamp": "2026-07-29T12:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
+    "description": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where you first enabled it to additional Regions of your c...",
+    "provider": "AWS",
+    "timestamp": "2026-07-29T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Parallel Computing Service now supports node lifecycle actions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-pcs-node-lifecycle-actions/",
+    "description": "Today, AWS announces the general availability of node lifecycle actions in AWS Parallel Computing Service (PCS). With node lifecycle actions, you can run custom scripts automatically at defined points in a compute node's lifecycle. You can use them t...",
+    "provider": "AWS",
+    "timestamp": "2026-07-23T12:28:00+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
+    "link": "https://azure.microsoft.com/updates?id=568322",
+    "description": "This capability shares telemetry from Azure Monitor Log Analytics workspaces into Microsoft Fabric, making observability data available in OneLake as Delta Parquet, the open format, without duplication and with near real-time availability. All Azure ...",
+    "provider": "Azure",
+    "timestamp": "2026-07-29T18:52:32+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
+    "link": "https://azure.microsoft.com/updates?id=568466",
+    "description": "Azure Sphere OS version 26.09 RC1 is now available for evaluation in the Retail Eval feed. Whilst this release encompasses no customer-facing changes, it represents a major bump in Azure Sphere's underlying Linux kernel version as part of our long-te...",
+    "provider": "Azure",
+    "timestamp": "2026-07-29T18:50:00+00:00"
+  },
+  {
+    "title": "Convert proprietary code to open ANSI SQL with Genie Code",
+    "link": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
+    "description": "Migrating from a legacy data warehouse is a complex undertaking, requiring teams...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-30T01:00:00+00:00"
+  },
+  {
+    "title": "Quality care is the mission. Finance protects the margin.",
+    "link": "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin",
+    "description": "Ask a health system CFO where this year's margin is landing and you will always get a hard-won answer...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T18:59:31+00:00"
+  },
+  {
+    "title": "Energy runs on volatile markets. Finance protects the margin.",
+    "link": "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin",
+    "description": "Ask an energy CFO where this year's margin is landing and you will always get a hard-won answer...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T18:30:00+00:00"
+  },
+  {
+    "title": "Manufacturing runs on capital. Finance protects the margin.",
+    "link": "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin",
+    "description": "Ask a manufacturing CFO where this year's margin is landing and you will always get a hard-won answer...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T18:30:00+00:00"
+  },
+  {
+    "title": "Bringing real-time fraud prevention to government benefits",
+    "link": "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits",
+    "description": "Asked to do the impossibleFraud and improper payments cost federal benefits programs...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T17:45:00+00:00"
+  },
+  {
+    "title": "Agents for production lines: Trusted decisions in real time",
+    "link": "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time",
+    "description": "Executive summary09:14, mid-shift. The filler trips. The line manager has minutes,...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T17:30:00+00:00"
+  },
+  {
+    "title": "How agentic AI can help telecom finance teams protect the margin when every moment matters",
+    "link": "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters",
+    "description": "How preventing revenue leakage became finance's front lineIn telecom, revenue is...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T17:26:32+00:00"
+  },
+  {
+    "title": "The audience is the asset. Media finance teams need to understand them to protect the margin.",
+    "link": "https://www.databricks.com/blog/audience-asset-media-finance-teams-need-understand-them-protect-margin",
+    "description": "Ask a CFO at a media company where this year's margin is landing and you will always get a hard-won answer...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-28T19:03:18+00:00"
+  },
+  {
+    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "description": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-29T15:00:00+00:00"
+  },
+  {
+    "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+    "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+    "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-29T10:00:00+00:00"
+  },
+  {
+    "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+    "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+    "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-29T00:00:00+00:00"
   }
 ]

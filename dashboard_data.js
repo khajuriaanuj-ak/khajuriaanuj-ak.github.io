@@ -1,12 +1,124 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-29T15:30:25.749316+00:00",
+  "last_updated": "2026-07-30T15:06:49.996643+00:00",
   "updates": [
+    {
+      "title": "Convert proprietary code to open ANSI SQL with Genie Code",
+      "link": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
+      "description": "Migrating from a legacy data warehouse is a complex undertaking, requiring teams...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-30T01:00:00+00:00"
+    },
+    {
+      "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/",
+      "description": "Amazon Redshift Data API introduces new capabilities that reduce the number of API calls to retrieve SQL statement metadata or results, provide visibility into sessions, and allow batch statements to execute on separate transactions.  Long polling: L...",
+      "provider": "AWS",
+      "timestamp": "2026-07-29T20:45:00+00:00"
+    },
+    {
+      "title": "Quality care is the mission. Finance protects the margin.",
+      "link": "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin",
+      "description": "Ask a health system CFO where this year's margin is landing and you will always get a hard-won answer...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-29T18:59:31+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
+      "link": "https://azure.microsoft.com/updates?id=568322",
+      "description": "This capability shares telemetry from Azure Monitor Log Analytics workspaces into Microsoft Fabric, making observability data available in OneLake as Delta Parquet, the open format, without duplication and with near real-time availability. All Azure ...",
+      "provider": "Azure",
+      "timestamp": "2026-07-29T18:52:32+00:00"
+    },
+    {
+      "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
+      "link": "https://azure.microsoft.com/updates?id=568466",
+      "description": "Azure Sphere OS version 26.09 RC1 is now available for evaluation in the Retail Eval feed. Whilst this release encompasses no customer-facing changes, it represents a major bump in Azure Sphere's underlying Linux kernel version as part of our long-te...",
+      "provider": "Azure",
+      "timestamp": "2026-07-29T18:50:00+00:00"
+    },
+    {
+      "title": "Energy runs on volatile markets. Finance protects the margin.",
+      "link": "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin",
+      "description": "Ask an energy CFO where this year's margin is landing and you will always get a hard-won answer...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-29T18:30:00+00:00"
+    },
+    {
+      "title": "Manufacturing runs on capital. Finance protects the margin.",
+      "link": "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin",
+      "description": "Ask a manufacturing CFO where this year's margin is landing and you will always get a hard-won answer...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-29T18:30:00+00:00"
+    },
+    {
+      "title": "Bringing real-time fraud prevention to government benefits",
+      "link": "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits",
+      "description": "Asked to do the impossibleFraud and improper payments cost federal benefits programs...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-29T17:45:00+00:00"
+    },
+    {
+      "title": "Agents for production lines: Trusted decisions in real time",
+      "link": "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time",
+      "description": "Executive summary09:14, mid-shift. The filler trips. The line manager has minutes,...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-29T17:30:00+00:00"
+    },
+    {
+      "title": "How agentic AI can help telecom finance teams protect the margin when every moment matters",
+      "link": "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters",
+      "description": "How preventing revenue leakage became finance's front lineIn telecom, revenue is...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-29T17:26:32+00:00"
+    },
+    {
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in GA",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-announces-AWS-interconnect-multicloud-OCI-GA/",
+      "description": "AWS announces the general availability (GA) of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). \nCustomers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons inclu...",
+      "provider": "AWS",
+      "timestamp": "2026-07-29T15:00:00+00:00"
+    },
+    {
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "description": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "provider": "OpenAI",
+      "timestamp": "2026-07-29T15:00:00+00:00"
+    },
     {
       "title": "v0.1.9",
       "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.9",
       "description": "Release v0.1.9",
       "provider": "Google Antigravity",
       "timestamp": "2026-07-29T14:22:55+00:00"
+    },
+    {
+      "title": "Amazon Connect Customer now automatically finds example agent evaluations for tailored coaching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-connect-customer-example-evaluations-for-agent-coaching/",
+      "description": "Amazon Connect Customer now automatically surfaces relevant examples of an agent's evaluations when managers are preparing coaching feedback, so they can deliver actionable, evidence-backed coaching to agents. When a manager prepares agent coaching f...",
+      "provider": "AWS",
+      "timestamp": "2026-07-29T14:00:00+00:00"
+    },
+    {
+      "title": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-efs-cross-account-replication-aws-gov-cloud-us",
+      "description": "Amazon EFS now supports cross-account Replication in AWS GovCloud (US), allowing customers to replicate file systems between AWS accounts. EFS Replication enables you to easily maintain an up-to-date replica of your file system in the AWS GovCloud (U...",
+      "provider": "AWS",
+      "timestamp": "2026-07-29T12:00:00+00:00"
+    },
+    {
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "provider": "OpenAI",
+      "timestamp": "2026-07-29T10:00:00+00:00"
+    },
+    {
+      "title": "AWS IAM Identity Center extends multi-Region support to Identity Center directory",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-iam-identity-center-extends-multi-region-support-to-identity-center-directory",
+      "description": "IAM Identity Center helps you configure the single sign-on experience of your workforce to AWS accounts and applications. You can now replicate IAM Identity Center from the primary AWS Region where you first enabled it to additional Regions of your c...",
+      "provider": "AWS",
+      "timestamp": "2026-07-29T07:00:00+00:00"
     },
     {
       "title": "July 29, 2026",
@@ -16,11 +128,25 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-07-29T00:00:00-07:00"
     },
     {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "provider": "OpenAI",
+      "timestamp": "2026-07-29T00:00:00+00:00"
+    },
+    {
       "title": "How NorthStar Anesthesia built a scheduling app for a workforce of 3,000 clinicians in weeks",
       "link": "https://www.databricks.com/blog/how-northstar-anesthesia-built-scheduling-app-workforce-3000-clinicians-weeks",
       "description": "IntroductionNorthStar Anesthesia manages anesthesia staffing services across 25+ U.S...",
       "provider": "Databricks",
       "timestamp": "2026-07-28T22:09:00+00:00"
+    },
+    {
+      "title": "The audience is the asset. Media finance teams need to understand them to protect the margin.",
+      "link": "https://www.databricks.com/blog/audience-asset-media-finance-teams-need-understand-them-protect-margin",
+      "description": "Ask a CFO at a media company where this year's margin is landing and you will always get a hard-won answer...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-28T19:03:18+00:00"
     },
     {
       "title": "[In preview] Public Preview: Azure Enclave",
@@ -483,6 +609,13 @@ const DASHBOARD_DATA = {
       "description": "Today, we're announcing AI Spend Controls in Unity AI Gateway. This release extends...",
       "provider": "Databricks",
       "timestamp": "2026-07-23T14:04:00+00:00"
+    },
+    {
+      "title": "AWS Parallel Computing Service now supports node lifecycle actions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-pcs-node-lifecycle-actions/",
+      "description": "Today, AWS announces the general availability of node lifecycle actions in AWS Parallel Computing Service (PCS). With node lifecycle actions, you can run custom scripts automatically at defined points in a compute node's lifecycle. You can use them t...",
+      "provider": "AWS",
+      "timestamp": "2026-07-23T12:28:00+00:00"
     },
     {
       "title": "AWS Wickr announces Data Retention Service feature",
@@ -15985,85 +16118,77 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
-      "link": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
-      "description": "The startup analyzes calls, messages and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.",
-      "date": "Jul 29, 2026",
+      "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
+      "link": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
+      "description": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against HuggingFace has nothing to do with AI, but traditional cybersecurity defense.",
+      "date": "Jul 30, 2026",
       "source": "TechCrunch AI",
-      "trend": "AI Agents"
+      "trend": "AI Security"
     },
     {
-      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
-      "link": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
-      "description": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
-      "date": "Jul 29, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-      "link": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-      "description": "The deal is Cyera's third acquisition this year.",
-      "date": "Jul 29, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Agents"
-    },
-    {
-      "title": "Bot-detection startup Spur nabs $200M from Insight",
-      "link": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
-      "description": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.",
-      "date": "Jul 28, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
-      "link": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
-      "description": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP  gateway product and then opted to build one itself.",
-      "date": "Jul 28, 2026",
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+      "link": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "description": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
+      "date": "Jul 30, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "Sam Altman is ready to decelerate",
-      "link": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
-      "description": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
-      "date": "Jul 28, 2026",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "link": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+      "description": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "date": "Jul 30, 2026",
       "source": "TechCrunch AI",
-      "trend": "AI Security"
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+      "description": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+      "date": "Jul 30, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+      "link": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+      "description": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
+      "date": "Jul 29, 2026",
+      "source": "TechCrunch AI",
+      "trend": "AI Agents"
+    },
+    {
+      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+      "description": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
+      "date": "Jul 29, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
     }
   ],
   "sentiments": [
     {
       "company": "NVIDIA",
-      "score": 94,
-      "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "[In preview] Public Preview: Prepared Image Specification",
-      "mentions": 1
-    },
-    {
-      "company": "Anthropic",
-      "score": 88,
+      "score": 91,
       "status": "Bullish",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
     },
     {
-      "company": "Microsoft",
-      "score": 87,
-      "status": "Bullish",
-      "change": "▼ -1",
-      "reason": "AWS DataSync Enhanced mode adds HDFS, Azure Blob, and object...",
-      "mentions": 5
-    },
-    {
-      "company": "Databricks",
-      "score": 87,
+      "company": "Anthropic",
+      "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "How NorthStar Anesthesia built a scheduling app for a workfo...",
+      "reason": "Microsoft is openly competing with OpenAI, Anthropic more th...",
+      "mentions": 2
+    },
+    {
+      "company": "OpenAI",
+      "score": 88,
+      "status": "Bullish",
+      "change": "▲ +2",
+      "reason": "How enabling two settings tripled our scores on the ARC-AGI-...",
       "mentions": 6
     },
     {
@@ -16075,12 +16200,12 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "OpenAI",
-      "score": 82,
+      "company": "Microsoft",
+      "score": 81,
       "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "Scientific computing in the age of agentic AI",
-      "mentions": 1
+      "change": "▼ -2",
+      "reason": "[In preview] Public Preview: Azure Monitor Logs mirroring in...",
+      "mentions": 4
     },
     {
       "company": "Snowflake",
@@ -16095,345 +16220,353 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "July 29, 2026",
-      "mentions": 2
-    },
-    {
-      "company": "Meta",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
     },
     {
       "company": "Apple",
-      "score": 76,
+      "score": 79,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "AI customer service: strategy, agents, and solutions guide",
-      "mentions": 3
+      "change": "▲ +2",
+      "reason": "How GPT-5.6 fuses frontier intelligence with frontier effici...",
+      "mentions": 1
+    },
+    {
+      "company": "Databricks",
+      "score": 75,
+      "status": "Mixed",
+      "change": "▼ -2",
+      "reason": "Convert proprietary code to open ANSI SQL with Genie Code",
+      "mentions": 8
+    },
+    {
+      "company": "Meta",
+      "score": 73,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Amazon Redshift Data API announces long polling, session man...",
+      "mentions": 2
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 192.27,
-      "forwardPE": 14.94,
-      "trailingPE": 29.4,
-      "marketCap": 4656971907072,
+      "price": 194.87,
+      "forwardPE": 15.14,
+      "trailingPE": 29.8,
+      "marketCap": 4719946235904,
       "psRatio": null,
-      "dayChange": -2.41,
-      "rangePosition": 0.389,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 2.56,
+      "rangePosition": 0.425,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 333.74,
-      "forwardPE": 22.67,
-      "trailingPE": 16.75,
-      "marketCap": 4081618518016,
+      "price": 332.7,
+      "forwardPE": 22.59,
+      "trailingPE": 16.69,
+      "marketCap": 4068899553280,
       "psRatio": null,
-      "dayChange": 0.01,
-      "rangePosition": 0.661,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -1.19,
+      "rangePosition": 0.656,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 394.54,
-      "forwardPE": 20.36,
-      "trailingPE": 23.48,
-      "marketCap": 2930814746624,
+      "price": 444.54,
+      "forwardPE": 19.56,
+      "trailingPE": 26.65,
+      "marketCap": 3302236618752,
       "psRatio": null,
-      "dayChange": 0.3,
-      "rangePosition": 0.22,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 13.83,
+      "rangePosition": 0.462,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 228.03,
-      "forwardPE": 22.98,
-      "trailingPE": 27.28,
-      "marketCap": 2452889796608,
+      "price": 237.25,
+      "forwardPE": 23.89,
+      "trailingPE": 28.38,
+      "marketCap": 2552124407808,
       "psRatio": null,
-      "dayChange": -1.23,
-      "rangePosition": 0.388,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 4.68,
+      "rangePosition": 0.5,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 280.03,
-      "forwardPE": 104.03,
+      "price": 288.97,
+      "forwardPE": 107.35,
       "trailingPE": null,
-      "marketCap": 97058398208,
+      "marketCap": 100157005824,
       "psRatio": null,
-      "dayChange": 3.58,
-      "rangePosition": 0.943,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 2.15,
+      "rangePosition": 0.974,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 376.69,
-      "forwardPE": 17.46,
-      "trailingPE": 33.1,
-      "marketCap": 1953666957312,
+      "price": 399.89,
+      "forwardPE": 18.51,
+      "trailingPE": 35.11,
+      "marketCap": 2074019102720,
       "psRatio": null,
-      "dayChange": -3.98,
-      "rangePosition": 0.599,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 6.73,
+      "rangePosition": 0.69,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 372.24,
-      "forwardPE": 19.08,
-      "trailingPE": 61.83,
-      "marketCap": 1770948395008,
+      "price": 384.39,
+      "forwardPE": 19.69,
+      "trailingPE": 64.07,
+      "marketCap": 1828790075392,
       "psRatio": null,
-      "dayChange": -2.28,
-      "rangePosition": 0.425,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 3.8,
+      "rangePosition": 0.482,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1547.08,
-      "forwardPE": 26.73,
-      "trailingPE": 53.4,
-      "marketCap": 594233393152,
+      "price": 1662.52,
+      "forwardPE": 28.58,
+      "trailingPE": 57.65,
+      "marketCap": 638573936640,
       "psRatio": null,
-      "dayChange": -2.27,
-      "rangePosition": 0.656,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 7.21,
+      "rangePosition": 0.744,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 231.51,
-      "forwardPE": 26.22,
-      "trailingPE": 58.02,
-      "marketCap": 88925028352,
+      "price": 231.93,
+      "forwardPE": 25.83,
+      "trailingPE": 52.47,
+      "marketCap": 89086353408,
       "psRatio": null,
-      "dayChange": -14.12,
-      "rangePosition": 0.432,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 3.99,
+      "rangePosition": 0.433,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 161.69,
-      "forwardPE": 36.19,
-      "trailingPE": 55.76,
-      "marketCap": 203595104256,
+      "price": 170.34,
+      "forwardPE": 38.13,
+      "trailingPE": 58.54,
+      "marketCap": 214493216768,
       "psRatio": null,
-      "dayChange": -4.73,
-      "rangePosition": 0.626,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 7.83,
+      "rangePosition": 0.741,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 83.16,
-      "forwardPE": 40.86,
+      "price": 93.12,
+      "forwardPE": 45.76,
       "trailingPE": null,
-      "marketCap": 419433807872,
+      "marketCap": 469683142656,
       "psRatio": null,
-      "dayChange": -3.64,
-      "rangePosition": 0.52,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 13.72,
+      "rangePosition": 0.601,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 373.95,
-      "forwardPE": 17.11,
-      "trailingPE": 29.8,
-      "marketCap": 241624956928,
+      "price": 410.84,
+      "forwardPE": 18.8,
+      "trailingPE": 790.08,
+      "marketCap": 265461137408,
       "psRatio": null,
-      "dayChange": -4.63,
-      "rangePosition": 0.734,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 11.15,
+      "rangePosition": 0.837,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 44.99,
-      "forwardPE": 11.23,
-      "trailingPE": 42.05,
-      "marketCap": 59575918592,
+      "price": 46.85,
+      "forwardPE": 11.69,
+      "trailingPE": 43.79,
+      "marketCap": 62038933504,
       "psRatio": null,
-      "dayChange": -1.32,
-      "rangePosition": 0.568,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 5.42,
+      "rangePosition": 0.61,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 590.85,
-      "forwardPE": 15.96,
-      "trailingPE": 21.51,
-      "marketCap": 1499835269120,
+      "price": 538.71,
+      "forwardPE": 14.71,
+      "trailingPE": 19.87,
+      "marketCap": 1367467753472,
       "psRatio": null,
-      "dayChange": -0.43,
-      "rangePosition": 0.256,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -8.01,
+      "rangePosition": 0.067,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 225.8,
-      "forwardPE": 17.14,
-      "trailingPE": 20.05,
-      "marketCap": 212733952000,
+      "price": 220.37,
+      "forwardPE": 16.73,
+      "trailingPE": 19.59,
+      "marketCap": 207618146304,
       "psRatio": null,
-      "dayChange": -0.77,
-      "rangePosition": 0.2,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -2.68,
+      "rangePosition": 0.159,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 3.02,
-      "forwardPE": 3.54,
+      "price": 2.85,
+      "forwardPE": 3.34,
       "trailingPE": null,
-      "marketCap": 159585008,
+      "marketCap": 150601728,
       "psRatio": null,
-      "dayChange": 4.14,
-      "rangePosition": 0.038,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -8.95,
+      "rangePosition": 0.024,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 339.94,
-      "forwardPE": 35.2,
-      "trailingPE": 41.15,
-      "marketCap": 4992819789824,
+      "price": 331.9,
+      "forwardPE": 34.37,
+      "trailingPE": 40.23,
+      "marketCap": 4874733355008,
       "psRatio": null,
-      "dayChange": -0.04,
-      "rangePosition": 0.974,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -1.86,
+      "rangePosition": 0.911,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 124.48,
-      "forwardPE": 59.43,
-      "trailingPE": 139.87,
-      "marketCap": 298417389568,
+      "price": 121.28,
+      "forwardPE": 57.91,
+      "trailingPE": 136.28,
+      "marketCap": 290758000640,
       "psRatio": null,
-      "dayChange": 0.77,
-      "rangePosition": 0.179,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -1.39,
+      "rangePosition": 0.147,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 314.45,
-      "forwardPE": 76.23,
-      "trailingPE": 273.43,
-      "marketCap": 256276758528,
+      "price": 318.5,
+      "forwardPE": 77.21,
+      "trailingPE": 274.56,
+      "marketCap": 259573415936,
       "psRatio": null,
-      "dayChange": -1.43,
-      "rangePosition": 0.763,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 1.38,
+      "rangePosition": 0.781,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 187.0,
-      "forwardPE": 12.05,
-      "trailingPE": 21.69,
-      "marketCap": 153152995328,
+      "price": 177.31,
+      "forwardPE": 11.43,
+      "trailingPE": 20.55,
+      "marketCap": 145220993024,
       "psRatio": null,
-      "dayChange": 3.03,
-      "rangePosition": 0.331,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -5.87,
+      "rangePosition": 0.252,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 117.31,
-      "forwardPE": 10.77,
-      "trailingPE": 20.12,
-      "marketCap": 337893654528,
+      "price": 126.04,
+      "forwardPE": 11.57,
+      "trailingPE": 21.62,
+      "marketCap": 363054858240,
       "psRatio": null,
-      "dayChange": -2.21,
-      "rangePosition": 0.012,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 7.05,
+      "rangePosition": 0.05,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 430.38,
-      "forwardPE": 31.24,
-      "trailingPE": 143.46,
-      "marketCap": 701783080960,
+      "price": 488.54,
+      "forwardPE": 35.46,
+      "trailingPE": 162.31,
+      "marketCap": 796613607424,
       "psRatio": null,
-      "dayChange": -5.33,
-      "rangePosition": 0.646,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 13.73,
+      "rangePosition": 0.779,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
-      "price": 172.91,
+      "price": 172.97,
       "forwardPE": 17.58,
-      "trailingPE": 27.23,
-      "marketCap": 33876514816,
+      "trailingPE": 27.2,
+      "marketCap": 33888268288,
       "psRatio": null,
-      "dayChange": -0.93,
-      "rangePosition": 0.799,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -0.15,
+      "rangePosition": 0.8,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
-      "price": 262.6,
-      "forwardPE": 9.55,
-      "trailingPE": 15.01,
-      "marketCap": 104383504384,
+      "price": 244.3,
+      "forwardPE": 8.89,
+      "trailingPE": 13.97,
+      "marketCap": 97109254144,
       "psRatio": null,
-      "dayChange": 5.39,
-      "rangePosition": 0.401,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -7.26,
+      "rangePosition": 0.3,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
-      "price": 780.47,
-      "forwardPE": 5.08,
-      "trailingPE": 17.65,
-      "marketCap": 881457430528,
+      "price": 850.16,
+      "forwardPE": 5.53,
+      "trailingPE": 19.2,
+      "marketCap": 960164855808,
       "psRatio": null,
-      "dayChange": -4.88,
-      "rangePosition": 0.588,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 15.04,
+      "rangePosition": 0.648,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
-      "price": 28.4,
-      "forwardPE": 9.44,
-      "trailingPE": 10.52,
-      "marketCap": 25972443136,
+      "price": 26.39,
+      "forwardPE": 8.77,
+      "trailingPE": 9.74,
+      "marketCap": 24138827776,
       "psRatio": null,
-      "dayChange": 0.39,
-      "rangePosition": 0.897,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -7.09,
+      "rangePosition": 0.731,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
-      "price": 264.67,
-      "forwardPE": 167.31,
+      "price": 282.04,
+      "forwardPE": 178.28,
       "trailingPE": null,
-      "marketCap": 93941858304,
+      "marketCap": 100105379840,
       "psRatio": null,
-      "dayChange": 0.22,
-      "rangePosition": 0.801,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 4.31,
+      "rangePosition": 0.932,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
-      "price": 114.91,
-      "forwardPE": 12.7,
-      "trailingPE": 17.68,
-      "marketCap": 275412582400,
+      "price": 114.49,
+      "forwardPE": 12.67,
+      "trailingPE": 17.61,
+      "marketCap": 274417893376,
       "psRatio": null,
-      "dayChange": -0.25,
-      "rangePosition": 0.228,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -0.47,
+      "rangePosition": 0.223,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
-      "price": 128.53,
-      "forwardPE": 3.18,
-      "trailingPE": 17.75,
-      "marketCap": 912357261312,
+      "price": 145.48,
+      "forwardPE": 4.37,
+      "trailingPE": 20.21,
+      "marketCap": 1032696823808,
       "psRatio": null,
-      "dayChange": -1.26,
-      "rangePosition": 0.015,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 14.74,
+      "rangePosition": 0.295,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -16444,84 +16577,84 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "SAP": {
       "name": "SAP  SE",
-      "price": 185.5,
-      "forwardPE": 19.32,
-      "trailingPE": 24.38,
-      "marketCap": 214104899584,
+      "price": 178.8,
+      "forwardPE": 18.63,
+      "trailingPE": 23.5,
+      "marketCap": 206371733504,
       "psRatio": null,
-      "dayChange": 3.53,
-      "rangePosition": 0.262,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -3.87,
+      "rangePosition": 0.219,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
-      "price": 104.93,
-      "forwardPE": 12.21,
+      "price": 104.56,
+      "forwardPE": 12.18,
       "trailingPE": null,
-      "marketCap": 35590844416,
+      "marketCap": 35467038720,
       "psRatio": null,
-      "dayChange": 0.01,
-      "rangePosition": 0.252,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -0.67,
+      "rangePosition": 0.247,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
-      "price": 48.99,
-      "forwardPE": -38.2,
+      "price": 48.14,
+      "forwardPE": -37.88,
       "trailingPE": null,
-      "marketCap": 35075801088,
+      "marketCap": 34466570240,
       "psRatio": null,
-      "dayChange": -1.03,
-      "rangePosition": 0.08,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -3.97,
+      "rangePosition": 0.072,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
-      "price": 194.4,
-      "forwardPE": 25.03,
-      "trailingPE": 92.13,
-      "marketCap": 84703715328,
+      "price": 191.07,
+      "forwardPE": 24.6,
+      "trailingPE": 90.55,
+      "marketCap": 83252781056,
       "psRatio": null,
-      "dayChange": -0.57,
-      "rangePosition": 0.359,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -1.27,
+      "rangePosition": 0.336,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
-      "price": 31.39,
-      "forwardPE": 23.85,
+      "price": 32.33,
+      "forwardPE": 24.57,
       "trailingPE": null,
-      "marketCap": 13700651008,
+      "marketCap": 14113177600,
       "psRatio": null,
-      "dayChange": -1.4,
-      "rangePosition": 0.413,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 0.91,
+      "rangePosition": 0.44,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
-      "price": 363.38,
-      "forwardPE": 23.03,
-      "trailingPE": 35.49,
-      "marketCap": 141098516480,
+      "price": 382.95,
+      "forwardPE": 24.27,
+      "trailingPE": 37.51,
+      "marketCap": 148699496448,
       "psRatio": null,
-      "dayChange": -5.92,
-      "rangePosition": 0.412,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": 5.82,
+      "rangePosition": 0.569,
+      "fetchedAt": "2026-07-30 03:06 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
-      "price": 55.51,
-      "forwardPE": 8.97,
-      "trailingPE": 12.04,
-      "marketCap": 26253864960,
+      "price": 52.35,
+      "forwardPE": 8.34,
+      "trailingPE": 11.23,
+      "marketCap": 24761548800,
       "psRatio": null,
-      "dayChange": 10.33,
-      "rangePosition": 0.369,
-      "fetchedAt": "2026-07-29 03:30 PM"
+      "dayChange": -6.47,
+      "rangePosition": 0.306,
+      "fetchedAt": "2026-07-30 03:06 PM"
     }
   },
   "stocks_universe": [
