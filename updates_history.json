@@ -16112,5 +16112,173 @@
     "description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
     "provider": "OpenAI",
     "timestamp": "2026-07-29T00:00:00+00:00"
+  },
+  {
+    "title": "AWS CodeDeploy now available in five additional AWS regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
+    "description": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeploy is a fully managed deployment service that autom...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T10:54:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track",
+    "description": "Amazon Redshift now supports Graviton-based RG instances on the trailing track.&nbsp;Starting today, rg.large and rg.12xlarge instance types are available for customers running workloads on the trailing track on patch P202 and onwards.  The trailing ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T20:02:00+00:00"
+  },
+  {
+    "title": "IAM Policy Simulator moves to the IAM console and adds additional capabilities",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/iam-policy-simulator-iam-console/",
+    "description": "AWS Identity and Access Management (IAM) announces a major update to IAM Policy Simulator, the tool you use to test and validate the permissions your IAM policies grant before you deploy them. This update changes the simulator in three ways: it now l...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T17:43:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/",
+    "description": "Today, OpenAI announced lower prices for GPT‑5.6 Luna and GPT‑5.6 Terra. Effective July 30, 2026, on-demand inference prices on Amazon Bedrock for GPT‑5.6 Luna are reduced by 80%, while prices for GPT‑5.6 Terra are reduced by 20%. These reductions ar...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T16:18:00+00:00"
+  },
+  {
+    "title": "AWS announces general availability of Policy-Based Routing on AWS Transit Gateway",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-transit-gateway-policy-based-routing/",
+    "description": "AWS Transit Gateway now supports Policy-Based Routing (PBR), giving network administrators granular control over how traffic is forwarded across their AWS network. With PBR, forwarding decisions can be based on a combination of packet attributes incl...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T15:39:00+00:00"
+  },
+  {
+    "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg",
+    "description": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg, a new capability that continuously materializes Apache Kafka topics as Apache Iceberg tables on Amazon S3 Tables. Amazon MSK data delivery to streaming tables can red...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T14:07:00+00:00"
+  },
+  {
+    "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/",
+    "description": "xAI's Grok 4.3 model is now available on Amazon Bedrock in AWS GovCloud (US-West). With this launch, xAI joins Amazon Bedrock as a model provider in AWS GovCloud (US-West), giving you even more choice as you build generative AI applications across re...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T13:00:00+00:00"
+  },
+  {
+    "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/",
+    "description": "The Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock in AWS GovCloud (US-West). With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering workflows....",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service now supports OpenSearch version 3.7",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-opensearch-service/",
+    "description": "You can now run OpenSearch version 3.7 on Amazon OpenSearch Service. OpenSearch 3.7 introduces improvements in vector search performance, search relevance, and Query Insights. \nWith this launch, 1-bit scalar quantization on the Faiss and Lucene engin...",
+    "provider": "AWS",
+    "timestamp": "2026-07-30T02:30:15+00:00"
+  },
+  {
+    "title": "AWS HealthLake identifies and links duplicate patient, provider, and organization records (Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-healthlake/",
+    "description": "Duplicate patient records are one of the costliest problems in healthcare data management, scattering a patient's information, leading to redundant tests, missed diagnoses, billing errors, manual reconciliation, and broken analytics that count one pa...",
+    "provider": "AWS",
+    "timestamp": "2026-07-24T21:00:00+00:00"
+  },
+  {
+    "title": "July 30, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
+    "description": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.\nFeature\nYou can audit when users download query resul...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-30T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
+    "link": "https://azure.microsoft.com/updates?id=568334",
+    "description": "Now you can deploy Azure Database for PostgreSQL flexible server in the India South Central Azure region.   Learn more.",
+    "provider": "Azure",
+    "timestamp": "2026-07-30T19:14:44+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
+    "link": "https://azure.microsoft.com/updates?id=568102",
+    "description": "Azure Automation is pleased to announce: General Availability of in-support PowerShell 7.6  runbooksRuntime Environment GA, enabling customers to seamlessly upgrade their outdated scripts to supported runtime versions.  Support for Azure CLI commands...",
+    "provider": "Azure",
+    "timestamp": "2026-07-30T19:10:35+00:00"
+  },
+  {
+    "title": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting February 1, 2027",
+    "link": "https://azure.microsoft.com/updates?id=568514",
+    "description": "Starting February 1, 2027, Azure reservations exchanges will no longer be available for services covered by savings plans.  At the time of this announcement, this includes reservations for the following services:    Compute services: Azure Virtual Ma...",
+    "provider": "Azure",
+    "timestamp": "2026-07-30T19:03:21+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Symmetric keys on Azure Key Vault Premium",
+    "link": "https://azure.microsoft.com/updates?id=566746",
+    "description": "We’re announcing symmetric\nkeys on Azure Key Vault Premium are now available in public preview. This preview enables\ncustomers and partners to evaluate symmetric encryption capabilities using the oct-HSM\nkey type and the Advanced Encryption Standard ...",
+    "provider": "Azure",
+    "timestamp": "2026-07-30T18:57:18+00:00"
+  },
+  {
+    "title": "Foundations for an AI-forward healthcare organization",
+    "link": "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization",
+    "description": "The challenge for healthcare executives adopting AI is the noise when trying to advance an initiative...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-30T19:30:00+00:00"
+  },
+  {
+    "title": "Agentic media buying cannot scale without the right foundation. See how buyers and sellers get there on Databricks.",
+    "link": "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get",
+    "description": "The bottleneck in media buying today isn't talent, it's coordinationEvery day, billions...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-30T19:10:00+00:00"
+  },
+  {
+    "title": "NBCUniversal’s Seamless Migration: Unlocking Scalable Analytics with Databricks",
+    "link": "https://www.databricks.com/blog/nbcuniversals-seamless-migration-unlocking-scalable-analytics-databricks",
+    "description": "As one of the world's leading media and entertainment companies, NBCUniversal relies...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-29T20:35:57+00:00"
+  },
+  {
+    "title": "Advancing responsible AI across Europe",
+    "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "description": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-31T15:00:00+00:00"
+  },
+  {
+    "title": "Building abundant intelligence",
+    "link": "https://openai.com/index/building-abundant-intelligence",
+    "description": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-31T15:00:00+00:00"
+  },
+  {
+    "title": "Univé builds an AI-ready workforce",
+    "link": "https://openai.com/index/unive",
+    "description": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-31T07:00:00+00:00"
+  },
+  {
+    "title": "Advancing the price-performance frontier with GPT-5.6",
+    "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "description": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-30T10:00:00+00:00"
+  },
+  {
+    "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "link": "https://openai.com/index/avatarin",
+    "description": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-30T00:00:00+00:00"
+  },
+  {
+    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "description": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real...",
+    "provider": "Anthropic",
+    "timestamp": "2026-07-29T16:00:00+00:00"
   }
 ]
