@@ -1,6 +1,55 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-07-31T15:14:27.477844+00:00",
+  "last_updated": "2026-08-01T14:23:58.771422+00:00",
   "updates": [
+    {
+      "title": "August 01, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
+      "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+      "provider": "Google Cloud",
+      "timestamp": "2026-08-01T00:00:00-07:00"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://openai.com/index/ten-advances-in-mathematics",
+      "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "provider": "OpenAI",
+      "timestamp": "2026-08-01T00:00:00+00:00"
+    },
+    {
+      "title": "[Launched] Generally Available: Single-click purchase for public SaaS offers",
+      "link": "https://azure.microsoft.com/updates?id=568591",
+      "description": "Eligible SaaS products on Microsoft Marketplace now support a simplified purchase experience in Azure portal. Customers can review plan, billing, resource group, contact details, and terms information on a single page for completing the purchase. Thi...",
+      "provider": "Azure",
+      "timestamp": "2026-07-31T22:32:52+00:00"
+    },
+    {
+      "title": "Backstage with Lakebase, part 3",
+      "link": "https://www.databricks.com/blog/backstage-lakebase-part-3",
+      "description": "In the first part of this series, running&nbsp;Backstage on Databricks Lakebase gave us...",
+      "provider": "Databricks",
+      "timestamp": "2026-07-31T22:21:47+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Route-Maps for Azure Route Server",
+      "link": "https://azure.microsoft.com/updates?id=568631",
+      "description": "Route maps for Azure Route Server are now available in\npublic preview, providing fine-grained control over inbound and outbound routing\nacross hybrid connections. Customers can manage routes advertised to and from\nAzure Route Server BGP peerings with...",
+      "provider": "Azure",
+      "timestamp": "2026-07-31T20:48:35+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure SQL updates for late-July",
+      "link": "https://azure.microsoft.com/updates?id=568139",
+      "description": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive data like emails, phone numbers, and identifiers—centr...",
+      "provider": "Azure",
+      "timestamp": "2026-07-31T18:16:23+00:00"
+    },
+    {
+      "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+      "description": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and&nbsp;Asia Pacific (Singapore). Aurora DSQL is the fastest serverless, distributed SQL dat...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T18:00:00+00:00"
+    },
     {
       "title": "Advancing responsible AI across Europe",
       "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
@@ -16,6 +65,27 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-07-31T15:00:00+00:00"
     },
     {
+      "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+      "description": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T15:00:00+00:00"
+    },
+    {
+      "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+      "description": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate fr...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T14:00:00+00:00"
+    },
+    {
+      "title": "Amazon CloudWatch announces managed Prometheus collectors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
+      "description": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and Amazon OpenSearch Service workloads without deployi...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T13:06:00+00:00"
+    },
+    {
       "title": "AWS CodeDeploy now available in five additional AWS regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-codedeploy-five-additional-regions",
       "description": "AWS CodeDeploy is now available in five additional AWS Regions: Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Taipei), Asia Pacific (Malaysia), and Mexico (Central). AWS CodeDeploy is a fully managed deployment service that autom...",
@@ -28,6 +98,27 @@ const DASHBOARD_DATA = {
       "description": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "provider": "OpenAI",
       "timestamp": "2026-07-31T07:00:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 C7i-flex instances now available in Europe (Milan) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-flex-instances-MXP-region/",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) region. These custom processors, available only on AWS,...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T00:21:00+00:00"
+    },
+    {
+      "title": "Amazon EC2 C7i instances now available in additional regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-instances-mxp-yyc-region/",
+      "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) and Canada West (Calgary) regions. These custom processors, ...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T00:17:00+00:00"
+    },
+    {
+      "title": "Disrupting a Criminal Scam Operation",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "description": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "provider": "OpenAI",
+      "timestamp": "2026-07-31T00:00:00+00:00"
     },
     {
       "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
@@ -7100,6 +7191,20 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-06-01T00:00:00-07:00"
     },
     {
+      "title": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs",
+      "description": "OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon",
+      "description": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.",
+      "provider": "OpenAI",
+      "timestamp": "2026-06-01T00:00:00+00:00"
+    },
+    {
       "title": "Anthropic confidentially submits draft S-1 to the SEC",
       "link": "https://www.anthropic.com/news/confidential-draft-s1-sec",
       "description": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC c...",
@@ -11874,6 +11979,55 @@ const DASHBOARD_DATA = {
       "timestamp": "2025-10-01T03:00:00+00:00"
     },
     {
+      "title": "Operation “Nine–emdash Line”: Regional influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line",
+      "description": "OpenAI banned accounts linked to a previously unreprorted PRC-origin operation we dubbed \"Nine-emdash Line\", using AI to create regional influence content about the South China Sea, Hong Kong, and US politics.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Stop News”: Recidivist influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025",
+      "description": "OpenAI banned accounts linked to a Russia-origin operation we dubbed “Stop News”, using AI to generate recidivist influence content targeting Africa and the UK.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "PRC-linked abuse: Surveillance and influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse",
+      "description": "OpenAI banned PRC-linked accounts using AI to support surveillance-related planning, targeted profiling, and research on critics and other individuals.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Cyber Operation: Korean-language malware support",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support",
+      "description": "OpenAI banned Korean-language accounts using AI for malware development support, debugging, phishing, and credential-theft workflows.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Cyber Operation: Phishing and scripting support",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support",
+      "description": "OpenAI banned accounts involved in activity that overlapped with publicly reported threat groups and displayed hallmarks consistent with PRC intelligence requirements, using AI to support phishing and scripting workflows.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Cyber Operation: Russian-speaking malware tooling",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling",
+      "description": "OpenAI banned accounts likely linked to Russian-speaking criminal groups, using AI to build malware loaders, evasion layers, credential-theft scripts, and C2 infrastructure.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Scam operations: Online fraud networks",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations",
+      "description": "OpenAI banned accounts tied to online fraud networks using AI to support scam scripts, impersonation, translation, and victim engagement.",
+      "provider": "OpenAI",
+      "timestamp": "2025-10-01T00:00:00+00:00"
+    },
+    {
       "title": "Sora 2 is here",
       "link": "https://openai.com/index/sora-2",
       "description": "Our latest video generation model is more physically accurate, realistic, and controllable than prior systems. It also features synchronized dialogue and sound effects. Create with it in the new Sora app.",
@@ -12574,6 +12728,76 @@ const DASHBOARD_DATA = {
       "timestamp": "2025-06-05T02:00:00+00:00"
     },
     {
+      "title": "Operation “Sneer Review”: China-origin influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review",
+      "description": "OpenAI banned accounts using AI to generate posts criticizing a Taiwanese social media influencer and related US topics.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Wrong Number”: AI-assisted task scam",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number",
+      "description": "OpenAI banned accounts that likely originated in Cambodia and used AI to support scam workflows targeting people in the UK.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "STORM-2035: Recidivist influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025",
+      "description": "OpenAI banned accounts associated with the likely Iran-linked STORM-2035 operation using AI to create influence content about US, UK, Irish, and Venezuelan politics.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Uncle Spam”: US polarization influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam",
+      "description": "OpenAI banned China-origin accounts using AI to generate US political content and research people, movements, and online communities.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “High Five”: Philippines political comments",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-high-five",
+      "description": "OpenAI banned accounts using AI to generate comments about Philippine politics and public officials across social platforms.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Helgoland Bite”: German-language influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite",
+      "description": "OpenAI banned accounts that appeared to originate in Russia and used AI to generate German-language political content about Ukraine, NATO, and domestic issues.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Deceptive Employment Scheme: IT worker activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers",
+      "description": "OpenAI banned accounts associated with suspected deceptive employment campaigns that used AI to develop materials for potentially fraudulent remote-job applications.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “ScopeCreep”: Russian-speaking malware development",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep",
+      "description": "OpenAI banned Russian-language accounts using AI to build malware, refine loaders, and troubleshoot cyber tooling.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Vixen and Keyhole Panda: China-linked cyber operations",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+      "description": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “VAGue Focus”: Social engineering and influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus",
+      "description": "OpenAI banned accounts using AI for social engineering, surveillance-themed research, and influence activity targeting critics.",
+      "provider": "OpenAI",
+      "timestamp": "2025-06-01T00:00:00+00:00"
+    },
+    {
       "title": "Creating websites in minutes with AI Website Builder",
       "link": "https://openai.com/index/wix",
       "description": "Wix’s AI Website Builder, powered by OpenAI, lets anyone create a full website in minutes—just by describing their idea in a conversation.",
@@ -13141,6 +13365,62 @@ const DASHBOARD_DATA = {
       "timestamp": "2025-02-02T16:00:00+00:00"
     },
     {
+      "title": "Deceptive Employment Scheme: AI-assisted hiring deception",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme",
+      "description": "OpenAI banned accounts potentially used to facilitate a deceptive employment scheme with characteristics of publicly reported North Korea-linked IT-worker activity.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+      "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Task scam: AI-assisted fake review jobs",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Covert influence operation: Ghana election activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election",
+      "description": "OpenAI banned accounts using AI to generate articles, posts, and fake engagement around Ghana’s 2024 presidential election.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Cyber threat actors: AI-assisted intrusion research",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
+      "description": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Iranian influence nexus: Cross-platform activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus",
+      "description": "OpenAI banned Iran-linked accounts using AI to generate articles and social posts tied to IUVM and STORM-2035 influence activity.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Romance-baiting scam: AI-assisted pig butchering workflows",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam",
+      "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate and generate romance, investment scam conversations.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Sponsored Discontent”: Influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent",
+      "description": "OpenAI banned likely China-origin accounts using AI to generate English social posts and Spanish-language articles.",
+      "provider": "OpenAI",
+      "timestamp": "2025-02-01T00:00:00+00:00"
+    },
+    {
       "title": "OpenAI o3-mini System Card",
       "link": "https://openai.com/index/o3-mini-system-card",
       "description": "This report outlines the safety work carried out for the OpenAI o3-mini model, including safety evaluations, external red teaming, and Preparedness Framework evaluations.",
@@ -13475,6 +13755,83 @@ const DASHBOARD_DATA = {
       "description": "Altera uses GPT-4o to build a new area of human collaboration",
       "provider": "OpenAI",
       "timestamp": "2024-10-01T09:59:00+00:00"
+    },
+    {
+      "title": "Corrupt Comment: Anti-corruption foundation criticism",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment",
+      "description": "OpenAI banned accounts using AI to generate comments criticizing a Russian anti-corruption foundation and related figures.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Tort Report: Abusive reporting activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report",
+      "description": "OpenAI banned accounts using AI to draft abusive reports and complaints targeting Vietnamese public figures and platforms.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Rwandan election content: Political commenting network",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content",
+      "description": "OpenAI banned Rwanda-origin accounts using AI to generate partisan comments ahead of the country’s elections.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Bet Bot: Gambling spam network",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+      "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “STORM-2035”: Iran-origin influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024",
+      "description": "OpenAI banned Iran-origin STORM-2035 accounts using AI to generate US and UK election content and publish it across sites.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “A2Z”: Multilingual influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z",
+      "description": "OpenAI banned “A2Z” accounts using AI to generate multilingual influence content about elections, Ukraine, and politics across platforms.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation “Stop News”: Russia-origin influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024",
+      "description": "OpenAI banned Russia-origin “Stop News” accounts using AI to generate multilingual articles and posts targeting Ukraine and the West.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "Hoax: Fake Russian “troll” error message",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+      "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "CyberAv3ngers: Iran-linked cyber research activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers",
+      "description": "OpenAI banned accounts that appeared to belong to CyberAv3ngers using AI to research industrial control systems, default credentials, and targets.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "SweetSpecter: China-linked cyber activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter",
+      "description": "OpenAI banned accounts likely belonging to a suspected China-based adversary tracked as SweetSpecter, using AI to research vulnerabilities, write code, and support spear-phishing activity.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
+    },
+    {
+      "title": "STORM-0817: Iran-linked malware and scraping activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+      "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+      "provider": "OpenAI",
+      "timestamp": "2024-10-01T00:00:00+00:00"
     },
     {
       "title": "Upgrading the Moderation API with our new multimodal moderation model",
@@ -13979,6 +14336,41 @@ const DASHBOARD_DATA = {
       "description": "API Partnership with Stack Overflow \n\nStack Overflow and OpenAI today announced a new API partnership that will empower developers with the collective strengths of the world’s leading knowledge platform for highly technical content with the world’s m...",
       "provider": "OpenAI",
       "timestamp": "2024-05-06T00:00:00+00:00"
+    },
+    {
+      "title": "IUVM: Iran-linked influence content network",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm",
+      "description": "OpenAI banned accounts associated with the Iran-origin operation \"IUVM\", using AI to generate and translate pro-Iran, anti-Israel and anti-US website content.",
+      "provider": "OpenAI",
+      "timestamp": "2024-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation \"Zero Zeno\": Israel-linked influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno",
+      "description": "OpenAI banned accounts linked to a previously unreprorted Israel-origin operation we dubbed “Zero Zeno,” using AI to generate anti-Hamas, anti-Qatar, pro-Israel, anti-BJP, and pro-Histadrut content.",
+      "provider": "OpenAI",
+      "timestamp": "2024-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation \"Doppelganger\": Russian influence activity targeting Ukraine",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger",
+      "description": "OpenAI banned accounts associated with the Russia-origin operation \"Doppelganger\", using AI to generate anti-Ukraine social media comments, translations, and website copy across several languages.",
+      "provider": "OpenAI",
+      "timestamp": "2024-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "Operation \"Spamouflage\": China-linked influence activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage",
+      "description": "OpenAI banned accounts associated with the PRC-origin operation \"Spamouflage\", using AI to research social media activity, generate posts, and debug a previously unreported website.",
+      "provider": "OpenAI",
+      "timestamp": "2024-05-01T00:00:00+00:00"
+    },
+    {
+      "title": "\"Bad Grammar\": Russian-linked Telegram comment activity",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar",
+      "description": "OpenAI banned accounts linked to a previously unreprorted Russia-origin operation we dubbed \"Bad Grammar\", using AI to generate English- and Russian-language Telegram comments on Ukraine, Moldova, Baltic, and US politics.",
+      "provider": "OpenAI",
+      "timestamp": "2024-05-01T00:00:00+00:00"
     },
     {
       "title": "We’re bringing the Financial Times’ world-class journalism to ChatGPT",
@@ -16286,62 +16678,62 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
-      "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
-      "description": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "description": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
       "date": "Jul 31, 2026",
       "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
+      "trend": "AI Agents"
     },
     {
-      "title": "Anthropic says its own AI models breached three companies during security tests",
-      "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
-      "description": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+      "title": "India is starting to pay for apps, not just download them",
+      "link": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "description": "India's app market generated a record $345 million in Q2.",
       "date": "Jul 31, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Security"
-    },
-    {
-      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
-      "link": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
-      "description": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
-      "date": "Jul 30, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
-      "link": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
-      "description": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
-      "date": "Jul 30, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "Investors love AI, as long as you’re a cloud host",
-      "link": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
-      "description": "Amazon isn't slowing down on data center spending — but investors don't seem to mind.",
-      "date": "Jul 30, 2026",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "description": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "date": "Jul 31, 2026",
       "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
+      "trend": "General AI"
     },
     {
-      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
-      "link": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
-      "description": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
-      "date": "Jul 30, 2026",
+      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "link": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+      "description": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI&#8217;s own models broke out of its test environment and got tangled up in&#160...",
+      "date": "Jul 31, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+      "description": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
+      "date": "Jul 31, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Siri AI could come with a paywall for power users",
+      "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "description": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+      "date": "Jul 31, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     }
   ],
   "sentiments": [
     {
-      "company": "Anthropic",
+      "company": "OpenAI",
       "score": 91,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Investigating three real-world incidents in our cybersecurit...",
-      "mentions": 4
+      "change": "▬ Stable",
+      "reason": "Ten advances in mathematics and theoretical computer science",
+      "mentions": 47
     },
     {
       "company": "NVIDIA",
@@ -16352,12 +16744,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Microsoft",
-      "score": 90,
+      "company": "Anthropic",
+      "score": 88,
       "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "[Launched] Generally Available: Azure Database for PostgreSQ...",
-      "mentions": 4
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Databricks",
+      "score": 87,
+      "status": "Bullish",
+      "change": "▬ Stable",
+      "reason": "Backstage with Lakebase, part 3",
+      "mentions": 1
     },
     {
       "company": "Groq",
@@ -16368,11 +16768,19 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Databricks",
+      "company": "Google Cloud",
+      "score": 83,
+      "status": "Mixed",
+      "change": "▼ -2",
+      "reason": "August 01, 2026",
+      "mentions": 2
+    },
+    {
+      "company": "Microsoft",
       "score": 81,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "Foundations for an AI-forward healthcare organization",
+      "change": "▼ -2",
+      "reason": "[Launched] Generally Available: Single-click purchase for pu...",
       "mentions": 3
     },
     {
@@ -16382,22 +16790,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "Google Cloud",
-      "score": 80,
-      "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Gemma 4 models are now available on Amazon Bedrock in AWS Go...",
-      "mentions": 3
-    },
-    {
-      "company": "OpenAI",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "Amazon Bedrock announces up to 80% lower prices for OpenAI G...",
-      "mentions": 8
     },
     {
       "company": "Meta",
@@ -16412,329 +16804,329 @@ const DASHBOARD_DATA = {
       "score": 76,
       "status": "Mixed",
       "change": "▼ -1",
-      "reason": "Building abundant intelligence",
-      "mentions": 1
+      "reason": "Cyber Operation: Phishing and scripting support",
+      "mentions": 2
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 197.42,
-      "forwardPE": 15.34,
-      "trailingPE": 29.42,
-      "marketCap": 4781709459456,
+      "price": 200.75,
+      "forwardPE": 15.57,
+      "trailingPE": 30.79,
+      "marketCap": 4862365925376,
       "psRatio": null,
-      "dayChange": 1.22,
-      "rangePosition": 0.46,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 2.93,
+      "rangePosition": 0.506,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 350.08,
-      "forwardPE": 23.76,
-      "trailingPE": 17.57,
-      "marketCap": 4281516687360,
+      "price": 356.13,
+      "forwardPE": 24.17,
+      "trailingPE": 17.86,
+      "marketCap": 4355446800384,
       "psRatio": null,
-      "dayChange": 4.92,
-      "rangePosition": 0.735,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 6.73,
+      "rangePosition": 0.76,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 454.64,
-      "forwardPE": 19.69,
-      "trailingPE": 25.33,
-      "marketCap": 3375950200832,
+      "price": 464.72,
+      "forwardPE": 19.96,
+      "trailingPE": 25.12,
+      "marketCap": 3450799652864,
       "psRatio": null,
-      "dayChange": 0.78,
-      "rangePosition": 0.516,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 3.02,
+      "rangePosition": 0.565,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 271.49,
-      "forwardPE": 27.34,
-      "trailingPE": 21.84,
-      "marketCap": 2920447737856,
+      "price": 271.58,
+      "forwardPE": 26.73,
+      "trailingPE": 21.83,
+      "marketCap": 2921415835648,
       "psRatio": null,
-      "dayChange": 15.28,
-      "rangePosition": 0.914,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 15.32,
+      "rangePosition": 0.915,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 297.15,
-      "forwardPE": 110.39,
+      "price": 293.28,
+      "forwardPE": 108.67,
       "trailingPE": null,
-      "marketCap": 102993920000,
+      "marketCap": 101650849792,
       "psRatio": null,
-      "dayChange": -0.32,
-      "rangePosition": 0.962,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -1.62,
+      "rangePosition": 0.941,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 406.71,
-      "forwardPE": 18.82,
-      "trailingPE": 35.77,
-      "marketCap": 2109416800256,
+      "price": 404.25,
+      "forwardPE": 18.71,
+      "trailingPE": 35.59,
+      "marketCap": 2096632168448,
       "psRatio": null,
-      "dayChange": 0.84,
-      "rangePosition": 0.717,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 0.23,
+      "rangePosition": 0.707,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 386.54,
-      "forwardPE": 19.83,
-      "trailingPE": 64.32,
-      "marketCap": 1838995079168,
+      "price": 389.28,
+      "forwardPE": 19.97,
+      "trailingPE": 64.99,
+      "marketCap": 1852030844928,
       "psRatio": null,
-      "dayChange": -0.34,
-      "rangePosition": 0.492,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 0.37,
+      "rangePosition": 0.504,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1651.0,
-      "forwardPE": 28.18,
-      "trailingPE": 57.13,
-      "marketCap": 634149076992,
+      "price": 1629.0,
+      "forwardPE": 27.67,
+      "trailingPE": 55.86,
+      "marketCap": 625698930688,
       "psRatio": null,
-      "dayChange": -0.03,
-      "rangePosition": 0.735,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -1.36,
+      "rangePosition": 0.718,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 242.57,
-      "forwardPE": 26.76,
-      "trailingPE": 55.0,
-      "marketCap": 93386579968,
+      "price": 241.57,
+      "forwardPE": 26.65,
+      "trailingPE": 54.65,
+      "marketCap": 93001588736,
       "psRatio": null,
-      "dayChange": 6.62,
-      "rangePosition": 0.474,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 6.18,
+      "rangePosition": 0.47,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 177.36,
-      "forwardPE": 39.7,
-      "trailingPE": 60.95,
-      "marketCap": 223326289920,
+      "price": 180.35,
+      "forwardPE": 40.37,
+      "trailingPE": 62.19,
+      "marketCap": 227091218432,
       "psRatio": null,
-      "dayChange": 3.71,
-      "rangePosition": 0.835,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 5.46,
+      "rangePosition": 0.874,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 92.92,
-      "forwardPE": 45.61,
+      "price": 90.2,
+      "forwardPE": 44.27,
       "trailingPE": null,
-      "marketCap": 468688437248,
+      "marketCap": 454968770560,
       "psRatio": null,
-      "dayChange": 1.96,
-      "rangePosition": 0.599,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -1.02,
+      "rangePosition": 0.576,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 406.41,
-      "forwardPE": 18.6,
-      "trailingPE": 32.38,
-      "marketCap": 262598737920,
+      "price": 405.37,
+      "forwardPE": 18.55,
+      "trailingPE": 32.25,
+      "marketCap": 261926748160,
       "psRatio": null,
-      "dayChange": 0.4,
-      "rangePosition": 0.824,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 0.14,
+      "rangePosition": 0.822,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 47.66,
-      "forwardPE": 11.9,
-      "trailingPE": 44.54,
-      "marketCap": 63111540736,
+      "price": 47.9,
+      "forwardPE": 11.94,
+      "trailingPE": 44.77,
+      "marketCap": 63429349376,
       "psRatio": null,
-      "dayChange": 1.1,
-      "rangePosition": 0.628,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.61,
+      "rangePosition": 0.634,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 547.42,
-      "forwardPE": 15.4,
-      "trailingPE": 20.6,
-      "marketCap": 1394555748352,
+      "price": 556.71,
+      "forwardPE": 15.66,
+      "trailingPE": 20.96,
+      "marketCap": 1418222239744,
       "psRatio": null,
-      "dayChange": 1.56,
-      "rangePosition": 0.098,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 3.28,
+      "rangePosition": 0.132,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 219.02,
-      "forwardPE": 16.62,
-      "trailingPE": 19.45,
-      "marketCap": 206346272768,
+      "price": 223.65,
+      "forwardPE": 16.98,
+      "trailingPE": 19.88,
+      "marketCap": 210708348928,
       "psRatio": null,
-      "dayChange": -1.23,
-      "rangePosition": 0.149,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 0.86,
+      "rangePosition": 0.184,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 2.85,
-      "forwardPE": 3.33,
+      "price": 2.99,
+      "forwardPE": 3.49,
       "trailingPE": null,
-      "marketCap": 150865952,
+      "marketCap": 157999728,
       "psRatio": null,
-      "dayChange": -1.21,
-      "rangePosition": 0.025,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 3.46,
+      "rangePosition": 0.035,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 302.72,
-      "forwardPE": 31.61,
-      "trailingPE": 34.64,
-      "marketCap": 4446156226560,
+      "price": 308.91,
+      "forwardPE": 32.28,
+      "trailingPE": 35.47,
+      "marketCap": 4537070911488,
       "psRatio": null,
-      "dayChange": -9.21,
-      "rangePosition": 0.707,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -7.35,
+      "rangePosition": 0.75,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 120.44,
-      "forwardPE": 57.5,
-      "trailingPE": 135.32,
-      "marketCap": 288720257024,
+      "price": 123.06,
+      "forwardPE": 58.75,
+      "trailingPE": 138.27,
+      "marketCap": 295013220352,
       "psRatio": null,
-      "dayChange": -1.49,
-      "rangePosition": 0.139,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 0.65,
+      "rangePosition": 0.165,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 325.68,
-      "forwardPE": 78.95,
-      "trailingPE": 285.68,
-      "marketCap": 265429188608,
+      "price": 331.83,
+      "forwardPE": 80.44,
+      "trailingPE": 286.06,
+      "marketCap": 270441431040,
       "psRatio": null,
-      "dayChange": 0,
-      "rangePosition": 0.812,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.89,
+      "rangePosition": 0.839,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 181.18,
-      "forwardPE": 11.68,
-      "trailingPE": 20.97,
-      "marketCap": 148382334976,
+      "price": 184.02,
+      "forwardPE": 11.86,
+      "trailingPE": 21.32,
+      "marketCap": 150712385536,
       "psRatio": null,
-      "dayChange": 0.26,
-      "rangePosition": 0.284,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.83,
+      "rangePosition": 0.307,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 127.06,
-      "forwardPE": 11.67,
-      "trailingPE": 21.8,
-      "marketCap": 366007058432,
+      "price": 129.87,
+      "forwardPE": 11.93,
+      "trailingPE": 22.28,
+      "marketCap": 374086762496,
       "psRatio": null,
-      "dayChange": -0.39,
-      "rangePosition": 0.054,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.81,
+      "rangePosition": 0.066,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 493.23,
-      "forwardPE": 35.69,
-      "trailingPE": 163.86,
-      "marketCap": 804261134336,
+      "price": 476.15,
+      "forwardPE": 34.45,
+      "trailingPE": 158.72,
+      "marketCap": 776410431488,
       "psRatio": null,
-      "dayChange": 1.62,
-      "rangePosition": 0.79,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -1.9,
+      "rangePosition": 0.751,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
-      "price": 175.99,
-      "forwardPE": 17.89,
-      "trailingPE": 27.71,
-      "marketCap": 34479947776,
+      "price": 178.5,
+      "forwardPE": 18.14,
+      "trailingPE": 28.11,
+      "marketCap": 34971705344,
       "psRatio": null,
-      "dayChange": 1.16,
-      "rangePosition": 0.83,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 2.6,
+      "rangePosition": 0.855,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
-      "price": 245.22,
-      "forwardPE": 8.92,
-      "trailingPE": 14.03,
-      "marketCap": 97472962560,
+      "price": 250.41,
+      "forwardPE": 9.11,
+      "trailingPE": 14.33,
+      "marketCap": 99537977344,
       "psRatio": null,
-      "dayChange": -1.08,
-      "rangePosition": 0.305,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.01,
+      "rangePosition": 0.334,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
-      "price": 841.24,
-      "forwardPE": 5.47,
-      "trailingPE": 16.06,
-      "marketCap": 950090661888,
+      "price": 823.03,
+      "forwardPE": 5.35,
+      "trailingPE": 18.59,
+      "marketCap": 929524482048,
       "psRatio": null,
-      "dayChange": -3.82,
-      "rangePosition": 0.641,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -5.9,
+      "rangePosition": 0.624,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
-      "price": 27.08,
-      "forwardPE": 9.0,
-      "trailingPE": 10.03,
-      "marketCap": 24765274112,
+      "price": 27.27,
+      "forwardPE": 9.06,
+      "trailingPE": 9.95,
+      "marketCap": 24939034624,
       "psRatio": null,
-      "dayChange": 0.82,
-      "rangePosition": 0.787,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.53,
+      "rangePosition": 0.803,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
-      "price": 277.55,
-      "forwardPE": 175.45,
+      "price": 278.98,
+      "forwardPE": 176.49,
       "trailingPE": null,
-      "marketCap": 98513469440,
+      "marketCap": 99021037568,
       "psRatio": null,
-      "dayChange": -2.06,
-      "rangePosition": 0.88,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -1.56,
+      "rangePosition": 0.89,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
-      "price": 122.0,
-      "forwardPE": 13.49,
-      "trailingPE": 18.77,
-      "marketCap": 292418420736,
+      "price": 122.25,
+      "forwardPE": 13.52,
+      "trailingPE": 18.81,
+      "marketCap": 293017616384,
       "psRatio": null,
-      "dayChange": 4.88,
-      "rangePosition": 0.298,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 5.1,
+      "rangePosition": 0.301,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
-      "price": 148.34,
-      "forwardPE": 4.43,
-      "trailingPE": 20.43,
-      "marketCap": 1052998696960,
+      "price": 143.73,
+      "forwardPE": 4.3,
+      "trailingPE": 20.53,
+      "marketCap": 1020274409472,
       "psRatio": null,
-      "dayChange": -0.44,
-      "rangePosition": 0.336,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -3.54,
+      "rangePosition": 0.27,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -16745,84 +17137,84 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "SAP": {
       "name": "SAP  SE",
-      "price": 181.06,
-      "forwardPE": 18.86,
-      "trailingPE": 23.82,
-      "marketCap": 208974446592,
+      "price": 183.62,
+      "forwardPE": 19.13,
+      "trailingPE": 23.97,
+      "marketCap": 211934986240,
       "psRatio": null,
-      "dayChange": 0.1,
-      "rangePosition": 0.234,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 1.51,
+      "rangePosition": 0.25,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
-      "price": 110.26,
-      "forwardPE": 12.83,
+      "price": 111.11,
+      "forwardPE": 12.91,
       "trailingPE": null,
-      "marketCap": 37398708224,
+      "marketCap": 37687013376,
       "psRatio": null,
-      "dayChange": 2.59,
-      "rangePosition": 0.318,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 3.38,
+      "rangePosition": 0.328,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
-      "price": 34.66,
-      "forwardPE": -27.28,
+      "price": 35.6,
+      "forwardPE": -28.68,
       "trailingPE": null,
-      "marketCap": 24816109568,
+      "marketCap": 25431781376,
       "psRatio": null,
-      "dayChange": -28.79,
-      "rangePosition": 0.005,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -26.85,
+      "rangePosition": 0.016,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
-      "price": 194.55,
-      "forwardPE": 25.11,
-      "trailingPE": 92.2,
-      "marketCap": 84769079296,
+      "price": 196.16,
+      "forwardPE": 25.32,
+      "trailingPE": 93.41,
+      "marketCap": 85470584832,
       "psRatio": null,
-      "dayChange": -1.51,
-      "rangePosition": 0.36,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -0.69,
+      "rangePosition": 0.372,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
-      "price": 31.11,
-      "forwardPE": 23.64,
+      "price": 31.71,
+      "forwardPE": 24.1,
       "trailingPE": null,
-      "marketCap": 13580604416,
+      "marketCap": 13842525184,
       "psRatio": null,
-      "dayChange": -6.69,
-      "rangePosition": 0.405,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": -4.89,
+      "rangePosition": 0.422,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
-      "price": 402.16,
-      "forwardPE": 25.49,
-      "trailingPE": 39.39,
-      "marketCap": 156158722048,
+      "price": 415.2,
+      "forwardPE": 26.32,
+      "trailingPE": 40.67,
+      "marketCap": 161222164480,
       "psRatio": null,
-      "dayChange": 3.95,
-      "rangePosition": 0.723,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 7.32,
+      "rangePosition": 0.827,
+      "fetchedAt": "2026-08-01 02:23 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
-      "price": 53.69,
-      "forwardPE": 8.53,
-      "trailingPE": 11.52,
-      "marketCap": 25395369984,
+      "price": 55.35,
+      "forwardPE": 8.79,
+      "trailingPE": 11.88,
+      "marketCap": 26180548608,
       "psRatio": null,
-      "dayChange": -0.38,
-      "rangePosition": 0.333,
-      "fetchedAt": "2026-07-31 03:14 PM"
+      "dayChange": 2.7,
+      "rangePosition": 0.366,
+      "fetchedAt": "2026-08-01 02:23 PM"
     }
   },
   "stocks_universe": [

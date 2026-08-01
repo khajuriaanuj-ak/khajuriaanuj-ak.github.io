@@ -16280,5 +16280,397 @@
     "description": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real...",
     "provider": "Anthropic",
     "timestamp": "2026-07-29T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/",
+    "description": "Starting today, Amazon Aurora DSQL supports multi-Region clusters in four additional AWS Regions: Europe (Stockholm), Europe (Spain), Asia Pacific (Mumbai), and&nbsp;Asia Pacific (Singapore). Aurora DSQL is the fastest serverless, distributed SQL dat...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle now offers Reserved Instances for R8i and M8i instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-oracle-r8i-m8i/",
+    "description": "Amazon RDS for Oracle now offers 1-year and 3-year Reserved Instances for R8i and M8i instances with up to 53% cost savings compared to On-Demand prices. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T15:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
+    "description": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate fr...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch announces managed Prometheus collectors",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudwatch-managed-collectors/",
+    "description": "Amazon CloudWatch now supports collecting Prometheus metrics from your AWS infrastructure using fully managed collectors — enabling you to monitor Amazon EKS, Amazon EC2, Amazon ECS, Amazon MSK, and Amazon OpenSearch Service workloads without deployi...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T13:06:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C7i-flex instances now available in Europe (Milan) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-flex-instances-MXP-region/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) region. These custom processors, available only on AWS,...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T00:21:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C7i instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ec2-c7i-instances-mxp-yyc-region/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in Europe (Milan) and Canada West (Calgary) regions. These custom processors, ...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T00:17:00+00:00"
+  },
+  {
+    "title": "August 01, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_01_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-01T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Single-click purchase for public SaaS offers",
+    "link": "https://azure.microsoft.com/updates?id=568591",
+    "description": "Eligible SaaS products on Microsoft Marketplace now support a simplified purchase experience in Azure portal. Customers can review plan, billing, resource group, contact details, and terms information on a single page for completing the purchase. Thi...",
+    "provider": "Azure",
+    "timestamp": "2026-07-31T22:32:52+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Route-Maps for Azure Route Server",
+    "link": "https://azure.microsoft.com/updates?id=568631",
+    "description": "Route maps for Azure Route Server are now available in\npublic preview, providing fine-grained control over inbound and outbound routing\nacross hybrid connections. Customers can manage routes advertised to and from\nAzure Route Server BGP peerings with...",
+    "provider": "Azure",
+    "timestamp": "2026-07-31T20:48:35+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure SQL updates for late-July",
+    "link": "https://azure.microsoft.com/updates?id=568139",
+    "description": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive data like emails, phone numbers, and identifiers—centr...",
+    "provider": "Azure",
+    "timestamp": "2026-07-31T18:16:23+00:00"
+  },
+  {
+    "title": "Backstage with Lakebase, part 3",
+    "link": "https://www.databricks.com/blog/backstage-lakebase-part-3",
+    "description": "In the first part of this series, running&nbsp;Backstage on Databricks Lakebase gave us...",
+    "provider": "Databricks",
+    "timestamp": "2026-07-31T22:21:47+00:00"
+  },
+  {
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "link": "https://openai.com/index/ten-advances-in-mathematics",
+    "description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-01T00:00:00+00:00"
+  },
+  {
+    "title": "Disrupting a Criminal Scam Operation",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+    "description": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-31T00:00:00+00:00"
+  },
+  {
+    "title": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs",
+    "description": "OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon",
+    "description": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Nine–emdash Line”: Regional influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line",
+    "description": "OpenAI banned accounts linked to a previously unreprorted PRC-origin operation we dubbed \"Nine-emdash Line\", using AI to create regional influence content about the South China Sea, Hong Kong, and US politics.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Stop News”: Recidivist influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025",
+    "description": "OpenAI banned accounts linked to a Russia-origin operation we dubbed “Stop News”, using AI to generate recidivist influence content targeting Africa and the UK.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "PRC-linked abuse: Surveillance and influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse",
+    "description": "OpenAI banned PRC-linked accounts using AI to support surveillance-related planning, targeted profiling, and research on critics and other individuals.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Cyber Operation: Korean-language malware support",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support",
+    "description": "OpenAI banned Korean-language accounts using AI for malware development support, debugging, phishing, and credential-theft workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Cyber Operation: Phishing and scripting support",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support",
+    "description": "OpenAI banned accounts involved in activity that overlapped with publicly reported threat groups and displayed hallmarks consistent with PRC intelligence requirements, using AI to support phishing and scripting workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Cyber Operation: Russian-speaking malware tooling",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling",
+    "description": "OpenAI banned accounts likely linked to Russian-speaking criminal groups, using AI to build malware loaders, evasion layers, credential-theft scripts, and C2 infrastructure.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Scam operations: Online fraud networks",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations",
+    "description": "OpenAI banned accounts tied to online fraud networks using AI to support scam scripts, impersonation, translation, and victim engagement.",
+    "provider": "OpenAI",
+    "timestamp": "2025-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Sneer Review”: China-origin influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review",
+    "description": "OpenAI banned accounts using AI to generate posts criticizing a Taiwanese social media influencer and related US topics.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Wrong Number”: AI-assisted task scam",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number",
+    "description": "OpenAI banned accounts that likely originated in Cambodia and used AI to support scam workflows targeting people in the UK.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "STORM-2035: Recidivist influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025",
+    "description": "OpenAI banned accounts associated with the likely Iran-linked STORM-2035 operation using AI to create influence content about US, UK, Irish, and Venezuelan politics.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Uncle Spam”: US polarization influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam",
+    "description": "OpenAI banned China-origin accounts using AI to generate US political content and research people, movements, and online communities.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “High Five”: Philippines political comments",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-high-five",
+    "description": "OpenAI banned accounts using AI to generate comments about Philippine politics and public officials across social platforms.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Helgoland Bite”: German-language influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite",
+    "description": "OpenAI banned accounts that appeared to originate in Russia and used AI to generate German-language political content about Ukraine, NATO, and domestic issues.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Deceptive Employment Scheme: IT worker activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers",
+    "description": "OpenAI banned accounts associated with suspected deceptive employment campaigns that used AI to develop materials for potentially fraudulent remote-job applications.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “ScopeCreep”: Russian-speaking malware development",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep",
+    "description": "OpenAI banned Russian-language accounts using AI to build malware, refine loaders, and troubleshoot cyber tooling.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Vixen and Keyhole Panda: China-linked cyber operations",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+    "description": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “VAGue Focus”: Social engineering and influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus",
+    "description": "OpenAI banned accounts using AI for social engineering, surveillance-themed research, and influence activity targeting critics.",
+    "provider": "OpenAI",
+    "timestamp": "2025-06-01T00:00:00+00:00"
+  },
+  {
+    "title": "Deceptive Employment Scheme: AI-assisted hiring deception",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme",
+    "description": "OpenAI banned accounts potentially used to facilitate a deceptive employment scheme with characteristics of publicly reported North Korea-linked IT-worker activity.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Peer Review”: AI-assisted surveillance planning",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review",
+    "description": "OpenAI banned likely China-origin accounts using AI to draft surveillance-tool pitches, analyze documents, and debug code.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Task scam: AI-assisted fake review jobs",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
+    "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate messages for fake-review job scams that asked victims to pay fees.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Covert influence operation: Ghana election activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election",
+    "description": "OpenAI banned accounts using AI to generate articles, posts, and fake engagement around Ghana’s 2024 presidential election.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Cyber threat actors: AI-assisted intrusion research",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
+    "description": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Iranian influence nexus: Cross-platform activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus",
+    "description": "OpenAI banned Iran-linked accounts using AI to generate articles and social posts tied to IUVM and STORM-2035 influence activity.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Romance-baiting scam: AI-assisted pig butchering workflows",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam",
+    "description": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate and generate romance, investment scam conversations.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Sponsored Discontent”: Influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent",
+    "description": "OpenAI banned likely China-origin accounts using AI to generate English social posts and Spanish-language articles.",
+    "provider": "OpenAI",
+    "timestamp": "2025-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Corrupt Comment: Anti-corruption foundation criticism",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment",
+    "description": "OpenAI banned accounts using AI to generate comments criticizing a Russian anti-corruption foundation and related figures.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Tort Report: Abusive reporting activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report",
+    "description": "OpenAI banned accounts using AI to draft abusive reports and complaints targeting Vietnamese public figures and platforms.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Rwandan election content: Political commenting network",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content",
+    "description": "OpenAI banned Rwanda-origin accounts using AI to generate partisan comments ahead of the country’s elections.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Bet Bot: Gambling spam network",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+    "description": "OpenAI banned accounts that accessed its models through an Israel-based startup to generate conversations and send links to gambling sites on X.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “STORM-2035”: Iran-origin influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024",
+    "description": "OpenAI banned Iran-origin STORM-2035 accounts using AI to generate US and UK election content and publish it across sites.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “A2Z”: Multilingual influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z",
+    "description": "OpenAI banned “A2Z” accounts using AI to generate multilingual influence content about elections, Ukraine, and politics across platforms.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Stop News”: Russia-origin influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024",
+    "description": "OpenAI banned Russia-origin “Stop News” accounts using AI to generate multilingual articles and posts targeting Ukraine and the West.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Hoax: Fake Russian “troll” error message",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+    "description": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "CyberAv3ngers: Iran-linked cyber research activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers",
+    "description": "OpenAI banned accounts that appeared to belong to CyberAv3ngers using AI to research industrial control systems, default credentials, and targets.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "SweetSpecter: China-linked cyber activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter",
+    "description": "OpenAI banned accounts likely belonging to a suspected China-based adversary tracked as SweetSpecter, using AI to research vulnerabilities, write code, and support spear-phishing activity.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "STORM-0817: Iran-linked malware and scraping activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+    "description": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+    "provider": "OpenAI",
+    "timestamp": "2024-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "IUVM: Iran-linked influence content network",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm",
+    "description": "OpenAI banned accounts associated with the Iran-origin operation \"IUVM\", using AI to generate and translate pro-Iran, anti-Israel and anti-US website content.",
+    "provider": "OpenAI",
+    "timestamp": "2024-05-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation \"Zero Zeno\": Israel-linked influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno",
+    "description": "OpenAI banned accounts linked to a previously unreprorted Israel-origin operation we dubbed “Zero Zeno,” using AI to generate anti-Hamas, anti-Qatar, pro-Israel, anti-BJP, and pro-Histadrut content.",
+    "provider": "OpenAI",
+    "timestamp": "2024-05-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation \"Doppelganger\": Russian influence activity targeting Ukraine",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger",
+    "description": "OpenAI banned accounts associated with the Russia-origin operation \"Doppelganger\", using AI to generate anti-Ukraine social media comments, translations, and website copy across several languages.",
+    "provider": "OpenAI",
+    "timestamp": "2024-05-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation \"Spamouflage\": China-linked influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage",
+    "description": "OpenAI banned accounts associated with the PRC-origin operation \"Spamouflage\", using AI to research social media activity, generate posts, and debug a previously unreported website.",
+    "provider": "OpenAI",
+    "timestamp": "2024-05-01T00:00:00+00:00"
+  },
+  {
+    "title": "\"Bad Grammar\": Russian-linked Telegram comment activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar",
+    "description": "OpenAI banned accounts linked to a previously unreprorted Russia-origin operation we dubbed \"Bad Grammar\", using AI to generate English- and Russian-language Telegram comments on Ukraine, Moldova, Baltic, and US politics.",
+    "provider": "OpenAI",
+    "timestamp": "2024-05-01T00:00:00+00:00"
   }
 ]
