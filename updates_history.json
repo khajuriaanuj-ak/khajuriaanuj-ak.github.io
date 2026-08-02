@@ -16672,5 +16672,12 @@
     "description": "OpenAI banned accounts linked to a previously unreprorted Russia-origin operation we dubbed \"Bad Grammar\", using AI to generate English- and Russian-language Telegram comments on Ukraine, Moldova, Baltic, and US politics.",
     "provider": "OpenAI",
     "timestamp": "2024-05-01T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+    "description": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Sou...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T14:00:00+00:00"
   }
 ]

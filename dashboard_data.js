@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-08-01T14:23:58.771422+00:00",
+  "last_updated": "2026-08-02T14:25:11.798055+00:00",
   "updates": [
     {
       "title": "August 01, 2026",
@@ -75,6 +75,13 @@ const DASHBOARD_DATA = {
       "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/",
       "description": "AWS Lambda now supports Java 8, Java 11, and Java 17 runtimes on Amazon Linux 2023 (AL2023), available as both managed runtimes and container base images. These new runtimes enable customers running Lambda functions on Java 8, 11, or 17 to migrate fr...",
+      "provider": "AWS",
+      "timestamp": "2026-07-31T14:00:00+00:00"
+    },
+    {
+      "title": "Amazon Location Service adds Search Nearby support for GrabMaps in Southeast Asia",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-location-service-search-nearby-grabmaps",
+      "description": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Sou...",
       "provider": "AWS",
       "timestamp": "2026-07-31T14:00:00+00:00"
     },
@@ -16678,6 +16685,38 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "description": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
+      "date": "Aug 01, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Regulatory"
+    },
+    {
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "description": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+      "date": "Aug 01, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "description": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+      "date": "Aug 01, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "This $9 key physically locks your most addictive apps",
+      "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+      "description": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+      "date": "Aug 01, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
       "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
       "description": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
@@ -16692,49 +16731,9 @@ const DASHBOARD_DATA = {
       "date": "Jul 31, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
-    },
-    {
-      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
-      "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-      "description": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-      "date": "Jul 31, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
-      "link": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-      "description": "After years of pushing full speed ahead on AI,&#160;OpenAI CEO&#160;Sam Altman says&#160;maybe it’s&#160;time for the AI industry to “pace” itself. The comments came&#160;just days after one of OpenAI&#8217;s own models broke out of its test environment and got tangled up in&#160...",
-      "date": "Jul 31, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
-      "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-      "description": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
-      "date": "Jul 31, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Siri AI could come with a paywall for power users",
-      "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
-      "description": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
-      "date": "Jul 31, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
     }
   ],
   "sentiments": [
-    {
-      "company": "OpenAI",
-      "score": 91,
-      "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Ten advances in mathematics and theoretical computer science",
-      "mentions": 47
-    },
     {
       "company": "NVIDIA",
       "score": 91,
@@ -16752,14 +16751,6 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Databricks",
-      "score": 87,
-      "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Backstage with Lakebase, part 3",
-      "mentions": 1
-    },
-    {
       "company": "Groq",
       "score": 85,
       "status": "Bullish",
@@ -16768,24 +16759,32 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Google Cloud",
-      "score": 83,
+      "company": "Databricks",
+      "score": 84,
       "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "August 01, 2026",
-      "mentions": 2
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
-      "company": "Microsoft",
-      "score": 81,
+      "company": "OpenAI",
+      "score": 82,
       "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "[Launched] Generally Available: Single-click purchase for pu...",
-      "mentions": 3
+      "change": "▲ +1",
+      "reason": "Sam Altman is still making the case for parenting via ChatGP...",
+      "mentions": 2
     },
     {
       "company": "Snowflake",
       "score": 81,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Google Cloud",
+      "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
@@ -16800,12 +16799,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
+      "company": "Microsoft",
+      "score": 78,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
       "company": "Apple",
       "score": 76,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "Cyber Operation: Phishing and scripting support",
-      "mentions": 2
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     }
   ],
   "valuations": {
@@ -16818,7 +16825,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.93,
       "rangePosition": 0.506,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -16829,29 +16836,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.73,
       "rangePosition": 0.76,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
       "price": 464.72,
       "forwardPE": 19.96,
-      "trailingPE": 25.12,
+      "trailingPE": 25.9,
       "marketCap": 3450799652864,
       "psRatio": null,
       "dayChange": 3.02,
       "rangePosition": 0.565,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
       "price": 271.58,
-      "forwardPE": 26.73,
+      "forwardPE": 26.44,
       "trailingPE": 21.83,
       "marketCap": 2921415835648,
       "psRatio": null,
       "dayChange": 15.32,
       "rangePosition": 0.915,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -16862,7 +16869,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.62,
       "rangePosition": 0.941,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -16873,7 +16880,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.23,
       "rangePosition": 0.707,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -16884,7 +16891,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.37,
       "rangePosition": 0.504,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
@@ -16895,7 +16902,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.36,
       "rangePosition": 0.718,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -16906,7 +16913,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.18,
       "rangePosition": 0.47,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -16917,7 +16924,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.46,
       "rangePosition": 0.874,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -16928,7 +16935,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.02,
       "rangePosition": 0.576,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -16939,7 +16946,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.14,
       "rangePosition": 0.822,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -16950,18 +16957,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.61,
       "rangePosition": 0.634,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
       "price": 556.71,
-      "forwardPE": 15.66,
+      "forwardPE": 15.75,
       "trailingPE": 20.96,
       "marketCap": 1418222239744,
       "psRatio": null,
       "dayChange": 3.28,
       "rangePosition": 0.132,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -16972,29 +16979,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.86,
       "rangePosition": 0.184,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 2.99,
-      "forwardPE": 3.49,
+      "forwardPE": 3.46,
       "trailingPE": null,
       "marketCap": 157999728,
       "psRatio": null,
       "dayChange": 3.46,
       "rangePosition": 0.035,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
       "price": 308.91,
-      "forwardPE": 32.28,
+      "forwardPE": 32.48,
       "trailingPE": 35.47,
       "marketCap": 4537070911488,
       "psRatio": null,
       "dayChange": -7.35,
       "rangePosition": 0.75,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -17005,7 +17012,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.65,
       "rangePosition": 0.165,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -17016,18 +17023,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.89,
       "rangePosition": 0.839,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
       "price": 184.02,
       "forwardPE": 11.86,
       "trailingPE": 21.32,
-      "marketCap": 150712385536,
+      "marketCap": 0,
       "psRatio": null,
       "dayChange": 1.83,
       "rangePosition": 0.307,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -17038,29 +17045,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.81,
       "rangePosition": 0.066,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
       "price": 476.15,
       "forwardPE": 34.45,
       "trailingPE": 158.72,
-      "marketCap": 776410431488,
+      "marketCap": 0,
       "psRatio": null,
       "dayChange": -1.9,
       "rangePosition": 0.751,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
       "price": 178.5,
       "forwardPE": 18.14,
       "trailingPE": 28.11,
-      "marketCap": 34971705344,
+      "marketCap": 35027816448,
       "psRatio": null,
       "dayChange": 2.6,
       "rangePosition": 0.855,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -17071,29 +17078,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.01,
       "rangePosition": 0.334,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
       "price": 823.03,
       "forwardPE": 5.35,
       "trailingPE": 18.59,
-      "marketCap": 929524482048,
+      "marketCap": 0,
       "psRatio": null,
       "dayChange": -5.9,
       "rangePosition": 0.624,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
       "price": 27.27,
       "forwardPE": 9.06,
-      "trailingPE": 9.95,
-      "marketCap": 24939034624,
+      "trailingPE": 10.1,
+      "marketCap": 0,
       "psRatio": null,
       "dayChange": 1.53,
       "rangePosition": 0.803,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -17104,29 +17111,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.56,
       "rangePosition": 0.89,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
       "price": 122.25,
-      "forwardPE": 13.52,
+      "forwardPE": 13.49,
       "trailingPE": 18.81,
       "marketCap": 293017616384,
       "psRatio": null,
       "dayChange": 5.1,
       "rangePosition": 0.301,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
       "price": 143.73,
       "forwardPE": 4.3,
-      "trailingPE": 20.53,
+      "trailingPE": 19.64,
       "marketCap": 1020274409472,
       "psRatio": null,
       "dayChange": -3.54,
       "rangePosition": 0.27,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -17137,7 +17144,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "SAP": {
       "name": "SAP  SE",
@@ -17148,40 +17155,40 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.51,
       "rangePosition": 0.25,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
       "price": 111.11,
-      "forwardPE": 12.91,
+      "forwardPE": 12.9,
       "trailingPE": null,
       "marketCap": 37687013376,
       "psRatio": null,
       "dayChange": 3.38,
       "rangePosition": 0.328,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
       "price": 35.6,
-      "forwardPE": -28.68,
+      "forwardPE": -29.25,
       "trailingPE": null,
       "marketCap": 25431781376,
       "psRatio": null,
       "dayChange": -26.85,
       "rangePosition": 0.016,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
       "price": 196.16,
       "forwardPE": 25.32,
-      "trailingPE": 93.41,
+      "trailingPE": 92.53,
       "marketCap": 85470584832,
       "psRatio": null,
       "dayChange": -0.69,
       "rangePosition": 0.372,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
@@ -17192,29 +17199,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.89,
       "rangePosition": 0.422,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
       "price": 415.2,
-      "forwardPE": 26.32,
+      "forwardPE": 26.24,
       "trailingPE": 40.67,
-      "marketCap": 161222164480,
+      "marketCap": 0,
       "psRatio": null,
       "dayChange": 7.32,
       "rangePosition": 0.827,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
       "price": 55.35,
       "forwardPE": 8.79,
       "trailingPE": 11.88,
-      "marketCap": 26180548608,
+      "marketCap": 24932087808,
       "psRatio": null,
       "dayChange": 2.7,
       "rangePosition": 0.366,
-      "fetchedAt": "2026-08-01 02:23 PM"
+      "fetchedAt": "2026-08-02 02:25 PM"
     }
   },
   "stocks_universe": [
