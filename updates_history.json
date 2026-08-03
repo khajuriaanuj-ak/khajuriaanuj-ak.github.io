@@ -16679,5 +16679,47 @@
     "description": "Amazon Location Service now supports proximity-based point of interest discovery with GrabMaps data in the Asia Pacific (Singapore) and Asia Pacific (Malaysia) AWS Regions. Builders creating local discovery, delivery, and mobility applications in Sou...",
     "provider": "AWS",
     "timestamp": "2026-07-31T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon Web Services now introduces Context Ontology Accelerator",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-context--ontology-accelarator-generally-available",
+    "description": "Today, AWS announces Context Ontology Accelerator, an open source accelerator that helps organizations build an ontology of their business — a machine-readable model of their products, customers, policies, and the rules that define how they operate s...",
+    "provider": "AWS",
+    "timestamp": "2026-07-31T10:00:00+00:00"
+  },
+  {
+    "title": "August 03, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_03_2026",
+    "description": "Cloud Workstations\nChange\nUpdated the following\nJetBrains preconfigured base images\nto version 2026.x:\n\nCLion 2026.1\nGoLand 2026.2\nIntelliJ Ultimate 2026.1\nPhpStorm 2026.2\nWebStorm 2026.1\nRubyMine 2026.1\nPyCharm 2026.1\nRider 2026.1\n",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-03T00:00:00-07:00"
+  },
+  {
+    "title": "August 02, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_02_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-02T00:00:00-07:00"
+  },
+  {
+    "title": "The New Monday Morning Report: How Generative AI can deliver the insights your executives need.",
+    "link": "https://www.databricks.com/blog/new-monday-morning-report-how-generative-ai-can-deliver-insights-your-executives-need",
+    "description": "A VP of Sales at a major CPG has three decks open before her first coffee. One from...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-03T14:00:00+00:00"
+  },
+  {
+    "title": "Ingest semi-structured data faster and more efficiently with Variant - Now Generally Available",
+    "link": "https://www.databricks.com/blog/ingest-semi-structured-data-faster-and-more-efficiently-variant-now-generally-available",
+    "description": "For years, ingesting semi-structured data like JSON, XML, or CSV meant a difficult...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-03T13:44:24+00:00"
+  },
+  {
+    "title": "Databricks Completes Acquisition of Panther: Accelerating the Security Lakehouse Era",
+    "link": "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era",
+    "description": "Today, we are thrilled to announce that Databricks has officially completed the acquisition...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-03T13:00:00+00:00"
   }
 ]
