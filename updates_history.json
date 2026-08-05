@@ -16847,5 +16847,173 @@
     "description": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
     "provider": "OpenAI",
     "timestamp": "2026-08-03T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+    "description": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T14:45:10+00:00"
+  },
+  {
+    "title": "[Preview Announcement] Re-introducing Forward Proxy as AWS Network Firewall Functionality",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-forward-proxy-preview/",
+    "description": "You can now use your Network Firewall with all its existing filtering capabilities and features as an explicit forward proxy.  On Nov 25, 2025, AWS introduced Network Firewall proxy in public preview to help customers exert centralized security contr...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T22:24:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/",
+    "description": "Amazon Connect Customer now supports exporting cases to a CSV file directly from the agent workspace, making it easier to share case data with internal teams and external stakeholders such as vendors, legal teams, or business partners. Agents can fil...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/",
+    "description": "Today, we are announcing the general availability of Web Search on Amazon Bedrock, a built-in server side tool that performs web search entirely within AWS, enabling OpenAI models (GPT-5.4, GPT-5.5, and GPT-5.6 Sol/Terra/Luna) to ground responses wit...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T20:37:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub Extended adds supply chain security as its 10th category",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-hub-extended-adds-supply-chain-security",
+    "description": "The AWS Security Hub Extended plan now includes Supply Chain Security as its 10th security category, with Chainguard and Socket as the curated partners. As developers adopt open-source libraries at scale, security teams need confidence that the packa...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T19:14:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8g instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Europe (Paris), AWS Africa (Cape Town), AWS Israel (Tel Aviv), and AWS Canada West (Calgary) regions. These instances are powered by AWS Graviton4 processors...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T18:57:00+00:00"
+  },
+  {
+    "title": "AWS Application and Network Load Balancers now support RFC 9151 compliant security policies",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-application-network/",
+    "description": "AWS Application Load Balancer (ALB) and Network Load Balancer (NLB) now support new TLS-based security policies that comply with RFC 9151 TLS server requirements for Commercial National Security Algorithm (CNSA) 1.0 suite requirements. These policies...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T18:28:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/",
+    "description": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Vectors is purpose-built vector storage for AI agents, inference, Retrieval Augmented Generation (RAG), and semantic search at billion-vector scale. S3...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T18:15:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports capacity planning in 15 or 30 minute intervals",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-interval-capacity-plan",
+    "description": "Amazon Connect Customer now lets you generate capacity plans at the interval level (15-minute or 30-minute intervals), giving workforce planners visibility into more granular staffing requirements across Voice, Chat, Task, and Email channels. Interva...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 I8g instances now available in AWS Europe (Paris), Asia Pacific (Jakarta) regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-i8g-instances-aws-paris-jakarta-regions/",
+    "description": "AWS announces the general availability of Amazon EC2 Storage Optimized I8g instances in AWS Europe (Paris) and Asia Pacific (Jakarta) regions.&nbsp;I8g instances are powered by AWS Graviton4 processors and offer the best compute performance in Amazon...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server now support BYOM in additional commercial regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-byom-in-additional-aws-regions/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports Bring Your Own Media (BYOM) in 10 additional AWS Regions: Asia Pacific (Taipei, Hyderabad, Jakarta, Malaysia, Melbourne, New Zealand, Thailand), Europe (Milan, Spain), and Me...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server supports Developer Edition in additional AWS regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-developer-edition-in-additional-aws-regions/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server Developer Edition is now available in 13 additional AWS Regions: Asia Pacific (Hong Kong, Taipei, Hyderabad, Jakarta, Malaysia, Melbourne, New Zealand, Thailand), Canada West (Calgary), E...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T07:00:00+00:00"
+  },
+  {
+    "title": "RDS SQL Server now supports publishing SQL Server Audit logs to CloudWatch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sqlserver-publish-sql-audit-to-cw/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports publishing SQL Server Audit logs to CloudWatch.&nbsp;SQL Server Audit is a native SQL Server feature that allows tracking and logging events that occur on the Database Engine...",
+    "provider": "AWS",
+    "timestamp": "2026-08-04T07:00:00+00:00"
+  },
+  {
+    "title": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
+    "link": "https://azure.microsoft.com/updates?id=568661",
+    "description": "On September 1, 2026,\nthe cc_v5 confidential VM series will be retired and will no longer be\navailable for use or purchase. Any affected VM that has not been resized before\nthat date will deallocated. The impacted VM sizes that will be retired are: D...",
+    "provider": "Azure",
+    "timestamp": "2026-08-05T00:22:49+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Perimeter link feature in network security perimeter",
+    "link": "https://azure.microsoft.com/updates?id=568837",
+    "description": "Perimeter link (cross-perimeter\nconnectivity) is a network security perimeter capability that allows trusted\nresources in two different network security perimeters to securely communicate\nwith each other using Managed Identity (MSI), without requirin...",
+    "provider": "Azure",
+    "timestamp": "2026-08-04T18:30:09+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Private Link support over IPv6",
+    "link": "https://azure.microsoft.com/updates?id=568842",
+    "description": "Azure Private Link over IPv6\nenables you to privately access Azure PaaS services, such as Azure Storage and\nAzure SQL Database, over IPv6-based connectivity. You can now use IPv6 private\nendpoints to connect from IPv6 clients in an Azure virtual netw...",
+    "provider": "Azure",
+    "timestamp": "2026-08-04T18:29:36+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure DNS enables DNS-based load balancing through Traffic Manager integration",
+    "link": "https://azure.microsoft.com/updates?id=565214",
+    "description": "Azure DNS now offers a seamless way to integrate with Azure Traffic Manager for DNS-based traffic routing. Customers can now directly associate Azure DNS record set with Traffic Manager profiles without creating CNAME record for trafficmanager.net do...",
+    "provider": "Azure",
+    "timestamp": "2026-08-04T17:04:55+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Virtual Network routing appliance",
+    "link": "https://azure.microsoft.com/updates?id=568605",
+    "description": "Azure Virtual Network routing appliance is now generally\navailable. It delivers private connectivity across virtual networks, using\nspecialized hardware for low latency, high throughput, and better performance\nthan virtual machines. Key benefits and ...",
+    "provider": "Azure",
+    "timestamp": "2026-08-04T17:03:38+00:00"
+  },
+  {
+    "title": "Unity AI Gateway is Generally Available",
+    "link": "https://www.databricks.com/blog/unity-ai-gateway-generally-available",
+    "description": "The last six months have seen a rapid rise in AI-powered productivity and a proliferation...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-04T16:10:09+00:00"
+  },
+  {
+    "title": "Databricks joins the Open Secure AI Alliance to advance AI safety and security",
+    "link": "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security",
+    "description": "Databricks is a sponsor at Black Hat USA 2026 this week. Find us at Booths #5106...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-04T14:00:00+00:00"
+  },
+  {
+    "title": "Third-party cyber evaluations involving OpenAI models",
+    "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "description": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-04T19:00:00+00:00"
+  },
+  {
+    "title": "New ways to learn and teach with ChatGPT Work and Codex",
+    "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "description": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-04T00:00:00+00:00"
+  },
+  {
+    "title": "Introducing the OpenAI Economic Research Exchange",
+    "link": "https://openai.com/index/introducing-the-openai-economic-research-exchange",
+    "description": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+    "provider": "OpenAI",
+    "timestamp": "2026-06-08T00:00:00+00:00"
+  },
+  {
+    "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+    "link": "https://www.anthropic.com/news/tino-cuellar",
+    "description": "Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer, leading the company’s work on policy, strategic international engagement, and government relationships worldwide.Tino’s career spans law, technology, int...",
+    "provider": "Anthropic",
+    "timestamp": "2026-08-03T16:00:00+00:00"
   }
 ]

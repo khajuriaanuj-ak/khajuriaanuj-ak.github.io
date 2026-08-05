@@ -378,5 +378,25 @@
     "tailwindScore": 9.0,
     "baseReason": "Leading global technology services company providing critical enterprise AI integration and consulting, leveraging partnerships with top AI model providers to deliver customized solutions across diverse industries.",
     "expertStrategy": "Cognizant is strategically positioned to capitalize on the accelerating enterprise adoption of AI. As a crucial bridge between advanced AI capabilities (such as Anthropic's Claude Opus 5) and complex business requirements, their deep industry expertise and established client relationships enable efficient scaling of AI implementations. This drives recurring revenue from large-scale transformation projects and ongoing managed AI services, making them a key enabler of AI's enterprise-wide rollout."
+  },
+  {
+    "name": "Cadence Design Systems, Inc.",
+    "ticker": "CDNS",
+    "category": "infra",
+    "subCategory": "AI Chip Design Tools",
+    "moatScore": 8.8,
+    "tailwindScore": 9.2,
+    "baseReason": "Indispensable provider of electronic design automation (EDA) software and intellectual property critical for the design, verification, and implementation of custom AI accelerators and high-performance computing chips.",
+    "expertStrategy": "Cadence is a foundational technology provider in the burgeoning custom AI silicon market. As major AI players and cloud providers increasingly develop bespoke AI chips for efficiency and performance gains, demand for advanced EDA tools will solidify Cadence's revenue growth and market position. Its essential role in chip innovation makes it a strong indirect play on the AI boom."
+  },
+  {
+    "name": "Synopsys, Inc.",
+    "ticker": "SNPS",
+    "category": "infra",
+    "subCategory": "AI Chip Design Tools",
+    "moatScore": 8.9,
+    "tailwindScore": 9.3,
+    "baseReason": "A leading vendor of electronic design automation (EDA) software and semiconductor IP, foundational for the design, verification, and manufacturing of the most advanced AI processors and specialized computing hardware across various industries.",
+    "expertStrategy": "Synopsys stands as a crucial enabler for the next generation of AI hardware, offering the essential tools that allow companies to innovate and produce highly specialized AI chips. Its strategic position at the forefront of semiconductor design technology provides a resilient growth trajectory driven by the insatiable demand for more powerful and efficient AI compute, from data centers to edge devices."
   }
 ]
