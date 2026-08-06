@@ -17015,5 +17015,96 @@
     "description": "Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer, leading the company’s work on policy, strategic international engagement, and government relationships worldwide.Tino’s career spans law, technology, int...",
     "provider": "Anthropic",
     "timestamp": "2026-08-03T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-keyspaces-apache-cassandra-canada-west/",
+    "description": "Amazon Keyspaces (for Apache Cassandra) is now available in the Canada West (Calgary) Region (ca-west-1), allowing customers in the Canada West Region to build Cassandra-compatible applications with lower latency while keeping their data within the R...",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T20:06:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace adds AI Insights so buyers can understand pricing before they buy",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-ai-insights/",
+    "description": "You can now understand how a product's pricing works before you buy it. Available in the pricing section of the listing in AWS Marketplace, AI Insights explains each product's pricing in plain language: what a pricing unit maps to, how your bill chan...",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon DynamoDB now supports real-time vector search",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search",
+    "description": "Today, AWS announces the general availability of vector search for Amazon DynamoDB, a new feature to index and search vectors in real time. As vector datasets grow into the billions or trillions, vector search at scale traditionally trades off search...",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T16:59:00+00:00"
+  },
+  {
+    "title": "AWS Glue Data Catalog now supports  metadata exports to S3 Tables (Preview)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/",
+    "description": "AWS Glue Data Catalog is a centralized metadata repository that helps you discover and understand data, with semantic search and support for adding business context to datasets currently in preview. Today, we are adding two new capabilities to this p...",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T15:42:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center makes management of AWS account access optional for new organization instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-identity-center-accounts-optional/",
+    "description": "AWS IAM Identity Center now lets you decide whether to enable management of AWS account access when you create a new organization instance. This allows you to use IAM Identity Center to manage access to AWS applications only, without the need to mana...",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T15:12:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling",
+    "description": "Amazon Aurora serverless now delivers higher initial capacity during scale-up events, reaching up to 12 ACUs within a second and continuing to scale up to 256 ACUs as your workload grows. When the workload finishes, Aurora serverless automatically sc...",
+    "provider": "AWS",
+    "timestamp": "2026-08-05T15:00:00+00:00"
+  },
+  {
+    "title": "August 05, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
+    "description": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP metrics into Cloud Monitoring by using an\nOpenTelemetry Collector, an OTLP exporter, and the Telemetry API. For more\ninformation, se...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-05T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: SharePoint Connector for Azure Databricks",
+    "link": "https://azure.microsoft.com/updates?id=568905",
+    "description": "The SharePoint connector for Azure Databricks is now generally\navailable. Organizations can use Lakeflow Connect to ingest files from\nSharePoint into Azure Databricks, helping unify enterprise content with data\nand AI workflows on Azure. The connecto...",
+    "provider": "Azure",
+    "timestamp": "2026-08-05T22:34:02+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Unity AI Gateway on Azure Databricks",
+    "link": "https://azure.microsoft.com/updates?id=568910",
+    "description": "Unity AI Gateway is now generally available on Azure Databricks.\nUnity AI Gateway provides centralized governance for AI models, agents, tools,\nand MCP services, helping organizations monitor usage, manage costs, apply\nguardrails, and enforce access ...",
+    "provider": "Azure",
+    "timestamp": "2026-08-05T22:32:45+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Explicit proxy in Azure Firewall",
+    "link": "https://azure.microsoft.com/updates?id=568825",
+    "description": "Azure Firewall explicit proxy is now\ngenerally available. Explicit proxy enables customers to configure applications\nand browsers to send HTTP and HTTPS traffic directly to Azure Firewall using\nproxy settings, providing an alternative to route-based ...",
+    "provider": "Azure",
+    "timestamp": "2026-08-05T14:54:08+00:00"
+  },
+  {
+    "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
+    "link": "https://www.databricks.com/blog/introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning",
+    "description": "Today, we are releasing OfficeQA Pro V2, a new benchmark designed to evaluate whether...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-06T16:00:00+00:00"
+  },
+  {
+    "title": "BigQuery to Databricks: A Strategic Framework for Modern Migration",
+    "link": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework-modern-migration",
+    "description": "Migration as a strategic evolutionBigQuery is often the standard for starting fast, but for many enterprises...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-06T13:00:00+00:00"
+  },
+  {
+    "title": "v0.1.10",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.10",
+    "description": "Release v0.1.10",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-08-05T18:10:41+00:00"
   }
 ]
