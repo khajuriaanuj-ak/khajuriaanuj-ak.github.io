@@ -17106,5 +17106,208 @@
     "description": "Release v0.1.10",
     "provider": "Google Antigravity",
     "timestamp": "2026-08-05T18:10:41+00:00"
+  },
+  {
+    "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+    "description": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T22:58:00+00:00"
+  },
+  {
+    "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now supports fractional GPU scheduling with Amazon EC2 G6f instances, enabling you to run your workloads on GPU partitions as small as one-eighth of an NVIDIA L4 Tensor Core GPU with 3 GB of GPU memory. F...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T22:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/",
+    "description": "AWS Lambda console now extends its console-to-IDE integration to support Kiro and Cursor IDEs. This expansion builds on the existing console-to-IDE transition for Visual Studio Code (VS Code), providing a seamless transition between cloud and local d...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T21:53:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 G7 instances are now available in the AWS Europe (Spain) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-g7-available-spain",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) G7 instances powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs are now available in Europe (Spain) Region. G7 instances deliver up to 4.6x AI inference performance and up to 2.1 graphics performanc...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T20:51:00+00:00"
+  },
+  {
+    "title": "AgentCore runtime instances are now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-bedrock-agentcore-runtime-instances-generally-available/",
+    "description": "Today, AWS announces runtime instances, a new feature in Amazon Bedrock AgentCore that lets you run agents on your own Amazon EC2 instances without managing infrastructure. AgentCore runtime provides purpose-built infrastructure to deploy and operate...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/",
+    "description": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn node families for Valkey and Memcached. Graviton4-based nodes provide up to 47% higher throughput, up to 43% lower P99 latency, and up to 31% better price-performance for on-demand pr...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T19:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue Schema Registry is now available in ten more AWS regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions",
+    "description": "You can now use the AWS Glue Schema Registry, a serverless and free feature of AWS Glue, in the Asia Pacific (New Zealand), Asia Pacific (Thailand), Asia Pacific (Hyderabad), Asia Pacific (Osaka), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Me...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T18:56:00+00:00"
+  },
+  {
+    "title": "AWS Security Agent now supports email-based MFA for penetration testing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-security-agent-mfa/",
+    "description": "AWS Security Agent (now part of AWS Continuum) now enables penetration testing of applications that use email-based multi-factor authentication (MFA) as part of their login flow. Previously, applications requiring one-time codes or verification links...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T16:54:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now provides visibility into storage volume initialization status",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-storage-volume-initialization-visibility",
+    "description": "Amazon RDS now provides visibility into the initialization status of database storage volumes created from snapshots. You can use this status to determine when your storage is fully initialized after a restore and is ready to support latency-sensitiv...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces now publishes enhanced observability metrics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-observability-metrics",
+    "description": "Amazon WorkSpaces now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their virtual desktop workloads. These new metrics span network performance, compute and...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces Applications now publishes enhanced observability metrics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-observability-metrics",
+    "description": "Amazon WorkSpaces Applications now publishes additional performance and session health metrics to Amazon CloudWatch, enabling IT administrators to gain deeper visibility into their application streaming workloads. These new metrics span network perfo...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon MSK now delivers Kafka Authorizer Logs to customers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-kafka-authorizer-logs/",
+    "description": "Amazon Managed Streaming for Apache Kafka (MSK) now supports Authorizer Log Delivery for Provisioned clusters, including both Standard and Express brokers, at no additional cost. With authorizer logs, you get detailed visibility into user and applica...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon SES now helps identify automated open and click events in event notifications",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/",
+    "description": "Amazon Simple Email Service (SES) now helps you identify automated email interactions. Open and Click event notifications now include an isBotEvent field that indicates whether the event was likely triggered by an automated system or a human recipien...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-logically-air-gapped-vault-neptune-regions/",
+    "description": "AWS Backup logically air-gapped vault support for Amazon Neptune is now available in three additional AWS Regions: Asia Pacific (Melbourne), Europe (Spain), and Europe (Zurich). \nWith this expansion, you can store Neptune backups in logically air-gap...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick supports multi-dataset analytical capabiity",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick/",
+    "description": "Today, Amazon Quick announces supporting multi-dataset topics, enabling users to model relationships across multiple datasets in a single topic and use that model to build dashboards and answer questions in natural language. Previously, answering a q...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T06:54:00+00:00"
+  },
+  {
+    "title": "Announcing temporal policies and rate limiting in Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/temporal-policies-agentcore/",
+    "description": "Amazon Bedrock AgentCore announces two new controls: temporal policies for stateful agent authorization and rate limiting for AI traffic. \nTemporal policies let you define stateful authorization rules that evaluate each request in the context of an a...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T04:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8g instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-m8g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in AWS Asia Pacific (Taipei), and AWS Mexico (Central) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance com...",
+    "provider": "AWS",
+    "timestamp": "2026-08-06T00:27:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Studio notebooks now support G7 instance types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/g7-new-launch-sagemaker-studio-notebooks/",
+    "description": "Amazon G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, deliver up to 4.6x AI inference performance compared to previous-generation G6 instances. Whether you are deploying conversational AI assistants, scaling video streami...",
+    "provider": "AWS",
+    "timestamp": "2026-08-03T20:24:00+00:00"
+  },
+  {
+    "title": "August 06, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
+    "description": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quantum-safe import methods:\n\nHPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_768_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM_1024_...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-06T00:00:00-07:00"
+  },
+  {
+    "title": "Announcing:  Azure Databricks Genie One and Genie Agents Free Usage Extended Through January 31, 2027",
+    "link": "https://azure.microsoft.com/updates?id=568964",
+    "description": "Free usage of Genie One and Genie Agents in Azure Databricks is now extended through January 31, 2027, from the previous end date of July 31, 2026. Budget controls do not apply to these products during the promotional period. The promotion covers usa...",
+    "provider": "Azure",
+    "timestamp": "2026-08-06T19:41:52+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
+    "link": "https://azure.microsoft.com/updates?id=567979",
+    "description": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without deploying or managing a migra...",
+    "provider": "Azure",
+    "timestamp": "2026-08-06T16:40:19+00:00"
+  },
+  {
+    "title": "What are Agentic Workflows?",
+    "link": "https://www.databricks.com/blog/agentic-workflows",
+    "description": "As organizations move beyond single-prompt AI interactions, agentic workflows are...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-06T21:36:15+00:00"
+  },
+  {
+    "title": "What is Tool Calling?",
+    "link": "https://www.databricks.com/blog/what-is-tool-calling",
+    "description": "Tool calling is the ability of an AI model to interact with external tools, APIs,...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-06T21:31:30+00:00"
+  },
+  {
+    "title": "Kimi K3 from Moonshot AI is now available on Databricks through Unity AI Gateway",
+    "link": "https://www.databricks.com/blog/kimi-k3-moonshot-ai-now-available-databricks-through-unity-ai-gateway",
+    "description": "A year ago, the best open-weight models trailed their proprietary counterparts by...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-06T15:50:57+00:00"
+  },
+  {
+    "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+    "link": "https://openai.com/index/hsp-gruppe",
+    "description": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-07T09:00:00+00:00"
+  },
+  {
+    "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+    "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "description": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-06T10:00:00+00:00"
+  },
+  {
+    "title": "Working with the American Psychological Association on youth mental health and AI",
+    "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "description": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-06T06:00:00+00:00"
+  },
+  {
+    "title": "From asking to doing: How the world is putting ChatGPT to work",
+    "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "description": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-06T00:00:00+00:00"
+  },
+  {
+    "title": "Improving Fable 5's biology safeguards",
+    "link": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+    "description": "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-rela...",
+    "provider": "Anthropic",
+    "timestamp": "2026-08-06T16:00:00+00:00"
   }
 ]
