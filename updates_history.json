@@ -17449,5 +17449,138 @@
     "description": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
     "provider": "OpenAI",
     "timestamp": "2026-08-10T12:00:00+00:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/",
+    "description": "Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T15:45:03+00:00"
+  },
+  {
+    "title": "FLUX.2-small-decoder and gemma-4-12B-it models now available on Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/flux.2-small-decoder-gemma-4-12B-it-on-sagemaker-jumpstart/",
+    "description": "Black Forest Labs' FLUX.2-small-decoder and Google's gemma-4-12B-it models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models bring specialized capabilities spann...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T23:08:00+00:00"
+  },
+  {
+    "title": "langcache-embed-v3-small, Mellum2-12B-A2.5B-Thinking, and LightOnOCR-2-1B models now available on Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/langcache-embed-v3-small-mellum2-12B-A2.5B-thinking-lightOnOCR-2-1B-on-sagemaker-jumpstart/",
+    "description": "Redis's langcache-embed-v3-small, JetBrains' Mellum2-12B-A2.5B-Thinking, and LightOn's LightOnOCR-2-1B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T23:05:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7i instances now available in AWS South America (São Paulo) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-south-america",
+    "description": "Amazon EC2 High Memory U7in-24TB instances (u7in-24tb.224xlarge) are now available in AWS South America (São Paulo) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (S...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T23:02:00+00:00"
+  },
+  {
+    "title": "GLM-5.2 FP8, NVIDIA-Nemotron-Nano-12B-v2 and GLM-OCR models now available on Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/glm-5.2-fp8-nemotron-nano-12b-v2-glm-ocr-on-sagemaker-jumpstart/",
+    "description": "Z.ai's GLM-5.2 FP8, NVIDIA's Nemotron-Nano-12B-v2, and Z.ai's GLM-OCR models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models bring specialized capabilities s...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T23:02:00+00:00"
+  },
+  {
+    "title": "Amazon GameLift Streams Now Offers Service-managed Shader Caching",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/Amazon-GameLift-Streams-Shader-Caching/",
+    "description": "Amazon GameLift Streams now manages shader cache capture and distribution for your applications. You capture a shader cache from a stream session, and the service automatically makes it available for future sessions across your streaming locations. N...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T21:15:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/",
+    "description": "The next generation of Amazon OpenSearch Serverless now supports up to 10,000 collections within a single collection group, increased from the previous limit of 1,500. Collection groups organize multiple collections and enable them to share OpenSearc...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T15:51:00+00:00"
+  },
+  {
+    "title": "August 10, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_10_2026",
+    "description": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, eu, and global multi-regional\nendpoints. You can use these models in all generative AI functions.\nFor information about h...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-10T00:00:00-07:00"
+  },
+  {
+    "title": "Modern Risk Demands a Real-Time Foundation: The CRO’s Mandate",
+    "link": "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate",
+    "description": "In a volatile macroeconomic environment, enterprise risk management today is constrained...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-11T12:30:00+00:00"
+  },
+  {
+    "title": "Electric joins Databricks to bring WASM Postgres to AI agent sandboxes",
+    "link": "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes",
+    "description": "Today, we’re excited to welcome Electric to Databricks. The world is building a new...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-11T07:00:00+00:00"
+  },
+  {
+    "title": "How to ground Genie Agents in both structured data and documents without losing governance",
+    "link": "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
+    "description": "Building an agent to automate simple business tasks can be easy. But creating one...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-10T23:08:50+00:00"
+  },
+  {
+    "title": "Innocent until combined: Blocking the lethal trifecta with Omnigent Contextual Policies",
+    "link": "https://www.databricks.com/blog/innocent-until-combined-blocking-lethal-trifecta-omnigent-contextual-policies",
+    "description": "In earlier posts, we introduced contextual policies in Omnigent, showed them blocking...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-10T18:30:00+00:00"
+  },
+  {
+    "title": "Introducing FILE type: a native column type for multimodal data",
+    "link": "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data",
+    "description": "Your data estate holds far more than structured tables, metrics, and transaction...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-10T15:00:00+00:00"
+  },
+  {
+    "title": "What building an AI-native finance function taught me",
+    "link": "https://openai.com/index/building-an-ai-native-finance-function",
+    "description": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-10T17:00:00+00:00"
+  },
+  {
+    "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+    "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+    "description": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-10T10:00:00+00:00"
+  },
+  {
+    "title": "Putting frontier cyber models in more trusted hands",
+    "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+    "description": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-10T10:00:00+00:00"
+  },
+  {
+    "title": "Premium seats are coming to ChatGPT Business",
+    "link": "https://openai.com/index/premium-seats-chatgpt-business",
+    "description": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-10T00:00:00+00:00"
+  },
+  {
+    "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+    "link": "https://openai.com/index/zapier",
+    "description": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-10T00:00:00+00:00"
+  },
+  {
+    "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+    "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+    "description": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-10T00:00:00+00:00"
   }
 ]
