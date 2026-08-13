@@ -398,5 +398,15 @@
     "tailwindScore": 9.3,
     "baseReason": "A leading vendor of electronic design automation (EDA) software and semiconductor IP, foundational for the design, verification, and manufacturing of the most advanced AI processors and specialized computing hardware across various industries.",
     "expertStrategy": "Synopsys stands as a crucial enabler for the next generation of AI hardware, offering the essential tools that allow companies to innovate and produce highly specialized AI chips. Its strategic position at the forefront of semiconductor design technology provides a resilient growth trajectory driven by the insatiable demand for more powerful and efficient AI compute, from data centers to edge devices."
+  },
+  {
+    "name": "Ringcentral, Inc.",
+    "ticker": "RNG",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software / AI-Powered Communication & Collaboration",
+    "moatScore": 6.5,
+    "tailwindScore": 8.0,
+    "baseReason": "RingCentral leverages its established leadership in Unified Communications as a Service (UCaaS) and Contact Center as a Service (CCaaS) to integrate advanced AI capabilities directly into critical enterprise workflows, offering significant productivity gains and enhanced customer experiences. This creates strong customer stickiness within business operations.",
+    "expertStrategy": "RingCentral is strategically positioned to capitalize on the increasing demand for AI-native enterprise communication and contact center solutions. By embedding AI across its platform—from intelligent routing and agent assist in CCaaS to meeting summarization and virtual assistants in UCaaS—RNG differentiates its offerings and provides tangible value to enterprises seeking operational efficiency and improved customer satisfaction. The investment thesis centers on its ability to monetize these AI enhancements, expand its market share within the competitive enterprise communications space, and drive continued subscription growth."
   }
 ]

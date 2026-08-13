@@ -17694,5 +17694,131 @@
     "description": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
     "provider": "OpenAI",
     "timestamp": "2026-08-11T10:00:00+00:00"
+  },
+  {
+    "title": "AWS Global View now offers an interactive map view for AWS Regions and AWS Local Zones",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-global-view-map-view/",
+    "description": "Today, AWS announces the addition of an interactive map view to AWS Global View in the AWS Management Console, providing a visual way to explore AWS Global Infrastructure. \nPreviously, customers had to scan through a list of AWS locations in AWS Glob...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T22:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM now provides role manager to set up IAM roles automatically",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-role-manager",
+    "description": "Today, AWS announces the general availability of role manager, a capability in AWS Identity and Access Management (IAM) that automatically sets up the IAM roles your AWS services need. When you set up a supported service in the console, role manager ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick adds deny by default for custom permissions",
+    "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-deny-by-default-permissions/",
+    "description": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users.  Previously, new AI capabilities were available to all users on release, requiring administrat...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T17:15:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer supports manual assignment of queued agent-first callbacks",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-agent-callbacks/",
+    "description": "Amazon Connect Customer now lets agents view and self-assign queued agent-first callbacks alongside emails, tasks, and chats. This gives agents the option to prioritize work that needs immediate follow-up or for which they already have relevant conte...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T17:15:00+00:00"
+  },
+  {
+    "title": "Amazon Quick agentic AI capabilities are now available in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-aws-govcloud-us-west/",
+    "description": "Today, AWS announces that Amazon Quick's agentic AI capabilities are now available in AWS GovCloud (US-West), bringing an agentic AI teammate to government and regulated-industry teams within an isolated, FedRAMP Class D (formerly High) authorized en...",
+    "provider": "AWS",
+    "timestamp": "2026-08-11T23:00:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace now supports category-based notification subscriptions and multi-channel delivery for buyers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-managed-buyer-notifications/",
+    "description": "AWS Marketplace buyers can now configure category-based notifications and multi-channel delivery through AWS User Notifications. Previously, buyer email notifications were limited to the AWS account root email with no way to choose which categories y...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T21:00:12+00:00"
+  },
+  {
+    "title": "August 13, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
+    "description": "Data Studio\nFeature\nFullscreen charts\nYou can view individual charts in fullscreen mode. Click the fullscreen\nbutton in the chart header to expand the chart. This feature is not available\nfor scorecards and gauge charts.\nFeature\nRotate components\nYou...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-13T00:00:00-07:00"
+  },
+  {
+    "title": "July 31, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
+    "description": "Access Approval\nFeature\nApp Topology (including One Graph) is generally available\n(GA).\nAccess Transparency\nFeature\nApp Topology (including One Graph) is generally available\n(GA).\nApigee hybrid\nAnnouncement\nv1.15.7\nOn July 31, 2026 we released an upd...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-31T00:00:00-07:00"
+  },
+  {
+    "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
+    "link": "https://azure.microsoft.com/updates?id=568457",
+    "description": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will stop sending SAP logs to Microsoft Sentinel.The SAP ...",
+    "provider": "Azure",
+    "timestamp": "2026-08-12T19:41:20+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Batch rule updates for Azure Front Door",
+    "link": "https://azure.microsoft.com/updates?id=569246",
+    "description": "Batch rule updates are now generally\navailable for Azure Front Door Standard and Premium. This capability enables\ncustomers to add, update, delete, or reorder multiple rules in a rule set as a\ncoordinated operation, ensuring that all changes are appl...",
+    "provider": "Azure",
+    "timestamp": "2026-08-12T17:03:08+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Markdown for Agents in Azure App Service",
+    "link": "https://azure.microsoft.com/updates?id=568979",
+    "description": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markdown, App Service can automatic...",
+    "provider": "Azure",
+    "timestamp": "2026-08-12T16:38:31+00:00"
+  },
+  {
+    "title": "Databricks Network Configuration delivery to Tens of Millions of Serverless VMs",
+    "link": "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms",
+    "description": "SummaryDatabricks' serverless platform launches tens of millions of VMs daily, and...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-12T20:00:00+00:00"
+  },
+  {
+    "title": "How Amtrak is building the data backbone for its largest transformation in over 50 years",
+    "link": "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years",
+    "description": "\"Every new trainset is a data-generating asset. The intelligence platform that connects...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-12T19:45:00+00:00"
+  },
+  {
+    "title": "How a major freight railroad scaled pipeline creation with Genie Code",
+    "link": "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code",
+    "description": "One of Canada’s largest railway networks spans roughly 20,000 route miles across...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-12T16:35:18+00:00"
+  },
+  {
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "link": "https://openai.com/index/ringcentral",
+    "description": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-12T00:00:00+00:00"
+  },
+  {
+    "title": "How data science teams use ChatGPT Work",
+    "link": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+    "description": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-14T00:00:00+00:00"
+  },
+  {
+    "title": "How sales teams use ChatGPT Work",
+    "link": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+    "description": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+    "provider": "OpenAI",
+    "timestamp": "2026-07-14T00:00:00+00:00"
+  },
+  {
+    "title": "How business operations teams use ChatGPT Work",
+    "link": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
+    "description": "See how business operations teams can use ChatGPT Work to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs",
+    "provider": "OpenAI",
+    "timestamp": "2026-05-15T00:00:00+00:00"
   }
 ]
