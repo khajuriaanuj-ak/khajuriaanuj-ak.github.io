@@ -17820,5 +17820,152 @@
     "description": "See how business operations teams can use ChatGPT Work to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs",
     "provider": "OpenAI",
     "timestamp": "2026-05-15T00:00:00+00:00"
+  },
+  {
+    "title": "Claude Opus 5 is now available in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-opus-5-aws-govcloud/",
+    "description": "AWS GovCloud (US) now offers Claude Opus 5 — the most advanced Opus model yet, and compatible with zero data retention (ZDR) — bringing a step-change in coding, long-running agents, and complex professional work to teams building at the highest level...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T18:23:00+00:00"
+  },
+  {
+    "title": "Amazon Quick Microsoft 365 extensions are now generally available",
+    "link": "https://aws.amazon.com/amazon-quick-microsoft-365-extensions-generally-available",
+    "description": "Today, Amazon Quick announces the general availability of Microsoft 365 extensions for Excel, PowerPoint, Word, and Outlook. These extensions enable Quick to perform tasks directly within users' M365 environments, using AI to handle complex local tas...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T18:00:00+00:00"
+  },
+  {
+    "title": "Spot Placement Score now includes Local Zones",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/spot-placement-score-local-zones/",
+    "description": "Today, AWS announces support for AWS Local Zones in Spot placement score, helping you identify locations where your Spot capacity request is most likely to succeed. Spot placement score evaluates your target capacity and compute requirements and retu...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T17:13:00+00:00"
+  },
+  {
+    "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/",
+    "description": "Security teams can now access Daybreak Red and Daybreak Blue from OpenAI on Amazon Bedrock. Both are part of Daybreak, the cyber defense initiative from OpenAI that gives defenders governed access to frontier AI for cybersecurity work. \nDaybreak Blue...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T16:12:00+00:00"
+  },
+  {
+    "title": "AWS Certificate Manager supports switching from e-mail to DNS validation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/AWS-Certificate-Manager-Email-DNS-Switch",
+    "description": "AWS Certificate Manager (ACM) now enables you to change the domain validation method on your existing ACM issued public TLS certificates from e-mail to DNS, without reissuing the certificate or changing its existing Amazon Resource Name (ARN).&nbsp;D...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 adds additional policy details to access denied error messages",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/",
+    "description": "Amazon S3 now includes the specific AWS Identity and Access Management (IAM) and AWS Organizations policy Amazon Resource Name (ARN) in HTTP 403 Access Denied error messages for same-account and same-organization requests. This helps you quickly iden...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick now supports approval policies for sharing",
+    "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-approval-policies-sharing/",
+    "description": "Amazon Quick now offers approval policies, giving administrators governance controls over how assets are shared within their organization. With approval policies, administrators can require designated approvers to review and approve share requests be...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T22:22:00+00:00"
+  },
+  {
+    "title": "Amazon Quick now supports per-user resource limits",
+    "link": "https://aws.amazon.com/whats-new/2026/08/amazon-quick-per-user-resource-limits/",
+    "description": "Amazon Quick now enables administrators to set per-user limits on index storage and agent hours, giving them direct control over subscription costs. With limits management, administrators can create limit profiles that cap per-user consumption, helpi...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T22:17:00+00:00"
+  },
+  {
+    "title": "Amazon Nova Multimodal Embeddings is now available in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-nova-mme-govcloud/",
+    "description": "We are excited to announce the general availability of Amazon Nova Multimodal Embeddings, a state-of-the-art embedding model for agentic RAG and semantic search, in AWS GovCloud (US-West). It is the first unified embedding model that supports text, d...",
+    "provider": "AWS",
+    "timestamp": "2026-08-12T14:34:00+00:00"
+  },
+  {
+    "title": "July 15, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#July_15_2026",
+    "description": "Access Approval\nFeature\nFirebase App Hosting is available in\nPreview.\nAccess Transparency\nFeature\nFirebase App Hosting is available in\nPreview.\nApigee UI\nFixed\nApigee UI\nFixed an issue where editing a legacy API Product with a selected API Proxy\ncoul...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-07-15T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
+    "link": "https://azure.microsoft.com/updates?id=568830",
+    "description": "Control plane metrics collection for Azure Kubernetes Service (AKS), powered by Azure Monitor Managed Service for Prometheus, is now generally available.This capability gives AKS customers native observability into key managed control plane component...",
+    "provider": "Azure",
+    "timestamp": "2026-08-13T16:19:56+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Live Resize for Shared Premium SSD v2 and Ultra Data Disks",
+    "link": "https://azure.microsoft.com/updates?id=569281",
+    "description": "We’re excited to announce the GA\nof Live Resize for shared Premium\nSSD v2 (Pv2) and Ultra data disks. This feature allows you to dynamically\nexpand the storage capacity of your disks without any disruption to your\napplications. To optimize costs, you...",
+    "provider": "Azure",
+    "timestamp": "2026-08-13T16:17:41+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Pre-upgrade validation checks for Azure Database for PostgreSQL Flexible Server",
+    "link": "https://azure.microsoft.com/updates?id=568419",
+    "description": "Pre-upgrade validation checks are now generally available for Azure Database for PostgreSQL flexible server, helping you proactively validate major version upgrade (MVU) readiness before initiating the actual upgrade process. With the general availab...",
+    "provider": "Azure",
+    "timestamp": "2026-08-13T16:13:22+00:00"
+  },
+  {
+    "title": "How Scottish Water Made Its Capital Investment Data Conversational With Databricks Genie",
+    "link": "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie",
+    "description": "Across Scottish Water’s Capital Investment (CI) programme, teams need fast answers...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-13T21:00:00+00:00"
+  },
+  {
+    "title": "What are AI Hallucinations?",
+    "link": "https://www.databricks.com/blog/ai-hallucinations",
+    "description": "AI hallucinations are outputs that sound coherent and confident but are factually wrong, fabricated...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-13T19:35:16+00:00"
+  },
+  {
+    "title": "Smart Routing in Unity AI Gateway: Match frontier quality with 30%+ lower cost per task",
+    "link": "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task",
+    "description": "The price and performance frontier for coding tasks features a huge diversity of models and harnesses: in 2026 alone...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-13T17:52:04+00:00"
+  },
+  {
+    "title": "The builder’s guide to GPT‑5.6",
+    "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "description": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-13T11:00:00+00:00"
+  },
+  {
+    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+    "link": "https://openai.com/index/previewing-ultrafast",
+    "description": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-13T10:00:00+00:00"
+  },
+  {
+    "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+    "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+    "description": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-13T09:00:00+00:00"
+  },
+  {
+    "title": "v0.1.12",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.12",
+    "description": "Release v0.1.12",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-08-13T23:27:51+00:00"
+  },
+  {
+    "title": "v0.1.11",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.11",
+    "description": "Release v0.1.11",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-08-13T16:50:02+00:00"
   }
 ]
