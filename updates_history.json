@@ -17967,5 +17967,61 @@
     "description": "Release v0.1.11",
     "provider": "Google Antigravity",
     "timestamp": "2026-08-13T16:50:02+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments...",
+    "provider": "AWS",
+    "timestamp": "2026-08-14T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking",
+    "description": "Amazon Simple Email Service (SES)&nbsp;now makes it easier to support mobile deep linking with the new ses:custom-path HTML attribute. When you add this attribute to an &lt;a&gt; tag, SES carries your path segment through to the tracking URL, so mobi...",
+    "provider": "AWS",
+    "timestamp": "2026-08-14T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/",
+    "description": "Amazon Redshift now offers rg.large and rg.12xlarge instance sizes for RG instances in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x a...",
+    "provider": "AWS",
+    "timestamp": "2026-08-13T19:34:00+00:00"
+  },
+  {
+    "title": "August 15, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_15_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.97 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-15T00:00:00-07:00"
+  },
+  {
+    "title": "August 14, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_14_2026",
+    "description": "App Engine flexible environment .NET\nFeature\nTo improve security, starting in August 2026, App Engine opts your application into TLS version 1.2 and later. You can opt out until the end of August 2026. Starting in September 2026, App Engine might per...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-14T00:00:00-07:00"
+  },
+  {
+    "title": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
+    "link": "https://azure.microsoft.com/updates?id=569353",
+    "description": "Azure Databricks Runtime\n10.4 LTS, a Databricks-managed runtime available on Azure Databricks, reached\nend of support on March 18, 2025 and will reach end of life on November 1, 2026. After this date,\nDatabricks Runtime 10.4 LTS will no longer be ava...",
+    "provider": "Azure",
+    "timestamp": "2026-08-14T17:43:51+00:00"
+  },
+  {
+    "title": "Using AI_Functions in Your Data Warehouse: Top Use Cases",
+    "link": "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases",
+    "description": "In most organizations, data warehouses hold structured data, while unstructured data...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-14T21:30:00+00:00"
+  },
+  {
+    "title": "How Claude’s text watermark works",
+    "link": "https://www.anthropic.com/news/claude-text-watermark",
+    "description": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply w...",
+    "provider": "Anthropic",
+    "timestamp": "2026-08-11T16:00:00+00:00"
   }
 ]
