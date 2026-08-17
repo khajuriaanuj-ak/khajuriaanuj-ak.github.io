@@ -18030,5 +18030,26 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
     "provider": "Google Cloud",
     "timestamp": "2026-08-16T00:00:00-07:00"
+  },
+  {
+    "title": "The Defender’s Window",
+    "link": "https://openai.com/index/the-defenders-window",
+    "description": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-17T05:30:00+00:00"
+  },
+  {
+    "title": "OpenAI joins PORTS-Pike project",
+    "link": "https://openai.com/index/openai-joins-ports-pike-project",
+    "description": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-17T05:00:00+00:00"
+  },
+  {
+    "title": "New policy ideas for the Intelligence Age",
+    "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+    "description": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-17T03:15:00+00:00"
   }
 ]
