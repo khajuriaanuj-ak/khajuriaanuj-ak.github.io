@@ -18352,5 +18352,173 @@
     "description": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
     "provider": "OpenAI",
     "timestamp": "2026-08-18T07:00:00+00:00"
+  },
+  {
+    "title": "Launching External Web Access for Web Search on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/",
+    "description": "Earlier this month, we announced Web Search on Amazon Bedrock, a built-in server-side tool that allows you to ground model responses with current web knowledge, while maintaining data within your secured AWS environment with zero data egress. Today, ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T23:00:00+00:00"
+  },
+  {
+    "title": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/",
+    "description": "Web Search in Amazon Bedrock AgentCore now supports domain filtering and published-date filtering, giving agents per-request control over which web sources and time windows they search. Amazon Bedrock AgentCore provides the infrastructure to build, c...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T22:55:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker notebooks now support trusted identity propagation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/",
+    "description": "Amazon SageMaker Notebooks now support Trusted Identity Propagation (TIP) with Amazon Athena, Amazon Redshift, and Amazon EMR Serverless, enabling per-user access control for data analytics. \nWhen connected to a TIP-enabled compute in a TIP-enabled P...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T20:25:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch pipelines adds GeoIP, RDS, and XML processors",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/",
+    "description": "Amazon CloudWatch pipelines now includes three new processors that parse and enrich log data as it's ingested: an Amazon RDS log parser, an XML parser and a GeoIP enrichment processor. CloudWatch pipelines is a fully managed service that ingests, tra...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T20:13:00+00:00"
+  },
+  {
+    "title": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/",
+    "description": "AWS Cost Anomaly Detection now monitors spend on third-party foundation models running on Amazon Bedrock, such as Anthropic Claude and other provider-hosted models. Cost Anomaly Detection uses machine learning to detect and alert on unusual spend, an...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T17:57:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Ingestion is now available in GovCloud Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions",
+    "description": "Starting today, customers can use Amazon OpenSearch Ingestion in AWS GovCloud (US-East) and AWS GovCloud (US-West), for ingesting data into their Amazon OpenSearch Service managed clusters or serverless collections.  Amazon OpenSearch Ingestion is a ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T17:54:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace launches support for Amazon Lightsail",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-marketplace-launch-ami-amazon-lightsail",
+    "description": "Today, AWS Marketplace announces support for launching select Amazon Machine Images (AMIs) on Amazon Lightsail. Customers who want simple, predictable pricing and a streamlined instance-creation experience can now easily deploy eligible AWS Marketpla...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T17:04:00+00:00"
+  },
+  {
+    "title": "AWS announces a new Availability Zone in the Europe (London) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-new-availability-zone-europe/",
+    "description": "AWS has added a fourth Availability Zone to the Europe (London) Region (eu-west-2), expanding infrastructure capacity to meet growing demand for cloud compute in the Region. The new Availability Zone delivers next-generation AI and ML capacity, inclu...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions",
+    "description": "AWS Lambda MicroVMs is now available in 5 additional AWS Regions: Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Europe (Frankfurt), and Europe (Stockholm). With this launch, you can use Lambda MicroVMs in a total of 10 AWS R...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T16:14:00+00:00"
+  },
+  {
+    "title": "Amazon Quick adds deny by default for custom permissions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-quick-deny-by-default/",
+    "description": "Amazon Quick custom permissions now include deny by default, a governance setting that automatically restricts new AI capabilities before they reach users.  Previously, new AI capabilities were available to all users on release, requiring administrat...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T15:36:00+00:00"
+  },
+  {
+    "title": "AWS IAM now supports 20 managed policies per role by default",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/",
+    "description": "AWS Identity and Access Management (IAM) has increased the default quota for managed policies per role from 10 to 20. \nThis higher default quota reduces the need to make Service Quota requests when following IAM best practices like separating permiss...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T15:00:00+00:00"
+  },
+  {
+    "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Tape and Volume Gateway",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/storage-gateway-fips-privatelink/",
+    "description": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Tape Gateway and Volume Gateway. Previously, FIPS endpoints were available only over the public internet. Now you can keep FIPS-compliant traffic on the private ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8a-asia-pacific-taipei/",
+    "description": "Starting today, Amazon EC2 R8a instances are now available in Asia Pacific (Taipei) Region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, an...",
+    "provider": "AWS",
+    "timestamp": "2026-08-19T07:51:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 High Memory U7i instances now available in AWS Europe (Zurich) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-high-memory-u7i-aws-europe/",
+    "description": "Amazon EC2 High Memory U7i-6TB instances (u7i-6tb.112xlarge) are now available in AWS Europe (Zurich) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids...",
+    "provider": "AWS",
+    "timestamp": "2026-08-18T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon MSK now supports in-place migration from Apache ZooKeeper to KRaft",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-msk-zk-kraft-migration/",
+    "description": "Amazon Managed Streaming for Apache Kafka (Amazon MSK) now supports in-place migration from Apache ZooKeeper to KRaft, enabling customers to migrate existing clusters to KRaft without provisioning new infrastructure, migrating data, or reconfiguring ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-10T17:00:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
+    "link": "https://azure.microsoft.com/updates?id=569684",
+    "description": "Lakebase is now generally available in four additional Azure regions: North Central US, France Central, Germany West Central, and East Asia. This expansion provides customers with additional deployment options and broader regional availability for La...",
+    "provider": "Azure",
+    "timestamp": "2026-08-19T21:04:18+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure SQL updates for mid-August 2026",
+    "link": "https://azure.microsoft.com/updates?id=569145",
+    "description": "In mid-August 2026, the following updates and enhancements were made to Azure SQL: You can customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—without leaving your editor. Shortcut...",
+    "provider": "Azure",
+    "timestamp": "2026-08-19T21:01:47+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: SQL Formatter in MSSQL extension",
+    "link": "https://azure.microsoft.com/updates?id=569155",
+    "description": "With SQL Formatter, you can format SQL scripts directly in your editor for cleaner, more consistent, and readable code. Now in public preview, it includes more customizable formatting options to match your preferred coding style and streamline develo...",
+    "provider": "Azure",
+    "timestamp": "2026-08-19T21:00:19+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure SQL Database provisioning in MSSQL extension",
+    "link": "https://azure.microsoft.com/updates?id=569160",
+    "description": "With Azure SQL Database provisioning, you can create and connect to a fully managed cloud database directly from your editor—at no cost. Now generally available, the feature also includes ready-to-use Azure Resource Manager (ARM), Bicep, and Terrafor...",
+    "provider": "Azure",
+    "timestamp": "2026-08-19T20:59:19+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: vCore Customization: Disable Multithreading and Configurable Constrained Cores",
+    "link": "https://azure.microsoft.com/updates?id=569051",
+    "description": "Today, we are announcing the General Availability of VM vCore Customization for Azure Virtual Machines, introducing two new capabilities: Disable Simultaneous Multi-Threading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features...",
+    "provider": "Azure",
+    "timestamp": "2026-08-19T17:20:42+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
+    "link": "https://azure.microsoft.com/updates?id=569515",
+    "description": "Azure Site Recovery now lets you use and attach an existing, pre-provisioned Network Interface Card (NIC) in the target region for test-failover and failover in the Azure-to-Azure scenario. This helps preserve prepared networking configurations, rese...",
+    "provider": "Azure",
+    "timestamp": "2026-08-19T16:36:30+00:00"
+  },
+  {
+    "title": "Designing effective Genie Agents from a single prompt",
+    "link": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
+    "description": "Ask a generic agent about revenue, and it’ll likely grab the first revenue table...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-19T16:00:00+00:00"
+  },
+  {
+    "title": "Offering Zero Data Retention for frontier models",
+    "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "description": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-19T19:00:00+00:00"
+  },
+  {
+    "title": "Replit expands access to software creation with GPT-5.6 Luna",
+    "link": "https://openai.com/index/replit",
+    "description": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-19T07:00:00+00:00"
   }
 ]
