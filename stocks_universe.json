@@ -408,5 +408,15 @@
     "tailwindScore": 8.0,
     "baseReason": "RingCentral leverages its established leadership in Unified Communications as a Service (UCaaS) and Contact Center as a Service (CCaaS) to integrate advanced AI capabilities directly into critical enterprise workflows, offering significant productivity gains and enhanced customer experiences. This creates strong customer stickiness within business operations.",
     "expertStrategy": "RingCentral is strategically positioned to capitalize on the increasing demand for AI-native enterprise communication and contact center solutions. By embedding AI across its platform—from intelligent routing and agent assist in CCaaS to meeting summarization and virtual assistants in UCaaS—RNG differentiates its offerings and provides tangible value to enterprises seeking operational efficiency and improved customer satisfaction. The investment thesis centers on its ability to monetize these AI enhancements, expand its market share within the competitive enterprise communications space, and drive continued subscription growth."
+  },
+  {
+    "name": "Western Digital Corporation",
+    "ticker": "WDC",
+    "category": "infra",
+    "subCategory": "AI Data Storage",
+    "moatScore": 6.5,
+    "tailwindScore": 7.5,
+    "baseReason": "As a leading global provider of NAND flash and HDD technology, Western Digital offers high-performance NVMe SSDs and high-capacity hard drives that are foundational for storing and quickly accessing the vast datasets required for AI training, inference, and data lake platforms in cloud and enterprise data centers.",
+    "expertStrategy": "WDC stands to benefit from the foundational need for robust, high-speed storage infrastructure that underpins all AI development and deployment. The increased availability of cloud instances with significant local NVMe storage underscores the growing demand for their critical hardware components in the AI ecosystem."
   }
 ]

@@ -18667,5 +18667,96 @@
     "description": "Release v0.1.13",
     "provider": "Google Antigravity",
     "timestamp": "2026-08-20T16:52:54+00:00"
+  },
+  {
+    "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
+    "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
+    "description": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13,&nbsp;delivering 30% lower pricing than previous AWS Glue versions.",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T18:53:26+00:00"
+  },
+  {
+    "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/",
+    "description": "Today, OpenAI announced that they are lowering API prices for GPT-5.6 Sol. Following the recent Terra and Luna price reductions, Sol now costs $4 per million input tokens and $20 per million output tokens—20% lower input pricing and 33.3% lower outpu...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T20:11:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now lets managers chat with their data",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-ai-data-analytics",
+    "description": "Amazon Connect Customer now lets managers chat with their data in plain language and get back the answer, the evidence behind it, and the fix, in seconds. Managers have always had the data. What they haven’t had is the time to dig through dashboards,...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T20:00:00+00:00"
+  },
+  {
+    "title": "AWS Deadline Cloud now tracks automatic download status in the Deadline Cloud Monitor",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-auto-download-status-tracking/",
+    "description": "The AWS Deadline Cloud monitor now shows the progress, status, and health of your automatic file downlaods from jobs running in the cloud. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for vis...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration",
+    "description": "The Amazon Elastic Kubernetes Service (Amazon EKS) Capability for Argo CD now supports custom configuration through a standard argocd-cm ConfigMap in your cluster. This capability gives you a fully managed GitOps continuous delivery experience, and y...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3",
+    "description": "AWS Glue 6.0 is now generally available, delivering a 30% price reduction and introducing full support for Apache Iceberg v3, newer versions of Apache Hudi and Delta Lake, and new capabilities to improve developer productivity. AWS Glue 6.0 also upgr...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T16:42:00+00:00"
+  },
+  {
+    "title": "Amazon SES now supports open and click tracking override parameters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/",
+    "description": "Amazon Simple Email Service (SES) now supports open and click tracking override parameters in the SendEmail and SendBulkEmail APIs. Senders can enable or disable open tracking and click tracking on an individual API call, rather than managing trackin...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instan...",
+    "provider": "AWS",
+    "timestamp": "2026-08-20T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/",
+    "description": "Amazon Aurora DSQL now features a new Amazon CloudWatch Database Insights metric that delivers per-statement, cluster-level performance monitoring details. Aurora DSQL database insights captures sampled wait states and normalized SQL statements for a...",
+    "provider": "AWS",
+    "timestamp": "2026-08-20T16:00:00+00:00"
+  },
+  {
+    "title": "August 22, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
+    "description": "Apigee UI\nFixed\n\n\n\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud console\n          no longer intermittently fails to per...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-22T00:00:00-07:00"
+  },
+  {
+    "title": "August 21, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_21_2026",
+    "description": "AlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (OOM) errors when you build a ScaNN four-level tree index. This feature is in Preview. This update improves the stability of index ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-21T00:00:00-07:00"
+  },
+  {
+    "title": "Connecting retail demand planning to campaign and store execution",
+    "link": "https://www.databricks.com/blog/connecting-retail-demand-planning-campaign-and-store-execution",
+    "description": "Retail and consumer goods teams make decisions across a connected but complex operating cycle...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-21T17:20:00+00:00"
+  },
+  {
+    "title": "v0.1.14",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.14",
+    "description": "Release v0.1.14",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-08-22T00:00:49+00:00"
   }
 ]
