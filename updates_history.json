@@ -18758,5 +18758,12 @@
     "description": "Release v0.1.14",
     "provider": "Google Antigravity",
     "timestamp": "2026-08-22T00:00:49+00:00"
+  },
+  {
+    "title": "August 11, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_11_2026",
+    "description": "Access Approval\nFeature\nDatastream is generally available\n(GA).\nAccess Transparency\nFeature\nDatastream is generally available\n(GA).\nApigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-11T00:00:00-07:00"
   }
 ]
