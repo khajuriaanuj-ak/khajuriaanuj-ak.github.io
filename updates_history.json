@@ -18765,5 +18765,145 @@
     "description": "Access Approval\nFeature\nDatastream is generally available\n(GA).\nAccess Transparency\nFeature\nDatastream is generally available\n(GA).\nApigee hybrid\nAnnouncement\nv1.16.9\nOn August 11, 2026 we released an updated version of the Apigee hybrid software, v1...",
     "provider": "Google Cloud",
     "timestamp": "2026-08-11T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Lambda functions now support full IAM resource-based policies",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/",
+    "description": "AWS Lambda functions now support full Identity and Access Management (IAM) resource-based policies, enabling platform admins and security teams to define granular access permissions using the full capabilities of AWS IAM. With full IAM resource-based...",
+    "provider": "AWS",
+    "timestamp": "2026-08-25T02:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now&nbsp;automatically detects and repairs container instances, enabling customers to reduce undetected workload failures and improve application availability without manual intervention. \nWith this launc...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T22:42:00+00:00"
+  },
+  {
+    "title": "SageMaker MLflow now supports customer managed keys",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys",
+    "description": "SageMaker MLflow now enables customers to encrypt their data using customer-managed keys (CMK) through AWS Key Management Service (KMS). \nThis enhancement allows organizations with strict security and compliance requirements to manage their own encry...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T19:26:00+00:00"
+  },
+  {
+    "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers",
+    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports multiple external OpenID Connect (OIDC) identity providers per cluster. You can associate up to 10 OIDC identity providers with a single cluster, giving you more flexibility in how you authe...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T18:29:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/",
+    "description": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.4, 17.10, 16.14, 15.18, and 14.23 which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor versi...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod enhances support for Ray",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
+    "description": "Amazon SageMaker HyperPod now enhances support for Ray with built-in observability, resilient training, accelerated inference and managed development environments. Ray is a popular open-source framework for scaling AI workloads on a unified compute l...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports information extraction for agent voice and chat conversations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-information/",
+    "description": "Amazon Connect Customer now supports information extraction, which automatically captures key data from voice and chat interactions, reducing manual data capture and improving agent and supervisor productivity. Information extraction captures verbati...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T14:46:00+00:00"
+  },
+  {
+    "title": "AWS ParallelCluster 3.16 adds an on-node diagnostics tool",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-parallelcluster/",
+    "description": "AWS ParallelCluster 3.16 is now generally available with a new on-node diagnostics tool, cluster stability improvements, and an updated HPC and AI/ML software stack. \npcluster-diag is a diagnostics tool built into the ParallelCluster AMIs that lets y...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T14:00:00+00:00"
+  },
+  {
+    "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
+    "description": "GPT-5.6 Terra and Luna are now generally available on Amazon Bedrock in AWS GovCloud (US-West) and AWS GovCloud (US-East), bringing the smartest family of models from OpenAI yet to Bedrock's next-generation inference engine built for high-performance...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for MySQL now supports new minor version 8.4.11",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-mysql-8411-available/",
+    "description": "Starting today, Amazon Relational Database Service (Amazon RDS) for MySQL supports MySQL minor version 8.4.11, the latest minor released by community MySQL. In addition to operational improvements, MySQL 8.4.11 introduces support for post-quantum TLS...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T08:41:00+00:00"
+  },
+  {
+    "title": "AWS Neuron 2.32 introduces expanded NKI programming, MXFP8 training kernels, and variable-size collectives for Trn2 and Trn",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announce-neuron-2-32-0",
+    "description": "AWS Neuron 2.32.0 is now available, introducing NKI 0.6.0 with an on-device top-K instruction, a variable-length `all-gather `for kernels whose ranks hold differently sized tensors, and new loop constructs for data-dependent iteration. &nbsp; \nThis r...",
+    "provider": "AWS",
+    "timestamp": "2026-08-21T21:11:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads",
+    "description": "Amazon Bedrock AgentCore memory now accepts a JSON payload type on the CreateEvent API, so agents can extract and consolidate long-term memories from structured data as well as from multi-turn conversations. Developers can pass behavioral events, act...",
+    "provider": "AWS",
+    "timestamp": "2026-08-20T20:00:00+00:00"
+  },
+  {
+    "title": "Announcing: Extended Support for Azure Database for PostgreSQL Flexible Server",
+    "link": "https://azure.microsoft.com/updates?id=569526",
+    "description": "Extended Support for Azure Database for PostgreSQL Flexible Server helps you maintain secure, supported workloads while transitioning to newer PostgreSQL versions. With access to critical security updates, critical bug fixes, and technical support fo...",
+    "provider": "Azure",
+    "timestamp": "2026-08-24T19:15:05+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: eBPF host routing in Advanced Container Networking Services for AKS",
+    "link": "https://azure.microsoft.com/updates?id=569873",
+    "description": "eBPF Host Routing in Advanced\nContainer Networking Services for Azure Kubernetes Service (AKS) is now\ngenerally available. eBPF Host Routing improves\nKubernetes networking performance by moving packet forwarding and routing\ndecisions directly into th...",
+    "provider": "Azure",
+    "timestamp": "2026-08-24T18:36:01+00:00"
+  },
+  {
+    "title": "Retirement: Support for Node 22 LTS ends on April 30, 2027",
+    "link": "https://azure.microsoft.com/updates?id=567334",
+    "description": "On April 30 2027, support for Node 22 LTS will end. Your apps that are hosted on App\nService will continue to run, but security updates will no longer be available,\nand we’ll no longer provide customer service for Node 22 LTS. Required action: To\navo...",
+    "provider": "Azure",
+    "timestamp": "2026-08-24T17:30:43+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Custom block response code and body for Application Gateway WAF",
+    "link": "https://azure.microsoft.com/updates?id=569504",
+    "description": "Announcing the General Availability of custom block response code and body for WAF integrated with Application Gateway Azure WAF integrated with Application Gateway now supports customizable response status codes and bodies for blocked requests, enab...",
+    "provider": "Azure",
+    "timestamp": "2026-08-24T17:25:03+00:00"
+  },
+  {
+    "title": "Run, debug, and scale Databricks workloads from your local IDE",
+    "link": "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide",
+    "description": "The Databricks workspace is purposefully built for data analysis and data engineering. However...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-24T17:01:08+00:00"
+  },
+  {
+    "title": "How Databricks Uses AI to Accelerate Incident Investigation",
+    "link": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation",
+    "description": "In our previous blog post, we shared how Databricks uses AI to debug thousands of...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-24T17:00:00+00:00"
+  },
+  {
+    "title": "Disrupting a new covert influence campaign from Russia",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+    "description": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-25T00:00:00+00:00"
+  },
+  {
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "link": "https://openai.com/index/gpt-5-6-in-kiro",
+    "description": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-24T12:00:00+00:00"
   }
 ]
