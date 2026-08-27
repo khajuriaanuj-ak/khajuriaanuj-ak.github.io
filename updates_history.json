@@ -19115,5 +19115,243 @@
     "description": "We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing. The program will provide direct funding, access to our models, and technical support to grantees building open-source evaluations that help ...",
     "provider": "Anthropic",
     "timestamp": "2026-08-24T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt",
+    "description": "Amazon Redshift now integrates with the Agent Toolkit for AWS, enabling you to build, query, troubleshoot, and migrate to Amazon Redshift data warehouses and date lakes directly from AI agents such as Claude Code, Kiro, and Cursor. The integration pa...",
+    "provider": "AWS",
+    "timestamp": "2026-08-27T20:07:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 X8i instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-x8i-europe-milan-spain/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Europe (Milan) and Europe (Spain) regions. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certifi...",
+    "provider": "AWS",
+    "timestamp": "2026-08-27T18:40:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
+    "description": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region,...",
+    "provider": "AWS",
+    "timestamp": "2026-08-27T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now automatically refreshes scheduling metrics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-scheduling-metrics/",
+    "description": "Amazon Connect Customer now automatically refreshes schedule metrics on the scheduling page, giving managers immediate visibility into the impact of schedule updates. For example, when a new team meeting is added for 10 agents from 10 AM – 11 AM, met...",
+    "provider": "AWS",
+    "timestamp": "2026-08-27T17:59:00+00:00"
+  },
+  {
+    "title": "Amazon FSx for NetApp ONTAP now supports copying backups across AWS Regions and accounts",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/",
+    "description": "Amazon FSx for NetApp ONTAP, a fully managed shared storage service built on NetApp's popular ONTAP file system, now supports copying backups within and across AWS Regions, and across trusted accounts in your AWS organization. You can now provide an ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-27T17:37:00+00:00"
+  },
+  {
+    "title": "Amazon EVS now supports i7i.metal-48xl Amazon EC2 instance type",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-evs-i7i-48xl",
+    "description": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the i7i.metal-48xl Amazon Elastic Cloud Compute (Amazon EC2) bare-metal instance type, offering a higher core-count option with a newer generation processor to help ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-27T16:35:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports unplanned shrinkage in agent schedules",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-unplanned-shrinkage/",
+    "description": "Amazon Connect Customer now enables managers to input unplanned shrinkage in agent schedules, providing a more accurate picture of staffing due to unscheduled agent absences such as late logins or unplanned sick leave. Managers can upload unplanned s...",
+    "provider": "AWS",
+    "timestamp": "2026-08-26T20:16:00+00:00"
+  },
+  {
+    "title": "Mountpoint for Amazon S3 adds memory usage controls",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls",
+    "description": "Mountpoint for Amazon S3 can now limit memory usage, either automatically based on the environment it runs in or with a limit that you define. This lets you run Mountpoint alongside memory-intensive applications, for example, in machine learning trai...",
+    "provider": "AWS",
+    "timestamp": "2026-08-26T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports points-based scoring in performance evaluations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-customer-points-based-scoring-evaluations/",
+    "description": "Amazon Connect Customer now supports points-based scoring to evaluate human and AI agent performance, giving managers more flexibility in configuring evaluation scores. With points-based scoring, managers assign points to each criterion based on its ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-26T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud",
+    "description": "AWS Glue 5.1 is now available in the AWS European Sovereign Cloud Region.  AWS Glue is a serverless, scalable data integration service that simplifies discovering, preparing, moving, and integrating data from multiple sources. AWS Glue 5.1 upgrades c...",
+    "provider": "AWS",
+    "timestamp": "2026-08-26T16:26:00+00:00"
+  },
+  {
+    "title": "AWS Backup adds cross-Region backup copy and logically air-gapped vault support for Amazon DocumentDB in nine additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-cross-region-air-gapped-docdb/",
+    "description": "AWS Backup now supports copying Amazon DocumentDB backups across AWS Regions and storing them in logically air-gapped vaults in nine additional AWS Regions: Asia Pacific (Hong Kong, Jakarta, Melbourne, Osaka), Europe (Spain, Stockholm, Zurich), Afric...",
+    "provider": "AWS",
+    "timestamp": "2026-08-26T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Europe (Ireland, Stockholm). \nR8id instances feature ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-25T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8id and M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8id instances are now available in Asia Pacific (Sydney) and Canada (Central) a...",
+    "provider": "AWS",
+    "timestamp": "2026-08-25T20:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/",
+    "description": "AWS Glue now supports catalog federation for remote Iceberg REST catalogs in AWS GovCloud (US) Regions. This capability provides direct and secure access to Iceberg tables, stored in Amazon S3 and cataloged in remote catalogs, using AWS analytics eng...",
+    "provider": "AWS",
+    "timestamp": "2026-08-24T20:50:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Bastion shareable link expiration",
+    "link": "https://azure.microsoft.com/updates?id=570020",
+    "description": "Azure Bastion shareable link expiration is now generally\navailable. When creating a shareable link, administrators can specify the date\nand time when the link should expire. After the configured expiration time, the link can no longer\nbe used to conn...",
+    "provider": "Azure",
+    "timestamp": "2026-08-26T16:57:56+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: IPv6 dual-stack support for Azure Bastion",
+    "link": "https://azure.microsoft.com/updates?id=570025",
+    "description": "Azure Bastion support for IPv4 and IPv6 dual-stack\nconfigurations is now available in public preview. Customers can configure a\nnewly created Bastion deployment with both IPv4 and IPv6 public IP addresses. IPv6 is supported for connections between th...",
+    "provider": "Azure",
+    "timestamp": "2026-08-26T16:56:29+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Connect to AKS clusters using Azure Bastion",
+    "link": "https://azure.microsoft.com/updates?id=570030",
+    "description": "Azure Bastion integration with Azure Kubernetes Service is\nnow generally available. Customers can establish a secure tunnel from their\nlocal machine through Azure Bastion to an AKS cluster API server. The integration enables customers to use\nstandard...",
+    "provider": "Azure",
+    "timestamp": "2026-08-26T16:55:25+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Introducing Live Reports for Azure SRE Agent",
+    "link": "https://azure.microsoft.com/updates?id=569690",
+    "description": "We're excited to announce Live Reports, now in Public Preview for Azure SRE Agent. Live Reports help operations teams create dynamic operational views directly from SRE Agent conversations and keep them continuously up to date with the latest data fr...",
+    "provider": "Azure",
+    "timestamp": "2026-08-26T16:52:23+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure SRE Agent VNet Integration",
+    "link": "https://azure.microsoft.com/updates?id=569695",
+    "description": "Azure SRE Agent VNet Integration is now generally available. VNet integration enables Azure SRE Agent to operate within your existing network controls, including Network Security Groups (NSGs), private DNS, and firewall policies, etc. With VNet suppo...",
+    "provider": "Azure",
+    "timestamp": "2026-08-26T16:51:31+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure SRE Agent 30-Day Trial",
+    "link": "https://azure.microsoft.com/updates?id=569760",
+    "description": "New customers can now get started with Azure SRE Agent through a 30-day trial experience. During the trial, customers can create SRE Agents and connect them to your operational tools and data sources, and explore capabilities at their own pace withou...",
+    "provider": "Azure",
+    "timestamp": "2026-08-26T16:50:22+00:00"
+  },
+  {
+    "title": "Building for the AI Era: Lakebase, Streaming, and Lakehouse Innovations  at VLDB 2026",
+    "link": "https://www.databricks.com/blog/building-ai-era-lakebase-streaming-and-lakehouse-innovations-vldb-2026",
+    "description": "We are headed to VLDB 2026 to share multiple innovations that power the Databricks platform...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-27T15:22:00+00:00"
+  },
+  {
+    "title": "What QSR reports miss about the decisions matter the most",
+    "link": "https://www.databricks.com/blog/what-qsr-reports-miss-about-decisions-matter-most",
+    "description": "Limited-time offers can be a powerful way to create excitement, bring guests back,...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-27T15:00:00+00:00"
+  },
+  {
+    "title": "Enhancing Agent Retrieval with Structured Chart Extraction",
+    "link": "https://www.databricks.com/blog/enhancing-agent-retrieval-structured-chart-extraction",
+    "description": "The MotivationMore and more enterprises are now asking agents to work with their...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-27T15:00:00+00:00"
+  },
+  {
+    "title": "Vertical Advantage: Transforming Industries with Lakebase and Agentic AI",
+    "link": "https://www.databricks.com/blog/vertical-advantage-transforming-industries-lakebase-and-agentic-ai",
+    "description": "In the&nbsp;first blog of this series, we looked at how Lakebase Postgres is rewriting...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-27T13:05:00+00:00"
+  },
+  {
+    "title": "Object Storage + WAL: Lakebase Postgres for the agentic era",
+    "link": "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
+    "description": "Agents that interact with a traditional OLTP database often create bottlenecks at the storage layer. New deployments...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-27T07:18:59+00:00"
+  },
+  {
+    "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+    "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+    "description": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-27T09:00:00+00:00"
+  },
+  {
+    "title": "Expanding OpenAI’s presence in Brazil",
+    "link": "https://openai.com/index/expanding-our-presence-in-brazil",
+    "description": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-27T03:00:00+00:00"
+  },
+  {
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-26T10:00:00+00:00"
+  },
+  {
+    "title": "Learning never stops: How AI makes learning continuous",
+    "link": "https://openai.com/index/learning-never-stops",
+    "description": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-26T10:00:00+00:00"
+  },
+  {
+    "title": "The Hugging Face incident and the road ahead",
+    "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+    "description": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-26T00:00:00+00:00"
+  },
+  {
+    "title": "Introducing Intelligence Age",
+    "link": "https://openai.com/index/introducing-intelligence-age",
+    "description": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-20T07:00:00+00:00"
+  },
+  {
+    "title": "Previewing the Model Hardware Standard",
+    "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "description": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers. MHS enables AI agents to operate ...",
+    "provider": "Anthropic",
+    "timestamp": "2026-08-26T16:00:00+00:00"
+  },
+  {
+    "title": "Expanding our support for scientists",
+    "link": "https://www.anthropic.com/news/expanding-support-for-scientists",
+    "description": "As Claude becomes increasingly capable at scientific research, we are focusing on building products and programs to support the research community. In June, we launched Claude Science, a product that integrates the tools that researchers most commonl...",
+    "provider": "Anthropic",
+    "timestamp": "2026-08-26T16:00:00+00:00"
+  },
+  {
+    "title": "v0.1.15",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.15",
+    "description": "Release v0.1.15",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-08-26T19:03:50+00:00"
   }
 ]
