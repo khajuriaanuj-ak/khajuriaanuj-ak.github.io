@@ -19493,5 +19493,12 @@
     "description": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
     "provider": "OpenAI",
     "timestamp": "2026-08-28T06:00:00+00:00"
+  },
+  {
+    "title": "August 30, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_30_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-30T00:00:00-07:00"
   }
 ]
