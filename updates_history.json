@@ -19500,5 +19500,89 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
     "provider": "Google Cloud",
     "timestamp": "2026-08-30T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+    "description": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and ex...",
+    "provider": "AWS",
+    "timestamp": "2026-08-31T14:45:25+00:00"
+  },
+  {
+    "title": "Amazon Redshift now supports Apache Iceberg v3 tables",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-apache-iceberg-v3",
+    "description": "Amazon Redshift now supports reading from and writing to Apache Iceberg v3 tables in your data lake. Apache Iceberg is an open table format, and its v3 release adds several new features.&nbsp;With this launch, Amazon Redshift introduces support for d...",
+    "provider": "AWS",
+    "timestamp": "2026-08-31T18:10:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito now supports machine-to-machine authorization without a user pool domain",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-get-client-token/",
+    "description": "Amazon Cognito now supports the GetClientToken API operation, enabling app clients to obtain access tokens for machine-to-machine (M2M) authorization directly through the AWS SDK, CLI, or API — without configuring a user pool domain. This gives you a...",
+    "provider": "AWS",
+    "timestamp": "2026-08-31T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service adds new Cluster Insights for faster diagnosis of cluster status",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/",
+    "description": "Amazon OpenSearch Service has expanded Cluster Insights with 17 new insights that identify the root causes behind Red and Yellow cluster status and provide actionable recommendations to resolve them. These insights cover resource exhaustion scenarios...",
+    "provider": "AWS",
+    "timestamp": "2026-08-31T15:41:00+00:00"
+  },
+  {
+    "title": "Automated Security Response on AWS adds AI Toolkit for custom remediations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/automated-security-response-adds-AI-toolkit/",
+    "description": "Today, AWS announced four new capabilities for Automated Security Response on AWS (ASR). Customers can now use an AI-driven Toolkit that generates custom remediations using any AI assistant with built-in safety guardrails. In addition, customers can ...",
+    "provider": "AWS",
+    "timestamp": "2026-08-31T06:00:00+00:00"
+  },
+  {
+    "title": "AWS Elastic Beanstalk now supports Active Directory domain join for Windows Server environments",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-beanstalk-active-directory-domain-join/",
+    "description": "AWS Elastic Beanstalk now automatically joins the Windows Server instances in your environment to an Active Directory domain that you manage with AWS Directory Service. Previously, running domain-joined Windows workloads on Elastic Beanstalk required...",
+    "provider": "AWS",
+    "timestamp": "2026-08-31T04:00:00+00:00"
+  },
+  {
+    "title": "Amazon EMR on EKS now supports job run concurrency controls",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-emr-eks/",
+    "description": "Amazon EMR on EKS lets you run open-source big data frameworks such as Apache Spark and Flink on AWS EKS(Elastic Kubernetes Service) clusters. You submit jobs to a virtual cluster, which maps to a namespace on an EKS cluster, and EMR on EKS handles p...",
+    "provider": "AWS",
+    "timestamp": "2026-08-28T17:08:00+00:00"
+  },
+  {
+    "title": "August 31, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#August_31_2026",
+    "description": "BigQuery\nFeature\nYou can now create, store, and\nmanage pipelines in Git folders.\nThis feature is in\nPreview.\nFeature\nUsing folders to\ncreate, store, and manage pipelines is\ngenerally available.\nDatastream\nFeature\nYou can now create a Datastream strea...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-08-31T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Multicloud Interconnect",
+    "link": "https://azure.microsoft.com/updates?id=570364",
+    "description": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As ...",
+    "provider": "Azure",
+    "timestamp": "2026-08-31T18:36:12+00:00"
+  },
+  {
+    "title": "Autoscaling Lakebase Postgres",
+    "link": "https://www.databricks.com/blog/autoscaling-lakebase-postgres",
+    "description": "Choosing a database instance size before you know the workload is an old building pattern...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-31T17:00:00+00:00"
+  },
+  {
+    "title": "What is an AI Copilot?",
+    "link": "https://www.databricks.com/blog/ai-copilot",
+    "description": "An AI copilot is an AI assistant embedded directly in a software application. It...",
+    "provider": "Databricks",
+    "timestamp": "2026-08-28T22:22:15+00:00"
+  },
+  {
+    "title": "A milestone in expanding access to AI",
+    "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "description": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+    "provider": "OpenAI",
+    "timestamp": "2026-08-31T04:00:00+00:00"
   }
 ]
