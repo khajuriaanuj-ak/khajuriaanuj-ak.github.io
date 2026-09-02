@@ -19759,5 +19759,201 @@
     "description": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. The models—intentionally running without cyber safeguards for evaluation purposes—accessed the internet due to a misconfiguration insi...",
     "provider": "Anthropic",
     "timestamp": "2026-08-30T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda now supports SnapStart for container image functions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-snapstart-container/",
+    "description": "Starting today, AWS Lambda supports SnapStart for functions packaged as container images, reducing startup times from several seconds to as low as sub-second. Lambda SnapStart is an opt-in capability that makes it easier for you to build highly respo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T09:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick now lets you build custom apps with natural language  -",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/",
+    "description": "Now generally available, Amazon Quick lets you build custom applications by simply describing them in natural language. Create project trackers, customer dashboards, and training portals in minutes instead of months. Whether you're a product manager,...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T21:37:00+00:00"
+  },
+  {
+    "title": "AWS Deadline Cloud now supports sharing job bundles",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/deadline-cloud/job-bundle-sharing",
+    "description": "AWS Deadline Cloud now supports sharing job bundles, giving teams a simple way to distribute and reuse render job templates without manual file distribution. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads i...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T20:16:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
+    "description": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T19:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer dashboards now support compact mode",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/",
+    "description": "Amazon Connect Customer now offers compact mode on the analytics dashboards, increasing data density so supervisors can see more of their operational data without scrolling. Compact mode reduces widget size, font, and minimizes&nbsp;filters to maximi...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+    "description": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T15:00:00+00:00"
+  },
+  {
+    "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws/",
+    "description": "Claude Fable 5.1 is generally available on AWS and brings Anthropic's most capable frontier model to all customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. A clear imp...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T14:00:00+00:00"
+  },
+  {
+    "title": "Claude Fable 5.1, Anthropic's new frontier model is now available on AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-fable-5-1-aws-govcloud/",
+    "description": "Claude Fable 5.1 is generally available on Amazon Bedrock in AWS GovCloud (US) and brings Anthropic's most capable frontier model to regulated industry customers. Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS Custom now supports the latest CU and GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-custom-supports-latest-cu-gdr-microsoft-sql-server/",
+    "description": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32+GDR ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T07:30:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)",
+    "link": "https://azure.microsoft.com/updates?id=570282",
+    "description": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. Thi...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T22:34:43+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Windows Server 2025 on AKS",
+    "link": "https://azure.microsoft.com/updates?id=570090",
+    "description": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To help customers prepare, AKS now offers GA support for...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T22:31:50+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Artifact Streaming on AKS",
+    "link": "https://azure.microsoft.com/updates?id=570095",
+    "description": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your workloads without having to fully wait for images to b...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T22:30:59+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Confidential VMs for Azure Linux",
+    "link": "https://azure.microsoft.com/updates?id=570100",
+    "description": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the migration of highly sensitive container workloads to AKS wi...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T22:30:18+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Purchase order mapping available in Microsoft Marketplace",
+    "link": "https://azure.microsoft.com/updates?id=569700",
+    "description": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile your organization's cloud and AI spend. Get supple...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T18:40:59+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
+    "link": "https://azure.microsoft.com/updates?id=570474",
+    "description": "Azure Firewall’s auto-learn SNAT routes is now\ngenerally available, automatically learning registered and private destination\nprefixes periodically and applying them as No-SNAT ranges to preserve original\nsource IPs and simplify SNAT management.Learn...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T17:10:38+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+    "link": "https://azure.microsoft.com/updates?id=570250",
+    "description": "Azure Copilot Observability Agent, an\nAI-powered operational companion in Azure Monitor, is now covering Log Analytics data\nin Basic and Auxiliary table plans during interactive analysis\nand deep investigations. Teams can move high-volume telemetry -...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T16:31:14+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+    "link": "https://azure.microsoft.com/updates?id=569899",
+    "description": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally available in the sovereign clouds: Azure Government (Fai...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T16:29:24+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
+    "link": "https://azure.microsoft.com/updates?id=569904",
+    "description": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly requested capabilities are now generally available.Aux...",
+    "provider": "Azure",
+    "timestamp": "2026-09-01T16:25:33+00:00"
+  },
+  {
+    "title": "Announcing the Databricks Big Book of AgentOps",
+    "link": "https://www.databricks.com/blog/announcing-databricks-big-book-agentops",
+    "description": "What is AgentOps?AgentOps is the operating discipline for building, deploying and...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-02T01:30:00+00:00"
+  },
+  {
+    "title": "How the FDA is building a secure, AI-ready data foundation on Databricks for Government",
+    "link": "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government",
+    "description": "Modernizing a federal data platform is a little like steering an aircraft carrier while rebuilding the engine mid-ocean...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-01T21:45:00+00:00"
+  },
+  {
+    "title": "How we eliminated $1 million a year of wasted AI agent spend in one hour",
+    "link": "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour",
+    "description": "Databricks engineers rely heavily on AI agents to streamline and accelerate their work. In turn...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-01T19:43:51+00:00"
+  },
+  {
+    "title": "Collaboration makes us all stronger",
+    "link": "https://www.databricks.com/blog/collaboration-makes-us-all-stronger",
+    "description": "The best security bugs come with a good storySome of our best security investments haven't been tools or scanners...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-01T19:00:00+00:00"
+  },
+  {
+    "title": "How AI-native companies turn workflows into operating capability",
+    "link": "https://openai.com/index/ai-native-company-workflows",
+    "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-01T17:00:00+00:00"
+  },
+  {
+    "title": "Path to Astra: critical capabilities and frontier safeguards",
+    "link": "https://openai.com/index/path-to-astra",
+    "description": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-01T13:00:00+00:00"
+  },
+  {
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "description": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-01T12:00:00+00:00"
+  },
+  {
+    "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+    "link": "https://openai.com/index/gilbert-tobin",
+    "description": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-01T01:00:00+00:00"
+  },
+  {
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "link": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "description": "Today we’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention (ZDR) with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the ...",
+    "provider": "Anthropic",
+    "timestamp": "2026-08-31T16:00:00+00:00"
+  },
+  {
+    "title": "v0.1.16",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.16",
+    "description": "Release v0.1.16",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-09-02T15:22:12+00:00"
   }
 ]
