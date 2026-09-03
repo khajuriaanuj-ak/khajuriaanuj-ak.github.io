@@ -19955,5 +19955,124 @@
     "description": "Release v0.1.16",
     "provider": "Google Antigravity",
     "timestamp": "2026-09-02T15:22:12+00:00"
+  },
+  {
+    "title": "AWS Transform announces general availability of Amazon FSx for NetApp ONTAP support",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-fsx-netapp-ontap-support/",
+    "description": "AWS Transform for migrations adds Amazon FSx for NetApp ONTAP as a generally available storage target for block storage workloads, alongside Amazon EBS. With AWS Transform, you can now migrate block storage directly to FSx for ONTAP as part of the sa...",
+    "provider": "AWS",
+    "timestamp": "2026-09-03T03:00:00+00:00"
+  },
+  {
+    "title": "Web Search on Amazon Bedrock is now available in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/",
+    "description": "The Web Search built-in server-side tool on Amazon Bedrock is now available in AWS GovCloud (US-West), helping bring grounded web results to compliance-sensitive government and public-sector workloads. Web Search helps supported OpenAI GPT models gro...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T17:52:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer expands automated performance evaluations to Malay",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-automated-evaluations-malay/",
+    "description": "Amazon Connect Customer now automates evaluations of human and AI agents in Malay using generative AI. Managers define custom evaluation criteria in natural language and receive AI-generated evaluations with justifications in their preferred language...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/",
+    "description": "Amazon Quick connectors let users leverage tools and services such as Outlook, Slack, Salesforce, Jira, and homegrown MCP servers directly into their workflows across chat, agents, apps, flows, and deep research. Today, Amazon Quick introduces new to...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T16:54:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+    "description": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and det...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T16:00:00+00:00"
+  },
+  {
+    "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
+    "description": "Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation sp...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Config now supports 60 new resource types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/",
+    "description": "AWS Config now supports 60 additional AWS resource types across key services including Amazon Bedrock,&nbsp; Amazon EC2, Amazon SageMaker, and AWS Organizations. This expansion provides greater coverage over your AWS environment, enabling you to more...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T15:00:00+00:00"
+  },
+  {
+    "title": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-uxc-aws-regions",
+    "description": "AWS User Experience Customization (UXC) is now available in all commercial AWS Regions. UXC enables account administrators to set a custom account color and control which services and Regions appear in the AWS Management Console. \nPreviously, UXC was...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio CI/CD adds notebook promotion and AI-assisted manifest generation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-cicd-notebook-ai-manifest/",
+    "description": "Amazon SageMaker Unified Studio CI/CD expands its open-source deployment toolkit with two new capabilities: (1) an AI agent skill that automates manifest authoring, and (2) native notebook promotion across environments. Together, they help data teams...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server supports additional SQL trace flags",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-sqlserver-supports-additional-trace-flags/",
+    "description": "Amazon RDS for SQL Server&nbsp;supports 18 additional SQL trace flags that you can enable through database parameter groups. Trace flags are configuration switches that modify SQL Server engine behavior — such as query optimizer cardinality estimatio...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace now supports auto-renewals for private offers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers",
+    "description": "AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at the end of the term. Negotiated pricing and contract...",
+    "provider": "AWS",
+    "timestamp": "2026-09-01T15:00:00+00:00"
+  },
+  {
+    "title": "September 03, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_03_2026",
+    "description": "VPC Service Controls\nFeature\nVPC Service Controls feature (Status:\nPreview):\nVPC Service Controls supports retrieving and updating service perimeters that\ncontain deleted IAM principals. When you enable this feature, you can manage\nperimeters that co...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-03T00:00:00-07:00"
+  },
+  {
+    "title": "September 02, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
+    "description": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\n\nLimit pushdown: when you query foreign tables, some LIMIT and OFFSET clauses are automatically pushed down to BigQu...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-02T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL",
+    "link": "https://azure.microsoft.com/updates?id=569653",
+    "description": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connec...",
+    "provider": "Azure",
+    "timestamp": "2026-09-02T16:59:15+00:00"
+  },
+  {
+    "title": "Southern Company’s SCOUT: Completing the Storm Intelligence Story",
+    "link": "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story",
+    "description": "Completing the storm intelligence storyIn an earlier post, we explored how Southern...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-02T23:20:00+00:00"
+  },
+  {
+    "title": "Expanding Genie Agents: Deep analysis, file reasoning, and more",
+    "link": "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more",
+    "description": "At Data and AI Summit, we&nbsp;announced the evolution of Genie Spaces to Genie Agents,...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-02T19:30:00+00:00"
+  },
+  {
+    "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+    "link": "https://openai.com/index/atv-big-air-tour",
+    "description": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-02T12:00:00+00:00"
   }
 ]

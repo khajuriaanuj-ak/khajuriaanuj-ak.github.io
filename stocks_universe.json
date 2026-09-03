@@ -418,5 +418,15 @@
     "tailwindScore": 7.5,
     "baseReason": "As a leading global provider of NAND flash and HDD technology, Western Digital offers high-performance NVMe SSDs and high-capacity hard drives that are foundational for storing and quickly accessing the vast datasets required for AI training, inference, and data lake platforms in cloud and enterprise data centers.",
     "expertStrategy": "WDC stands to benefit from the foundational need for robust, high-speed storage infrastructure that underpins all AI development and deployment. The increased availability of cloud instances with significant local NVMe storage underscores the growing demand for their critical hardware components in the AI ecosystem."
+  },
+  {
+    "name": "Atlassian Corporation",
+    "ticker": "TEAM",
+    "category": "infra",
+    "subCategory": "Enterprise AI Software/DevOps Tools",
+    "moatScore": 8.0,
+    "tailwindScore": 7.5,
+    "baseReason": "Atlassian's suite of collaboration and project management tools (Jira, Confluence, Bitbucket) are deeply embedded in enterprise software development workflows, increasingly becoming critical operational infrastructure for AI/ML engineering teams. The explicit mention of 'Model Context Protocol (MCP) sync support for connectors' signifies its expanding role in managing and integrating AI-driven development and research.",
+    "expertStrategy": "Atlassian stands to benefit from the increasing complexity and collaborative nature of AI development. As enterprises scale their AI initiatives, the demand for robust project management, code collaboration, and documentation tools that integrate with AI workflows will grow. Investing in TEAM offers exposure to the foundational software layer enabling efficient AI system development and deployment across diverse industries."
   }
 ]
