@@ -20249,5 +20249,82 @@
     "description": "It can generate, edit, and iterate with users on creative and technical writing tasks, such as composing songs, writing screenplays, or learning a user’s writing style.",
     "provider": "OpenAI",
     "timestamp": "2023-03-14T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Knowledge Base introduces user-managed setup for SharePoint, OneDrive, and Confluence data sources",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/",
+    "description": "AWS announces user-managed setup (3LO) for SharePoint, OneDrive, and Confluence data sources in Amazon Bedrock Managed Knowledge Base. Previously, configuring these data sources required generating 2LO credentials on the third-party side, which could...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T21:29:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Knowledge Base now supports ServiceNow as a native data source connector",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/",
+    "description": "AWS announces the ServiceNow data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers can now connect their ServiceNow instance to crawl knowledge articles and service ca...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T21:14:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Knowledge Base now supports automatic sync scheduling for data source connectors",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-automatic-sync-scheduling-data-source-connectors/",
+    "description": "AWS announces automatic sync scheduling for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service that handles data ingestion, storage optimization, and advanced retrieval without requiring you to manage ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T21:01:00+00:00"
+  },
+  {
+    "title": "Amazon ECS introduces Early Success Criteria for service deployments",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/",
+    "description": "Amazon Elastic Container Service (Amazon ECS)&nbsp;now supports Early Success Criteria for rolling service deployments, giving you the flexibility to define when a deployment is considered successful based on your confidence level and the operational...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T17:00:00+00:00"
+  },
+  {
+    "title": "AWS MCP Server adds a serverless capability for AWS Lambda functions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/",
+    "description": "Today, AWS Model Context Protocol Server (AWS MCP Server) added a serverless capability so that coding agents such as Claude Code and Kiro can efficiently diagnose issues with your Lambda functions. The serverless capability helps you troubleshoot yo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T16:31:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8g instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-c8g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances are available in AWS Asia Pacific (Taipei, New Zealand), and&nbsp;AWS GovCloud (US-East) regions. These instances are powered by AWS Graviton4 processors and deliver up to 30% be...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T14:06:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+    "description": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint.\nAmazon...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C9g and C9gd instances are now available in Asia Pacific (Tokyo) region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-c9g-c9gd-asia-pacific-tokyo/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances, powered by AWS Graviton5 processors, are available in the Asia Pacific (Tokyo) region. AWS Graviton5 processors are the fifth generation of custom-designed CPUs, delive...",
+    "provider": "AWS",
+    "timestamp": "2026-09-03T23:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M9g and M9gd instances are now available in four additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-m9g-m9gd-four-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances, powered by AWS Graviton5 processors, are available in Europe (Ireland) and Asia Pacific (Singapore, Sydney, Tokyo) regions. AWS Graviton5 processors are the fifth gener...",
+    "provider": "AWS",
+    "timestamp": "2026-09-03T21:00:00+00:00"
+  },
+  {
+    "title": "Achieving Extreme Efficiency through Specialized GPU Kernel Generation",
+    "link": "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation",
+    "description": "Traditionally, production inference systems rely on generic kernels to handle diverse...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-04T20:00:00+00:00"
+  },
+  {
+    "title": "GPT-6 Astra: A new generation of intelligence",
+    "link": "https://openai.com/index/gpt-6-astra",
+    "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-03T11:00:00+00:00"
   }
 ]
