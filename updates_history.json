@@ -20326,5 +20326,19 @@
     "description": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
     "provider": "OpenAI",
     "timestamp": "2026-09-03T11:00:00+00:00"
+  },
+  {
+    "title": "September 06, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_06_2026",
+    "description": "Google SecOps SOAR\nFeature\nCase playbooks\nThis feature is in preview. Google SecOps now supports case playbooks. You can\nrun playbooks or execute manual actions across an entire case container rather\nthan individual alerts, consolidating response tas...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-06T00:00:00-07:00"
+  },
+  {
+    "title": "September 05, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_05_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-05T00:00:00-07:00"
   }
 ]
