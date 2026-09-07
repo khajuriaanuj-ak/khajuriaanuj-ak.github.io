@@ -20340,5 +20340,40 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.99 is now\navailable for all regions.",
     "provider": "Google Cloud",
     "timestamp": "2026-09-05T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/",
+    "description": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running,...",
+    "provider": "AWS",
+    "timestamp": "2026-09-07T14:24:08+00:00"
+  },
+  {
+    "title": "September 07, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_07_2026",
+    "description": "Access Approval\nFeature\nPrivileged Access Manager is generally available\n(GA).\nAccess Transparency\nFeature\nPrivileged Access Manager is generally available\n(GA).\nCluster Toolkit\nSecurity\nGoogle addressed a security vulnerability (CVE-2026-65107) in t...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-07T00:00:00-07:00"
+  },
+  {
+    "title": "Supporting independent journalism in Ukraine",
+    "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "description": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-07T00:00:00+00:00"
+  },
+  {
+    "title": "An Alien Mind",
+    "link": "https://openai.com/index/an-alien-mind",
+    "description": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-06T09:00:00+00:00"
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-06T08:00:00+00:00"
   }
 ]
