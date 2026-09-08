@@ -20375,5 +20375,40 @@
     "description": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
     "provider": "OpenAI",
     "timestamp": "2026-09-06T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon GuardDuty adds optional threat detection rules",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/guardduty-optional-detection-rules/",
+    "description": "Amazon GuardDuty now offers Custom Detection Rules, a library of 35 prebuilt, opt-in rules for CloudTrail management events that let you extend threat detection coverage to match your environment. Custom Detection Rules produces 26 unique finding typ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T17:01:00+00:00"
+  },
+  {
+    "title": "September 08, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_08_2026",
+    "description": "Compute Engine\nFeature\nGenerally available: You can convert a single-project reservation into a\nshared reservation, or a shared reservation into a single-project reservation.\nModify the share type for a reservation to share your reserved resources wi...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-08T00:00:00-07:00"
+  },
+  {
+    "title": "September 04, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
+    "description": "Audit Manager\nFeature\nThe remote Model Context Protocol (MCP)\nserver for Audit Manager is\ngenerally available\n(GA).\nCloud Billing\nChange\nIntroducing the Incentives page, for tracking spend-based milestone credits,\nRaMP, and other conditional incentiv...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-04T00:00:00-07:00"
+  },
+  {
+    "title": "The Work Now Within Reach",
+    "link": "https://openai.com/index/the-work-now-within-reach",
+    "description": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T13:00:00+00:00"
+  },
+  {
+    "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+    "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T00:00:00+00:00"
   }
 ]

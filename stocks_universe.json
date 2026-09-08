@@ -428,5 +428,25 @@
     "tailwindScore": 7.5,
     "baseReason": "Atlassian's suite of collaboration and project management tools (Jira, Confluence, Bitbucket) are deeply embedded in enterprise software development workflows, increasingly becoming critical operational infrastructure for AI/ML engineering teams. The explicit mention of 'Model Context Protocol (MCP) sync support for connectors' signifies its expanding role in managing and integrating AI-driven development and research.",
     "expertStrategy": "Atlassian stands to benefit from the increasing complexity and collaborative nature of AI development. As enterprises scale their AI initiatives, the demand for robust project management, code collaboration, and documentation tools that integrate with AI workflows will grow. Investing in TEAM offers exposure to the foundational software layer enabling efficient AI system development and deployment across diverse industries."
+  },
+  {
+    "name": "Accenture plc",
+    "ticker": "ACN",
+    "category": "infra",
+    "subCategory": "Enterprise AI Consulting & Integration",
+    "moatScore": 8.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Leading global professional services firm specializing in end-to-end enterprise AI strategy, deployment, and integration, leveraging extensive industry knowledge and client relationships.",
+    "expertStrategy": "Accenture is poised to capture significant value from the accelerating enterprise AI adoption cycle, acting as a critical enabler for companies struggling with complex AI deployments across various cloud platforms. Their deep partnership with Google Cloud specifically highlights their role in scaling AI solutions and overcoming deployment bottlenecks for large enterprises."
+  },
+  {
+    "name": "Uber Technologies, Inc.",
+    "ticker": "UBER",
+    "category": "direct",
+    "subCategory": "AI-Powered Mobility & Logistics",
+    "moatScore": 8.0,
+    "tailwindScore": 7.5,
+    "baseReason": "Dominant global platform leveraging AI for dynamic pricing, route optimization, demand forecasting, and future autonomous mobility solutions within its massive network.",
+    "expertStrategy": "Uber represents a strong investment in the practical application of AI in real-world services, particularly in the evolving landscape of autonomous and optimized mobility. Its extensive data and network effects provide a significant advantage in deploying and refining AI models for operational efficiency and future service expansion, including potential robotaxi ventures."
   }
 ]
