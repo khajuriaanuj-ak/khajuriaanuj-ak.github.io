@@ -20410,5 +20410,187 @@
     "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
     "provider": "OpenAI",
     "timestamp": "2026-09-08T00:00:00+00:00"
+  },
+  {
+    "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
+    "description": "Today, AWS announces the general availability of GPT-6 Astra from OpenAI on Amazon Bedrock. The latest and most capable model from OpenAI to date, GPT-6 Astra brings deeper reasoning and judgment, professional-quality writing and design, and advanced...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T22:49:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Feature Store now supports individual feature updates to lower write latency",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/sgm-feature-store-update-record/",
+    "description": "Amazon SageMaker Feature Store is a fully managed capability that makes it easy to compute, store, and retrieve features for training and deploying AI models. SageMaker Feature Store now supports feature-level writes, a new capability for updating in...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T21:19:00+00:00"
+  },
+  {
+    "title": "AWS Transform is now available in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-govcloud-us-west/",
+    "description": "AWS Transform is now available in the AWS GovCloud (US-West) Region, enabling government agencies and regulated organizations to plan and execute large-scale migrations to AWS. With this launch, customers operating in AWS GovCloud (US) can use the mi...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+    "description": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest",
+    "description": "Amazon Bedrock AgentCore Memory now lets developers submit content directly for long-term memory extraction without persisting it as a short-term memory event. The new IngestData API accepts content, fans it out to the memory's configured long-term m...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T16:00:00+00:00"
+  },
+  {
+    "title": "Dynamic Image Transformation for Amazon CloudFront adds four new features",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/dynamic-image-transformation-adds-new-features/",
+    "description": "Today, AWS announced four new features for Dynamic Image Transformation for Amazon CloudFront (DIT), an AWS supported solution that helps customers transform images in response to their needs.&nbsp;Customers can now use enhanced smart cropping with c...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T14:32:00+00:00"
+  },
+  {
+    "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-builder-id-recovery-mfa-third-party/",
+    "description": "AWS Builder ID, your personal profile for accessing AWS applications including AWS Builder Center, AWS Training and Certification, Amazon Quick and Kiro, now offers new ways to protect and recover your profile. You can add a recovery email and use ne...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T08:00:00+00:00"
+  },
+  {
+    "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
+    "description": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely get security, observability, and type-safety right ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-supports-latest-cu-gdr-microsoft-sql-server/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2016 SP3+GD...",
+    "provider": "AWS",
+    "timestamp": "2026-09-08T07:30:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA Serverless is now available in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-serverless-aws-govcloud/",
+    "description": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West). Amazon MWAA Serverless eliminates the operational overhead of managing Apache Airflow infrastructure by automatically...",
+    "provider": "AWS",
+    "timestamp": "2026-09-04T22:00:00+00:00"
+  },
+  {
+    "title": "AWS CloudFormation now supports contract tests v2 for resource types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudformation-contract-tests-v2-resource-types/",
+    "description": "AWS CloudFormation now supports contract tests v2, available through the --v2 flag of the cfn test command in the CloudFormation CLI. Previously, the contract test suite covered only basic scenarios around the CRUD handlers. Contract tests v2 adds de...",
+    "provider": "AWS",
+    "timestamp": "2026-09-02T15:23:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
+    "link": "https://azure.microsoft.com/updates?id=570919",
+    "description": "Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for running end-to-end Playwright tests at scale, with paral...",
+    "provider": "Azure",
+    "timestamp": "2026-09-08T17:35:32+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Developer CLI (azd) Extension Framework",
+    "link": "https://azure.microsoft.com/updates?id=570881",
+    "description": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support their preferred application development workflows....",
+    "provider": "Azure",
+    "timestamp": "2026-09-08T17:18:38+00:00"
+  },
+  {
+    "title": "A practical approach to end-to-end Solvency II reporting in Databricks",
+    "link": "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks",
+    "description": "Solvency II reporting is not only a regulatory submission. It is a business process...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-09T16:20:00+00:00"
+  },
+  {
+    "title": "Beyond embedding: How to secure AI/BI Dashboards for every viewer",
+    "link": "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer",
+    "description": "The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-09T14:04:44+00:00"
+  },
+  {
+    "title": "Introducing Consort: Test-driven development on a branching database",
+    "link": "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database",
+    "description": "For 25 years I built software on the practices I grew up with: Kent Beck’s TDD, Martin...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-09T13:41:25+00:00"
+  },
+  {
+    "title": "Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency",
+    "link": "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency",
+    "description": "Effective enterprise data agents require search that is both accurate and fast. Earlier...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-09T13:30:00+00:00"
+  },
+  {
+    "title": "Evaluation-First AI Agents: How Zepto Scales Customer Support on Databricks and MLflow",
+    "link": "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow",
+    "description": "Zepto's Push for Reliable, Real-Time Customer SupportZepto is one of India's fastest-growing...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-09T03:00:00+00:00"
+  },
+  {
+    "title": "SQL Data Types: Reference and Best Practices",
+    "link": "https://www.databricks.com/blog/sql-data-types",
+    "description": "A SQL data type is a fundamental specification that defines what values a column...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-08T17:16:06+00:00"
+  },
+  {
+    "title": "Build durable agents with Temporal and Lakebase",
+    "link": "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase",
+    "description": "A personal-loan underwriting agent gathers evidence, applies policy, and may wait...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-08T15:46:40+00:00"
+  },
+  {
+    "title": "The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP workloads",
+    "link": "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads",
+    "description": "Jonathan Katz has spent his career on both sides of a line that most of the data...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-07T12:48:05+00:00"
+  },
+  {
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "link": "https://openai.com/index/codex-quantum-computing-experiments",
+    "description": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T17:00:00+00:00"
+  },
+  {
+    "title": "Introducing ChatGPT Images 2.5",
+    "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "description": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T11:30:00+00:00"
+  },
+  {
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "link": "https://openai.com/index/navier-stokes-solution",
+    "description": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T10:00:00+00:00"
+  },
+  {
+    "title": "Funding grants for new research into AI and teen development",
+    "link": "https://openai.com/index/teen-development-research-grants",
+    "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T09:00:00+00:00"
+  },
+  {
+    "title": "1Password increases engineering productivity 21% with Codex",
+    "link": "https://openai.com/index/1password",
+    "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-08T00:00:00+00:00"
   }
 ]
