@@ -20592,5 +20592,173 @@
     "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
     "provider": "OpenAI",
     "timestamp": "2026-09-08T00:00:00+00:00"
+  },
+  {
+    "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-ab-forensic-watermarking/",
+    "description": "AWS Elemental MediaLive now supports A/B forensic watermarking, enabling content owners to trace the source of unauthorized redistribution of live video content. A single MediaLive channel produces two synchronized output variants, each carrying a di...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
+    "description": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+    "description": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encod...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Elemental introduces Dynamic Multiview for live video",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+    "description": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
+    "description": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear chan...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now lets you set specific capacity limits for different types of Tasks and Emails",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-capacity-limits/",
+    "description": "Amazon Connect Customer now gives contact center managers the ability to set specific capacity limits for different kinds of work. Previously, concurrency settings were applied at the channel level so all contacts within a channel were treated the sa...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T21:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform for .NET modernization is now generally available via CLI",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli",
+    "description": "Today, AWS announced the general availability of an AWS-managed transformation for .NET modernization in AWS Transform custom that you can trigger with a single one-line CLI command. You can run this transformation interactively, or script it into an...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T20:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
+    "description": "AWS Lambda now supports AWS Graviton5-powered C9g, C9gd, M9g, and M9gd instances on Lambda Managed Instances. You can now run your Lambda functions on the latest generation of Graviton processors, delivering up to 25% better compute performance compa...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Knowledge Base adds APIs and console support for debugging document-level access control",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/",
+    "description": "AWS announces the CheckIngestedDocumentAcl and GetIngestedDocumentAcl APIs for Amazon Bedrock Managed Knowledge Base, giving customers a self-service way to debug document access issues and audit document-level permissions. When a user doesn't see an...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T16:03:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Knowledge Base now supports Confluence Data Center as a native data source connector",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-confluence-data-center-native-data-source-connector/",
+    "description": "AWS announces the Confluence Data Center data source connector for Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service. Customers running self-hosted Confluence Data Center instances can now crawl blogs...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T14:19:00+00:00"
+  },
+  {
+    "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/private-ca-eks-addon-ad-govcloud/",
+    "description": "AWS Private Certificate Authority (AWS Private CA) announces the availability of the AWS Private CA Connector for Kubernetes as a managed Amazon EKS add-on and the AWS Private CA Connector for Active Directory in AWS GovCloud (US-East) and AWS GovClo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+    "description": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual identity match. Previously, all records within a mat...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T08:00:00+00:00"
+  },
+  {
+    "title": "September 09, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_09_2026",
+    "description": "Apigee X\nFeature\nSemanticCacheLookup policy supports non-default Vector Search distance measures\nAvailable in Apigee 1-18-0-apigee-4 and later. A new optional\n<DistanceMeasureType> element accepts DOT_PRODUCT_DISTANCE (the\ndefault, and the existing b...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-09T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Copilot Troubleshooting Agent",
+    "link": "https://azure.microsoft.com/updates?id=570980",
+    "description": "Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues faster. Available through both Azure Copilot and Sup...",
+    "provider": "Azure",
+    "timestamp": "2026-09-10T15:25:52+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: User-bound user delegation SAS for Azure Storage",
+    "link": "https://azure.microsoft.com/updates?id=569241",
+    "description": "Announcing the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of Entra ID. User-bound user delegation SAS is now generally availabl...",
+    "provider": "Azure",
+    "timestamp": "2026-09-09T22:30:41+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
+    "link": "https://azure.microsoft.com/updates?id=570551",
+    "description": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage, eliminating remote-storage reads after caching finishes...",
+    "provider": "Azure",
+    "timestamp": "2026-09-09T21:24:37+00:00"
+  },
+  {
+    "title": "Improving Lakebase Postgres compute cache",
+    "link": "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache",
+    "description": "The disaggregated storage model of Lakebase Postgres provides a feature rich, flexible...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-10T13:47:03+00:00"
+  },
+  {
+    "title": "Five AI Questions We're Hearing from Financial Services Leaders",
+    "link": "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders",
+    "description": "Last year at Sibos Frankfurt, the question was whether AI works. This year: can your...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-09T18:09:29+00:00"
+  },
+  {
+    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "description": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-10T16:00:00+00:00"
+  },
+  {
+    "title": "Now everyone can put data to work",
+    "link": "https://openai.com/index/put-data-to-work",
+    "description": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-10T15:00:00+00:00"
+  },
+  {
+    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "link": "https://openai.com/index/expanding-ai-access-us-government",
+    "description": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-10T07:00:00+00:00"
+  },
+  {
+    "title": "The AI policy window is open. We need to act.",
+    "link": "https://openai.com/index/ai-policy-window",
+    "description": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-09T13:00:00+00:00"
+  },
+  {
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-09T11:00:00+00:00"
+  },
+  {
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-09T17:00:00+00:00"
   }
 ]
