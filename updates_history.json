@@ -20760,5 +20760,131 @@
     "description": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
     "provider": "OpenAI",
     "timestamp": "2026-09-09T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
+    "description": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing une...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T20:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda durable functions integrates with Pydantic AI",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+    "description": "Today, AWS Lambda durable functions announces an integration with Pydantic AI, an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T18:45:00+00:00"
+  },
+  {
+    "title": "Announcing second-generation single-rack AWS Outposts",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+    "description": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T17:58:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
+    "description": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastr...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of lau...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T16:52:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
+    "description": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation R...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
+    "description": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Amazon S3 File Gateway. Previously, FIPS endpoints for File Gateway were available only over the public internet. Now you can keep FIPS-compliant traffic on the ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EVS is now available in more regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-available-in-additional-regions/",
+    "description": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Osaka), Asia Pacific (Taipei),&nbsp;Europe (Spain), and Israel (Tel Aviv)&nbsp;Regions. This expansion provides more options to leverage the...",
+    "provider": "AWS",
+    "timestamp": "2026-09-10T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick adds always-on agents, a sharper feed, and enterprise controls",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-always-on-agents-sharper-feed-enterprise-controls/",
+    "description": "Today, Amazon Quick offers new capabilities that make it easier to organize your work, govern it across an organization, and trust the answers it produces. These capabilities build on Amazon Quick across desktop and mobile, bringing enterprise-grade ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T15:51:00+00:00"
+  },
+  {
+    "title": "Amazon Quick activity feed now available on iOS and Android mobile devices",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-activity-feed-available-ios-android-mobile-devices/",
+    "description": "The Amazon Quick activity feed is now available on the Amazon Quick mobile app for iOS and Android, keeping you connected to your most important work from anywhere.&nbsp; \nThe activity feed is your single, prioritized view of everything that needs yo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T15:39:00+00:00"
+  },
+  {
+    "title": "Amazon Quick desktop app is now generally available on macOS and Windows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-desktop-app-generally-available-macos-windows/",
+    "description": "The Amazon Quick desktop app is now generally available on macOS and Windows. The desktop app brings the full power of Amazon Quick to your computer, working directly with your local files and staying connected to your calendar, email, and business a...",
+    "provider": "AWS",
+    "timestamp": "2026-09-09T15:23:00+00:00"
+  },
+  {
+    "title": "September 10, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_10_2026",
+    "description": "BigQuery\nFeature\nConversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.\nFeature\nYou can now us...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-10T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)",
+    "link": "https://azure.microsoft.com/updates?id=570910",
+    "description": "Azure Storage Mover now supports agentless migration of on-premises SMB file shares to Azure Files (SMB), in public preview. You can move file data from Windows Server or NAS shares into Azure without deploying, registering, or maintaining a migratio...",
+    "provider": "Azure",
+    "timestamp": "2026-09-11T15:58:56+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption",
+    "link": "https://azure.microsoft.com/updates?id=570940",
+    "description": "Azure\nFunctions Flex Consumption support for TLS/SSL certificates is now generally\navailable through a new site-scoped certificate model. Each function app can\nhold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly,\nimported f...",
+    "provider": "Azure",
+    "timestamp": "2026-09-10T16:12:49+00:00"
+  },
+  {
+    "title": "Unifying governance across engines and catalogs in the Open Lakehouse",
+    "link": "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse",
+    "description": "In our previous posts, we showed how open table formats, open APIs and unified governance...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-10T15:05:10+00:00"
+  },
+  {
+    "title": "Introducing ChatGPT for Financial Services",
+    "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-10T07:00:00+00:00"
+  },
+  {
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-10T00:00:00+00:00"
+  },
+  {
+    "title": "Introducing the Agents API",
+    "link": "https://openai.com/index/introducing-the-agents-api",
+    "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-10T00:00:00+00:00"
   }
 ]
