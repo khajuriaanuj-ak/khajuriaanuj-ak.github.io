@@ -20886,5 +20886,103 @@
     "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
     "provider": "OpenAI",
     "timestamp": "2026-09-10T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 X2idn instances are now available in Asia Pacific (Hong Kong)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/",
+    "description": "Memory-optimized Amazon Elastic Compute Cloud (Amazon EC2) X2idn instances are now available in Asia Pacific (Hong Kong) Region. These instances, powered by 3rd generation Intel Xeon Scalable Processors and built with AWS Nitro System, are designed f...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T18:35:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports model caching for faster inference autoscaling and reduced cold starts",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/",
+    "description": "Amazon SageMaker HyperPod now supports model caching, an inference optimization that pre-loads model weights and container images onto cluster nodes so pods start in seconds instead of minutes. \nWhen running LLM inference at scale for workloads like ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T18:25:00+00:00"
+  },
+  {
+    "title": "AWS Lambda now supports direct read configuration for Amazon S3 Files",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/",
+    "description": "AWS Lambda now supports direct read&nbsp;configuration for Amazon S3 Files, letting you configure which storage your functions read from: S3 Files high-performance storage or your S3 bucket. With this launch, you can optimize the throughput and laten...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Knowledge Base now supports multimodal embeddings for video, audio, and image content with TwelveLabs Marengo 3.0",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/",
+    "description": "AWS announces the availability of TwelveLabs Marengo 3.0 as an embedding model in Amazon Bedrock Managed Knowledge Base, enabling customers to create multimodal embeddings for video, audio, and image content. Amazon Bedrock Managed Knowledge Base alr...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T15:13:00+00:00"
+  },
+  {
+    "title": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/",
+    "description": "AWS HealthOmics now publishes real-time run metrics to Amazon CloudWatch, giving you visibility into workflow resource utilization as runs execute. The 14 new run metrics span CPU and GPU usage, memory usage, file system usage and I/O metrics, networ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T15:00:00+00:00"
+  },
+  {
+    "title": "AWS DevOps Agent adds support for bidirectional Slack communication",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-devops-agent-bidirectional-slack-communication",
+    "description": "AWS DevOps Agent now enables engineers to manage&nbsp;production operations&nbsp;across AWS, multicloud, and on-premises environments with the complete investigation lifecycle directly within Slack. Previously, on-call engineers and DevOps teams face...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle now supports Supplemental Patch Bundle for July 2026 Release Update",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-oracle-supports-spatial-patch-bundle-jul-2026-ru/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the Supplemental Patch Bundle (SPB) for the July 2026 Release Update (RU) for Oracle Database version 19c and 26ai.&nbsp; \nStarting with April 2026 releases, the Oracle Spatial P...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T07:12:00+00:00"
+  },
+  {
+    "title": "September 11, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
+    "description": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your existing REST APIs to AI agents as tools, without ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-11T00:00:00-07:00"
+  },
+  {
+    "title": "Retirement: Azure Linux with OS Guard in Azure Kubernetes Service",
+    "link": "https://azure.microsoft.com/updates?id=571257",
+    "description": "Support for Azure Linux with OS Guard in Azure Kubernetes Service will end on December 10, 2026. Azure Container Linux is the replacement for Azure Linux with OS Guard (preview). Starting on December 10, 2026:Users won’t be able to create new Azure L...",
+    "provider": "Azure",
+    "timestamp": "2026-09-11T18:08:28+00:00"
+  },
+  {
+    "title": "Health Plans: Your BI Tells You MLR Moved. Can Your AI Tell You Why?",
+    "link": "https://www.databricks.com/blog/health-plans-your-bi-tells-you-mlr-moved-can-your-ai-tell-you-why",
+    "description": "A health plan CFO closes the month after the usual round of extracts, spreadsheets,...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-11T18:26:59+00:00"
+  },
+  {
+    "title": "Unify your marketing data with Lakeflow Connect",
+    "link": "https://www.databricks.com/blog/unify-your-marketing-data-lakeflow-connect",
+    "description": "This is the first post in a new series exploring how Lakeflow Connect brings fully...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-11T18:00:00+00:00"
+  },
+  {
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "description": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-14T00:00:00+00:00"
+  },
+  {
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "description": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-11T10:00:00+00:00"
+  },
+  {
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "description": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-11T16:00:00+00:00"
   }
 ]
