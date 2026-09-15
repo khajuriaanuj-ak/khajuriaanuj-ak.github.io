@@ -21033,5 +21033,61 @@
     "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
     "provider": "OpenAI",
     "timestamp": "2026-09-14T12:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now enables agents to bid on preferred shifts",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-shift-bidding/",
+    "description": "Amazon Connect Customer now enables agents to bid on preferred shifts, giving them more control over their work schedules. Schedulers first establish agent ranking either by uploading a CSV file or generating a randomized ranking. Connect Customer th...",
+    "provider": "AWS",
+    "timestamp": "2026-09-15T16:00:00+00:00"
+  },
+  {
+    "title": "AWS End User Messaging strengthens SMS deliverability with automatic failover",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-end-user-messaging-improves-deliverability",
+    "description": "AWS End User Messaging is advancing its deliverability capabilities in phone pools. Now, customers sending through phone pools automatically benefit from automatic failover to the next best performing number in the pool when SMS delivery is impacted ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-14T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports ODBC connections for Microsoft Power BI and other analytics tools",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-unified-studio-odbc-power-bi/",
+    "description": "Amazon SageMaker Unified Studio now supports ODBC connections, so data users can connect Microsoft Power BI and other ODBC-compatible tools directly to governed data in SageMaker Unified Studio projects using the Amazon Athena ODBC driver. This adds ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-11T08:00:00+00:00"
+  },
+  {
+    "title": "Announcing: New Windows App client-side endpoints for Azure Virtual Desktop",
+    "link": "https://azure.microsoft.com/updates?id=571360",
+    "description": "Beginning in early October 2026, Windows App will begin using three new wildcard fully qualified domain names (FQDNs) for client-side service traffic to Azure Virtual Desktop. These domains are already included in the cloud-side connectivity requirem...",
+    "provider": "Azure",
+    "timestamp": "2026-09-14T18:24:04+00:00"
+  },
+  {
+    "title": "How energy teams turn theft detection into governed action with Genie and AI business processes",
+    "link": "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes",
+    "description": "Energy theft is the deliberate use of gas or electricity without paying for it, typically...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-15T16:50:00+00:00"
+  },
+  {
+    "title": "How Databricks’ marketers use data 3x more with Genie, an AI analytics assistant",
+    "link": "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant",
+    "description": "Most marketing teams aspire to be data-driven. In practice, getting a trusted answer,...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-15T00:36:33+00:00"
+  },
+  {
+    "title": "Managed Postgres: What Lakebase Actually Takes Off Your Plate",
+    "link": "https://www.databricks.com/blog/managed-postgres",
+    "description": "Every Postgres vendor calls itself \"managed.\" Few of them agree on what that word...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-14T23:36:59+00:00"
+  },
+  {
+    "title": "Announcing On-Demand State Repartitioning for Apache Spark™ Structured Streaming on Databricks",
+    "link": "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks",
+    "description": "Anyone running stateful Apache Spark™ Structured Streaming queries in production...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-14T21:04:30+00:00"
   }
 ]
