@@ -448,5 +448,25 @@
     "tailwindScore": 7.5,
     "baseReason": "Dominant global platform leveraging AI for dynamic pricing, route optimization, demand forecasting, and future autonomous mobility solutions within its massive network.",
     "expertStrategy": "Uber represents a strong investment in the practical application of AI in real-world services, particularly in the evolving landscape of autonomous and optimized mobility. Its extensive data and network effects provide a significant advantage in deploying and refining AI models for operational efficiency and future service expansion, including potential robotaxi ventures."
+  },
+  {
+    "name": "HubSpot, Inc.",
+    "ticker": "HUBS",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software / Marketing Automation",
+    "moatScore": 7.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Leading provider of a comprehensive customer platform (CRM, marketing, sales, service) for SMBs and mid-market, leveraging AI to enhance core functionalities and drive new user experiences in advertising and content creation.",
+    "expertStrategy": "HubSpot is strategically integrating advanced AI capabilities, including those from OpenAI, into its all-in-one platform. This move positions it to significantly enhance value for its extensive customer base by offering cutting-edge AI-powered marketing and sales tools, fostering deeper engagement and attracting new businesses seeking integrated AI solutions for growth."
+  },
+  {
+    "name": "Shopify Inc.",
+    "ticker": "SHOP",
+    "category": "direct",
+    "subCategory": "E-commerce Platform / AI-powered Merchant Tools",
+    "moatScore": 7.5,
+    "tailwindScore": 8.5,
+    "baseReason": "Dominant global e-commerce platform empowering millions of merchants, actively integrating AI to provide sophisticated tools for advertising, store management, customer engagement, and operational efficiency.",
+    "expertStrategy": "Shopify's proactive integration of AI, particularly through partnerships with leaders like OpenAI, directly addresses critical merchant needs in a competitive e-commerce landscape. By providing AI-powered tools for advertising and other functions, Shopify reinforces its platform's value, drives merchant success, and solidifies its position as the preferred e-commerce operating system for a growing number of businesses globally."
   }
 ]
