@@ -468,5 +468,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Dominant global e-commerce platform empowering millions of merchants, actively integrating AI to provide sophisticated tools for advertising, store management, customer engagement, and operational efficiency.",
     "expertStrategy": "Shopify's proactive integration of AI, particularly through partnerships with leaders like OpenAI, directly addresses critical merchant needs in a competitive e-commerce landscape. By providing AI-powered tools for advertising and other functions, Shopify reinforces its platform's value, drives merchant success, and solidifies its position as the preferred e-commerce operating system for a growing number of businesses globally."
+  },
+  {
+    "name": "Pinterest, Inc.",
+    "ticker": "PINS",
+    "category": "direct",
+    "subCategory": "AI-Powered Consumer Application",
+    "moatScore": 7.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Leverages a vast, unique dataset of visual content and user intent to develop proprietary AI features that enhance user engagement and drive e-commerce, creating a strong network effect.",
+    "expertStrategy": "Pinterest is well-positioned to capitalize on the growing adoption of AI-powered visual discovery and e-commerce. Its 'Restyle' feature demonstrates effective integration of generative AI to convert user inspiration into direct purchase intent, unlocking new revenue streams and deepening platform stickiness."
   }
 ]

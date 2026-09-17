@@ -21180,5 +21180,180 @@
     "description": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
     "provider": "OpenAI",
     "timestamp": "2026-09-16T09:00:00+00:00"
+  },
+  {
+    "title": "Amazon Corretto 27 is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/",
+    "description": "Amazon Corretto 27, a Feature Release (FR) version, is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. You can download Corretto 27 for Linux, Windows, and macOS from our downloads p...",
+    "provider": "AWS",
+    "timestamp": "2026-09-17T00:00:31+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/",
+    "description": "Amazon SageMaker AI now supports serverless model customization for the NVIDIA Nemotron 3.5 Lightning model using supervised fine-tuning (SFT), Direct Preference Optimization (DPO), and reinforcement fine-tuning (RFT). This is one of the latest open-...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T22:29:00+00:00"
+  },
+  {
+    "title": "Amazon ECS deployment observability for Amazon ECS Managed Daemons in AWS Management Console",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-daemon-deployment-console/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now provides a consolidated deployment view for Amazon ECS Managed Daemons, giving you a single place to see how far a deployment has progressed, what is failing, and what could stop it. This helps you mo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T22:01:00+00:00"
+  },
+  {
+    "title": "AWS Client VPN is now supporting MacOS 27 Golden Gate",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/",
+    "description": "AWS Client VPN now supports MacOS 27 Golden Gate client with versions 6.0+ You can now run the AWS supplied VPN client on the latest MacOS versions. AWS Client VPN desktop clients are available free of charge, and can be downloaded here.  AWS Client ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T17:56:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces adds support for NVIDIA Blackwell GPU instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-nvidia-blackwell-gpu-instances/",
+    "description": "Amazon WorkSpaces Personal and Amazon WorkSpaces Core now support Graphics G7 bundles, built on NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. Graphics G7 delivers up to 2.1x better performance for graphics-intensive w...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer can now import evaluation form PDFs using AI",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-customer-import-evaluation-form-PDF/",
+    "description": "Amazon Connect Customer now lets managers import a PDF of an evaluation form from a third-party quality management application, and automatically recreates it in Connect using AI, making it easier to migrate an existing quality program into Connect. ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS extends Amazon S3 Files support to the Amazon EC2 compute type",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now supports Amazon S3 Files for tasks running on the Amazon EC2 launch type, enabling customers to connect their containerized applications directly to data in Amazon S3 as a shared file system. With thi...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T16:25:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now lets you create, manage, and search custom metrics through APIs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-custom-metrics-apis/",
+    "description": "Amazon Connect Customer provides a library of standard metrics. Custom metrics let you go further; defining the measurements unique to your business. But managing them across various instances manually means definitions slowly drift until the numbers...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Talent is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-talent/",
+    "description": "Amazon Connect Talent is now generally available, giving talent acquisition leaders an AI-powered hiring solution that accelerates candidate selection at scale. Informed by decades of Amazon's hiring science, Amazon Connect Talent uses AI agents to c...",
+    "provider": "AWS",
+    "timestamp": "2026-09-16T12:22:00+00:00"
+  },
+  {
+    "title": "September 17, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
+    "description": "Oracle Database@Google Cloud\nFeature\nFor Exadata Database Service, Oracle Database@Google Cloud is available in europe-west12 (Turin, Italy) region.\nFor a list of supported locations, see Supported regions and zones.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-17T00:00:00-07:00"
+  },
+  {
+    "title": "Retirement Update: SAP container images removed October 14, 2026",
+    "link": "https://azure.microsoft.com/updates?id=571342",
+    "description": "The containerized SAP data connector retired on September 14, 2026 and is unsupported and unmaintained. Existing TLS-compliant agents may continue sending logs through the retired HTTP Data Collector API. Container images will be removed on October 1...",
+    "provider": "Azure",
+    "timestamp": "2026-09-16T17:19:02+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure SQL updates for mid-September 2026",
+    "link": "https://azure.microsoft.com/updates?id=571056",
+    "description": "In mid-September 2026, the following updates and enhancements were made to Azure SQL:Configure soft delete for the Azure SQL logical server. When the logical server is deleted, it goes into a soft deleted state and is self-restorable during the confi...",
+    "provider": "Azure",
+    "timestamp": "2026-09-16T17:15:10+00:00"
+  },
+  {
+    "title": "The Web Search Your Agent Inherited Isn't Good Enough",
+    "link": "https://www.databricks.com/blog/web-search-your-agent-inherited-isnt-good-enough",
+    "description": "An agent that needs the outside worldAn engineer at a software company is building...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-17T17:00:00+00:00"
+  },
+  {
+    "title": "\"Regex for Rows\": Simplifying Pattern Detection in SQL with MATCH_RECOGNIZE",
+    "link": "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize",
+    "description": "Imagine you work in cybersecurity and you have a table that tracks login attempts...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-16T17:14:05+00:00"
+  },
+  {
+    "title": "How to connect AI usage to business value",
+    "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "description": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-16T12:00:00+00:00"
+  },
+  {
+    "title": "Our framework for reporting model misalignment",
+    "link": "https://openai.com/index/model-misalignment-reporting-framework",
+    "description": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-16T17:00:00+00:00"
+  },
+  {
+    "title": "Romance scams: AI-enabled romance scam workflows",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam",
+    "description": "OpenAI banned accounts using AI to support romance scam workflows, including outreach, translation, victim engagement, and investment-fraud lures.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Trolling Stone”: Russia-linked influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone",
+    "description": "OpenAI banned accounts linked to a previously unreported operation we dubbed \"Trolling Stone\", using AI to generate comments about an alleged Russian cult leader’s arrest in Argentina.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Fish Food”: Russia-origin content farm activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food",
+    "description": "OpenAI banned accounts linked to the Rybar network, some of which likely originated in Russia, that used AI to support multilingual influence activity across websites and social platforms.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “No Bell”: Coordinated criticism of the US and allies",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell",
+    "description": "OpenAI banned accounts linked to a previously unreported, likely Russia-origin operation we dubbed \"No Bell\", using AI to produce criticism of the US and its allies for audiences across Africa.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "“Cyber Special Operations”: China-linked influence planning",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations",
+    "description": "OpenAI banned an account linked to an individual associated with Chinese law enforcement, using AI to plan influence activity, harassment, and online operations.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “Date Bait”: AI-enabled scam targeting loveseekers",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait",
+    "description": "OpenAI banned accounts that very likely originated in Cambodia and used AI for scam outreach to Indonesian loveseekers, including translation and engagement.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Operation “False Witness”: Fake recovery service impersonating authorities",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness",
+    "description": "OpenAI banned accounts that very likely originated in Cambodia and used AI to pose as recovery services, law firms, and authorities targeting people affected by fraud.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "Silver lining playbook: Likely China-origin activity targeting US persons",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook",
+    "description": "OpenAI banned likely China-origin accounts using AI to research US persons, locations, and social-engineering tactics.",
+    "provider": "OpenAI",
+    "timestamp": "2026-02-01T00:00:00+00:00"
+  },
+  {
+    "title": "v0.1.17",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.17",
+    "description": "Release v0.1.17",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-09-16T17:29:16+00:00"
   }
 ]
