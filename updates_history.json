@@ -21509,5 +21509,110 @@
     "description": "Today, we are introducing the Life Sciences Verification Program (LSVP), which gives life science professionals access to our Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work. We have already o...",
     "provider": "Anthropic",
     "timestamp": "2026-09-16T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Continuum now supports credential testing and accessible domain suggestions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/",
+    "description": "AWS Continuum for penetration testing is a frontier agent that proactively secures applications throughout the development lifecycle by offering on-demand, customized penetration testing with real exploitability testing. Developers and security teams...",
+    "provider": "AWS",
+    "timestamp": "2026-09-18T18:34:00+00:00"
+  },
+  {
+    "title": "Amazon ECS Express Mode now supports AWS Graviton (ARM64) workloads",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/",
+    "description": "Amazon Elastic Container Service Express Mode now supports specifying ARM64 as the CPU architecture for your service, making it easy to deploy ARM-based container images on AWS Graviton-powered compute and benefit from up to 40% better price-performa...",
+    "provider": "AWS",
+    "timestamp": "2026-09-18T17:27:00+00:00"
+  },
+  {
+    "title": "AWS RTB Fabric now supports configurable Availability Zone affinity",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-rtb-fabric-configurable-availability-zone-affinity/",
+    "description": "AWS RTB Fabric now supports configurable Availability Zone (AZ) affinity for responder gateways. With this capability, you can configure how your partners connect to your responder gateway: either in their own Availability Zone or to any Availability...",
+    "provider": "AWS",
+    "timestamp": "2026-09-18T15:30:00+00:00"
+  },
+  {
+    "title": "Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/",
+    "description": "Amazon Bedrock continues to expand its open weight model portfolio with the same security and governance that customers rely on.&nbsp;Today, Kimi K3 from Moonshot AI is generally available on Amazon Bedrock, giving you a powerful new option for codin...",
+    "provider": "AWS",
+    "timestamp": "2026-09-18T15:15:00+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Foundry Routines in Foundry Agent Service",
+    "link": "https://azure.microsoft.com/updates?id=563536",
+    "description": "In public preview, Foundry Agent Service adds Foundry Routines, a native trigger primitive for running published agents automatically. Production agents often need to run on a schedule or when a business event occurs, and today that means assembling ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-18T19:10:53+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Mdsv4 and Msv4 Series Virtual Machines for SAP",
+    "link": "https://azure.microsoft.com/updates?id=571530",
+    "description": "The Mdsv4\nand Msv4 Series are memory-optimized virtual machine series built on 6th\nGeneration Intel® Xeon® Scalable processors and enhanced with advanced security\ncapabilities and the latest Azure Boost technologies. Designed for\ndemanding memory-int...",
+    "provider": "Azure",
+    "timestamp": "2026-09-18T17:29:29+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Enable and disable controls for Microsoft Foundry agents in Agent 365",
+    "link": "https://azure.microsoft.com/updates?id=571826",
+    "description": "Microsoft Foundry now exposes enable and disable actions for Foundry agent objects within the Agent 365 governance surface in Microsoft Admin Center, generally available. Administrators can control whether a Foundry agent is available for use across ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-18T17:24:02+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Network egress controls for hosted agents in Microsoft Foundry",
+    "link": "https://azure.microsoft.com/updates?id=571821",
+    "description": "In public preview, Microsoft Foundry now lets customers govern the outbound connections a hosted agent can make. Customers author ordered rules matched on destination host, including FQDN with wildcards such as *.contoso.com, with actions to allow, d...",
+    "provider": "Azure",
+    "timestamp": "2026-09-18T17:23:21+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams",
+    "link": "https://azure.microsoft.com/updates?id=571816",
+    "description": "Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams is now generally available. An agent only delivers value once it reaches the people who need it, and Foundry developers previously had no native path to make their agents operatio...",
+    "provider": "Azure",
+    "timestamp": "2026-09-18T17:21:06+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Logical replication slot sync status metric for Azure PostgreSQL Flexible Server",
+    "link": "https://azure.microsoft.com/updates?id=568414",
+    "description": "You can now monitor the synchronization status of your logical replication slots in Azure Database for PostgreSQL – Flexible Server using the new logical_replication_slot_sync_status metric. This Azure Monitor metric shows whether each logical replic...",
+    "provider": "Azure",
+    "timestamp": "2026-09-18T16:44:11+00:00"
+  },
+  {
+    "title": "RADAR: Catch gray failures with anomaly detection",
+    "link": "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection",
+    "description": "Some of the most damaging outages are the ones your monitoring never flags: a slice...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-19T00:00:00+00:00"
+  },
+  {
+    "title": "Enabling secure, productive work on personal devices",
+    "link": "https://www.databricks.com/blog/enabling-secure-productive-work-personal-devices",
+    "description": "At Databricks IT, our vision is to empower people to work from anywhere without putting...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-18T17:45:00+00:00"
+  },
+  {
+    "title": "Introducing the Australian Youth Safety Blueprint",
+    "link": "https://openai.com/index/australian-youth-safety-blueprint",
+    "description": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-18T12:00:00+00:00"
+  },
+  {
+    "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+    "link": "https://openai.com/index/hex-gpt-6-astra",
+    "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-16T12:00:00+00:00"
+  },
+  {
+    "title": "Partnering with Accenture on embedded evaluation",
+    "link": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+    "description": "We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic.The partnership will be led by Facult...",
+    "provider": "Anthropic",
+    "timestamp": "2026-09-17T16:00:00+00:00"
   }
 ]
