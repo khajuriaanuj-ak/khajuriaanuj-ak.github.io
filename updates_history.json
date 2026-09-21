@@ -21614,5 +21614,75 @@
     "description": "We're partnering with Accenture on independent evaluation of frontier AI. This is an important step toward the commitment, made in our CEO’s essay “We Must Pace the Frontier,” to embed evaluators within Anthropic.The partnership will be led by Facult...",
     "provider": "Anthropic",
     "timestamp": "2026-09-17T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+    "description": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found mys...",
+    "provider": "AWS",
+    "timestamp": "2026-09-21T16:11:24+00:00"
+  },
+  {
+    "title": "Amazon EC2 X8i instances are now available in the South America (São Paulo) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the South America (São Paulo) region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and de...",
+    "provider": "AWS",
+    "timestamp": "2026-09-18T22:16:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 I7ie instances now available in AWS Israel region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-i7ie-instances-israel-telaviv-region/",
+    "description": "AWS is announcing starting today, Amazon EC2 I7ie instances are now available in AWS Israel (Tel Aviv) region. Designed for large storage I/O intensive workloads, I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core turbo freq...",
+    "provider": "AWS",
+    "timestamp": "2026-09-18T16:00:00+00:00"
+  },
+  {
+    "title": "September 21, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_21_2026",
+    "description": "Apigee X\nAnnouncement\nOn September 21st, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-4, y...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-21T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+    "link": "https://azure.microsoft.com/updates?id=572214",
+    "description": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-21T16:58:19+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Functions support for PowerShell 7.6",
+    "link": "https://azure.microsoft.com/updates?id=572219",
+    "description": "Azure Functions support for PowerShell 7.6 is\nnow generally available.  You can now develop apps using PowerShell 7.6 locally and\ndeploy them to Azure Functions plans.   Learn more: Updating\nyour app to PowerShell 7.6  What's\nnew in PowerShell 7.6?  ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-21T16:55:34+00:00"
+  },
+  {
+    "title": "Advisory Group on Mathematics and Artificial Intelligence",
+    "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "description": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-21T12:00:00+00:00"
+  },
+  {
+    "title": "Building standards for the next phase of AI",
+    "link": "https://openai.com/index/building-standards-next-phase-ai",
+    "description": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-21T10:00:00+00:00"
+  },
+  {
+    "title": "Expanding OpenAI Academy with new learning paths",
+    "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+    "description": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-21T07:00:00+00:00"
+  },
+  {
+    "title": "How V7 gives AI agents institutional memory",
+    "link": "https://openai.com/index/v7",
+    "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-21T00:00:00+00:00"
   }
 ]
