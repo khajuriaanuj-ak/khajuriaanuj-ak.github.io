@@ -21684,5 +21684,61 @@
     "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
     "provider": "OpenAI",
     "timestamp": "2026-09-21T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now provides real-time service deployment observability in the Amazon ECS Console for native Linear, Canary, and Blue/Green deployment strategies. With this launch, deployment monitoring and troubleshooti...",
+    "provider": "AWS",
+    "timestamp": "2026-09-21T20:05:00+00:00"
+  },
+  {
+    "title": "September 22, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_22_2026",
+    "description": "Compute Engine\nDeprecated\nAs of September 15, 2026, NVIDIA P100 (nvidia-tesla-p100 and\nnvidia-tesla-p100-vws) GPUs have reached end of support (EOS) and are shut\ndown. You can no longer create, launch, or access Compute Engine\ninstances or other Goog...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-22T00:00:00-07:00"
+  },
+  {
+    "title": "September 14, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_14_2026",
+    "description": "Agent Platform Workbench\nChange\nM150 Release\nChange\nInstalled latest packages from upstream dependencies.\nApigee hybrid\nAnnouncement\nhybrid v1.17.0\nOn September 14, 2026 we released an updated version of the Apigee hybrid software, 1.17.0.\n\nFor infor...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-14T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available",
+    "link": "https://azure.microsoft.com/updates?id=572579",
+    "description": "Azure Sphere OS version 26.09 is now available in the Retail feed. This release includes updates to the Azure Sphere OS only, with no update to the SDK. If your devices are connected to the internet, they will receive the updated OS from the cloud.Th...",
+    "provider": "Azure",
+    "timestamp": "2026-09-21T18:44:49+00:00"
+  },
+  {
+    "title": "Genie One MCP: Give any AI Agent the Right Business Context",
+    "link": "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context",
+    "description": "Business leaders often have access to plenty of data, but still can’t get a reliable...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-22T16:00:00+00:00"
+  },
+  {
+    "title": "The Genie One MCP is now Generally Available",
+    "link": "https://www.databricks.com/blog/genie-one-mcp-now-generally-available",
+    "description": "AI coworkers and coding agents are spreading fast across organizations, and each...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-22T16:00:00+00:00"
+  },
+  {
+    "title": "Data Ontology defined: The context layer your AI agents are missing",
+    "link": "https://www.databricks.com/blog/data-ontology-defined-context-layer-your-ai-agents-are-missing",
+    "description": "Ask five people at the same company what \"revenue\" means and there's a chance you'll get five different answers...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-15T16:59:01+00:00"
+  },
+  {
+    "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+    "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+    "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-21T12:00:00+00:00"
   }
 ]
