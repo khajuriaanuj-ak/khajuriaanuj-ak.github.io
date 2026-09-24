@@ -478,5 +478,15 @@
     "tailwindScore": 8.0,
     "baseReason": "Leverages a vast, unique dataset of visual content and user intent to develop proprietary AI features that enhance user engagement and drive e-commerce, creating a strong network effect.",
     "expertStrategy": "Pinterest is well-positioned to capitalize on the growing adoption of AI-powered visual discovery and e-commerce. Its 'Restyle' feature demonstrates effective integration of generative AI to convert user inspiration into direct purchase intent, unlocking new revenue streams and deepening platform stickiness."
+  },
+  {
+    "name": "Ziff Davis, Inc.",
+    "ticker": "ZD",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software (RAG Data Source / CX AI)",
+    "moatScore": 7.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Provides critical structured and unstructured customer interaction data as a native source for enterprise Retrieval-Augmented Generation (RAG) applications via Amazon Bedrock, making existing enterprise data AI-ready and enhancing customer experience with AI.",
+    "expertStrategy": "Zendesk, with its pervasive presence in customer service and support, is uniquely positioned to capitalize on the generative AI wave. By integrating its vast data repository as a native source for RAG platforms, it empowers enterprises to deploy highly accurate and context-aware AI agents, improving operational efficiency and customer satisfaction. This strategic pivot ensures Zendesk remains an essential component of the enterprise AI stack, driving long-term value from existing customer relationships and new AI-driven capabilities."
   }
 ]
