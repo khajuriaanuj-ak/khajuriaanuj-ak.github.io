@@ -488,5 +488,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Provides critical structured and unstructured customer interaction data as a native source for enterprise Retrieval-Augmented Generation (RAG) applications via Amazon Bedrock, making existing enterprise data AI-ready and enhancing customer experience with AI.",
     "expertStrategy": "Zendesk, with its pervasive presence in customer service and support, is uniquely positioned to capitalize on the generative AI wave. By integrating its vast data repository as a native source for RAG platforms, it empowers enterprises to deploy highly accurate and context-aware AI agents, improving operational efficiency and customer satisfaction. This strategic pivot ensures Zendesk remains an essential component of the enterprise AI stack, driving long-term value from existing customer relationships and new AI-driven capabilities."
+  },
+  {
+    "name": "Akamai Technologies, Inc.",
+    "ticker": "AKAM",
+    "category": "infra",
+    "subCategory": "Cloud Infrastructure for AI",
+    "moatScore": 7.5,
+    "tailwindScore": 8.0,
+    "baseReason": "Akamai is leveraging its global, distributed cloud and edge computing infrastructure to provide critical compute services for demanding AI workloads, securing a multi-billion dollar, multi-year deal with a leading AI model developer.",
+    "expertStrategy": "Akamai is making a strategic pivot to capture significant share in the high-growth AI infrastructure market by offering its distributed compute capabilities. The substantial long-term commitment from Anthropic signals Akamai's increasing importance as a foundational provider of cloud infrastructure, particularly for CPU-intensive AI tasks and large-scale data delivery, positioning it as a key beneficiary of the ongoing AI build-out."
   }
 ]
