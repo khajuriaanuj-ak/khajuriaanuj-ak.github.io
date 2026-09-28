@@ -22230,5 +22230,96 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.100 is now\navailable for all regions.",
     "provider": "Google Cloud",
     "timestamp": "2026-09-26T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: GPT-6 Sol and Luna, Claude Opus 5.5 on Amazon Bedrock, Strands harness, and more (September 28, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-sol-and-luna-claude-opus-5-5-on-amazon-bedrock-strands-harness-and-more-september-28-2026/",
+    "description": "If there’s one theme that defined last week, it’s choice. The frontier models keep arriving, and the interesting question is no longer just “how smart is it?” but “which model fits this step, at this cost, at this latency?” That’s exactly what landed...",
+    "provider": "AWS",
+    "timestamp": "2026-09-28T16:14:54+00:00"
+  },
+  {
+    "title": "Claude Sonnet 5.5 now available on AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-sonnet-5-5-aws/",
+    "description": "AWS now offers Claude Sonnet 5.5, a smarter and more efficient Sonnet that delivers a clear leap forward on coding and knowledge work with at a lower cost per task for most work at faster speed.\nClaude Sonnet 5.5 is a smarter, more efficient Sonnet a...",
+    "provider": "AWS",
+    "timestamp": "2026-09-28T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon Corretto September 2026 Patch Updates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-sept-2026-updates/",
+    "description": "On September 25, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK: Corretto 25.0.4.10.1, 21.0.12.11.1, 17.0.20.12.1, and 11.0.32.12.1 are now available for do...",
+    "provider": "AWS",
+    "timestamp": "2026-09-28T14:00:00+00:00"
+  },
+  {
+    "title": "September 28, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_28_2026",
+    "description": "Application Integration\nSecurity\nA Confused Deputy vulnerability was discovered in the Email Task component in \nApplication Integration versions prior to June 30, 2026.\nFor more information, see the\nGCP-2026-066\nsecurity bulletin.\nSecurity\nA Deserial...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-28T00:00:00-07:00"
+  },
+  {
+    "title": "September 27, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-27T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure SQL Managed Instance updates for late-September 2026",
+    "link": "https://azure.microsoft.com/updates?id=571632",
+    "description": "In\nlate September 2026, the following updates and\nenhancements were made to Azure SQL Managed Instance:  \n Use\n     the flexible memory feature in Azure SQL Managed Instance to change the\n     amount of memory allocated to your SQL managed instance w...",
+    "provider": "Azure",
+    "timestamp": "2026-09-28T18:52:10+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Luxembourg - Azure Extended Zones",
+    "link": "https://azure.microsoft.com/updates?id=572968",
+    "description": "We are announcing the general availability of the Luxembourg Azure Extended Zone. Azure Extended Zones are small-footprint extensions of Azure placed in metro areas, industry centers, or specific jurisdictions, to serve low latency and data residency...",
+    "provider": "Azure",
+    "timestamp": "2026-09-28T17:08:48+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Backup for Elastic SAN",
+    "link": "https://azure.microsoft.com/updates?id=494438",
+    "description": "Azure Backup now supports operational backup for Elastic SAN, offering a fully\nmanaged solution for backing up and restoring Elastic SAN volumes. This\nintegration helps protect data against accidental deletions, ransomware\nattacks, and application up...",
+    "provider": "Azure",
+    "timestamp": "2025-05-29T15:15:41+00:00"
+  },
+  {
+    "title": "Manufacturing data and AI: Connecting the product value chain",
+    "link": "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain",
+    "description": "A manufacturing defect rarely belongs to one system. A scrap spike may relate to...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-28T19:47:19+00:00"
+  },
+  {
+    "title": "How to roll out Genie One: A step-by-step enterprise playbook",
+    "link": "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook",
+    "description": "A regional sales director wants to know why the Northeast pipeline looks soft this quarter...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-28T16:30:00+00:00"
+  },
+  {
+    "title": "The 24 most commonly misunderstood marketing data terms",
+    "link": "https://www.databricks.com/blog/helping-marketing-data-engineering-same-word-different-meaning",
+    "description": "Imagine you’re a marketer planning a win-back campaign and you ask your data team for a list of “inactive customers.” Y...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-28T07:01:10+00:00"
+  },
+  {
+    "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+    "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+    "description": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-28T07:00:00+00:00"
+  },
+  {
+    "title": "v0.1.20",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.20",
+    "description": "Release v0.1.20",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-09-27T22:11:33+00:00"
   }
 ]
