@@ -22454,5 +22454,320 @@
     "description": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
     "provider": "OpenAI",
     "timestamp": "2026-09-28T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+    "description": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T17:22:31+00:00"
+  },
+  {
+    "title": "Uncover blind spots in AWS data plane operations with CloudTrail Event Coverage",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cloudtrail-event-coverage/",
+    "description": "AWS CloudTrail introduces Event Coverage, a new console experience that gives customers visibility into their data plane operations coverage at the account and organization level. You can now see which AWS services and resource types in your environm...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+    "description": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of&nbsp;OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources.&nbsp;You can now build agents optimized for OpenAI models th...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T21:10:00+00:00"
+  },
+  {
+    "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
+    "description": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T20:17:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces Applications introduces unified graphics images",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/",
+    "description": "Today, Amazon WorkSpaces Applications announces unified graphics images, a single image type that works across all supported graphics instance families, including G4dn, G5, G6, and G7. Previously, each graphics generation required its own dedicated i...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Service Availability Updates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-service-availability/",
+    "description": "We're announcing availability changes to the following AWS services and features.\nServices moving to Maintenance\nServices moving to maintenance will no longer be accessible to new customers starting October 29, 2026. Customers already using these ser...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T16:21:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for PostgreSQL announces Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514 and 11.22-rds.20260514",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-postgresql-extended-support/",
+    "description": "Amazon Relational Database Service (RDS) for PostgreSQL announces Amazon RDS Extended Support minor versions 13.23-rds.20260514, 12.22-rds.20260514, and 11.22-rds.20260514.\nAmazon RDS Extended Support provides up to three additional years of fixes fo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora now supports PostgreSQL 18.6, 17.11, 16.15, 15.19, 14.24",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-postgresql-18-6-17-11-16-15-15-19-14-24/",
+    "description": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL versions 18.6, 17.11, 16.15, 15.19, and 14.24, which include bug fixes from the PostgreSQL community and Aurora-specific enhancements. We recommend upgrading to the latest minor vers...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
+    "description": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need t...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T15:41:00+00:00"
+  },
+  {
+    "title": "AWS Transform now supports Apache Kafka migration assessments for Amazon MSK",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-msk-migration-assessment-with-aws-transform",
+    "description": "You can now use AWS Transform agentic migration assessments to evaluate the migration of on-premises Apache Kafka clusters to Amazon Managed Streaming for Apache Kafka (Amazon MSK). AWS Transform migration assessments use agentic AI to analyze your w...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T15:00:00+00:00"
+  },
+  {
+    "title": "AWS DataSync now supports shared VPCs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-datasync-shared-vpcs/",
+    "description": "AWS DataSync now supports shared Virtual Private Clouds (VPCs). You can create DataSync agents and run transfer tasks using subnets shared across AWS accounts with AWS Resource Access Manager (RAM). It allows you to transfer data privately over a sha...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache Serverless for Valkey now supports public endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-elasticache-serverless-public-endpoints/",
+    "description": "Amazon ElastiCache Serverless for Valkey now supports public endpoints, letting you connect to your cache directly from a laptop, a serverless function, or any application running outside AWS, without setting up a VPN, a bastion host, or an SSH tunne...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks Advanced DNS Security is now Generally Available (GA)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/route-53-dns-firewall-panw-dns-security-generally-available",
+    "description": "​​Amazon Route 53 Resolver DNS Firewall support for Palo Alto Networks (PANW) Advanced DNS Security is now generally available across 32 AWS Regions, allowing security teams to detect and block malicious DNS traffic directly from their VPCs using PAN...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T01:03:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace launches an AI agent skill for usage-based metering integration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/marketplace-ai-agent-metering/",
+    "description": "AWS announces the general availability of the AWS Marketplace metering agent skill, an AI-guided experience that helps sellers build, deploy, and validate a usage-based (pay-as-you-go) SaaS metering integration from within their AI coding assistant. ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-23T08:00:00+00:00"
+  },
+  {
+    "title": "September 30, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#September_30_2026",
+    "description": "Apigee API hub\nFeature\nAI performance and Tool performance dashboards in API insights\nAPI insights in API hub now includes two dashboards for AI and agent traffic:\n\nAI performance reports token usage and model latency for the large language models ca...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-09-30T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Ubuntu 26.04 support in AKS",
+    "link": "https://azure.microsoft.com/updates?id=573214",
+    "description": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04 support introduces the Ubuntu2604 OS SKU using Ubuntu Min...",
+    "provider": "Azure",
+    "timestamp": "2026-09-30T17:11:11+00:00"
+  },
+  {
+    "title": "Announcing: Azure canvases for GitHub Copilot",
+    "link": "https://azure.microsoft.com/updates?id=573385",
+    "description": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure resources, analyze costs, and build hosted skills while ke...",
+    "provider": "Azure",
+    "timestamp": "2026-09-30T17:09:51+00:00"
+  },
+  {
+    "title": "Retirement: Transition to using standard tests for single-step availability testing in Azure Monitor application insights by September 30, 2028",
+    "link": "https://azure.microsoft.com/updates?id=transition-to-using-standard-tests-for-singlestep-availability-testing-in-azure-monitor-application-insights-by-30-september",
+    "description": "URL ping tests in Application Insights were originally planned for retirement on September 30, 2026. In response to customer feedback requesting more time to complete migration, the retirement date has been extended by 24 months to September 30, 2028...",
+    "provider": "Azure",
+    "timestamp": "2023-09-22T23:00:56+00:00"
+  },
+  {
+    "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
+    "link": "https://azure.microsoft.com/updates?id=570800",
+    "description": "The Azure Functions v1 hosting model on Azure Container Apps\nwill be retired on September 29, 2027. After this date, existing Functions v1\napps on Azure Container Apps will stop running and will no longer process\nrequests or event-driven triggers. Th...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T19:41:09+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+    "link": "https://azure.microsoft.com/updates?id=572630",
+    "description": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per v...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T19:27:09+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+    "link": "https://azure.microsoft.com/updates?id=571075",
+    "description": "Automatic Zone Placement for VM Scale Sets (Public Preview) enables Azure to automatically select the best availability zones for your scale set based on SKU availability, capacity, and placement requirements. Instead of manually maintaining zone lis...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T19:17:59+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server in Germany West Central",
+    "link": "https://azure.microsoft.com/updates?id=570696",
+    "description": "Azure Arc-enabled SQL Server is now\navailable in Germany West Central, enabling you to connect SQL Server\ninstances to Azure Arc and take advantage of Azure-based inventory, governance,\nsecurity, assessment, and license management capabilities. Learn...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T19:07:44+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server Available in Italy North",
+    "link": "https://azure.microsoft.com/updates?id=570763",
+    "description": "Azure Arc-enabled SQL Server is now available in Italy\nNorth, enabling you to connect SQL Server instances to Azure Arc and\ntake advantage of Azure-based inventory, governance, security, assessment, and\nlicense management capabilities.Learn more.",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T19:06:50+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
+    "link": "https://azure.microsoft.com/updates?id=571909",
+    "description": "Ultra Disk support is now available in public preview for Azure Database for PostgreSQL flexible server. You can use Azure’s highest-performance managed disk option for I/O-intensive and transaction-heavy PostgreSQL workloads that require consistentl...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T18:14:46+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
+    "link": "https://azure.microsoft.com/updates?id=571867",
+    "description": "The public preview of Microsoft-managed performance monitoring for Azure SQL Database is now available.  You can now monitor Azure SQL Database without building custom collection scripts or correlating telemetry across disconnected tools. Built-in da...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T18:13:31+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Performance monitoring for Azure Arc–enabled SQL Server",
+    "link": "https://azure.microsoft.com/updates?id=571904",
+    "description": "The preview of performance monitoring for SQL Server enabled by Azure Arc is expanding with more flexible ways to explore and visualize your performance data. You can query Microsoft-managed monitoring data directly through a telemetry endpoint. The ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T18:11:15+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure SQL updates for late-September 2026",
+    "link": "https://azure.microsoft.com/updates?id=571643",
+    "description": "The following updates and enhancements were made to Azure\nSQL:   \n Scale\n     larger workloads on Azure SQL Database Hyperscale Premium series with new\n     160-vCore and 192-vCore options, delivering up to 50% greater compute\n     capacity than the ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T18:05:11+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server supports cross-tenant customer-managed keys (CMK)",
+    "link": "https://azure.microsoft.com/updates?id=571783",
+    "description": "Azure Database for PostgreSQL Flexible Server now supports cross-tenant customer-managed keys (CMK). You can encrypt your data using keys stored in an Azure Key Vault or Azure Managed HSM that resides in a different Microsoft Entra tenant than your P...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:57:36+00:00"
+  },
+  {
+    "title": "[In preview] Public preview: Script-based deployment for SQL Server on Linux Azure VM",
+    "link": "https://azure.microsoft.com/updates?id=571810",
+    "description": "A new deployment experience for SQL Server on Linux Azure Virtual Machines (VMs) replaces legacy marketplace images with automated script-based provisioning. This release provides greater flexibility, simplified management, and improved customization...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:52:59+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: SQL Server on Azure Local Disconnected (ALDO)",
+    "link": "https://azure.microsoft.com/updates?id=571836",
+    "description": "Now you can use ALDO to extend SQL Server support to environments that can’t maintain continuous connectivity to Azure. ALDO is designed for operations in highly regulated, secure, remote, or air-gapped environments, where internet connectivity is re...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:51:34+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: SQL Server support on Azure Local connected mode",
+    "link": "https://azure.microsoft.com/updates?id=571841",
+    "description": "With SQL Server on Azure Local, you can run SQL Server workloads on Azure Local infrastructure while leveraging Azure services for centralized management, governance, monitoring, security, and licensing experiences. By connecting to Azure through Azu...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:50:20+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure SQL updates for late-September 2026",
+    "link": "https://azure.microsoft.com/updates?id=571846",
+    "description": "In late September 2026, the following updates and\nenhancements were made to Azure SQL:  \n Database\n     Hub in Microsoft Fabric is a unified experience for discovering, managing,\n     monitoring, and optimizing databases across SQL Server, Azure SQL,",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:49:15+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Database DevOps in SSMS powered by SQL projects",
+    "link": "https://azure.microsoft.com/updates?id=571852",
+    "description": "In SSMS, you can now use Microsoft.Build.Sql projects to help you implement, manage, and collaborate on database changes, by providing a local definition of the database objects. A SQL database project is a local representation of SQL objects that co...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:42:47+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure SQL Database Hyperscale Serverless auto-pause and auto-resume",
+    "link": "https://azure.microsoft.com/updates?id=571857",
+    "description": "Auto-pause and auto-resume are now available in public preview for Azure SQL Hyperscale databases using the Serverless compute tier. You can configure databases to automatically pause during periods of inactivity and automatically resume when activit...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:40:40+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: SQL Formatter",
+    "link": "https://azure.microsoft.com/updates?id=571872",
+    "description": "You can now format SQL scripts directly in Visual Studio Code using SQL Formatter for more consistent, readable code. Customizable formatting options help you match your preferred coding style, so you can keep queries tidy without manual reformatting...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:39:36+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: SQL Migration Agent Skills for assessment, migration, and validation",
+    "link": "https://azure.microsoft.com/updates?id=571899",
+    "description": "SQL Migration Agent Skills help you automate and streamline the end-to-end migration journey from SQL Server to Azure. These reusable AI-powered skills help guide you through assessment, target selection, migration execution, and post-migration valid...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:38:16+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Migrate directly from Azure Arc to Azure SQL Database, including Hyperscale",
+    "link": "https://azure.microsoft.com/updates?id=571795",
+    "description": "You can now select Azure SQL Database, including Hyperscale, as a migration target directly from the database migration experience in Azure Arc. The workflow brings Azure Database Migration Service and Self-hosted Integration Runtime setup into the g...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:34:44+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Microsoft SQL Agent Skills",
+    "link": "https://azure.microsoft.com/updates?id=573003",
+    "description": "Microsoft SQL Agent Skills help you get more accurate, product-specific guidance when using AI agents to build, operate, and migrate SQL workloads. You can use these skills with Azure SQL Database, Azure SQL Database container, SQL Server to Azure mi...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:31:11+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Long-term retention (LTR) v2 for Azure Database for PostgreSQL",
+    "link": "https://azure.microsoft.com/updates?id=571914",
+    "description": "LTR v2 is the next-generation long-term backup solution for Azure Database for PostgreSQL that moves from logical backups (pg_dump/pg_restore) used in LTR v1 to physical snapshot-based backups integrated with Azure Backup Vaults.  With this release, ...",
+    "provider": "Azure",
+    "timestamp": "2026-09-29T17:28:57+00:00"
+  },
+  {
+    "title": "A practical guide to cost optimization with Lakebase Postgres",
+    "link": "https://www.databricks.com/blog/practical-guide-cost-optimization-lakebase-postgres",
+    "description": "Lakebase is a fully managed Postgres database, built for the operational realities...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-30T16:53:12+00:00"
+  },
+  {
+    "title": "How to scale agentic applications without creating AI sprawl",
+    "link": "https://www.databricks.com/blog/how-scale-agentic-applications-without-creating-ai-sprawl",
+    "description": "Building an agent is getting easier. More capable models and coding agents are making...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-30T16:46:25+00:00"
+  },
+  {
+    "title": "Your data, your storage, your rules: a 2026 guide to storing Unity Catalog managed tables",
+    "link": "https://www.databricks.com/blog/your-data-your-storage-your-rules-2026-guide-storing-unity-catalog-managed-tables",
+    "description": "Unity catalog managed tables allow you to control the placement of your data when...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-29T16:40:16+00:00"
+  },
+  {
+    "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
+    "link": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-12000-employees-day-1",
+    "description": "Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-28T20:11:23+00:00"
+  },
+  {
+    "title": "Disrupting a coordinated model-distillation campaign",
+    "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "description": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-30T10:30:00+00:00"
+  },
+  {
+    "title": "Helping small businesses put AI to work",
+    "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+    "provider": "OpenAI",
+    "timestamp": "2026-09-30T10:00:00+00:00"
   }
 ]
