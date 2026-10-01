@@ -22769,5 +22769,222 @@
     "description": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
     "provider": "OpenAI",
     "timestamp": "2026-09-30T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+    "description": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compa...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T22:10:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+    "description": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T20:03:34+00:00"
+  },
+  {
+    "title": "Amazon Corretto 8 September 2026 Patch Updates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-8-sept-2026-updates/",
+    "description": "On September 30, 2026, Amazon announced a patch update for the following Amazon Corretto Long-Term Support (LTS) version of OpenJDK: Corretto&nbsp;8u504 is now available for download. Amazon Corretto is a no-cost, multi-platform, production-ready dis...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T14:00:00+00:00"
+  },
+  {
+    "title": "Serverless Storage on Amazon EMR Serverless now supports terabyte-scale shuffle",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/",
+    "description": "Amazon EMR Serverless now offers enhanced serverless storage capabilities with support for up to 1TB shuffle operations, raising the previous 200 GB per-job limit. Amazon EMR Serverless makes it simple for data engineers and data scientists to run op...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T08:00:00+00:00"
+  },
+  {
+    "title": "Improve your secrets security posture with actionable recommendations in the AWS Secrets Manager console",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-secrets-manager-security-posture-recommendations",
+    "description": "​​​AWS Secrets Manager now integrates with the AWS Recommended Actions framework to surface contextual, actionable suggestions for your secrets directly in the Secrets Manager console. ​​\n​​With this launch, you can view tailored recommendations alon...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces Core Managed Instances adds support for NVIDIA Blackwell GPU",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-cmi-g7/",
+    "description": "Amazon WorkSpaces Core Managed Instances now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon 6 processors. G7 instances deliver up to 2.1X better performance for graphics-intensive workloads...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T23:59:00+00:00"
+  },
+  {
+    "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+    "description": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T20:16:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Vectors introduces metadata pre-filtering for up to 5x higher recall on filtered search",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/",
+    "description": "Amazon S3 Vectors now supports pre-filtering, which evaluates metadata filters before running similarity search, returning up to 5x more of the matching vectors when your filter is selective. S3 Vectors also adds a prefix match operator ($startsWith)...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T20:00:00+00:00"
+  },
+  {
+    "title": "OpenAI GPT-6 Astra now supports UltraFast mode on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-ultrafast-on-amazon-bedrock/",
+    "description": "&nbsp;Today, AWS announces the availability of UltraFast mode for GPT-6 Astra from OpenAI on Amazon Bedrock. Ultrafast is a premium speed tier for GPT-6 Astra built for workloads where speed matters most. According to OpenAI, Ultrafast delivers up to...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T19:00:00+00:00"
+  },
+  {
+    "title": "AWS Parallel Computing Service now supports scaling logs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-pcs-scaling-logs/",
+    "description": "AWS Parallel Computing Service (AWS PCS) now supports scaling logs, which record how AWS PCS scales the compute node groups in your cluster. Each log entry records one state transition for one compute node—for example, an instance launch, a node regi...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T19:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/",
+    "description": "Amazon Aurora serverless now scales in even larger steps, adding up to 16 ACUs to its current capacity within a second and continuing to scale up to 256 ACUs as your workload grows. With this launch, your workload will scale faster and reach capacity...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T17:50:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora and RDS now support AMD-based R8a instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-r8a/",
+    "description": "Amazon Aurora and Amazon RDS now support R8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in R8a database instances corresponds to a physical CPU core, which d...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports AMD-based M8a instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-rds-amd-m8a/",
+    "description": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now support M8a database instances powered by 5th generation AMD EPYC processors, expanding the choice available for your database workloads. Each vCPU in M8a database instances corresponds to a physical ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+    "description": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthca...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T17:00:00+00:00"
+  },
+  {
+    "title": "Aurora PostgreSQL now supports querying of Apache Iceberg and Parquet data",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aurora-postgresql-query-apache-iceberg-and-parquet/",
+    "description": "Starting today, you can directly query operational data together with data stored in data lakes in Apache Iceberg and Parquet formats using your existing PostgreSQL applications and tools, without extract, transform, and load (ETL) pipelines or data ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for MySQL supports MySQL 26.7 in Amazon RDS Database Preview Environment",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/rds-mysql-26-7-preview-environment/",
+    "description": "Starting today, Amazon RDS for MySQL 26.7 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate the pre-release of MySQL 26.7 on Amazon RDS for MySQL.\nMySQL 26.7 is the first Innovation release to adopt the new YY.M (Y...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T16:00:00+00:00"
+  },
+  {
+    "title": "AWS Transfer Family now automatically approves SFTP connector quota increases up to 1,000",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transfer-family-sftp-connector-quota-1000/",
+    "description": "AWS Transfer Family now automatically approves requests to increase your SFTP connector quota up to 1,000 connectors per AWS account in each AWS Region. You can add more connectors as your file transfer needs grow without waiting for manual approval....",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T08:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center Identity Store APIs now accept resource ARNs in addition to resource IDs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/iam-identity-center-apis-arns/",
+    "description": "AWS IAM Identity Center's Identity Store APIs now accept the Amazon Resource Name (ARN) for a user, group, group membership, or identity store anywhere the APIs previously accepted the resource ID. ARN support is additive and existing integrations co...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift simplifies access to secure logging with federated permissions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/redshift-secure-logging-permissions/",
+    "description": "Amazon Redshift now makes it easier to troubleshoot and audit queries on data protected by federated permissions with fine-grained access control (FGAC). Using the new DEBUG permission, data owners can let specific identities see unredacted secure lo...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-s3-tables-iceberg-v3-data-types",
+    "description": "Amazon S3 Tables add support for geometry, geography, unknown, and nanosecond timestamp data types, along with column default values, as defined in the Apache Iceberg Version 3 (V3) specification. You can now store geospatial coordinates and nanoseco...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T04:00:00+00:00"
+  },
+  {
+    "title": "AWS Deadline Cloud now supports expressions in job templates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-expressions-job-templates/",
+    "description": "AWS Deadline Cloud now supports flexible expressions and rich parameter types in job templates, giving customers a cleaner, more powerful way to fit the service to existing production pipelines. Deadline Cloud is a fully managed service that helps te...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T21:55:00+00:00"
+  },
+  {
+    "title": "AWS Deadline Cloud now supports ECS containers on Linux Service-Managed Fleets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-deadline-cloud-ecs-containers-linux-smf/",
+    "description": "AWS Deadline Cloud now supports running jobs using Docker containers from Amazon Elastic Container Service (ECS) on Linux-based service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-29T20:18:00+00:00"
+  },
+  {
+    "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
+    "link": "https://azure.microsoft.com/updates?id=569592",
+    "description": "On October 31, 2029, DCsv3 and DCdsv3-series\nAzure Linux, Windows and Dedicated Host virtual\nmachines will be retired. After that date, they will no longer be\navailable for use or purchase.  Before October 31, 2029, migrate your workloads to one of\nt...",
+    "provider": "Azure",
+    "timestamp": "2026-10-01T17:02:55+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+    "link": "https://azure.microsoft.com/updates?id=571894",
+    "description": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry acr...",
+    "provider": "Azure",
+    "timestamp": "2026-09-30T21:13:13+00:00"
+  },
+  {
+    "title": "Retirement: NVv3-series Azure Virtual Machines",
+    "link": "https://azure.microsoft.com/updates?id=573414",
+    "description": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs.Any remaining NVv3-series VMs wil...",
+    "provider": "Azure",
+    "timestamp": "2026-09-30T18:26:47+00:00"
+  },
+  {
+    "title": "Connecting customer context to measurable ROI with agentic marketing",
+    "link": "https://www.databricks.com/blog/connecting-customer-context-measurable-roi-agentic-marketing",
+    "description": "Marketing leaders today face greater complexity than ever before. They work with...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-01T12:11:31+00:00"
+  },
+  {
+    "title": "IP Functions are Generally Available, bringing high-performance network analytics to the Lakehouse",
+    "link": "https://www.databricks.com/blog/ip-functions-are-generally-available-bringing-high-performance-network-analytics-lakehouse",
+    "description": "IP data is warehousing dataEvery firewall, load balancer, VPN, CDN edge, DNS resolver,...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-01T01:46:05+00:00"
+  },
+  {
+    "title": "Introducing ai_decide: make fast decisions on your governed data",
+    "link": "https://www.databricks.com/blog/introducing-aidecide-make-fast-decisions-your-governed-data",
+    "description": "Today, we’re launching a new Databricks AI Function&nbsp;ai_decide&nbsp;that makes fast decisions...",
+    "provider": "Databricks",
+    "timestamp": "2026-09-30T16:59:34+00:00"
+  },
+  {
+    "title": "The eternal complement",
+    "link": "https://openai.com/index/the-eternal-complement",
+    "description": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-01T17:00:00+00:00"
+  },
+  {
+    "title": "How Albertsons Companies is reimagining retail from the inside out",
+    "link": "https://openai.com/index/albertsons-reimagining-retail",
+    "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-01T16:00:00+00:00"
+  },
+  {
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "link": "https://www.anthropic.com/news/barclays-scales-claude",
+    "description": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.Barclays is extending Claude across the bank to accelerate software developmen...",
+    "provider": "Anthropic",
+    "timestamp": "2026-09-30T16:00:00+00:00"
   }
 ]
