@@ -22986,5 +22986,180 @@
     "description": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.Barclays is extending Claude across the bank to accelerate software developmen...",
     "provider": "Anthropic",
     "timestamp": "2026-09-30T16:00:00+00:00"
+  },
+  {
+    "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+    "link": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
+    "description": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with r...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T20:04:04+00:00"
+  },
+  {
+    "title": "The AWS MCP Server is now available in six additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-mcp-server-six-additional-regions/",
+    "description": "The AWS MCP Server is now available in six additional AWS Regions: Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Ireland), Europe (London), and US West (Oregon). The AWS MCP Server, part of the Agent Toolkit for AWS, ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T08:00:00+00:00"
+  },
+  {
+    "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
+    "description": "Today, AWS announces that Amazon GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan. Runtime Monitoring inspects operating system, network, and file activity to surface threats such as container escapes, privil...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T03:35:00+00:00"
+  },
+  {
+    "title": "AWS Well-Architected Agent is now available in preview",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+    "description": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performa...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift now supports cross-Region queries for your data lake",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake",
+    "description": "Amazon Redshift now supports querying Amazon S3 data lake tables located in a different AWS Region. With enhanced VPC routing, data lake query traffic between Amazon S3 and Amazon Redshift stays within your own VPC.&nbsp;Both capabilities are powered...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T18:41:00+00:00"
+  },
+  {
+    "title": "Amazon DynamoDB introduces filtered export to Amazon S3",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/",
+    "description": "Amazon DynamoDB now supports filtered export for tables. Export to Amazon S3 allows you to export your table data for analytics, data sharing, and other offline uses, as either a full export or an incremental export over a time window. Filtered expor...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon DynamoDB Accelerator (DAX) is now available in additional Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/",
+    "description": "Today, AWS announces the availability of Amazon DynamoDB Accelerator (DAX) in 17 additional AWS Regions: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta), Asia Pacific (Malaysia), Asia Pacific (Melbourne), Asia Pacific (New ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T16:44:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Object Lock variable retention with event holds is now available in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/s3-object-lock-variable-retention-event-holds-aws-govcloud/",
+    "description": "Amazon S3 Object Lock support for variable retention with event holds is now available in AWS GovCloud (US-East) and AWS GovCloud (US-West).\nAmazon S3 Object Lock variable retention allows you to apply write-once-read-many (WORM) protection to object...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T13:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub introduces remediation plans to prioritize and fix security exposures",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-remediation-plans/",
+    "description": "AWS Security Hub now offers remediation plans that group related exposure findings sharing a root cause. Instead of addressing each exposure individually, you can now fix a single underlying resource, such as a misconfigured setting or overly permiss...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T10:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg V3",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-glue-iceberg-v3-optimization/",
+    "description": "AWS Glue Data Catalog now supports table optimization, statistics, and crawlers for Apache Iceberg Version 3 (V3) tables. With these new capabilities, you can automatically maintain V3 tables, optimize them for query performance, and discover them in...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Budgets now supports email verification for notification subscribers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-budgets/",
+    "description": "AWS Budgets lets you set custom cost and usage thresholds and alerts you by email when your spending crosses the threshold. AWS Budgets now verifies new email subscribers before sending them budget alerts. When you add an email address to a budget no...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T08:00:00+00:00"
+  },
+  {
+    "title": "Announcing DNS analytics and insights for Route 53 Global Resolver and DNS Firewall",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-dns-analytics-insights/",
+    "description": "Route 53 Global Resolver and DNS Firewall now provide DNS analytics and insights through native Amazon CloudWatch integration. These new capabilities enable network administrators and security teams to gain full observability into DNS query patterns,...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T08:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center extends multi-Region support to more AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-extends-multi-region-support-to-more-aws-regions",
+    "description": "IAM Identity Center helps you connect your workforce identities to AWS once and streamline access management to AWS accounts and applications. You can now replicate IAM Identity Center to opt-in AWS Regions, and between Regions within the AWS GovClou...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T07:00:00+00:00"
+  },
+  {
+    "title": "Apache Iceberg materialized views now support system-managed write protection",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/system-managed-iceberg-materialized-views",
+    "description": "Today, AWS announces system-managed materialized views for Apache Iceberg. Materialized views let you precompute an expensive query once and reuse the result across engines. Because this result is an open Iceberg table in your data lake, anyone with ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T21:19:00+00:00"
+  },
+  {
+    "title": "AWS Continuum for Penetration Testing now available in 6 additional Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-continuum-penetration/",
+    "description": "AWS Continuum for Penetration Testing now available in 6 additional Regions\n \n AWS Continuum for Penetration Testing (AWS Security Agent) is a managed security service that enables AWS customers to conduct&nbsp; penetration testing against their web ...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T16:13:00+00:00"
+  },
+  {
+    "title": "Amazon Kinesis Video Streams now supports VPC endpoints with AWS PrivateLink",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis-video-streams-vpc-privatelink/",
+    "description": "Amazon Kinesis Video Streams now supports interface VPC endpoints powered by AWS PrivateLink, providing private connectivity from your Amazon Virtual Private Cloud (Amazon VPC). Traffic between your VPC and Kinesis Video Streams stays on the AWS netw...",
+    "provider": "AWS",
+    "timestamp": "2026-09-30T08:00:00+00:00"
+  },
+  {
+    "title": "October 01, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_01_2026",
+    "description": "BigQuery\nChange\nAn updated version of the\nSimba JDBC driver for BigQuery\nis now available.\nFeature\nChatting with graphs in\nconversational analytics\nis now\ngenerally available.\nYou can use a combination of multiple graphs, tables, views, and UDFs as d...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-01T00:00:00-07:00"
+  },
+  {
+    "title": "In Capital Markets, the Buy Side Runs on NAV. Finance Protects the Fee.",
+    "link": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
+    "description": "Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-02T17:40:26+00:00"
+  },
+  {
+    "title": "How to choose your first Genie Agents for maximum impact",
+    "link": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
+    "description": "With more than 1 million Genie Agents created in 2026 alone, the question facing...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-02T16:15:00+00:00"
+  },
+  {
+    "title": "Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase and AI Search on Databricks",
+    "link": "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search",
+    "description": "The opportunity: Personalization as a revenue engineEvery second a shopper spends...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-02T11:00:00+00:00"
+  },
+  {
+    "title": "Lakebase Postgres branch-based restores for fast recovery at scale",
+    "link": "https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale",
+    "description": "&nbsp;&nbsp;In managed OLTP, restores have always been painfully slow and they get slower at...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-01T17:53:52+00:00"
+  },
+  {
+    "title": "A model guide for the GPT-6 family",
+    "link": "https://openai.com/index/practical-guide-building-gpt-6",
+    "description": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-02T16:15:00+00:00"
+  },
+  {
+    "title": "Chatham scales its capital markets expertise with OpenAI",
+    "link": "https://openai.com/index/chatham-financial",
+    "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-02T00:00:00+00:00"
+  },
+  {
+    "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+    "link": "https://openai.com/index/the-den-family-social",
+    "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-01T00:00:00+00:00"
+  },
+  {
+    "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+    "link": "https://www.anthropic.com/news/claude-frontier-academy",
+    "description": "The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-01T16:00:00+00:00"
   }
 ]
