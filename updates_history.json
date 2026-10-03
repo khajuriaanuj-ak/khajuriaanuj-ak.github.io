@@ -23161,5 +23161,47 @@
     "description": "The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley...",
     "provider": "Anthropic",
     "timestamp": "2026-10-01T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+    "description": "Amazon Elastic Container Service (Amazon ECS) now supports built-in blue/green, linear, and canary deployment strategies for ECS services using Amazon VPC Lattice. Applications that use VPC Lattice for service-to-service communication across VPCs and...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T20:18:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL now supports partial indexes",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/",
+    "description": "Amazon Aurora DSQL now lets you build an index over a specific subset of a table, storing only qualifying rows rather than every row in the entire table, which improves query performance and lowers index storage cost.\nMany tables hold a small working...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T17:30:00+00:00"
+  },
+  {
+    "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+    "description": "Amazon Bedrock AgentCore Gateway now supports TLS certificates signed by private certificate authorities (CAs) on MCP, OpenAPI, and HTTP proxy targets. This feature enables you to connect securely to gateway targets that use TLS certificates issued b...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache for Valkey now supports OpenTelemetry metrics and detailed monitoring",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-opentelemetry-metrics-detailed-monitoring",
+    "description": "Amazon ElastiCache for Valkey now publishes OpenTelemetry metrics to Amazon CloudWatch for your node-based clusters, and each metric carries attributes you can filter and aggregate on with Prometheus Query Language (PromQL) expressions. ElastiCache n...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T07:00:00+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+    "link": "https://azure.microsoft.com/updates?id=571504",
+    "description": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or chan...",
+    "provider": "Azure",
+    "timestamp": "2026-10-02T17:35:21+00:00"
+  },
+  {
+    "title": "How Genie One reshapes work for finance teams",
+    "link": "https://www.databricks.com/blog/how-genie-one-reshapes-work-finance-teams",
+    "description": "A finance team’s job is not simply to report the numbers: it’s to interpret what...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-01T22:46:51+00:00"
   }
 ]
