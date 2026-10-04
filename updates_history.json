@@ -23203,5 +23203,12 @@
     "description": "A finance team’s job is not simply to report the numbers: it’s to interpret what...",
     "provider": "Databricks",
     "timestamp": "2026-10-01T22:46:51+00:00"
+  },
+  {
+    "title": "October 03, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_03_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-03T00:00:00-07:00"
   }
 ]
