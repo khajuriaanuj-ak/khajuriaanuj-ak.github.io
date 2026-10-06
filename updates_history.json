@@ -23210,5 +23210,222 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.101 is now\navailable for all regions.",
     "provider": "Google Cloud",
     "timestamp": "2026-10-03T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+    "description": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for Op...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T15:41:19+00:00"
+  },
+  {
+    "title": "Amazon Redshift adds support for creating and refreshing Apache Iceberg materialized views",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views",
+    "description": "Amazon Redshift now supports the creation and refresh of Apache Iceberg materialized views. Materialized views pre-compute expensive joins and aggregations once and store the results in an Apache Iceberg table in Amazon S3 or Amazon S3 table buckets,...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T21:57:18+00:00"
+  },
+  {
+    "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+    "description": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to the latest open weight model with the AWS security...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T21:42:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center now supports network access controls for Identity Store",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
+    "description": "AWS IAM Identity Center helps you configure the single sign-on experience for your workforce to AWS accounts and applications. IAM Identity Center now supports network access controls for Identity Store, which stores your users and groups. You can re...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T21:00:00+00:00"
+  },
+  {
+    "title": "AWS Continuum for Penetration Testing now supports continuous penetration testing integrated directly into your CI/CD pipeline",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+    "description": "AWS Continuum for Penetration Testing now integrates continuous penetration testing directly into your CI/CD pipeline (public preview)\nAWS Continuum for Penetration Testing (formerly AWS Security Agent) already provides continuous, on-demand penetrat...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T18:32:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 introduces shared tags for Amazon Machine Images",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags",
+    "description": "Amazon EC2 now supports AMI tag sharing, a new feature that lets AMI owners make selected tags visible to all AWS accounts an AMI is shared with. Whether an AMI is shared with an account, across an organization, or made public, a shared tag is automa...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T17:28:00+00:00"
+  },
+  {
+    "title": "AWS Advanced Ruby Driver Wrapper is generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/",
+    "description": "The Amazon Web Services (AWS) Advanced Ruby Driver Wrapper is now generally available for use with Amazon RDS and Amazon Aurora PostgreSQL and MySQL-compatible databases. This advanced database driver reduces RDS Blue/Green switchover, Aurora Global ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Client VPN now supports device posture assessment",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
+    "description": "AWS Client VPN now supports device posture assessment, allowing you to verify that connecting user devices meet your security and compliance requirements before granting network access. This feature integrates with your existing device posture provid...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Batch now supports Amazon EKS access entry authentication",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+    "description": "AWS Batch now supports Amazon EKS access entry authentication for compute environments. EKS access entries provide an API-driven approach to granting IAM principals access to Kubernetes clusters, complementing the existing aws-auth ConfigMap. AWS Bat...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T15:31:00+00:00"
+  },
+  {
+    "title": "AWS Private CA now provides detailed certificate issuance logs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/",
+    "description": "AWS Private CA announces detailed certificate issuance logs, a new AWS CloudTrail service event that records the complete certificate content, issuing CA information, requester identity, and signing status for every issuance. You can use these events...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T09:00:00+00:00"
+  },
+  {
+    "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
+    "description": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction following, and tool-calling accuracy to real-time voice a...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T08:10:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Auto Mode now supports advanced compute configuration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/eks-auto-mode-advanced-compute-config/",
+    "description": "Amazon Elastic Kubernetes Service (EKS) Auto Mode now lets you tune kubelet settings, Linux kernel sysctls, and hugepages directly in the NodeClass Kubernetes resource. You can now run workloads that require specific node tuning on EKS Auto Mode, whi...",
+    "provider": "AWS",
+    "timestamp": "2026-10-01T08:00:00+00:00"
+  },
+  {
+    "title": "October 06, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_06_2026",
+    "description": "Cloud Monitoring\nFeature\nBulk registration of discovered services and workloads to an App Hub\napplication is generally available (GA).\nFor more information, see\nRegister one or more discovered services or workloads.\nGemini Enterprise Agent Platform\nF...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-06T00:00:00-07:00"
+  },
+  {
+    "title": "October 05, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_05_2026",
+    "description": "Agent Platform Workbench\nChange\n20261004.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin is now enabled independently of the Dataproc plugin: it is enabled by default and can be turned ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-05T00:00:00-07:00"
+  },
+  {
+    "title": "October 04, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_04_2026",
+    "description": "Agent Platform Workbench\nChange\n20261004-2230-rc0 Release\nChange\n20261004-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nInstalled latest packages from upstream dependencies.\nChange\nThe BigQuery JupyterLab plugin...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-04T00:00:00-07:00"
+  },
+  {
+    "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
+    "link": "https://azure.microsoft.com/updates?id=569236",
+    "description": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-indepe...",
+    "provider": "Azure",
+    "timestamp": "2026-10-06T16:42:33+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: AKS on bare metal now on Ubuntu",
+    "link": "https://azure.microsoft.com/updates?id=573782",
+    "description": "Running Kubernetes on-premises often means adding a\nvirtualization layer, adapting to unfamiliar infrastructure, or giving up\ncontrol over the hardware and software your applications depend on. For AI\nworkloads, these tradeoffs can limit access to lo...",
+    "provider": "Azure",
+    "timestamp": "2026-10-06T15:44:06+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure HorizonDB expands to additional regions",
+    "link": "https://azure.microsoft.com/updates?id=572940",
+    "description": "Azure HorizonDB is expanding to additional Azure regions, giving you greater flexibility to deploy PostgreSQL workloads closer to your applications and users.With expanded regional availability, you have more options when choosing where to deploy Azu...",
+    "provider": "Azure",
+    "timestamp": "2026-10-05T18:51:57+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu",
+    "link": "https://azure.microsoft.com/updates?id=571499",
+    "description": "SQL Server on Azure Virtual Machines is now available in Azure Bleu, enabling you to deploy and manage SQL Server workloads in France's sovereign cloud environment while meeting data residency and sovereignty requirements.  Learn more.",
+    "provider": "Azure",
+    "timestamp": "2026-10-05T18:12:09+00:00"
+  },
+  {
+    "title": "Announcing: Table discovery in OneLake Catalog search",
+    "link": "https://azure.microsoft.com/updates?id=573875",
+    "description": "Starting October 15, 2026, Search in Microsoft Fabric will return tables from semantic models, lakehouses, and mirrored databases as individual results. Users can search by table name or description, or find a table by an exact column-name match.  Mo...",
+    "provider": "Azure",
+    "timestamp": "2026-10-05T17:55:23+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+    "link": "https://azure.microsoft.com/updates?id=573425",
+    "description": "Azure Backup for PostgreSQL flexible server and elastic cluster (v2) preview brings enterprise-grade long-term retention to PostgreSQL. Backups are taken as physical backups from managed disk snapshots and vaulted in an Azure Backup vault, so protect...",
+    "provider": "Azure",
+    "timestamp": "2026-10-05T17:44:31+00:00"
+  },
+  {
+    "title": "The lakehouse is a better data warehouse: 2026 benchmarks and proof",
+    "link": "https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof",
+    "description": "The warehouse was the right answer for 20 yearsThe data warehouse earned its place. For two decades...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-06T16:35:12+00:00"
+  },
+  {
+    "title": "Scaling and Operating a Large dbt Project on Databricks: IFCO's Data Team on Performance, Visibility, and Debugging",
+    "link": "https://www.databricks.com/blog/scaling-and-operating-large-dbt-project-databricks-ifcos-data-team-performance-visibility-and-debugging",
+    "description": "AbstractIFCO runs one of the world's largest reusable packaging pools with hundreds of millions of crates and pallets...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-06T16:00:00+00:00"
+  },
+  {
+    "title": "Meta’s ads MCP server comes to Databricks: Put your customer intelligence to work in advertising campaigns",
+    "link": "https://www.databricks.com/blog/meta-ads-mcp-databricks",
+    "description": "Here’s a familiar scenario for enterprise advertisers: the data team has done real...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-06T12:45:00+00:00"
+  },
+  {
+    "title": "NEAREST BY Join: Scaling Vector Search in Databricks Runtime",
+    "link": "https://www.databricks.com/blog/nearest-join-scaling-vector-search-databricks-runtime",
+    "description": "Vector search originated as a serving problem. The classical use case is a chatbot...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-05T20:00:00+00:00"
+  },
+  {
+    "title": "Unlocking Data Portability: Preventing Catalog Lock-in with REGISTER and UNREGISTER APIs",
+    "link": "https://www.databricks.com/blog/unlocking-data-portability-preventing-catalog-lock-register-and-unregister-apis",
+    "description": "As organizations embrace the lakehouse architecture, data is shifting from proprietary...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-05T16:00:00+00:00"
+  },
+  {
+    "title": "How Genie Ontology powers product development at Databricks",
+    "link": "https://www.databricks.com/blog/how-genie-ontology-powers-product-development-databricks",
+    "description": "General-purpose AI agents are good at searching the web, reasoning, and writing code....",
+    "provider": "Databricks",
+    "timestamp": "2026-10-05T15:07:02+00:00"
+  },
+  {
+    "title": "Advancing computer use with Ironclad",
+    "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+    "description": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-06T10:00:00+00:00"
+  },
+  {
+    "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+    "link": "https://openai.com/index/atlassian-partnership",
+    "description": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-06T16:00:00+00:00"
+  },
+  {
+    "title": "Our approach to EU text provenance rules",
+    "link": "https://openai.com/index/eu-text-provenance",
+    "description": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-05T15:00:00+00:00"
+  },
+  {
+    "title": "Building advertising for the way people use AI",
+    "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-05T10:00:00+00:00"
   }
 ]
