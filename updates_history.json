@@ -23427,5 +23427,124 @@
     "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
     "provider": "OpenAI",
     "timestamp": "2026-10-05T10:00:00+00:00"
+  },
+  {
+    "title": "AWS Capabilities by Region now offers availability notifications for individual features and advanced filters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/",
+    "description": "Today, AWS announces feature-level availability notifications and advanced filters for AWS Capabilities by Region in AWS Builder Center. You can now set availability notifications for AWS service, or to an individual feature of an AWS service, in the...",
+    "provider": "AWS",
+    "timestamp": "2026-10-07T15:00:00+00:00"
+  },
+  {
+    "title": "Claude Haiku 5.5 is now available on AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+    "description": "AWS now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most tasks.\nClaude Ha...",
+    "provider": "AWS",
+    "timestamp": "2026-10-07T14:00:00+00:00"
+  },
+  {
+    "title": "Claude Haiku 5.5 is now available on AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/",
+    "description": "AWS GovCloud (US) now offers Claude Haiku 5.5, the fastest and most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work. According to Anthropic, it costs around 75% less than Claude Haiku 4.5 for most ta...",
+    "provider": "AWS",
+    "timestamp": "2026-10-07T14:00:00+00:00"
+  },
+  {
+    "title": "AWS Batch now publishes job metrics to Amazon CloudWatch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/",
+    "description": "AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations.\nAWS Bat...",
+    "provider": "AWS",
+    "timestamp": "2026-10-06T17:30:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 Hpc8a instances are now available in Asia Pacific (Singapore)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-hpc8a-asia-pacific/",
+    "description": "Starting today, Amazon EC2 Hpc8a instances are available in&nbsp;Asia Pacific (Singapore) region. These instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin). With a maximum frequency of 4.5GHz, Hpc8a instances deliver up t...",
+    "provider": "AWS",
+    "timestamp": "2026-10-05T20:33:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Anyscale on Azure",
+    "link": "https://azure.microsoft.com/updates?id=573744",
+    "description": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS) cluster and integrates with the Azure services your te...",
+    "provider": "Azure",
+    "timestamp": "2026-10-07T17:06:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+    "link": "https://azure.microsoft.com/updates?id=573443",
+    "description": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of...",
+    "provider": "Azure",
+    "timestamp": "2026-10-07T16:57:04+00:00"
+  },
+  {
+    "title": "Retirement: Azure App Service on Azure Stack Hub",
+    "link": "https://azure.microsoft.com/updates?id=568178",
+    "description": "Azure App Service on Azure Stack Hub will be retired on September\n30, 2029. Starting September 30, 2026, new installations will\nno longer be supported, and no new product releases, features, or enhancements\nwill be made available. Existing supported ...",
+    "provider": "Azure",
+    "timestamp": "2026-10-06T18:24:43+00:00"
+  },
+  {
+    "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+    "link": "https://azure.microsoft.com/updates?id=568585",
+    "description": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your\napps that are hosted on App Service will continue to run, but security updates\nwill no longer be available, and we’ll no longer provide customer service for Java\n8, 11 and 17.Required ...",
+    "provider": "Azure",
+    "timestamp": "2026-10-06T18:21:59+00:00"
+  },
+  {
+    "title": "Now GA: Building permission-aware Databricks Apps with on-behalf-of-user authorization",
+    "link": "https://www.databricks.com/blog/now-ga-building-permission-aware-databricks-apps-behalf-user-authorization",
+    "description": "Databricks Apps lets developers build and deploy data and AI applications directly on the Databricks platform...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-07T16:40:00+00:00"
+  },
+  {
+    "title": "Helping teens learn, plan, and shape the future of AI",
+    "link": "https://openai.com/index/teens-learn-and-plan",
+    "description": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-07T12:00:00+00:00"
+  },
+  {
+    "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+    "link": "https://openai.com/index/radisson",
+    "description": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-07T07:00:00+00:00"
+  },
+  {
+    "title": "GPT-6 and Intelligent UI for everyone",
+    "link": "https://openai.com/index/gpt-6-for-everyone",
+    "description": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-07T00:00:00+00:00"
+  },
+  {
+    "title": "How Jump Trading is scaling quant research with ChatGPT",
+    "link": "https://openai.com/index/jump-trading",
+    "description": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-06T12:00:00+00:00"
+  },
+  {
+    "title": "Sharing AI progress in mathematics",
+    "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "description": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-06T12:00:00+00:00"
+  },
+  {
+    "title": "Expanding the Cyber Verification Program",
+    "link": "https://www.anthropic.com/news/cyber-verification-program",
+    "description": "We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. The program now consists of three access tiers, ...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-05T16:00:00+00:00"
+  },
+  {
+    "title": "v0.1.21",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.21",
+    "description": "Release v0.1.21",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-10-07T16:43:33+00:00"
   }
 ]
