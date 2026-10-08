@@ -508,5 +508,15 @@
     "tailwindScore": 9.0,
     "baseReason": "Leading NoSQL document database with integrated vector search capabilities, making it a critical data platform for enterprise AI applications, RAG systems, and AI-driven data management.",
     "expertStrategy": "MongoDB is positioned to capture significant value as enterprises scale their AI initiatives, leveraging its flexible data model and vector search to manage the complex, high-volume data requirements of large language models and other AI agents, driving adoption across diverse AI use cases."
+  },
+  {
+    "name": "Workday, Inc.",
+    "ticker": "WDAY",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software & Data Platform Integration",
+    "moatScore": 8.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Leading provider of cloud-based enterprise applications for HR and finance, now enabling critical data federation for AI/ML platforms, leveraging its proprietary and extensive enterprise data assets.",
+    "expertStrategy": "Workday is a foundational enterprise SaaS player whose deep integration into core business functions makes its data invaluable for enterprise AI. Its strategic move to federate data into leading AI and data platforms like Databricks' Unity Catalog positions it as a key enabler for large-scale, governed enterprise AI initiatives. As organizations increasingly seek to apply AI to HR, finance, and operational analytics, Workday's entrenched market position, high switching costs, and expanding data connectivity capabilities provide a durable competitive advantage and a significant growth runway within the AI ecosystem."
   }
 ]

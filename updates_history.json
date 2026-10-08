@@ -23546,5 +23546,117 @@
     "description": "Release v0.1.21",
     "provider": "Google Antigravity",
     "timestamp": "2026-10-07T16:43:33+00:00"
+  },
+  {
+    "title": "AWS Config now supports 77 new resource types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+    "description": "AWS Config now supports 77 additional AWS resource types across key services including Amazon EC2, Amazon S3 Files, and Amazon Q Business. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-07T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service introduces validation advisory for domain configuration changes",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-validation-advisory/",
+    "description": "Amazon OpenSearch Service now provides validation advisory for domain configuration changes, which helps you make informed decisions about changes that carry risk but can still be applied. Each configuration validation is now classified as either Cri...",
+    "provider": "AWS",
+    "timestamp": "2026-10-02T09:35:00+00:00"
+  },
+  {
+    "title": "October 08, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_08_2026",
+    "description": "BigQuery\nFeature\nYou can use Gemini assistance in the BigQuery Studio SQL editor through an\ninline action button when you select text. For more information, see\nWrite SQL with Gemini assistance.\nThis feature is generally available (GA).\nCloud SQL for...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-08T00:00:00-07:00"
+  },
+  {
+    "title": "October 07, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_07_2026",
+    "description": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the commercial line of business within the v004.005 version line (aml-commercial.default.v004.005.202609-000). This version extends support for the major engine version and i...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-07T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+    "link": "https://azure.microsoft.com/updates?id=574343",
+    "description": "Announcing the general availability of exceptions\nfor Web Application Firewall on Azure Application Gateway and Azure Front Door.Azure Web\nApplication Firewall (WAF) helps protect your web applications from common\nthreats and attacks. In some cases, ...",
+    "provider": "Azure",
+    "timestamp": "2026-10-08T17:29:30+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Microsoft Agent 365 integration with Azure API Management",
+    "link": "https://azure.microsoft.com/updates?id=574204",
+    "description": "The integration between Microsoft Agent 365 and Azure API Management is now available in public preview, helping organizations connect centralized governance with runtime enforcement for MCP servers and tools.With this integration, organizations can:...",
+    "provider": "Azure",
+    "timestamp": "2026-10-08T17:24:34+00:00"
+  },
+  {
+    "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
+    "link": "https://azure.microsoft.com/updates?id=571831",
+    "description": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relations...",
+    "provider": "Azure",
+    "timestamp": "2026-10-08T14:17:44+00:00"
+  },
+  {
+    "title": "Announcing Workday Data Connect federation in Unity Catalog",
+    "link": "https://www.databricks.com/blog/announcing-workday-data-connect-federation-unity-catalog",
+    "description": "We're excited to announce the publicly available Beta of the Workday Data Connect federation connector for Unity Catalog...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-08T23:00:00+00:00"
+  },
+  {
+    "title": "How to build governed enterprise apps on Databricks with Replit and Lakebase",
+    "link": "https://www.databricks.com/blog/how-build-governed-enterprise-apps-databricks-replit-and-lakebase",
+    "description": "The combination of Replit &amp; Databricks gives enterprises a complete development-to-deployment platform...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-08T13:00:00+00:00"
+  },
+  {
+    "title": "Set Budgets and Alerts for Cloud Data Warehouse Costs",
+    "link": "https://www.databricks.com/blog/set-budgets-and-alerts-cloud-data-warehouse-costs",
+    "description": "Every analytics team has been here: a month-end invoice arrives, and a single SQL...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-07T19:02:06+00:00"
+  },
+  {
+    "title": "How to Repoint dbt ETL Pipelines to Databricks",
+    "link": "https://www.databricks.com/blog/how-repoint-dbt-etl-pipelines-databricks",
+    "description": "More teams are running their dbt transformations on&nbsp;Databricks Lakehouse: an open...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-06T18:53:48+00:00"
+  },
+  {
+    "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+    "link": "https://openai.com/index/oracle",
+    "description": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-08T16:00:00+00:00"
+  },
+  {
+    "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+    "link": "https://openai.com/index/pollo-ai",
+    "description": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-08T12:00:00+00:00"
+  },
+  {
+    "title": "Disrupting AI-enabled “false front” operations",
+    "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "description": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-08T00:00:00+00:00"
+  },
+  {
+    "title": "2026 Usage Policy update",
+    "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "description": "Each year, Anthropic updates its Usage Policy in response to the evolving capabilities of our models, and the feedback we’ve received from our customers. We're publishing a new version of the policy today. In this post, we summarize the changes we’ve...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-07T16:00:00+00:00"
+  },
+  {
+    "title": "Building on our commitment to American scientific discovery",
+    "link": "https://www.anthropic.com/news/genesis-mission-commitment",
+    "description": "Anthropic is deepening its support for American scientific research by committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. The funding will go toward m...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-07T16:00:00+00:00"
   }
 ]
