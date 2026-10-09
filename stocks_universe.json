@@ -518,5 +518,15 @@
     "tailwindScore": 8.5,
     "baseReason": "Leading provider of cloud-based enterprise applications for HR and finance, now enabling critical data federation for AI/ML platforms, leveraging its proprietary and extensive enterprise data assets.",
     "expertStrategy": "Workday is a foundational enterprise SaaS player whose deep integration into core business functions makes its data invaluable for enterprise AI. Its strategic move to federate data into leading AI and data platforms like Databricks' Unity Catalog positions it as a key enabler for large-scale, governed enterprise AI initiatives. As organizations increasingly seek to apply AI to HR, finance, and operational analytics, Workday's entrenched market position, high switching costs, and expanding data connectivity capabilities provide a durable competitive advantage and a significant growth runway within the AI ecosystem."
+  },
+  {
+    "name": "Asana, Inc.",
+    "ticker": "ASAN",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software",
+    "moatScore": 6.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Asana, an established enterprise work management software provider, is actively integrating advanced AI models (like OpenAI's GPT series) to enhance its platform, improve operational efficiency, and deliver more capable, cost-effective features to its customers.",
+    "expertStrategy": "Asana is strategically leveraging leading AI models to optimize its software development lifecycle and product offerings, significantly reducing costs and accelerating feature delivery. This deep integration of AI positions Asana to capture significant value from the broader enterprise AI adoption wave, enhancing user productivity and strengthening its competitive edge in work management software."
   }
 ]
