@@ -24092,5 +24092,61 @@
     "description": "The California Department of Health Care Services (DHCS) built the Behavioral Health...",
     "provider": "Databricks",
     "timestamp": "2026-10-09T21:30:00+00:00"
+  },
+  {
+    "title": "AWS Secrets Manager adds managed external secrets support for Databricks and Twilio",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+    "description": "AWS Secrets Manager now extends its managed external secrets capability to include Databricks and Twilio, enabling you to automatically rotate the credentials that your data pipelines and messaging applications use to call these services. You set up ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-12T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache for Valkey introduces ElastiCache Insights",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/",
+    "description": "Amazon ElastiCache for Valkey now features ElastiCache Insights, a pre-built dashboard in Amazon CloudWatch for your node-based clusters. ElastiCache Insights brings cluster health, memory, compute, network, command throughput, latency, keyspace, and...",
+    "provider": "AWS",
+    "timestamp": "2026-10-12T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service now supports index-level encryption",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption",
+    "description": "Amazon OpenSearch Service now supports index-level encryption, letting you encrypt each index at rest with its own AWS Key Management Service (AWS KMS) customer managed key.&nbsp;This helps you protect data with different ownership or sensitivity und...",
+    "provider": "AWS",
+    "timestamp": "2026-10-12T02:30:00+00:00"
+  },
+  {
+    "title": "October 12, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_12_2026",
+    "description": "Agent Platform Workbench\nChange\n20261011.00_p0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.crypto due to a version mismatch between...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-12T00:00:00-07:00"
+  },
+  {
+    "title": "October 11, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_11_2026",
+    "description": "Agent Platform Workbench\nChange\n20261011-2230-rc0 Release\nChange\n20261011-2230-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nFixed\nFixed an issue where gcloud and gsutil failed to load with an AttributeError in OpenSSL.cryp...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-11T00:00:00-07:00"
+  },
+  {
+    "title": "Brickster Voices: Meet Clara Kurian",
+    "link": "https://www.databricks.com/blog/brickster-voices-meet-clara-kurian",
+    "description": "Brickster Voices is a series that spotlights the people who make our work possible. Through personal career journeys...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-12T16:40:00+00:00"
+  },
+  {
+    "title": "How Flo Health built safer, more useful open models with Databricks AI Runtime",
+    "link": "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime",
+    "description": "For Flo Health, the bar for generative AI is unusually high. With 81 million monthly...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-12T15:13:04+00:00"
+  },
+  {
+    "title": "From post-training to production: How TinyFish runs its web-native model on Databricks AI Runtime",
+    "link": "https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime",
+    "description": "TinyFish builds infrastructure for enterprises that need agents to work across the live web. Its Search, Fetch, Browser...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-09T16:32:01+00:00"
   }
 ]
