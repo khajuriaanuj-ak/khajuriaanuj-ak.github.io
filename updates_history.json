@@ -24253,5 +24253,131 @@
     "description": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
     "provider": "OpenAI",
     "timestamp": "2026-10-13T12:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub now supports resource criticality for prioritization",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/",
+    "description": "Today, AWS Security Hub adds resource criticality to exposure prioritization, helping central security teams focus on the exposures that threaten their most business-critical resources.\nYou can set criticality with an automation rule, for example mar...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T01:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECS adds LiveTaskCount and removes the charge for RunningTaskCount metric",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+    "description": "Today, Amazon Elastic Container Service (Amazon ECS) announces LiveTaskCount, a new ECS service metric that reports how many tasks are actively running in your service, available to all customers at no additional charge. Additionally, the existing Ru...",
+    "provider": "AWS",
+    "timestamp": "2026-10-13T22:00:00+00:00"
+  },
+  {
+    "title": "AWS Agent Registry now supports custom metadata for registry records",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records",
+    "description": "AWS Agent Registry is the centralized, governed catalog for agents, MCP servers, agent skills, gateways, and custom resources within your organization. As organizations scale to hundreds of such resources, a name and description alone are insufficien...",
+    "provider": "AWS",
+    "timestamp": "2026-10-13T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon DCV releases version 2026.0 with RHEL 10 support and new clients",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/",
+    "description": "Amazon DCV 2026.0 is now available, adding support for RHEL 10, Rocky Linux 10, CentOS 10, and Ubuntu 26.04 along with a new macOS client and updated Windows and Linux clients. Amazon DCV is a high-performance remote display protocol that enables cus...",
+    "provider": "AWS",
+    "timestamp": "2026-10-13T19:35:00+00:00"
+  },
+  {
+    "title": "Amazon Route 53 now supports registrations, transfers, and renewals for Premium Domains",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/route-53-premium-domains/",
+    "description": "Amazon Route 53 Domains now supports Premium Domain Names. Customers can now search for, register, transfer, renew, and restore registry premium names directly through Route 53.\nMost domain registries set aside a selection of \"premium\" domains - name...",
+    "provider": "AWS",
+    "timestamp": "2026-10-13T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8id instances now available in Asia Pacific (Malaysia) and Asia Pacific (Sydney)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-m8id-asia-pacific-malaysia-sydney/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) M8id instances with up to 22.8 TB of local NVMe-based SSD block-level storage are now available in Asia Pacific (Malaysia) and Asia Pacific (Sydney). M8id instances are designed for workloads that require a b...",
+    "provider": "AWS",
+    "timestamp": "2026-10-09T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C9g, C9gd, M9g, and M9gd instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-c9g-m9g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g and C9gd instances are available in the Asia Pacific (Malaysia, Seoul, Singapore) regions. Amazon EC2 M9g and M9gd instances are available in the Asia Pacific (Malaysia) and Europe (Spain)...",
+    "provider": "AWS",
+    "timestamp": "2026-10-09T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C8gd and M8gd instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-c8gd-m8gd-additional-regions/",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Europe (Stockholm), Asia Pacific (Mumbai), a...",
+    "provider": "AWS",
+    "timestamp": "2026-10-09T08:00:00+00:00"
+  },
+  {
+    "title": "October 14, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_14_2026",
+    "description": "Application Integration\nSecurity\nAn Incorrect Authorization vulnerability in the AuthConfig\nvalidation and integration execution runtime in Application Integration\nversions prior to August 27, 2026.\nFor more information, see the\nGCP-2026-068\nsecurity...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-14T00:00:00-07:00"
+  },
+  {
+    "title": "October 13, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_13_2026",
+    "description": "BigQuery\nFeature\nThe\nAI.AGG function\nis\ngenerally available\n(GA). You can use this function to semantically aggregate unstructured input\ndata based on natural language instructions.\nFeature\nBigQuery generative AI functions\nnow support the gemini-4-ar...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-13T00:00:00-07:00"
+  },
+  {
+    "title": "Sizing Lakebase Search: lessons from a real app and 4 million passages",
+    "link": "https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages",
+    "description": "Slide Hub is an internal Databricks app. Field engineers use it to find and reuse...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-15T00:06:48+00:00"
+  },
+  {
+    "title": "Introducing Private Network Gateway",
+    "link": "https://www.databricks.com/blog/introducing-private-network-gateway",
+    "description": "Databricks serverless compute is fully managed, intelligent, and versionless, allowing...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-14T14:00:00+00:00"
+  },
+  {
+    "title": "A practical guide to real-time analytics in 2026",
+    "link": "https://www.databricks.com/blog/practical-guide-real-time-analytics-2026",
+    "description": "Data has always been central to business decision-making, and most analytical workloads...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-13T19:17:26+00:00"
+  },
+  {
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "link": "https://openai.com/index/amp-beyond-coding",
+    "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-14T12:00:00+00:00"
+  },
+  {
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "link": "https://openai.com/index/third-moment-research",
+    "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-14T07:00:00+00:00"
+  },
+  {
+    "title": "The EU’s next chapter in AI is agentic",
+    "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-14T00:00:00+00:00"
+  },
+  {
+    "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+    "link": "https://www.anthropic.com/news/singapore-office-opening",
+    "description": "Today, we are expanding our Asia-Pacific operations by opening a new office in Singapore—our fifth in the region—and signing a Memorandum of Understanding (MOU) with the Singapore Ministry of Digital Development and Information. Singapore is one of o...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-13T16:00:00+00:00"
+  },
+  {
+    "title": "v0.1.22",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.22",
+    "description": "Release v0.1.22",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-10-13T22:48:10+00:00"
   }
 ]
