@@ -24379,5 +24379,173 @@
     "description": "Release v0.1.22",
     "provider": "Google Antigravity",
     "timestamp": "2026-10-13T22:48:10+00:00"
+  },
+  {
+    "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/",
+    "description": "Amazon Simple Storage Service (Amazon S3), including Amazon S3 Tables and Amazon S3 Vectors, is natively available on the Vercel Marketplace and v0 by Vercel.",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T19:30:48+00:00"
+  },
+  {
+    "title": "AWS Security Hub CSPM now supports the Cyber Risk Institute profile version 2.2",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-cspm-cri-profile-v22/",
+    "description": "AWS Security Hub CSPM now supports automated security checks that align with the Cyber Risk Institute (CRI) profile. The CRI Profile is a cybersecurity framework developed by the Cyber Risk Institute, a non-profit coalition of financial institutions ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-15T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch announces log routing and chained log parsers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/",
+    "description": "Amazon CloudWatch now supports conditional log routing and chained parsers via pipelines, giving you more control over how log data is transformed and which CloudWatch log group it's sent to. CloudWatch pipelines is a fully managed service that inges...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T22:14:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
+    "description": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required.\nPrevi...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T22:00:00+00:00"
+  },
+  {
+    "title": "ARC Region switch adds four new capabilities",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/",
+    "description": "Amazon Application Recovery Controller (ARC) Region switch helps you orchestrate the failover of multi-Region applications to achieve a bounded recovery time during a Regional impairment. Today, Region switch adds four new capabilities: AWS Systems M...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T17:38:00+00:00"
+  },
+  {
+    "title": "AWS License Manager now supports license type conversions for Ubuntu Pro purchased through AWS Marketplace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/",
+    "description": "AWS License Manager&nbsp; now supports in-place upgrades for EC2 Ubuntu LTS (Long Term Support) instances to Ubuntu Pro available on AWS Marketplace. This allows customers to strengthen their security posture and meet compliance requirements without ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T17:04:00+00:00"
+  },
+  {
+    "title": "AWS HealthOmics introduces resource fallback order for Nextflow workflows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-healthomics-resource-fallback-for-Nextflow/",
+    "description": "Today, AWS HealthOmics introduces the resource fallback directive for tasks in your Nextflow workflows, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances. Researchers and bioinform...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T16:00:00+00:00"
+  },
+  {
+    "title": "Announcing Blockchain Snapshots on AWS for node bootstrapping",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/blockchain-snapshots-node-bootstrapping/",
+    "description": "For blockchain node operators running Ethereum or Solana, AWS is announcing Blockchain Snapshots on AWS, an initiative that publishes pre-synced public blockchain node chain data in Amazon Simple Storage Service (Amazon S3) so you can bootstrap a nod...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Transfer Family now supports AWS Secrets Manager storage for SFTP server host keys",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-secrets-host-keys/",
+    "description": "AWS Transfer Family now lets you store SFTP server host keys in AWS Secrets Manager in your own AWS account. This gives you greater control over your server identity and helps simplify server migrations and failover.\nPreviously, Transfer Family store...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS Proxy now supports SQL Server 2022",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/rds-proxy-supports-sqlserver-2022",
+    "description": "Amazon RDS Proxy, a fully managed, highly available database proxy for Amazon Relational Database Service (RDS), now supports Amazon RDS for SQL Server&nbsp;instances running major version 2022.\n \n \n Amazon RDS Proxy sits between your application and...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-vercel-marketplace-v0",
+    "description": "Amazon S3, including S3 Tables and S3 Vectors, is now available on the Vercel Marketplace and v0 by Vercel. Developers can create and connect S3 resources in seconds without leaving their development environment, getting the durability, scalability, ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-14T04:00:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
+    "link": "https://azure.microsoft.com/updates?id=576334",
+    "description": "Automatic zone balance for Virtual Machine Scale Sets is now generally available. This feature continuously monitors scale sets deployed across availability zones and automatically redistributes VM instances when zonal imbalances occur. This helps re...",
+    "provider": "Azure",
+    "timestamp": "2026-10-15T16:54:20+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
+    "link": "https://azure.microsoft.com/updates?id=576377",
+    "description": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Custome...",
+    "provider": "Azure",
+    "timestamp": "2026-10-14T19:17:47+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+    "link": "https://azure.microsoft.com/updates?id=576214",
+    "description": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inve...",
+    "provider": "Azure",
+    "timestamp": "2026-10-14T19:13:31+00:00"
+  },
+  {
+    "title": "Unlock powerful insights and forecasts with Predictive AI Functions",
+    "link": "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions",
+    "description": "Data teams all get asked the same questions: \"what will sales be next quarter?,\"...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-14T23:30:00+00:00"
+  },
+  {
+    "title": "How FactSet cut model training and deployment from days to hours with Databricks AI Runtime",
+    "link": "https://www.databricks.com/blog/how-factset-cut-model-training-and-deployment-days-hours-databricks-ai-runtime",
+    "description": "FactSet’s Text-to-Formula (TTF) system has a deceptively difficult job: take a natural-language...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-14T22:55:41+00:00"
+  },
+  {
+    "title": "Power real-time applications and agents with Document Intelligence",
+    "link": "https://www.databricks.com/blog/power-real-time-applications-and-agents-document-intelligence",
+    "description": "At Databricks, our enterprise customers receive millions of documents every single...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-14T20:00:00+00:00"
+  },
+  {
+    "title": "Reducing Qwen training time by 6x on AI Runtime",
+    "link": "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
+    "description": "Training or finetuning a multi-billion parameter foundation model requires significant compute...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-14T11:30:00+00:00"
+  },
+  {
+    "title": "Everyone's adopting AI agents. Almost no one can prove the ROI. Here's why",
+    "link": "https://www.databricks.com/blog/everyones-adopting-ai-agents-almost-no-one-can-prove-roi-heres-why",
+    "description": "Amber Roberts, Staff Technical Marketing Manager at Databricks, has spent the last...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-13T18:41:48+00:00"
+  },
+  {
+    "title": "Teaching students to think and learn through questions",
+    "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "description": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-15T13:00:00+00:00"
+  },
+  {
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "link": "https://openai.com/index/sentinelone",
+    "description": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-14T12:00:00+00:00"
+  },
+  {
+    "title": "How Block is building AI-powered security with OpenAI technology",
+    "link": "https://openai.com/index/block-ai-powered-security",
+    "description": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-14T07:00:00+00:00"
+  },
+  {
+    "title": "An update on independent evaluators",
+    "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "description": "Last month, we committed to stronger independent, third-party assessment of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or eval...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-14T16:00:00+00:00"
+  },
+  {
+    "title": "Preparing for the 2026 US midterms",
+    "link": "https://www.anthropic.com/news/2026-us-midterms",
+    "description": "Earlier this year, we shared an update on our election safeguards, which described how we measure and prevent political bias, detect misuse, and direct people to accurate voting information.Below, we outline how we’ve built on that work and continued...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-13T16:00:00+00:00"
   }
 ]
