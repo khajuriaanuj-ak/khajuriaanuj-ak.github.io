@@ -24757,5 +24757,103 @@
     "description": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
     "provider": "OpenAI",
     "timestamp": "2026-10-15T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch log centralization now available in AWS GovCloud and additional commercial Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion",
+    "description": "Amazon CloudWatch log centralization is now available in AWS GovCloud (US) and 13 additional commercial Regions. CloudWatch log centralization copies log data from multiple AWS accounts and Regions into a single destination account, integrating with ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T20:04:00+00:00"
+  },
+  {
+    "title": "AWS Lambda durable functions are now available in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/",
+    "description": "AWS Lambda durable functions are now available in the AWS GovCloud (US-West) and AWS GovCloud (US-East) Regions. Lambda durable functions enable developers to build reliable multi-step applications and AI workflows within the Lambda developer experie...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T18:26:00+00:00"
+  },
+  {
+    "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+    "description": "NVIDIA's Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This vision-language model from the Nemotron 3.5 family accepts images, video, and text as input a...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T17:59:00+00:00"
+  },
+  {
+    "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
+    "description": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hyb...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T08:00:00+00:00"
+  },
+  {
+    "title": "AWS End User Messaging adds a guided wizard for RCS registration videos",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-end-user-messaging-adds-guided-wizard-rcs-registration-videos",
+    "description": "Today, AWS End User Messaging adds a wizard that orchestrates the entire video capture for your RCS agent registration. RCS registrations in multiple countries, including the United States, require a screen recording that demonstrates your messaging ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T07:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform for migrations is now available in Asia Pacific (Singapore)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-singapore",
+    "description": "AWS Transform for migrations is now available in the Asia Pacific (Singapore) Region, giving customers data residency within the region and lower latency to local source infrastructure as they migrate. AWS Transform is a collaborative enterprise IT t...",
+    "provider": "AWS",
+    "timestamp": "2026-10-15T19:24:00+00:00"
+  },
+  {
+    "title": "October 16, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
+    "description": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\n\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\n\nFor more information, see\nLocations.\nDialogflow\nFeature\ngemini-3.5-flash-lite ha...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-16T00:00:00-07:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Databricks Private network gateway",
+    "link": "https://azure.microsoft.com/updates?id=576556",
+    "description": "Private network gateway for Azure Databricks is\nnow in Public Preview, enabling serverless compute to connect to resources in\nyour virtual network (VNet) and transitively connected networks through a\nsingle managed gateway. Customers can use the gate...",
+    "provider": "Azure",
+    "timestamp": "2026-10-16T16:59:02+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: External key management for Azure Key Vault Managed HSM",
+    "link": "https://azure.microsoft.com/updates?id=574296",
+    "description": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical control of key-encryption keys, it lets Azure services th...",
+    "provider": "Azure",
+    "timestamp": "2026-10-16T16:50:27+00:00"
+  },
+  {
+    "title": "Transactions are Generally Available, advancing warehousing on the Lakehouse",
+    "link": "https://www.databricks.com/blog/transactions-are-generally-available-advancing-warehousing-lakehouse",
+    "description": "Multi-Statement Transactions are&nbsp;Generally Available, enabling organizations to run...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-16T21:00:00+00:00"
+  },
+  {
+    "title": "Stripe Data Pipeline now syncs real-time Stripe data to Lakebase Postgres",
+    "link": "https://www.databricks.com/blog/stripe-data-pipeline-now-syncs-real-time-stripe-data-lakebase-postgres",
+    "description": "If your business runs on Stripe, your application needs access to Stripe data at...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-15T21:08:14+00:00"
+  },
+  {
+    "title": "How Itaú is building generative AI for its entire customer base",
+    "link": "https://openai.com/index/itau-generative-ai",
+    "description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-16T19:00:00+00:00"
+  },
+  {
+    "title": "Benefit Street Partners answers questions faster with Codex",
+    "link": "https://openai.com/index/benefit-street-partners",
+    "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-16T00:00:00+00:00"
+  },
+  {
+    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+    "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-16T00:00:00+00:00"
   }
 ]
