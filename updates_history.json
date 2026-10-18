@@ -24855,5 +24855,12 @@
     "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
     "provider": "OpenAI",
     "timestamp": "2026-10-16T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon Braket now in scope for FedRAMP Class C",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/",
+    "description": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessmen...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T08:00:00+00:00"
   }
 ]

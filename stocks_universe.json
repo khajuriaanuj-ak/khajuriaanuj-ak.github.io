@@ -528,5 +528,25 @@
     "tailwindScore": 8.0,
     "baseReason": "Asana, an established enterprise work management software provider, is actively integrating advanced AI models (like OpenAI's GPT series) to enhance its platform, improve operational efficiency, and deliver more capable, cost-effective features to its customers.",
     "expertStrategy": "Asana is strategically leveraging leading AI models to optimize its software development lifecycle and product offerings, significantly reducing costs and accelerating feature delivery. This deep integration of AI positions Asana to capture significant value from the broader enterprise AI adoption wave, enhancing user productivity and strengthening its competitive edge in work management software."
+  },
+  {
+    "name": "Zscaler, Inc.",
+    "ticker": "ZS",
+    "category": "infra",
+    "subCategory": "AI Security Infrastructure",
+    "moatScore": 8.0,
+    "tailwindScore": 9.0,
+    "baseReason": "Zscaler's Zero Trust Exchange is critical for securing the distributed, cloud-native environments where AI models and data reside. It directly addresses the security vulnerabilities highlighted by 'rogue AI agent activity' by ensuring least-privilege access and protecting sensitive AI data and applications.",
+    "expertStrategy": "As AI adoption accelerates across enterprises and cloud environments, securing sensitive AI data and models becomes non-negotiable. Zscaler is strategically positioned to capture significant growth by providing the essential security layer for AI infrastructure, mitigating risks associated with exposed credentials and overly permissive cloud roles that could lead to rogue AI agent activity."
+  },
+  {
+    "name": "CrowdStrike Holdings, Inc.",
+    "ticker": "CRWD",
+    "category": "infra",
+    "subCategory": "AI Security Infrastructure",
+    "moatScore": 8.5,
+    "tailwindScore": 9.0,
+    "baseReason": "CrowdStrike's Falcon platform provides comprehensive, AI-native security across endpoints, cloud workloads, and identity. This is vital for protecting the diverse IT estate used in AI development and deployment, including cloud environments and public code repositories, against sophisticated threats and 'rogue AI agent activity.'",
+    "expertStrategy": "The expanding threat landscape driven by AI's rapid adoption makes robust endpoint and cloud security indispensable. CrowdStrike's unified platform, powered by its vast threat intelligence network, is poised to capitalize on the urgent need for comprehensive protection of AI infrastructure, from development environments to production deployments, safeguarding against the very types of exposures mentioned in recent news."
   }
 ]

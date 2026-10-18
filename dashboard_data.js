@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-10-17T16:04:29.981357+00:00",
+  "last_updated": "2026-10-18T16:19:04.132932+00:00",
   "updates": [
     {
       "title": "Transactions are Generally Available, advancing warehousing on the Lakehouse",
@@ -75,6 +75,13 @@ const DASHBOARD_DATA = {
       "title": "Second-generation AWS Outposts racks now supported in the AWS Mexico (Central) Region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-outposts-racks-mexico-central/",
       "description": "Second-generation AWS Outposts racks are now supported in the AWS Mexico (Central) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hyb...",
+      "provider": "AWS",
+      "timestamp": "2026-10-16T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Braket now in scope for FedRAMP Class C",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/braket-fedramp-class-c/",
+      "description": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessmen...",
       "provider": "AWS",
       "timestamp": "2026-10-16T08:00:00+00:00"
     },
@@ -24861,10 +24868,26 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "description": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-      "date": "Oct 16, 2026",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "description": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "date": "Oct 17, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Investment & Startup"
+    },
+    {
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "description": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "date": "Oct 17, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "description": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "date": "Oct 17, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
@@ -24891,53 +24914,29 @@ const DASHBOARD_DATA = {
       "date": "Oct 16, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Elorian’s first AI model wants to reason with images, not just about them",
-      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "description": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "date": "Oct 16, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "description": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
-      "date": "Oct 16, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
     }
   ],
   "sentiments": [
     {
       "company": "Anthropic",
-      "score": 91,
+      "score": 88,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Replit is no longer working with Anthropic, CEO says",
-      "mentions": 1
-    },
-    {
-      "company": "Databricks",
-      "score": 90,
-      "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "[In preview] Public Preview: Azure Databricks Private networ...",
-      "mentions": 3
-    },
-    {
-      "company": "Microsoft",
-      "score": 87,
-      "status": "Bullish",
-      "change": "▼ -1",
-      "reason": "[In preview] Public Preview: Azure Databricks Private networ...",
+      "change": "▬ Stable",
+      "reason": "Anthropic says its workforce has become less junior and is s...",
       "mentions": 2
     },
     {
       "company": "Groq",
       "score": 85,
       "status": "Bullish",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Databricks",
+      "score": 84,
+      "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
@@ -24955,32 +24954,40 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "October 16, 2026",
-      "mentions": 1
-    },
-    {
-      "company": "OpenAI",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "How Itaú is building generative AI for its entire customer b...",
-      "mentions": 6
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "NVIDIA",
       "score": 79,
       "status": "Mixed",
       "change": "▼ -2",
-      "reason": "Nemotron 3.5 Super VL model now available on Amazon SageMake...",
-      "mentions": 3
+      "reason": "An Nvidia insider-turned-VC on why robotics hasn’t hit its C...",
+      "mentions": 2
     },
     {
       "company": "Meta",
       "score": 79,
       "status": "Mixed",
+      "change": "▲ +1",
+      "reason": "Meta removes language that raised scraping and AI training c...",
+      "mentions": 1
+    },
+    {
+      "company": "Microsoft",
+      "score": 78,
+      "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "OpenAI",
+      "score": 76,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "mentions": 2
     },
     {
       "company": "Apple",
@@ -25001,7 +25008,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.43,
       "rangePosition": 0.63,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -25012,18 +25019,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.47,
       "rangePosition": 0.586,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
       "price": 529.05,
-      "forwardPE": 22.35,
-      "trailingPE": 29.81,
+      "forwardPE": 22.3,
+      "trailingPE": 29.47,
       "marketCap": 3928485003264,
       "psRatio": null,
       "dayChange": -1.93,
       "rangePosition": 0.879,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -25034,7 +25041,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.87,
       "rangePosition": 0.592,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
@@ -25045,7 +25052,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -8.43,
       "rangePosition": 0.708,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -25056,7 +25063,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.28,
       "rangePosition": 0.661,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -25067,18 +25074,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.52,
       "rangePosition": 0.189,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
       "price": 1641.52,
-      "forwardPE": 26.18,
+      "forwardPE": 26.11,
       "trailingPE": 40.39,
       "marketCap": 632670912512,
       "psRatio": null,
       "dayChange": -0.96,
       "rangePosition": 0.66,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -25089,7 +25096,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.88,
       "rangePosition": 0.252,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -25100,7 +25107,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.63,
       "rangePosition": 0.607,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -25111,7 +25118,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.79,
       "rangePosition": 0.52,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -25122,7 +25129,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.58,
       "rangePosition": 0.704,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -25133,7 +25140,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.97,
       "rangePosition": 0.657,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
@@ -25144,7 +25151,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.72,
       "rangePosition": 0.728,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -25155,18 +25162,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.85,
       "rangePosition": 0.247,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "DAVA": {
       "name": "Endava plc",
       "price": 2.06,
-      "forwardPE": 2.4,
+      "forwardPE": 2.39,
       "trailingPE": null,
       "marketCap": 108855992,
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.056,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -25177,7 +25184,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.43,
       "rangePosition": 0.955,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -25188,7 +25195,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -7.22,
       "rangePosition": 0.747,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -25199,7 +25206,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -7.63,
       "rangePosition": 0.691,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -25210,7 +25217,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.45,
       "rangePosition": 0.769,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -25221,7 +25228,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.64,
       "rangePosition": 0.079,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -25232,7 +25239,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.95,
       "rangePosition": 0.724,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -25243,7 +25250,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.08,
       "rangePosition": 0.748,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -25254,7 +25261,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.57,
       "rangePosition": 0.317,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
@@ -25265,7 +25272,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.63,
       "rangePosition": 0.646,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -25276,7 +25283,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.72,
       "rangePosition": 0.667,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -25287,7 +25294,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.33,
       "rangePosition": 0.65,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
@@ -25298,7 +25305,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.82,
       "rangePosition": 0.189,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
@@ -25309,7 +25316,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.58,
       "rangePosition": 0.156,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -25320,7 +25327,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "SAP": {
       "name": "SAP  SE",
@@ -25331,7 +25338,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.32,
       "rangePosition": 0.582,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
@@ -25342,7 +25349,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.93,
       "rangePosition": 0.005,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
@@ -25353,7 +25360,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.09,
       "rangePosition": 0.154,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
@@ -25364,7 +25371,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.02,
       "rangePosition": 0.365,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
@@ -25375,7 +25382,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -6.78,
       "rangePosition": 0.668,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
@@ -25386,7 +25393,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.79,
       "rangePosition": 0.478,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
@@ -25397,7 +25404,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.4,
       "rangePosition": 0.58,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "CDNS": {
       "name": "Cadence Design Systems, Inc.",
@@ -25408,7 +25415,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.5,
       "rangePosition": 0.369,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "SNPS": {
       "name": "Synopsys, Inc.",
@@ -25419,7 +25426,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.88,
       "rangePosition": 0.52,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "RNG": {
       "name": "Ringcentral, Inc.",
@@ -25430,18 +25437,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.63,
       "rangePosition": 0.888,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "WDC": {
       "name": "Western Digital Corporation",
       "price": 332.0,
-      "forwardPE": 10.03,
+      "forwardPE": 9.97,
       "trailingPE": 12.33,
       "marketCap": 124275326976,
       "psRatio": null,
       "dayChange": -6.86,
       "rangePosition": 0.315,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "TEAM": {
       "name": "Atlassian Corporation",
@@ -25452,7 +25459,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.28,
       "rangePosition": 0.905,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ACN": {
       "name": "Accenture plc",
@@ -25463,7 +25470,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.12,
       "rangePosition": 0.645,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "UBER": {
       "name": "Uber Technologies, Inc.",
@@ -25474,7 +25481,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.29,
       "rangePosition": 0.141,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "HUBS": {
       "name": "HubSpot, Inc.",
@@ -25485,7 +25492,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.34,
       "rangePosition": 0.187,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "SHOP": {
       "name": "Shopify Inc.",
@@ -25496,7 +25503,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.84,
       "rangePosition": 0.856,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "PINS": {
       "name": "Pinterest, Inc.",
@@ -25507,7 +25514,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.52,
       "rangePosition": 0.374,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ZD": {
       "name": "Ziff Davis, Inc.",
@@ -25518,7 +25525,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.21,
       "rangePosition": 0.912,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "AKAM": {
       "name": "Akamai Technologies, Inc.",
@@ -25529,7 +25536,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.89,
       "rangePosition": 0.18,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "MDB": {
       "name": "MongoDB, Inc.",
@@ -25540,7 +25547,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -7.89,
       "rangePosition": 0.474,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "WDAY": {
       "name": "Workday, Inc.",
@@ -25551,7 +25558,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.96,
       "rangePosition": 0.587,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
     },
     "ASAN": {
       "name": "Asana, Inc.",
@@ -25562,7 +25569,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.37,
       "rangePosition": 0.453,
-      "fetchedAt": "2026-10-17 04:04 PM"
+      "fetchedAt": "2026-10-18 04:19 PM"
+    },
+    "ZS": {
+      "name": "Zscaler, Inc.",
+      "price": 207.38,
+      "forwardPE": 36.88,
+      "trailingPE": null,
+      "marketCap": 33814284288,
+      "psRatio": null,
+      "dayChange": -5.92,
+      "rangePosition": 0.417,
+      "fetchedAt": "2026-10-18 04:19 PM"
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 227.39,
+      "forwardPE": 141.13,
+      "trailingPE": 3789.83,
+      "marketCap": 232832548864,
+      "psRatio": null,
+      "dayChange": -7.02,
+      "rangePosition": 0.704,
+      "fetchedAt": "2026-10-18 04:19 PM"
     }
   },
   "stocks_universe": [
@@ -26095,6 +26124,26 @@ const DASHBOARD_DATA = {
       "tailwindScore": 8.0,
       "baseReason": "Asana, an established enterprise work management software provider, is actively integrating advanced AI models (like OpenAI's GPT series) to enhance its platform, improve operational efficiency, and deliver more capable, cost-effective features to its customers.",
       "expertStrategy": "Asana is strategically leveraging leading AI models to optimize its software development lifecycle and product offerings, significantly reducing costs and accelerating feature delivery. This deep integration of AI positions Asana to capture significant value from the broader enterprise AI adoption wave, enhancing user productivity and strengthening its competitive edge in work management software."
+    },
+    {
+      "name": "Zscaler, Inc.",
+      "ticker": "ZS",
+      "category": "infra",
+      "subCategory": "AI Security Infrastructure",
+      "moatScore": 8.0,
+      "tailwindScore": 9.0,
+      "baseReason": "Zscaler's Zero Trust Exchange is critical for securing the distributed, cloud-native environments where AI models and data reside. It directly addresses the security vulnerabilities highlighted by 'rogue AI agent activity' by ensuring least-privilege access and protecting sensitive AI data and applications.",
+      "expertStrategy": "As AI adoption accelerates across enterprises and cloud environments, securing sensitive AI data and models becomes non-negotiable. Zscaler is strategically positioned to capture significant growth by providing the essential security layer for AI infrastructure, mitigating risks associated with exposed credentials and overly permissive cloud roles that could lead to rogue AI agent activity."
+    },
+    {
+      "name": "CrowdStrike Holdings, Inc.",
+      "ticker": "CRWD",
+      "category": "infra",
+      "subCategory": "AI Security Infrastructure",
+      "moatScore": 8.5,
+      "tailwindScore": 9.0,
+      "baseReason": "CrowdStrike's Falcon platform provides comprehensive, AI-native security across endpoints, cloud workloads, and identity. This is vital for protecting the diverse IT estate used in AI development and deployment, including cloud environments and public code repositories, against sophisticated threats and 'rogue AI agent activity.'",
+      "expertStrategy": "The expanding threat landscape driven by AI's rapid adoption makes robust endpoint and cloud security indispensable. CrowdStrike's unified platform, powered by its vast threat intelligence network, is poised to capitalize on the urgent need for comprehensive protection of AI infrastructure, from development environments to production deployments, safeguarding against the very types of exposures mentioned in recent news."
     }
   ]
 };
