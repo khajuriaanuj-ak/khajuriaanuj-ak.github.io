@@ -24862,5 +24862,54 @@
     "description": "Amazon Braket is now in scope for FedRAMP Class C in AWS US Regions where Braket is available. The Federal Risk and Authorization Management Program (FedRAMP) is a US government-wide program that delivers a standard approach to the security assessmen...",
     "provider": "AWS",
     "timestamp": "2026-10-16T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026/",
+    "description": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became...",
+    "provider": "AWS",
+    "timestamp": "2026-10-19T15:34:59+00:00"
+  },
+  {
+    "title": "October 19, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_19_2026",
+    "description": "Compute Engine\nFeature\nGenerally available: To prevent data loss or corruption when you stop or\ndelete a Compute Engine instance, you can enable graceful shutdown. This\nsetting gives the guest OS up to six hours to finish running tasks. For more\ninfo...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-19T00:00:00-07:00"
+  },
+  {
+    "title": "October 18, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
+    "description": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts by Source Grouping Identifier. When the option is...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-18T00:00:00-07:00"
+  },
+  {
+    "title": "October 17, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_17_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.102 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-17T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+    "link": "https://azure.microsoft.com/updates?id=573917",
+    "description": "Azure DNS now provides DNS based load balancing by seamless\nintegration with Azure Traffic Manager. Customers can directly associate an\nAzure DNS record set with a Traffic Manager profile, eliminating the need to\ncreate a CNAME record pointing to the...",
+    "provider": "Azure",
+    "timestamp": "2026-10-19T17:55:40+00:00"
+  },
+  {
+    "title": "Databricks Is Doubling Down On New York City As A Premier AI Talent Hub",
+    "link": "https://www.databricks.com/blog/databricks-doubling-down-new-york-city-premier-ai-talent-hub",
+    "description": "When Databricks opened its New York R&amp;D hub at 5 Bryant Park earlier this year, we...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-19T14:00:50+00:00"
+  },
+  {
+    "title": "Investing in the public benefit",
+    "link": "https://www.anthropic.com/news/public-benefit-fund",
+    "description": "Today, we’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Subject to stockholder approval, 5% of Anthropic’s shares will be committed tod...",
+    "provider": "Anthropic",
+    "timestamp": "2026-10-17T16:00:00+00:00"
   }
 ]
