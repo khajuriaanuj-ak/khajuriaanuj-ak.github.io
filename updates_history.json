@@ -25079,5 +25079,187 @@
     "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
     "provider": "OpenAI",
     "timestamp": "2026-10-19T12:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+    "description": "Starting today, you can reserve compute capacity for your Amazon Aurora and Amazon RDS DB instances in one or more Availability Zones for as long as you need it. Reserving capacity helps ensure that DB instance create, restore, scale-compute, and sta...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer launches two new layouts for agent workspace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-new-layouts-agent-workspace",
+    "description": "Amazon Connect Customer now offers two different layouts that optimize screen space on the agent workspace. Contact center agents spend hours each day in the agent workspace, which includes all of the contact controls and applications they need to re...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T13:48:00+00:00"
+  },
+  {
+    "title": "Announcing Amazon ECS Gateway, a managed ingress solution for your ECS services",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+    "description": "AWS announces Amazon Elastic Container Service (Amazon ECS) Gateway, a new resource that simplifies ingress networking for containerized applications by dynamically provisioning and managing Application Load Balancers (ALBs) and their supporting reso...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T23:26:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces simplifies secure AI agent access to enterprise cloud desktops with less infrastructure to operate and manage",
+    "link": "https://aws.amazon.com/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management",
+    "description": "WorkSpaces for AI agents now handles authentication and desktop connections as part of the managed Model Context Protocol (MCP) service, so you can connect agents to governed cloud desktops, removing the need to write custom code. This makes it easy ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T17:00:00+00:00"
+  },
+  {
+    "title": "AWS announces TorchNeuron: Native PyTorch Support for AWS Trainium (Public Beta)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+    "description": "Today, AWS launched the public beta of TorchNeuron, an open source native PyTorch backend for AWS Trainium. Trainium is a portfolio of AI chips designed to deliver high performance and cost efficiency for deep learning AI training and inference workl...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T15:00:00+00:00"
+  },
+  {
+    "title": "Structured outputs for Claude models available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+    "description": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-runtime APIs or through the Messages API and the bed...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T14:00:00+00:00"
+  },
+  {
+    "title": "AWS Clean Rooms now supports Databricks as a data source",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-clean-rooms-supports-databricks",
+    "description": "AWS Clean Rooms now supports Databricks as a data source, so collaboration members and their partners can securely analyze data managed in Databricks without moving or revealing the source data. Members query a Databricks table shared through Delta S...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T12:23:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central launches Program Navigator, Case Study Generator, and streamlined specialization review",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+    "description": "AWS Partner Central now features Program Navigator, a unified experience that lets partners discover, apply for, and track AWS Specialization program applications in one place. Partners can browse specialization designations, view requirements and be...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Guardrails now supports Standard tier for contextual grounding checks",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+    "description": "Amazon Bedrock Guardrails now offers a Standard tier for contextual grounding checks, which detect and filter hallucinations by checking whether a model response is grounded in your reference source and relevant to the user's query. The Standard tier...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+    "description": "Amazon Bedrock Advanced Prompt Optimization now supports prompt shortening, an optional setting that reduces the length of your prompt while maintaining or improving your evaluation scores. Advanced Prompt Optimization optimizes prompts for any model...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache Serverless for Valkey now supports online migration with zero downtime",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-serverless-valkey-online-migration/",
+    "description": "Amazon ElastiCache Serverless for Valkey now supports online migration from self-managed Valkey and Redis OSS on Amazon EC2 with zero downtime. Zero downtime means zero Errors returned to the client during migration, measured the same way the ElastiC...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Memory now supports configurable time-to-live for long-term memory",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-long-term-memory-ttl",
+    "description": "Amazon Bedrock AgentCore Memory now lets you set a time-to-live (TTL) on long-term memory records, so they are automatically deleted after a retention period you define. By default, long-term memory records do not expire. With this launch, you can co...",
+    "provider": "AWS",
+    "timestamp": "2026-10-13T16:00:00+00:00"
+  },
+  {
+    "title": "October 21, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
+    "description": "Model Armor\nFeature\nYou can use custom organization policies to ensure that all new or updated\nModel Armor Template resources enforce required filters, like\nresponsible AI or prompt injection and jailbreak detection. This feature is\ngenerally availab...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-21T00:00:00-07:00"
+  },
+  {
+    "title": "October 20, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_20_2026",
+    "description": "Apigee X\nAnnouncement\nOn October 20th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your instance version is\nbelow 1-18-0-apigee-6, you...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-20T00:00:00-07:00"
+  },
+  {
+    "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+    "link": "https://azure.microsoft.com/updates?id=577273",
+    "description": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentic...",
+    "provider": "Azure",
+    "timestamp": "2026-10-21T17:38:32+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
+    "link": "https://azure.microsoft.com/updates?id=576716",
+    "description": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the r...",
+    "provider": "Azure",
+    "timestamp": "2026-10-21T17:13:16+00:00"
+  },
+  {
+    "title": "Databricks AI Runtime and NVIDIA make it easier to customize open models with enterprise data",
+    "link": "https://www.databricks.com/blog/databricks-ai-runtime-nvidia-train-fine-tune-models",
+    "description": "GPUs power today's most advanced AI workloads, from cutting-edge language models...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-21T11:30:00+00:00"
+  },
+  {
+    "title": "AI Runtime is Generally Available",
+    "link": "https://www.databricks.com/blog/ai-runtime-generally-available",
+    "description": "Today, we’re excited to announce the General Availability of AI Runtime (AIR),&nbsp;bringing...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-21T11:20:00+00:00"
+  },
+  {
+    "title": "Deploy RFD4-Proteina on Databricks",
+    "link": "https://www.databricks.com/blog/deploy-rfd4-proteina-model-databricks",
+    "description": "Bring&nbsp;RFD4-Proteina to your research data with AI-assisted development and serverless NVIDIA GPU compute....",
+    "provider": "Databricks",
+    "timestamp": "2026-10-21T04:42:46+00:00"
+  },
+  {
+    "title": "OpenAI models are coming to Google Cloud",
+    "link": "https://openai.com/index/openai-models-google-cloud",
+    "description": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T12:00:00+00:00"
+  },
+  {
+    "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+    "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "description": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T07:00:00+00:00"
+  },
+  {
+    "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+    "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+    "description": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T13:00:00+00:00"
+  },
+  {
+    "title": "Using thousands of AI agents to uncover new leads in biological data",
+    "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "description": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T04:50:00+00:00"
+  },
+  {
+    "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+    "link": "https://openai.com/index/building-chatgpt-ad-stack",
+    "description": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T07:00:00+00:00"
+  },
+  {
+    "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+    "link": "https://openai.com/index/terminal-x",
+    "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-20T07:00:00+00:00"
+  },
+  {
+    "title": "OpenAI acquires Orchestra Bio",
+    "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-20T00:00:00+00:00"
   }
 ]
