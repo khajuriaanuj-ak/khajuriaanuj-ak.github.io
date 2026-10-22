@@ -25261,5 +25261,124 @@
     "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
     "provider": "OpenAI",
     "timestamp": "2026-10-20T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen 3.8 and Ministral 3 models",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-sagemaker-muse-qwen-ministral/",
+    "description": "Amazon SageMaker AI now supports serverless model customization for Muse Glimmer, Qwen3.8 27B, and Ministral 3 3B, 8B, and 14B models. In addition to deploying these models on SageMaker AI, you can now adapt them to your specific domains and workflow...",
+    "provider": "AWS",
+    "timestamp": "2026-10-22T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform adds storage migration assessments for Amazon S3, EBS, EFS, and FSx",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/",
+    "description": "Migration assessments in AWS Transform now evaluate on-premises storage for migration to AWS. Instead of manually analyzing thousands of volumes across protocols, capacity, and performance, you upload a storage inventory and AWS Transform does the ma...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T19:10:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito extends multi-Region replication to AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud/",
+    "description": "Amazon Cognito multi-Region replication (MRR) now supports AWS GovCloud (US) Regions, extending the resilience benefits of MRR to more workloads. MRR lets you synchronize user and machine identity data, including credentials, user pool configurations...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Neuron 2.33 adds native PyTorch support, Neuron Observer, and other new features",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-neuron-2-33-0",
+    "description": "AWS Neuron 2.33 is now available, introducing TorchNeuron, the native PyTorch backend for AWS Trainium, in public beta. You can run models written with the standard PyTorch APIs on Amazon EC2 Trn2 and Trn3 instances, in eager mode or with torch.compi...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T15:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 server access log delivery to Amazon CloudWatch Logs now available in five additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-server-access-logs-cloudwatch-logs-regions/",
+    "description": "Amazon S3 server access log delivery to Amazon CloudWatch Logs is now available in the AWS GovCloud (US) Regions, AWS European Sovereign Cloud, and AWS China Regions. With your access logs in CloudWatch Logs, you can query them as they arrive, set al...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T13:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports custom sequence lengths for serverless model customization jobs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-sequence-lengths/",
+    "description": "Today, Amazon SageMaker AI announces the ability to configure the sequence length used during your serverless model customization job. Amazon SageMaker AI serverless model customization supports fine-tuning for many open-weight models, including mode...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Network Firewall now supports Route 53 Resolved IP Validation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+    "description": "AWS Network Firewall now supports IP validation, extending domain-based filtering beyond HTTP/HTTPS to protocols such as SFTP and SSH. This new capability validates that a connection's destination IP address was resolved through your VPC's Amazon Rou...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform now builds new networks and modernizes security groups",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transform-new-networks/",
+    "description": "AWS Transform for migrations now gives you three ways to bring your network to AWS. In addition to migrating and modernizing your existing network, you can build a new network from scratch or convert your on-premises access rules into optimized secur...",
+    "provider": "AWS",
+    "timestamp": "2026-10-21T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces simplifies secure AI agent access to enterprise cloud desktops with less infrastructure to operate and manage",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management",
+    "description": "WorkSpaces for AI agents now handles authentication and desktop connections as part of the managed Model Context Protocol (MCP) service, so you can connect agents to governed cloud desktops, removing the need to write custom code. This makes it easy ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-20T17:00:00+00:00"
+  },
+  {
+    "title": "October 22, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
+    "description": "Compute Engine\nFeature\nYou can view how a managed instance group (MIG) distributes its instances across\nzones and machine types, directly from the MIG's Monitoring tab in the\nGoogle Cloud console.\nFor more information, see Monitor instance distributi...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-22T00:00:00-07:00"
+  },
+  {
+    "title": "October 02, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_02_2026",
+    "description": "BigQuery\nFeature\nThe Rust SDK for BigQuery is now\ngenerally available\n(GA).\nFeature\nThe Data Engineering\nAgent now supports\nthe gemini-3.7-flash model for the us, eu, and global multi-regional\nendpoints.\nCloud NAT\nFeature\nGeneral Availability: Cloud ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-02T00:00:00-07:00"
+  },
+  {
+    "title": "What FDE means at OpenAI",
+    "link": "https://openai.com/index/forward-deployed-engineering-means",
+    "description": "What forward deployed engineering means at OpenAI",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-22T06:00:00+00:00"
+  },
+  {
+    "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+    "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+    "description": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-22T00:00:00+00:00"
+  },
+  {
+    "title": "How AT&T is rethinking in-house legal work with OpenAI",
+    "link": "https://openai.com/index/att-legal",
+    "description": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T17:00:00+00:00"
+  },
+  {
+    "title": "Broad access through consistent standards",
+    "link": "https://openai.com/index/broad-access-through-consistent-standards",
+    "description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T21:00:00+00:00"
+  },
+  {
+    "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+    "link": "https://openai.com/index/cloudflare-cyber",
+    "description": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T00:00:00+00:00"
+  },
+  {
+    "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+    "link": "https://openai.com/index/empowering-cyber-defenders",
+    "description": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-21T00:00:00+00:00"
   }
 ]
