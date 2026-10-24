@@ -548,5 +548,15 @@
     "tailwindScore": 9.0,
     "baseReason": "CrowdStrike's Falcon platform provides comprehensive, AI-native security across endpoints, cloud workloads, and identity. This is vital for protecting the diverse IT estate used in AI development and deployment, including cloud environments and public code repositories, against sophisticated threats and 'rogue AI agent activity.'",
     "expertStrategy": "The expanding threat landscape driven by AI's rapid adoption makes robust endpoint and cloud security indispensable. CrowdStrike's unified platform, powered by its vast threat intelligence network, is poised to capitalize on the urgent need for comprehensive protection of AI infrastructure, from development environments to production deployments, safeguarding against the very types of exposures mentioned in recent news."
+  },
+  {
+    "name": "Block, Inc.",
+    "ticker": "SQ",
+    "category": "direct",
+    "subCategory": "AI Model Development / Edge AI Applications",
+    "moatScore": 6.5,
+    "tailwindScore": 7.0,
+    "baseReason": "Developing sophisticated, highly realistic voice AI models capable of local inference, demonstrating a strategic pivot into leveraging advanced AI for product differentiation and potential new services within their extensive fintech ecosystem.",
+    "expertStrategy": "Block (SQ), traditionally a fintech leader, is showcasing robust internal AI capabilities with its new, highly realistic voice model designed for local execution. This strategic investment in advanced AI, particularly in edge inference and human-computer interaction, positions Block to significantly enhance customer experiences and streamline operations across its Square and Cash App platforms. Investors should view SQ as an emerging AI play, where proprietary model development could drive competitive advantage and open new revenue streams, leveraging their vast user base for rapid AI application adoption and differentiation."
   }
 ]

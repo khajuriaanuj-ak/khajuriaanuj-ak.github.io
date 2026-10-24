@@ -25485,5 +25485,75 @@
     "description": "Fast, focused, low-cost decisions for any application.",
     "provider": "OpenAI",
     "timestamp": "2026-10-22T19:00:00+00:00"
+  },
+  {
+    "title": "Web Search on Amazon Bedrock now supports domain filtering and user location controls",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+    "description": "Web Search on&nbsp;Amazon Bedrock now supports two new controls that give you more precision over the results that ground a model's response: domain filtering and user location. Both are configured directly on the web_search tool in your existing Ope...",
+    "provider": "AWS",
+    "timestamp": "2026-10-23T21:04:00+00:00"
+  },
+  {
+    "title": "Amazon Corretto October 2026 Quarterly Updates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
+    "description": "On October 22, 2026 Amazon announced quarterly security and critical updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9, and 8u512 are now available for...",
+    "provider": "AWS",
+    "timestamp": "2026-10-23T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon EMR on EKS reduces EMR charge by 30 percent",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-eks-reduces-emr-charge-30-percent/",
+    "description": "Amazon EMR announces a reduction of 30 percent in the EMR charge added to EKS when running EMR on EKS. This price decrease applies to both the per-vCPU-hour charge and the per-GB-hour charge, while the underlying Amazon EKS charges remain unchanged. ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-23T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA now available in Mexico (Central) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-mwaa-mexico-central/",
+    "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Provisioned environments are now available in the Mexico (Central) Region (mx-central-1). Amazon MWAA Serverless was already available in this Region, and customers can now also use Amazon MWA...",
+    "provider": "AWS",
+    "timestamp": "2026-10-23T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service introduces intelligent ingestion for logs and documents in Amazon S3",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-opensearch-intelligent-ingestion-logs-documents-s3",
+    "description": "Amazon OpenSearch Serverless now offers intelligent ingestion, a fully managed feature that turns logs and documents stored in Amazon S3 into searchable content in Amazon OpenSearch Serverless (NextGen) collections . With intelligent ingestion, you c...",
+    "provider": "AWS",
+    "timestamp": "2026-10-22T20:54:00+00:00"
+  },
+  {
+    "title": "October 23, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_23_2026",
+    "description": "Cloud Monitoring\nFixed\nOps Agent version 2.73.0 includes patches for a Go vulnerability involving\nsystem root certificates,\nCVE-2026-111943. For more\ninformation, see Ops Agent 2.73.0 notes.\nCloud SQL for MySQL\nSecurity\nIn response to GCP-2026-071, G...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-23T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+    "link": "https://azure.microsoft.com/updates?id=577963",
+    "description": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSD...",
+    "provider": "Azure",
+    "timestamp": "2026-10-23T19:21:07+00:00"
+  },
+  {
+    "title": "Built for Agents: The Case for Spark Declarative Pipelines",
+    "link": "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines",
+    "description": "AI agents now write a growing share of production data pipelines (over 70% of SDP...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-23T19:00:00+00:00"
+  },
+  {
+    "title": "Real-time energy trading and analytics on Databricks",
+    "link": "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks",
+    "description": "Why does real-time energy trading need more than faster data?Energy trading desks...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-23T19:00:00+00:00"
+  },
+  {
+    "title": "Securing our frontier model training environment",
+    "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-23T10:00:00+00:00"
   }
 ]
