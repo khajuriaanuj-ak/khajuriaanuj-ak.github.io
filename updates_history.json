@@ -25555,5 +25555,12 @@
     "description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
     "provider": "OpenAI",
     "timestamp": "2026-10-23T10:00:00+00:00"
+  },
+  {
+    "title": "October 24, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_24_2026",
+    "description": "App Engine flexible environment .NET\nSecurity\nThe following runtime language contains important security updates:\n\n.NET 6 and later: 6.0.428, 8.0.415, 10.0.100\n\nThe following stacks and their underlying operating system packages have also been update...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-24T00:00:00-07:00"
   }
 ]
