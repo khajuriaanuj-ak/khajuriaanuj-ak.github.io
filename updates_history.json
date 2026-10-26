@@ -25562,5 +25562,54 @@
     "description": "App Engine flexible environment .NET\nSecurity\nThe following runtime language contains important security updates:\n\n.NET 6 and later: 6.0.428, 8.0.415, 10.0.100\n\nThe following stacks and their underlying operating system packages have also been update...",
     "provider": "Google Cloud",
     "timestamp": "2026-10-24T00:00:00-07:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+    "description": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and t...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T15:02:24+00:00"
+  },
+  {
+    "title": "October 26, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_26_2026",
+    "description": "Apigee X\nFeature\nModel Context Protocol (MCP) tool arguments are sent to the location their OpenAPI\nparameter declares\nThis change applies to Apigee X in all supported regions.\nAn MCP tool argument whose OpenAPI parameter declares in: header is now s...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-26T00:00:00-07:00"
+  },
+  {
+    "title": "October 25, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
+    "description": "Google SecOps\nFeature\nResize inline images in Case Wall comments\nYou can now resize inline images directly in rich-text comments on the Case Wall. To resize an image, switch the comment box to rich-text mode and insert an image either by using the to...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-25T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+    "link": "https://azure.microsoft.com/updates?id=577782",
+    "description": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which\nnetwork traffic flows are logged based on specific criteria such as IP\naddresses, ports, protocols, encryption state, flow state, and traffic dir...",
+    "provider": "Azure",
+    "timestamp": "2026-10-26T16:02:05+00:00"
+  },
+  {
+    "title": "The media industry is becoming a prediction economy",
+    "link": "https://www.databricks.com/blog/media-industry-becoming-prediction-economy",
+    "description": "For two decades, media and advertising ran on attention. Impressions, reach and clicks...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-26T13:36:46+00:00"
+  },
+  {
+    "title": "ChatGPT’s expanding world of work",
+    "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "description": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T10:00:00+00:00"
+  },
+  {
+    "title": "How Fanatics and OpenAI streamline the fan experience",
+    "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+    "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T07:00:00+00:00"
   }
 ]
