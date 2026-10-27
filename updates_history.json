@@ -25611,5 +25611,180 @@
     "description": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
     "provider": "OpenAI",
     "timestamp": "2026-10-26T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon ECR now supports replication backfill for existing container images",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr",
+    "description": "Amazon Elastic Container Registry (Amazon ECR) now supports replication backfill, enabling you to replicate existing images in your private registry to your configured replication registry destinations. Previously, replication only applied to images ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T20:24:00+00:00"
+  },
+  {
+    "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
+    "description": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday workloads.&nbsp; \nAs the newest model in the Terra l...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T18:27:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces Core Managed Instances now supports ModifyVolume API",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/",
+    "description": "Amazon WorkSpaces Core Managed Instances now supports the ModifyVolume API, which lets you change volume size, volume type, IOPS, or throughput in place, without detaching the volume or restarting the instance. Previously, changing storage capacity o...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon IVS Low-Latency Streaming now provides a failover slate",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ivs-low-latency-streaming-failover-slate",
+    "description": "Amazon Interactive Video Service (Amazon IVS) Low-Latency Streaming now provides a failover slate, an animated image that IVS displays to viewers when a broadcaster's stream is unexpectedly interrupted. Instead of a buffering wheel or frozen frame, v...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T15:40:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio adds light mode support for IDC-based domains",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/smus-light-mode",
+    "description": "Today, AWS announces light mode support in Amazon SageMaker Unified Studio for Identity Center (IDC) based domains. Customers can now configure the visual interface mode to match their preference, choosing between dark and light themes. With this lau...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T15:32:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center now supports cross-Region trusted identity propagation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
+    "description": "Trusted identity propagation carries a user's identity with their request, so AWS services can grant permissions based on who the user is and their underlying group associations, and log that user's access for auditing. With cross-Region support, thi...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+    "description": "AWS Key Management Service (KMS) now supports Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), a post-quantum cryptography standard under NIST FIPS 203, which&nbsp;enables two parties to establish a shared secret.&nbsp;NIST designed ML-KEM ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T08:00:00+00:00"
+  },
+  {
+    "title": "AWS EC2 Auto Scaling now supports Launch Before Terminate at account-level to replace instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
+    "description": "AWS EC2 Auto Scaling now lets you enable Launch Before Terminate as the default replacement behavior across all Auto Scaling groups in your account. When enabled, Auto Scaling launches a replacement instance and waits for it to pass health checks bef...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2017 CU31+G...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T07:30:00+00:00"
+  },
+  {
+    "title": "AWS Glue Data Catalog now supports OAuth for Apache Iceberg REST Catalog APIs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
+    "description": "AWS Glue Data Catalog now supports OAuth 2.0 bearer token authentication for Apache Iceberg REST Catalog (IRC) APIs using AWS Sign-In. The Apache Iceberg REST Catalog specification defines OAuth 2.0 as its standard authentication mechanism, and query...",
+    "provider": "AWS",
+    "timestamp": "2026-10-26T04:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now enables you to use flow modules in agentic CX designer",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentic-cx-designer-flow-modules/",
+    "description": "Amazon Connect Customer now enables you to use flow modules as data requests in agentic CX designer, so you can build and apply reusable logic across your customer experience flows. You can run a flow module at a fixed step in a conversation with a D...",
+    "provider": "AWS",
+    "timestamp": "2026-10-16T16:19:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
+    "link": "https://azure.microsoft.com/updates?id=578153",
+    "description": "Announcing the general availability of profile and route\nlevel policies for Azure Web Application Firewall (WAF) on Azure Front Door\nPremium. WAF policies are no longer limited to individual domains: you can now\napply broad baseline protection across...",
+    "provider": "Azure",
+    "timestamp": "2026-10-27T16:58:04+00:00"
+  },
+  {
+    "title": "Unlocking Investment Insights Without Migrating Your Data: Lakehouse Federation",
+    "link": "https://www.databricks.com/blog/unlocking-investment-insights-without-migrating-your-data-lakehouse-federation",
+    "description": "Lakehouse Federation: Query Anywhere, Move NothingIn today's enterprise landscape,...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-27T18:00:00+00:00"
+  },
+  {
+    "title": "From spot fixes to measured gains: improving document extraction accuracy with ai_extract and MLflow Prompt Registry",
+    "link": "https://www.databricks.com/blog/spot-fixes-measured-gains-improving-document-extraction-accuracy-aiextract-and-mlflow-prompt",
+    "description": "Document extraction often starts with a simple loop: spot an incorrect field, adjust...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-27T18:00:00+00:00"
+  },
+  {
+    "title": "BigQuery to Databricks: A Strategic Framework",
+    "link": "https://www.databricks.com/blog/bigquery-databricks-strategic-framework",
+    "description": "Migration as a strategic evolutionMany organizations support a range of data and analytics workloads on BigQuery today...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-27T11:07:53+00:00"
+  },
+  {
+    "title": "Unify your productivity and AI data with Lakeflow Connect",
+    "link": "https://www.databricks.com/blog/unify-your-productivity-and-ai-data-lakeflow-connect",
+    "description": "This is the second post in our series on how Lakeflow Connect brings fully managed...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-26T23:20:12+00:00"
+  },
+  {
+    "title": "How to teach with Databricks Free Edition",
+    "link": "https://www.databricks.com/blog/how-teach-databricks-free-edition",
+    "description": "You can run a full data or AI course on the same platform enterprises use in production - for free...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-26T19:40:00+00:00"
+  },
+  {
+    "title": "Building live intelligence: Databricks AI Search supports Streaming Tables, Materialized Views, and Managed tables using Iceberg",
+    "link": "https://www.databricks.com/blog/building-live-intelligence-databricks-ai-search-supports-streaming-tables-materialized-views",
+    "description": "AI Search now natively supports&nbsp;Streaming Tables, Materialized Views, and Managed...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-26T18:03:59+00:00"
+  },
+  {
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-27T07:00:00+00:00"
+  },
+  {
+    "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+    "link": "https://openai.com/index/greptile-code-review-codex-astra",
+    "description": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T22:00:00+00:00"
+  },
+  {
+    "title": "Working with academic communities to build scientific understanding",
+    "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T14:30:00+00:00"
+  },
+  {
+    "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+    "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+    "description": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T13:45:00+00:00"
+  },
+  {
+    "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+    "link": "https://openai.com/index/openai-cut-incident-investigation",
+    "description": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T07:00:00+00:00"
+  },
+  {
+    "title": "Introducing GPT-6.1 Terra",
+    "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+    "description": "Bringing fast and capable computer use to everyone",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-26T00:00:00+00:00"
+  },
+  {
+    "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+    "link": "https://openai.com/index/anima",
+    "description": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-23T00:00:00+00:00"
   }
 ]

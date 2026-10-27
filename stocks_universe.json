@@ -558,5 +558,15 @@
     "tailwindScore": 7.0,
     "baseReason": "Developing sophisticated, highly realistic voice AI models capable of local inference, demonstrating a strategic pivot into leveraging advanced AI for product differentiation and potential new services within their extensive fintech ecosystem.",
     "expertStrategy": "Block (SQ), traditionally a fintech leader, is showcasing robust internal AI capabilities with its new, highly realistic voice model designed for local execution. This strategic investment in advanced AI, particularly in edge inference and human-computer interaction, positions Block to significantly enhance customer experiences and streamline operations across its Square and Cash App platforms. Investors should view SQ as an emerging AI play, where proprietary model development could drive competitive advantage and open new revenue streams, leveraging their vast user base for rapid AI application adoption and differentiation."
+  },
+  {
+    "name": "Opera Limited",
+    "ticker": "OPRA",
+    "category": "direct",
+    "subCategory": "AI Browser Platform / Edge AI Enablement",
+    "moatScore": 5.5,
+    "tailwindScore": 8.0,
+    "baseReason": "Pioneering the 'WebAI' standard to enable local, browser-based AI model deployment and inference, potentially establishing an early lead in client-side AI applications.",
+    "expertStrategy": "Opera's bold move with the WebAI standard positions it to capitalize on the burgeoning trend of edge AI and privacy-centric local model execution. While browser market share is smaller, this innovative play could attract a significant developer and user base, offering a unique avenue for AI accessibility and a high-growth speculative opportunity."
   }
 ]
