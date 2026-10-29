@@ -568,5 +568,15 @@
     "tailwindScore": 8.0,
     "baseReason": "Pioneering the 'WebAI' standard to enable local, browser-based AI model deployment and inference, potentially establishing an early lead in client-side AI applications.",
     "expertStrategy": "Opera's bold move with the WebAI standard positions it to capitalize on the burgeoning trend of edge AI and privacy-centric local model execution. While browser market share is smaller, this innovative play could attract a significant developer and user base, offering a unique avenue for AI accessibility and a high-growth speculative opportunity."
+  },
+  {
+    "name": "Procore Technologies, Inc.",
+    "ticker": "PCOR",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software for Construction",
+    "moatScore": 7.0,
+    "tailwindScore": 8.0,
+    "baseReason": "Dominant enterprise software platform for the construction industry, uniquely positioned with vast proprietary construction data to integrate and leverage specialized AI for analytics, project management, and operational efficiency.",
+    "expertStrategy": "Invest in Procore as a key beneficiary of AI adoption within the massive, yet historically undigitized, construction sector. Its established platform, deep industry integration, and proprietary data create a formidable barrier to entry for AI-native startups and provide a fertile ground for integrating AI to enhance analytics, automate processes, and improve decision-making across the construction lifecycle."
   }
 ]

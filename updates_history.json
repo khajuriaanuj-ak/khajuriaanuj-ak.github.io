@@ -25926,5 +25926,152 @@
     "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
     "provider": "OpenAI",
     "timestamp": "2026-10-16T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle now supports September 2026 Monthly Recommended Patch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-september-mrp",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports the September 2026 Monthly Recommended Patch (MRP) for Oracle Database version 19c and 26ai. An MRP is a minor engine version that builds on a quarterly Release Update (RU), bund...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+    "description": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T20:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda supports Seekable OCI (SOCI) lazy loading for Lambda Managed Instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+    "description": "AWS Lambda now supports Seekable OCI (SOCI)&nbsp;for lazy loading Event Functions packaged as Open Container Initiative (OCI) images running on Lambda Managed Instances. With SOCI support, Lambda fetches only the files needed at each stage of the exe...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T18:44:00+00:00"
+  },
+  {
+    "title": "Introducing time series collections for the next generation of Amazon OpenSearch Serverless",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/",
+    "description": "Today, we're announcing support for time series collections on the next generation of Amazon OpenSearch Serverless. With time series collections, you can ingest, store, and analyze logs, metrics, traces, and event data without provisioning or managin...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T18:35:00+00:00"
+  },
+  {
+    "title": "Quick now supports smart approvals for agentic actions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
+    "description": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a user's behalf, such as sending email, updating reco...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T18:28:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Dashboard now provides fleet-wide visibility into certificate authority (CA) rotation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/",
+    "description": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announces certificate authority (CA) rotation visibility in the Amazon EKS Dashboard, giving you a consolidated view of CA rotation across your clusters. The Amazon EKS Dashboard already provides ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T18:07:00+00:00"
+  },
+  {
+    "title": "Amazon ECS Managed Instances adds cross-instance and Spot consolidation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+    "description": "Today, Amazon Elastic Container Service (Amazon ECS) Managed Instances introduces two infrastructure optimization updates: cross-instance and Spot consolidation. Cross-instance consolidation evaluates tasks running across multiple underutilized insta...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T18:00:00+00:00"
+  },
+  {
+    "title": "Announcing the AWS Marketplace and Amazon Business unified storefront",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/marketplace-business-storefront/",
+    "description": "Today, AWS Marketplace and Amazon Business announced the unified storefront. Organizations can now give their teams one curated catalog that puts software, data, and AI tools from AWS Marketplace alongside physical goods and supplies from Amazon Busi...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Agent Registry is now available in four additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-four-regions/",
+    "description": "AWS Agent Registry, available through Amazon Bedrock AgentCore, is now available in four additional AWS Regions: Europe (London) eu-west-2, Europe (Frankfurt) eu-central-1, US East (Ohio) us-east-2, and Canada (Central) ca-central-1.\nAWS Agent Regist...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T08:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM Identity Center's Identity Store now supports change notifications through Amazon EventBridge",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
+    "description": "AWS IAM Identity Center's Identity Store now delivers real-time events to Amazon EventBridge when users, groups, or group memberships or the identity store itself is created, updated, or deleted. AWS IAM Identity Center Identity Store is a central re...",
+    "provider": "AWS",
+    "timestamp": "2026-10-28T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer supports inline attachment previews",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-attachment-previews/",
+    "description": "Amazon Connect Customer lets agents preview attachments directly in the agent workspace, reducing contact handling time and limiting the need to download sensitive customer information. Agents can preview PDFs, images, and text files across email, ch...",
+    "provider": "AWS",
+    "timestamp": "2026-10-27T19:15:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache expands data tiering to R8gd and R7gd nodes in Europe (Spain) and Asia Pacific (Hyderabad)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elasticache-data-tiering-spain/",
+    "description": "Amazon ElastiCache for Valkey data tiering is now available on Graviton4-based R8gd nodes in the AWS Europe (Spain) Region, and on Graviton3-based R7gd nodes in the Europe (Spain) and Asia Pacific (Hyderabad) Regions. Data tiering is a lower-cost way...",
+    "provider": "AWS",
+    "timestamp": "2026-10-27T15:25:00+00:00"
+  },
+  {
+    "title": "October 29, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_29_2026",
+    "description": "Anti Money Laundering AI\nAnnouncement\nNew minor engine version released for the retail line of business within the v004.011 version line (aml-retail.default.v004.011.202610-000). This version extends support for the major engine version and includes ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-29T00:00:00-07:00"
+  },
+  {
+    "title": "[Launched] Generally Available: HTTP DDoS Ruleset for Azure Front Door Premium WAF",
+    "link": "https://azure.microsoft.com/updates?id=578681",
+    "description": "Announcing the general\navailability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF)\non Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of\napplication downtime, and static controls such as IP filters and fixe...",
+    "provider": "Azure",
+    "timestamp": "2026-10-29T17:09:49+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure MCP Server 3.0",
+    "link": "https://azure.microsoft.com/updates?id=578662",
+    "description": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terrafo...",
+    "provider": "Azure",
+    "timestamp": "2026-10-29T17:04:58+00:00"
+  },
+  {
+    "title": "Smarter cost controls for serverless",
+    "link": "https://www.databricks.com/blog/smarter-cost-controls-serverless",
+    "description": "At Databricks, our serverless compute usage has grown more than 3x in the past year,...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-29T15:00:00+00:00"
+  },
+  {
+    "title": "How Procore is powering construction analytics with OpenSharing",
+    "link": "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing-0",
+    "description": "Connecting an industry built on disconnected dataConstruction runs on data that rarely sits in one place...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-29T00:29:00+00:00"
+  },
+  {
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "link": "https://openai.com/index/updated-model-spec",
+    "description": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-29T17:00:00+00:00"
+  },
+  {
+    "title": "How we detect frontier model misalignment",
+    "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "description": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-29T09:00:00+00:00"
+  },
+  {
+    "title": "How Ropes & Gray is developing AI for transactional diligence",
+    "link": "https://openai.com/index/ropes-gray-ai-diligence",
+    "description": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-29T07:00:00+00:00"
+  },
+  {
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "description": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-28T13:15:00+00:00"
   }
 ]
