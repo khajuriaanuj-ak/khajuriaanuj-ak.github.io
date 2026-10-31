@@ -26192,5 +26192,103 @@
     "description": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
     "provider": "OpenAI",
     "timestamp": "2026-10-29T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock expands API support and introduces Cross-Region Inferencing for OpenAI models in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+    "description": "Amazon Bedrock now supports the OpenAI GPT-5.6 models (Terra and Luna) on the bedrock-runtime endpoint, with support for the Responses, Converse, and Chat Completions APIs in AWS GovCloud (US). It also adds support for Cross-Region Inference, allowin...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T20:43:00+00:00"
+  },
+  {
+    "title": "Web Search now available on Kiro in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/kiro-web-search-aws-govcloud-us/",
+    "description": "Kiro web search gives the agent real-time access to current information on the internet, so its answers draw on up-to-date search results and page content. The agent uses web search automatically when a question involves recent changes or topics beyo...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T19:40:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer automatically saves in-progress emails as drafts",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-email-draft-save/",
+    "description": "Amazon Connect Customer automatically saves in-progress emails as drafts, helping agents resume work without losing progress when connectivity is interrupted or when their browser is accidentally closed or refreshed. When agents return, their drafts ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T19:30:00+00:00"
+  },
+  {
+    "title": "Daybreak Red from OpenAI now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+    "description": "Security teams need powerful tools to find vulnerabilities, test exploits, and build defenses. Daybreak Red from OpenAI is now available to eligible customers on Amazon Bedrock in AWS GovCloud (US-East), bringing advanced AI to this work. \n&nbsp; \nPa...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T18:20:00+00:00"
+  },
+  {
+    "title": "Amazon CloudFront now provides viewer ISP and post-quantum TLS details",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
+    "description": "Amazon CloudFront can now forward two new optional headers to your origin. The CloudFront-Viewer-ISP header contains the name of the viewer's internet service provider (ISP), so you can see which network a request came from. The CloudFront-Viewer-TLS...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T18:15:00+00:00"
+  },
+  {
+    "title": "Amazon MSK now supports TLS 1.3 for data in transit",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
+    "description": "Amazon MSK now supports version 1.3 of Transport Layer Security (TLS) protocol for MSK Provisioned clusters through encryption policies. TLS 1.3 delivers faster, more secure encryption for streaming data and is increasingly required by compliance fra...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle no longer requires automatic minor version upgrades for JVM, Spatial, Locator, and OLAP options",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now lets you turn off automatic minor version upgrades on new and existing DB instances that use the JVM, Spatial, Locator, or OLAP option. Previously, these options required automatic minor ...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T17:00:00+00:00"
+  },
+  {
+    "title": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/prometheus-collectors-msk-metrics/",
+    "description": "Managed Prometheus collectors now support Amazon MSK consumer-group metrics for Amazon Managed Service for Prometheus and Amazon CloudWatch. The integration collects Kafka exporter metrics and consumer-group lag metrics from your Amazon MSK clusters....",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI inference now supports GPU partitioning for real-time endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
+    "description": "Amazon SageMaker AI inference now supports GPU partitioning, enabling you to run several models on a single GPU instead of dedicating a whole accelerator to each one. Using NVIDIA Multi-Instance GPU (MIG) technology, SageMaker AI divides a GPU into a...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift announces hands-off automated cross-region backups",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-automated-cross-region-backups/",
+    "description": "Amazon Redshift announces automated cross-region snapshot copy for Amazon Redshift. You can now have your Amazon Redshift provisioned cluster or serverless workgroup automatically backed up to the target AWS region(s) you choose. The automated cross-...",
+    "provider": "AWS",
+    "timestamp": "2026-10-29T08:00:00+00:00"
+  },
+  {
+    "title": "Databricks and SAP unleash end-to-end data & AI capabilities to level up enterprise AI transformation",
+    "link": "https://www.databricks.com/blog/databricks-and-sap-unleash-end-end-data-ai-capabilities-level-enterprise-ai-transformation",
+    "description": "Today's AI models are more capable than ever. What they still lack is the business...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-30T21:00:00+00:00"
+  },
+  {
+    "title": "Wealth Management Client Onboarding Needs More Than AI",
+    "link": "https://www.databricks.com/blog/wealth-management-client-onboarding-needs-more-ai",
+    "description": "Wealth Management client onboarding can stall even when every system has done its job. The document is collected...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-30T19:40:00+00:00"
+  },
+  {
+    "title": "Deliberate decisions and enterprise AI value",
+    "link": "https://www.databricks.com/blog/deliberate-decisions-and-enterprise-ai-value",
+    "description": "AI progress is moving quickly. Expectations are rising, experimentation is spreading...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-30T19:30:00+00:00"
+  },
+  {
+    "title": "Fair use benefits everyone",
+    "link": "https://openai.com/index/fair-use-benefits-everyone",
+    "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-30T00:00:00+00:00"
   }
 ]
