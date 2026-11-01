@@ -26290,5 +26290,19 @@
     "description": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
     "provider": "OpenAI",
     "timestamp": "2026-10-30T00:00:00+00:00"
+  },
+  {
+    "title": "October 31, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#October_31_2026",
+    "description": "Google SecOps\nFeature\nBasic Mode search\nThis feature is in public preview. The SIEM Search page now provides two search-execution modes: Basic Mode and Advanced Mode. Basic Mode (the default option) uses a streamlined, fast-path execution pipeline th...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-10-31T00:00:00-07:00"
+  },
+  {
+    "title": "Lakebase branching for CI/CD: lessons from 100 PR databases",
+    "link": "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases",
+    "description": "The problem: testing against production data shouldn't take over 30 minutesSnorkel...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-31T21:25:00+00:00"
   }
 ]
