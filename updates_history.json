@@ -26304,5 +26304,173 @@
     "description": "The problem: testing against production data shouldn't take over 30 minutesSnorkel...",
     "provider": "Databricks",
     "timestamp": "2026-10-31T21:25:00+00:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+    "description": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T16:45:48+00:00"
+  },
+  {
+    "title": "Haiku 5.5 now available on Kiro in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+    "description": "A new Anthropic model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. With Haiku 5.5, all three Claude 5.5 models are now available in Kiro in AWS GovCloud (US). \nClaude Haiku 5.5 is the fastest model in the Claude 5.5 fam...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T20:45:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports per snapshot billing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+    "description": "Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot. \nPreviously, RDS snapshot charges were aggregated at the database instance level on the Co...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T18:43:00+00:00"
+  },
+  {
+    "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/",
+    "description": "For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provi...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T18:36:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora MySQL 3.14 (compatible with MySQL 8.0.46) is generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/",
+    "description": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.46, which includes community MySQL fixes and Aurora-specific improvements. In addition to operational improvements, Aurora MySQL 3.14 introduces s...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora MySQL 8.4.10 is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/",
+    "description": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.10. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exposures (CVEs) in prior versions of MySQL and to benefit from bug fi...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event sources",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+    "description": "AWS Lambda now supports queues for Apache Kafka in self-managed Kafka event source mappings (ESM), for Kafka clusters that customers run themselves and for managed offerings such as Confluent Cloud.&nbsp;Customers can now scale processing for Kafka w...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports Model Context Protocol (MCP) tools in flows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+    "description": "Amazon Connect Customer now enables you to invoke Model Context Protocol (MCP) tools in customer experience flows through the new 'External Tool' block. With this launch, you can connect flows to third-party applications through Amazon Bedrock AgentC...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-wait-block-cases-tool-events/",
+    "description": "Amazon Connect Customer now supports Cases and External Tool events in the Wait block, giving you more control over how your customer experience flows react to real-time data changes. In addition to waiting for a Lambda function to complete, you can ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-02T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Quick Introduces Quick Essentials",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-quick-essentials/",
+    "description": "Amazon Quick introduces Quick Essentials for enterprises. The plan makes it easier for organizations to get started with all the features of Quick such as AI-powered chat, Research, Flows, and Apps, and lets users view and interact with Quick Sight d...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T08:00:00+00:00"
+  },
+  {
+    "title": "November 01, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_01_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.105 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-01T00:00:00-08:00"
+  },
+  {
+    "title": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+    "link": "https://azure.microsoft.com/updates?id=577975",
+    "description": "Azure\nMigrate now supports discovery and assessment for network-attached storage,\nallowing customers and partners to plan migrations of Dell PowerScale (OneFS)\nand NetApp ONTAP storage to Azure. The Azure Migrate appliance connects\ndirectly to your N...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T19:37:11+00:00"
+  },
+  {
+    "title": "Retirement: OT security in Microsoft Defender for IoT",
+    "link": "https://azure.microsoft.com/updates?id=576255",
+    "description": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period.This change a...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T19:22:28+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+    "link": "https://azure.microsoft.com/updates?id=574541",
+    "description": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T19:20:33+00:00"
+  },
+  {
+    "title": "Retirement: Azure Fluid Relay",
+    "link": "https://azure.microsoft.com/updates?id=570498",
+    "description": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption.The Fluid Framework remains available as an open-...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T19:01:41+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+    "link": "https://azure.microsoft.com/updates?id=578628",
+    "description": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a s...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T18:34:01+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Restart databases in Azure SQL DB via the Azure portal",
+    "link": "https://azure.microsoft.com/updates?id=577992",
+    "description": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest API or contacting support.  Learn more.",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T18:02:48+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
+    "link": "https://azure.microsoft.com/updates?id=579021",
+    "description": "Geo-Replication on partitioned namespaces for\nAzure Service Bus Premium is now generally available. You can now combine the\nthroughput benefits of partitioning with the reliability of replicating your\nmessages and metadata to a secondary Azure region...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T18:00:51+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Site Recovery for Azure Local",
+    "link": "https://azure.microsoft.com/updates?id=579111",
+    "description": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can protect supported Windows and Linux virtual machines by ...",
+    "provider": "Azure",
+    "timestamp": "2026-11-02T17:49:48+00:00"
+  },
+  {
+    "title": "Lakebase Postgres is now generally available on Google Cloud",
+    "link": "https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud",
+    "description": "We're excited to announce that Lakebase Postgres is generally available on Google Cloud...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-02T14:26:08+00:00"
+  },
+  {
+    "title": "How Procore is powering construction analytics with OpenSharing",
+    "link": "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing",
+    "description": "Connecting an industry built on disconnected dataConstruction runs on data that rarely sits in one place...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-29T00:29:00+00:00"
+  },
+  {
+    "title": "Introducing the Grid Protectors Program",
+    "link": "https://openai.com/index/grid-protectors-program",
+    "description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-02T15:00:00+00:00"
+  },
+  {
+    "title": "LifeVal",
+    "link": "https://openai.com/index/lifeval",
+    "description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-02T09:00:00+00:00"
+  },
+  {
+    "title": "Qodo builds context into AI code review with Codex",
+    "link": "https://openai.com/index/qodo-codex-plugin",
+    "description": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-02T00:00:00+00:00"
   }
 ]
