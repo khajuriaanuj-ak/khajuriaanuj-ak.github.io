@@ -26591,5 +26591,173 @@
     "description": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
     "provider": "OpenAI",
     "timestamp": "2026-11-02T00:00:00+00:00"
+  },
+  {
+    "title": "AWS announces AWS Interconnect - last mile preview with Equinix",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-preview-equinix/",
+    "description": "AWS Interconnect - last mile is now available in preview with Equinix. You can connect your infrastructure across Equinix's global network of 282 data centers worldwide to AWS in a few clicks. \nInterconnect - last mile gives you managed, private, and...",
+    "provider": "AWS",
+    "timestamp": "2026-11-04T17:00:00+00:00"
+  },
+  {
+    "title": "New features for Amazon EC2 Capacity Manager",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-capacity-manager-supportability-and-fulfillment/",
+    "description": "Amazon EC2 Capacity Manager now offers real-time supportability checks and capacity fulfillment metrics. Real-time supportability checks help customers find capacity by scoring how well each instance type and Availability Zone can support a request, ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-04T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer lets agents pause and resume emails",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/",
+    "description": "Amazon Connect Customer lets agents pause emails while waiting for information or approvals, freeing them to handle higher-priority contacts and resume their work later. For example, an agent waiting for a supervisor to approve a refund can pause the...",
+    "provider": "AWS",
+    "timestamp": "2026-11-03T20:15:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11",
+    "description": "WorkSpaces for AI agents now supports Linux and Windows 11 cloud desktops, in addition to Windows Server. You can run each AI agent on the operating system that its workflows and applications require. Your agents can then work in the same environment...",
+    "provider": "AWS",
+    "timestamp": "2026-11-03T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer prefills the email address for new threads started from cases",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-email-addresses/",
+    "description": "Amazon Connect Customer automatically fills in the customer’s email address from the linked customer profile when agents start a new email thread from a case. This saves agents time and reduces manual entry errors by eliminating the need to look up o...",
+    "provider": "AWS",
+    "timestamp": "2026-11-03T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Config now supports 10 new resource types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+    "description": "AWS Config now supports 10 additional AWS resource types across key services including Amazon ElastiCache and Amazon QuickSight. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, au...",
+    "provider": "AWS",
+    "timestamp": "2026-11-03T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for Microsoft SQL Server 2017 CU31+G...",
+    "provider": "AWS",
+    "timestamp": "2026-11-03T08:30:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+    "link": "https://azure.microsoft.com/updates?id=579300",
+    "description": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant cu...",
+    "provider": "Azure",
+    "timestamp": "2026-11-04T18:42:12+00:00"
+  },
+  {
+    "title": "Generally Available: Route maps for Azure Route Server",
+    "link": "https://azure.microsoft.com/updates?id=578966",
+    "description": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Rou...",
+    "provider": "Azure",
+    "timestamp": "2026-11-04T18:39:41+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Firewall IPv6 now supports application rules",
+    "link": "https://azure.microsoft.com/updates?id=579507",
+    "description": "Azure Firewall now supports application rules in IPv6\nPublic Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The\nenhancement extends application-level controls to IPv6 and dual-stack\ndeployments, helping customers maintain consis...",
+    "provider": "Azure",
+    "timestamp": "2026-11-04T18:09:43+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+    "link": "https://azure.microsoft.com/updates?id=579162",
+    "description": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore ...",
+    "provider": "Azure",
+    "timestamp": "2026-11-04T17:13:51+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: JWT validation for Application Gateway for Containers",
+    "link": "https://azure.microsoft.com/updates?id=576382",
+    "description": "Application Gateway for Containers now supports centralized\nJSON Web Token validation through the AuthPolicy custom resource. Teams can\nvalidate a token signature, issuer, lifetime, and configured audience by using\nsigning keys retrieved from a trust...",
+    "provider": "Azure",
+    "timestamp": "2026-11-03T21:17:08+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: MCP gateway for Application Gateway for Containers",
+    "link": "https://azure.microsoft.com/updates?id=576388",
+    "description": "Application Gateway for Containers now supports Model\nContext Protocol routing through the new MCPRoute custom resource. Platform\nteams can publish MCP servers behind a stable hostname and path while\ncentralizing TLS, JWT validation, Web Application ...",
+    "provider": "Azure",
+    "timestamp": "2026-11-03T21:16:36+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Private ingress for Application Gateway for Containers",
+    "link": "https://azure.microsoft.com/updates?id=576393",
+    "description": "Application\nGateway for Containers now supports private frontends that are reachable only\nthrough approved Azure Private Link private endpoints. This enables\norganizations to keep internal applications, shared services, and cross-cluster\ntraffic on p...",
+    "provider": "Azure",
+    "timestamp": "2026-11-03T21:15:46+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+    "link": "https://azure.microsoft.com/updates?id=578655",
+    "description": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, ret...",
+    "provider": "Azure",
+    "timestamp": "2026-11-03T20:20:29+00:00"
+  },
+  {
+    "title": "The Enterprise Case for Open-Weight Models on Databricks",
+    "link": "https://www.databricks.com/blog/enterprise-case-open-weight-models-databricks",
+    "description": "As field engineers at Databricks, we spend our days inside enterprise AI deployments,...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-04T20:00:00+00:00"
+  },
+  {
+    "title": "Claude Platform now supports native OpenTelemetry observability in Databricks MLflow",
+    "link": "https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow",
+    "description": "An agent can return a plausible answer while missing an important finding or reading the same source repeatedly...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-03T21:00:00+00:00"
+  },
+  {
+    "title": "Declare and optimize with UNIQUE constraints on Databricks",
+    "link": "https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks",
+    "description": "Data teams often maintain uniqueness guarantees in their pipelines, but without a...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-03T21:00:00+00:00"
+  },
+  {
+    "title": "What to Look for in a Postgres Managed Service: A Technical Buyer's Checklist",
+    "link": "https://www.databricks.com/blog/postgres-managed-service",
+    "description": "Managed is a label, not a specification. Evaluate a cloud database managed service...",
+    "provider": "Databricks",
+    "timestamp": "2026-10-29T17:41:54+00:00"
+  },
+  {
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "link": "https://openai.com/index/openai-to-acquire-pierre",
+    "description": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-04T14:30:00+00:00"
+  },
+  {
+    "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+    "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "description": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-04T07:00:00+00:00"
+  },
+  {
+    "title": "How Cisco defends at machine speed with OpenAI",
+    "link": "https://openai.com/index/cisco-cyber",
+    "description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-03T08:00:00+00:00"
+  },
+  {
+    "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+    "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "description": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-03T00:00:00+00:00"
+  },
+  {
+    "title": "Evernote turns AI-driven discovery into paid subscriptions",
+    "link": "https://openai.com/ads/customers/evernote",
+    "description": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+    "provider": "OpenAI",
+    "timestamp": "2026-10-28T19:40:49+00:00"
   }
 ]

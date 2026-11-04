@@ -578,5 +578,25 @@
     "tailwindScore": 8.0,
     "baseReason": "Dominant enterprise software platform for the construction industry, uniquely positioned with vast proprietary construction data to integrate and leverage specialized AI for analytics, project management, and operational efficiency.",
     "expertStrategy": "Invest in Procore as a key beneficiary of AI adoption within the massive, yet historically undigitized, construction sector. Its established platform, deep industry integration, and proprietary data create a formidable barrier to entry for AI-native startups and provide a fertile ground for integrating AI to enhance analytics, automate processes, and improve decision-making across the construction lifecycle."
+  },
+  {
+    "name": "Equinix, Inc.",
+    "ticker": "EQIX",
+    "category": "infra",
+    "subCategory": "High-Performance Interconnection & Colocation for Hybrid AI",
+    "moatScore": 8.0,
+    "tailwindScore": 8.5,
+    "baseReason": "Equinix provides the foundational global interconnection and colocation infrastructure that enables enterprises to bridge their on-premise AI compute and data with hyperscale cloud AI services, ensuring low-latency, high-bandwidth access for critical hybrid AI workloads.",
+    "expertStrategy": "Equinix is a critical infrastructure play benefiting from the accelerating adoption of hybrid and distributed AI. As enterprises deploy specialized AI hardware on-premise or at the edge and integrate with cloud AI platforms, Equinix's global network of highly-connected data centers becomes indispensable for seamless, high-performance data transfer and processing, positioning it as a picks-and-shovels beneficiary of the AI boom."
+  },
+  {
+    "name": "Cisco Systems, Inc.",
+    "ticker": "CSCO",
+    "category": "infra",
+    "subCategory": "AI-Optimized Networking & AI-Driven Cybersecurity",
+    "moatScore": 7.5,
+    "tailwindScore": 7.0,
+    "baseReason": "Cisco provides essential networking infrastructure and AI-powered cybersecurity solutions that are foundational for deploying and securing enterprise AI workloads, from high-speed data center connectivity to intelligent threat detection.",
+    "expertStrategy": "Cisco benefits from the AI boom both as a provider of critical networking hardware and software that underpins AI data centers and edge deployments, and as an innovator integrating AI into its own security portfolio. Its pervasive presence in enterprise IT ensures it captures a share of increasing AI-driven network demands and the need for sophisticated AI-powered threat defense."
   }
 ]
