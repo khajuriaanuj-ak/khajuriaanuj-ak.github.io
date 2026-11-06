@@ -26906,5 +26906,180 @@
     "description": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
     "provider": "OpenAI",
     "timestamp": "2026-11-04T00:00:00+00:00"
+  },
+  {
+    "title": "AWS launches support for amortization of EC2 Capacity Blocks for ML",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
+    "description": "AWS Data Exports for Cost and Usage Report (CUR) 2.0 and AWS Cost Explorer now amortize the upfront fee for Amazon EC2 Capacity Blocks for ML across the duration of each reservation. You can see the amortized cost of each instance launched into a Cap...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T15:00:00+00:00"
+  },
+  {
+    "title": "Capacity Reservation Resource Groups now support Amazon EC2 Capacity Blocks and interruptible Capacity Reservations in AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions",
+    "description": "Starting today, you can add Amazon EC2 Capacity Blocks for ML and interruptible Capacity Reservations to Capacity Reservation Resource Groups in AWS GovCloud (US) Regions. Amazon EC2 offers different reservation offerings such as On-Demand Capacity R...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T14:00:00+00:00"
+  },
+  {
+    "title": "Amazon Simple Email Service is now available in six new AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-simple-email-service-new-aws-regions/",
+    "description": "Amazon Simple Email Service (Amazon SES)&nbsp; is now available in the Asia Pacific (New Zealand, Melbourne, Taipei, Thailand), Mexico (Central), EU (Spain). Customers can now use these new Regions to leverage Amazon SES to send emails and, if needed...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue Data Catalog now supports catalog-vended credentials with Apache Iceberg REST catalog federation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-vended-credentials-iceberg/",
+    "description": "AWS Glue Data Catalog now supports external catalog's vended credentials in Apache Iceberg REST catalog federation. You can now read external Iceberg tables from Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue using coarse-grained table gran...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub now provides an SBOM inventory for your compute resources",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+    "description": "Today, AWS announces that AWS Security Hub now provides a Software Bill of Materials (SBOM) inventory, giving central security teams a continuously updated, organization-wide view of the software packages and applications installed on their compute r...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T00:30:00+00:00"
+  },
+  {
+    "title": "Announcing Web Answer on Amazon Bedrock AgentCore",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/",
+    "description": "Today, we are announcing the general availability of Web Answer on Amazon Bedrock AgentCore. Web Answer is a managed tool that returns a synthesized, grounded, cited answer to a natural-language question in a single call, so agent builders can attach...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T20:56:00+00:00"
+  },
+  {
+    "title": "AWS Network Load Balancer is now available in the AWS Phoenix Local Zone",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/",
+    "description": "AWS Network Load Balancer is now available in the Phoenix Local Zone (us-west-2-phx-2a). AWS Local Zones is a type of AWS infrastructure deployment that places AWS compute, storage, database, and other select services closer to large population, indu...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon DynamoDB now supports bulk put items",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
+    "description": "Today, AWS announces the general availability of bulk put items for Amazon DynamoDB, a fully managed feature that writes data from Amazon S3 into your existing DynamoDB tables. Many DynamoDB applications use data that other systems produce and store ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service optimized engine now supports agent traces",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+    "description": "Today, the Amazon OpenSearch Service optimized engine adds support for agent traces, including OpenTelemetry traces. Your traces and logs now live in the same place. You can follow a request or an agent session from start to finish, find the step tha...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon FSx for Lustre delivers 16x higher metadata IOPS on Intelligent-Tiering file systems",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-fsx-for-lustre-intelligent-tiering-16x-higher-metadata-iops",
+    "description": "Amazon FSx for Lustre now supports up to 192,000 metadata I/O operations per second (IOPS) on file systems that use the Intelligent-Tiering storage class, 16x higher than the previous maximum of 12,000 IOPS. \nThe FSx for Lustre Intelligent-Tiering st...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T15:39:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle now supports Kerberos authentication with self-managed Active Directory",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-kerberos-self-managed-ad/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Oracle (Amazon Relational Database Service (Amazon RDS) for Oracle) now allows customers to join their RDS for Oracle DB instances directly to their self-managed Microsoft Active Directory (AD) doma...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T10:30:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub Network Scanning now available in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-network-scanning-govcloud/",
+    "description": "AWS Security Hub Network Scanning feature is now supported in AWS GovCloud (US). \nNetwork Scanning probes your resources from the internet to detect actual reachability, not just what could be reachable based on security group rules and route tables....",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T09:00:00+00:00"
+  },
+  {
+    "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/",
+    "description": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-p...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T08:00:00+00:00"
+  },
+  {
+    "title": "AWS WAF AI traffic monetization now supports fiat payouts through Stripe",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/",
+    "description": "AWS WAF AI traffic monetization now integrates with Stripe. Publishers, content owners, and API providers can collect stablecoin payments from AI bots and agents that settle in local currency directly to their Stripe balance. With this launch, custom...",
+    "provider": "AWS",
+    "timestamp": "2026-11-05T08:00:00+00:00"
+  },
+  {
+    "title": "November 06, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_06_2026",
+    "description": "Bigtable\nFeature\nYou can configure a Bigtable automated backup policy\non SSD instances to create daily hot backups\nand specify how long the backups remain hot before automatically transitioning\nto standard backups. This feature is\ngenerally available...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-06T00:00:00-08:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+    "link": "https://azure.microsoft.com/updates?id=577668",
+    "description": "Azure Front Door now supports configurable TLS key exchange\npolicies, including hybrid post-quantum key exchange, to help you prepare for\nevolving cryptographic threats while meeting your security and client\ncompatibility requirements. Choose a prede...",
+    "provider": "Azure",
+    "timestamp": "2026-11-05T23:19:48+00:00"
+  },
+  {
+    "title": "How public sector organizations can govern AI at scale",
+    "link": "https://www.databricks.com/blog/how-public-sector-organizations-can-govern-ai-scale",
+    "description": "Every government CIO has the same mandate right now: adopt AI, move faster, do more...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-06T15:14:29+00:00"
+  },
+  {
+    "title": "Real-time fraud detection with Feature Views",
+    "link": "https://www.databricks.com/blog/real-time-fraud-detection-feature-views",
+    "description": "Real-time fraud detection depends on three kinds of features: what a customer did...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-05T23:23:36+00:00"
+  },
+  {
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "link": "https://openai.com/index/partnering-with-hacktron",
+    "description": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-06T08:00:00+00:00"
+  },
+  {
+    "title": "Measuring how AI agents handle everyday wet-lab science",
+    "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "description": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-06T00:00:00+00:00"
+  },
+  {
+    "title": "Australian universities are creating AI-native graduates",
+    "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "description": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-05T17:00:00+00:00"
+  },
+  {
+    "title": "Cult.fit builds operational muscle with Codex",
+    "link": "https://openai.com/index/cultfit-builds-with-codex",
+    "description": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-05T20:00:00+00:00"
+  },
+  {
+    "title": "Merge builds product and business tools with OpenAI technology",
+    "link": "https://openai.com/index/merge-builds-with-openai",
+    "description": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-05T08:00:00+00:00"
+  },
+  {
+    "title": "Flipsnack grows product signups with conversion optimization",
+    "link": "https://openai.com/ads/customers/flipsnack",
+    "description": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-05T00:45:15+00:00"
+  },
+  {
+    "title": "Franklin Templeton uses OpenAI to support investment research",
+    "link": "https://openai.com/index/franklin-templeton",
+    "description": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-05T00:00:00+00:00"
   }
 ]
