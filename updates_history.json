@@ -27137,5 +27137,12 @@
     "description": "If you ingest data from your customers over SFTP or APIs, you have probably asked...",
     "provider": "Databricks",
     "timestamp": "2026-11-06T22:10:00+00:00"
+  },
+  {
+    "title": "November 07, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_07_2026",
+    "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.105 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-07T00:00:00-08:00"
   }
 ]
