@@ -27144,5 +27144,173 @@
     "description": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.105 is now\navailable for all regions.",
     "provider": "Google Cloud",
     "timestamp": "2026-11-07T00:00:00-08:00"
+  },
+  {
+    "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026/",
+    "description": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned that into three steps: start, sync as often as you ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T17:55:26+00:00"
+  },
+  {
+    "title": "AWS STS now supports cross-partition federation for AWS identities",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition",
+    "description": "AWS Security Token Service (AWS STS) now lets your workloads use their AWS Identity and Access Management (IAM) identity in one partition to get temporary credentials for an IAM role in a different partition, without storing long-term credentials, wh...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T20:03:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock now offers Claude Mythos 5.2 to Eligible Customers in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/",
+    "description": "Amazon Bedrock, the platform for building generative AI applications and agents at production scale, now offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). Claude Mythos 5.2 is Anthropic's most advanced AI model to date for use case...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T18:30:00+00:00"
+  },
+  {
+    "title": "Claude Fable 5.2 is now available on AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/",
+    "description": "Claude Fable 5.2 is now available on AWS GovCloud (US) and brings Anthropic's most capable generally available model for technical work&nbsp;to regulated customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, a...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T18:30:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer launches evaluation form templates",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-evaluation-form-templates/",
+    "description": "Amazon Connect Customer now provides evaluation form templates so managers don't have to build forms from scratch, reducing the time to deploy automated evaluations of human and AI agent performance. These templates cover typical customer interaction...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T18:00:00+00:00"
+  },
+  {
+    "title": "Introducing an open-source UI for graph analytics over data lakes with Amazon Neptune Analytics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available",
+    "description": "Today, AWS is introducing an open-source solution with a local web UI that helps customers turn data lake records into graphs for analysis with Amazon Neptune Analytics. By projecting selected records and relationships, customers can investigate conn...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon DocumentDB Serverless now provides up to 35% higher throughput",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/documentdb-serverless-platform-version-4/",
+    "description": "Amazon DocumentDB Serverless now provides up to 35% higher throughput with the launch of platform version 4. Platform versions represent improvements in performance, scaling capabilities, or features, and are automatically managed at the cluster leve...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Athena introduces system tables for observability, auditing, and usage analytics",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/",
+    "description": "Amazon Athena now offers system tables which automatically capture your usage data and make it available for observability, usage analysis, and audit use cases. When you enable system tables, usage data is available within minutes of query completion...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T16:00:00+00:00"
+  },
+  {
+    "title": "Claude Fable 5.2 is now available on AWS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/",
+    "description": "Claude Fable 5.2 is now available on AWS and brings Anthropic's most capable generally available model for technical work&nbsp;to all customers. Fable 5.2 sets a new standard on the hardest projects in coding, math, and science, and Anthropic recomme...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T15:00:00+00:00"
+  },
+  {
+    "title": "Introducing AWS Nitro Sandboxes on Amazon EKS, ECS and EC2 for hardware isolated pods, tasks and VMs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+    "description": "AWS Nitro Sandboxes are now available as lightweight VMs managed by the Nitro Hypervisor. You can use Nitro Sandboxes for an Amazon EKS pod, or Amazon ECS task, or lightweight Virtual Machines (VMs), including AI agents running inside them, in their ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Access Points for Amazon FSx are now available in additional AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-access-points-fsx-regions/",
+    "description": "You can now attach Amazon S3 Access Points to your Amazon FSx for NetApp ONTAP file systems in 4 additional AWS Regions, and to your Amazon FSx for OpenZFS file systems in 20 additional AWS Regions. With this capability, your file data in Amazon FSx ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Auto Mode and Karpenter now support Dynamic Resource Allocation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/",
+    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now supports Dynamic Resource Allocation (DRA) for NVIDIA GPUs and Elastic Fabric Adapter (EFA) network devices when using Amazon EKS Auto Mode and Karpenter. You can now define the device attributes you...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T06:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA Serverless supports Apache Airflow connections and variables",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-connections-variables/",
+    "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports Apache Airflow connections and variables, so your workflows can reach databases, APIs, and other external systems. You can manage credentials and configuration outside ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA Serverless now supports custom and provider package operators",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-serverless-custom-operators/",
+    "description": "Amazon MWAA Serverless now supports operators from Apache Airflow provider packages, such as HTTP, Snowflake, or dbt, and custom operators that you write. This gives data engineers the flexibility to integrate with more systems and build specialized ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T18:00:00+00:00"
+  },
+  {
+    "title": "November 09, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_09_2026",
+    "description": "AI Hypercomputer\nFeature\nGenerally available:\nPathways on Cloud\nis now generally available on Google Kubernetes Engine (GKE). Major features include\nthe following:\n\nSingle-controller execution model: Coordinate multi-slice and multi-host\nCloud TPU wo...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-09T00:00:00-08:00"
+  },
+  {
+    "title": "November 08, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_08_2026",
+    "description": "Cloud Asset Inventory\nFeature\nThe following resource type is publicly available through the\nSearchAllResources\nand\nSearchAllIamPolicies\nAPIs.\n\nGemini for Google Cloud\n\ncloudaicompanion.googleapis.com/Topic\nCloud Run\nFeature\nDetect vulnerabilities and...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-08T00:00:00-08:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+    "link": "https://azure.microsoft.com/updates?id=579854",
+    "description": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience...",
+    "provider": "Azure",
+    "timestamp": "2026-11-09T17:20:57+00:00"
+  },
+  {
+    "title": "Databricks' Commitment to European Sovereignty",
+    "link": "https://www.databricks.com/blog/databricks-commitment-european-sovereignty",
+    "description": "Over a Decade of Investment in EuropeDatabricks has been building in Europe since...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-09T19:40:00+00:00"
+  },
+  {
+    "title": "Accelerate GPU training on Unity Catalog tables with UCDataset",
+    "link": "https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset",
+    "description": "GPUs are usually the most expensive part of any training run, and most teams can't...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-09T19:00:00+00:00"
+  },
+  {
+    "title": "Turn buying signals into pipeline with Sendoso gifts in Genie One",
+    "link": "https://www.databricks.com/blog/turn-buying-signals-pipeline-sendoso-gifts-genie-one",
+    "description": "From insight to action in Genie OneAI agents are only as useful as the actions they can take...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-09T17:29:00+00:00"
+  },
+  {
+    "title": "ChatGPT Enterprise now available in AWS Marketplace",
+    "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "description": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-09T19:00:00+00:00"
+  },
+  {
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+    "link": "https://openai.com/index/control-room",
+    "description": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-09T13:00:00+00:00"
+  },
+  {
+    "title": "CodeRabbit scales agentic software development and ships 20x more",
+    "link": "https://openai.com/index/coderabbit-codex-daybreak",
+    "description": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-09T08:00:00+00:00"
+  },
+  {
+    "title": "Kuken Industries searches 70 years of drawings in minutes",
+    "link": "https://openai.com/index/kuken",
+    "description": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-09T08:00:00+00:00"
   }
 ]
