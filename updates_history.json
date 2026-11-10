@@ -27312,5 +27312,131 @@
     "description": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
     "provider": "OpenAI",
     "timestamp": "2026-11-09T08:00:00+00:00"
+  },
+  {
+    "title": "CloudWatch PromQL alarms now support EC2 and Application Auto Scaling",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-alarms-autoscaling-group-actions",
+    "description": "Amazon CloudWatch alarms that use Prometheus Query Language (PromQL) can now trigger Amazon EC2 and Application Auto Scaling step and simple scaling policies. You can scale your EC2 Auto Scaling groups on CloudWatch OpenTelemetry metrics using the sa...",
+    "provider": "AWS",
+    "timestamp": "2026-11-10T03:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service now lets you validate and roll back version upgrades",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service/upgrades/",
+    "description": "Amazon OpenSearch Service now supports clone-based upgrades, which let you validate a new OpenSearch version alongside your current one and cut over to it only when you're satisfied. If you find a problem, you can cancel before you cut over or roll b...",
+    "provider": "AWS",
+    "timestamp": "2026-11-10T02:30:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore now offers a Web Search API",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/",
+    "description": "Today, AWS announces the general availability of the Web Search API on Amazon Bedrock AgentCore, which lets you search the web with a single API call. Web Search on AgentCore has been available as an MCP tool through AgentCore Gateway. The new Invoke...",
+    "provider": "AWS",
+    "timestamp": "2026-11-10T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudWatch Logs announces account-level retention policies",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/",
+    "description": "Amazon CloudWatch Logs now supports account-level retention policies, so you can use a single policy to set how long log data is kept across all or subset of log groups in an AWS account. Account-level policies allow platform and security teams to br...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T22:15:00+00:00"
+  },
+  {
+    "title": "Amazon Quick is now AWS Quick",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-aws-quick/",
+    "description": "Amazon Quick, the AI workspace built only for work, is now AWS Quick, a name that reflects the enterprise security and governance built into Quick from the start as an AWS service. The new name now appears across the Quick website, the web, desktop, ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T19:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA now supports DuckDB operators",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-supports-duckdb-operators/",
+    "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports DuckDB operators. DuckDB is an embedded analytical database that lets customers perform data quality checks, summaries, and transformations on data from sources DuckDB supports, i...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T18:00:00+00:00"
+  },
+  {
+    "title": "AWS Analytics services now support Workday Data Cloud integration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-analytics-workday-data-cloud/",
+    "description": "Today, AWS announces a new bi-directional, zero-copy integration between AWS Analytics services and Workday Data Cloud. Instead of building and maintaining ETL pipelines to replicate data between systems, joint customers can now query across their AW...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Route 53 Profiles now supports multiple Profiles per VPC",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-profiles-multiple-per-vpc/",
+    "description": "Amazon Route 53 Profiles now lets you associate more than one Profile with a VPC. Previously, a VPC could have only one Profile, so teams that managed Route 53 configurations separately (for example, security teams managing DNS Firewall rule groups w...",
+    "provider": "AWS",
+    "timestamp": "2026-11-09T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Compute Optimizer now supports additional Amazon EC2 instance types in the AWS GovCloud (US) Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-compute-optimizer-amazon-ec2/",
+    "description": "AWS Compute Optimizer now provides rightsizing recommendations for 389 additional Amazon Elastic Compute Cloud (Amazon EC2) instance types in AWS GovCloud (US-West) and 276 in AWS GovCloud (US-East) Regions. Customers running regulated and government...",
+    "provider": "AWS",
+    "timestamp": "2026-10-30T22:50:00+00:00"
+  },
+  {
+    "title": "November 10, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_10_2026",
+    "description": "Model Armor\nFeature\nModel Armor image screening is generally available\n(GA).\nYou can extract and screen images embedded within supported rich text documents\n(PDF, Word, Excel, and PowerPoint). Pricing for image screening is in effect and\nconverts pro...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-10T00:00:00-08:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Front Door edge actions",
+    "link": "https://azure.microsoft.com/updates?id=579310",
+    "description": "Announcing the general availability of Azure Front Door edge\nactions (serverless compute at the edge). With edge actions, customers can execute lightweight\nJavaScript functions during Azure Front Door client request/response processing\nto make real-t...",
+    "provider": "Azure",
+    "timestamp": "2026-11-10T18:55:09+00:00"
+  },
+  {
+    "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+    "link": "https://azure.microsoft.com/updates?id=579746",
+    "description": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4 connections remain unchanged, so organizations can adopt IPv6...",
+    "provider": "Azure",
+    "timestamp": "2026-11-10T18:21:41+00:00"
+  },
+  {
+    "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+    "link": "https://azure.microsoft.com/updates?id=575106",
+    "description": "Support for .NET\n8 and .NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to .NET 10 by that date. Your apps will continue to operate, but security updates\nwill no longer be provided and support for .NET 8 and .NET 9 ...",
+    "provider": "Azure",
+    "timestamp": "2026-11-09T22:50:01+00:00"
+  },
+  {
+    "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
+    "link": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
+    "description": "Organizations want a single, trusted definition of their business semantics. Revenue,...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-10T18:45:00+00:00"
+  },
+  {
+    "title": "Helping caregivers use AI in everyday life",
+    "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-10T12:00:00+00:00"
+  },
+  {
+    "title": "Introducing Businesses in ChatGPT",
+    "link": "https://openai.com/index/introducing-businesses-chatgpt",
+    "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-10T10:00:00+00:00"
+  },
+  {
+    "title": "Closing the AI guidance gap in education",
+    "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-10T09:00:00+00:00"
+  },
+  {
+    "title": "Work at the Frontier: AI’s effect on freelance work",
+    "link": "https://openai.com/index/ai-effect-on-freelance-work",
+    "description": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-10T07:00:00+00:00"
   }
 ]
