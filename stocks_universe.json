@@ -598,5 +598,15 @@
     "tailwindScore": 7.0,
     "baseReason": "Cisco provides essential networking infrastructure and AI-powered cybersecurity solutions that are foundational for deploying and securing enterprise AI workloads, from high-speed data center connectivity to intelligent threat detection.",
     "expertStrategy": "Cisco benefits from the AI boom both as a provider of critical networking hardware and software that underpins AI data centers and edge deployments, and as an innovator integrating AI into its own security portfolio. Its pervasive presence in enterprise IT ensures it captures a share of increasing AI-driven network demands and the need for sophisticated AI-powered threat defense."
+  },
+  {
+    "name": "Amplitude, Inc.",
+    "ticker": "AMPL",
+    "category": "direct",
+    "subCategory": "Enterprise AI Software",
+    "moatScore": 6.5,
+    "tailwindScore": 8.0,
+    "baseReason": "Amplifying its product analytics leadership with AI agents for proactive insights and automated product development, solving critical enterprise pain points.",
+    "expertStrategy": "Amplitude is uniquely positioned at the intersection of product analytics and AI-driven automation. By leveraging OpenAI models to create 'Wave,' a proactive product agent, Amplitude is transforming how companies identify opportunities, ship features, and measure impact. This strategy aligns perfectly with the enterprise demand for AI solutions that drive efficiency and innovation. As product teams seek to operationalize AI for competitive advantage, Amplitude's integrated platform offers a compelling value proposition, making it an attractive investment for exposure to applied AI in enterprise software."
   }
 ]

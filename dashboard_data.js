@@ -1,12 +1,180 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-11-11T19:57:23.692792+00:00",
+  "last_updated": "2026-11-12T20:36:53.665634+00:00",
   "updates": [
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "link": "https://openai.com/index/amplitude",
+      "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "provider": "OpenAI",
+      "timestamp": "2026-11-12T20:00:00+00:00"
+    },
+    {
+      "title": "How Constellation is building a governed data foundation on Databricks",
+      "link": "https://www.databricks.com/blog/how-constellation-building-governed-data-foundation-databricks",
+      "description": "Constellation operates the largest nuclear fleet in the United States. For them,...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-12T19:21:00+00:00"
+    },
+    {
+      "title": "Eclipse Aerospace simplifies flight-data ingestion with Databricks",
+      "link": "https://www.databricks.com/blog/eclipse-aerospace-simplifies-flight-data-ingestion-databricks",
+      "description": "As organizations in aerospace, manufacturing, life sciences, and other data-intensive...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-12T19:20:48+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+      "link": "https://azure.microsoft.com/updates?id=578207",
+      "description": "Auto scaling introduces a\nper-workspace capability in Azure Monitor Workspace (AMW) to automatically\nscale ingestion limits based on observed usage patterns. When enabled, the\nsystem dynamically adjusts ingestion limits (quota ceiling) to maintain he...",
+      "provider": "Azure",
+      "timestamp": "2026-11-12T18:23:52+00:00"
+    },
+    {
+      "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+      "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control ...",
+      "provider": "AWS",
+      "timestamp": "2026-11-12T18:00:00+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+      "link": "https://azure.microsoft.com/updates?id=574158",
+      "description": "The public preview of Microsoft-managed performance\nmonitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance\nworkloads often rely on custom scripts and disconnected monitoring tools. This...",
+      "provider": "Azure",
+      "timestamp": "2026-11-12T16:59:40+00:00"
+    },
+    {
+      "title": "How H6.ai builds AI-powered financial automation with Lakebase Postgres",
+      "link": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
+      "description": "Traditional accounts payable and invoice processing tools often force companies into a trade-off...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-12T16:56:52+00:00"
+    },
+    {
+      "title": "Lakehouse//RT: Scale real-time analytics, not your bill",
+      "link": "https://www.databricks.com/blog/lakehousert-scale-real-time-analytics-not-your-bill",
+      "description": "AI agents are pushing the limits of data warehouses. A human analyst might run a...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-12T16:53:43+00:00"
+    },
+    {
+      "title": "Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
+      "link": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
+      "description": "Many business questions can’t be started and answered within the same conversation. ...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-12T15:00:00+00:00"
+    },
+    {
+      "title": "How Block powers collaborative AI agents with Buzz and Unity Gateway",
+      "link": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
+      "description": "Inside Block,&nbsp;Buzz brings employees and AI agents into a shared workspace. With Databricks...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-12T14:59:06+00:00"
+    },
+    {
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "provider": "OpenAI",
+      "timestamp": "2026-11-12T09:30:00+00:00"
+    },
+    {
+      "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+      "description": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console chat panel. You can diagnose up to 50 failed pipeline...",
+      "provider": "AWS",
+      "timestamp": "2026-11-12T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
+      "description": "Amazon Route 53 Domains now lets you restore an expired or recently deleted domain yourself, using the Amazon Route 53 console, AWS CLI, or AWS SDKs. Previously, restoring a domain required a request to AWS Support. Now you can recover a domain lost ...",
+      "provider": "AWS",
+      "timestamp": "2026-11-12T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
+      "description": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its t...",
+      "provider": "AWS",
+      "timestamp": "2026-11-12T08:00:00+00:00"
+    },
+    {
+      "title": "The next generation AgentCore runtime is now the default",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+      "description": "Starting today, new runtimes in Amazon Bedrock AgentCore use the next generation of AgentCore runtime by default. The new runtime restores each session from a snapshot of your initialized agent, scales compute and memory with the work, and scales idl...",
+      "provider": "AWS",
+      "timestamp": "2026-11-12T05:00:00+00:00"
+    },
+    {
+      "title": "November 12, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
+      "description": "App Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeatu...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-11-12T00:00:00-08:00"
+    },
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
       "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "provider": "OpenAI",
       "timestamp": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "link": "https://openai.com/index/children-first-declaration",
+      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "provider": "OpenAI",
+      "timestamp": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
+      "description": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, se...",
+      "provider": "AWS",
+      "timestamp": "2026-11-11T23:36:00+00:00"
+    },
+    {
+      "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+      "description": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three open-weight Mixture-of-Experts (MoE) l...",
+      "provider": "AWS",
+      "timestamp": "2026-11-11T23:18:00+00:00"
+    },
+    {
+      "title": "Detecting credential-driven attacks on Databricks",
+      "link": "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks",
+      "description": "At Databricks, we know your data is your most valuable asset. Databricks has worked...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-11T23:00:00+00:00"
+    },
+    {
+      "title": "Brickster Voices: Meet Alasdair Anderson",
+      "link": "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson",
+      "description": "Q: What does a typical week look like for a Lead Solutions Architect, and how would...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-11T22:50:00+00:00"
+    },
+    {
+      "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
+      "description": "AWS Network Security Manager is now available in AWS European Sovereign Cloud Region and Thirty-One new Regions  Today, AWS announces the general availability of AWS Network Security Manager in the AWS European Sovereign Cloud Region and additional r...",
+      "provider": "AWS",
+      "timestamp": "2026-11-11T21:00:00+00:00"
+    },
+    {
+      "title": "AWS Cloud WAN now supports Flow Logs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
+      "description": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving...",
+      "provider": "AWS",
+      "timestamp": "2026-11-11T20:05:00+00:00"
+    },
+    {
+      "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+      "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL Provisioned Control Plane clusters. etcd is the key-value store in the Kubernetes control plane that holds your cluster state, so i...",
+      "provider": "AWS",
+      "timestamp": "2026-11-11T19:45:00+00:00"
     },
     {
       "title": "Test your applications against AWS locally with AWS Emulator",
@@ -35,6 +203,13 @@ const DASHBOARD_DATA = {
       "description": "Amazon EKS Auto Mode now supports security groups for Pods, letting you apply dedicated Amazon EC2 security group rules to individual Pods. Different workloads on the same node can carry different security groups, giving your Pods network-level segme...",
       "provider": "AWS",
       "timestamp": "2026-11-11T17:26:00+00:00"
+    },
+    {
+      "title": "AWS Emulator is now available for building and testing AWS applications locally",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
+      "description": "AWS Emulator is now available for building and testing AWS applications locally. \nStarting today, you can use AWS Emulator to build and test AWS applications on your computer or in your continuous integration (CI) environment. Your existing AWS SDK a...",
+      "provider": "AWS",
+      "timestamp": "2026-11-11T17:00:00+00:00"
     },
     {
       "title": "Air gapped, not data dark: how Bright Machines gives customers live factory dashboards without opening the plant",
@@ -97,6 +272,13 @@ const DASHBOARD_DATA = {
       "link": "https://openai.com/index/chatgpt-plus-for-veterans",
       "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "provider": "OpenAI",
+      "timestamp": "2026-11-11T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon SES now supports higher limits for email identities, tenants, and configuration sets",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ses-higher-resource-limits/",
+      "description": "Amazon Simple Email Service (Amazon SES) now supports higher limits for email identities, tenants, and configuration sets. You can view your current usage against each limit and request increases in the AWS Service Quotas console. A single account ca...",
+      "provider": "AWS",
       "timestamp": "2026-11-11T08:00:00+00:00"
     },
     {
@@ -27703,50 +27885,50 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
-      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-      "description": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
-      "date": "Nov 11, 2026",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "description": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "date": "Nov 12, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Regulatory"
+    },
+    {
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "description": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "date": "Nov 12, 2026",
       "source": "TechCrunch AI",
       "trend": "General AI"
     },
     {
-      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-      "description": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
-      "date": "Nov 11, 2026",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "description": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "date": "Nov 12, 2026",
+      "source": "TechCrunch AI",
+      "trend": "AI Agents"
+    },
+    {
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "description": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "date": "Nov 12, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
     },
     {
-      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
-      "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
-      "description": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
-      "date": "Nov 11, 2026",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "description": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "date": "Nov 12, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
     },
     {
-      "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
-      "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
-      "description": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
-      "date": "Nov 11, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
-    },
-    {
-      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-      "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "description": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
-      "date": "Nov 11, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Investment & Startup"
-    },
-    {
-      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-      "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
-      "description": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
-      "date": "Nov 11, 2026",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "description": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "date": "Nov 12, 2026",
       "source": "TechCrunch AI",
       "trend": "AI Agents"
     }
@@ -27754,35 +27936,27 @@ const DASHBOARD_DATA = {
   "sentiments": [
     {
       "company": "NVIDIA",
-      "score": 91,
+      "score": 97,
       "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Amazon EC2 G7 instances now available in additional regions",
-      "mentions": 2
-    },
-    {
-      "company": "Databricks",
-      "score": 90,
-      "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Databricks Doubles Down on AI Products, Opens New 235,000-Sq...",
-      "mentions": 9
+      "change": "▲ +1",
+      "reason": "Jensen Huang was having a third affair, Reuters reports",
+      "mentions": 3
     },
     {
       "company": "Anthropic",
       "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Bring your business context to ChatGPT, Claude, Microsoft Co...",
-      "mentions": 1
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
-      "company": "OpenAI",
-      "score": 85,
+      "company": "Google Cloud",
+      "score": 86,
       "status": "Bullish",
-      "change": "▼ -1",
-      "reason": "Amazon Bedrock adds bedrock-runtime endpoint support for Day...",
-      "mentions": 15
+      "change": "▲ +1",
+      "reason": "November 12, 2026",
+      "mentions": 2
     },
     {
       "company": "Groq",
@@ -27793,12 +27967,12 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Microsoft",
-      "score": 81,
+      "company": "Databricks",
+      "score": 84,
       "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "[In preview] Public Preview: Distributed accelerator for clo...",
-      "mentions": 3
+      "change": "▲ +2",
+      "reason": "How Constellation is building a governed data foundation on ...",
+      "mentions": 8
     },
     {
       "company": "Snowflake",
@@ -27809,12 +27983,12 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Google Cloud",
-      "score": 80,
+      "company": "OpenAI",
+      "score": 79,
       "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "change": "▼ -2",
+      "reason": "How Amplitude ships product improvements in 1–2 days with Op...",
+      "mentions": 3
     },
     {
       "company": "Meta",
@@ -27831,327 +28005,335 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "Microsoft",
+      "score": 72,
+      "status": "Mixed",
+      "change": "▼ -1",
+      "reason": "[In preview] Public Preview: Auto scaling of ingestion limit...",
+      "mentions": 2
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 175.67,
-      "forwardPE": 11.04,
-      "trailingPE": 22.21,
-      "marketCap": 4241903321088,
+      "price": 163.55,
+      "forwardPE": 10.28,
+      "trailingPE": 20.68,
+      "marketCap": 3949241827328,
       "psRatio": null,
-      "dayChange": 4.07,
-      "rangePosition": 0.144,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -5.86,
+      "rangePosition": 0.156,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 294.09,
-      "forwardPE": 19.05,
-      "trailingPE": 15.36,
-      "marketCap": 3615542214656,
+      "price": 299.83,
+      "forwardPE": 19.43,
+      "trailingPE": 15.66,
+      "marketCap": 3686109806592,
       "psRatio": null,
-      "dayChange": 2.33,
-      "rangePosition": 0.17,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 2.17,
+      "rangePosition": 0.211,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 520.53,
-      "forwardPE": 21.51,
-      "trailingPE": 27.17,
-      "marketCap": 3865557336064,
+      "price": 521.96,
+      "forwardPE": 21.57,
+      "trailingPE": 27.24,
+      "marketCap": 3876176527360,
       "psRatio": null,
-      "dayChange": -2.37,
-      "rangePosition": 0.816,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.16,
+      "rangePosition": 0.823,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 266.38,
-      "forwardPE": 24.43,
-      "trailingPE": 21.53,
-      "marketCap": 2880457932800,
+      "price": 267.86,
+      "forwardPE": 24.57,
+      "trailingPE": 21.65,
+      "marketCap": 2896407035904,
       "psRatio": null,
-      "dayChange": -1.66,
-      "rangePosition": 0.772,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.63,
+      "rangePosition": 0.788,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 303.17,
-      "forwardPE": 99.58,
+      "price": 296.42,
+      "forwardPE": 97.36,
       "trailingPE": null,
-      "marketCap": 106958381056,
+      "marketCap": 104576983040,
       "psRatio": null,
-      "dayChange": 2.51,
-      "rangePosition": 0.694,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.59,
+      "rangePosition": 0.669,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 414.33,
-      "forwardPE": 17.72,
-      "trailingPE": 26.85,
-      "marketCap": 2148911284224,
+      "price": 405.0,
+      "forwardPE": 17.32,
+      "trailingPE": 26.25,
+      "marketCap": 2100521598976,
       "psRatio": null,
-      "dayChange": 4.5,
-      "rangePosition": 0.669,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.02,
+      "rangePosition": 0.626,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 349.32,
-      "forwardPE": 17.95,
-      "trailingPE": 44.61,
-      "marketCap": 1667548315648,
+      "price": 362.01,
+      "forwardPE": 18.6,
+      "trailingPE": 46.23,
+      "marketCap": 1728125730816,
       "psRatio": null,
-      "dayChange": 5.22,
-      "rangePosition": 0.29,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 4.87,
+      "rangePosition": 0.352,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1546.88,
-      "forwardPE": 24.4,
-      "trailingPE": 38.06,
-      "marketCap": 596194951168,
+      "price": 1493.92,
+      "forwardPE": 23.56,
+      "trailingPE": 36.76,
+      "marketCap": 575785205760,
       "psRatio": null,
-      "dayChange": 2.59,
-      "rangePosition": 0.57,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.64,
+      "rangePosition": 0.52,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 209.35,
-      "forwardPE": 21.27,
-      "trailingPE": 39.13,
-      "marketCap": 80612401152,
+      "price": 208.65,
+      "forwardPE": 21.02,
+      "trailingPE": 39.0,
+      "marketCap": 80342851584,
       "psRatio": null,
-      "dayChange": 7.79,
-      "rangePosition": 0.265,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 1.04,
+      "rangePosition": 0.262,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 197.22,
-      "forwardPE": 32.67,
-      "trailingPE": 52.87,
-      "marketCap": 249161891840,
+      "price": 205.44,
+      "forwardPE": 34.03,
+      "trailingPE": 55.08,
+      "marketCap": 259553378304,
       "psRatio": null,
-      "dayChange": 6.59,
-      "rangePosition": 0.804,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 4.45,
+      "rangePosition": 0.884,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 62.85,
-      "forwardPE": 35.1,
+      "price": 61.33,
+      "forwardPE": 34.25,
       "trailingPE": null,
-      "marketCap": 334047739904,
+      "marketCap": 325968953344,
       "psRatio": null,
-      "dayChange": 8.12,
-      "rangePosition": 0.274,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.82,
+      "rangePosition": 0.26,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 377.55,
-      "forwardPE": 12.46,
-      "trailingPE": 21.95,
-      "marketCap": 240051093504,
+      "price": 368.18,
+      "forwardPE": 12.11,
+      "trailingPE": 21.41,
+      "marketCap": 234093527040,
       "psRatio": null,
-      "dayChange": 12.91,
-      "rangePosition": 0.551,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.47,
+      "rangePosition": 0.532,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 50.61,
-      "forwardPE": 10.69,
-      "trailingPE": 26.09,
-      "marketCap": 67182997504,
+      "price": 49.96,
+      "forwardPE": 10.55,
+      "trailingPE": 25.75,
+      "marketCap": 66320142336,
       "psRatio": null,
-      "dayChange": 5.59,
-      "rangePosition": 0.573,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.58,
+      "rangePosition": 0.561,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 635.34,
-      "forwardPE": 17.85,
-      "trailingPE": 21.68,
-      "marketCap": 1624458395648,
+      "price": 620.34,
+      "forwardPE": 17.43,
+      "trailingPE": 21.16,
+      "marketCap": 1586093096960,
       "psRatio": null,
-      "dayChange": -0.94,
-      "rangePosition": 0.443,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.34,
+      "rangePosition": 0.386,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 248.09,
-      "forwardPE": 18.74,
-      "trailingPE": 21.17,
-      "marketCap": 234479747072,
+      "price": 245.17,
+      "forwardPE": 18.52,
+      "trailingPE": 20.92,
+      "marketCap": 231715274752,
       "psRatio": null,
-      "dayChange": 1.46,
-      "rangePosition": 0.367,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.23,
+      "rangePosition": 0.345,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 1.6,
-      "forwardPE": 1.86,
+      "price": 1.52,
+      "forwardPE": 1.77,
       "trailingPE": null,
-      "marketCap": 84548344,
+      "marketCap": 80320928,
       "psRatio": null,
-      "dayChange": -4.18,
-      "rangePosition": 0.014,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -3.18,
+      "rangePosition": 0.003,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 354.69,
-      "forwardPE": 33.61,
-      "trailingPE": 39.5,
-      "marketCap": 5154419507200,
+      "price": 355.12,
+      "forwardPE": 33.67,
+      "trailingPE": 39.55,
+      "marketCap": 5160604532736,
       "psRatio": null,
-      "dayChange": 1.77,
-      "rangePosition": 0.994,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.07,
+      "rangePosition": 0.963,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 172.97,
-      "forwardPE": 68.13,
-      "trailingPE": 121.81,
-      "marketCap": 416776585216,
+      "price": 171.27,
+      "forwardPE": 67.46,
+      "trailingPE": 120.61,
+      "marketCap": 412674654208,
       "psRatio": null,
-      "dayChange": 2.46,
-      "rangePosition": 0.625,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.66,
+      "rangePosition": 0.609,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 335.51,
-      "forwardPE": 68.7,
-      "trailingPE": 838.79,
-      "marketCap": 274599968768,
+      "price": 320.6,
+      "forwardPE": 65.65,
+      "trailingPE": 801.5,
+      "marketCap": 262392872960,
       "psRatio": null,
-      "dayChange": 2.81,
-      "rangePosition": 0.669,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -4.15,
+      "rangePosition": 0.618,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 217.59,
-      "forwardPE": 13.59,
-      "trailingPE": 19.91,
-      "marketCap": 179076562944,
+      "price": 216.65,
+      "forwardPE": 13.53,
+      "trailingPE": 19.82,
+      "marketCap": 178302943232,
       "psRatio": null,
-      "dayChange": 1.93,
-      "rangePosition": 0.58,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.62,
+      "rangePosition": 0.573,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 129.28,
-      "forwardPE": 11.69,
-      "trailingPE": 20.26,
-      "marketCap": 403072909312,
+      "price": 126.24,
+      "forwardPE": 11.42,
+      "trailingPE": 19.79,
+      "marketCap": 393579462656,
       "psRatio": null,
-      "dayChange": 9.58,
-      "rangePosition": 0.142,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.67,
+      "rangePosition": 0.121,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 559.02,
-      "forwardPE": 31.6,
-      "trailingPE": 119.45,
-      "marketCap": 916841431040,
+      "price": 580.66,
+      "forwardPE": 32.82,
+      "trailingPE": 124.07,
+      "marketCap": 952333041664,
       "psRatio": null,
-      "dayChange": 8.5,
-      "rangePosition": 0.788,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 5.02,
+      "rangePosition": 0.834,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
-      "price": 185.06,
-      "forwardPE": 16.57,
-      "trailingPE": 26.1,
-      "marketCap": 36350283776,
+      "price": 186.5,
+      "forwardPE": 16.69,
+      "trailingPE": 26.31,
+      "marketCap": 36633128960,
       "psRatio": null,
-      "dayChange": 5.16,
-      "rangePosition": 0.621,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 1.85,
+      "rangePosition": 0.631,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
-      "price": 239.19,
+      "price": 239.16,
       "forwardPE": 8.73,
-      "trailingPE": 13.36,
-      "marketCap": 93092749312,
+      "trailingPE": 13.35,
+      "marketCap": 93081075712,
       "psRatio": null,
-      "dayChange": 1.05,
+      "dayChange": 0.66,
       "rangePosition": 0.284,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
-      "price": 817.46,
-      "forwardPE": 3.93,
-      "trailingPE": 11.0,
-      "marketCap": 924887613440,
+      "price": 792.59,
+      "forwardPE": 3.81,
+      "trailingPE": 10.66,
+      "marketCap": 896749076480,
       "psRatio": null,
-      "dayChange": 12.73,
-      "rangePosition": 0.588,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.31,
+      "rangePosition": 0.565,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
-      "price": 29.29,
-      "forwardPE": 9.29,
-      "trailingPE": 11.18,
-      "marketCap": 26413459456,
+      "price": 28.95,
+      "forwardPE": 9.18,
+      "trailingPE": 11.05,
+      "marketCap": 26102339584,
       "psRatio": null,
-      "dayChange": 3.06,
-      "rangePosition": 0.628,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.05,
+      "rangePosition": 0.61,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
-      "price": 314.88,
-      "forwardPE": 170.26,
+      "price": 315.91,
+      "forwardPE": 170.82,
       "trailingPE": null,
-      "marketCap": 112850558976,
+      "marketCap": 113219698688,
       "psRatio": null,
-      "dayChange": 2.97,
-      "rangePosition": 0.738,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.29,
+      "rangePosition": 0.743,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
-      "price": 101.74,
-      "forwardPE": 11.02,
-      "trailingPE": 24.63,
-      "marketCap": 253103177728,
+      "price": 94.33,
+      "forwardPE": 10.22,
+      "trailingPE": 22.84,
+      "marketCap": 234681417728,
       "psRatio": null,
-      "dayChange": -0.95,
-      "rangePosition": 0.109,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -7.08,
+      "rangePosition": 0.026,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
-      "price": 143.4,
-      "forwardPE": 3.39,
-      "trailingPE": 9.15,
-      "marketCap": 1011183255552,
+      "price": 136.89,
+      "forwardPE": 3.31,
+      "trailingPE": 8.73,
+      "marketCap": 965310939136,
       "psRatio": null,
-      "dayChange": 10.59,
-      "rangePosition": 0.273,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -3.77,
+      "rangePosition": 0.189,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -28162,271 +28344,271 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SAP": {
       "name": "SAP  SE",
-      "price": 234.39,
-      "forwardPE": 24.6,
-      "trailingPE": 29.19,
-      "marketCap": 270533935104,
+      "price": 234.0,
+      "forwardPE": 24.55,
+      "trailingPE": 29.14,
+      "marketCap": 270083801088,
       "psRatio": null,
-      "dayChange": 0.28,
-      "rangePosition": 0.806,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.04,
+      "rangePosition": 0.803,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
-      "price": 80.16,
-      "forwardPE": 11.79,
+      "price": 77.64,
+      "forwardPE": 11.41,
       "trailingPE": null,
-      "marketCap": 27286652928,
+      "marketCap": 26430486528,
       "psRatio": null,
-      "dayChange": 0.56,
-      "rangePosition": 0.049,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.66,
+      "rangePosition": 0.021,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
-      "price": 53.5,
-      "forwardPE": -42.0,
+      "price": 51.5,
+      "forwardPE": -40.43,
       "trailingPE": null,
-      "marketCap": 38290665472,
+      "marketCap": 36859236352,
       "psRatio": null,
-      "dayChange": 4.51,
-      "rangePosition": 0.275,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.11,
+      "rangePosition": 0.251,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
-      "price": 177.91,
-      "forwardPE": 23.33,
-      "trailingPE": 73.82,
-      "marketCap": 77566722048,
+      "price": 172.39,
+      "forwardPE": 22.6,
+      "trailingPE": 71.53,
+      "marketCap": 75157954560,
       "psRatio": null,
-      "dayChange": -0.19,
-      "rangePosition": 0.362,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -3.29,
+      "rangePosition": 0.304,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
-      "price": 50.19,
-      "forwardPE": 19.36,
+      "price": 49.89,
+      "forwardPE": 19.24,
       "trailingPE": null,
-      "marketCap": 22275762176,
+      "marketCap": 22142613504,
       "psRatio": null,
-      "dayChange": -0.3,
-      "rangePosition": 0.891,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.48,
+      "rangePosition": 0.883,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
-      "price": 363.38,
-      "forwardPE": 22.09,
-      "trailingPE": 36.3,
-      "marketCap": 141174112256,
+      "price": 358.6,
+      "forwardPE": 21.79,
+      "trailingPE": 35.82,
+      "marketCap": 139316101120,
       "psRatio": null,
-      "dayChange": 2.59,
-      "rangePosition": 0.31,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.56,
+      "rangePosition": 0.281,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
-      "price": 64.32,
-      "forwardPE": 10.25,
-      "trailingPE": 11.74,
-      "marketCap": 28752996352,
+      "price": 63.94,
+      "forwardPE": 10.19,
+      "trailingPE": 11.67,
+      "marketCap": 28583124992,
       "psRatio": null,
-      "dayChange": -1.05,
-      "rangePosition": 0.545,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.76,
+      "rangePosition": 0.538,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "CDNS": {
       "name": "Cadence Design Systems, Inc.",
-      "price": 331.2,
-      "forwardPE": 33.64,
-      "trailingPE": 65.85,
-      "marketCap": 90875699200,
+      "price": 330.46,
+      "forwardPE": 33.57,
+      "trailingPE": 65.7,
+      "marketCap": 90671284224,
       "psRatio": null,
-      "dayChange": -0.13,
-      "rangePosition": 0.445,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.36,
+      "rangePosition": 0.44,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SNPS": {
       "name": "Synopsys, Inc.",
-      "price": 463.31,
-      "forwardPE": 24.85,
-      "trailingPE": 81.86,
-      "marketCap": 88786214912,
+      "price": 460.05,
+      "forwardPE": 24.67,
+      "trailingPE": 81.28,
+      "marketCap": 88162435072,
       "psRatio": null,
-      "dayChange": 0.73,
-      "rangePosition": 0.569,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.45,
+      "rangePosition": 0.551,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "RNG": {
       "name": "Ringcentral, Inc.",
-      "price": 74.64,
-      "forwardPE": 13.49,
-      "trailingPE": 9.82,
-      "marketCap": 6232899584,
+      "price": 75.72,
+      "forwardPE": 13.68,
+      "trailingPE": 9.96,
+      "marketCap": 6322668544,
       "psRatio": null,
-      "dayChange": 1.8,
-      "rangePosition": 0.682,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.82,
+      "rangePosition": 0.697,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "WDC": {
       "name": "Western Digital Corporation",
-      "price": 314.62,
-      "forwardPE": 7.79,
-      "trailingPE": 11.07,
-      "marketCap": 117771460608,
+      "price": 308.94,
+      "forwardPE": 7.65,
+      "trailingPE": 10.87,
+      "marketCap": 115645300736,
       "psRatio": null,
-      "dayChange": 8.79,
-      "rangePosition": 0.273,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.39,
+      "rangePosition": 0.264,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "TEAM": {
       "name": "Atlassian Corporation",
-      "price": 151.52,
-      "forwardPE": 22.63,
-      "trailingPE": 459.15,
-      "marketCap": 38355595264,
+      "price": 151.27,
+      "forwardPE": 22.59,
+      "trailingPE": 458.39,
+      "marketCap": 38292307968,
       "psRatio": null,
-      "dayChange": 1.97,
-      "rangePosition": 0.549,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.77,
+      "rangePosition": 0.548,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ACN": {
       "name": "Accenture plc",
-      "price": 252.92,
-      "forwardPE": 15.9,
-      "trailingPE": 18.65,
-      "marketCap": 149409316864,
+      "price": 251.71,
+      "forwardPE": 15.82,
+      "trailingPE": 18.56,
+      "marketCap": 148691582976,
       "psRatio": null,
-      "dayChange": -2.16,
-      "rangePosition": 0.779,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.77,
+      "rangePosition": 0.772,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "UBER": {
       "name": "Uber Technologies, Inc.",
-      "price": 70.66,
-      "forwardPE": 16.12,
-      "trailingPE": 41.56,
-      "marketCap": 144280535040,
+      "price": 69.03,
+      "forwardPE": 15.75,
+      "trailingPE": 40.61,
+      "marketCap": 140962447360,
       "psRatio": null,
-      "dayChange": 0.87,
-      "rangePosition": 0.213,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.33,
+      "rangePosition": 0.166,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "HUBS": {
       "name": "HubSpot, Inc.",
-      "price": 201.69,
-      "forwardPE": 12.01,
-      "trailingPE": 48.72,
-      "marketCap": 9850070016,
+      "price": 213.87,
+      "forwardPE": 12.74,
+      "trailingPE": 51.66,
+      "marketCap": 10444653568,
       "psRatio": null,
-      "dayChange": 2.39,
-      "rangePosition": 0.135,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 5.42,
+      "rangePosition": 0.186,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SHOP": {
       "name": "Shopify Inc.",
-      "price": 149.33,
-      "forwardPE": 60.7,
-      "trailingPE": 91.61,
-      "marketCap": 192116326400,
+      "price": 146.69,
+      "forwardPE": 59.63,
+      "trailingPE": 89.99,
+      "marketCap": 188719906816,
       "psRatio": null,
-      "dayChange": 1.86,
-      "rangePosition": 0.637,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -1.72,
+      "rangePosition": 0.606,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "PINS": {
       "name": "Pinterest, Inc.",
-      "price": 19.25,
-      "forwardPE": 8.46,
-      "trailingPE": 80.23,
-      "marketCap": 11042892800,
+      "price": 19.12,
+      "forwardPE": 8.41,
+      "trailingPE": 79.69,
+      "marketCap": 10968337408,
       "psRatio": null,
-      "dayChange": 1.61,
-      "rangePosition": 0.383,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.55,
+      "rangePosition": 0.374,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ZD": {
       "name": "Ziff Davis, Inc.",
-      "price": 51.46,
-      "forwardPE": 8.94,
+      "price": 51.75,
+      "forwardPE": 8.8,
       "trailingPE": null,
-      "marketCap": 1703443328,
+      "marketCap": 1713042944,
       "psRatio": null,
-      "dayChange": 0.63,
-      "rangePosition": 0.763,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.52,
+      "rangePosition": 0.77,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "AKAM": {
       "name": "Akamai Technologies, Inc.",
-      "price": 86.69,
-      "forwardPE": 12.52,
-      "trailingPE": 33.73,
-      "marketCap": 12503947264,
+      "price": 86.5,
+      "forwardPE": 12.49,
+      "trailingPE": 33.66,
+      "marketCap": 12475102208,
       "psRatio": null,
-      "dayChange": 3.54,
-      "rangePosition": 0.106,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.21,
+      "rangePosition": 0.104,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "MDB": {
       "name": "MongoDB, Inc.",
-      "price": 340.22,
-      "forwardPE": 43.07,
-      "trailingPE": 472.53,
-      "marketCap": 27364550656,
+      "price": 337.51,
+      "forwardPE": 42.7,
+      "trailingPE": 468.77,
+      "marketCap": 27146983424,
       "psRatio": null,
-      "dayChange": 2.48,
-      "rangePosition": 0.484,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.18,
+      "rangePosition": 0.473,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "WDAY": {
       "name": "Workday, Inc.",
-      "price": 190.56,
-      "forwardPE": 14.39,
-      "trailingPE": 38.81,
-      "marketCap": 45924958208,
+      "price": 190.16,
+      "forwardPE": 14.36,
+      "trailingPE": 38.73,
+      "marketCap": 45827354624,
       "psRatio": null,
-      "dayChange": 0.88,
-      "rangePosition": 0.634,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.53,
+      "rangePosition": 0.631,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ASAN": {
       "name": "Asana, Inc.",
-      "price": 9.84,
-      "forwardPE": 21.63,
+      "price": 9.59,
+      "forwardPE": 21.09,
       "trailingPE": null,
-      "marketCap": 2251921152,
+      "marketCap": 2195823360,
       "psRatio": null,
-      "dayChange": 2.55,
-      "rangePosition": 0.45,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.24,
+      "rangePosition": 0.425,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "ZS": {
       "name": "Zscaler, Inc.",
-      "price": 193.56,
-      "forwardPE": 34.42,
+      "price": 192.05,
+      "forwardPE": 34.16,
       "trailingPE": null,
-      "marketCap": 31560867840,
+      "marketCap": 31314657280,
       "psRatio": null,
-      "dayChange": -0.7,
-      "rangePosition": 0.36,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.9,
+      "rangePosition": 0.383,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "CRWD": {
       "name": "CrowdStrike Holdings, Inc.",
-      "price": 230.27,
-      "forwardPE": 143.0,
-      "trailingPE": 3837.83,
-      "marketCap": 235781488640,
+      "price": 227.55,
+      "forwardPE": 141.31,
+      "trailingPE": 4551.0,
+      "marketCap": 232996372480,
       "psRatio": null,
-      "dayChange": 2.0,
-      "rangePosition": 0.718,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.66,
+      "rangePosition": 0.705,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "SQ": {
       "name": "SQ",
@@ -28437,51 +28619,62 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.5,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "OPRA": {
       "name": "Opera Limited",
-      "price": 15.91,
-      "forwardPE": 8.9,
-      "trailingPE": 11.45,
-      "marketCap": 1414675584,
+      "price": 15.61,
+      "forwardPE": 8.73,
+      "trailingPE": 11.23,
+      "marketCap": 1388000384,
       "psRatio": null,
-      "dayChange": 2.18,
-      "rangePosition": 0.463,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -2.01,
+      "rangePosition": 0.43,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "PCOR": {
       "name": "Procore Technologies, Inc.",
-      "price": 77.23,
-      "forwardPE": 30.63,
+      "price": 77.07,
+      "forwardPE": 30.57,
       "trailingPE": null,
-      "marketCap": 11554215936,
+      "marketCap": 11529577472,
       "psRatio": null,
-      "dayChange": 1.28,
-      "rangePosition": 0.925,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": -0.58,
+      "rangePosition": 0.935,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "EQIX": {
       "name": "Equinix, Inc.",
-      "price": 1064.09,
-      "forwardPE": 51.42,
-      "trailingPE": 63.91,
-      "marketCap": 105332482048,
+      "price": 1076.87,
+      "forwardPE": 52.04,
+      "trailingPE": 64.68,
+      "marketCap": 106597548032,
       "psRatio": null,
-      "dayChange": 1.34,
-      "rangePosition": 0.842,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 0.82,
+      "rangePosition": 0.873,
+      "fetchedAt": "2026-11-12 08:36 PM"
     },
     "CSCO": {
       "name": "Cisco Systems, Inc.",
-      "price": 101.67,
-      "forwardPE": 18.08,
-      "trailingPE": 30.53,
-      "marketCap": 400842784768,
+      "price": 102.01,
+      "forwardPE": 18.14,
+      "trailingPE": 30.63,
+      "marketCap": 402183290880,
       "psRatio": null,
-      "dayChange": 3.59,
-      "rangePosition": 0.511,
-      "fetchedAt": "2026-11-11 07:57 PM"
+      "dayChange": 1.24,
+      "rangePosition": 0.507,
+      "fetchedAt": "2026-11-12 08:36 PM"
+    },
+    "AMPL": {
+      "name": "Amplitude, Inc.",
+      "price": 17.21,
+      "forwardPE": 102.2,
+      "trailingPE": null,
+      "marketCap": 2194239744,
+      "psRatio": null,
+      "dayChange": 0,
+      "rangePosition": 0.877,
+      "fetchedAt": "2026-11-12 08:36 PM"
     }
   },
   "stocks_universe": [
@@ -29084,6 +29277,16 @@ const DASHBOARD_DATA = {
       "tailwindScore": 7.0,
       "baseReason": "Cisco provides essential networking infrastructure and AI-powered cybersecurity solutions that are foundational for deploying and securing enterprise AI workloads, from high-speed data center connectivity to intelligent threat detection.",
       "expertStrategy": "Cisco benefits from the AI boom both as a provider of critical networking hardware and software that underpins AI data centers and edge deployments, and as an innovator integrating AI into its own security portfolio. Its pervasive presence in enterprise IT ensures it captures a share of increasing AI-driven network demands and the need for sophisticated AI-powered threat defense."
+    },
+    {
+      "name": "Amplitude, Inc.",
+      "ticker": "AMPL",
+      "category": "direct",
+      "subCategory": "Enterprise AI Software",
+      "moatScore": 6.5,
+      "tailwindScore": 8.0,
+      "baseReason": "Amplifying its product analytics leadership with AI agents for proactive insights and automated product development, solving critical enterprise pain points.",
+      "expertStrategy": "Amplitude is uniquely positioned at the intersection of product analytics and AI-driven automation. By leveraging OpenAI models to create 'Wave,' a proactive product agent, Amplitude is transforming how companies identify opportunities, ship features, and measure impact. This strategy aligns perfectly with the enterprise demand for AI solutions that drive efficiency and innovation. As product teams seek to operationalize AI for competitive advantage, Amplitude's integrated platform offers a compelling value proposition, making it an attractive investment for exposure to applied AI in enterprise software."
     }
   ]
 };

@@ -27697,5 +27697,187 @@
     "description": "In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.",
     "provider": "OpenAI",
     "timestamp": "2024-08-08T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA now supports fine-grained access control with IAM Identity Center and multi-team environments",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/mwaa-fine-grained-access-control/",
+    "description": "Amazon Managed Workflows for Apache Airflow (Amazon MWAA) now supports fine-grained access control, giving administrators precise control over who can access which workflows and resources in an Apache Airflow environment. Fine-grained access control ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T18:00:00+00:00"
+  },
+  {
+    "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+    "description": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console chat panel. You can diagnose up to 50 failed pipeline...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Route 53 Domains now supports self-service restore for expired and deleted domains",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-domains-self-service-restore/",
+    "description": "Amazon Route 53 Domains now lets you restore an expired or recently deleted domain yourself, using the Amazon Route 53 console, AWS CLI, or AWS SDKs. Previously, restoring a domain required a request to AWS Support. Now you can recover a domain lost ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup now supports resource modifiers for Amazon EKS restores",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-resource-modifiers-eks/",
+    "description": "Today, AWS Backup announces support for resource modifiers when restoring Amazon Elastic Kubernetes Service (Amazon EKS) backups. Resource modifiers let you transform Kubernetes resources during a restore, so you can adapt a restored cluster to its t...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "The next generation AgentCore runtime is now the default",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+    "description": "Starting today, new runtimes in Amazon Bedrock AgentCore use the next generation of AgentCore runtime by default. The new runtime restores each session from a snapshot of your initialized agent, scales compute and memory with the work, and scales idl...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T05:00:00+00:00"
+  },
+  {
+    "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
+    "description": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, se...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T23:36:00+00:00"
+  },
+  {
+    "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+    "description": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three open-weight Mixture-of-Experts (MoE) l...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T23:18:00+00:00"
+  },
+  {
+    "title": "AWS Network Security Manager now available in AWS European Sovereign Cloud and Additional New Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/",
+    "description": "AWS Network Security Manager is now available in AWS European Sovereign Cloud Region and Thirty-One new Regions  Today, AWS announces the general availability of AWS Network Security Manager in the AWS European Sovereign Cloud Region and additional r...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T21:00:00+00:00"
+  },
+  {
+    "title": "AWS Cloud WAN now supports Flow Logs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/",
+    "description": "AWS Cloud WAN now supports VPC Flow Logs, giving you central visibility into IP traffic across your global network. Flow Logs capture detailed information for each flow, so you can understand how traffic moves across your core network without leaving...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T20:05:00+00:00"
+  },
+  {
+    "title": "Amazon EKS Provisioned Control Plane now offers a 24 GB etcd database on 4XL and 8XL tiers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+    "description": "Amazon Elastic Kubernetes Service (Amazon EKS) now offers a larger 24 GB etcd database, up from 16 GB, for 4XL and 8XL Provisioned Control Plane clusters. etcd is the key-value store in the Kubernetes control plane that holds your cluster state, so i...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T19:45:00+00:00"
+  },
+  {
+    "title": "AWS Emulator is now available for building and testing AWS applications locally",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-emulator-now-available/",
+    "description": "AWS Emulator is now available for building and testing AWS applications locally. \nStarting today, you can use AWS Emulator to build and test AWS applications on your computer or in your continuous integration (CI) environment. Your existing AWS SDK a...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SES now supports higher limits for email identities, tenants, and configuration sets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ses-higher-resource-limits/",
+    "description": "Amazon Simple Email Service (Amazon SES) now supports higher limits for email identities, tenants, and configuration sets. You can view your current usage against each limit and request increases in the AWS Service Quotas console. A single account ca...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T08:00:00+00:00"
+  },
+  {
+    "title": "November 12, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_12_2026",
+    "description": "App Engine standard environment Go\nFeature\nSupport for Direct VPC egress in the App Engine standard environment is in General Availability (GA). For more information, see Configure Direct VPC egress and Best practices for App Engine networking.\nFeatu...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-12T00:00:00-08:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+    "link": "https://azure.microsoft.com/updates?id=578207",
+    "description": "Auto scaling introduces a\nper-workspace capability in Azure Monitor Workspace (AMW) to automatically\nscale ingestion limits based on observed usage patterns. When enabled, the\nsystem dynamically adjusts ingestion limits (quota ceiling) to maintain he...",
+    "provider": "Azure",
+    "timestamp": "2026-11-12T18:23:52+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+    "link": "https://azure.microsoft.com/updates?id=574158",
+    "description": "The public preview of Microsoft-managed performance\nmonitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance\nworkloads often rely on custom scripts and disconnected monitoring tools. This...",
+    "provider": "Azure",
+    "timestamp": "2026-11-12T16:59:40+00:00"
+  },
+  {
+    "title": "How Constellation is building a governed data foundation on Databricks",
+    "link": "https://www.databricks.com/blog/how-constellation-building-governed-data-foundation-databricks",
+    "description": "Constellation operates the largest nuclear fleet in the United States. For them,...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T19:21:00+00:00"
+  },
+  {
+    "title": "Eclipse Aerospace simplifies flight-data ingestion with Databricks",
+    "link": "https://www.databricks.com/blog/eclipse-aerospace-simplifies-flight-data-ingestion-databricks",
+    "description": "As organizations in aerospace, manufacturing, life sciences, and other data-intensive...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T19:20:48+00:00"
+  },
+  {
+    "title": "How H6.ai builds AI-powered financial automation with Lakebase Postgres",
+    "link": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
+    "description": "Traditional accounts payable and invoice processing tools often force companies into a trade-off...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T16:56:52+00:00"
+  },
+  {
+    "title": "Lakehouse//RT: Scale real-time analytics, not your bill",
+    "link": "https://www.databricks.com/blog/lakehousert-scale-real-time-analytics-not-your-bill",
+    "description": "AI agents are pushing the limits of data warehouses. A human analyst might run a...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T16:53:43+00:00"
+  },
+  {
+    "title": "Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
+    "link": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
+    "description": "Many business questions can’t be started and answered within the same conversation. ...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T15:00:00+00:00"
+  },
+  {
+    "title": "How Block powers collaborative AI agents with Buzz and Unity Gateway",
+    "link": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
+    "description": "Inside Block,&nbsp;Buzz brings employees and AI agents into a shared workspace. With Databricks...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T14:59:06+00:00"
+  },
+  {
+    "title": "Detecting credential-driven attacks on Databricks",
+    "link": "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks",
+    "description": "At Databricks, we know your data is your most valuable asset. Databricks has worked...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-11T23:00:00+00:00"
+  },
+  {
+    "title": "Brickster Voices: Meet Alasdair Anderson",
+    "link": "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson",
+    "description": "Q: What does a typical week look like for a Lead Solutions Architect, and how would...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-11T22:50:00+00:00"
+  },
+  {
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "link": "https://openai.com/index/amplitude",
+    "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-12T20:00:00+00:00"
+  },
+  {
+    "title": "Holiday Extras is rethinking what it can build with Codex",
+    "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-12T09:30:00+00:00"
+  },
+  {
+    "title": "Supporting research on AI and children’s safety",
+    "link": "https://openai.com/index/children-first-declaration",
+    "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-12T00:00:00+00:00"
   }
 ]
