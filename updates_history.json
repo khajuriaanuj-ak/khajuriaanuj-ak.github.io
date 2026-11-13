@@ -27879,5 +27879,194 @@
     "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
     "provider": "OpenAI",
     "timestamp": "2026-11-12T00:00:00+00:00"
+  },
+  {
+    "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+    "description": "Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefit...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T16:00:00+00:00"
+  },
+  {
+    "title": "Grok 4.7 now available on Kiro in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/",
+    "description": "A new model is now available in the Kiro IDE and CLI for the AWS GovCloud (US) Regions. \nGrok 4.7 is SpaceXSI's most capable model for coding and knowledge work. It's built to stay focused through hard tasks that run for hours, and it checks its work...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T13:13:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for Oracle reduces downtime for automatic minor version upgrades and scheduled maintenance",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-reduces-maintenance-downtime-for-amvu-scheduled-upgrades/",
+    "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now reduces downtime for automatic minor version upgrades, as well as minor version upgrades and operating system updates scheduled for your maintenance window. Shorter maintenance makes it e...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Security Hub CSPM now supports centralized configuration with AWS Organizations declarative policies",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+    "description": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. You can use them to enable Security Hub CSPM across all accounts and Regions in your organization and to define which security standards and controls are enabled.\nPolicies can...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 discovery URLs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/",
+    "description": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound JWT authorization and outbound OAuth credential providers. This update enables developers to configure AgentCore with OAuth 2.0 authorizatio...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Batch on Amazon EKS adds Linux capabilities, seccomp, and pod-level settings",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+    "description": "AWS Batch now supports additional Kubernetes security context settings in Amazon EKS job definitions, including Linux capabilities, seccomp profiles, and pod-level settings.&nbsp;For EKS clusters that enforce the Kubernetes Pod Security Standards res...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Secrets Manager now supports cross-account replication",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+    "description": "AWS Secrets Manager now supports cross-account replication, enabling you to maintain a synchronized copy of a primary secret in a secondary AWS account for cross-account access, backup, and disaster recovery. Cross-account replication extends the exi...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito now supports OAuth 2.0 token exchange",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
+    "description": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). Amazon Cognito helps you add sign-up, sign-in, and access control to your web applications, mobile applications, and AI agents. With token exchange, a service or AI agent acting on a us...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T22:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora and RDS now support Graviton5-based R9g database instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+    "description": "AWS Graviton5-based R9g database instances are now generally available for Amazon Aurora with PostgreSQL compatibility and MySQL compatibility, and for Amazon RDS for PostgreSQL, MySQL, and MariaDB. &nbsp; Graviton5-based R9g instances provide up to ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T19:02:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer supports merging and linking related cases in the agent workspace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-cases-merge-link/",
+    "description": "Amazon Connect Customer now lets agents merge and link related cases in the agent workspace, so they can resolve customer issues faster and respond consistently. When a customer contacts a business about the same issue more than once, or on different...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Quick enhances granular governance with the ability to restrict structured data sources",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-structured-data-source-restrictions/",
+    "description": "Today, AWS Quick is announcing the general availability of structured data connector restrictions through custom permissions. This capability gives administrators granular control over which types of data sources users can create, update, or share, h...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T09:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup adds logically air-gapped vault support for Amazon EBS Snapshots Archive",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-lag-vault-ebs-archive/",
+    "description": "AWS Backup logically air-gapped vault now supports Amazon EBS Snapshots Archive. Logically air-gapped vaults are a type of AWS Backup vault that allows secure sharing of backups across accounts and AWS Organizations, supporting direct restore to redu...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon FSx for Lustre lowers the entry cost of Intelligent-Tiering file systems by 75%",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
+    "description": "Amazon FSx for Lustre is reducing the minimum provisioned throughput capacity and metadata IOPS on Intelligent-Tiering file systems by 75%, allowing you to use Intelligent-Tiering even more cost-effectively for high-performance computing (HPC) and ma...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Glue announces automatic version upgrades for Apache Spark jobs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-spark-auto-upgrades/",
+    "description": "AWS Glue introduces automatic version upgrades, a capability that keeps your Apache Spark jobs current on the latest AWS Glue runtime without manual coordination. Staying current on supported runtimes gives your jobs the latest security patches, perf...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server now supports M8id and R8id instances",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-m8id-r8id-instances",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports M8id and R8id instances. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, and include local NVMe SSD storage. They scale up to 384 vCPUs,...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now supports batch actions on up to 100 cases at once",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-batch-actions-100-cases/",
+    "description": "Cases in Amazon Connect Customer now lets agents and supervisors assign, comment on, and update the status of up to 100 cases at once, so teams spend less time on repetitive case updates. When one issue affects many customers, such as a shipping dela...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon MWAA Serverless supports DuckDB operators",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-mwaa-serverless-duckdb-operators/",
+    "description": "Amazon MWAA Serverless now supports DuckDB operators, enabling you to analyze and transform data with high-performance in-memory analytics directly in your workflows. You can query data in Amazon S3 or run analytics locally, without manual credential...",
+    "provider": "AWS",
+    "timestamp": "2026-11-10T18:00:00+00:00"
+  },
+  {
+    "title": "Announcing Accelerated Compute Insights for Amazon CloudWatch",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/accelerated-compute-insights-cloudwatch/",
+    "description": "Amazon CloudWatch now offers accelerated compute insights, a capability that provides monitoring and observability for self-hosted AI inference workloads running in Amazon EKS clusters. Previously, platform and AI teams lacked fleet-level visibility ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-10T08:00:00+00:00"
+  },
+  {
+    "title": "AWS DMS Schema Conversion expands offline source conversion to Oracle",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-dms-schema-conversion-expands-offline-source-conversion-to-oracle/",
+    "description": "AWS Database Migration Service (DMS) Schema Conversion now supports offline source conversion for Oracle Database. You can convert Oracle schemas and code without direct connectivity to your source databases. You can extract metadata using standard d...",
+    "provider": "AWS",
+    "timestamp": "2026-11-06T23:53:00+00:00"
+  },
+  {
+    "title": "November 13, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_13_2026",
+    "description": "BigQuery\nFeature\nBigQuery connections to MySQL,\nOracle, and\nPostgreSQL are now available and can be\nused to run MySQL federated queries,\nOracle federated queries, and\nPostgreSQL federated queries.\nThese features are in Preview.\nBigtable\nFeature\nYou c...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-13T00:00:00-08:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+    "link": "https://azure.microsoft.com/updates?id=577678",
+    "description": "Mutual TLS (mTLS), also known as client certificate\nauthentication, is now generally available on Azure Front Door Premium. Use\nX.509 client certificates to help protect sensitive applications and APIs in\nbusiness-to-business, Internet of Things, fin...",
+    "provider": "Azure",
+    "timestamp": "2026-11-12T22:27:35+00:00"
+  },
+  {
+    "title": "Apache Spark vs Apache Flink: which should you use?",
+    "link": "https://www.databricks.com/blog/spark-vs-flink",
+    "description": "For most teams, Apache Spark™ is the better choice. Spark runs batch ETL, SQL analytics,...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-14T07:02:42+00:00"
+  },
+  {
+    "title": "OpenAI and Databricks: Enterprise AI on your governed data",
+    "link": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+    "description": "Greg Brockman, co-founder and President of OpenAI, has a simple way to describe AI...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-13T15:30:00+00:00"
+  },
+  {
+    "title": "Dispelling LTAP myths",
+    "link": "https://www.databricks.com/blog/dispelling-ltap-myths",
+    "description": "Reynold Xin's post \"From monolith to Lakebase to LTAP\" explained what LTAP is and...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-12T21:49:43+00:00"
+  },
+  {
+    "title": "Introducing ChatGPT Wallet",
+    "link": "https://openai.com/index/introducing-chatgpt-wallet",
+    "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-13T15:00:00+00:00"
+  },
+  {
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "link": "https://openai.com/business/customer-stories/amplitude",
+    "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-12T20:00:00+00:00"
+  },
+  {
+    "title": "Gondola doubles revenue as its team builds more with Codex",
+    "link": "https://openai.com/business/customer-stories/gondola",
+    "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-12T12:00:00+00:00"
   }
 ]
