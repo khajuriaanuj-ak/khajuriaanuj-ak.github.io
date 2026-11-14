@@ -28068,5 +28068,33 @@
     "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
     "provider": "OpenAI",
     "timestamp": "2026-11-12T12:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker Unified Studio now supports layout customization for designations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-studio-layout-customization/",
+    "description": "Amazon SageMaker Unified Studio now supports layout customization, a new capability that gives domain administrators control over which tools and left navigation items project members see based on their designation. Organizations with data engineerin...",
+    "provider": "AWS",
+    "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "Apache Airflow UI available in Amazon MWAA Serverless",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/airflow-ui-for-mwaa-serverless/",
+    "description": "Amazon MWAA Serverless provides the native Apache Airflow UI for your workflows. You can browse workflows, inspect workflow runs and task instances, read task logs, view a workflow's source and versions, and start a workflow run. The UI uses the perm...",
+    "provider": "AWS",
+    "timestamp": "2026-11-12T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Serverless supports intelligent ingestion for time series collection",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-nextgen-time-series-intelligent-ingestion",
+    "description": "The next generation of Amazon OpenSearch Serverless now supports intelligent ingestion for time series collections. You can bring logs and event data from Amazon S3 into a time series collection without operating an ingestion pipeline. With intellige...",
+    "provider": "AWS",
+    "timestamp": "2026-11-11T20:54:00+00:00"
+  },
+  {
+    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+    "link": "https://openai.com/business/customer-stories/shield",
+    "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-13T08:00:00+00:00"
   }
 ]
