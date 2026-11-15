@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-11-14T18:37:22.017539+00:00",
+  "last_updated": "2026-11-15T19:12:55.536283+00:00",
   "updates": [
     {
       "title": "Apache Spark vs Apache Flink: which should you use?",
@@ -28102,6 +28102,22 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Where was Nvidia’s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday c...",
+      "date": "Nov 15, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Hardware & Chips"
+    },
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "date": "Nov 14, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Hardware & Chips"
+    },
+    {
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
@@ -28132,33 +28148,9 @@ const DASHBOARD_DATA = {
       "date": "Nov 13, 2026",
       "source": "TechCrunch AI",
       "trend": "AI Agents"
-    },
-    {
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "description": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-      "date": "Nov 13, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "description": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-      "date": "Nov 13, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Agents"
     }
   ],
   "sentiments": [
-    {
-      "company": "NVIDIA",
-      "score": 98,
-      "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "mentions": 3
-    },
     {
       "company": "Anthropic",
       "score": 88,
@@ -28166,6 +28158,22 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "OpenAI",
+      "score": 85,
+      "status": "Bullish",
+      "change": "▼ -1",
+      "reason": "The AI graveyard: a running list of projects and startups th...",
+      "mentions": 1
+    },
+    {
+      "company": "NVIDIA",
+      "score": 85,
+      "status": "Bullish",
+      "change": "▼ -1",
+      "reason": "Where was Nvidia’s security team?",
+      "mentions": 4
     },
     {
       "company": "Groq",
@@ -28182,14 +28190,6 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
-    },
-    {
-      "company": "OpenAI",
-      "score": 82,
-      "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "Shield helps technicians hand off legacy portal work with Op...",
-      "mentions": 3
     },
     {
       "company": "Snowflake",
@@ -28216,20 +28216,20 @@ const DASHBOARD_DATA = {
       "mentions": 0
     },
     {
-      "company": "Apple",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▲ +2",
-      "reason": "The AI graveyard: a running list of projects and startups th...",
-      "mentions": 1
-    },
-    {
       "company": "Microsoft",
       "score": 78,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "Apple",
+      "score": 67,
+      "status": "Bearish",
+      "change": "▬ Stable",
+      "reason": "Where was Nvidia’s security team?",
+      "mentions": 2
     }
   ],
   "valuations": {
@@ -28242,7 +28242,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.01,
       "rangePosition": 0.149,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -28253,40 +28253,40 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.98,
       "rangePosition": 0.173,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
       "price": 523.88,
-      "forwardPE": 21.66,
+      "forwardPE": 21.65,
       "trailingPE": 27.34,
       "marketCap": 3890434801664,
       "psRatio": null,
       "dayChange": 0.17,
       "rangePosition": 0.832,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
       "price": 266.66,
-      "forwardPE": 24.42,
+      "forwardPE": 24.41,
       "trailingPE": 21.56,
       "marketCap": 2883431432192,
       "psRatio": null,
       "dayChange": -0.29,
       "rangePosition": 0.775,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
       "price": 291.0,
-      "forwardPE": 95.58,
+      "forwardPE": 94.96,
       "trailingPE": null,
       "marketCap": 102664798208,
       "psRatio": null,
       "dayChange": -2.58,
       "rangePosition": 0.649,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
@@ -28297,7 +28297,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.67,
       "rangePosition": 0.598,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -28308,7 +28308,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.76,
       "rangePosition": 0.279,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
@@ -28319,18 +28319,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.13,
       "rangePosition": 0.521,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
       "price": 202.07,
-      "forwardPE": 20.37,
+      "forwardPE": 20.47,
       "trailingPE": 37.77,
       "marketCap": 77809164288,
       "psRatio": null,
       "dayChange": -3.61,
       "rangePosition": 0.234,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -28341,7 +28341,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.52,
       "rangePosition": 0.804,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -28352,7 +28352,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.52,
       "rangePosition": 0.245,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -28363,7 +28363,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -7.18,
       "rangePosition": 0.483,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -28374,18 +28374,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.73,
       "rangePosition": 0.53,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
       "price": 641.69,
-      "forwardPE": 18.03,
+      "forwardPE": 17.99,
       "trailingPE": 21.89,
       "marketCap": 1640314437632,
       "psRatio": null,
       "dayChange": 2.9,
       "rangePosition": 0.468,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -28396,7 +28396,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.01,
       "rangePosition": 0.36,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -28407,7 +28407,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.95,
       "rangePosition": 0.0,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -28418,7 +28418,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.39,
       "rangePosition": 0.961,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -28429,7 +28429,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.09,
       "rangePosition": 0.578,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -28440,7 +28440,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.13,
       "rangePosition": 0.624,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -28451,7 +28451,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.12,
       "rangePosition": 0.582,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -28462,7 +28462,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.38,
       "rangePosition": 0.114,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -28473,7 +28473,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -8.75,
       "rangePosition": 0.735,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -28484,7 +28484,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.53,
       "rangePosition": 0.596,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -28495,7 +28495,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.9,
       "rangePosition": 0.307,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
@@ -28506,7 +28506,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.52,
       "rangePosition": 0.551,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -28517,18 +28517,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.66,
       "rangePosition": 0.632,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
       "price": 305.81,
-      "forwardPE": 165.36,
+      "forwardPE": 164.12,
       "trailingPE": null,
       "marketCap": 109599932416,
       "psRatio": null,
       "dayChange": -3.98,
       "rangePosition": 0.695,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
@@ -28539,7 +28539,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.02,
       "rangePosition": 0.027,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
@@ -28550,7 +28550,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -4.3,
       "rangePosition": 0.123,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -28561,7 +28561,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SAP": {
       "name": "SAP  SE",
@@ -28572,7 +28572,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.36,
       "rangePosition": 0.811,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
@@ -28583,7 +28583,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.66,
       "rangePosition": 0.026,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
@@ -28594,7 +28594,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.94,
       "rangePosition": 0.229,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
@@ -28605,7 +28605,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.62,
       "rangePosition": 0.295,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
@@ -28616,7 +28616,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 5.24,
       "rangePosition": 0.961,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
@@ -28627,7 +28627,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.69,
       "rangePosition": 0.247,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
@@ -28638,7 +28638,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.65,
       "rangePosition": 0.519,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "CDNS": {
       "name": "Cadence Design Systems, Inc.",
@@ -28649,7 +28649,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.09,
       "rangePosition": 0.391,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SNPS": {
       "name": "Synopsys, Inc.",
@@ -28660,18 +28660,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.62,
       "rangePosition": 0.524,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "RNG": {
       "name": "Ringcentral, Inc.",
       "price": 75.39,
       "forwardPE": 13.62,
       "trailingPE": 9.92,
-      "marketCap": 6295529472,
+      "marketCap": 6367465984,
       "psRatio": null,
       "dayChange": -0.66,
       "rangePosition": 0.693,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "WDC": {
       "name": "Western Digital Corporation",
@@ -28682,7 +28682,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.0,
       "rangePosition": 0.245,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "TEAM": {
       "name": "Atlassian Corporation",
@@ -28693,7 +28693,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.51,
       "rangePosition": 0.54,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ACN": {
       "name": "Accenture plc",
@@ -28704,7 +28704,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.22,
       "rangePosition": 0.765,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "UBER": {
       "name": "Uber Technologies, Inc.",
@@ -28715,7 +28715,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.82,
       "rangePosition": 0.196,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "HUBS": {
       "name": "HubSpot, Inc.",
@@ -28726,7 +28726,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.65,
       "rangePosition": 0.201,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SHOP": {
       "name": "Shopify Inc.",
@@ -28737,7 +28737,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.21,
       "rangePosition": 0.611,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "PINS": {
       "name": "Pinterest, Inc.",
@@ -28748,7 +28748,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.16,
       "rangePosition": 0.376,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ZD": {
       "name": "Ziff Davis, Inc.",
@@ -28759,7 +28759,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.39,
       "rangePosition": 0.764,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "AKAM": {
       "name": "Akamai Technologies, Inc.",
@@ -28770,18 +28770,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.34,
       "rangePosition": 0.091,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "MDB": {
       "name": "MongoDB, Inc.",
       "price": 334.2,
-      "forwardPE": 42.28,
+      "forwardPE": 42.24,
       "trailingPE": 464.17,
       "marketCap": 26880352256,
       "psRatio": null,
       "dayChange": -1.64,
       "rangePosition": 0.46,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "WDAY": {
       "name": "Workday, Inc.",
@@ -28792,7 +28792,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.05,
       "rangePosition": 0.681,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ASAN": {
       "name": "Asana, Inc.",
@@ -28803,7 +28803,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.41,
       "rangePosition": 0.437,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "ZS": {
       "name": "Zscaler, Inc.",
@@ -28814,7 +28814,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.39,
       "rangePosition": 0.409,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "CRWD": {
       "name": "CrowdStrike Holdings, Inc.",
@@ -28825,7 +28825,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.42,
       "rangePosition": 0.7,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "SQ": {
       "name": "SQ",
@@ -28836,7 +28836,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.5,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "OPRA": {
       "name": "Opera Limited",
@@ -28847,7 +28847,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.09,
       "rangePosition": 0.451,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "PCOR": {
       "name": "Procore Technologies, Inc.",
@@ -28858,7 +28858,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.5,
       "rangePosition": 0.948,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "EQIX": {
       "name": "Equinix, Inc.",
@@ -28869,18 +28869,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.77,
       "rangePosition": 0.816,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "CSCO": {
       "name": "Cisco Systems, Inc.",
       "price": 95.64,
-      "forwardPE": 16.07,
+      "forwardPE": 15.92,
       "trailingPE": 25.44,
       "marketCap": 376532795392,
       "psRatio": null,
       "dayChange": -6.24,
       "rangePosition": 0.397,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     },
     "AMPL": {
       "name": "Amplitude, Inc.",
@@ -28891,7 +28891,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.06,
       "rangePosition": 0.887,
-      "fetchedAt": "2026-11-14 06:37 PM"
+      "fetchedAt": "2026-11-15 07:12 PM"
     }
   },
   "stocks_universe": [
