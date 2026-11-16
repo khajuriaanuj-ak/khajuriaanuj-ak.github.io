@@ -28096,5 +28096,201 @@
     "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
     "provider": "OpenAI",
     "timestamp": "2026-11-13T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+    "description": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, w...",
+    "provider": "AWS",
+    "timestamp": "2026-11-16T20:30:00+00:00"
+  },
+  {
+    "title": "AWS DevOps Agent is now available in AWS GovCloud (US-West)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/",
+    "description": "Now available in AWS GovCloud (US-West), AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, mu...",
+    "provider": "AWS",
+    "timestamp": "2026-11-16T19:55:00+00:00"
+  },
+  {
+    "title": "Set up, connect, and govern AI agents faster with Amazon WorkSpaces",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-AI-agents-connect-govern",
+    "description": "Building AI agents has become essential. Across your organization, teams want agents to handle ERP transactions, work through a claims queue, and operate the same applications your people use every day. But how do you move from experiments to product...",
+    "provider": "AWS",
+    "timestamp": "2026-11-16T18:00:00+00:00"
+  },
+  {
+    "title": "AWS WAF advanced rate-based rules are now available in AWS GovCloud (US), Thailand, and Mexico",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/",
+    "description": "AWS WAF advanced rate-based rules are now available in the Asia Pacific (Thailand), Mexico (Central), AWS GovCloud (US-East), and AWS GovCloud (US-West) Regions. Customers in these Regions can now aggregate requests using custom keys and choose a 1 o...",
+    "provider": "AWS",
+    "timestamp": "2026-11-16T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Backup adds logically air-gapped vault support for Amazon RDS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-air-gapped-vault-rds/",
+    "description": "AWS Backup logically air-gapped vault now supports Amazon Relational Database Service (Amazon RDS) DB instances. Logically air-gapped vaults are a type of AWS Backup vault that stores immutable, isolated backups, which are locked by default with AWS ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-16T08:00:00+00:00"
+  },
+  {
+    "title": "AgentCore runtime instances are now available in six more AWS Regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/",
+    "description": "Amazon Bedrock AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia Pacific (Seoul). Runtime instances run your agents on...",
+    "provider": "AWS",
+    "timestamp": "2026-11-16T07:30:00+00:00"
+  },
+  {
+    "title": "November 16, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_16_2026",
+    "description": "Bigtable\nFeature\nYou can monitor in-memory tier performance,\ncapacity, and request eligibility in the Google Cloud console, with charts\ngrouped by cluster or instance. This feature is in\nPreview for\ninstances in the Enterprise Plus edition.\nFor more ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-16T00:00:00-08:00"
+  },
+  {
+    "title": "November 15, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_15_2026",
+    "description": "Google SecOps\nFeature\nPublisher Agent Version 2.7.2\nPublisher Agent Version 2.7.2 is now available.\nThis release includes the following updates and fixes for the Publisher and remote agent:\n\nAlert lazy loading for remote actions: Remote action tasks ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-15T00:00:00-08:00"
+  },
+  {
+    "title": "November 14, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_14_2026",
+    "description": "Access Approval\nFeature\nService Usage is generally available\n(GA).\nAccess Transparency\nFeature\nService Usage is generally available\n(GA).\nGoogle SecOps SOAR\nAnnouncement\nRelease 6.3.106 is now\navailable for all regions.",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-14T00:00:00-08:00"
+  },
+  {
+    "title": "Clean data was never enough: How IFS Copperleaf taught AI its business with Databricks Genie One",
+    "link": "https://www.databricks.com/blog/clean-data-was-never-enough-how-ifs-copperleaf-taught-ai-its-business-databricks-genie-one-0",
+    "description": "IFS Copperleaf is a leading global provider of Asset Investment Planning (AIP) software...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-16T18:30:56+00:00"
+  },
+  {
+    "title": "Talk to your clinical data: unlocking AWS HealthLake with OpenSharing and Genie One",
+    "link": "https://www.databricks.com/blog/talk-your-clinical-data-unlocking-aws-healthlake-opensharing-and-genie-one",
+    "description": "Many healthcare and life sciences organizations have standardized on AWS HealthLake to manage clinical data...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-16T18:30:00+00:00"
+  },
+  {
+    "title": "Build a real-time next-best-offer recommender using Databricks Feature Views",
+    "link": "https://www.databricks.com/blog/build-real-time-next-best-offer-recommender-using-databricks-feature-views",
+    "description": "Real-time personalization depends on understanding what customers want in the moment...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-16T17:30:00+00:00"
+  },
+  {
+    "title": "Tabular foundation models on Databricks AI Runtime",
+    "link": "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime",
+    "description": "Many of the most valuable predictive machine learning applications rely on tabular data...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-16T17:00:00+00:00"
+  },
+  {
+    "title": "Teach Genie One your workflows: The ultimate guide for skills in Genie One",
+    "link": "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one",
+    "description": "Every team has “recipes” that govern how they work. The way finance puts together...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-16T17:00:00+00:00"
+  },
+  {
+    "title": "Introducing the Databricks AI Index: The state of enterprise AI tokenomics",
+    "link": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics",
+    "description": "Developers have more AI models and coding agents to choose from than ever before....",
+    "provider": "Databricks",
+    "timestamp": "2026-11-16T17:00:00+00:00"
+  },
+  {
+    "title": "Databricks is a Leader and positioned highest in execution in the 2026 Gartner® Magic Quadrant™ for Data Lakehouse Platforms",
+    "link": "https://www.databricks.com/blog/databricks-leader-and-positioned-highest-execution-2026-gartnerr-magic-quadranttm-data",
+    "description": "AI is pulling analytical and operational data togetherFor decades, enterprises have...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-14T18:15:02+00:00"
+  },
+  {
+    "title": "What is Real-Time Mode in Apache Spark?",
+    "link": "https://www.databricks.com/blog/what-is-real-time-mode",
+    "description": "Real-Time Mode is a trigger for Apache Spark™ Structured Streaming that processes...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-13T07:49:12+00:00"
+  },
+  {
+    "title": "Broadening access to AI for scientists",
+    "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T17:00:00+00:00"
+  },
+  {
+    "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+    "link": "https://openai.com/index/strengthening-online-child-safety",
+    "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T17:00:00+00:00"
+  },
+  {
+    "title": "Science at the Frontier: How scientists use ChatGPT",
+    "link": "https://openai.com/index/science-at-the-frontier",
+    "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T12:00:00+00:00"
+  },
+  {
+    "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+    "link": "https://openai.com/index/lvmh-media-division-partnership",
+    "description": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T09:00:00+00:00"
+  },
+  {
+    "title": "Our first phase of embedded assessments",
+    "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "description": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T08:00:00+00:00"
+  },
+  {
+    "title": "Advancing computer-use agents for healthcare teams",
+    "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "description": "",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T06:00:00+00:00"
+  },
+  {
+    "title": "More ways to move care forward with ChatGPT for Healthcare",
+    "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "description": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T06:00:00+00:00"
+  },
+  {
+    "title": "The King’s Trust and OpenAI launch £1m partnership",
+    "link": "https://openai.com/index/the-kings-trust-and-openai",
+    "description": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T00:00:00+00:00"
+  },
+  {
+    "title": "At Holiday Extras, dots get to work before anyone asks",
+    "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+    "description": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-16T00:00:00+00:00"
+  },
+  {
+    "title": "A step toward defining the Standard Model on a lattice",
+    "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "description": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-15T22:00:01+00:00"
+  },
+  {
+    "title": "Our new blog for science",
+    "link": "https://openai.com/index/our-new-blog-for-science",
+    "description": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-15T22:00:00+00:00"
   }
 ]
