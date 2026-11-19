@@ -29986,5 +29986,369 @@
     "description": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
     "provider": "OpenAI",
     "timestamp": "2026-11-17T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect launches Resolutions, an agentic solution for high-volume operational work",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-resolutions/",
+    "description": "Amazon Connect Customer announces the general availability of Resolutions, an agentic operations solution that resolves high-volume work end-to-end, including refund requests, transaction disputes, fraud investigations, and insurance claims. Resoluti...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T20:06:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
+    "description": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You share your requirement once, and agent mode applies th...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon Route 53 now supports health checks for private endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+    "description": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to u...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T19:50:00+00:00"
+  },
+  {
+    "title": "Amazon IVS Real-Time Streaming now provides a Linux broadcast SDK",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ivs-real-time-streaming-linux-broadcast-sdk",
+    "description": "The Amazon Interactive Video Service (Amazon IVS) Linux broadcast SDK is now available for IVS Real-Time Streaming. Applications running on Linux can join an IVS stage, receive audio from participants, and send audio back to the stage in real time. T...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T18:49:00+00:00"
+  },
+  {
+    "title": "AWS Elemental MediaTailor adds Dynamic Avail Sizing for live HLS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-elemental-mediatailor-dynamic-avail-sizing-live-hls",
+    "description": "AWS Elemental MediaTailor now supports Dynamic Avail Sizing, which reduces the slate viewers see when ad breaks, also called avails, in live HLS streams go unfilled. MediaTailor is a server-side ad insertion and channel assembly service that personal...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T18:00:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central now supports AI-assisted listing experience for product, services, and solutions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-ai-listing/",
+    "description": "AWS Marketplace search, Agent Mode, and AWS sales teams use listings to recommend partner offerings to AWS customers. Partners who sell software and services can now create and improve their listings in AWS Partner Central with the new AI-assisted li...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T17:00:00+00:00"
+  },
+  {
+    "title": "Aurora PostgreSQL with express configuration now supports Amazon VPC",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-express-vpc/",
+    "description": "Aurora PostgreSQL databases created with express configuration can now move into an Amazon Virtual Private Cloud (VPC) with a single API call or a modify action in the Amazon RDS console. This helps you take AI-built prototypes and other applications...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon MSK Connect now supports restarting existing connectors",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-msk-connect-restart-existing-connectors",
+    "description": "Amazon MSK Connect (Amazon Managed Streaming for Apache Kafka Connect) now supports restarting both existing and newly created connectors and their tasks in place, enabling fast recovery for streaming data pipelines. \nAmazon MSK Connect is a fully ma...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL now supports multi-Region peering across continents",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/",
+    "description": "Amazon Aurora DSQL now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region cluster had to be in the same geographic Region set. ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T15:56:00+00:00"
+  },
+  {
+    "title": "AWS Systems Manager Parameter Store raises API throughput limits",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/",
+    "description": "AWS Systems Manager Parameter Store&nbsp;has increased the default throughput limits for five API operations. For accounts that have turned on the higher throughput setting, the quotas have changed as follows, in transactions per second (TPS): \n \n Ge...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T09:00:00+00:00"
+  },
+  {
+    "title": "AWS Revenue Measurement now supports closed-source models in Amazon Bedrock",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-bedrock/",
+    "description": "AWS Revenue Measurement (previously Partner Revenue Measurement) provides measurement of AWS consumption driven by Partner solutions. Today, AWS announces expanded Amazon Bedrock support in AWS Revenue Measurement. Partners can now gain attributed re...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform supports optimized storage for server migration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-optimized-storage/",
+    "description": "AWS Transform for migrations now recommends the optimized storage type and configuration for every server you migrate, so you no longer do it server by server. Building on recent storage assessment capabilities, AWS Transform's recommendations use ea...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Revenue Measurement now supports Identity Tagging",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/revenue-measurement-identity-tagging/",
+    "description": "AWS Revenue Measurement (previously Partner Revenue Measurement) provides measurement of AWS consumption driven by Partner solutions. Today, AWS announces Identity Tagging in AWS Revenue Measurement, a new way for Partners to get attributed revenue v...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 launches performance status checks and new utilization metrics for EC2 Detailed Monitoring",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-performance-status-checks/",
+    "description": "Customers can now use Amazon EC2 performance status checks and new utilization metrics for EC2 Detailed Monitoring to observe and act on the performance of their EC2 workloads without setup within the instance, complementing their in-guest tooling. C...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace now supports buyer approval workflows",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-approvals/",
+    "description": "Today, AWS Marketplace announces the general availability of buyer approvals. This lets you decide which AWS Marketplace purchases need sign-off, who approves them, and where approval happens. You can define buying policies for the conditions that ma...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central Agents now guide partners to higher-quality opportunities and explain co-sell motions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-guide-quality/",
+    "description": "Today, AWS announces that AWS Partner Central Agents now guide AWS Partners to create and enrich opportunities for a high-quality submission, and explain the assigned co-sell motion of each opportunity and why AWS assigned it. Since the launch of Age...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Announcing Data as a Service for AWS Marketplace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace-data-as-a-service/",
+    "description": "Today, AWS Marketplace announces the general availability of Data as a Service, a new product type that lets customers buy third-party datasets and licensed content. Customers often have the models and compute they need, but buying third-party data m...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform automates source and migration target actions to accelerate cutover",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-automates-source-actions/",
+    "description": "AWS Transform now automates the tasks that prepare and validate your servers during a migration, before they move and after they launch on AWS. AWS Transform is the agentic AI service that speeds up cloud migration, application modernization, and con...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Lambda Durable Execution SDK for Rust is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-execution-sdk-rust/",
+    "description": "Today, AWS announces the general availability of the open source AWS Lambda Durable Execution SDK for Rust. Rust developers can use the SDK to build resilient, long-running workflows using Lambda durable functions, to create multi-step applications l...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon VPC Flow Logs now supports Amazon EKS metadata",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-vpc-flow-logs-amazon-eks-metadata/",
+    "description": "Amazon VPC Flow Logs now adds Amazon Elastic Kubernetes Service (Amazon EKS) metadata to flow log records. Each record identifies the pod that sent or received the traffic, along with its cluster, namespace and labels. This makes it faster to investi...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer now provides AI chat summaries in the CCP",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-chat-summaries-ccp/",
+    "description": "Amazon Connect Customer now provides agents with a generative AI-powered post-contact summary of each chat conversation inside the Contact Control Panel (CCP) within seconds after the chat ends, so agents can complete after contact work from the summ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Polly now supports voice cloning",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-polly-now-supports-voice-cloning/",
+    "description": "Today, we are excited to announce the general availability of voice cloning in Amazon Polly, as a gated release. Using a few minutes of recordings from a consenting speaker, you can now create a cloned voice that sounds like that speaker. The cloned ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS AppConfig launches support for managing native AI model and AI prompt configuration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-appconfig-native-ai-model-invocation-prompt-configurations/",
+    "description": "Today, AWS AppConfig introduces two new configuration profile types to help you manage the settings for your generative AI applications: AI model invocation configurations, and AI prompt configurations. You can now change model settings and prompts w...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T05:00:00+00:00"
+  },
+  {
+    "title": "AWS CloudFormation StackSets adds progress visibility to simplify tracking deployments at scale",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-stacksets-progress/",
+    "description": "AWS CloudFormation StackSets now shows stage-by-stage progress for deployments across accounts and AWS Regions, whether you target tens of accounts or thousands. You can follow each deployment as it progresses and take action when needed, without wai...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T00:45:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Memory is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+    "description": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives u...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T21:09:00+00:00"
+  },
+  {
+    "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
+    "description": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cost or performance goal, and the agent returns speci...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports cross-Region inference routing",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-cross-region-routing/",
+    "description": "Today, Amazon SageMaker AI announces cross-Region inference routing, which helps keep inference applications available when a region runs short of capacity by sending requests to endpoints deployed in other AWS Regions and AWS accounts. Models served...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T20:00:00+00:00"
+  },
+  {
+    "title": "AWS announces ExtendDB 1.0",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-extenddb-1-0/",
+    "description": "Today, Amazon Web Services (AWS) announced version 1.0 of ExtendDB, the first release of the open source Amazon DynamoDB-compatible adapter for production use. ExtendDB is fully compatible with the DynamoDB API and runs on a database backend that you...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon CloudFront standard logging now supports CMCD and additional log fields",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields",
+    "description": "Amazon CloudFront standard logging now supports additional access log fields that were previously available only in CloudFront real-time logs. You can now include these fields in your standard logs and deliver them to Amazon S3, Amazon CloudWatch Log...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T19:28:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for MySQL now supports MySQL major version 9.7",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-974-available/",
+    "description": "Starting today, Amazon RDS for MySQL supports MySQL major version 9.7, the latest Long-Term Support release from MySQL community. Amazon RDS for MySQL 9.7 launches with community MySQL 9.7.4. This launch introduces support for the Replication Applier...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL now supports audit logging",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-dsql-audit-logging/",
+    "description": "Amazon Aurora DSQL now supports database-internal audit logging, a fully managed capability that captures SQL statements executed on your cluster. Previously, AWS CloudTrail recorded who connected to a DSQL cluster, but not what they did once inside ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon ElastiCache now supports distributed KV caching for self-hosted LLM inference",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/announcing-distributed-kv-caching-for-self-hosted-llms-with-amazon-elasticache/",
+    "description": "Amazon ElastiCache for Valkey now offers fully managed distributed KV caching, a new capability that reduces self-hosted large language model (LLM) inference costs by up to 40% and time to first token (TTFT) by up to 80%. Customers who self-host LLMs...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-Teams-two-way/",
+    "description": "AWS DevOps Agent now supports dedicated Slack code channels and two-way conversations in Microsoft Teams, so on-call engineers and DevOps teams can investigate and resolve incidents where they already work together. AWS DevOps Agent investigates inci...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM account access manager is now even easier to deploy and use",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-account-access-manager-easier/",
+    "description": "Deploying and using AWS Identity and Access Management (IAM) account access manager is now even easier: you can use AWS managed policies to enable and administer it; you can include it in your infrastructure-as-code (IaC) configurations; and its role...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "AWS HealthOmics now supports Nextflow version 26.10",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-healthomics-nextflow-version-26-10/",
+    "description": "AWS HealthOmics now supports Nextflow version 26.10, which adds enhancements such as static typing, pipeline composition, and configurable report directories. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences custome...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Deadline Cloud now supports Amazon EC2 G7 instances in service-managed fleets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/deadline-cloud-supports-ec2-g7/",
+    "description": "AWS Deadline Cloud now supports Amazon EC2 G7 instances in service-managed fleets. Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads for visual effects, animation, product design, simulation, and gaming.\nG7 in...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "AgentCore runtime instances now support privileged mode",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-elevated-privileges/",
+    "description": "Amazon Bedrock AgentCore runtime instances now support privileged mode, which lets your agents install system-level software and run nested containers. Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, pa...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Replication adds exclusions and Multi-Region key resolution",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-replication-exclusions-multi-region-key-resolution/",
+    "description": "You can now replicate data in Amazon S3 buckets with fewer replication rules using two new S3 Replication capabilities, exclusions and Multi-Region key resolution. Buckets that many tenants or applications share often need many rules to skip certain ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T07:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports higher pod density on EKS-orchestrated clusters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-higher-pod-density/",
+    "description": "Amazon SageMaker HyperPod now supports higher pod density per node on EKS-orchestrated clusters, allowing you to get more out of every instance. This leaves more room for your applications alongside system DaemonSets for monitoring, logging, and secu...",
+    "provider": "AWS",
+    "timestamp": "2026-11-18T01:45:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Ingestion Service now supports next-generation time series collections",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-ingestion-service-nextgen-time-series-collections",
+    "description": "Amazon OpenSearch Ingestion service now supports time series collections in the next generation of Amazon OpenSearch Serverless as a pipeline destination. You can stream logs, metrics, traces and event data into time series collections with fully man...",
+    "provider": "AWS",
+    "timestamp": "2026-11-17T18:20:00+00:00"
+  },
+  {
+    "title": "November 19, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_19_2026",
+    "description": "BigQuery\nFeature\nYou can now enable agent observability with the Data Engineering Agent\nto monitor the agent's token consumption, request volume, and model latency in\nCloud Monitoring and inspect execution traces and tool calls in Cloud Trace.\nThis f...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-19T00:00:00-08:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+    "link": "https://azure.microsoft.com/updates?id=579579",
+    "description": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configurat...",
+    "provider": "Azure",
+    "timestamp": "2026-11-19T17:25:28+00:00"
+  },
+  {
+    "title": "Four AI Architecture Patterns for Regulated Industries",
+    "link": "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries",
+    "description": "Enterprise AI cannot replace every deterministic control. These four patterns help...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T19:30:00+00:00"
+  },
+  {
+    "title": "How partners use Genie's free tier on Azure Databricks",
+    "link": "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks",
+    "description": "Every Azure Databricks user gets $10 of free Genie usage each month, usage that many...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T18:00:00+00:00"
+  },
+  {
+    "title": "Java4Shell vulnerability (CVE-2026-114938) assessment",
+    "link": "https://www.databricks.com/blog/java4shell-vulnerability-cve-2026-114938-assessment",
+    "description": "As of November 19 at 10 AM Pacific Time:Prior to Java4Shell’s public disclosure (CVE-2026-114938),...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T17:00:00+00:00"
+  },
+  {
+    "title": "Bulk migrate your dashboards to AI/BI with Genie Code",
+    "link": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
+    "description": "In our previous post, Migrate Your Dashboards to AI/BI with Genie Code, we walked...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T16:00:00+00:00"
+  },
+  {
+    "title": "Introducing CustomerLake Conversions: Improve advertising performance with first-party customer context",
+    "link": "https://www.databricks.com/blog/customerlake-conversions",
+    "description": "Two purchases can look identical in campaign reports and mean very different things to your business...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T13:35:00+00:00"
+  },
+  {
+    "title": "Databricks Wins A-Team Award for AI in Capital Markets",
+    "link": "https://www.databricks.com/blog/databricks-wins-team-award-ai-capital-markets-0",
+    "description": "Recognized for AI and governance, together.Capital markets have no shortage of AI...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T03:54:28+00:00"
+  },
+  {
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "description": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+    "link": "https://openai.com/business/customer-stories/sumitomo-life",
+    "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "Research acceleration: The jagged frontier",
+    "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-18T08:00:00+00:00"
+  },
+  {
+    "title": "v0.1.24",
+    "link": "https://github.com/google-antigravity/antigravity-sdk-python/releases/tag/v0.1.24",
+    "description": "Release v0.1.24",
+    "provider": "Google Antigravity",
+    "timestamp": "2026-11-19T15:41:15+00:00"
   }
 ]
