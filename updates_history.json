@@ -30350,5 +30350,376 @@
     "description": "Release v0.1.24",
     "provider": "Google Antigravity",
     "timestamp": "2026-11-19T15:41:15+00:00"
+  },
+  {
+    "title": "Amazon SageMaker JumpStart now offers a model leaderboard to compare models on quality, speed, and cost",
+    "link": "https://aws.amazon.com/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/",
+    "description": "Amazon SageMaker JumpStart now offers a model leaderboard in Amazon SageMaker Studio. You can use it to compare foundation models side by side on throughput, latency, and cost, and then deploy or customize the model that fits your workload. \nComparin...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T19:27:00+00:00"
+  },
+  {
+    "title": "AWS Glue Data Catalog introduces data quality monitoring for catalogs and databases",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-data-quality-monitoring/",
+    "description": "AWS Glue Data Catalog introduces data quality monitoring for catalogs and databases, powered by AWS Glue Data Quality, which profiles and evaluates your tables at catalog scale from a single configuration. You define data quality checks once for a ca...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T19:00:00+00:00"
+  },
+  {
+    "title": "AWS Billing and Cost Management now offers APIs to track payment status",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-billing-cost-management-apis-payment-status/",
+    "description": "Today, AWS Billing and Cost Management announces new APIs that let you view your AWS payment information through the AWS SDKs and the AWS CLI. With these APIs, you can check your account balance, find invoices that are due or past due, see which paym...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T18:30:00+00:00"
+  },
+  {
+    "title": "AWS CloudFormation Service-Managed StackSets adds custom execution roles with nested stacks support",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/stacksets-custom-execution-roles/",
+    "description": "AWS CloudFormation StackSets now supports custom execution roles for service-managed stack sets, which enables you to scope the permissions StackSets uses in each target AWS account. StackSets deploys the same infrastructure, such as networking and s...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T17:45:00+00:00"
+  },
+  {
+    "title": "Amazon EventBridge Custom event bus now supports Webhook Events",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eventbridge-webhook-events",
+    "description": "Amazon EventBridge now supports Webhook Events for the enhanced Custom event bus, so SaaS applications, AI agents, and custom integrations can send events to a bus over HTTPS. You no longer need to deploy and operate your own API endpoint and compute...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T17:30:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora MySQL 8.4.12 is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8412-available/",
+    "description": "Starting today, Amazon Aurora MySQL-Compatible Edition 8.4 supports MySQL 8.4.12. This release includes several security enhancements and bug fixes. We recommend upgrading to the newer minor versions to accept fixes for Common Vulnerabilities and Exp...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Transform announces UI component modernization for Windows web applications",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-ui-windows/",
+    "description": "Today, AWS announced the general availability of third-party UI component porting for ASP.NET web site modernization in AWS Transform. When AWS Transform modernizes a legacy ASP.NET web site, it now detects dependencies on popular third-party UI comp...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T16:30:00+00:00"
+  },
+  {
+    "title": "AWS Transform announces support for .NET 11 and expanded project types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-windows-dotnet-11/",
+    "description": "Today, AWS announced the general availability of .NET 11 support in AWS Transform for .NET. Support for VB.NET, desktop projects, and mobile projects, previously in preview, is also now generally available. You can modernize a broad range of Windows ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T16:00:00+00:00"
+  },
+  {
+    "title": "Introducing Amazon EC2 T9g instances based on Graviton5",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-t9g-instances-ga/",
+    "description": "AWS is announcing the general availability of new low-cost burstable Amazon EC2 T9g instances, which offer the best price performance among general-purpose&nbsp;EC2 instances. These instances are powered by AWS Graviton5 processors and built on the l...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon MSK now supports in-place upgrade from Standard brokers to Express brokers",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-msk-standard-brokers-to-express-brokers-in-place-upgrade",
+    "description": "You can now upgrade existing Amazon MSK Provisioned clusters from Standard brokers to Express brokers in place, with fully managed data migration and no application changes. Express brokers are designed to deliver up to 3x more throughput per broker,...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T16:00:00+00:00"
+  },
+  {
+    "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/",
+    "description": "Today, AWS announces the general availability of a new Local Zone in Bogotá, Colombia, bringing AWS infrastructure closer to end users for applications that require single-digit millisecond latency. You can use the Bogotá Local Zone for workloads suc...",
+    "provider": "AWS",
+    "timestamp": "2026-11-20T08:00:00+00:00"
+  },
+  {
+    "title": "AWS DevOps Agent now supports Slack code channels and Microsoft Teams two-way conversations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/",
+    "description": "AWS DevOps Agent now supports dedicated Slack code channels and two-way conversations in Microsoft Teams, so on-call engineers and DevOps teams can investigate and resolve incidents where they already work together. AWS DevOps Agent investigates inci...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T22:30:00+00:00"
+  },
+  {
+    "title": "AWS Marketplace now supports agentic payments with AgentCore",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
+    "description": "AWS Marketplace now supports agentic payments over the x402 protocol, so AI agents can discover and buy select products and pay per request in US dollars through AgentCore payments, part of Amazon Bedrock AgentCore. Agents often need paid APIs, data,...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T21:30:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito now supports client ID metadata documents",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
+    "description": "Amazon Cognito now supports OAuth client ID metadata documents (CIMD). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With CIMD, Model Context Protocol (MCP) clients and AI age...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T21:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL now delivers up to 50% higher write throughput",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
+    "description": "With upgrades to its storage layer, Amazon Aurora DSQL now delivers up to 50% higher write throughput for many transactional workloads. Data loads finish sooner, and tables whose primary key always increases, such as tables keyed by a timestamp, an i...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T20:53:00+00:00"
+  },
+  {
+    "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-ip-based-routing-connection-logging",
+    "description": "Amazon CloudFront now allows web development and SaaS platforms to serve different tiers of customers on the same wildcard domain by using IP addresses to route them to the right configuration. For example, these platforms can serve premium and pro c...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T20:26:00+00:00"
+  },
+  {
+    "title": "Amazon CloudFront simplifies domain moves and onboarding for SaaS Manager",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants",
+    "description": "Amazon CloudFront now lets web development platforms and SaaS providers move a customer's domain to their platform in a single request with no downtime, and serve requests to the domain while the TLS certificate is being configured. The CloudFront mu...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T20:22:00+00:00"
+  },
+  {
+    "title": "Amazon WorkSpaces Applications now supports WebAuthn redirection",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-webauthn-redirection/",
+    "description": "Amazon WorkSpaces Applications now supports WebAuthn redirection, so users can sign in to websites and applications in their streaming session with a FIDO2 authenticator on their local device, such as a security key, Windows Hello, or Touch ID. Previ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T19:57:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito now supports AWS Secrets Manager for app client secrets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-secrets-manager-integration/",
+    "description": "Amazon Cognito now integrates with AWS Secrets Manager, so you can store and manage your user pool app client secrets in Secrets Manager. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T18:00:00+00:00"
+  },
+  {
+    "title": "AWS WAF launches new Security Analytics Dashboard for real-time investigations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-security-analytics-dashboard/",
+    "description": "AWS WAF now gives you one place to find and stop unwanted traffic across every application in your account. The new AWS WAF security analytics dashboard brings together traffic from all of your protection packs (web ACLs), whether they protect Region...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T18:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora now supports moving clusters to a different VPC",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-move-clusters-to-different-vpc/",
+    "description": "Aurora PostgreSQL and Aurora MySQL clusters can now move from one Amazon Virtual Private Cloud (VPC) to another without data migration. You can move a cluster with a single API call or a modify action in the Amazon RDS console. This lets you move a c...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T17:00:00+00:00"
+  },
+  {
+    "title": "AWS RTB Fabric Modules are now generally available through AWS Marketplace",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-rtb-fabric-modules-marketplace/",
+    "description": "AWS RTB Fabric Modules from AdTech partners including Pixalate, WURFL by ScientiaMobile, and Picnic are now available through AWS Marketplace. With AWS RTB Fabric Modules, any demand-side platform (DSP), supply-side platform (SSP), and publisher on R...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T15:00:00+00:00"
+  },
+  {
+    "title": "AgentCore runtime instances now support Nested Virtualization",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-nested-virtualization/",
+    "description": "Amazon Bedrock AgentCore runtime instances now support nested virtualization, so your agents can run their own virtual machines and emulators inside a session with Kernel-based Virtual Machine (KVM). Runtime instances run your agents on Amazon EC2 in...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T10:00:00+00:00"
+  },
+  {
+    "title": "Amazon Aurora DSQL now supports PL/pgSQL functions and procedures",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-plpgsql-support/",
+    "description": "Amazon Aurora DSQL now supports PL/pgSQL, enabling developers to create and execute stored functions and procedures directly in the database. Amazon Aurora DSQL is a serverless, distributed SQL database designed for applications requiring active-acti...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Data Competency adds Open Data and Interoperability category for Software Partners",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-competency-open-data-category/",
+    "description": "Today, AWS announces the Open Data and Interoperability category within the AWS Data Competency. The new category recognizes AWS Software Partners whose solutions keep customer data open and under customer control, letting multiple analytics engines ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central Agents now guide higher-quality co-sell submissions and explain co-sell motions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-guide-high-quality-opp",
+    "description": "Today, AWS announces that AWS Partner Central Agents now guide AWS Partners to create and enrich opportunities for a high-quality submission, and explain the assigned co-sell motion of each opportunity and why AWS assigned it. Since the launch of Age...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Continuum for Penetration Testing now supports pause and resume",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/continuum-pentest-pause-resume/",
+    "description": "AWS Continuum for Penetration Testing (formerly AWS Security Agent) now lets you pause a running penetration test job and resume it later from its last saved checkpoint. Continuum for Penetration Testing runs on-demand, AI-driven penetration tests ag...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Site-to-Site VPN now supports post-quantum key exchanges",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/site-to-site-vpn-post-quantum/",
+    "description": "AWS Site-to-Site VPN now supports post-quantum key exchanges to help improve the security posture of your VPN tunnels. This feature supports your migration to post-quantum cryptography based on NIST guidelines.  AWS Site-to-Site VPN is a fully manage...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS STS announces GetScopedCredentials to scope down permissions at runtime",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sts-getscopedcredentials/",
+    "description": "AWS Security Token Service (AWS STS) announces GetScopedCredentials, a new API that lets you scope down the permissions of existing temporary security credentials. With GetScopedCredentials, you can give your agents, sub agents and workloads their ow...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Second-generation AWS Outposts racks now supported in the AWS European Sovereign Cloud (Germany) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-outposts-thf-european-sovereign/",
+    "description": "Second-generation AWS Outposts racks are now supported in the AWS European Sovereign Cloud (Germany) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a tr...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI now detects rising response times, idle GPUs, and missed optimizations on your generative AI inference endpoints",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-monitors-endpoints/",
+    "description": "Amazon SageMaker AI now monitors the response time and GPU use of generative AI inference endpoints by default and notifies customers when responses slow down, GPUs sit mostly idle, or a configuration falls behind. Customers run GenAI Inference Recom...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Inspector Code Security adds GitHub Enterprise Server and private connectivity",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-code-ghes-private-network/",
+    "description": "Amazon Inspector Code Security now supports GitHub Enterprise Server (GHES) integration and private network connectivity for GHES and GitLab Self-Managed. Code Security is also launching automatic fix pull requests in public preview. Organizations th...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock AgentCore Identity adds private certificate authority support",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-identity-private-ca/",
+    "description": "Amazon Bedrock AgentCore Identity now supports private certificate authorities (CAs) for custom OAuth 2.0 credential providers. If you already connect your agents to identity providers (IdPs) hosted in your VPC, you can now configure those connection...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Partner Central Agents now generate Value Realization Plans",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-bvr-vrp",
+    "description": "Today, AWS announces that AWS Partner Central Agents can now generate Value Realization Plans (VRPs) for the Business Value Realization (BVR) motion in AWS Partner Central. The VRP is the plan of record for a BVR engagement. The agentic experience ge...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Cognito now supports dynamic client registration",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/",
+    "description": "Amazon Cognito now supports OAuth dynamic client registration (DCR, RFC 7591). Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservices in minutes. With DCR support, Model Context Protocol (MCP) cli...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon S3 Tables now support promoting replicas to writable tables",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-tables-replication-writable-tables/",
+    "description": "Amazon S3 Tables replication now lets you make a read-only replica of your Apache Iceberg table a standalone, writable table with a single API call. S3 Tables replication keeps read-only replica tables in sync with your source tables across table buc...",
+    "provider": "AWS",
+    "timestamp": "2026-11-19T06:00:00+00:00"
+  },
+  {
+    "title": "November 20, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_20_2026",
+    "description": "App Engine flexible environment Java\nSecurity\nThe following runtime language contains important security updates:\n\nJava 17 and later: 17.0.21.1+2, 21.0.13.1+2, 25.0.5.1+2\n\nTake immediate action by rebuilding and redeploying your applications to pick ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-20T00:00:00-08:00"
+  },
+  {
+    "title": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
+    "link": "https://azure.microsoft.com/updates?id=580700",
+    "description": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relations...",
+    "provider": "Azure",
+    "timestamp": "2026-11-20T00:00:14+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+    "link": "https://azure.microsoft.com/updates?id=581907",
+    "description": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API ve...",
+    "provider": "Azure",
+    "timestamp": "2026-11-19T23:47:55+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+    "link": "https://azure.microsoft.com/updates?id=574587",
+    "description": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL – Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test ma...",
+    "provider": "Azure",
+    "timestamp": "2026-11-19T23:25:49+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
+    "link": "https://azure.microsoft.com/updates?id=581254",
+    "description": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zo...",
+    "provider": "Azure",
+    "timestamp": "2026-11-19T20:34:19+00:00"
+  },
+  {
+    "title": "Interactive Databricks Reference Architectures Across 70 Industries",
+    "link": "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries",
+    "description": "Why we built itMost Databricks architecture talks used to start with the same slide: ingestion on the left...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-20T14:48:28+00:00"
+  },
+  {
+    "title": "Why PostgreSQL 19 shipped late",
+    "link": "https://www.databricks.com/blog/why-postgresql-19-shipped-late",
+    "description": "PostgreSQL 19 is now&nbsp;generally available, and there are some really cool things in...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T22:04:02+00:00"
+  },
+  {
+    "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
+    "link": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
+    "description": "In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T21:30:00+00:00"
+  },
+  {
+    "title": "Genie One Accuracy: Why Curated Agents Need Governed Context",
+    "link": "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
+    "description": "Ask Finance and Underwriting whether the loss ratio improved from 2024 to 2025, and...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T20:15:41+00:00"
+  },
+  {
+    "title": "PostgreSQL 19 is available on Lakebase",
+    "link": "https://www.databricks.com/blog/postgresql-19-available-lakebase",
+    "description": "PostgreSQL 19 reached GA today and it's already available on Lakebase. New major...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-19T15:31:46+00:00"
+  },
+  {
+    "title": "Combatting adversarial distillation",
+    "link": "https://openai.com/index/combatting-adversarial-distillation",
+    "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-20T10:00:00+00:00"
+  },
+  {
+    "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+    "link": "https://openai.com/business/customer-stories/hebbia",
+    "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-20T00:00:00+00:00"
+  },
+  {
+    "title": "Can AI help scientists identify promising drug candidates?",
+    "link": "https://openai.com/index/introducing-medchembench",
+    "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-20T00:00:00+00:00"
+  },
+  {
+    "title": "Explore the Codex Security Plugin",
+    "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+    "description": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-19T00:00:00+00:00"
+  },
+  {
+    "title": "See PR scans in action",
+    "link": "https://openai.com/business/learn/pr-scans-demo",
+    "description": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-19T00:00:00+00:00"
+  },
+  {
+    "title": "Get started with Daybreak Blue",
+    "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+    "description": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-19T00:00:00+00:00"
+  },
+  {
+    "title": "Deploying Daybreak Red",
+    "link": "https://openai.com/business/learn/deploying-daybreak-red",
+    "description": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-19T00:00:00+00:00"
   }
 ]
