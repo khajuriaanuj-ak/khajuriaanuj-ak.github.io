@@ -1,6 +1,195 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-11-20T20:53:03.201365+00:00",
+  "last_updated": "2026-11-21T19:53:48.012620+00:00",
   "updates": [
+    {
+      "title": "AWS Quick now supports plugins to bundle agents, skills, connectors and flows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
+      "description": "AWS Quick now supports plugins, agents, skills, connectors, and flows built for a specific task, role, or use case. Most work draws on several of these at once: connectors to reach your systems, skills for how your team works, agents to reason throug...",
+      "provider": "AWS",
+      "timestamp": "2026-11-21T02:58:00+00:00"
+    },
+    {
+      "title": "[Launched] Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
+      "link": "https://azure.microsoft.com/updates?id=581463",
+      "description": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, toolboxes, and guardrails, with w...",
+      "provider": "Azure",
+      "timestamp": "2026-11-21T00:45:13+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
+      "link": "https://azure.microsoft.com/updates?id=581468",
+      "description": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, deploy changes to Foundry, and ...",
+      "provider": "Azure",
+      "timestamp": "2026-11-21T00:43:13+00:00"
+    },
+    {
+      "title": "AWS Quick launches a new web experience with updated browser extension and Microsoft 365 add-ins",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
+      "description": "The AWS Quick web app now brings the Quick desktop experience to your browser. Create, share, and use the same agents and skills as on desktop, with the same connectors. Start each day with a daily briefing and a prioritized feed of the email and mes...",
+      "provider": "AWS",
+      "timestamp": "2026-11-21T00:27:00+00:00"
+    },
+    {
+      "title": "Web Search on Amazon Bedrock expands language support and country-aware search",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+      "description": "Web Search on Amazon Bedrock, the tool that grounds AI agents and applications in cited, current web information, now supports five new languages, plus non-US English, on Amazon Bedrock AgentCore and Amazon Bedrock: Spanish, French, German, Italian, ...",
+      "provider": "AWS",
+      "timestamp": "2026-11-21T00:17:00+00:00"
+    },
+    {
+      "title": "Build more capable automations through chat with Flows in AWS Quick",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-flows-automations-chat/",
+      "description": "Flows in AWS Quick now lets users build, run, and refine automations for themselves and their teams, all through conversation. Users describe a process in chat, and Quick builds the flow, with no coding needed. \nFlows can now orchestrate agents, skil...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T23:59:00+00:00"
+    },
+    {
+      "title": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+      "link": "https://azure.microsoft.com/updates?id=579952",
+      "description": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date.   Until you migrate to the appropriate scenario SDK, .NE...",
+      "provider": "Azure",
+      "timestamp": "2026-11-20T23:16:31+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Programmed Training in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581713",
+      "description": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview sign-up form.Managed training jobs work well when yo...",
+      "provider": "Azure",
+      "timestamp": "2026-11-20T22:58:28+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Multi-turn evaluation in Microsoft Foundry",
+      "link": "https://azure.microsoft.com/updates?id=581746",
+      "description": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses.A response can look correct on its own and still be part of a conversation ...",
+      "provider": "Azure",
+      "timestamp": "2026-11-20T22:56:51+00:00"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports Primary Endpoint",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-primary-endpoint-v2/",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now provides a Primary Endpoint, a DNS name that always resolves to the current primary DB instance in a replica configuration. When you switch over to an Oracle replica, Amazon RDS points th...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T22:54:00+00:00"
+    },
+    {
+      "title": "AWS Quick now supports Japanese, German, Vietnamese, and Chinese",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-japanese-german-chinese-vietnamese/",
+      "description": "Today, AWS announces that AWS Quick, the AI workspace for business users, now supports Japanese, German, Vietnamese, and Chinese (Simplified and Traditional). AWS Quick now displays its interface in these languages and responds in the language each u...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T22:11:00+00:00"
+    },
+    {
+      "title": "Amazon RDS for Oracle now supports Replica First Patching for reduced downtime",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-replica-first-patching/",
+      "description": "Amazon Relational Database Service (Amazon RDS) for Oracle now supports Replica First Patching, which reduces downtime during minor version upgrades. Replica First Patching is available for Enterprise Edition DB instances. With Replica First Patching...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T22:00:00+00:00"
+    },
+    {
+      "title": "Amazon Cognito extends multi-Region replication to additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-mrr-opt-in-regions/",
+      "description": "Amazon Cognito multi-Region replication (MRR) now supports additional AWS Regions, extending the resilience benefits of MRR to more workloads. Amazon Cognito helps you implement secure sign-in and access control for users, AI agents, and microservice...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T22:00:00+00:00"
+    },
+    {
+      "title": "Amazon Neptune Serverless now delivers up to 30% better performance and smarter scaling",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-neptune-serverless-r8g-generally-available",
+      "description": "Amazon Neptune Serverless now delivers up to 30% better performance at the same price per Neptune Capacity Unit, running on AWS Graviton4 processors. The new Graviton4-based platform also brings an improved scaling algorithm that adjusts Neptune Capa...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T21:50:00+00:00"
+    },
+    {
+      "title": "Amazon CloudWatch extends the PromQL query window to 30 days",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/",
+      "description": "Amazon CloudWatch now supports a 30-day query window for PromQL queries against OpenTelemetry metrics, up from 7 days. You can query a month of data in a single request, chart month-over-month and week-over-week trends on one dashboard, and alarm on ...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T21:23:00+00:00"
+    },
+    {
+      "title": "Demand Center now available in AWS Partner Central",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/demand-center-partner-central/",
+      "description": "AWS Partners can now plan, launch, fund, and measure demand generation campaigns in one AI-powered experience. Demand Center in AWS Partner Central succeeds Marketing Central and brings together Marketing Central and MDF capabilities, letting you wor...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T21:00:00+00:00"
+    },
+    {
+      "title": "Account Mapping and Planning now available in AWS Partner Central",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/account-mapping-and-planning/",
+      "description": "AWS Partners can now map their target accounts against AWS records and find where to collaborate with AWS on joint go-to-market before an opportunity exists. Account Mapping and Planning in AWS Partner Central replaces manual, spreadsheet-based accou...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T21:00:00+00:00"
+    },
+    {
+      "title": "Lead groups and channel recommendations now available in AWS Partner Central",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-lead-groups/",
+      "description": "AWS Partners can now organize enriched leads and plan outreach with lead groups and channel recommendations in AWS Partner Central. Enriched leads are automatically grouped by solution area and segmented into sales-ready, marketing-ready, and limited...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T21:00:00+00:00"
+    },
+    {
+      "title": "Amazon CloudWatch EKS Container Insights now offers built-in monitoring for open source Kubernetes tools",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
+      "description": "Today, Amazon CloudWatch announces built-in monitoring for open source tools running on your Amazon EKS clusters, including Karpenter, KEDA, vLLM, KServe, SGLang, Ray and Knative Serving. You get dashboards for the tools you already use without runni...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:47:00+00:00"
+    },
+    {
+      "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+      "description": "AWS Quick now supports assignments for custom permissions and limit profiles to groups from your enterprise identity provider (IdP).&nbsp;Administrators can now apply feature restrictions and per-user resource limits to IdP groups, in addition to the...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:42:00+00:00"
+    },
+    {
+      "title": "AWS Quick introduces enterprise guardrails (preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
+      "description": "AWS Quick now includes enterprise guardrails, giving administrators configurable content safety and sensitive-information controls for user prompts. Administrators can apply guardrail policies to individual users or enterprise identity provider (IdP)...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:30:00+00:00"
+    },
+    {
+      "title": "AWS announces Data Hub in AWS Billing and Cost Management (preview)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
+      "description": "Today, AWS announces the preview of Data Hub in AWS Billing and Cost Management, a managed data layer that enables AWS FinOps Agent to query cost and usage data with SQL. In preview, Data Hub is available to AWS FinOps Agent, so the agent can identif...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:30:00+00:00"
+    },
+    {
+      "title": "[In preview] Public Preview: Azure Firewall for Containers",
+      "link": "https://azure.microsoft.com/updates?id=581963",
+      "description": "Azure Firewall for Containers\nextends Azure Firewall protection to containerized workloads, providing a\ncentralized approach to securing network traffic for container environments.\nCustomers can use Azure Firewall capabilities as part of their contai...",
+      "provider": "Azure",
+      "timestamp": "2026-11-20T20:05:17+00:00"
+    },
+    {
+      "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+      "description": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs from your applications, so you don't deploy and opera...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:05:00+00:00"
+    },
+    {
+      "title": "Amazon DynamoDB vector search now supports new inline filter operators",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/dynamodb-vector-filters/",
+      "description": "Amazon DynamoDB vector search inline filters now support range comparisons, value lists, and logical operators in addition to the equality operator, so you can narrow a vector search to exactly the items you want. You can now filter on numeric ranges...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:00:00+00:00"
+    },
+    {
+      "title": "Amazon Transcribe announces a synchronous transcription API",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+      "description": "Amazon Transcribe now offers a synchronous transcription API, TranscribeAudio. Send a complete audio file in a single request and get the full transcript back in the same response. There is no job to start, no status to poll, no connection to manage....",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T20:00:00+00:00"
+    },
+    {
+      "title": "Amazon CloudWatch Observability EKS add-on now supports telemetry filtering",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/",
+      "description": "Today, Amazon CloudWatch announces telemetry filtering for the CloudWatch Observability EKS add-on, so you can stop paying to ingest telemetry you don't use. \nYou can now set cluster-wide include and exclude lists for namespaces, metric names, and po...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T19:52:00+00:00"
+    },
     {
       "title": "Amazon SageMaker JumpStart now offers a model leaderboard to compare models on quality, speed, and cost",
       "link": "https://aws.amazon.com/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/",
@@ -9,9 +198,44 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-11-20T19:27:00+00:00"
     },
     {
+      "title": "Amazon SageMaker JumpStart now offers a model leaderboard to compare models on quality, speed, and cost",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/",
+      "description": "Amazon SageMaker JumpStart now offers a model leaderboard in Amazon SageMaker Studio. You can use it to compare foundation models side by side on throughput, latency, and cost, and then deploy or customize the model that fits your workload. \nComparin...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T19:27:00+00:00"
+    },
+    {
+      "title": "AWS Partner Central Agents now help partners create and manage Partner Central and Marketplace support cases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-agents-support/",
+      "description": "AWS Partner Central Agents now help AWS Partners create and manage AWS Partner Central and AWS Marketplace support cases in one place. The agents are available 24/7 and draw on Partner Central account details and authoritative, partner-specific knowl...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T19:07:00+00:00"
+    },
+    {
+      "title": "Spend limits in the new AWS experience now support SMS alerts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sms/",
+      "description": "Builders using the new AWS experience on the Paid plan can now receive spend limit alerts by text message (SMS), alongside existing email notifications. A spend limit sets the maximum monthly cost for a project. Notifications are sent as a project ap...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T19:03:00+00:00"
+    },
+    {
       "title": "AWS Glue Data Catalog introduces data quality monitoring for catalogs and databases",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/glue-catalog-data-quality-monitoring/",
       "description": "AWS Glue Data Catalog introduces data quality monitoring for catalogs and databases, powered by AWS Glue Data Quality, which profiles and evaluates your tables at catalog scale from a single configuration. You define data quality checks once for a ca...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T19:00:00+00:00"
+    },
+    {
+      "title": "Amazon S3 Vectors raises the filterable metadata limit to 40 KB per vector",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-vectors-raises-filterable-metadata-40kb-per-vector/",
+      "description": "Amazon S3 Vectors now supports up to 40 KB of filterable metadata per vector, up from 2 KB. You can attach and filter on more attributes per vector, such as category, permissions, timestamps, and descriptive tags, so your retrieval-augmented generati...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T19:00:00+00:00"
+    },
+    {
+      "title": "AWS Lambda now supports a batch size of up to 10,000 messages for Amazon SQS FIFO queues",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-10K-batch-size-SQSFIFO/",
+      "description": "AWS Lambda now supports a batch size of up to 10,000 messages for Amazon Simple Queue Service (Amazon SQS) FIFO queue event source mappings (ESMs) in provisioned mode, up from 10 messages previously. With larger batches, you can process high-volume, ...",
       "provider": "AWS",
       "timestamp": "2026-11-20T19:00:00+00:00"
     },
@@ -44,6 +268,13 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-11-20T17:00:00+00:00"
     },
     {
+      "title": "Amazon ECS Action Logs now cover tasks, container instances, and capacity providers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-action-logs-expanded-troubleshooting",
+      "description": "Amazon Elastic Container Service (Amazon ECS) now extends Action Logs to include tasks, container instances, clusters, and capacity providers, so you can see why your tasks failed or why your clusters didn't scale as desired. Action Logs provide deta...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T16:50:00+00:00"
+    },
+    {
       "title": "AWS Transform announces UI component modernization for Windows web applications",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-ui-windows/",
       "description": "Today, AWS announced the general availability of third-party UI component porting for ASP.NET web site modernization in AWS Transform. When AWS Transform modernizes a legacy ASP.NET web site, it now detects dependencies on popular third-party UI comp...",
@@ -72,6 +303,41 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-11-20T16:00:00+00:00"
     },
     {
+      "title": "AWS Lambda MicroVMs is now available in 7 additional AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-7-regions",
+      "description": "AWS Lambda MicroVMs is now available in 7 additional AWS Regions: Asia Pacific (Osaka), Asia Pacific (Seoul), Canada (Central), Europe (London), Europe (Paris), South America (São Paulo), and US West (N. California). With this launch, you can use Lam...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T16:00:00+00:00"
+    },
+    {
+      "title": "Amazon Managed Service for Prometheus now available in the AWS European Sovereign Cloud (Germany) region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amp-aws-european-sovereign-cloud/",
+      "description": "Amazon Managed Service for Prometheus is now available in the AWS European Sovereign Cloud (Germany) region, along with Amazon Managed Service for Prometheus collector.&nbsp;Amazon Managed Service for Prometheus is a fully managed, Prometheus-compati...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T16:00:00+00:00"
+    },
+    {
+      "title": "AWS Lambda adds support for Node.js 26",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-nodejs-26/",
+      "description": "AWS Lambda now supports creating serverless applications using Node.js 26, for both Lambda Web Functions and Lambda Event Functions. Developers can use Node.js 26 as both a managed runtime and a base container image (Event Functions only). AWS will a...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T15:00:00+00:00"
+    },
+    {
+      "title": "Amazon S3 increases the read request rate for general purpose buckets by up to 2x",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-s3-increases-read-request-rate/",
+      "description": "Amazon S3 now supports at least 11,000 GET/HEAD requests per second, up from 5,500, for general purpose buckets. \nWith this higher request rate, you can retrieve data faster for read-intensive workloads such as machine learning training, data analyti...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T15:00:00+00:00"
+    },
+    {
+      "title": "AWS Lambda adds support for Python 3.15",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-python-315/",
+      "description": "AWS Lambda now supports creating serverless applications using Python 3.15. Python 3.15 is generally available for Lambda Event Functions and is available in public preview for Lambda Web Functions. This is the first Python runtime for Web Functions,...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T14:59:00+00:00"
+    },
+    {
       "title": "Interactive Databricks Reference Architectures Across 70 Industries",
       "link": "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries",
       "description": "Why we built itMost Databricks architecture talks used to start with the same slide: ingestion on the left...",
@@ -86,9 +352,156 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-11-20T10:00:00+00:00"
     },
     {
+      "title": "AgentCore runtime instances now support Amazon EC2 G7 instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-ec2-g7/",
+      "description": "Amazon Bedrock AgentCore runtime instances now support Amazon EC2 G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs. Runtime instances run your agents on Amazon EC2 instances while AgentCore handles provisioning, patching, sc...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T10:00:00+00:00"
+    },
+    {
+      "title": "​​​Amazon RDS for Db2 now supports renaming databases​",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-db2-supports-rename-databases",
+      "description": "​​Amazon Relational Database Service (Amazon RDS) for Db2 now supports renaming databases in place. You can rename a database on your DB instance by calling the new rdsadmin.rename_database stored procedure. Previously, renaming a database required y...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:53:00+00:00"
+    },
+    {
+      "title": "Amazon RDS for Db2 now supports object-level audit policies",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-db2-supports-object-level-audit-policies",
+      "description": "Amazon RDS for Db2 now supports object-level audit policies, giving you fine-grained control over which database objects are audited. You can create custom audit policies and attach them to specific tables, users, groups, roles, and authorities in yo...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:34:00+00:00"
+    },
+    {
+      "title": "Amazon RDS Custom now supports the latest Cumulative Update and GDR updates for Microsoft SQL Server",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-custom-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+      "description": "Amazon Relational Database Service (Amazon RDS) Custom for SQL Server now supports the latest Cumulative Updates (CU) and General Distribution Release (GDR) updates for Microsoft SQL Server. This release includes support for SQL Server 2019 CU32 + GD...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:30:00+00:00"
+    },
+    {
+      "title": "Amazon Route 53 now supports Availability Zone (AZ) affinity routing",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-affinity-routing/",
+      "description": "Amazon Route 53 now supports Availability Zone (AZ) affinity routing, which routes DNS queries from your VPCs to resources in the same AZ as the client that sends the query. This helps you keep traffic within the same AZ as the client, reducing laten...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:21:00+00:00"
+    },
+    {
       "title": "Announcing the general availability of a new AWS Local Zone in Bogotá, Colombia",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-local-zone-bogota-colombia/",
       "description": "Today, AWS announces the general availability of a new Local Zone in Bogotá, Colombia, bringing AWS infrastructure closer to end users for applications that require single-digit millisecond latency. You can use the Bogotá Local Zone for workloads suc...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Transcribe now available in AWS European Sovereign Cloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-germany/",
+      "description": "Amazon Transcribe is now available in the AWS European Sovereign Cloud (Germany) Region. Customers who need to keep data and operations within the EU for regulatory compliance and data sovereignty requirements can now use automatic speech recognition...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Osaka)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-outposts-racks-osaka/",
+      "description": "Second-generation AWS Outposts racks are now supported in the AWS Asia Pacific (Osaka) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Continuum for Penetration Testing now estimates task hours before you run a test",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/continuum-pentest-cost-estimates/",
+      "description": "AWS Continuum for Penetration Testing (formerly AWS Security Agent) now lets you estimate task hours before running a penetration test, so developers and security teams can see how many billable task hours a test is likely to need and choose a maximu...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Agent Registry now supports WebBotAuth bot registration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-webbotauth-support/",
+      "description": "AWS Agent Registry now supports registering WebBotAuth (WBA) bots as a new record type, making it easier to verify legitimate bot traffic through a standardized protocol. Previously, organizations lacked a standardized way to distinguish verified bot...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Backup now supports incremental backups for Amazon DynamoDB",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-incremental-backups-dynamodb/",
+      "description": "AWS Backup now supports incremental backups of Amazon DynamoDB tables, enabling you to reduce backup storage while maintaining backup schedules as frequent as one hour. \nUntil now, AWS Backup created a full copy of your DynamoDB tables. With this lau...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Announcing a new skill for AI agents in Amazon Textract Core",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-textract-core-skill-ai-agents/",
+      "description": "Amazon Textract Core now lets AI agents extract text, tables, forms, and other data from documents through a skill, with no server to run or infrastructure to deploy. The skill guides an agent to the right Amazon Textract Core API for each document a...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Route 53 private hosted zones now support public DNS fallback",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-public-dns-fallback/",
+      "description": "Amazon Route 53 private hosted zones now support public DNS fallback. When a query for a name in your private hosted zone's domain doesn't match a record in the zone, Route 53 returns the answer from public DNS instead of a \"name not found\" (NXDOMAIN...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS DevOps Agent adds community and partner tools repository",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-tools-repository/",
+      "description": "AWS DevOps Agent now gives you ways to share and leverage skills, MCP servers, connectors, and custom agents that enhance the capabilities of your AWS DevOps Agent instances.\nThe AWS DevOps Agent Tools open source repository is a centralized, AWS-cur...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS DevOps Agent adds new chat capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-new-chat-capabilities/",
+      "description": "AWS DevOps Agent now extends its chat capabilities across MCP clients like Kiro and Claude Code, as well as Slack and Microsoft Teams channels. With Model Context Protocol (MCP) support, AWS DevOps Agent can now take directed chat actions including s...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS DevOps Agent reduces investigation latency",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-reduces-latency/",
+      "description": "When an incident is occurring, mean time to recover needs to be as fast as possible.\nWith this launch, incident investigations performed by AWS DevOps Agent complete faster. Investigations now also include a real-time summary that is updated with the...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Textract Insights is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-insights-ga/",
+      "description": "Amazon Textract Insights brings document understanding to Amazon Textract. It is a new generative AI feature of Amazon Textract, and is now generally available in the US East (N. Virginia) and US West (Oregon) AWS Regions. Amazon Textract Insights sp...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Secrets Store CSI Driver Provider now supports AssumeRole for cross-account secret access",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-store-csi-driver-assumerole/",
+      "description": "The AWS Secrets Store CSI Driver Provider now supports AssumeRole (role-chaining), allowing Kubernetes pods to access secrets and parameters across AWS accounts by assuming an IAM role in the account where the secrets are stored. Previously, customer...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Agent Registry now offers naming and public discovery capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-naming-public-discovery/",
+      "description": "AWS Agent Registry now offers public naming capabilities, making it easy to attach verified domain names to your agents and AI tools. Developers and network admins can perform domain verification checks to prove domain ownership, then associate the v...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Route 53 now offers Advanced Hosted Zones",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-offers-advanced-hosted-zones/",
+      "description": "Amazon Route 53 now offers Advanced Hosted Zones, a new hosted zone tier with additional guardrails, visibility, and resilience features. Advanced Hosted Zones include Change Guardrails that prevent accidental record deletions, record-level Change Hi...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Announcing Test Insights for AWS Device Farm",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-test-insights/",
+      "description": "AWS Device Farm, a service for testing mobile and web apps, now provides Test Insights for Appium, Espresso, and XCUITest runs across multiple devices. Test Insights helps you and AI agents understand the health of your tests and resolve failures fas...",
+      "provider": "AWS",
+      "timestamp": "2026-11-20T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon SageMaker adds new capabilities – improved blueprints and catalog experience, simplified data quality monitoring, and support for DuckDB 2.0 and DuckDB extensions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-adds-new-capabilities/",
+      "description": "Improved blueprints: Amazon SageMaker Unified Studio now gives project teams more ownership of their data and resources, within governance policies that administrators set centrally. Additional releases include faster notebook queries through DuckDB ...",
       "provider": "AWS",
       "timestamp": "2026-11-20T08:00:00+00:00"
     },
@@ -147,6 +560,13 @@ const DASHBOARD_DATA = {
       "description": "PostgreSQL 19 is now&nbsp;generally available, and there are some really cool things in...",
       "provider": "Databricks",
       "timestamp": "2026-11-19T22:04:02+00:00"
+    },
+    {
+      "title": "AWS Partner Central guides now available in the console and through AWS Partner Central Agents",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/partner-central-guides-mcp/",
+      "description": "AWS announces AWS Partner Central guides with access through the &nbsp;AWS Partner Central console&nbsp; and the AWS Partner Central Agents Model Context Protocol (MCP) server. The guides give AWS Partners one place to search, read, and share content...",
+      "provider": "AWS",
+      "timestamp": "2026-11-19T21:51:00+00:00"
     },
     {
       "title": "AWS Marketplace now supports agentic payments with AgentCore",
@@ -238,6 +658,13 @@ const DASHBOARD_DATA = {
       "description": "Enterprise AI cannot replace every deterministic control. These four patterns help...",
       "provider": "Databricks",
       "timestamp": "2026-11-19T19:30:00+00:00"
+    },
+    {
+      "title": "IAM Roles Anywhere now supports aliases to simplify workload configuration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-alias/",
+      "description": "AWS Identity and Access Management (IAM) Roles Anywhere now supports aliases, which are readable names that you assign to trust anchors, profiles, and certificate revocation lists (CRLs). Your workloads can request temporary credentials using a trust...",
+      "provider": "AWS",
+      "timestamp": "2026-11-19T19:23:00+00:00"
     },
     {
       "title": "Amazon IVS Real-Time Streaming now provides a Linux broadcast SDK",
@@ -30727,6 +31154,22 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "date": "Nov 21, 2026",
+      "source": "TechCrunch AI",
+      "trend": "AI Agents"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "description": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "date": "Nov 21, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
       "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
       "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
       "description": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
@@ -30735,7 +31178,7 @@ const DASHBOARD_DATA = {
       "trend": "Regulatory"
     },
     {
-      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
       "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "description": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
       "date": "Nov 20, 2026",
@@ -30757,39 +31200,15 @@ const DASHBOARD_DATA = {
       "date": "Nov 20, 2026",
       "source": "TechCrunch AI",
       "trend": "Hardware & Chips"
-    },
-    {
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-      "description": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-      "date": "Nov 20, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "description": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-      "date": "Nov 20, 2026",
-      "source": "TechCrunch AI",
-      "trend": "AI Agents"
     }
   ],
   "sentiments": [
-    {
-      "company": "Databricks",
-      "score": 93,
-      "status": "Bullish",
-      "change": "▲ +1",
-      "reason": "Interactive Databricks Reference Architectures Across 70 Ind...",
-      "mentions": 5
-    },
     {
       "company": "NVIDIA",
       "score": 91,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Amazon SageMaker AI now detects rising response times, idle ...",
+      "reason": "AgentCore runtime instances now support Amazon EC2 G7 instan...",
       "mentions": 2
     },
     {
@@ -30797,24 +31216,16 @@ const DASHBOARD_DATA = {
       "score": 88,
       "status": "Bullish",
       "change": "▬ Stable",
-      "reason": "Apple may be developing its own AI agent that runs your Mac",
+      "reason": "AWS DevOps Agent adds new chat capabilities",
       "mentions": 1
-    },
-    {
-      "company": "OpenAI",
-      "score": 88,
-      "status": "Bullish",
-      "change": "▲ +2",
-      "reason": "Combatting adversarial distillation",
-      "mentions": 8
     },
     {
       "company": "Microsoft",
       "score": 87,
       "status": "Bullish",
       "change": "▼ -1",
-      "reason": "AWS DevOps Agent now supports Slack code channels and Micros...",
-      "mentions": 5
+      "reason": "AWS Quick launches a new web experience with updated browser...",
+      "mentions": 9
     },
     {
       "company": "Groq",
@@ -30823,6 +31234,22 @@ const DASHBOARD_DATA = {
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
       "mentions": 0
+    },
+    {
+      "company": "Databricks",
+      "score": 84,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "OpenAI",
+      "score": 82,
+      "status": "Mixed",
+      "change": "▲ +1",
+      "reason": "Retirement: Support for Azure Functions OpenAI Extension end...",
+      "mentions": 1
     },
     {
       "company": "Snowflake",
@@ -30837,345 +31264,345 @@ const DASHBOARD_DATA = {
       "score": 80,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "November 20, 2026",
-      "mentions": 1
-    },
-    {
-      "company": "Meta",
-      "score": 79,
-      "status": "Mixed",
-      "change": "▲ +1",
-      "reason": "Amazon Cognito now supports client ID metadata documents",
-      "mentions": 2
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
     },
     {
       "company": "Apple",
       "score": 76,
       "status": "Mixed",
-      "change": "▼ -1",
-      "reason": "Apple may be developing its own AI agent that runs your Mac",
+      "change": "▬ Stable",
+      "reason": "Consistent solid market indexing",
+      "mentions": 0
+    },
+    {
+      "company": "Meta",
+      "score": 73,
+      "status": "Mixed",
+      "change": "▬ Stable",
+      "reason": "Amazon S3 Vectors raises the filterable metadata limit to 40...",
       "mentions": 1
     }
   ],
   "valuations": {
     "NVDA": {
       "name": "NVIDIA Corporation",
-      "price": 127.66,
-      "forwardPE": 7.69,
-      "trailingPE": 13.71,
-      "marketCap": 3082606084096,
+      "price": 125.53,
+      "forwardPE": 7.56,
+      "trailingPE": 13.48,
+      "marketCap": 3031172907008,
       "psRatio": null,
-      "dayChange": -12.55,
-      "rangePosition": 0.012,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -14.01,
+      "rangePosition": 0.009,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
-      "price": 266.53,
-      "forwardPE": 17.42,
-      "trailingPE": 13.92,
-      "marketCap": 3276719783936,
+      "price": 265.29,
+      "forwardPE": 17.34,
+      "trailingPE": 13.85,
+      "marketCap": 3261475323904,
       "psRatio": null,
-      "dayChange": -2.25,
-      "rangePosition": 0.006,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.7,
+      "rangePosition": 0.007,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
-      "price": 483.98,
-      "forwardPE": 20.0,
-      "trailingPE": 25.26,
-      "marketCap": 3594129768448,
+      "price": 484.52,
+      "forwardPE": 20.02,
+      "trailingPE": 25.29,
+      "marketCap": 3598139523072,
       "psRatio": null,
-      "dayChange": -2.87,
-      "rangePosition": 0.642,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.77,
+      "rangePosition": 0.645,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
-      "price": 246.71,
-      "forwardPE": 22.58,
-      "trailingPE": 19.94,
-      "marketCap": 2667709202432,
+      "price": 246.82,
+      "forwardPE": 22.59,
+      "trailingPE": 19.95,
+      "marketCap": 2668898811904,
       "psRatio": null,
-      "dayChange": -4.14,
-      "rangePosition": 0.556,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -4.1,
+      "rangePosition": 0.557,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
-      "price": 255.64,
-      "forwardPE": 83.15,
+      "price": 254.82,
+      "forwardPE": 82.88,
       "trailingPE": null,
-      "marketCap": 90189791232,
+      "marketCap": 89900498944,
       "psRatio": null,
-      "dayChange": -4.82,
-      "rangePosition": 0.516,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.13,
+      "rangePosition": 0.513,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
-      "price": 321.31,
-      "forwardPE": 13.74,
-      "trailingPE": 20.82,
-      "marketCap": 1666491613184,
+      "price": 318.71,
+      "forwardPE": 13.63,
+      "trailingPE": 20.66,
+      "marketCap": 1652980711424,
       "psRatio": null,
-      "dayChange": -8.74,
-      "rangePosition": 0.247,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -9.48,
+      "rangePosition": 0.213,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
-      "price": 303.08,
-      "forwardPE": 15.63,
-      "trailingPE": 38.71,
-      "marketCap": 1446791741440,
+      "price": 304.41,
+      "forwardPE": 15.68,
+      "trailingPE": 38.88,
+      "marketCap": 1453140738048,
       "psRatio": null,
-      "dayChange": -12.57,
-      "rangePosition": 0.065,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -12.19,
+      "rangePosition": 0.071,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
-      "price": 1265.06,
-      "forwardPE": 19.95,
-      "trailingPE": 31.13,
-      "marketCap": 487576567808,
+      "price": 1266.22,
+      "forwardPE": 19.97,
+      "trailingPE": 31.16,
+      "marketCap": 488023621632,
       "psRatio": null,
-      "dayChange": -6.72,
-      "rangePosition": 0.303,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -6.63,
+      "rangePosition": 0.285,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
-      "price": 166.41,
-      "forwardPE": 16.85,
-      "trailingPE": 31.11,
-      "marketCap": 64079826944,
+      "price": 166.24,
+      "forwardPE": 16.84,
+      "trailingPE": 31.07,
+      "marketCap": 64012443648,
       "psRatio": null,
-      "dayChange": -10.04,
-      "rangePosition": 0.08,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -10.14,
+      "rangePosition": 0.079,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
-      "price": 167.06,
-      "forwardPE": 27.67,
-      "trailingPE": 44.79,
-      "marketCap": 211063996416,
+      "price": 167.62,
+      "forwardPE": 27.77,
+      "trailingPE": 44.94,
+      "marketCap": 211771506688,
       "psRatio": null,
-      "dayChange": -11.88,
-      "rangePosition": 0.511,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -11.59,
+      "rangePosition": 0.512,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
-      "price": 51.82,
-      "forwardPE": 28.94,
+      "price": 51.28,
+      "forwardPE": 28.64,
       "trailingPE": null,
-      "marketCap": 275423297536,
+      "marketCap": 272553181184,
       "psRatio": null,
-      "dayChange": -7.0,
-      "rangePosition": 0.173,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -7.97,
+      "rangePosition": 0.154,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
-      "price": 279.09,
-      "forwardPE": 9.11,
-      "trailingPE": 16.23,
-      "marketCap": 177448976384,
+      "price": 278.02,
+      "forwardPE": 9.1,
+      "trailingPE": 16.16,
+      "marketCap": 176768647168,
       "psRatio": null,
-      "dayChange": -10.7,
-      "rangePosition": 0.348,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -11.04,
+      "rangePosition": 0.346,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
-      "price": 41.16,
-      "forwardPE": 8.69,
-      "trailingPE": 21.22,
-      "marketCap": 54638452736,
+      "price": 40.91,
+      "forwardPE": 8.64,
+      "trailingPE": 21.09,
+      "marketCap": 54306586624,
       "psRatio": null,
-      "dayChange": -9.52,
-      "rangePosition": 0.397,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -10.07,
+      "rangePosition": 0.392,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
-      "price": 564.76,
-      "forwardPE": 15.83,
-      "trailingPE": 19.27,
-      "marketCap": 1443662790656,
+      "price": 560.84,
+      "forwardPE": 15.72,
+      "trailingPE": 19.13,
+      "marketCap": 1433642336256,
       "psRatio": null,
-      "dayChange": -5.28,
-      "rangePosition": 0.171,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.93,
+      "rangePosition": 0.156,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "IBM": {
       "name": "International Business Machines",
-      "price": 224.5,
-      "forwardPE": 16.96,
-      "trailingPE": 19.16,
-      "marketCap": 212179632128,
+      "price": 224.44,
+      "forwardPE": 16.95,
+      "trailingPE": 19.15,
+      "marketCap": 212122927104,
       "psRatio": null,
-      "dayChange": 0.28,
-      "rangePosition": 0.19,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 0.25,
+      "rangePosition": 0.189,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "DAVA": {
       "name": "Endava plc",
-      "price": 1.12,
-      "forwardPE": 1.3,
+      "price": 1.14,
+      "forwardPE": 1.33,
       "trailingPE": null,
-      "marketCap": 59183844,
+      "marketCap": 60240696,
       "psRatio": null,
-      "dayChange": -5.08,
-      "rangePosition": 0.003,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -3.39,
+      "rangePosition": 0.007,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
-      "price": 343.24,
-      "forwardPE": 32.46,
-      "trailingPE": 38.22,
-      "marketCap": 4988026224640,
+      "price": 342.56,
+      "forwardPE": 32.4,
+      "trailingPE": 38.15,
+      "marketCap": 4978144444416,
       "psRatio": null,
-      "dayChange": -1.71,
-      "rangePosition": 0.85,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -1.9,
+      "rangePosition": 0.844,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
-      "price": 144.04,
-      "forwardPE": 56.74,
-      "trailingPE": 101.44,
-      "marketCap": 347064008704,
+      "price": 143.49,
+      "forwardPE": 56.52,
+      "trailingPE": 101.05,
+      "marketCap": 345738838016,
       "psRatio": null,
-      "dayChange": -6.27,
-      "rangePosition": 0.353,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -6.63,
+      "rangePosition": 0.348,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
-      "price": 344.5,
-      "forwardPE": 70.11,
-      "trailingPE": 604.39,
-      "marketCap": 282834501632,
+      "price": 343.32,
+      "forwardPE": 69.87,
+      "trailingPE": 602.32,
+      "marketCap": 281865715712,
       "psRatio": null,
-      "dayChange": -4.76,
-      "rangePosition": 0.7,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.09,
+      "rangePosition": 0.696,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
-      "price": 181.21,
-      "forwardPE": 11.32,
-      "trailingPE": 16.58,
-      "marketCap": 149135835136,
+      "price": 180.62,
+      "forwardPE": 11.28,
+      "trailingPE": 16.53,
+      "marketCap": 148650262528,
       "psRatio": null,
-      "dayChange": -1.15,
-      "rangePosition": 0.284,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -1.47,
+      "rangePosition": 0.279,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
-      "price": 101.61,
-      "forwardPE": 9.19,
-      "trailingPE": 15.93,
-      "marketCap": 316774744064,
+      "price": 101.19,
+      "forwardPE": 9.15,
+      "trailingPE": 15.86,
+      "marketCap": 315480899584,
       "psRatio": null,
-      "dayChange": -8.11,
-      "rangePosition": 0.004,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -8.48,
+      "rangePosition": 0.006,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
-      "price": 427.66,
-      "forwardPE": 24.25,
-      "trailingPE": 91.38,
-      "marketCap": 707810689024,
+      "price": 424.39,
+      "forwardPE": 24.06,
+      "trailingPE": 90.68,
+      "marketCap": 702393286656,
       "psRatio": null,
-      "dayChange": -12.58,
-      "rangePosition": 0.509,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -13.25,
+      "rangePosition": 0.502,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
-      "price": 157.56,
+      "price": 157.65,
       "forwardPE": 14.11,
-      "trailingPE": 22.22,
-      "marketCap": 30948761600,
+      "trailingPE": 22.24,
+      "marketCap": 30965454848,
       "psRatio": null,
-      "dayChange": -7.41,
-      "rangePosition": 0.434,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -7.36,
+      "rangePosition": 0.435,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
-      "price": 218.61,
-      "forwardPE": 7.98,
-      "trailingPE": 12.21,
-      "marketCap": 85083013120,
+      "price": 217.71,
+      "forwardPE": 7.94,
+      "trailingPE": 12.16,
+      "marketCap": 84732731392,
       "psRatio": null,
-      "dayChange": -1.38,
-      "rangePosition": 0.165,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -1.79,
+      "rangePosition": 0.16,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
-      "price": 596.41,
-      "forwardPE": 2.87,
-      "trailingPE": 8.02,
-      "marketCap": 674792210432,
+      "price": 594.51,
+      "forwardPE": 2.85,
+      "trailingPE": 8.0,
+      "marketCap": 672642433024,
       "psRatio": null,
-      "dayChange": -13.62,
-      "rangePosition": 0.38,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -13.89,
+      "rangePosition": 0.367,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
-      "price": 28.02,
-      "forwardPE": 8.9,
-      "trailingPE": 10.69,
-      "marketCap": 25263673344,
+      "price": 27.96,
+      "forwardPE": 8.88,
+      "trailingPE": 10.67,
+      "marketCap": 25214074880,
       "psRatio": null,
-      "dayChange": 0.7,
-      "rangePosition": 0.56,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 0.5,
+      "rangePosition": 0.557,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
-      "price": 276.01,
-      "forwardPE": 148.13,
+      "price": 274.96,
+      "forwardPE": 147.57,
       "trailingPE": null,
-      "marketCap": 98919849984,
+      "marketCap": 98543534080,
       "psRatio": null,
-      "dayChange": -9.11,
-      "rangePosition": 0.554,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -9.46,
+      "rangePosition": 0.549,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
-      "price": 81.57,
-      "forwardPE": 8.92,
-      "trailingPE": 12.12,
-      "marketCap": 202925359104,
+      "price": 81.08,
+      "forwardPE": 8.87,
+      "trailingPE": 12.05,
+      "marketCap": 201706373120,
       "psRatio": null,
-      "dayChange": -2.09,
-      "rangePosition": 0.005,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.68,
+      "rangePosition": 0.001,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
-      "price": 104.03,
-      "forwardPE": 2.52,
-      "trailingPE": 5.76,
-      "marketCap": 733627088896,
+      "price": 103.57,
+      "forwardPE": 2.5,
+      "trailingPE": 5.73,
+      "marketCap": 730347995136,
       "psRatio": null,
-      "dayChange": -12.72,
-      "rangePosition": 0.007,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -13.11,
+      "rangePosition": 0.011,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -31186,271 +31613,271 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SAP": {
       "name": "SAP  SE",
-      "price": 198.99,
-      "forwardPE": 20.88,
-      "trailingPE": 24.78,
-      "marketCap": 229675122688,
+      "price": 198.93,
+      "forwardPE": 20.87,
+      "trailingPE": 24.77,
+      "marketCap": 229605851136,
       "psRatio": null,
-      "dayChange": -2.09,
-      "rangePosition": 0.487,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.12,
+      "rangePosition": 0.486,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
-      "price": 62.11,
-      "forwardPE": 10.48,
-      "trailingPE": 19.05,
-      "marketCap": 21142102016,
+      "price": 61.9,
+      "forwardPE": 10.44,
+      "trailingPE": 18.99,
+      "marketCap": 21067134976,
       "psRatio": null,
-      "dayChange": -6.43,
+      "dayChange": -6.75,
       "rangePosition": 0.002,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
-      "price": 46.92,
-      "forwardPE": -36.83,
+      "price": 46.72,
+      "forwardPE": -36.68,
       "trailingPE": null,
-      "marketCap": 33581268992,
+      "marketCap": 33438128128,
       "psRatio": null,
-      "dayChange": 1.23,
-      "rangePosition": 0.197,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 0.8,
+      "rangePosition": 0.194,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
-      "price": 152.93,
-      "forwardPE": 20.05,
-      "trailingPE": 63.46,
-      "marketCap": 66673856512,
+      "price": 152.6,
+      "forwardPE": 20.01,
+      "trailingPE": 63.32,
+      "marketCap": 66529988608,
       "psRatio": null,
-      "dayChange": -2.67,
-      "rangePosition": 0.101,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.88,
+      "rangePosition": 0.097,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
-      "price": 44.96,
-      "forwardPE": 16.99,
+      "price": 44.75,
+      "forwardPE": 16.91,
       "trailingPE": null,
-      "marketCap": 19954538496,
+      "marketCap": 19861334016,
       "psRatio": null,
-      "dayChange": -3.73,
-      "rangePosition": 0.752,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -4.18,
+      "rangePosition": 0.746,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
-      "price": 311.57,
-      "forwardPE": 18.89,
-      "trailingPE": 31.13,
-      "marketCap": 121046892544,
+      "price": 311.33,
+      "forwardPE": 18.88,
+      "trailingPE": 31.1,
+      "marketCap": 120951701504,
       "psRatio": null,
-      "dayChange": -5.75,
-      "rangePosition": 0.02,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.82,
+      "rangePosition": 0.018,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
-      "price": 58.17,
-      "forwardPE": 9.27,
-      "trailingPE": 10.61,
-      "marketCap": 26003759104,
+      "price": 58.06,
+      "forwardPE": 9.25,
+      "trailingPE": 10.59,
+      "marketCap": 25954586624,
       "psRatio": null,
-      "dayChange": 3.3,
-      "rangePosition": 0.422,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 3.11,
+      "rangePosition": 0.42,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "CDNS": {
       "name": "Cadence Design Systems, Inc.",
-      "price": 280.74,
-      "forwardPE": 28.52,
-      "trailingPE": 55.81,
-      "marketCap": 77029163008,
+      "price": 281.58,
+      "forwardPE": 28.6,
+      "trailingPE": 55.98,
+      "marketCap": 77259636736,
       "psRatio": null,
-      "dayChange": -7.92,
-      "rangePosition": 0.117,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -7.64,
+      "rangePosition": 0.122,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SNPS": {
       "name": "Synopsys, Inc.",
-      "price": 397.07,
-      "forwardPE": 21.24,
-      "trailingPE": 70.15,
-      "marketCap": 76093161472,
+      "price": 396.17,
+      "forwardPE": 21.2,
+      "trailingPE": 69.99,
+      "marketCap": 75920687104,
       "psRatio": null,
-      "dayChange": -7.85,
-      "rangePosition": 0.195,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -8.06,
+      "rangePosition": 0.19,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "RNG": {
       "name": "Ringcentral, Inc.",
-      "price": 66.65,
-      "forwardPE": 12.05,
-      "trailingPE": 8.77,
-      "marketCap": 5619721728,
+      "price": 66.61,
+      "forwardPE": 12.04,
+      "trailingPE": 8.76,
+      "marketCap": 5616349184,
       "psRatio": null,
-      "dayChange": -0.91,
+      "dayChange": -0.97,
       "rangePosition": 0.574,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "WDC": {
       "name": "Western Digital Corporation",
-      "price": 261.61,
-      "forwardPE": 6.47,
-      "trailingPE": 9.2,
-      "marketCap": 97926701056,
+      "price": 261.11,
+      "forwardPE": 6.46,
+      "trailingPE": 9.18,
+      "marketCap": 97739538432,
       "psRatio": null,
-      "dayChange": -11.85,
-      "rangePosition": 0.194,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -12.02,
+      "rangePosition": 0.18,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "TEAM": {
       "name": "Atlassian Corporation",
-      "price": 135.32,
-      "forwardPE": 20.21,
-      "trailingPE": 410.08,
-      "marketCap": 34082002944,
+      "price": 134.65,
+      "forwardPE": 20.11,
+      "trailingPE": 408.03,
+      "marketCap": 33912002560,
       "psRatio": null,
-      "dayChange": 1.74,
-      "rangePosition": 0.456,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 1.23,
+      "rangePosition": 0.452,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ACN": {
       "name": "Accenture plc",
-      "price": 221.39,
-      "forwardPE": 13.91,
-      "trailingPE": 15.69,
-      "marketCap": 130783371264,
+      "price": 221.17,
+      "forwardPE": 13.9,
+      "trailingPE": 16.31,
+      "marketCap": 130653405184,
       "psRatio": null,
-      "dayChange": 1.29,
-      "rangePosition": 0.597,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 1.18,
+      "rangePosition": 0.596,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "UBER": {
       "name": "Uber Technologies, Inc.",
-      "price": 63.8,
-      "forwardPE": 14.48,
-      "trailingPE": 37.53,
-      "marketCap": 130283307008,
+      "price": 63.47,
+      "forwardPE": 14.4,
+      "trailingPE": 37.34,
+      "marketCap": 129599275008,
       "psRatio": null,
-      "dayChange": -2.74,
-      "rangePosition": 0.002,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -3.25,
+      "rangePosition": 0.006,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "HUBS": {
       "name": "HubSpot, Inc.",
-      "price": 194.33,
-      "forwardPE": 11.58,
-      "trailingPE": 46.94,
-      "marketCap": 9490388992,
+      "price": 193.88,
+      "forwardPE": 11.55,
+      "trailingPE": 46.83,
+      "marketCap": 9468412928,
       "psRatio": null,
-      "dayChange": 1.22,
-      "rangePosition": 0.104,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 0.98,
+      "rangePosition": 0.102,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SHOP": {
       "name": "Shopify Inc.",
-      "price": 124.03,
-      "forwardPE": 50.42,
-      "trailingPE": 76.09,
-      "marketCap": 159567314944,
+      "price": 123.72,
+      "forwardPE": 50.29,
+      "trailingPE": 75.9,
+      "marketCap": 159168495616,
       "psRatio": null,
-      "dayChange": -6.02,
-      "rangePosition": 0.346,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -6.25,
+      "rangePosition": 0.342,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "PINS": {
       "name": "Pinterest, Inc.",
-      "price": 16.45,
-      "forwardPE": 7.25,
-      "trailingPE": 68.52,
-      "marketCap": 9431335936,
+      "price": 16.33,
+      "forwardPE": 7.2,
+      "trailingPE": 68.04,
+      "marketCap": 9365383168,
       "psRatio": null,
-      "dayChange": -2.63,
-      "rangePosition": 0.184,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -3.32,
+      "rangePosition": 0.176,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ZD": {
       "name": "Ziff Davis, Inc.",
-      "price": 49.07,
-      "forwardPE": 8.34,
+      "price": 49.35,
+      "forwardPE": 8.39,
       "trailingPE": null,
-      "marketCap": 1624328832,
+      "marketCap": 1633597440,
       "psRatio": null,
-      "dayChange": -1.23,
-      "rangePosition": 0.7,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -0.66,
+      "rangePosition": 0.707,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "AKAM": {
       "name": "Akamai Technologies, Inc.",
-      "price": 85.63,
-      "forwardPE": 12.39,
-      "trailingPE": 33.32,
-      "marketCap": 12350343168,
+      "price": 85.11,
+      "forwardPE": 12.31,
+      "trailingPE": 33.12,
+      "marketCap": 12275344384,
       "psRatio": null,
-      "dayChange": -6.63,
-      "rangePosition": 0.094,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -7.2,
+      "rangePosition": 0.088,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "MDB": {
       "name": "MongoDB, Inc.",
-      "price": 285.16,
-      "forwardPE": 35.99,
-      "trailingPE": 396.06,
-      "marketCap": 22935969792,
+      "price": 285.9,
+      "forwardPE": 36.09,
+      "trailingPE": 397.08,
+      "marketCap": 23031058432,
       "psRatio": null,
-      "dayChange": -3.99,
-      "rangePosition": 0.27,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -3.74,
+      "rangePosition": 0.273,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "WDAY": {
       "name": "Workday, Inc.",
-      "price": 175.65,
-      "forwardPE": 13.27,
-      "trailingPE": 35.77,
-      "marketCap": 42331648000,
+      "price": 174.52,
+      "forwardPE": 13.18,
+      "trailingPE": 35.54,
+      "marketCap": 42059321344,
       "psRatio": null,
-      "dayChange": 1.32,
-      "rangePosition": 0.516,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": 0.67,
+      "rangePosition": 0.507,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ASAN": {
       "name": "Asana, Inc.",
-      "price": 8.86,
-      "forwardPE": 19.48,
+      "price": 8.82,
+      "forwardPE": 19.4,
       "trailingPE": null,
-      "marketCap": 2028675072,
+      "marketCap": 2019516288,
       "psRatio": null,
-      "dayChange": -0.78,
-      "rangePosition": 0.352,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -1.23,
+      "rangePosition": 0.347,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "ZS": {
       "name": "Zscaler, Inc.",
-      "price": 194.72,
-      "forwardPE": 34.57,
+      "price": 194.82,
+      "forwardPE": 34.59,
       "trailingPE": null,
-      "marketCap": 31750828032,
+      "marketCap": 31766319104,
       "psRatio": null,
-      "dayChange": -5.34,
-      "rangePosition": 0.452,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.29,
+      "rangePosition": 0.453,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "CRWD": {
       "name": "CrowdStrike Holdings, Inc.",
-      "price": 228.35,
-      "forwardPE": 141.72,
-      "trailingPE": 3805.83,
-      "marketCap": 233815523328,
+      "price": 229.44,
+      "forwardPE": 142.4,
+      "trailingPE": 3824.0,
+      "marketCap": 234931617792,
       "psRatio": null,
-      "dayChange": -6.21,
-      "rangePosition": 0.709,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.76,
+      "rangePosition": 0.714,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "SQ": {
       "name": "SQ",
@@ -31461,62 +31888,62 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.5,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "OPRA": {
       "name": "Opera Limited",
-      "price": 12.83,
-      "forwardPE": 7.76,
-      "trailingPE": 8.61,
-      "marketCap": 1140809984,
+      "price": 12.86,
+      "forwardPE": 8.04,
+      "trailingPE": 8.63,
+      "marketCap": 1143477504,
       "psRatio": null,
-      "dayChange": -5.24,
-      "rangePosition": 0.123,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -5.02,
+      "rangePosition": 0.127,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "PCOR": {
       "name": "Procore Technologies, Inc.",
-      "price": 71.97,
-      "forwardPE": 28.55,
+      "price": 71.76,
+      "forwardPE": 28.46,
       "trailingPE": null,
-      "marketCap": 10767371264,
+      "marketCap": 10735207424,
       "psRatio": null,
-      "dayChange": -1.81,
-      "rangePosition": 0.813,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.1,
+      "rangePosition": 0.808,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "EQIX": {
       "name": "Equinix, Inc.",
-      "price": 969.61,
-      "forwardPE": 46.85,
-      "trailingPE": 58.23,
-      "marketCap": 95980060672,
+      "price": 968.22,
+      "forwardPE": 46.79,
+      "trailingPE": 58.15,
+      "marketCap": 95842467840,
       "psRatio": null,
-      "dayChange": -4.76,
-      "rangePosition": 0.61,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -4.89,
+      "rangePosition": 0.607,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "CSCO": {
       "name": "Cisco Systems, Inc.",
-      "price": 90.81,
-      "forwardPE": 14.99,
-      "trailingPE": 24.15,
-      "marketCap": 358013698048,
+      "price": 90.64,
+      "forwardPE": 14.96,
+      "trailingPE": 24.11,
+      "marketCap": 357343494144,
       "psRatio": null,
-      "dayChange": -4.11,
-      "rangePosition": 0.313,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -4.29,
+      "rangePosition": 0.31,
+      "fetchedAt": "2026-11-21 07:53 PM"
     },
     "AMPL": {
       "name": "Amplitude, Inc.",
-      "price": 16.25,
-      "forwardPE": 96.88,
+      "price": 16.2,
+      "forwardPE": 96.61,
       "trailingPE": null,
-      "marketCap": 2071204352,
+      "marketCap": 2065466880,
       "psRatio": null,
-      "dayChange": -1.78,
-      "rangePosition": 0.805,
-      "fetchedAt": "2026-11-20 08:53 PM"
+      "dayChange": -2.06,
+      "rangePosition": 0.801,
+      "fetchedAt": "2026-11-21 07:53 PM"
     }
   },
   "stocks_universe": [
