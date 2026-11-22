@@ -31148,5 +31148,19 @@
     "description": "Azure Firewall for Containers\nextends Azure Firewall protection to containerized workloads, providing a\ncentralized approach to securing network traffic for container environments.\nCustomers can use Azure Firewall capabilities as part of their contai...",
     "provider": "Azure",
     "timestamp": "2026-11-20T20:05:17+00:00"
+  },
+  {
+    "title": "November 21, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_21_2026",
+    "description": "App Engine flexible environment PHP\nSecurity\nThe following runtime language contains important security updates:\n\nPHP 8.2 and later: 8.2.36, 8.3.37, 8.4.28, 8.5.13\n\nTake immediate action by rebuilding and redeploying your applications to pick up\nthe ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-21T00:00:00-08:00"
+  },
+  {
+    "title": "Perplexity and Intelligence",
+    "link": "https://openai.com/index/perplexity-and-intelligence",
+    "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-22T00:00:00+00:00"
   }
 ]
