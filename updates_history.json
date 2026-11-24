@@ -31484,5 +31484,187 @@
     "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
     "provider": "OpenAI",
     "timestamp": "2026-11-23T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+    "description": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US).  Daybreak Red is designed for advanced, authorized tasks such as vuln...",
+    "provider": "AWS",
+    "timestamp": "2026-11-24T21:27:00+00:00"
+  },
+  {
+    "title": "AWS CloudFormation makes resource coverage comprehensive with 206 new types",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-coverage-expansion/",
+    "description": "AWS CloudFormation now supports 206 additional resource types across 88 services, including Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine, and Amazon EC2 Snapshot. This closes key gaps in CloudFormation coverage and helps customers to s...",
+    "provider": "AWS",
+    "timestamp": "2026-11-24T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for SQL Server now supports up to 500 databases per instance",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-500-databases-per-instance",
+    "description": "Amazon Relational Database Service (Amazon RDS) for SQL Server now supports up to 500 databases per DB instance, up from the previous limit of 100. This higher density helps software as a service (SaaS) providers, multi-tenant applications, and other...",
+    "provider": "AWS",
+    "timestamp": "2026-11-24T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and d...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T23:21:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+    "description": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user manag...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon API Gateway announces API Portal",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-announces-api-portal/",
+    "description": "Today, Amazon API Gateway announces API Portal, a new feature that discovers, governs, and documents the APIs and AI endpoints behind Amazon API Gateway, Application Load Balancer, and Amazon CloudFront across your AWS organization. \nMany organizatio...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T20:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service now supports OpenSearch version 3.9",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-opensearch-3-9",
+    "description": "You can now run OpenSearch version 3.9 on Amazon OpenSearch Service. OpenSearch 3.9 helps you reduce vector memory and storage, evaluate search quality with more large language model (LLM) providers, build more responsive AI agents, and control acces...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T19:30:00+00:00"
+  },
+  {
+    "title": "RDS PostgreSQL now supports PostgreSQL 19.0 in the Amazon RDS Database Preview Environment",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/postgresql-19-amazon-rds-database-preview-environment/",
+    "description": "Starting today, Amazon RDS for PostgreSQL 19.0 is available in the Amazon RDS Database Preview Environment, allowing you to evaluate PostgreSQL 19.0 on Amazon RDS PostgreSQL. \nPostgreSQL 19.0 introduces the REPACK command with a CONCURRENTLY option, ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Device Farm launches Device Connect for local access to remote Android devices",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-device-connect/",
+    "description": "AWS Device Farm, a service for testing mobile and web apps, now offers Device Connect. With Device Connect, you and AI agents can use remote Android devices from your local machine in an IDE, terminal, or development environment of your choice, as if...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker AI now supports viewing capacity reservations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-capacity-reservations/",
+    "description": "Amazon SageMaker AI now lets you view SageMaker Capacity Reservations in the SageMaker console, AWS CLI, and AWS SDKs. Previously, customers had no self-service way to see their reserved capacity, including reservation timelines and instance availabi...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T08:00:00+00:00"
+  },
+  {
+    "title": "AWS DevOps Agent adds Access Profiles and AWS Organizations",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-access-profiles-orgs/",
+    "description": "AWS DevOps Agent now gives you more ways to govern and control your AWS DevOps Agent instances. \nWith the new Access Profiles feature you can link IAM IDC users in your Agent Spaces to specific permission sets. For example, you can use Access Profile...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T08:00:00+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+    "link": "https://azure.microsoft.com/updates?id=582171",
+    "description": "Azure Site Recovery now supports Zone-to-Zone Disaster\nRecovery (Zonal DR) for Azure Ultra disks. Customers can protect\nperformance-intensive virtual machines across Availability Zones against zonal\ndisruptions by replication and recovering them to a...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T17:48:22+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Optimize agents from insights in Foundry Agent Service",
+    "link": "https://azure.microsoft.com/updates?id=581483",
+    "description": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent's instructions and function-calling tool d...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:52:07+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+    "link": "https://azure.microsoft.com/updates?id=581498",
+    "description": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway first, then enter the gateway-rout...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:50:47+00:00"
+  },
+  {
+    "title": "[Launched] Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+    "link": "https://azure.microsoft.com/updates?id=581303",
+    "description": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content based on each user's access. This reduces the need t...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:49:39+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+    "link": "https://azure.microsoft.com/updates?id=581313",
+    "description": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service forwards native A2A requests di...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:48:25+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in Foundry Tools",
+    "link": "https://azure.microsoft.com/updates?id=581318",
+    "description": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save analysis results as Markdown or JSON.You can start...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:45:59+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+    "link": "https://azure.microsoft.com/updates?id=581323",
+    "description": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new requests.You can apply a budge...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:43:40+00:00"
+  },
+  {
+    "title": "[In preview] Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+    "link": "https://azure.microsoft.com/updates?id=581328",
+    "description": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress policy then controls outbound re...",
+    "provider": "Azure",
+    "timestamp": "2026-11-24T16:42:20+00:00"
+  },
+  {
+    "title": "Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation",
+    "link": "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation",
+    "description": "A customer saved a jacket to their wishlist on your site 9 days ago. This morning...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-24T19:36:52+00:00"
+  },
+  {
+    "title": "Sharing catalog metadata across data platforms, engines, and agents",
+    "link": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+    "description": "We’re excited to announce support for catalog labels – a new capability in the Apache...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-24T01:30:00+00:00"
+  },
+  {
+    "title": "What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026",
+    "link": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+    "description": "Executive summaryThis report is the first of a series of blogs analyzing the supply chain threat landscape...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-23T20:47:23+00:00"
+  },
+  {
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-24T13:00:00+00:00"
+  },
+  {
+    "title": "Searching for distant planets with Astra",
+    "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "description": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-24T11:00:00+00:00"
+  },
+  {
+    "title": "How Intentful uses dots to make more time for growth",
+    "link": "https://openai.com/business/customer-stories/intentful-dots",
+    "description": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-24T00:00:00+00:00"
+  },
+  {
+    "title": "How iFood scales coding agents across 15,000 repositories",
+    "link": "https://openai.com/business/customer-stories/ifood",
+    "description": "",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-24T00:00:00+00:00"
   }
 ]
