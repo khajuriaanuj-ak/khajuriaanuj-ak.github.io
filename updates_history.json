@@ -31666,5 +31666,117 @@
     "description": "",
     "provider": "OpenAI",
     "timestamp": "2026-11-24T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances are available in the Israel (Tel Aviv) region. These instances are powered by AWS Graviton4 processors and deliver up to 30% better performance compared to AWS Graviton3-based in...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T17:15:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M9gd instances are now available in Asia Pacific (Seoul)",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9gd instances are available in the Asia Pacific (Seoul) region. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the best p...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T17:10:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C9gd instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9gd-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9gd instances are available in the Europe (Ireland, Spain) regions. These instances are powered by AWS Graviton5 processors, the fifth generation of custom-designed CPUs, which deliver the be...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T16:49:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 C9g instances are now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C9g instances are available in the Asia Pacific (Sydney), Europe (Ireland, Spain), and South America (São Paulo) regions. These instances are powered by AWS Graviton5 processors, the fifth gen...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T16:17:00+00:00"
+  },
+  {
+    "title": "Amazon EC2 M9g instances now available in additional regions",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions/",
+    "description": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g instances, powered by AWS Graviton5 processors, are available in US West (N. California), Canada (Central), South America (São Paulo), and Asia Pacific (Seoul) regions. AWS Graviton5 proce...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T16:06:00+00:00"
+  },
+  {
+    "title": "AWS IoT Core quotas and usage are now visible in AWS Service Quotas console",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-quota-usage-monitoring/",
+    "description": "AWS IoT Core now publishes its most used service quotas and your current usage against the quotas in AWS Service Quotas console, improving observability and monitoring of API limits and quotas. This launch enables you to monitor your service quota us...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T08:00:00+00:00"
+  },
+  {
+    "title": "AWS IAM extends trusted identity propagation to IAM federation and IAM Roles Anywhere, and simplifies it in IAM Identity Center",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
+    "description": "Trusted identity propagation (TIP) carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access control and to identify the originating human user or wor...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T06:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
+    "description": "Starting today, the next generation of Amazon OpenSearch Serverless is available in the AWS Africa (Cape Town) Region. Customers can now use a fully managed search, vector and analytics engine that provisions resources in seconds, auto scales instant...",
+    "provider": "AWS",
+    "timestamp": "2026-11-24T20:22:00+00:00"
+  },
+  {
+    "title": "Amazon Connect Customer dashboards now support grouping historical metrics by time interval",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-time-interval/",
+    "description": "Amazon Connect Customer analytics dashboards now support grouping historical metrics by time interval on trailing widgets, giving contact center managers granular control over how performance data is visualized over time. Trailing widgets now display...",
+    "provider": "AWS",
+    "timestamp": "2026-11-24T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Quick adds identity-aware access via 3LO for Snowflake and Databricks structured data sources",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-snowflake-databricks-3lo-end-user-permissions/",
+    "description": "AWS Quick now supports three-legged OAuth (3LO) with end-user permissions for Snowflake and Databricks.&nbsp;When end users in AWS Quick consume Chat, interactive dashboards, or Apps, queries run using their own Snowflake or Databricks identity. Gove...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now detects and recovers hung training jobs on Slurm clusters",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-slurm-hung-jobs/",
+    "description": "Amazon SageMaker HyperPod now supports hung job detection for Slurm-orchestrated clusters, which finds training jobs that have stopped making progress and returns them to the job queue. SageMaker HyperPod helps you provision resilient clusters for tr...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod extends AMI auto-patching to Slurm and inference on EKS",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-patching-slurm-eks-inference/",
+    "description": "Amazon SageMaker HyperPod now automatically patches AMIs on Slurm clusters and introduces a new AMI patching strategy for Amazon EKS clusters that deploy inference workloads. SageMaker HyperPod is purpose-built infrastructure for training and deployi...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now detects Kubernetes issues affecting training",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-k8s-monitoring-agent/",
+    "description": "Amazon SageMaker HyperPod now detects Kubernetes issues that disrupt training, such as crash-looping device plugins or missing DaemonSets, on clusters orchestrated by Amazon EKS. SageMaker HyperPod is purpose-built infrastructure for AI/ML model deve...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod deep health check now validates training correctness",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-training-validation/",
+    "description": "Amazon SageMaker HyperPod clusters orchestrated by Amazon EKS now support MultiNodeTrainingValidation, a deep health check that validates nodes train correctly before your jobs run. SageMaker HyperPod is purpose-built infrastructure for AI/ML model d...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "AWS Quick brings AI-ready capabilities to your existing datasets",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-ai-ready-existing-datasets/",
+    "description": "Today, AWS Quick makes your legacy datasets AI ready through the new technology stack used by its improved visual data preparation experience. This stack powers Dataset Semantics, topics and semantic models, and Dataset Evaluation. Data curators can ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "Clay helps sales teams win with Codex and ChatGPT",
+    "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+    "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+    "provider": "OpenAI",
+    "timestamp": "2026-11-24T00:00:00+00:00"
   }
 ]
