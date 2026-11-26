@@ -1,6 +1,41 @@
 const DASHBOARD_DATA = {
-  "last_updated": "2026-11-25T22:05:38.372695+00:00",
+  "last_updated": "2026-11-26T22:03:51.786659+00:00",
   "updates": [
+    {
+      "title": "Amazon RDS for PostgreSQL supports minor versions 18.7, 17.12, 16.16, 15.20, and 14.25",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+      "description": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.7, 17.12, 16.16, 15.20, and 14.25. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in ...",
+      "provider": "AWS",
+      "timestamp": "2026-11-26T17:00:00+00:00"
+    },
+    {
+      "title": "Rethinking read replicas for the lakebase architecture",
+      "link": "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture",
+      "description": "The idea behind read replicas makes sense: when your app gets busy, you add a couple...",
+      "provider": "Databricks",
+      "timestamp": "2026-11-26T13:45:08+00:00"
+    },
+    {
+      "title": "November 26, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
+      "description": "Managed Service for Apache Airflow\nFeature\nAgentic upgrade check\nis available in Managed Airflow.\nBefore upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require ...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-11-26T00:00:00-08:00"
+    },
+    {
+      "title": "[In preview] Public Preview: ECMP Nexthop",
+      "link": "https://azure.microsoft.com/updates?id=582326",
+      "description": "Equal-Cost Multi-Path (ECMP)\nrouting for Azure Virtual Network is now available in public preview, enabling\ncustomers to distribute traffic across multiple network appliances using a\nsingle user-defined route (UDR). \nCustomers can configure 2 to 16 n...",
+      "provider": "Azure",
+      "timestamp": "2026-11-25T23:14:20+00:00"
+    },
+    {
+      "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+      "link": "https://azure.microsoft.com/updates?id=568586",
+      "description": "Support for Java 8, 11 and 17 on Azure Functions is ending on September\n1, 2027. Your apps that are hosted on Azure Functions will continue to run, but\nsecurity updates will no longer be available, and we’ll no longer provide\ncustomer service for Jav...",
+      "provider": "Azure",
+      "timestamp": "2026-11-25T21:53:30+00:00"
+    },
     {
       "title": "Amazon EC2 M8g instances are now available in Israel (Tel Aviv)",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/",
@@ -37,9 +72,30 @@ const DASHBOARD_DATA = {
       "timestamp": "2026-11-25T16:06:00+00:00"
     },
     {
+      "title": "Elastic Load Balancing for Envoy is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+      "description": "Today, AWS announces the general availability of ELB for Envoy, a new load balancer type in Elastic Load Balancing (ELB) that runs open-source Envoy proxies. Platform teams that run Envoy themselves own upgrades, security patching, and capacity acros...",
+      "provider": "AWS",
+      "timestamp": "2026-11-25T16:00:00+00:00"
+    },
+    {
       "title": "AWS IoT Core quotas and usage are now visible in AWS Service Quotas console",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iot-core-quota-usage-monitoring/",
       "description": "AWS IoT Core now publishes its most used service quotas and your current usage against the quotas in AWS Service Quotas console, improving observability and monitoring of API limits and quotas. This launch enables you to monitor your service quota us...",
+      "provider": "AWS",
+      "timestamp": "2026-11-25T08:00:00+00:00"
+    },
+    {
+      "title": "Amazon Transcribe Turbo: more accurate transcripts and natural turn-taking for voice agents, now in public preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+      "description": "Amazon Transcribe Turbo, our next-generation speech-to-text model, is now in public preview in US East (Ohio) for batch and streaming. Turbo improves accuracy, supports custom vocabulary, and formats numbers, dates, currency, phone numbers and addres...",
+      "provider": "AWS",
+      "timestamp": "2026-11-25T08:00:00+00:00"
+    },
+    {
+      "title": "AWS Device Farm now supports Android emulators and iOS simulators",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-virtual-devices/",
+      "description": "AWS Device Farm, a service for testing mobile and web apps, now supports Android emulators and iOS simulators alongside real devices for automated and manual testing, enabling faster testing at scale early in your development pipeline. With virtual d...",
       "provider": "AWS",
       "timestamp": "2026-11-25T08:00:00+00:00"
     },
@@ -49,6 +105,13 @@ const DASHBOARD_DATA = {
       "description": "Trusted identity propagation (TIP) carries the identity of a human user or workload with requests to supported AWS Services. Customers can use that identity in IAM policy conditions for access control and to identify the originating human user or wor...",
       "provider": "AWS",
       "timestamp": "2026-11-25T06:00:00+00:00"
+    },
+    {
+      "title": "November 25, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#November_25_2026",
+      "description": "BigQuery\nFeature\nYou can use cross-cloud connections to\nquery data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with\nmore feature availability than standard connections that use BigQuery Omni. This\nfeature is\ngenerally available\n(...",
+      "provider": "Google Cloud",
+      "timestamp": "2026-11-25T00:00:00-08:00"
     },
     {
       "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
@@ -89,6 +152,13 @@ const DASHBOARD_DATA = {
       "title": "Amazon Connect Customer dashboards now support grouping historical metrics by time interval",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-time-interval/",
       "description": "Amazon Connect Customer analytics dashboards now support grouping historical metrics by time interval on trailing widgets, giving contact center managers granular control over how performance data is visualized over time. Trailing widgets now display...",
+      "provider": "AWS",
+      "timestamp": "2026-11-24T17:00:00+00:00"
+    },
+    {
+      "title": "Amazon OpenSearch Service new engine now joins logs, traces, and metadata",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-distributed-joins",
+      "description": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, service metadata, deployment records, and tenant data. Engineers and the...",
       "provider": "AWS",
       "timestamp": "2026-11-24T17:00:00+00:00"
     },
@@ -453,6 +523,13 @@ const DASHBOARD_DATA = {
       "title": "AWS Quick brings AI-ready capabilities to your existing datasets",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-ai-ready-existing-datasets/",
       "description": "Today, AWS Quick makes your legacy datasets AI ready through the new technology stack used by its improved visual data preparation experience. This stack powers Dataset Semantics, topics and semantic models, and Dataset Evaluation. Data curators can ...",
+      "provider": "AWS",
+      "timestamp": "2026-11-23T17:00:00+00:00"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod now supports NCCL profiling for training jobs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-nccl-profiler/",
+      "description": "Amazon SageMaker HyperPod now supports NVIDIA Collective Communications Library (NCCL) profiling with the HyperPod NCCL Profiler, giving you visibility into communication performance across the nodes and GPUs in a distributed training job. SageMaker ...",
       "provider": "AWS",
       "timestamp": "2026-11-23T17:00:00+00:00"
     },
@@ -31784,6 +31861,30 @@ const DASHBOARD_DATA = {
   ],
   "trends": [
     {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "description": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "date": "Nov 26, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Hardware & Chips"
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "description": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "date": "Nov 26, 2026",
+      "source": "TechCrunch AI",
+      "trend": "General AI"
+    },
+    {
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "description": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "date": "Nov 25, 2026",
+      "source": "TechCrunch AI",
+      "trend": "Regulatory"
+    },
+    {
       "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
       "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "description": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
@@ -31806,48 +31907,24 @@ const DASHBOARD_DATA = {
       "date": "Nov 25, 2026",
       "source": "TechCrunch AI",
       "trend": "AI Agents"
-    },
-    {
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "description": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "date": "Nov 25, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Research Breakthrough"
-    },
-    {
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "description": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "date": "Nov 25, 2026",
-      "source": "TechCrunch AI",
-      "trend": "General AI"
-    },
-    {
-      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-      "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "description": "⁠Nvidia has made clear⁠ it won&#8217;t backstop an AI data center until it&#8217;s nearly ready to run, and that&#8217;s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter mor...",
-      "date": "Nov 25, 2026",
-      "source": "TechCrunch AI",
-      "trend": "Hardware & Chips"
     }
   ],
   "sentiments": [
     {
       "company": "Anthropic",
-      "score": 91,
+      "score": 98,
       "status": "Bullish",
-      "change": "▼ -2",
-      "reason": "Anthropic’s Dario Amodei calls accusations of surrendering h...",
-      "mentions": 1
+      "change": "▬ Stable",
+      "reason": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "mentions": 2
     },
     {
       "company": "NVIDIA",
-      "score": 91,
+      "score": 94,
       "status": "Bullish",
-      "change": "▬ Stable",
-      "reason": "Jensen Huang broke Nvidia’s code of conduct, and his employe...",
-      "mentions": 2
+      "change": "▼ -2",
+      "reason": "Amazon SageMaker HyperPod now supports NCCL profiling for tr...",
+      "mentions": 4
     },
     {
       "company": "Groq",
@@ -31862,28 +31939,28 @@ const DASHBOARD_DATA = {
       "score": 84,
       "status": "Mixed",
       "change": "▲ +2",
-      "reason": "AWS Quick adds identity-aware access via 3LO for Snowflake a...",
+      "reason": "Rethinking read replicas for the lakebase architecture",
+      "mentions": 1
+    },
+    {
+      "company": "Google Cloud",
+      "score": 83,
+      "status": "Mixed",
+      "change": "▼ -2",
+      "reason": "November 26, 2026",
+      "mentions": 2
+    },
+    {
+      "company": "Meta",
+      "score": 82,
+      "status": "Mixed",
+      "change": "▼ -1",
+      "reason": "Amazon OpenSearch Service new engine now joins logs, traces,...",
       "mentions": 1
     },
     {
       "company": "Snowflake",
       "score": 81,
-      "status": "Mixed",
-      "change": "▼ -2",
-      "reason": "AWS Quick adds identity-aware access via 3LO for Snowflake a...",
-      "mentions": 1
-    },
-    {
-      "company": "Google Cloud",
-      "score": 80,
-      "status": "Mixed",
-      "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
-    },
-    {
-      "company": "Meta",
-      "score": 79,
       "status": "Mixed",
       "change": "▬ Stable",
       "reason": "Consistent solid market indexing",
@@ -31894,16 +31971,16 @@ const DASHBOARD_DATA = {
       "score": 78,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "Consistent solid market indexing",
-      "mentions": 0
+      "reason": "November 25, 2026",
+      "mentions": 3
     },
     {
       "company": "OpenAI",
       "score": 76,
       "status": "Mixed",
       "change": "▬ Stable",
-      "reason": "Clay helps sales teams win with Codex and ChatGPT",
-      "mentions": 2
+      "reason": "OpenAI says heavy ChatGPT users may hit limits sooner as it ...",
+      "mentions": 1
     },
     {
       "company": "Apple",
@@ -31924,7 +32001,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.91,
       "rangePosition": 0.209,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "GOOGL": {
       "name": "Alphabet Inc.",
@@ -31935,7 +32012,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.13,
       "rangePosition": 0.071,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "MSFT": {
       "name": "Microsoft Corporation",
@@ -31946,7 +32023,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.25,
       "rangePosition": 0.67,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "AMZN": {
       "name": "Amazon.com, Inc.",
@@ -31957,29 +32034,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -3.12,
       "rangePosition": 0.531,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SNOW": {
       "name": "Snowflake Inc.",
       "price": 267.72,
-      "forwardPE": 86.91,
+      "forwardPE": 86.64,
       "trailingPE": null,
       "marketCap": 94451613696,
       "psRatio": null,
       "dayChange": -1.24,
       "rangePosition": 0.561,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "TSM": {
       "name": "Taiwan Semiconductor Manufactur",
       "price": 342.34,
-      "forwardPE": 14.64,
+      "forwardPE": 14.66,
       "trailingPE": 22.19,
       "marketCap": 1775537094656,
       "psRatio": null,
       "dayChange": -1.96,
       "rangePosition": 0.317,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "AVGO": {
       "name": "Broadcom Inc.",
@@ -31990,7 +32067,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.07,
       "rangePosition": 0.105,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ASML": {
       "name": "ASML Holding N.V. - New York Re",
@@ -32001,7 +32078,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.47,
       "rangePosition": 0.296,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "VRT": {
       "name": "Vertiv Holdings, LLC",
@@ -32012,7 +32089,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.26,
       "rangePosition": 0.11,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ANET": {
       "name": "Arista Networks, Inc.",
@@ -32023,7 +32100,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.71,
       "rangePosition": 0.476,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "INTC": {
       "name": "Intel Corporation",
@@ -32034,7 +32111,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.6,
       "rangePosition": 0.182,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "DELL": {
       "name": "Dell Technologies Inc.",
@@ -32045,7 +32122,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.6,
       "rangePosition": 0.385,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "HPE": {
       "name": "Hewlett Packard Enterprise Comp",
@@ -32056,18 +32133,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.57,
       "rangePosition": 0.391,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "META": {
       "name": "Meta Platforms, Inc.",
       "price": 609.89,
-      "forwardPE": 17.1,
-      "trailingPE": 20.81,
+      "forwardPE": 17.15,
+      "trailingPE": 20.12,
       "marketCap": 1559025942528,
       "psRatio": null,
       "dayChange": 3.4,
       "rangePosition": 0.345,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "IBM": {
       "name": "International Business Machines",
@@ -32078,7 +32155,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.33,
       "rangePosition": 0.332,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "DAVA": {
       "name": "Endava plc",
@@ -32089,7 +32166,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 15.0,
       "rangePosition": 0.026,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "AAPL": {
       "name": "Apple Inc.",
@@ -32100,7 +32177,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.43,
       "rangePosition": 0.955,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "PLTR": {
       "name": "Palantir Technologies Inc.",
@@ -32111,7 +32188,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.5,
       "rangePosition": 0.537,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "PANW": {
       "name": "Palo Alto Networks, Inc.",
@@ -32122,7 +32199,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.89,
       "rangePosition": 0.74,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "CRM": {
       "name": "Salesforce, Inc.",
@@ -32133,7 +32210,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.04,
       "rangePosition": 0.414,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ORCL": {
       "name": "Oracle Corporation",
@@ -32144,7 +32221,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -5.13,
       "rangePosition": 0.03,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "AMD": {
       "name": "Advanced Micro Devices, Inc.",
@@ -32155,7 +32232,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.75,
       "rangePosition": 0.463,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "NTAP": {
       "name": "NetApp, Inc.",
@@ -32166,7 +32243,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.23,
       "rangePosition": 0.485,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ADBE": {
       "name": "Adobe Inc.",
@@ -32177,18 +32254,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.32,
       "rangePosition": 0.247,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "MU": {
       "name": "Micron Technology, Inc.",
       "price": 601.25,
       "forwardPE": 2.93,
       "trailingPE": 8.09,
-      "marketCap": 680268201984,
+      "marketCap": 682379247616,
       "psRatio": null,
       "dayChange": -4.57,
       "rangePosition": 0.367,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "HPQ": {
       "name": "HP Inc.",
@@ -32199,7 +32276,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 11.49,
       "rangePosition": 0.728,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "NET": {
       "name": "Cloudflare, Inc.",
@@ -32210,7 +32287,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -1.39,
       "rangePosition": 0.588,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "BABA": {
       "name": "Alibaba Group Holding Limited",
@@ -32221,7 +32298,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 1.65,
       "rangePosition": 0.053,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SKHY": {
       "name": "SK hynix Inc.",
@@ -32232,7 +32309,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.75,
       "rangePosition": 0.094,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SSNLF": {
       "name": "SAMSUNG ELECTRONICS CO",
@@ -32243,7 +32320,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 1.0,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SAP": {
       "name": "SAP  SE",
@@ -32254,18 +32331,18 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.3,
       "rangePosition": 0.581,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "BIDU": {
       "name": "Baidu, Inc.",
       "price": 63.49,
       "forwardPE": 10.71,
       "trailingPE": 19.48,
-      "marketCap": 21592526848,
+      "marketCap": 21591078912,
       "psRatio": null,
       "dayChange": -0.03,
       "rangePosition": 0.032,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "RBLX": {
       "name": "Roblox Corporation",
@@ -32276,7 +32353,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 4.0,
       "rangePosition": 0.329,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "DASH": {
       "name": "DoorDash, Inc.",
@@ -32287,7 +32364,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.92,
       "rangePosition": 0.241,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "U": {
       "name": "Unity Software Inc.",
@@ -32298,7 +32375,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.27,
       "rangePosition": 0.839,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ETN": {
       "name": "Eaton Corporation, PLC",
@@ -32309,7 +32386,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.46,
       "rangePosition": 0.093,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "CTSH": {
       "name": "Cognizant Technology Solutions ",
@@ -32320,7 +32397,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.84,
       "rangePosition": 0.525,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "CDNS": {
       "name": "Cadence Design Systems, Inc.",
@@ -32331,7 +32408,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.58,
       "rangePosition": 0.209,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SNPS": {
       "name": "Synopsys, Inc.",
@@ -32342,7 +32419,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -2.35,
       "rangePosition": 0.24,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "RNG": {
       "name": "Ringcentral, Inc.",
@@ -32353,7 +32430,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.05,
       "rangePosition": 0.635,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "WDC": {
       "name": "Western Digital Corporation",
@@ -32364,7 +32441,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.55,
       "rangePosition": 0.187,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "TEAM": {
       "name": "Atlassian Corporation",
@@ -32375,7 +32452,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.54,
       "rangePosition": 0.508,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ACN": {
       "name": "Accenture plc",
@@ -32386,7 +32463,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.52,
       "rangePosition": 0.707,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "UBER": {
       "name": "Uber Technologies, Inc.",
@@ -32397,7 +32474,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.55,
       "rangePosition": 0.104,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "HUBS": {
       "name": "HubSpot, Inc.",
@@ -32408,7 +32485,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 2.4,
       "rangePosition": 0.171,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SHOP": {
       "name": "Shopify Inc.",
@@ -32419,7 +32496,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.82,
       "rangePosition": 0.453,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "PINS": {
       "name": "Pinterest, Inc.",
@@ -32430,7 +32507,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 6.54,
       "rangePosition": 0.416,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ZD": {
       "name": "Ziff Davis, Inc.",
@@ -32441,7 +32518,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.14,
       "rangePosition": 0.737,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "AKAM": {
       "name": "Akamai Technologies, Inc.",
@@ -32452,29 +32529,29 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.74,
       "rangePosition": 0.128,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "MDB": {
       "name": "MongoDB, Inc.",
       "price": 313.53,
-      "forwardPE": 39.57,
+      "forwardPE": 39.48,
       "trailingPE": 435.46,
       "marketCap": 25217822720,
       "psRatio": null,
       "dayChange": 1.63,
       "rangePosition": 0.38,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "WDAY": {
       "name": "Workday, Inc.",
       "price": 180.44,
       "forwardPE": 13.63,
       "trailingPE": 36.75,
-      "marketCap": 43486040064,
+      "marketCap": 42944720896,
       "psRatio": null,
       "dayChange": 0.68,
       "rangePosition": 0.598,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ASAN": {
       "name": "Asana, Inc.",
@@ -32485,7 +32562,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 3.4,
       "rangePosition": 0.439,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "ZS": {
       "name": "Zscaler, Inc.",
@@ -32495,19 +32572,19 @@ const DASHBOARD_DATA = {
       "marketCap": 37890686976,
       "psRatio": null,
       "dayChange": -0.33,
-      "rangePosition": 0.748,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "rangePosition": 0.758,
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "CRWD": {
       "name": "CrowdStrike Holdings, Inc.",
       "price": 209.3,
-      "forwardPE": 126.67,
+      "forwardPE": 126.54,
       "trailingPE": 1744.17,
       "marketCap": 215703863296,
       "psRatio": null,
       "dayChange": -0.74,
       "rangePosition": 0.614,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "SQ": {
       "name": "SQ",
@@ -32518,7 +32595,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.5,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "OPRA": {
       "name": "Opera Limited",
@@ -32529,7 +32606,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0,
       "rangePosition": 0.206,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "PCOR": {
       "name": "Procore Technologies, Inc.",
@@ -32540,7 +32617,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.8,
       "rangePosition": 0.875,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "EQIX": {
       "name": "Equinix, Inc.",
@@ -32551,7 +32628,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": -0.46,
       "rangePosition": 0.631,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "CSCO": {
       "name": "Cisco Systems, Inc.",
@@ -32562,7 +32639,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.22,
       "rangePosition": 0.372,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     },
     "AMPL": {
       "name": "Amplitude, Inc.",
@@ -32573,7 +32650,7 @@ const DASHBOARD_DATA = {
       "psRatio": null,
       "dayChange": 0.71,
       "rangePosition": 0.869,
-      "fetchedAt": "2026-11-25 10:05 PM"
+      "fetchedAt": "2026-11-26 10:03 PM"
     }
   },
   "stocks_universe": [

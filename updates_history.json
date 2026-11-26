@@ -31778,5 +31778,82 @@
     "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
     "provider": "OpenAI",
     "timestamp": "2026-11-24T00:00:00+00:00"
+  },
+  {
+    "title": "Amazon RDS for PostgreSQL supports minor versions 18.7, 17.12, 16.16, 15.20, and 14.25",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+    "description": "Amazon Relational Database Service (RDS) for PostgreSQL now supports the latest minor versions 18.7, 17.12, 16.16, 15.20, and 14.25. We recommend that you upgrade to the latest minor versions to address Common Vulnerabilities and Exposures (CVEs) in ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-26T17:00:00+00:00"
+  },
+  {
+    "title": "Elastic Load Balancing for Envoy is now generally available",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+    "description": "Today, AWS announces the general availability of ELB for Envoy, a new load balancer type in Elastic Load Balancing (ELB) that runs open-source Envoy proxies. Platform teams that run Envoy themselves own upgrades, security patching, and capacity acros...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T16:00:00+00:00"
+  },
+  {
+    "title": "Amazon Transcribe Turbo: more accurate transcripts and natural turn-taking for voice agents, now in public preview",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+    "description": "Amazon Transcribe Turbo, our next-generation speech-to-text model, is now in public preview in US East (Ohio) for batch and streaming. Turbo improves accuracy, supports custom vocabulary, and formats numbers, dates, currency, phone numbers and addres...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T08:00:00+00:00"
+  },
+  {
+    "title": "AWS Device Farm now supports Android emulators and iOS simulators",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-virtual-devices/",
+    "description": "AWS Device Farm, a service for testing mobile and web apps, now supports Android emulators and iOS simulators alongside real devices for automated and manual testing, enabling faster testing at scale early in your development pipeline. With virtual d...",
+    "provider": "AWS",
+    "timestamp": "2026-11-25T08:00:00+00:00"
+  },
+  {
+    "title": "Amazon OpenSearch Service new engine now joins logs, traces, and metadata",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-distributed-joins",
+    "description": "Amazon OpenSearch Service now supports distributed joins, high-cardinality aggregations, and OpenSearch query DSL on the new engine. Observability data often spans logs, traces, service metadata, deployment records, and tenant data. Engineers and the...",
+    "provider": "AWS",
+    "timestamp": "2026-11-24T17:00:00+00:00"
+  },
+  {
+    "title": "Amazon SageMaker HyperPod now supports NCCL profiling for training jobs",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-hyperpod-nccl-profiler/",
+    "description": "Amazon SageMaker HyperPod now supports NVIDIA Collective Communications Library (NCCL) profiling with the HyperPod NCCL Profiler, giving you visibility into communication performance across the nodes and GPUs in a distributed training job. SageMaker ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-23T17:00:00+00:00"
+  },
+  {
+    "title": "November 26, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_26_2026",
+    "description": "Managed Service for Apache Airflow\nFeature\nAgentic upgrade check\nis available in Managed Airflow.\nBefore upgrading your environment, you can run an upgrade check in the Google\nCloud console to ask Managed Airflow Agent what changes your DAGs require ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-26T00:00:00-08:00"
+  },
+  {
+    "title": "November 25, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_25_2026",
+    "description": "BigQuery\nFeature\nYou can use cross-cloud connections to\nquery data in AWS, Azure, and Salesforce Data 360 from all BigQuery regions with\nmore feature availability than standard connections that use BigQuery Omni. This\nfeature is\ngenerally available\n(...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-25T00:00:00-08:00"
+  },
+  {
+    "title": "[In preview] Public Preview: ECMP Nexthop",
+    "link": "https://azure.microsoft.com/updates?id=582326",
+    "description": "Equal-Cost Multi-Path (ECMP)\nrouting for Azure Virtual Network is now available in public preview, enabling\ncustomers to distribute traffic across multiple network appliances using a\nsingle user-defined route (UDR). \nCustomers can configure 2 to 16 n...",
+    "provider": "Azure",
+    "timestamp": "2026-11-25T23:14:20+00:00"
+  },
+  {
+    "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+    "link": "https://azure.microsoft.com/updates?id=568586",
+    "description": "Support for Java 8, 11 and 17 on Azure Functions is ending on September\n1, 2027. Your apps that are hosted on Azure Functions will continue to run, but\nsecurity updates will no longer be available, and we’ll no longer provide\ncustomer service for Jav...",
+    "provider": "Azure",
+    "timestamp": "2026-11-25T21:53:30+00:00"
+  },
+  {
+    "title": "Rethinking read replicas for the lakebase architecture",
+    "link": "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture",
+    "description": "The idea behind read replicas makes sense: when your app gets busy, you add a couple...",
+    "provider": "Databricks",
+    "timestamp": "2026-11-26T13:45:08+00:00"
   }
 ]
