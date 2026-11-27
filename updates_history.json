@@ -31855,5 +31855,19 @@
     "description": "The idea behind read replicas makes sense: when your app gets busy, you add a couple...",
     "provider": "Databricks",
     "timestamp": "2026-11-26T13:45:08+00:00"
+  },
+  {
+    "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+    "description": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum ...",
+    "provider": "AWS",
+    "timestamp": "2026-11-27T19:00:00+00:00"
+  },
+  {
+    "title": "November 27, 2026",
+    "link": "https://docs.cloud.google.com/release-notes#November_27_2026",
+    "description": "Managed Service for Apache Spark\nFeature\nPrivate Preview: Managed Service for Apache Spark on GKE v2\nRun fully managed Apache Spark workloads natively on your Standard GKE clusters with the next-generation Managed Service for Apache Spark on GKE.\nTo ...",
+    "provider": "Google Cloud",
+    "timestamp": "2026-11-27T00:00:00-08:00"
   }
 ]
